@@ -21,7 +21,7 @@ During a project at the University of Hamburg in the winter semester 14/15 we im
 The system that I plan to implement for this thesis will integrate with this project.
 It would supply the missing first step in the toolchain: automatically generating the transcriptions (for the project we only used human generated transcriptions) with speech recognition. The software solution from our project could then align those results. 
 
-A live example of this idea can be seen at superlectures.com ^[http://www.superlectures.com/sigdial2014/welcome-and-conference-overview-1]. They present transcripts generated via automatic speech recognition, aligned to the video in a searchable text box beneath the video player. The main problem here is the bad recognition accurary of technical terms, which diminishes the value of this solution: scanning the text is actually less effective than 'scanning the video' as the false-positives are confusing.
+A live example of this idea can be seen at superlectures.com ^[http://www.superlectures.com/sigdial2014/welcome-and-conference-overview-1]. They present transcripts generated via automatic speech recognition, aligned to the video in a searchable text box beneath the video player. The main problem here is the bad recognition accuracy of technical terms, which diminishes the value of this solution: scanning the text is actually less effective than 'scanning the video' as the false-positives are confusing.
 
 # Problem space dimensions
 
