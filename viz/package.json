@@ -1,0 +1,38 @@
+{
+  "name": "diff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.1.9",
+    "flummox": "^4.0.0-alpha2",
+    "immutable": "^3.7.2",
+    "json-loader": "^0.5.1",
+    "keymirror": "^0.1.1",
+    "lodash": "^3.9.3",
+    "mori": "^0.3.2",
+    "radium": "^0.11.1",
+    "react": "^0.13.1",
+    "reflux": "^0.2.7"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^1.2.0",
+    "babel-core": "5.1.2",
+    "babel-loader": "5.0.0",
+    "babel-runtime": "5.1.2",
+    "css-loader": "0.10.1",
+    "file-loader": "0.8.1",
+    "less": "2.5.0",
+    "less-loader": "2.2.0",
+    "react-hot-loader": "1.2.4",
+    "style-loader": "0.10.1",
+    "webpack": "1.8.4",
+    "webpack-dev-server": "1.8.0"
+  }
+}
