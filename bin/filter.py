@@ -42,10 +42,10 @@ def calculate_keyword_wers(wer_lines):
     print('{}/{} keywords recognized => {}% WER.'.format(
         overall_recognized, overall_count, 100-(100*overall_recognized/overall_count)))
 
-keywords_file = os.path.join(data_resources_folder, 'keywords.txt')
+# keywords_file = os.path.join(data_resources_folder, 'keywords.txt')
 top5000_file = os.path.join(data_resources_folder, 'top5000.txt')
 
-keywords = set([w.lower() for w in open(keywords_file).read().split()])
+# keywords = set([w.lower() for w in open(keywords_file).read().split()])
 top5000words = open('/home/jwerner/uni/bachelor/bin/top5000.txt').read().split('\n')[:-1]
 top5000words=top5000words[:500]
 
@@ -58,28 +58,28 @@ def keyword_wer(frequent_keywords, wer_file):
     return wer_data_keyword_filtered
 
 
-def frequent_keywords(f):
-    """
-    words that are in psychology keywords and not in
-    top1000 most frequent words
-    """
-    hyp = [w.lower() for w in open(f).read().split()]
-    hyp = [unicode(w, 'utf-8') for w in hyp]
+# def frequent_keywords(f):
+#     """
+#     words that are in psychology keywords and not in
+#     top1000 most frequent words
+#     """
+#     hyp = [w.lower() for w in open(f).read().split()]
+#     hyp = [unicode(w, 'utf-8') for w in hyp]
 
-    hyp_tags = pos_tag(hyp)
-    hyp_nouns = [w for w,pos in pos_tag(hyp) if pos in ['NNP', 'NN', '-NONE-', 'NNS']]
-    lemmatized_nouns = map(lemmatize, hyp_nouns)
-    counter = Counter(lemmatized_nouns)
-    counts = counter.most_common()
+#     hyp_tags = pos_tag(hyp)
+#     hyp_nouns = [w for w,pos in pos_tag(hyp) if pos in ['NNP', 'NN', '-NONE-', 'NNS']]
+#     lemmatized_nouns = map(lemmatize, hyp_nouns)
+#     counter = Counter(lemmatized_nouns)
+#     counts = counter.most_common()
 
-    frequent_keywords = []
-    for w,n in [(w.lower(), n) for w,n in counts]:
-        if w in keywords and w not in top5000words[:1000]:
-            frequent_keywords.append(w)
-            # print('{} ({})'.format(w, n))
+#     frequent_keywords = []
+#     for w,n in [(w.lower(), n) for w,n in counts]:
+#         if w in keywords and w not in top5000words[:1000]:
+#             frequent_keywords.append(w)
+#             # print('{} ({})'.format(w, n))
 
 
-    return frequent_keywords
+#     return frequent_keywords
 
 
 def unfrequent_nouns(f):
