@@ -1,0 +1,50 @@
+#!/usr/bin/env python2
+import sys, json
+from pprint import pprint
+from collections import Counter
+
+# from nltk.tag import pos_tag
+from nltk.stem.wordnet import WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
+lemmatize = lemmatizer.lemmatize
+
+def parse_timings(timings_file):
+    timings_file = open(timings_file).read().split('\n')[:-1]
+    parsed = []
+    for line in timings_file:
+        line = line[1:-1]
+        word, _, timing = line.split(', ')
+        start, _ = timing[1:-1].split(':')
+        if word not in ['<sil>', '[NOISE]', '[SPEECH]']:
+            parsed.append((word, start))
+    return parsed
+
+def main():
+    args = sys.argv[1:]
+    # we need the words file to be able to compare the reference word
+    # counts to our recognition results
+    # this is the result of running filter.py on a reference (!) file
+    words_file = args[0]
+    # this is the result of a recognition
+    timings_file = args[1]
+    parsed_timings = parse_timings(timings_file)
+
+    # sort words by most common
+    word_freqs = Counter(json.load(open(words_file)))
+    word_freqs_common = word_freqs.most_common()
+
+    # export as list of dicts, sorted by most common 
+    # one word: dict with keys word, freq (reference), positions
+    output = []
+    for word, freq in word_freqs_common:
+
+        timings_for_word = [int(time) for w, time in parsed_timings if
+            lemmatize(w) == word]
+        output.append(dict(
+            word=word, 
+            freq=freq,
+            positions=timings_for_word))
+
+    print(json.dumps(output, indent=2))
+
+main()

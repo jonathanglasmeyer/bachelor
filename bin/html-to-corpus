@@ -1,0 +1,45 @@
+#!/usr/bin/env python3
+import sys, subprocess, re
+from pprint import pprint
+
+def call(cmd):
+    subprocess.call(cmd, shell=True)
+
+# def call(cmd):
+#     subprocess.check_output(cmd, shell=True)
+
+def main():
+    print()
+    args = sys.argv[1:]
+    f = args[0]
+    outname = args[1]
+    call('pandoc -t plain -o {} {}'.format(outname, f))
+    result = open(outname).read().split('\n')[:-1]
+    result = result[7:] # cut heading
+    result[0] = ' '.join(result[0].split()[3:]) # remove professor bloom
+    result = result[:-1] # cut back to top
+
+    REGEX = r'\[.*\]'
+    filtered = []
+    for line in result:
+        if re.match(REGEX, line):
+            line_ = re.sub(REGEX, '', line)
+            # print(line_)
+            line = line_
+            # print()
+        filtered.append(line)
+    # print(filtered)
+
+    result_string = ' '.join(filtered)
+    result_string = result_string.replace(' – ', ' ')
+    result_string = result_string.replace('--', ' ')
+    result_string = re.sub(r'\s\s+', ' ', result_string)
+    # print(result_string)
+    open(outname, 'w').write(result_string)
+    call('tocorpus.pl < {0} > {0}.new'.format(outname))
+    call('mv {0}.new {0}'.format(outname))
+    stripped = open(outname).read().strip()
+    open(outname, 'w').write(stripped)
+    call('mv {0} {1}.corpus.txt'.format(outname, outname.split('.')[0]))
+
+main()
