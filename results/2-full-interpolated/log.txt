@@ -1,0 +1,21 @@
+04:02:35.902 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+04:02:35.902 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+04:02:35.902 INFO speedTracker         Compile              2       0.6610s   0.6610s   1.0400s   0.8505s   1.7010s   
+04:02:35.902 INFO speedTracker         Score                1008228 0.0040s   0.0000s   0.3170s   0.0049s   4926.2030s
+04:02:35.902 INFO speedTracker         Prune                3522654 0.0000s   0.0000s   0.0050s   0.0001s   233.5710s 
+04:02:35.902 INFO speedTracker         Grow                 3528798 0.0000s   0.0000s   10.6730s  0.0027s   9392.6610s
+04:02:35.902 INFO speedTracker         Load Dictionary      2       0.3150s   0.3150s   0.6710s   0.4930s   0.9860s   
+04:02:35.902 INFO speedTracker         Load AM              1       4.5580s   4.5580s   4.5580s   4.5580s   4.5580s   
+04:02:35.902 INFO speedTracker         Frontend             507188  0.0040s   0.0000s   0.3160s   0.0001s   29.9460s  
+04:02:35.902 INFO speedTracker            Total Processed Time Audio: 4401.46s  Proc: 14562.83s 3.31 X real time
+04:02:35.902 INFO memoryTracker           Mem  Total: 3724.50 Mb  Free: 1223.56 Mb
+04:02:35.902 INFO memoryTracker           Used: This: 2500.94 Mb  Avg: 2245.78 Mb  Max: 3725.87 Mb
+
+Stats creation: 8088s
+Recognition: 7098s, 1535 Segments.
+
+Total Processed Time Audio: 4401.46s  
+Proc: 14562.83s 
+3.31 X real time
+
+Mem  Total: 3724.50 Mb  Free: 1223.56 Mb

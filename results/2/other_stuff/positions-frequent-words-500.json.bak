@@ -1,0 +1,3474 @@
+[
+  {
+    "freq": 112,
+    "positions": [
+      8910,
+      415210,
+      735700,
+      744370,
+      748870,
+      906290,
+      921830,
+      963350,
+      974070,
+      988290,
+      998240,
+      1040880,
+      1053960,
+      1077240,
+      1117670,
+      1119830,
+      1142540,
+      1147370,
+      1154260,
+      1165490,
+      1287060,
+      1322420,
+      1624690,
+      1743390,
+      1754320,
+      1760730,
+      1776040,
+      1779510,
+      1788030,
+      1795990,
+      1815250,
+      1826540,
+      1834180,
+      1928860,
+      1948510,
+      1956970,
+      1973550,
+      1997920,
+      2052120,
+      2055640,
+      2057420,
+      2072560,
+      2075760,
+      2083320,
+      2099310,
+      2126770,
+      2217350,
+      2221980,
+      2250610,
+      2254370,
+      2305740,
+      2323470,
+      2365220,
+      2428520,
+      2458190,
+      2472630,
+      2475830,
+      2488930,
+      2496240,
+      2521410,
+      2550000,
+      2638490,
+      2668350,
+      2682450,
+      2687070,
+      2693920,
+      2758710,
+      2765220,
+      2862530,
+      2884580
+    ],
+    "word": "brain"
+  },
+  {
+    "freq": 54,
+    "positions": [],
+    "word": "neuron"
+  },
+  {
+    "freq": 20,
+    "positions": [
+      194260,
+      254400,
+      572350,
+      1169330,
+      1483800,
+      1485160,
+      1785260,
+      1935430,
+      2316760,
+      3077720
+    ],
+    "word": "sort"
+  },
+  {
+    "freq": 17,
+    "positions": [],
+    "word": "cortex"
+  },
+  {
+    "freq": 16,
+    "positions": [
+      2619740,
+      2713080,
+      2722210,
+      2732630,
+      2742300,
+      2780210,
+      2808960,
+      2845910
+    ],
+    "word": "left"
+  },
+  {
+    "freq": 15,
+    "positions": [],
+    "word": "descartes"
+  },
+  {
+    "freq": 15,
+    "positions": [],
+    "word": "neurotransmitter"
+  },
+  {
+    "freq": 15,
+    "positions": [
+      223440
+    ],
+    "word": "machine"
+  },
+  {
+    "freq": 15,
+    "positions": [
+      752760,
+      1744610,
+      2921500,
+      2970190,
+      2975150
+    ],
+    "word": "computer"
+  },
+  {
+    "freq": 15,
+    "positions": [
+      91720,
+      864020,
+      978660,
+      1231320,
+      1281640,
+      1544610,
+      2614970
+    ],
+    "word": "instance"
+  },
+  {
+    "freq": 14,
+    "positions": [
+      1288190,
+      1291540,
+      1561010,
+      1577750,
+      1708370
+    ],
+    "word": "motor"
+  },
+  {
+    "freq": 14,
+    "positions": [
+      235210,
+      238090,
+      402790,
+      773510,
+      2438280,
+      2479100,
+      2484820,
+      2628730,
+      2652110,
+      2731630,
+      2745830,
+      2779570,
+      2784160,
+      2928300
+    ],
+    "word": "language"
+  },
+  {
+    "freq": 13,
+    "positions": [],
+    "word": "dualism"
+  },
+  {
+    "freq": 11,
+    "positions": [
+      212930,
+      429950,
+      444710,
+      909250,
+      953380,
+      2158220,
+      2480950,
+      2524690
+    ],
+    "word": "somebody"
+  },
+  {
+    "freq": 10,
+    "positions": [
+      576820,
+      2574570
+    ],
+    "word": "disorder"
+  },
+  {
+    "freq": 9,
+    "positions": [
+      808690,
+      1398350,
+      1398630,
+      1398900,
+      1399140,
+      1399350,
+      1399600,
+      1399800,
+      1402000
+    ],
+    "word": "bang"
+  },
+  {
+    "freq": 9,
+    "positions": [
+      812070,
+      945140,
+      1587470,
+      1596640,
+      1615010,
+      1633370
+    ],
+    "word": "alcohol"
+  },
+  {
+    "freq": 8,
+    "positions": [
+      1785740,
+      2100730,
+      2527230,
+      2550330,
+      2667280
+    ],
+    "word": "damage"
+  },
+  {
+    "freq": 8,
+    "positions": [],
+    "word": "lobe"
+  },
+  {
+    "freq": 7,
+    "positions": [
+      989740,
+      1005390,
+      1680110,
+      1700810,
+      2123420
+    ],
+    "word": "extent"
+  },
+  {
+    "freq": 7,
+    "positions": [],
+    "word": "axon"
+  },
+  {
+    "freq": 7,
+    "positions": [
+      165800,
+      2139340
+    ],
+    "word": "action"
+  },
+  {
+    "freq": 7,
+    "positions": [
+      2216850,
+      2224080,
+      2629900,
+      2758220
+    ],
+    "word": "half"
+  },
+  {
+    "freq": 7,
+    "positions": [
+      1131280,
+      1953630,
+      1968500,
+      2180070
+    ],
+    "word": "bit"
+  },
+  {
+    "freq": 7,
+    "positions": [],
+    "word": "value"
+  },
+  {
+    "freq": 7,
+    "positions": [
+      6150,
+      1161220,
+      1675970,
+      1845830,
+      2914050
+    ],
+    "word": "psychology"
+  },
+  {
+    "freq": 6,
+    "positions": [
+      2308440
+    ],
+    "word": "map"
+  },
+  {
+    "freq": 6,
+    "positions": [],
+    "word": "dendrite"
+  },
+  {
+    "freq": 6,
+    "positions": [
+      739380,
+      1988030,
+      2511030,
+      2514360,
+      2910500,
+      3013110,
+      3155560
+    ],
+    "word": "psychologist"
+  },
+  {
+    "freq": 6,
+    "positions": [
+      84820,
+      675120,
+      703520
+    ],
+    "word": "religion"
+  },
+  {
+    "freq": 6,
+    "positions": [],
+    "word": "inhibitory"
+  },
+  {
+    "freq": 5,
+    "positions": [
+      265730,
+      350800
+    ],
+    "word": "method"
+  },
+  {
+    "freq": 5,
+    "positions": [
+      1029310,
+      1106660,
+      2963920
+    ],
+    "word": "consciousness"
+  },
+  {
+    "freq": 5,
+    "positions": [
+      1277310,
+      2378590,
+      2408890,
+      2603640
+    ],
+    "word": "sensory"
+  },
+  {
+    "freq": 5,
+    "positions": [
+      161430,
+      259370,
+      362940,
+      1097750
+    ],
+    "word": "argument"
+  },
+  {
+    "freq": 5,
+    "positions": [
+      1878480,
+      1883390
+    ],
+    "word": "network"
+  },
+  {
+    "freq": 5,
+    "positions": [],
+    "word": "animal"
+  },
+  {
+    "freq": 5,
+    "positions": [
+      1936320,
+      2071760,
+      2073660,
+      2329980,
+      2399020
+    ],
+    "word": "diagram"
+  },
+  {
+    "freq": 5,
+    "positions": [
+      1438870,
+      1445040,
+      1452650
+    ],
+    "word": "gap"
+  },
+  {
+    "freq": 5,
+    "positions": [
+      2386640
+    ],
+    "word": "amount"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      640730,
+      852540
+    ],
+    "word": "soul"
+  },
+  {
+    "freq": 4,
+    "positions": [],
+    "word": "tan"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      559960
+    ],
+    "word": "notion"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      2672400
+    ],
+    "word": "ability"
+  },
+  {
+    "freq": 4,
+    "positions": [],
+    "word": "command"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      1381170,
+      1406670
+    ],
+    "word": "intensity"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      1241070,
+      1428820,
+      1460810,
+      3113290
+    ],
+    "word": "chemical"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      1828810
+    ],
+    "word": "answer"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      140400,
+      1447340,
+      2498300,
+      3071410
+    ],
+    "word": "happens"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      844780,
+      845970,
+      870400
+    ],
+    "word": "capacity"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      1357530
+    ],
+    "word": "degree"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      1060750
+    ],
+    "word": "gray"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      1131720
+    ],
+    "word": "aspect"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      799370,
+      1303820
+    ],
+    "word": "connection"
+  },
+  {
+    "freq": 4,
+    "positions": [],
+    "word": "object"
+  },
+  {
+    "freq": 4,
+    "positions": [],
+    "word": "robot"
+  },
+  {
+    "freq": 4,
+    "positions": [],
+    "word": "agnosia"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      520240,
+      545400,
+      635720
+    ],
+    "word": "fate"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      443590,
+      566580,
+      2828130
+    ],
+    "word": "movie"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      97700
+    ],
+    "word": "philosopher"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      2367500,
+      2371670
+    ],
+    "word": "size"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      1676690,
+      1684700,
+      1702280
+    ],
+    "word": "depression"
+  },
+  {
+    "freq": 4,
+    "positions": [
+      22390,
+      25220
+    ],
+    "word": "astonishing"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "crossover"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      23090,
+      25930
+    ],
+    "word": "hypothesis"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "slide"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "apraxia"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "dualist"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "fmri"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "creature"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      1534320
+    ],
+    "word": "scan"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      1419610,
+      1534610
+    ],
+    "word": "connect"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      865710
+    ],
+    "word": "chess"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      1207300
+    ],
+    "word": "signal"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "structure"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      2634040
+    ],
+    "word": "paul"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      255310,
+      785150,
+      2465900
+    ],
+    "word": "hence"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      1169640,
+      1201470
+    ],
+    "word": "cell"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "doctrine"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      40400,
+      607810,
+      610650
+    ],
+    "word": "behavior"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      266270,
+      633230
+    ],
+    "word": "doubt"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      968470,
+      2644030
+    ],
+    "word": "cat"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      452390,
+      2354040
+    ],
+    "word": "nobody"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      1261180
+    ],
+    "word": "thousand"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "limb"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "toe"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "excitatory"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "antagonist"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      3054410,
+      3110120,
+      3135630
+    ],
+    "word": "conception"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "tongue"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      330890
+    ],
+    "word": "crazy"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      642500,
+      1116640,
+      2396290
+    ],
+    "word": "going"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      874700,
+      2438900
+    ],
+    "word": "reasoning"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "serotonin"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      152400,
+      154820,
+      795630
+    ],
+    "word": "material"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "stuff"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "excellent"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      2110360
+    ],
+    "word": "feeling"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      1046250,
+      2877230
+    ],
+    "word": "theme"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      1090780,
+      1120640,
+      1736650,
+      3007040,
+      3043380
+    ],
+    "word": "rise"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      276850,
+      2749340
+    ],
+    "word": "god"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      377510,
+      397790,
+      1861290,
+      2107810
+    ],
+    "word": "nature"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "pig"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      1419940,
+      1743880
+    ],
+    "word": "wire"
+  },
+  {
+    "freq": 3,
+    "positions": [],
+    "word": "leg"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      1846400
+    ],
+    "word": "department"
+  },
+  {
+    "freq": 3,
+    "positions": [
+      2828480,
+      2854040
+    ],
+    "word": "illustration"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1471200
+    ],
+    "word": "hit"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "gun"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1304860,
+      1350740
+    ],
+    "word": "sensation"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1063820
+    ],
+    "word": "math"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1359130,
+      2333100,
+      2361660
+    ],
+    "word": "notice"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      2148710
+    ],
+    "word": "outer"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      751720
+    ],
+    "word": "working"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      2149100
+    ],
+    "word": "layer"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "pain"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1271100
+    ],
+    "word": "extraordinarily"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "subtle"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "aphasia"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "faculty"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "somatosensory"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      3093420,
+      3159600
+    ],
+    "word": "responsibility"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1081620
+    ],
+    "word": "cream"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      446510,
+      460370
+    ],
+    "word": "teenager"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "meat"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "amphetamine"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "classroom"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      241810,
+      2233080,
+      2565020
+    ],
+    "word": "fine"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "neuroscientist"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      289910,
+      305860
+    ],
+    "word": "demon"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "profound"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      34300,
+      254710
+    ],
+    "word": "choice"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      575500,
+      585030
+    ],
+    "word": "multiple"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1704860,
+      1706220
+    ],
+    "word": "disease"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1933980
+    ],
+    "word": "older"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "scientist"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      2389960,
+      2393860
+    ],
+    "word": "shoulder"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      308250,
+      579720,
+      598720
+    ],
+    "word": "inside"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "dopamine"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1199060
+    ],
+    "word": "likelihood"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1668500,
+      1694500
+    ],
+    "word": "prozac"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "curare"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "royal"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      996950
+    ],
+    "word": "activity"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      2254710,
+      2272560
+    ],
+    "word": "surgery"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "professor"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      957680,
+      1709640
+    ],
+    "word": "loss"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      405960,
+      2678100,
+      2735910,
+      2888320,
+      2899630,
+      3056820
+    ],
+    "word": "talking"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "block"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "humility"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      2512220
+    ],
+    "word": "helmet"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1562920
+    ],
+    "word": "muscle"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1804520
+    ],
+    "word": "tissue"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1076310
+    ],
+    "word": "anybody"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      2481540
+    ],
+    "word": "scanner"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      7660
+    ],
+    "word": "discussion"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "neuropsychologists"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "example"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      149050,
+      2291390,
+      2296050
+    ],
+    "word": "claim"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      71140,
+      274390,
+      1039300,
+      1415550,
+      2412170,
+      2439770
+    ],
+    "word": "thought"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "humanist"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1764250
+    ],
+    "word": "laptop"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      2449060
+    ],
+    "word": "projection"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      310750
+    ],
+    "word": "product"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      2883720
+    ],
+    "word": "introduction"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "semester"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "agonist"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      379730,
+      857500
+    ],
+    "word": "existence"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "neuroscience"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "front"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "movement"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1794390,
+      1907150
+    ],
+    "word": "consideration"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "picture"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "garden"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "bloom"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "color"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      2523170,
+      2930400
+    ],
+    "word": "logic"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      894790
+    ],
+    "word": "possibility"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      687620
+    ],
+    "word": "sample"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      299630,
+      301400
+    ],
+    "word": "matrix"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1382540,
+      1394060
+    ],
+    "word": "frequency"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "pet"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "identity"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "culture"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "cerebellum"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1081870
+    ],
+    "word": "sauce"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "destruction"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      722740,
+      1026820
+    ],
+    "word": "consensus"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      442850,
+      2546510
+    ],
+    "word": "understanding"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      575980,
+      585410
+    ],
+    "word": "personality"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      336050,
+      1628210,
+      2385320
+    ],
+    "word": "okay"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      3168480
+    ],
+    "word": "science"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "rene"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      2955870
+    ],
+    "word": "strategy"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "arousal"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "organ"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "sentence"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      1149290,
+      1955820
+    ],
+    "word": "building"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      3065720
+    ],
+    "word": "ourselves"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "computation"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "interneurons"
+  },
+  {
+    "freq": 2,
+    "positions": [
+      888160,
+      1222970
+    ],
+    "word": "longer"
+  },
+  {
+    "freq": 2,
+    "positions": [],
+    "word": "processing"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      473730
+    ],
+    "word": "transformation"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2575460,
+      2590220,
+      2609980
+    ],
+    "word": "blindness"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "motorcyclist"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      143670
+    ],
+    "word": "connects"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1786600
+    ],
+    "word": "resistance"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "insect"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "respiration"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "coke"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "promise"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "joy"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2604160
+    ],
+    "word": "neglect"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "dog"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      496050
+    ],
+    "word": "short"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1371600,
+      1868200,
+      1946510,
+      2019530,
+      2563930
+    ],
+    "word": "simple"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "blood"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      759010
+    ],
+    "word": "favor"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "patient"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      42140,
+      1472000,
+      1522080
+    ],
+    "word": "nerve"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2106380
+    ],
+    "word": "balance"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "pulsing"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2695860
+    ],
+    "word": "held"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "biologist"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "sum"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "psychopharmacology"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "prosopagnosia"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "discovery"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "planet"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "gruesome"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "withdrawal"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "judaism"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      95600
+    ],
+    "word": "defender"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "broca"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "monkey"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2122100
+    ],
+    "word": "thirst"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "nonhuman"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "paste"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "combine"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      48130,
+      2248980
+    ],
+    "word": "pack"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "episode"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "summary"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "lewis"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      460980,
+      3165010
+    ],
+    "word": "note"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "tube"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      448740
+    ],
+    "word": "garner"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "subpart"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      3660
+    ],
+    "word": "proper"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "loaf"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      376320
+    ],
+    "word": "substance"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "retina"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "flow"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1536910
+    ],
+    "word": "clever"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "chance"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1339110,
+      1810890,
+      2940030
+    ],
+    "word": "fast"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "l-dopa"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      66530,
+      1012110
+    ],
+    "word": "surprise"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "jaw"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      757980,
+      3134600,
+      3144960,
+      3152620
+    ],
+    "word": "reject"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "ambition"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      421240,
+      1111380
+    ],
+    "word": "goal"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "form"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      3040720
+    ],
+    "word": "lump"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "pas"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "processor"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "shirt"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "posse"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      413920
+    ],
+    "word": "hip"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "bird"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "expert"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "cord"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "beauty"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "trek"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "rest"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "reptile"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "web"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "invite"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      16550
+    ],
+    "word": "nobel"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      17020
+    ],
+    "word": "prize"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "device"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2898300
+    ],
+    "word": "background"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "callosum"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "erection"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "neat"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      601270
+    ],
+    "word": "context"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "symbol"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "stab"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2350520
+    ],
+    "word": "drop"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1045710
+    ],
+    "word": "shiny"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "detail"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      167230
+    ],
+    "word": "cognitive"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1847380
+    ],
+    "word": "engineering"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      3077970,
+      3141010
+    ],
+    "word": "project"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "speed"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "edition"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "newborn"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "mimicking"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "involves"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "tumor"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      904730
+    ],
+    "word": "evidence"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      670670,
+      2113390
+    ],
+    "word": "survey"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "louder"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2570320
+    ],
+    "word": "cigarette"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "manys"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "cockroach"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "sun"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "star"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "aladdin"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2767440
+    ],
+    "word": "film"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "sound"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "corpus"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "gregor"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "dilemma"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "djinn"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      517380
+    ],
+    "word": "christ"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2227000
+    ],
+    "word": "slight"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      778400
+    ],
+    "word": "basis"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      320760
+    ],
+    "word": "madman"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      779380
+    ],
+    "word": "illness"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      3092540
+    ],
+    "word": "term"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2111320
+    ],
+    "word": "complexity"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "tentacle"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "woke"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1636180
+    ],
+    "word": "shuts"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      525700
+    ],
+    "word": "witch"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "computing"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "offense"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "medulla"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      302520,
+      1787440
+    ],
+    "word": "built"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      532780
+    ],
+    "word": "worse"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "shape"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "mainstay"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "introductory"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1594140
+    ],
+    "word": "paradox"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "bristle"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "component"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "hundred"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "fiber"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1512470
+    ],
+    "word": "cleanup"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "wednesday"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1337170
+    ],
+    "word": "trigger"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "crick"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "snip"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "alien"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "companion"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1050820,
+      3058400,
+      3105360
+    ],
+    "word": "wonderful"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "methodology"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2569150
+    ],
+    "word": "goodbye"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2242040
+    ],
+    "word": "cartoon"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "inhibition"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      784060
+    ],
+    "word": "ether"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      564840
+    ],
+    "word": "humor"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1003740
+    ],
+    "word": "sex"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "slapstick"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      227370,
+      239120,
+      3099270
+    ],
+    "word": "reflects"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "close-up"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2377270
+    ],
+    "word": "matter"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "appearance"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "tiny"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "francis"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "essence"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2016410
+    ],
+    "word": "volunteer"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "michael"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "afterlife"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1698220,
+      2762340
+    ],
+    "word": "prevalent"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2432170
+    ],
+    "word": "quarter"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1261720,
+      2115350
+    ],
+    "word": "billion"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      509350
+    ],
+    "word": "waking"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1885590
+    ],
+    "word": "smart"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2034680
+    ],
+    "word": "textbook"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "skull"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "strange"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "swordsman"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      680740
+    ],
+    "word": "christian"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "stub"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "explanation"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "plier"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      940470
+    ],
+    "word": "syphilis"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "plus"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "minus"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "odysseus"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "comprises"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2231650
+    ],
+    "word": "weird"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "chunk"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2312820
+    ],
+    "word": "sword"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "symptom"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "floor"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "kafka"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "exorcism"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "rug"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      41580
+    ],
+    "word": "assembly"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "shown"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      493660
+    ],
+    "word": "hollywood"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "memory"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      184260,
+      497210,
+      2381350
+    ],
+    "word": "century"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "worldview"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "spirit"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      944540
+    ],
+    "word": "caffeine"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "observation"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "physiologist"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "functioning"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2066990
+    ],
+    "word": "underneath"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      797720
+    ],
+    "word": "conduit"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "morality"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "disneyland"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2187070
+    ],
+    "word": "volume"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "intuition"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "flexation"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "character"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "forward"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "swine"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "extreme"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      959800
+    ],
+    "word": "deficit"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "heat"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2371020
+    ],
+    "word": "determines"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      634270
+    ],
+    "word": "differ"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "hint"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "hypothalamus"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2703880,
+      2732880,
+      2748110,
+      2771440,
+      2809230,
+      2846250
+    ],
+    "word": "hemisphere"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "franz"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "martin"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "bathing"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2508770
+    ],
+    "word": "injury"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "huxley"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "difficulty"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "eighty"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "implicates"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      783490
+    ],
+    "word": "spark"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      696120
+    ],
+    "word": "subject"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "pant"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "mode"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1365730
+    ],
+    "word": "brightness"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "wave"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "electricity"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "irritating"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      396040,
+      972080,
+      1174870,
+      2835030
+    ],
+    "word": "illustrate"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "generalization"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1197100
+    ],
+    "word": "towards"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      494280
+    ],
+    "word": "invention"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "recognition"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2177540
+    ],
+    "word": "adult"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "coordination"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "panel"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "gazzaniga"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1782510
+    ],
+    "word": "function"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      546470,
+      1284040,
+      1383520
+    ],
+    "word": "firing"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "knee"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2172970,
+      2175830,
+      2176670
+    ],
+    "word": "fish"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2870290
+    ],
+    "word": "dream"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "headless"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "solving"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "clip"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "genie"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "gesturing"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "duality"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "mac"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "ten-thousandth"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "reincarnation"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "sheath"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "wide"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "penfield"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "homer"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "experiment"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      3147520
+    ],
+    "word": "alternative"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1713380
+    ],
+    "word": "factor"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "versus"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "tension"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "sorrow"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2768750
+    ],
+    "word": "american"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "consists"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      298670
+    ],
+    "word": "version"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1164570
+    ],
+    "word": "unit"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      90800
+    ],
+    "word": "plato"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "obeys"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2036980
+    ],
+    "word": "perfect"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "discus"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "glass"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2443740
+    ],
+    "word": "proportion"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2268310
+    ],
+    "word": "university"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "test"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1251960
+    ],
+    "word": "insulation"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "technique"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2098680
+    ],
+    "word": "deep"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2887050
+    ],
+    "word": "framework"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "lateralization"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2010960
+    ],
+    "word": "penis"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      672280
+    ],
+    "word": "chicago"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      503660
+    ],
+    "word": "france"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "molecule"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "weight"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      589250
+    ],
+    "word": "deal"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      2892210
+    ],
+    "word": "reference"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1881220
+    ],
+    "word": "setting"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "stroke"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "contrary"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "millimeter"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "supply"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "illusion"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "mcgill"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1380760
+    ],
+    "word": "increase"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "hydraulics"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "accident"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "flaw"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "worry"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "quicker"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      1241590
+    ],
+    "word": "metaphor"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "task"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "samsa"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      289580,
+      305560
+    ],
+    "word": "evil"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "reflex"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "happy"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "synapse"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "relaxes"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      3010780
+    ],
+    "word": "puzzle"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      574700
+    ],
+    "word": "analysis"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "emotion"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "myelin"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "bush"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "lamp"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      597840,
+      682900
+    ],
+    "word": "percent"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "lesion"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "max"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "finding"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      785390
+    ],
+    "word": "fails"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      830600
+    ],
+    "word": "concluding"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      445510,
+      2123980
+    ],
+    "word": "sleep"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "norepinephrine"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      263410
+    ],
+    "word": "done"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "flavor"
+  },
+  {
+    "freq": 1,
+    "positions": [
+      3102000
+    ],
+    "word": "risk"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "insight"
+  },
+  {
+    "freq": 1,
+    "positions": [],
+    "word": "somehow"
+  }
+]

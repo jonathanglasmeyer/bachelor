@@ -1,0 +1,1455 @@
+
+\data\
+ngram 1=318
+ngram 2=584
+ngram 3=540
+
+\1-grams:
+-0.780776	</s>
+-99	<s>	-0.328028
+-2.090010	a	-0.055517
+-2.090010	about	-0.055517
+-2.785797	acquired	-0.055517
+-2.785797	action	-0.055517
+-2.579654	after	-0.055517
+-2.579654	agnosia	-0.198368
+-2.785797	agonists	-0.055517
+-2.785797	aids	-0.055517
+-2.785797	aladdin	-0.055517
+-2.785797	alcohol	-0.055517
+-2.785797	all	-0.055517
+-2.785797	also	-0.055517
+-2.785797	am	-0.055517
+-2.785797	amphetamines	-0.055517
+-2.579654	an	-0.055517
+-1.937314	and	-0.055517
+-2.785797	animals	-0.055517
+-2.785797	antagonists	-0.055517
+-2.785797	anything	-0.055517
+-2.785797	aphasia	-0.055517
+-2.785797	appearance	-0.055517
+-2.785797	apraxia	-0.055517
+-2.192750	are	-0.055517
+-2.785797	area	-0.055517
+-2.785797	areas	-0.055517
+-2.785797	argument	-0.055517
+-2.785797	arm	-0.055517
+-1.877289	as	-0.091770
+-2.785797	axons	-0.055517
+-2.785797	bad	-0.055517
+-2.579654	be	-0.055517
+-2.785797	because	-0.055517
+-2.579654	believe	-0.055517
+-2.785797	better	-0.055517
+-2.785797	between	-0.055517
+-2.785797	bit	-0.055517
+-2.785797	bodies	-0.055517
+-2.785797	bodily	-0.055517
+-2.006985	body	-0.372634
+-2.785797	both	-0.055517
+-2.006985	brain	-0.227145
+-2.785797	breathing	-0.055517
+-2.579654	but	-0.055517
+-2.785797	by	-0.055517
+-2.579654	callosum	-0.198368
+-2.579654	can	-0.055517
+-2.785797	cerebeullum	-0.055517
+-2.785797	certain	-0.055517
+-2.785797	changes	-0.055517
+-2.785797	comes	-0.055517
+-2.785797	communication	-0.055517
+-2.785797	comparable	-0.055517
+-2.785797	complicated	-0.055517
+-2.579654	computer	-0.198368
+-2.579654	computers	-0.055517
+-2.785797	conception	-0.055517
+-2.785797	connects	-0.055517
+-2.785797	consciousness	-0.055517
+-2.785797	contains	-0.055517
+-2.579654	contralateral	-0.055517
+-2.785797	control	-0.055517
+-2.785797	controlled	-0.055517
+-2.785797	controls	-0.055517
+-2.785797	coordination	-0.055517
+-2.785797	cord	-0.055517
+-2.192750	corpus	-0.145357
+-2.090010	cortex	-0.301030
+-2.785797	could	-0.055517
+-2.785797	creativity	-0.055517
+-2.785797	cross	-0.055517
+-2.785797	crosses	-0.055517
+-2.785797	crossover	-0.055517
+-2.785797	curare	-0.055517
+-2.785797	current	-0.055517
+-2.785797	damage	-0.055517
+-2.579654	data	-0.055517
+-2.785797	descartes	-0.055517
+-2.785797	designed	-0.055517
+-2.785797	destruction	-0.055517
+-2.785797	different	-0.055517
+-2.785797	djin	-0.055517
+-2.090010	do	-0.121095
+-2.785797	does	-0.055517
+-2.785797	don	-0.055517
+-2.785797	dopa	-0.055517
+-2.785797	drugs	-0.055517
+-2.192750	dualism	-0.221849
+-2.785797	each	-0.055517
+-2.785797	eccentric	-0.055517
+-2.785797	erection	-0.055517
+-2.785797	etc	-0.055517
+-2.785797	everything	-0.055517
+-2.785797	evidence	-0.055517
+-2.785797	excitatory	-0.055517
+-2.785797	experience	-0.055517
+-2.785797	expressed	-0.055517
+-2.785797	extremely	-0.055517
+-2.785797	fantastical	-0.055517
+-2.785797	farce	-0.055517
+-2.785797	fast	-0.055517
+-2.192750	field	-0.145357
+-2.579654	firing	-0.055517
+-2.785797	flexion	-0.055517
+-2.579654	for	-0.055517
+-2.785797	free	-0.055517
+-2.785797	frequency	-0.055517
+-2.785797	from	-0.055517
+-2.785797	functions	-0.055517
+-2.785797	happen	-0.055517
+-2.785797	hard	-0.055517
+-2.785797	has	-0.055517
+-2.192750	have	-0.055517
+-2.785797	heart	-0.055517
+-2.785797	heartbeat	-0.055517
+-2.192750	hemisphere	-0.299873
+-2.192750	hemispheres	-0.383700
+-2.785797	her	-0.055517
+-2.785797	highly	-0.055517
+-2.785797	his	-0.055517
+-2.785797	how	-0.055517
+-2.192750	human	-0.055517
+-2.785797	humanist	-0.055517
+-2.785797	humility	-0.055517
+-2.785797	hunger	-0.055517
+-2.785797	huxley	-0.055517
+-2.785797	hypothalamus	-0.055517
+-2.192750	i	-0.055517
+-2.785797	identity	-0.055517
+-2.785797	ii	-0.055517
+-2.785797	immaterial	-0.055517
+-1.937314	in	-0.055517
+-2.579654	information	-0.055517
+-2.785797	inhabits	-0.055517
+-2.785797	inhibitory	-0.055517
+-2.785797	intensity	-0.055517
+-2.785797	interneurons	-0.055517
+-2.785797	intrinsic	-0.055517
+-2.785797	involved	-0.055517
+-2.785797	irritating	-0.055517
+-1.824563	is	-0.055517
+-2.090010	it	-0.121095
+-2.785797	just	-0.055517
+-2.785797	know	-0.055517
+-2.785797	l	-0.055517
+-2.785797	lamp	-0.055517
+-2.579654	language	-0.055517
+-2.785797	lateralization	-0.055517
+-2.785797	lateralized	-0.055517
+-2.785797	lawyer	-0.055517
+-2.785797	leading	-0.055517
+-2.006985	left	-0.055517
+-2.785797	less	-0.055517
+-2.785797	life	-0.055517
+-2.579654	like	-0.055517
+-2.785797	limb	-0.055517
+-2.785797	logic	-0.055517
+-2.785797	machines	-0.055517
+-2.785797	major	-0.055517
+-2.785797	male	-0.055517
+-2.579654	many	-0.055517
+-2.785797	massively	-0.055517
+-2.785797	material	-0.055517
+-2.785797	math	-0.055517
+-2.785797	maybe	-0.055517
+-2.785797	mechanistic	-0.055517
+-2.785797	medial	-0.055517
+-2.785797	medualla	-0.055517
+-2.785797	mental	-0.055517
+-2.785797	millionairess	-0.055517
+-2.785797	mind	-0.055517
+-2.579654	minds	-0.055517
+-2.785797	moral	-0.055517
+-2.785797	most	-0.055517
+-1.877289	motor	-0.087070
+-2.785797	movements	-0.055517
+-2.785797	music	-0.055517
+-2.090010	my	-0.055517
+-2.785797	need	-0.055517
+-2.785797	neglect	-0.055517
+-2.579654	nerves	-0.055517
+-2.785797	nervous	-0.055517
+-2.090010	neurons	-0.121095
+-2.785797	neurotransmitters	-0.055517
+-2.785797	never	-0.055517
+-2.785797	newborns	-0.055517
+-2.785797	no	-0.055517
+-2.785797	nonphyscial	-0.055517
+-2.785797	not	-0.055517
+-2.785797	nothing	-0.055517
+-2.785797	number	-0.055517
+-2.785797	odd	-0.055517
+-1.470916	of	-0.225419
+-2.090010	on	-0.055517
+-2.579654	one	-0.055517
+-2.785797	only	-0.055517
+-2.785797	opposite	-0.055517
+-2.785797	optic	-0.055517
+-2.785797	or	-0.055517
+-2.785797	organization	-0.055517
+-2.785797	other	-0.055517
+-2.785797	our	-0.055517
+-2.579654	over	-0.055517
+-2.785797	pain	-0.055517
+-2.785797	parallel	-0.055517
+-2.785797	part	-0.055517
+-2.785797	parts	-0.055517
+-2.579654	pathway	-0.198368
+-2.785797	pathways	-0.055517
+-2.785797	penis	-0.055517
+-2.785797	people	-0.055517
+-2.785797	permits	-0.055517
+-2.785797	person	-0.055517
+-2.785797	personal	-0.055517
+-2.785797	physical	-0.055517
+-2.785797	principle	-0.055517
+-2.785797	problem	-0.055517
+-2.785797	problems	-0.055517
+-2.785797	processed	-0.055517
+-2.785797	processing	-0.055517
+-2.785797	processor	-0.055517
+-2.785797	projection	-0.055517
+-2.785797	prosopagnosia	-0.055517
+-2.785797	prozac	-0.055517
+-2.785797	psychopathy	-0.055517
+-2.785797	qualia	-0.055517
+-2.785797	radical	-0.055517
+-2.785797	reasoning	-0.055517
+-2.785797	received	-0.055517
+-2.785797	recognition	-0.055517
+-2.785797	reconciled	-0.055517
+-2.785797	reflex	-0.055517
+-2.785797	reflexes	-0.055517
+-2.785797	release	-0.055517
+-2.785797	remains	-0.055517
+-2.785797	remarkable	-0.055517
+-2.785797	resistant	-0.055517
+-2.785797	responsibility	-0.055517
+-2.785797	rest	-0.055517
+-2.785797	result	-0.055517
+-1.696492	right	-0.246672
+-2.579654	robots	-0.198368
+-2.785797	role	-0.055517
+-2.785797	rubbed	-0.055517
+-2.579654	s	-0.055517
+-2.785797	same	-0.055517
+-2.785797	seems	-0.055517
+-2.785797	self	-0.055517
+-2.785797	senses	-0.055517
+-2.785797	sensory	-0.055517
+-2.785797	sent	-0.055517
+-2.785797	separate	-0.055517
+-2.090010	side	-0.121095
+-2.192750	sides	-0.055517
+-2.785797	similar	-0.055517
+-2.785797	skilled	-0.055517
+-2.785797	slapstick	-0.055517
+-2.785797	sleep	-0.055517
+-2.785797	so	-0.055517
+-2.785797	somatosensory	-0.055517
+-2.785797	some	-0.055517
+-2.785797	soul	-0.055517
+-2.785797	spinal	-0.055517
+-2.785797	spiritual	-0.055517
+-2.785797	spontaneity	-0.055517
+-2.785797	state	-0.055517
+-2.785797	still	-0.055517
+-2.785797	strong	-0.055517
+-2.579654	structures	-0.055517
+-2.785797	subcortical	-0.055517
+-2.785797	subjective	-0.055517
+-2.785797	sucking	-0.055517
+-2.785797	surface	-0.055517
+-2.785797	survival	-0.055517
+-2.785797	synapses	-0.055517
+-2.785797	synopsis	-0.055517
+-2.785797	t	-0.055517
+-2.785797	than	-0.055517
+-2.579654	that	-0.055517
+-1.696492	the	-0.127330
+-2.785797	there	-0.055517
+-2.785797	therefore	-0.055517
+-2.785797	they	-0.055517
+-2.579654	things	-0.055517
+-2.785797	think	-0.055517
+-2.785797	thirst	-0.055517
+-2.785797	this	-0.055517
+-2.785797	thomas	-0.055517
+-2.785797	thought	-0.055517
+-2.579654	through	-0.055517
+-2.785797	tissue	-0.055517
+-1.937314	to	-0.055517
+-2.785797	unaccountable	-0.055517
+-2.785797	understanding	-0.055517
+-2.785797	unlike	-0.055517
+-2.785797	unnatural	-0.055517
+-2.785797	up	-0.055517
+-2.579654	value	-0.198368
+-2.785797	values	-0.055517
+-2.785797	very	-0.055517
+-2.579654	view	-0.198368
+-2.192750	visual	-0.055517
+-2.785797	vomiting	-0.055517
+-2.785797	vs	-0.055517
+-2.785797	we	-0.055517
+-2.090010	what	-0.055517
+-2.785797	when	-0.055517
+-2.785797	whose	-0.055517
+-2.785797	will	-0.055517
+-2.785797	wired	-0.055517
+-2.579654	with	-0.055517
+-2.785797	withdrawal	-0.055517
+-2.785797	work	-0.055517
+-2.785797	works	-0.055517
+-2.785797	wrong	-0.055517
+-2.090010	you	-0.107164
+-2.579654	your	-0.198368
+
+\2-grams:
+-0.428836	<s> </s>
+-2.121443	<s> a	-0.157981
+-2.353463	<s> about	-0.022863
+-2.859591	<s> acquired	-0.022863
+-2.733040	<s> agnosia	-0.022863
+-2.859591	<s> aids	-0.022863
+-2.859591	<s> alcohol	-0.022863
+-2.859591	<s> all	-0.022863
+-2.859591	<s> amphetamines	-0.022863
+-2.859591	<s> animals	-0.022863
+-2.859591	<s> aphasia	-0.022863
+-2.859591	<s> apraxia	-0.022863
+-2.345733	<s> argument	-0.157981
+-2.077525	<s> brain	-0.022863
+-1.990700	<s> but	-0.022863
+-2.733040	<s> can	-0.022863
+-2.859591	<s> cerebeullum	-0.022863
+-2.859591	<s> communication	-0.022863
+-2.733040	<s> computers	-0.022863
+-2.859591	<s> connects	-0.022863
+-2.733040	<s> contralateral	-0.022863
+-1.921031	<s> corpus	-99
+-1.892834	<s> cortex	-0.022863
+-2.859591	<s> curare	-0.022863
+-2.859591	<s> current	-0.022863
+-2.859591	<s> descartes	-0.022863
+-2.859591	<s> drugs	-0.022863
+-1.370525	<s> dualism	-0.977105
+-2.859591	<s> erection	-0.022863
+-2.859591	<s> excitatory	-0.022863
+-2.859591	<s> fantastical	-0.022863
+-2.170307	<s> field	-0.157981
+-2.733040	<s> firing	-0.022863
+-2.859591	<s> free	-0.022863
+-2.859591	<s> heartbeat	-0.022863
+-2.011039	<s> how	-0.022863
+-2.859591	<s> hypothalamus	-0.022863
+-2.440477	<s> i	-0.022863
+-2.859591	<s> inhibitory	-0.022863
+-2.859591	<s> intensity	-0.022863
+-2.859591	<s> intrinsic	-0.022863
+-2.116361	<s> is	-0.022863
+-2.859591	<s> l	-0.022863
+-1.990700	<s> language	-0.022863
+-2.859591	<s> lateralization	-0.022863
+-1.538961	<s> left	-0.409153
+-2.859591	<s> less	-0.022863
+-2.859591	<s> limb	-0.022863
+-2.345733	<s> major	-0.022863
+-2.345733	<s> maybe	-0.157981
+-2.859591	<s> mechanistic	-0.022863
+-2.859591	<s> medial	-0.022863
+-2.859591	<s> medualla	-0.022863
+-2.345733	<s> mind	-0.022863
+-2.001118	<s> motor	-0.022863
+-2.345733	<s> movements	-0.022863
+-2.353463	<s> my	-0.022863
+-2.121443	<s> neurons	-0.157981
+-2.859591	<s> neurotransmitters	-0.022863
+-2.859591	<s> no	-0.022863
+-1.782522	<s> of	-0.022863
+-2.859591	<s> optic	-0.022863
+-2.859591	<s> organization	-0.022863
+-2.859591	<s> other	-0.022863
+-2.733040	<s> pathway	-0.022863
+-2.859591	<s> permits	-0.022863
+-2.011039	<s> personal	-0.108123
+-2.859591	<s> principle	-0.022863
+-2.859591	<s> problems	-0.022863
+-2.859591	<s> prosopagnosia	-0.022863
+-2.859591	<s> prozac	-0.022863
+-2.859591	<s> qualia	-0.022863
+-2.859591	<s> recognition	-0.022863
+-1.879672	<s> right	-0.022863
+-2.859591	<s> same	-0.022863
+-1.828242	<s> sensory	-0.022863
+-2.859591	<s> skilled	-0.022863
+-2.859591	<s> somatosensory	-0.022863
+-2.011039	<s> some	-0.022863
+-2.859591	<s> spiritual	-0.022863
+-2.859591	<s> strong	-0.022863
+-2.859591	<s> subjective	-0.022863
+-2.859591	<s> sucking	-0.022863
+-2.859591	<s> synopsis	-0.022863
+-1.879672	<s> the	-0.022863
+-2.859591	<s> thirst	-0.022863
+-2.859591	<s> this	-0.022863
+-2.859591	<s> thought	-0.022863
+-2.859591	<s> unlike	-0.022863
+-2.170307	<s> visual	-0.022863
+-2.859591	<s> vomiting	-0.022863
+-2.345733	<s> we	-0.022863
+-2.353463	<s> what	-0.022863
+-2.353463	<s> you	-0.022863
+-0.770106	a </s>
+-1.594465	a better	-0.022863
+-1.594465	a bit	-0.157981
+-1.594465	a result	-0.022863
+-1.594465	a state	-0.022863
+-0.755023	about </s>
+-1.490576	about an	-0.022863
+-1.380142	about as	-0.022863
+-1.502503	about humanist	-0.022863
+-0.915634	acquired psychopathy	-0.022863
+-0.575473	action </s>
+-1.211541	after radical	-0.022863
+-1.109575	after the	-0.022863
+-0.326439	agnosia </s>
+-0.915634	agonists vs	-0.022863
+-0.880502	aids motor	-0.022863
+-0.915634	aladdin rubbed	-0.022863
+-0.575473	alcohol </s>
+-0.915634	all or	-0.022863
+-0.900852	also have	-0.022863
+-0.575473	am </s>
+-0.575473	amphetamines </s>
+-1.211541	an eccentric	-0.022863
+-1.211541	an odd	-0.022863
+-1.668754	and nonphyscial	-0.022863
+-1.668754	and responsibility	-0.022863
+-1.423651	and right	-0.022863
+-1.668754	and spontaneity	-0.022863
+-1.668754	and unnatural	-0.022863
+-1.651374	and your	-0.022863
+-0.880502	animals as	-0.022863
+-0.575473	antagonists </s>
+-0.915634	anything so	-0.022863
+-0.575473	aphasia </s>
+-0.824617	appearance of	-0.022863
+-0.575473	apraxia </s>
+-1.382569	are immaterial	-0.022863
+-1.382569	are lateralized	-0.022863
+-1.382569	are separate	-0.022863
+-0.575473	area </s>
+-0.861064	areas the	-0.022863
+-0.575473	argument </s>
+-0.895674	arm my	-0.022863
+-0.953342	as a	-0.022863
+-1.715032	as computer	-0.022863
+-1.715032	as information	-0.022863
+-1.733568	as reflex	-0.022863
+-1.475916	as the	-0.022863
+-1.733568	as unaccountable	-0.022863
+-0.915634	axons release	-0.022863
+-0.912515	bad things	-0.022863
+-1.211541	be processed	-0.022863
+-1.211541	be reconciled	-0.022863
+-0.895674	because it	-0.022863
+-1.153871	believe in	-0.022863
+-1.172936	believe it	-0.022863
+-0.915634	better understanding	-0.022863
+-1.182792	between hemispheres	-0.022863
+-1.182792	between sides	-0.022863
+-0.824617	bit of	-0.157981
+-0.575473	bodies </s>
+-0.915634	bodily changes	-0.022863
+-0.206041	body </s>
+-1.561516	body my	-0.022863
+-0.900852	both hemispheres	-0.022863
+-0.356537	brain </s>
+-1.803358	brain do	-0.022863
+-1.904156	brain for	-0.022863
+-1.925193	brain has	-0.022863
+-1.925193	brain wired	-0.022863
+-1.925193	brain work	-0.022863
+-1.925193	brain works	-0.022863
+-0.575473	breathing </s>
+-1.502503	but not	-0.022863
+-1.502503	but our	-0.022863
+-1.502503	but there	-0.022863
+-1.430009	but what	-0.022863
+-0.880502	by motor	-0.022863
+-0.326439	callosum </s>
+-1.172936	can do	-0.022863
+-1.211541	can they	-0.022863
+-0.915634	cerebeullum complicated	-0.022863
+-0.915634	certain reflexes	-0.022863
+-0.575473	changes </s>
+-0.895674	comes about	-0.022863
+-0.912515	communication over	-0.022863
+-0.912515	comparable structures	-0.022863
+-0.575473	complicated </s>
+-0.326439	computer </s>
+-1.205397	computers robots	-0.022863
+-1.109575	computers the	-0.022863
+-0.824617	conception of	-0.022863
+-0.915634	connects comparable	-0.022863
+-0.686591	consciousness </s>
+-1.211541	consciousness comes	-0.022863
+-0.915634	contains projection	-0.022863
+-0.686591	contralateral </s>
+-1.144643	contralateral motor	-0.022863
+-0.686591	control </s>
+-1.211541	control logic	-0.022863
+-0.915634	controlled by	-0.022863
+-1.163299	controls left	-0.022863
+-1.109575	controls right	-0.022863
+-0.900852	coordination corpus	-0.022863
+-0.575473	cord </s>
+-0.608486	corpus callosum	-99
+-1.264457	corpus right	-0.022863
+-0.265335	cortex </s>
+-1.671291	cortex callosum	-0.022863
+-1.681545	cortex contains	-0.022863
+-0.915634	could happen	-0.022863
+-0.885501	creativity and	-0.022863
+-0.900852	cross sides	-0.022863
+-0.912515	crosses over	-0.022863
+-0.575473	crossover </s>
+-0.575473	curare </s>
+-0.912515	current view	-0.022863
+-0.915634	damage extremely	-0.022863
+-1.211541	data crosses	-0.022863
+-1.211541	data received	-0.022863
+-0.575473	descartes </s>
+-0.912515	designed computers	-0.022863
+-0.824617	destruction of	-0.022863
+-0.915634	different parts	-0.022863
+-0.915634	djin when	-0.022863
+-0.510485	do </s>
+-1.505301	do different	-0.022863
+-1.441888	do you	-0.022863
+-0.861064	does the	-0.022863
+-0.915634	don t	-0.022863
+-0.575473	dopa </s>
+-0.915634	drugs agonists	-0.022863
+-0.345441	dualism </s>
+-1.481664	dualism is	-0.022863
+-1.602363	dualism seems	-99
+-0.895674	each side	-0.022863
+-0.915634	eccentric millionairess	-0.022863
+-0.824617	erection of	-0.022863
+-0.575473	etc </s>
+-0.575473	everything </s>
+-0.912515	evidence for	-0.022863
+-0.575473	excitatory </s>
+-0.895674	experience what	-0.022863
+-0.912515	expressed through	-0.022863
+-0.915634	extremely fast	-0.022863
+-0.915634	fantastical farce	-0.022863
+-0.895674	farce about	-0.022863
+-0.575473	fast </s>
+-0.799859	field </s>
+-0.597376	field to	-0.022863
+-0.686591	firing </s>
+-1.211541	firing frequency	-0.022863
+-0.885501	flexion in	-0.022863
+-1.211541	for everything	-0.022863
+-1.109575	for the	-0.022863
+-0.915634	free will	-0.022863
+-0.824617	frequency of	-0.022863
+-0.915634	from pain	-0.022863
+-0.900852	functions are	-0.022863
+-0.885501	happen to	-0.022863
+-0.915634	hard problem	-0.022863
+-0.900852	has hemispheres	-0.022863
+-0.730994	have </s>
+-1.326493	have a	-0.022863
+-1.382569	have material	-0.022863
+-0.895674	heart my	-0.022863
+-0.915634	heartbeat breathing	-0.022863
+-0.361459	hemisphere </s>
+-0.831244	hemisphere controls	-0.022863
+-0.183666	hemispheres </s>
+-0.915634	her male	-0.022863
+-0.915634	highly resistant	-0.022863
+-0.915634	his lamp	-0.022863
+-1.382569	how does	-0.022863
+-1.326493	how it	-0.022863
+-1.373490	how many	-0.022863
+-0.730994	human </s>
+-1.382569	human action	-0.022863
+-1.382569	human designed	-0.022863
+-0.915634	humanist values	-0.022863
+-0.915634	humility part	-0.022863
+-0.575473	hunger </s>
+-0.575473	huxley </s>
+-0.915634	hypothalamus hunger	-0.022863
+-0.730994	i </s>
+-1.382569	i am	-0.022863
+-1.382569	i think	-0.022863
+-0.686591	identity </s>
+-1.205397	identity many	-0.022863
+-0.575473	ii </s>
+-0.885501	immaterial and	-0.022863
+-1.668754	in both	-0.022863
+-1.590982	in dualism	-0.022863
+-1.668754	in newborns	-0.022863
+-1.668754	in pathways	-0.022863
+-1.668754	in spinal	-0.022863
+-1.668754	in withdrawal	-0.022863
+-1.211541	information processor	-0.022863
+-1.211541	information sent	-0.022863
+-0.915634	inhabits her	-0.022863
+-0.575473	inhibitory </s>
+-0.915634	intensity expressed	-0.022863
+-0.575473	interneurons </s>
+-0.912515	intrinsic value	-0.022863
+-0.912515	involved with	-0.022863
+-0.915634	irritating nervous	-0.022863
+-1.805491	is an	-0.022863
+-1.805491	is contralateral	-0.022863
+-1.830490	is highly	-0.022863
+-1.830490	is involved	-0.022863
+-1.830490	is just	-0.022863
+-1.830490	is never	-0.022863
+-1.805491	is that	-0.022863
+-1.508162	is the	-0.022863
+-1.830490	is wrong	-0.022863
+-0.808685	it </s>
+-0.710709	it is	-0.022863
+-1.494961	it s	-0.022863
+-0.880502	just as	-0.022863
+-0.900852	know have	-0.022863
+-0.915634	l dopa	-0.022863
+-0.915634	lamp thomas	-0.022863
+-0.755023	language </s>
+-1.380142	language motor	-0.022863
+-1.430009	language on	-0.022863
+-1.502503	language reasoning	-0.022863
+-0.875561	lateralization is	-0.022863
+-0.575473	lateralized </s>
+-0.912515	lawyer s	-0.022863
+-0.885501	leading to	-0.022863
+-0.788010	left </s>
+-1.563689	left and	-0.022863
+-1.642279	left hemisphere	-0.022863
+-1.730862	left math	-0.022863
+-1.457878	left right	-0.022863
+-1.614472	left side	-0.022863
+-1.642279	left visual	-0.022863
+-0.915634	less than	-0.022863
+-0.575473	life </s>
+-0.686591	like </s>
+-1.172936	like a	-0.022863
+-0.915634	limb flexion	-0.022863
+-0.575473	logic </s>
+-0.912515	machines robots	-0.022863
+-1.205397	major but	-0.022863
+-1.205397	major pathway	-0.022863
+-0.915634	male lawyer	-0.022863
+-1.205397	many minds	-0.022863
+-1.211541	many people	-0.022863
+-0.915634	massively parallel	-0.022863
+-0.915634	material bodies	-0.022863
+-0.915634	math music	-0.022863
+-0.895674	maybe you	-0.022863
+-0.915634	mechanistic conception	-0.022863
+-0.915634	medial surface	-0.022863
+-0.915634	medualla certain	-0.022863
+-0.915634	mental life	-0.022863
+-0.915634	millionairess whose	-0.022863
+-1.144643	mind as	-0.022863
+-1.163299	mind brain	-0.022863
+-1.182792	minds are	-0.022863
+-1.172936	minds do	-0.022863
+-0.575473	moral </s>
+-0.900852	most human	-0.022863
+-0.822270	motor </s>
+-1.786746	motor area	-0.022863
+-1.031486	motor control	-0.022863
+-1.786746	motor coordination	-0.022863
+-1.664512	motor cortex	-0.022863
+-1.765631	motor nerves	-0.022863
+-1.664512	motor neurons	-0.022863
+-0.686591	movements </s>
+-1.211541	movements controlled	-0.022863
+-0.895674	music on	-0.022863
+-1.502503	my arm	-0.022863
+-1.412743	my body	-0.022863
+-1.412743	my brain	-0.022863
+-1.502503	my heart	-0.022863
+-0.912515	need your	-0.022863
+-0.575473	neglect </s>
+-0.686591	nerves </s>
+-1.211541	nerves cross	-0.022863
+-0.915634	nervous tissue	-0.022863
+-0.510485	neurons </s>
+-1.505301	neurons interneurons	-0.022863
+-1.397536	neurons motor	-0.022863
+-0.575473	neurotransmitters </s>
+-0.861064	never right	-0.022863
+-0.575473	newborns </s>
+-0.915634	no because	-0.022863
+-0.575473	nonphyscial </s>
+-0.915634	not only	-0.022863
+-0.575473	nothing </s>
+-0.824617	number of	-0.022863
+-0.885501	odd and	-0.022863
+-1.914648	of body	-0.022863
+-1.402623	of consciousness	-0.022863
+-2.103348	of firing	-0.022863
+-1.994230	of human	-0.022863
+-2.137255	of humility	-0.157981
+-2.137255	of irritating	-0.022863
+-1.914648	of left	-0.022863
+-2.137255	of mental	-0.022863
+-1.952619	of neurons	-0.022863
+-1.737890	of right	-0.022863
+-0.501513	of the	-0.057376
+-1.952619	of what	-0.022863
+-1.502503	on each	-0.022863
+-1.412743	on left	-0.022863
+-1.490576	on one	-0.022863
+-1.321475	on right	-0.022863
+-1.163299	one body	-0.022863
+-1.172936	one side	-0.022863
+-0.575473	only </s>
+-0.900852	opposite hemisphere	-0.022863
+-0.912515	optic nerves	-0.022863
+-0.915634	or nothing	-0.022863
+-0.575473	organization </s>
+-0.915634	other senses	-0.022863
+-0.912515	our minds	-0.022863
+-1.153871	over in	-0.022863
+-1.211541	over synapses	-0.022863
+-0.575473	pain </s>
+-0.915634	parallel processing	-0.022863
+-1.182792	part i	-0.022863
+-1.211541	part ii	-0.022863
+-0.824617	parts of	-0.022863
+-0.434502	pathway between	-0.022863
+-0.915634	pathways leading	-0.022863
+-0.575473	penis </s>
+-0.912515	people one	-0.022863
+-0.912515	permits data	-0.022863
+-0.912515	person after	-0.022863
+-1.205397	personal computer	-0.022863
+-1.211541	personal identity	-0.022863
+-0.912515	physical things	-0.022863
+-0.875561	principle is	-0.022863
+-0.824617	problem of	-0.022863
+-0.912515	problems with	-0.022863
+-0.885501	processed in	-0.022863
+-0.575473	processing </s>
+-0.880502	processor as	-0.022863
+-0.915634	projection areas	-0.022863
+-0.575473	prosopagnosia </s>
+-0.575473	prozac </s>
+-0.575473	psychopathy </s>
+-0.575473	qualia </s>
+-0.915634	radical bodily	-0.022863
+-0.915634	reasoning moral	-0.022863
+-0.895674	received on	-0.022863
+-0.912515	recognition language	-0.022863
+-0.575473	reconciled </s>
+-0.915634	reflex machines	-0.022863
+-0.575473	reflexes </s>
+-0.575473	release </s>
+-0.861064	remains the	-0.022863
+-0.880502	remarkable as	-0.022863
+-0.885501	resistant to	-0.022863
+-0.575473	responsibility </s>
+-0.875561	rest is	-0.022863
+-0.824617	result of	-0.022863
+-0.809706	right </s>
+-1.865325	right field	-0.022863
+-0.631461	right hemisphere	-0.624923
+-1.182322	right side	-0.157981
+-1.865325	right sides	-0.022863
+-1.188782	right visual	-0.157981
+-0.326439	robots </s>
+-0.824617	role of	-0.022863
+-0.915634	rubbed his	-0.022863
+-1.163299	s body	-0.022863
+-1.205397	s like	-0.022863
+-0.915634	same person	-0.022863
+-0.861064	seems right	-99
+-0.912515	self after	-0.022863
+-0.915634	senses similar	-0.022863
+-1.490576	sensory data	-0.022863
+-1.490576	sensory information	-0.022863
+-1.502503	sensory neglect	-0.022863
+-1.430009	sensory neurons	-0.022863
+-0.885501	sent to	-0.022863
+-0.575473	separate </s>
+-0.510485	side </s>
+-1.255041	side of	-0.022863
+-1.411822	side to	-0.022863
+-0.730994	sides </s>
+-1.340598	sides are	-0.022863
+-1.299587	sides in	-0.022863
+-0.575473	similar </s>
+-0.880502	skilled motor	-0.022863
+-0.575473	slapstick </s>
+-0.575473	sleep </s>
+-0.915634	so remarkable	-0.022863
+-0.895674	somatosensory cortex	-0.022863
+-1.382569	some functions	-0.022863
+-1.382569	some subcortical	-0.022863
+-1.382569	some very	-0.022863
+-0.915634	soul inhabits	-0.022863
+-0.915634	spinal cord	-0.022863
+-0.912515	spiritual value	-0.022863
+-0.824617	spontaneity of	-0.022863
+-0.824617	state of	-0.022863
+-0.915634	still remains	-0.022863
+-0.915634	strong evidence	-0.022863
+-0.686591	structures </s>
+-1.172936	structures on	-0.022863
+-0.912515	subcortical structures	-0.022863
+-0.915634	subjective experience	-0.022863
+-0.885501	sucking in	-0.022863
+-0.824617	surface of	-0.022863
+-0.824617	survival of	-0.022863
+-0.915634	synapses axons	-0.022863
+-0.915634	synopsis slapstick	-0.022863
+-1.205397	t believe	-0.022863
+-1.211541	t need	-0.022863
+-0.824617	than of	-0.022863
+-1.211541	that anything	-0.022863
+-1.211541	that could	-0.022863
+-2.081956	the appearance	-0.022863
+-1.841678	the body	-0.022863
+-0.770337	the brain	-0.022863
+-1.882018	the cortex	-0.022863
+-2.081956	the creativity	-0.022863
+-2.081956	the destruction	-0.022863
+-2.081956	the djin	-0.022863
+-2.081956	the hard	-0.022863
+-1.926492	the human	-0.022863
+-2.081956	the penis	-0.022863
+-2.081956	the rest	-0.022863
+-2.081956	the role	-0.022863
+-2.081956	the self	-0.022863
+-2.081956	the survival	-0.022863
+-0.915634	there still	-0.022863
+-0.900852	therefore i	-0.022863
+-0.912515	they be	-0.022863
+-1.205397	things can	-0.022863
+-1.205397	things that	-0.022863
+-0.915634	think therefore	-0.022863
+-0.915634	thirst sleep	-0.022863
+-0.875561	this is	-0.022863
+-0.915634	thomas huxley	-0.022863
+-0.915634	thought etc	-0.022863
+-1.211541	through massively	-0.022863
+-1.211541	through number	-0.022863
+-0.875561	tissue is	-0.022863
+-1.710872	to be	-0.022863
+-1.730862	to damage	-0.022863
+-1.588339	to left	-0.022863
+-1.730862	to opposite	-0.022863
+-1.457878	to right	-0.022863
+-1.457878	to the	-0.022863
+-1.614472	to you	-0.022863
+-0.880502	unaccountable as	-0.022863
+-0.824617	understanding of	-0.022863
+-0.915634	unlike most	-0.022863
+-0.912515	unnatural view	-0.022863
+-0.912515	up like	-0.022863
+-0.326439	value </s>
+-0.575473	values </s>
+-0.915634	very bad	-0.022863
+-0.326439	view </s>
+-0.780460	visual </s>
+-1.651374	visual agnosia	-0.022863
+-1.590982	visual corpus	-0.022863
+-1.668754	visual crossover	-0.022863
+-1.590982	visual field	-0.022863
+-1.423651	visual right	-0.022863
+-0.575473	vomiting </s>
+-0.915634	vs antagonists	-0.022863
+-1.211541	we also	-0.022863
+-1.211541	we know	-0.022863
+-1.430009	what about	-0.022863
+-1.430009	what do	-0.022863
+-1.430009	what it	-0.022863
+-1.502503	what physical	-0.022863
+-0.915634	when aladdin	-0.022863
+-0.915634	whose soul	-0.022863
+-0.885501	will and	-0.022863
+-0.915634	wired up	-0.022863
+-0.686591	with </s>
+-1.182792	with dualism	-0.022863
+-0.915634	withdrawal from	-0.022863
+-0.575473	work </s>
+-0.912515	works through	-0.022863
+-0.575473	wrong </s>
+-1.481137	you and	-0.022863
+-1.584080	you believe	-0.022863
+-0.829896	you don	-0.157981
+-1.537409	you have	-0.022863
+-0.428409	your brain	-0.022863
+
+\3-grams:
+-0.491298	<s> a bit
+-0.661443	<s> about </s>
+-0.778598	<s> acquired psychopathy
+-0.302174	<s> agnosia </s>
+-0.753987	<s> aids motor
+-0.517934	<s> alcohol </s>
+-0.778598	<s> all or
+-0.517934	<s> amphetamines </s>
+-0.753987	<s> animals as
+-0.517934	<s> aphasia </s>
+-0.517934	<s> apraxia </s>
+-0.310089	<s> argument </s>
+-0.353511	<s> brain </s>
+-1.432838	<s> brain has
+-1.328617	<s> but our
+-1.328617	<s> but there
+-1.281154	<s> but what
+-0.960299	<s> can they
+-0.778598	<s> cerebeullum complicated
+-0.776437	<s> communication over
+-0.957020	<s> computers robots
+-0.778598	<s> connects comparable
+-0.923433	<s> contralateral motor
+0.000000	<s> corpus callosum
+-0.274017	<s> cortex </s>
+-1.428093	<s> cortex callosum
+-1.433619	<s> cortex contains
+-0.517934	<s> curare </s>
+-0.776437	<s> current view
+-0.517934	<s> descartes </s>
+-0.778598	<s> drugs agonists
+-0.308010	<s> dualism </s>
+-2.037384	<s> dualism is
+-0.349617	<s> dualism seems
+-0.713638	<s> erection of
+-0.517934	<s> excitatory </s>
+-0.778598	<s> fantastical farce
+-0.381806	<s> field </s>
+-0.960299	<s> firing frequency
+-0.778598	<s> free will
+-0.778598	<s> heartbeat breathing
+-1.248645	<s> how does
+-1.208810	<s> how it
+-1.242297	<s> how many
+-0.778598	<s> hypothalamus hunger
+-1.042882	<s> i think
+-0.517934	<s> inhibitory </s>
+-0.778598	<s> intensity expressed
+-0.776437	<s> intrinsic value
+-1.092994	<s> is the
+-0.778598	<s> l dopa
+-0.735507	<s> language </s>
+-1.281154	<s> language on
+-1.328617	<s> language reasoning
+-0.750478	<s> lateralization is
+-0.956514	<s> left hemisphere
+-1.655035	<s> left right
+-0.293382	<s> left visual
+-0.778598	<s> less than
+-0.778598	<s> limb flexion
+-1.071800	<s> major but
+-1.071800	<s> major pathway
+-0.405250	<s> maybe you
+-0.778598	<s> mechanistic conception
+-0.778598	<s> medial surface
+-0.778598	<s> medualla certain
+-1.028544	<s> mind as
+-1.042012	<s> mind brain
+-1.335525	<s> motor cortex
+-1.377626	<s> motor nerves
+-0.655861	<s> movements </s>
+-1.076076	<s> movements controlled
+-1.090922	<s> my arm
+-0.284416	<s> neurons </s>
+-0.517934	<s> neurotransmitters </s>
+-0.778598	<s> no because
+-1.201836	<s> of left
+-0.776437	<s> optic nerves
+-0.517934	<s> organization </s>
+-0.778598	<s> other senses
+-0.397800	<s> pathway between
+-0.776437	<s> permits data
+-1.182590	<s> personal computer
+-0.599986	<s> personal identity
+-0.750478	<s> principle is
+-0.776437	<s> problems with
+-0.517934	<s> prosopagnosia </s>
+-0.517934	<s> prozac </s>
+-0.517934	<s> qualia </s>
+-0.776437	<s> recognition language
+-1.413667	<s> right field
+-0.606784	<s> right hemisphere
+-0.778598	<s> same person
+-1.361713	<s> sensory data
+-1.361713	<s> sensory information
+-1.370089	<s> sensory neglect
+-1.318144	<s> sensory neurons
+-0.753987	<s> skilled motor
+-0.764688	<s> somatosensory cortex
+-1.248645	<s> some functions
+-1.248645	<s> some subcortical
+-1.248645	<s> some very
+-0.776437	<s> spiritual value
+-0.778598	<s> strong evidence
+-0.778598	<s> subjective experience
+-0.757525	<s> sucking in
+-0.778598	<s> synopsis slapstick
+-1.474998	<s> the creativity
+-1.474998	<s> the survival
+-0.778598	<s> thirst sleep
+-0.750478	<s> this is
+-0.778598	<s> thought etc
+-0.778598	<s> unlike most
+-1.329633	<s> visual agnosia
+-1.337407	<s> visual crossover
+-0.517934	<s> vomiting </s>
+-1.076076	<s> we also
+-1.076076	<s> we know
+-1.062836	<s> what do
+-0.717511	<s> you don
+-0.778598	a better understanding
+-0.388241	a bit of
+-0.713638	a result of
+-0.713638	a state of
+-0.960299	about an eccentric
+-0.804338	about as a
+-0.778598	about humanist values
+-0.517934	acquired psychopathy </s>
+-0.778598	after radical bodily
+-1.228136	after the destruction
+-0.778598	agonists vs antagonists
+-1.175326	aids motor coordination
+-0.778598	aladdin rubbed his
+-0.778598	all or nothing
+-1.042882	also have material
+-0.778598	an eccentric millionairess
+-0.757525	an odd and
+-0.517934	and nonphyscial </s>
+-0.517934	and responsibility </s>
+-0.944511	and right side
+-0.713638	and spontaneity of
+-0.776437	and unnatural view
+-0.392483	and your brain
+-1.162390	animals as reflex
+-0.778598	anything so remarkable
+-0.455623	appearance of the
+-0.757525	are immaterial and
+-0.517934	are lateralized </s>
+-0.517934	are separate </s>
+-1.228136	areas the rest
+-1.090922	arm my heart
+-1.302968	as a result
+-1.302968	as a state
+-0.302174	as computer </s>
+-0.960299	as information processor
+-0.778598	as reflex machines
+-1.228136	as the appearance
+-0.753987	as unaccountable as
+-0.517934	axons release </s>
+-0.957020	bad things that
+-0.757525	be processed in
+-0.517934	be reconciled </s>
+-0.627152	because it is
+-1.121405	believe in dualism
+-0.701875	believe it </s>
+-0.713638	better understanding of
+-0.172098	between hemispheres </s>
+-0.642947	between sides </s>
+-0.508621	bit of humility
+-0.517934	bodily changes </s>
+-1.055719	body my brain
+-0.172098	both hemispheres </s>
+-0.463269	brain do </s>
+-0.960299	brain for everything
+-0.768315	brain has hemispheres
+-0.778598	brain wired up
+-0.517934	brain work </s>
+-0.776437	brain works through
+-0.778598	but not only
+-0.776437	but our minds
+-0.778598	but there still
+-1.062836	but what about
+-1.175326	by motor area
+-0.463269	can do </s>
+-0.776437	can they be
+-0.517934	cerebeullum complicated </s>
+-0.517934	certain reflexes </s>
+-1.041827	comes about as
+-0.960299	communication over synapses
+-0.939336	comparable structures on
+-0.302174	computers robots </s>
+-0.673106	computers the brain
+-1.235088	conception of mental
+-0.776437	connects comparable structures
+-0.764688	consciousness comes about
+-0.778598	contains projection areas
+-0.855366	contralateral motor control
+-0.517934	control logic </s>
+-0.753987	controlled by motor
+-1.128826	controls left side
+-0.944511	controls right side
+-0.545189	coordination corpus callosum
+0.000000	corpus callosum </s>
+-0.948044	corpus right visual
+-0.302174	cortex callosum </s>
+-0.778598	cortex contains projection
+-0.757525	could happen to
+-1.144944	creativity and spontaneity
+-1.004910	cross sides in
+-0.928670	crosses over in
+-0.302174	current view </s>
+-0.778598	damage extremely fast
+-0.776437	data crosses over
+-0.764688	data received on
+-0.903097	designed computers the
+-0.455623	destruction of the
+-0.713638	different parts of
+-0.778598	djin when aladdin
+-0.778598	do different parts
+-1.103435	do you have
+-0.673106	does the brain
+-1.071800	don t believe
+-1.076076	don t need
+-0.778598	drugs agonists vs
+-1.185095	dualism is wrong
+0.000000	dualism seems right
+-0.463269	each side </s>
+-0.778598	eccentric millionairess whose
+-0.455623	erection of the
+-0.903097	evidence for the
+-1.062836	experience what it
+-0.960299	expressed through number
+-0.517934	extremely fast </s>
+-0.764688	fantastical farce about
+-1.086497	farce about an
+-1.299987	field to left
+-1.231379	field to right
+-0.713638	firing frequency of
+-1.144944	flexion in withdrawal
+-0.517934	for everything </s>
+-1.228136	for the role
+-0.757525	free will and
+-1.230917	frequency of firing
+-0.517934	from pain </s>
+-1.042882	functions are lateralized
+-1.128826	happen to you
+-0.713638	hard problem of
+-0.172098	has hemispheres </s>
+-1.122522	have a better
+-0.778598	have material bodies
+-1.055719	heart my body
+-0.517934	heartbeat breathing </s>
+-1.042012	hemisphere controls left
+-1.002801	hemisphere controls right
+-0.778598	her male lawyer
+-0.757525	highly resistant to
+-0.778598	his lamp thomas
+-0.740117	how does the
+-0.627152	how it is
+-0.957020	how many minds
+-0.517934	human action </s>
+-0.776437	human designed computers
+-0.517934	humanist values </s>
+-1.055910	humility part i
+-1.076076	humility part ii
+-0.517934	hypothalamus hunger </s>
+-0.517934	i am </s>
+-0.778598	i think therefore
+-0.960299	identity many people
+-1.144944	immaterial and nonphyscial
+-0.768315	in both hemispheres
+-0.319183	in dualism </s>
+-0.517934	in newborns </s>
+-0.778598	in pathways leading
+-0.778598	in spinal cord
+-0.778598	in withdrawal from
+-0.753987	information processor as
+-0.757525	information sent to
+-0.778598	inhabits her male
+-0.776437	intensity expressed through
+-0.302174	intrinsic value </s>
+-0.608162	involved with </s>
+-0.778598	irritating nervous tissue
+-0.960299	is an odd
+-0.608162	is contralateral </s>
+-0.778598	is highly resistant
+-0.776437	is involved with
+-0.753987	is just as
+-0.740117	is never right
+-0.960299	is that anything
+-0.673106	is the brain
+-0.517934	is wrong </s>
+-1.401672	it is highly
+-1.392671	it is that
+-0.957020	it s like
+-1.162390	just as unaccountable
+-1.017653	know have a
+-0.517934	l dopa </s>
+-0.778598	lamp thomas huxley
+-0.855366	language motor control
+-1.055719	language on left
+-0.778598	language reasoning moral
+-1.185095	lateralization is never
+-0.933970	lawyer s body
+-1.073973	leading to the
+-1.060234	left and right
+-0.358147	left hemisphere </s>
+-0.781031	left hemisphere controls
+-0.778598	left math music
+-1.192340	left right sides
+-0.982897	left side of
+-1.382740	left visual corpus
+-1.382740	left visual field
+-1.276862	left visual right
+-0.713638	less than of
+-0.672931	like a </s>
+-0.757525	limb flexion in
+-0.302174	machines robots </s>
+-1.090922	major but not
+-0.397800	major pathway between
+-0.776437	male lawyer s
+-0.939336	many minds do
+-0.776437	many people one
+-0.778598	massively parallel processing
+-0.517934	material bodies </s>
+-0.764688	math music on
+-1.297901	maybe you believe
+-0.779891	maybe you don
+-0.713638	mechanistic conception of
+-0.713638	medial surface of
+-0.778598	medualla certain reflexes
+-0.517934	mental life </s>
+-0.778598	millionairess whose soul
+-1.157594	mind as information
+-0.329079	mind brain </s>
+-1.042882	minds are immaterial
+-1.067635	minds do you
+-1.042882	most human designed
+-0.517934	motor area </s>
+-0.655861	motor control </s>
+-1.076076	motor control logic
+-0.768315	motor coordination corpus
+-0.246972	motor cortex </s>
+-0.960299	motor nerves cross
+-1.091949	motor neurons interneurons
+-0.778598	movements controlled by
+-1.015308	music on right
+-0.764688	my arm my
+-1.111703	my body my
+-0.329079	my brain </s>
+-0.764688	my heart my
+-0.392483	need your brain
+-0.768315	nerves cross sides
+-0.750478	nervous tissue is
+-0.517934	neurons interneurons </s>
+-1.143735	neurons motor neurons
+-0.563939	never right hemisphere
+-0.764688	no because it
+-0.517934	not only </s>
+-1.208570	number of neurons
+-1.144944	odd and unnatural
+-0.192727	of body </s>
+-0.655861	of consciousness </s>
+-1.076076	of consciousness comes
+-0.608162	of firing </s>
+-1.042882	of human action
+-0.409656	of humility part
+-0.778598	of irritating nervous
+-1.112434	of left and
+-0.778598	of mental life
+-0.463269	of neurons </s>
+-0.563939	of right hemisphere
+-1.700216	of the body
+-0.627421	of the brain
+-1.836197	of the djin
+-1.751918	of the human
+-1.836197	of the penis
+-1.836197	of the self
+-1.090922	of what physical
+-0.764688	on each side
+-1.161699	on left math
+-0.939336	on one side
+-0.702632	on right </s>
+-0.192727	one body </s>
+-1.055335	one side to
+-0.333460	opposite hemisphere </s>
+-0.608162	optic nerves </s>
+-0.517934	or nothing </s>
+-0.778598	other senses similar
+-0.944769	our minds are
+-1.144944	over in pathways
+-0.778598	over synapses axons
+-0.517934	parallel processing </s>
+-0.642947	part i </s>
+-0.517934	part ii </s>
+-0.455623	parts of the
+-1.055910	pathway between hemispheres
+-1.055910	pathway between sides
+-0.757525	pathways leading to
+-0.933970	people one body
+-0.960299	permits data received
+-0.960299	person after radical
+-0.302174	personal computer </s>
+-0.655861	personal identity </s>
+-1.071800	personal identity many
+-0.957020	physical things can
+-1.179606	principle is contralateral
+-1.051471	problem of consciousness
+-0.944769	problems with dualism
+-1.144944	processed in both
+-1.157594	processor as computer
+-0.740117	projection areas the
+-0.778598	radical bodily changes
+-0.517934	reasoning moral </s>
+-1.086497	received on one
+-1.041827	recognition language motor
+-0.776437	reflex machines robots
+-1.228136	remains the hard
+-0.804338	remarkable as a
+-1.161699	resistant to damage
+-1.185095	rest is involved
+-1.235088	result of irritating
+-0.536057	right field to
+-0.068957	right hemisphere </s>
+-1.320558	right hemisphere controls
+-0.284416	right side </s>
+-1.024168	right sides are
+-0.376572	right visual </s>
+-0.455623	role of the
+-0.778598	rubbed his lamp
+-0.192727	s body </s>
+-0.608162	s like </s>
+-0.776437	same person after
+0.000000	seems right </s>
+-0.903097	self after the
+-0.517934	senses similar </s>
+-0.960299	sensory data crosses
+-0.960299	sensory information sent
+-0.517934	sensory neglect </s>
+-1.049313	sensory neurons motor
+-1.161699	sent to opposite
+-1.201836	side of body
+-1.156496	side to be
+-1.042882	sides are separate
+-1.144944	sides in spinal
+-0.711912	skilled motor </s>
+-0.753987	so remarkable as
+-0.246972	somatosensory cortex </s>
+-0.768315	some functions are
+-0.776437	some subcortical structures
+-0.778598	some very bad
+-0.778598	soul inhabits her
+-0.517934	spinal cord </s>
+-0.302174	spiritual value </s>
+-1.215410	spontaneity of human
+-1.051471	state of consciousness
+-0.740117	still remains the
+-0.776437	strong evidence for
+-1.090922	structures on each
+-0.608162	subcortical structures </s>
+-0.764688	subjective experience what
+-1.144944	sucking in newborns
+-1.163486	surface of right
+-0.455623	survival of the
+-0.778598	synapses axons release
+-0.517934	synopsis slapstick </s>
+-0.939336	t believe it
+-0.776437	t need your
+-0.455623	than of the
+-0.778598	that anything so
+-0.778598	that could happen
+-0.713638	the appearance of
+-0.192727	the body </s>
+-0.368858	the brain </s>
+-1.599000	the brain do
+-1.667018	the brain wired
+-1.667018	the brain work
+-1.667018	the brain works
+-0.246972	the cortex </s>
+-0.757525	the creativity and
+-0.713638	the destruction of
+-0.778598	the djin when
+-0.778598	the hard problem
+-0.642947	the human </s>
+-0.517934	the penis </s>
+-0.750478	the rest is
+-0.713638	the role of
+-0.776437	the self after
+-0.713638	the survival of
+-0.778598	there still remains
+-1.042882	therefore i am
+-0.960299	they be reconciled
+-0.939336	things can do
+-0.960299	things that could
+-0.768315	think therefore i
+-0.517934	thirst sleep </s>
+-1.179606	this is an
+-0.517934	thomas huxley </s>
+-0.517934	thought etc </s>
+-0.778598	through massively parallel
+-0.713638	through number of
+-1.185095	tissue is just
+-0.960299	to be processed
+-0.778598	to damage extremely
+-0.686444	to left </s>
+-0.768315	to opposite hemisphere
+-0.563939	to right hemisphere
+-1.195652	to the cortex
+-1.082941	to you and
+-1.080954	unaccountable as the
+-1.208570	understanding of what
+-0.768315	unlike most human
+-0.302174	unnatural view </s>
+-0.939336	up like a
+-0.776437	very bad things
+-0.302174	visual agnosia </s>
+-0.987645	visual corpus right
+-0.517934	visual crossover </s>
+-0.536057	visual field to
+-0.948044	visual right visual
+-0.517934	vs antagonists </s>
+-0.768315	we also have
+-0.768315	we know have
+-1.090922	what about humanist
+-1.091949	what do different
+-1.088133	what it s
+-0.776437	what physical things
+-0.778598	when aladdin rubbed
+-0.778598	whose soul inhabits
+-1.144944	will and responsibility
+-0.776437	wired up like
+-0.319183	with dualism </s>
+-0.778598	withdrawal from pain
+-0.960299	works through massively
+-1.139937	you and your
+-0.928670	you believe in
+-0.409656	you don t
+-0.642947	you have </s>
+-0.353511	your brain </s>
+-1.426305	your brain for
+
+\end\
