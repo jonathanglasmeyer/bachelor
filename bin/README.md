@@ -1,5 +1,9 @@
 # process
 
+approach of `sphinx-interpolated.py`:
+  supply a `config.json` which specifies the paths.
+  if it contains 'keywordModelPath' key, the result will be using the interpolated approach
+
 ###. Recognition
 1.1 get audio as wav, convert it
 1.2 `html-to-corpus transcription.html reference` (will output `reference.corpus.txt`)
