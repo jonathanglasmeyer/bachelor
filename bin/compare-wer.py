@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import sys
+import sys, os
 from pprint import pprint
 from collections import Counter
 
@@ -9,14 +9,17 @@ SHOW_CORRECT_LINES = True
 # lemmatizer = WordNetLemmatizer()
 # lemmatize = lemmatizer.lemmatize
 
+script_path = os.path.dirname(os.path.realpath(__file__))
+template_folder = os.path.join(script_path, 'data/html_template')
+
 FILTER_BY_CORPUS = True
 if FILTER_BY_CORPUS:
     X = 500
-else: 
+else:
     X = 800
 
-top5000words = open('/home/jwerner/uni/bachelor/bin/top5000.txt').read().split('\n')[:-1]
-topXwords=top5000words[:X]
+from lib import top_x_words
+topXwords = top_x_words(X)
 
 
 def in_(w, corpus):
@@ -114,27 +117,27 @@ def compare(wer_result1, wer_result2, name1, name2, template, corpus_without_top
     # -> in relation to all interesting words.
 
     if FILTER_BY_CORPUS:
-        interesting_words = [w for w in reference_words 
+        interesting_words = [w for w in reference_words
                 if w in corpus]
 
-        worsened_words_top = [w for w in worsened_words 
+        worsened_words_top = [w for w in worsened_words
                 if not in_(w, corpus)]
-        worsened_words_interesting = [w for w in worsened_words 
+        worsened_words_interesting = [w for w in worsened_words
                 if in_(w, corpus)]
-        improved_words_top = [w for w in improved_words 
+        improved_words_top = [w for w in improved_words
                 if not in_(w, corpus)]
-        improved_words_interesting = [w for w in improved_words 
+        improved_words_interesting = [w for w in improved_words
                 if in_(w, corpus)]
     else:
-        interesting_words = [w for w in reference_words 
+        interesting_words = [w for w in reference_words
                 if w not in corpus]
-        worsened_words_top = [w for w in worsened_words 
+        worsened_words_top = [w for w in worsened_words
                 if in_(w, corpus)]
-        worsened_words_interesting = [w for w in worsened_words 
+        worsened_words_interesting = [w for w in worsened_words
                 if not in_(w, corpus)]
-        improved_words_top = [w for w in improved_words 
+        improved_words_top = [w for w in improved_words
                 if in_(w, corpus)]
-        improved_words_interesting = [w for w in improved_words 
+        improved_words_interesting = [w for w in improved_words
                 if not in_(w, corpus)]
 
     # worsened_words_sorted = \
@@ -161,14 +164,14 @@ def compare(wer_result1, wer_result2, name1, name2, template, corpus_without_top
             </p>
 
             <p>{}</p>
-            <br/> 
+            <br/>
             <p>{}</p>
-            <br/> 
+            <br/>
             <p>
-                <b>Improved Words ({})</b> ({} are interesting; {} interesting words improved): 
+                <b>Improved Words ({})</b> ({} are interesting; {} interesting words improved):
             </p>
             <p>{}</p>
-            <br/> 
+            <br/>
             <p>{}</p>
         '''.format(
         percent(len(worsened_words), len(reference_words)),
@@ -198,7 +201,7 @@ def main_():
     corpus = open(args[4]).read().split()[:-1]
     corpus_without_top_words = \
         [w for w in corpus if w not in topXwords]
-    template = open('/home/jwerner/uni/bachelor/bin/compare-wer/template.html').read()
+    template = open(os.path.join(template_folder, 'template.html')).read()
     compare(wer_result1, wer_result2, name1, name2, template, corpus_without_top_words)
 
 main_()

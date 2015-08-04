@@ -12,7 +12,8 @@ from nltk.stem.wordnet import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 lemmatize = lemmatizer.lemmatize
 
-data_resources_folder = '/home/jwerner/uni/bachelor/bin'
+from lib import top_x_words
+top_x = top_x_words(500)
 
 def calculate_keyword_wers(wer_lines):
     # print('-'*60)
@@ -42,12 +43,6 @@ def calculate_keyword_wers(wer_lines):
     print('{}/{} keywords recognized => {}% WER.'.format(
         overall_recognized, overall_count, 100-(100*overall_recognized/overall_count)))
 
-# keywords_file = os.path.join(data_resources_folder, 'keywords.txt')
-top5000_file = os.path.join(data_resources_folder, 'top5000.txt')
-
-# keywords = set([w.lower() for w in open(keywords_file).read().split()])
-top5000words = open('/home/jwerner/uni/bachelor/bin/top5000.txt').read().split('\n')[:-1]
-top5000words=top5000words[:500]
 
 def keyword_wer(frequent_keywords, wer_file):
     wer_lines = unicode(open(wer_file).read(), 'utf-8').split('\n')[1:-6]
@@ -89,9 +84,9 @@ def unfrequent_nouns(f):
     - export those words and their counts into json (stdout)
     """
 
-    top5000words_with_variants = set(top5000words)
+    top5000words_with_variants = set(top_x)
 
-    for w in top5000words:
+    for w in top_x:
         if len(w) >= 3:
             top5000words_with_variants |= {w + 's'}
             top5000words_with_variants |= {w + 'ing'}
@@ -106,16 +101,16 @@ def unfrequent_nouns(f):
     top5000words_with_variants |= contractions
 
     hyp = [unicode(w.lower(), 'utf-8') for w in open(f).read().split()]
-    # hyp_nouns = (w for w,pos in pos_tag(hyp) if 
+    # hyp_nouns = (w for w,pos in pos_tag(hyp) if
         # pos in ['NNP', 'NN', '-NONE-', 'NNS'])
     hyp_lemmatized = (lemmatize(w) for w in hyp)
 
     # remove short words and words with '
     hyp_lemmatized = \
-        (w for w in hyp_lemmatized if 
+        (w for w in hyp_lemmatized if
             len(w) >= 3 and not "'" in w)
 
-    hyp_special = (w for w in hyp_lemmatized if w not in top5000words)
+    hyp_special = (w for w in hyp_lemmatized if w not in top_x)
     bag = Counter(hyp_special)
 
     json_ = json.dumps(

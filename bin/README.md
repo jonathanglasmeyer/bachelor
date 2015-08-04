@@ -1,4 +1,28 @@
-# bachelor-bin
+# process
+
+###. Recognition
+1.1 get audio as wav, convert it
+1.2 `html-to-corpus transcription.html reference` (will output `reference.corpus.txt`)
+1. `pdf-to-corpus.py slides.pdf > slides.corpus.txt`
+1.1 (optional: manually edit `slides.corpus.txt`)
+2. `estimate-ngram -text slides.corpus.txt -write-lm model.lm`
+3. change paths in intellij to find `model.lm` and audio
+4. run sphinx4
+5. copy output to new subfolder in `resources`
+
+###. Analysis
+1. Cloud visualization
+  1.1 `filter.py reference.txt > reference_wordcounts.json`
+  1.2. `wordpositions reference_wordcounts.json times.txt > word_timings.json`
+  1.3 `cluster.py word_timings.json`
+  1.4 copy `word_timings.json` to `viz/public/data/words.json`
+
+2. RWER (Relevant Word Error Rate)
+  2.1 `wer.py reference.txt hypothesis.txt > wer-baseline.txt`
+  2.2 `wer.py reference.txt hypothesis2.txt > wer-better.txt`
+  2.3 `compare-wer.py wer-baseline.txt wer-better.txt name-baseline name-better slide-corpus.txt > wer_comparison.html`
+
+# scripts
 
 #### `html-to-corpus`
 - takes a HTML-File from the resources and transform it to a uppercased, punctuation removed blob of words.
@@ -36,7 +60,7 @@ create clusters for each word (from the output of wordpositions)
 #### `wer.py reference.txt hyp.txt`:
 show general WER analysis with respect to the whole reference text
 
-#### `compare-wer.py wer-baseline.txt wer-better.txt name-baseline name-better`:
+#### `compare-wer.py wer-baseline.txt wer-better.txt name-baseline name-better slide-corpus.txt`:
 compare to WER analysis, output html to stdout with nice formatting
 
 #### `pdf-to-corpus.py class03.pdf`:

@@ -19,10 +19,10 @@ def main():
     # print(output)
 
     tmp_corpus_filename = '/tmp/corpus.txt'
-    call('pdftotext {}'.format(pdf_filepath))
+    call('pdftotext {} {}'.format(pdf_filepath, tmp_corpus_filename))
 
     # move to tmp
-    call('cat {} > {}'.format(output_file_path, tmp_corpus_filename))
+    # call('cat {} > {}'.format(output_file_path, tmp_corpus_filename))
 
     # collapse ' (eg freud's to freuds)
     call("""sed -i.bak "s/[’']//g" {}""".format(tmp_corpus_filename))
