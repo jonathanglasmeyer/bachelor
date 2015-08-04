@@ -1,3 +1,5 @@
+models
 resources
 viz/node_modules
 viz/public
+bin/sphinx
