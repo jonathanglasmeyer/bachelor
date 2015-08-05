@@ -13,6 +13,13 @@ def wrapInDoubleQuotes(s):
 def main():
     args = sys.argv[1:]
     config_path = args[0]
+    if len(args) == 2: 
+        INTERPOLATED = True
+        print('INTERPOLATE MODE\n')
+    else:
+        INTERPOLATED = False
+        print('BASELINE MODE\n')
+
     config = json.load(open(config_path))
 
 
@@ -35,7 +42,7 @@ def main():
     dictionaryPath    = model(config['dictionaryPath'])
     g2pModelPath      = model(config['g2pModelPath'])
 
-    if 'keywordModelPath' in config:
+    if 'keywordModelPath' in config and INTERPOLATED:
         keywordModelPath = result(config['keywordModelPath'])
         new_config = interpolated_config_template.replace(
                 '{{keywordLm}}', keywordModelPath)
@@ -43,13 +50,16 @@ def main():
                 '{{lm}}', languageModelPath)
         sphinx_config_file_path = '/tmp/interpolated.config.json'
         open(sphinx_config_file_path, 'w').write(new_config)
-        # interpolated_sphinx_config = os.path.join
+
+        outFilePathTranscription = result('sphinx_result_interpolated.txt')
+        outFilePathTimes = result('sphinx_word_times_interpolated.txt')
     else:
         sphinx_config_file_path = default_config_path
 
+        outFilePathTranscription = result('sphinx_result.txt')
+        outFilePathTimes = result('sphinx_word_times.txt')
+
     inputWaveFilepath = result('resources/audio.wav')
-    outFilePathTranscription = result('sphinx_result.txt')
-    outFilePathTimes = result('sphinx_word_times.txt')
 
     sphinx_arguments = ' '.join(map(wrapInDoubleQuotes, [
         acousticModelPath,
