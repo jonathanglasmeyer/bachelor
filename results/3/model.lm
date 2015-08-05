@@ -1,0 +1,2132 @@
+
+\data\
+ngram 1=445
+ngram 2=887
+ngram 3=787
+
+\1-grams:
+-0.742551	</s>
+-99	<s>	-0.196227
+-2.137538	a	-0.056311
+-2.759186	about	-0.087091
+-2.839731	according	-0.056311
+-2.839731	achieve	-0.056311
+-2.839731	achieved	-0.056311
+-2.839731	actions	-0.056311
+-2.759186	activities	-0.056311
+-2.759186	adult	-0.056311
+-2.839731	adulthood	-0.056311
+-2.759186	adults	-0.056311
+-2.839731	after	-0.056311
+-2.839731	all	-0.056311
+-2.759186	also	-0.056311
+-2.759186	am	-0.103339
+-2.408562	an	-0.056311
+-2.782894	anal	-0.056311
+-1.787687	and	-0.131296
+-2.839731	anger	-0.056311
+-2.839731	anus	-0.056311
+-2.759186	anxiety	-0.056311
+-2.839731	anxietyproducing	-0.056311
+-2.839731	any	-0.056311
+-2.839731	applications	-0.056311
+-2.839731	appropriate	-0.056311
+-2.020436	are	-0.056311
+-2.759186	as	-0.056311
+-2.839731	assessment	-0.056311
+-2.759186	associated	-0.103339
+-2.839731	association	-0.056311
+-2.782894	at	-0.056311
+-2.839731	attacks	-0.056311
+-2.839731	attempt	-0.056311
+-2.839731	attention	-0.056311
+-2.839731	attributing	-0.056311
+-2.759186	available	-0.056311
+-2.839731	away	-0.056311
+-2.782894	be	-0.056311
+-2.839731	because	-0.056311
+-2.839731	been	-0.056311
+-2.839731	begin	-0.056311
+-2.839731	behavior	-0.056311
+-2.839731	behaviors	-0.056311
+-2.839731	being	-0.056311
+-2.839731	benefit	-0.056311
+-2.839731	best	-0.056311
+-2.759186	between	-0.056311
+-2.839731	bill	-0.056311
+-2.759186	birth	-0.056311
+-2.839731	blindness	-0.056311
+-2.839731	book	-0.056311
+-2.759186	but	-0.056311
+-2.298367	by	-0.315394
+-2.298367	can	-0.315394
+-2.839731	castration	-0.056311
+-2.839731	catharsis	-0.056311
+-2.839731	characteristic	-0.056311
+-2.839731	characteristics	-0.056311
+-2.839731	charged	-0.056311
+-2.839731	chewing	-0.056311
+-2.839731	child	-0.056311
+-2.839731	children	-0.056311
+-2.759186	claims	-0.056311
+-2.782894	class	-0.087091
+-2.839731	classesv	-0.056311
+-2.759186	committee	-0.056311
+-2.839731	complete	-0.056311
+-2.759186	complex	-0.056311
+-2.839731	conflict	-0.056311
+-2.839731	conflicts	-0.056311
+-2.839731	consciousness	-0.056311
+-2.839731	contain	-0.056311
+-2.839731	core	-0.056311
+-2.839731	corpse	-0.056311
+-2.839731	correctly	-0.056311
+-2.839731	course	-0.056311
+-2.839731	credits	-0.056311
+-2.408562	dad	-0.074516
+-2.839731	darwin	-0.056311
+-2.839731	deafness	-0.056311
+-2.839731	death	-0.056311
+-2.759186	deception	-0.103339
+-2.839731	deep	-0.056311
+-2.839731	defense	-0.056311
+-2.839731	details	-0.056311
+-2.782894	development	-0.056311
+-2.839731	develops	-0.056311
+-2.839731	direction	-0.056311
+-2.839731	disagree	-0.056311
+-2.839731	disguised	-0.056311
+-2.839731	dislikes	-0.056311
+-2.839731	disorders	-0.056311
+-2.759186	displacement	-0.056311
+-2.839731	distinguish	-0.056311
+-2.839731	distressing	-0.056311
+-2.839731	divisions	-0.056311
+-2.782894	do	-0.056311
+-2.839731	does	-0.056311
+-2.839731	domination	-0.056311
+-2.759186	dont	-0.056311
+-2.839731	down	-0.056311
+-2.759186	dreams	-0.056311
+-2.839731	drives	-0.056311
+-2.839731	driving	-0.056311
+-2.839731	dynamics	-0.056311
+-2.839731	each	-0.056311
+-2.759186	earlier	-0.056311
+-2.839731	edu	-0.056311
+-2.839731	educational	-0.056311
+-2.759186	ego	-0.056311
+-2.839731	electra	-0.056311
+-2.839731	else	-0.056311
+-2.839731	emerge	-0.056311
+-2.839731	emotionally	-0.056311
+-2.839731	employed	-0.056311
+-2.839731	energy	-0.056311
+-2.839731	ensure	-0.056311
+-2.839731	equivalent	-0.056311
+-2.839731	erogenous	-0.056311
+-2.839731	errors	-0.056311
+-2.839731	etc	-0.056311
+-2.839731	evaluation	-0.056311
+-2.839731	evidence	-0.056311
+-2.839731	evolve	-0.056311
+-2.839731	excessive	-0.056311
+-2.839731	experimental	-0.056311
+-2.782894	experiments	-0.056311
+-2.839731	explore	-0.056311
+-2.839731	explosive	-0.056311
+-2.839731	expulsive	-0.056311
+-2.839731	extensive	-0.056311
+-2.839731	false	-0.056311
+-2.839731	falsifiability	-0.056311
+-2.839731	fantasy	-0.056311
+-2.839731	features	-0.056311
+-2.759186	feelings	-0.056311
+-2.839731	females	-0.056311
+-2.839731	final	-0.056311
+-2.839731	find	-0.056311
+-2.839731	five	-0.056311
+-2.839731	fixated	-0.056311
+-2.759186	fixation	-0.056311
+-2.839731	focus	-0.056311
+-2.210550	for	-0.069236
+-2.839731	foundations	-0.056311
+-2.839731	free	-0.056311
+-2.759186	freud	-0.065318
+-2.839731	freudian	-0.056311
+-2.839731	freuds	-0.056311
+-2.839731	friday	-0.056311
+-2.839731	friendships	-0.056311
+-2.782894	from	-0.056311
+-2.839731	fulfillment	-0.056311
+-2.839731	gaps	-0.056311
+-2.839731	genital	-0.056311
+-2.839731	genitals	-0.056311
+-2.839731	get	-0.056311
+-2.839731	give	-0.056311
+-2.839731	goes	-0.056311
+-2.839731	good	-0.056311
+-2.839731	group	-0.056311
+-2.839731	guilt	-0.056311
+-2.839731	gum	-0.056311
+-2.839731	habit	-0.056311
+-2.839731	handled	-0.056311
+-2.839731	handout	-0.056311
+-2.839731	hate	-0.056311
+-2.782894	have	-0.056311
+-2.839731	hazing	-0.056311
+-2.839731	healthy	-0.056311
+-2.839731	him	-0.056311
+-2.839731	hobbies	-0.056311
+-2.839731	hours	-0.056311
+-2.759186	how	-0.056311
+-2.839731	https	-0.056311
+-2.839731	hypnosis	-0.056311
+-2.839731	hysteria	-0.056311
+-2.210550	i	-0.079189
+-2.782894	id	-0.056311
+-2.759186	idea	-0.056311
+-2.782894	ideas	-0.056311
+-2.759186	if	-0.087091
+-2.839731	importance	-0.056311
+-2.839731	impulses	-0.056311
+-1.818805	in	-0.143194
+-2.839731	infancy	-0.056311
+-2.839731	influential	-0.056311
+-2.839731	insight	-0.056311
+-2.839731	instinctual	-0.056311
+-2.839731	intact	-0.056311
+-2.839731	interested	-0.056311
+-2.839731	interesting	-0.056311
+-2.839731	internalization	-0.056311
+-2.839731	investigators	-0.056311
+-1.928297	is	-0.070247
+-2.759186	it	-0.056311
+-2.839731	its	-0.056311
+-2.759186	january	-0.056311
+-2.839731	john	-0.056311
+-2.839731	jokes	-0.056311
+-2.839731	karl	-0.056311
+-2.839731	keeping	-0.056311
+-2.839731	key	-0.056311
+-2.839731	kill	-0.056311
+-2.839731	language	-0.056311
+-2.839731	last	-0.056311
+-2.839731	latency	-0.056311
+-2.839731	later	-0.056311
+-2.839731	lead	-0.056311
+-2.839731	leading	-0.056311
+-2.839731	lets	-0.056311
+-2.839731	liar	-0.056311
+-2.839731	like	-0.056311
+-2.759186	likes	-0.056311
+-2.839731	liking	-0.056311
+-2.759186	list	-0.056311
+-2.839731	literature	-0.056311
+-2.839731	little	-0.056311
+-2.839731	lock	-0.056311
+-2.839731	logic	-0.056311
+-2.759186	love	-0.056311
+-2.839731	mad	-0.056311
+-2.839731	made	-0.056311
+-2.839731	madness	-0.056311
+-2.839731	make	-0.056311
+-2.839731	makes	-0.056311
+-2.839731	making	-0.056311
+-2.839731	males	-0.056311
+-2.759186	many	-0.056311
+-2.839731	masculinity	-0.056311
+-2.839731	me	-0.056311
+-2.839731	mechanisms	-0.056311
+-2.839731	mediator	-0.056311
+-2.839731	meet	-0.056311
+-2.839731	meets	-0.056311
+-2.782894	memories	-0.056311
+-2.839731	memory	-0.056311
+-2.759186	mental	-0.056311
+-2.839731	methods	-0.056311
+-2.839731	midterm	-0.056311
+-2.839731	mind	-0.056311
+-2.839731	mode	-0.056311
+-2.839731	modern	-0.056311
+-2.759186	mom	-0.056311
+-2.839731	moral	-0.056311
+-2.759186	more	-0.056311
+-2.839731	mother	-0.056311
+-2.839731	mouth	-0.056311
+-2.839731	moved	-0.056311
+-2.839731	much	-0.056311
+-2.759186	must	-0.056311
+-2.839731	my	-0.056311
+-2.839731	myth	-0.056311
+-2.782894	need	-0.087091
+-2.839731	new	-0.056311
+-2.839731	nice	-0.056311
+-2.759186	no	-0.056311
+-2.782894	not	-0.056311
+-2.839731	observing	-0.056311
+-2.839731	occur	-0.056311
+-2.839731	oedipus	-0.056311
+-1.616248	of	-0.335861
+-2.839731	offer	-0.056311
+-2.839731	oh	-0.056311
+-2.759186	on	-0.056311
+-2.839731	operates	-0.056311
+-2.839731	opportunities	-0.056311
+-2.408562	or	-0.056311
+-2.759186	oral	-0.056311
+-2.839731	oriented	-0.056311
+-2.839731	originally	-0.056311
+-2.839731	other	-0.056311
+-2.839731	others	-0.056311
+-2.839731	out	-0.056311
+-2.839731	pages	-0.056311
+-2.839731	painful	-0.056311
+-2.839731	panic	-0.056311
+-2.839731	paralysis	-0.056311
+-2.839731	part	-0.056311
+-2.839731	participate	-0.056311
+-2.839731	participating	-0.056311
+-2.759186	participation	-0.056311
+-2.839731	particular	-0.056311
+-2.839731	patient	-0.056311
+-2.839731	patients	-0.056311
+-2.759186	person	-0.103339
+-2.759186	personality	-0.056311
+-2.839731	phallic	-0.056311
+-2.839731	please	-0.056311
+-2.408562	pleasure	-0.071428
+-2.839731	pm	-0.056311
+-2.839731	pool	-0.056311
+-2.839731	popper	-0.056311
+-2.839731	positive	-0.056311
+-2.759186	predictions	-0.056311
+-2.839731	preference	-0.056311
+-2.839731	present	-0.056311
+-2.839731	primes	-0.056311
+-2.839731	principle	-0.056311
+-2.839731	problems	-0.056311
+-2.839731	processes	-0.056311
+-2.839731	projection	-0.056311
+-2.839731	proven	-0.056311
+-2.759186	psychoanalysis	-0.056311
+-2.839731	psychoanalytic	-0.056311
+-2.839731	psychological	-0.056311
+-2.839731	psychology	-0.056311
+-2.759186	psychosexual	-0.056311
+-2.839731	puberty	-0.056311
+-2.839731	rationalization	-0.056311
+-2.759186	re	-0.056311
+-2.839731	reading	-0.056311
+-2.759186	reality	-0.103339
+-2.839731	reasoning	-0.056311
+-2.839731	reasons	-0.056311
+-2.839731	recovered	-0.056311
+-2.839731	reduce	-0.056311
+-2.839731	reducing	-0.056311
+-2.839731	regression	-0.056311
+-2.839731	rejected	-0.056311
+-2.839731	rejection	-0.056311
+-2.839731	release	-0.056311
+-2.839731	religion	-0.056311
+-2.839731	remain	-0.056311
+-2.839731	remains	-0.056311
+-2.839731	reports	-0.056311
+-2.759186	repressed	-0.056311
+-2.839731	require	-0.056311
+-2.839731	requirement	-0.056311
+-2.759186	research	-0.056311
+-2.839731	resistance	-0.056311
+-2.839731	responses	-0.056311
+-2.839731	responsible	-0.056311
+-2.839731	retentive	-0.056311
+-2.839731	retreating	-0.056311
+-2.839731	review	-0.056311
+-2.839731	reviewed	-0.056311
+-2.839731	right	-0.056311
+-2.839731	risk	-0.056311
+-2.839731	role	-0.056311
+-2.839731	run	-0.056311
+-2.839731	same	-0.056311
+-2.839731	satisfied	-0.056311
+-2.839731	school	-0.056311
+-2.759186	scientific	-0.056311
+-2.839731	scientist	-0.056311
+-2.839731	self	-0.056311
+-2.839731	sense	-0.056311
+-2.759186	sex	-0.056311
+-2.759186	sexual	-0.056311
+-2.839731	sexuality	-0.056311
+-2.839731	shameful	-0.056311
+-2.839731	shaped	-0.056311
+-2.839731	shifts	-0.056311
+-2.839731	shoelace	-0.056311
+-2.759186	shows	-0.103339
+-2.839731	society	-0.056311
+-2.839731	societys	-0.056311
+-2.839731	some	-0.056311
+-2.759186	someone	-0.056311
+-2.839731	soon	-0.056311
+-2.839731	speak	-0.056311
+-2.839731	specific	-0.056311
+-2.839731	speech	-0.056311
+-2.298367	stage	-0.087091
+-2.556587	stages	-0.543021
+-2.839731	standards	-0.056311
+-2.839731	strong	-0.056311
+-2.782894	students	-0.056311
+-2.839731	sublimation	-0.056311
+-2.839731	subliminal	-0.056311
+-2.839731	success	-0.056311
+-2.839731	such	-0.056311
+-2.759186	superego	-0.103339
+-2.839731	supports	-0.056311
+-2.839731	syllabus	-0.056311
+-2.839731	symptoms	-0.056311
+-2.839731	targets	-0.056311
+-2.839731	terrible	-0.056311
+-2.075052	that	-0.234130
+-1.888653	the	-0.137029
+-2.839731	their	-0.056311
+-2.839731	therapy	-0.056311
+-2.759186	there	-0.056311
+-2.556587	these	-0.079189
+-2.759186	they	-0.056311
+-2.759186	think	-0.103339
+-2.839731	thinks	-0.056311
+-2.556587	this	-0.056311
+-2.839731	those	-0.056311
+-2.759186	thoughts	-0.056311
+-2.839731	through	-0.056311
+-2.839731	tied	-0.056311
+-1.636970	to	-0.131870
+-2.759186	toilet	-0.103339
+-2.839731	too	-0.056311
+-2.839731	toward	-0.056311
+-2.839731	training	-0.056311
+-2.839731	traits	-0.056311
+-2.759186	treatment	-0.056311
+-2.839731	trembling	-0.056311
+-2.839731	tried	-0.056311
+-2.839731	tying	-0.056311
+-2.839731	uh	-0.056311
+-2.839731	unacceptable	-0.056311
+-2.782894	unconscious	-0.056311
+-2.839731	under	-0.056311
+-2.839731	undergraduate	-0.056311
+-2.839731	understands	-0.056311
+-2.839731	units	-0.056311
+-2.782894	up	-0.087091
+-2.839731	use	-0.056311
+-2.839731	used	-0.056311
+-2.839731	valued	-0.056311
+-2.839731	volunteers	-0.056311
+-2.782894	way	-0.087091
+-2.759186	ways	-0.056311
+-2.759186	weaning	-0.056311
+-2.839731	website	-0.056311
+-2.839731	weekly	-0.056311
+-2.839731	well	-0.056311
+-2.759186	what	-0.056311
+-2.839731	when	-0.056311
+-2.759186	which	-0.056311
+-2.839731	while	-0.056311
+-2.839731	who	-0.056311
+-2.839731	why	-0.056311
+-2.839731	will	-0.056311
+-2.839731	wins	-0.056311
+-2.759186	wish	-0.056311
+-2.839731	with	-0.056311
+-2.839731	work	-0.056311
+-2.839731	world	-0.056311
+-2.839731	worse	-0.056311
+-2.839731	would	-0.056311
+-2.839731	wow	-0.056311
+-2.839731	writing	-0.056311
+-2.839731	yale	-0.056311
+-2.839731	year	-0.056311
+-2.839731	years	-0.056311
+-2.839731	yes	-0.056311
+-2.210550	you	-0.067599
+-2.759186	your	-0.056311
+-2.839731	zone	-0.056311
+
+\2-grams:
+-0.936847	<s> </s>
+-2.192199	<s> a	-0.052087
+-2.843558	<s> achieved	-0.052087
+-2.843558	<s> actions	-0.052087
+-2.790156	<s> activities	-0.052087
+-2.567431	<s> after	-0.052087
+-2.790156	<s> also	-0.052087
+-2.790156	<s> am	-0.052087
+-2.806219	<s> anal	-0.052087
+-1.962955	<s> and	-0.052087
+-2.843558	<s> anus	-0.052087
+-2.790156	<s> anxiety	-0.052087
+-2.843558	<s> appropriate	-0.052087
+-2.104631	<s> are	-0.052087
+-2.790156	<s> as	-0.052087
+-2.843558	<s> attributing	-0.052087
+-2.843558	<s> been	-0.052087
+-2.843558	<s> behavior	-0.052087
+-2.843558	<s> being	-0.052087
+-2.843558	<s> blindness	-0.052087
+-2.843558	<s> book	-0.052087
+-2.538339	<s> but	-0.052087
+-2.843558	<s> castration	-0.052087
+-2.843558	<s> children	-0.052087
+-2.806219	<s> class	-0.052087
+-2.843558	<s> conflicts	-0.052087
+-2.843558	<s> corpse	-0.052087
+-2.790156	<s> deception	-0.052087
+-1.904787	<s> defense	-99
+-2.806219	<s> development	-0.052087
+-2.790156	<s> displacement	-0.052087
+-2.843558	<s> divisions	-0.052087
+-2.843558	<s> does	-0.052087
+-2.538339	<s> dreams	-0.052087
+-2.843558	<s> driving	-0.052087
+-2.790156	<s> earlier	-0.052087
+-2.790156	<s> ego	-0.052087
+-2.843558	<s> emotionally	-0.052087
+-2.843558	<s> employed	-0.052087
+-2.843558	<s> evaluation	-0.052087
+-2.843558	<s> evidence	-0.052087
+-2.843558	<s> evolve	-0.052087
+-2.567431	<s> experimental	-0.082778
+-2.843558	<s> falsifiability	-0.052087
+-2.843558	<s> final	-0.052087
+-1.676178	<s> fixation	-0.450027
+-2.843558	<s> focus	-0.052087
+-2.353348	<s> for	-0.052087
+-2.567431	<s> foundations	-0.082778
+-1.295734	<s> freud	-0.067161
+-2.843558	<s> freuds	-0.052087
+-2.806219	<s> from	-0.052087
+-2.843558	<s> genital	-0.052087
+-2.843558	<s> genitals	-0.052087
+-2.843558	<s> habit	-0.052087
+-2.806219	<s> have	-0.052087
+-1.778047	<s> hazing	-99
+-2.843558	<s> healthy	-0.052087
+-1.898293	<s> how	-0.072305
+-2.843558	<s> https	-0.052087
+-2.567431	<s> hysteria	-0.082778
+-2.243638	<s> i	-0.052087
+-2.806219	<s> id	-0.052087
+-2.538339	<s> if	-0.052087
+-1.941318	<s> in	-0.082778
+-2.843558	<s> influential	-0.052087
+-2.843558	<s> internalization	-0.052087
+-2.095811	<s> is	-0.052087
+-2.790156	<s> january	-0.052087
+-2.567431	<s> john	-0.082778
+-2.843558	<s> jokes	-0.052087
+-2.843558	<s> karl	-0.052087
+-2.843558	<s> kill	-0.052087
+-2.567431	<s> language	-0.082778
+-2.843558	<s> latency	-0.052087
+-2.843558	<s> leading	-0.052087
+-2.843558	<s> lets	-0.052087
+-1.773188	<s> likes	-99
+-2.567431	<s> liking	-0.082778
+-2.538339	<s> list	-0.082778
+-2.843558	<s> lock	-0.052087
+-2.538339	<s> love	-0.052087
+-2.843558	<s> made	-0.052087
+-2.843558	<s> make	-0.052087
+-2.843558	<s> making	-0.052087
+-2.790156	<s> many	-0.052087
+-2.843558	<s> masculinity	-0.052087
+-2.843558	<s> mediator	-0.052087
+-2.806219	<s> memories	-0.052087
+-2.843558	<s> memory	-0.052087
+-2.790156	<s> mental	-0.052087
+-2.843558	<s> midterm	-0.052087
+-2.790156	<s> mom	-0.052087
+-2.790156	<s> more	-0.052087
+-2.843558	<s> mouth	-0.052087
+-2.843558	<s> moved	-0.052087
+-2.843558	<s> myth	-0.052087
+-2.843558	<s> new	-0.052087
+-2.843558	<s> observing	-0.052087
+-2.843558	<s> occur	-0.052087
+-1.904787	<s> oedipus	-0.072305
+-1.798241	<s> of	-0.052087
+-2.843558	<s> operates	-0.052087
+-2.843558	<s> opportunities	-0.052087
+-2.538339	<s> oral	-0.052087
+-2.843558	<s> painful	-0.052087
+-2.567431	<s> patient	-0.052087
+-2.843558	<s> patients	-0.052087
+-1.898293	<s> person	-99
+-2.843558	<s> phallic	-0.052087
+-2.369439	<s> pleasure	-0.052087
+-2.843558	<s> projection	-0.052087
+-2.538339	<s> psychoanalysis	-0.052087
+-2.843558	<s> psychoanalytic	-0.052087
+-1.532704	<s> psychology	-99
+-2.790156	<s> psychosexual	-0.052087
+-2.843558	<s> rationalization	-0.052087
+-2.843558	<s> regression	-0.052087
+-2.843558	<s> religion	-0.052087
+-2.843558	<s> requirement	-0.052087
+-2.790156	<s> research	-0.052087
+-2.843558	<s> responsible	-0.052087
+-2.843558	<s> retentive	-0.052087
+-2.843558	<s> role	-0.052087
+-2.843558	<s> satisfied	-0.052087
+-2.843558	<s> school	-0.052087
+-2.790156	<s> scientific	-0.052087
+-2.843558	<s> scientist	-0.052087
+-2.843558	<s> self	-0.052087
+-2.790156	<s> sex	-0.052087
+-2.538339	<s> sexual	-0.052087
+-2.843558	<s> sexuality	-0.052087
+-2.843558	<s> shameful	-0.052087
+-2.843558	<s> some	-0.052087
+-2.790156	<s> someone	-0.052087
+-2.547261	<s> students	-0.082778
+-2.843558	<s> sublimation	-0.052087
+-1.778047	<s> subliminal	-99
+-2.843558	<s> success	-0.052087
+-2.790156	<s> superego	-0.052087
+-2.843558	<s> syllabus	-0.052087
+-2.146212	<s> that	-0.052087
+-1.238598	<s> the	-0.432298
+-2.642083	<s> these	-0.052087
+-2.790156	<s> they	-0.052087
+-2.790156	<s> think	-0.052087
+-2.642083	<s> this	-0.052087
+-2.790156	<s> toilet	-0.052087
+-2.843558	<s> trembling	-0.052087
+-2.843558	<s> uh	-0.052087
+-1.774707	<s> unconscious	-0.052087
+-2.843558	<s> undergraduate	-0.052087
+-2.843558	<s> understands	-0.052087
+-2.843558	<s> volunteers	-0.052087
+-2.806219	<s> way	-0.052087
+-2.790156	<s> weaning	-0.052087
+-2.843558	<s> weekly	-0.052087
+-2.790156	<s> what	-0.052087
+-2.567431	<s> when	-0.052087
+-2.843558	<s> why	-0.052087
+-2.790156	<s> wish	-0.052087
+-1.830257	a child	-0.052087
+-1.822717	a committee	-0.052087
+-1.830257	a good	-0.052087
+-1.822717	a list	-0.052087
+-1.830257	a mode	-0.052087
+-1.830257	a particular	-0.052087
+-1.830257	a terrible	-0.052087
+-1.825069	a way	-0.052087
+-1.830257	a while	-0.052087
+-0.538797	about </s>
+-1.377161	about someone	-0.052087
+-0.848107	according to	-0.052087
+-0.552048	achieve </s>
+-0.869864	achieved in	-0.052087
+-0.552048	actions </s>
+-0.658153	activities </s>
+-1.166258	activities that	-0.052087
+-1.129976	adult in	-0.052087
+-1.205283	adult personality	-0.052087
+-0.552048	adulthood </s>
+-0.658153	adults </s>
+-1.207091	adults find	-0.052087
+-1.205850	after class	-0.052087
+-1.205283	after january	-0.052087
+-0.552048	all </s>
+-1.205283	also available	-0.052087
+-1.179058	also you	-0.052087
+-0.671833	am right	-99
+-1.587527	an adult	-0.052087
+-1.591898	an attempt	-0.052087
+-1.587527	an earlier	-0.052087
+-1.591898	an explosive	-0.052087
+-1.588894	an unconscious	-0.052087
+-0.700186	anal </s>
+-1.378760	anal characteristics	-0.052087
+-1.347226	anal stage	-0.052087
+-0.530976	and </s>
+-2.077181	and anal	-0.052087
+-2.085005	and deafness	-0.052087
+-2.085005	and dislikes	-99
+-2.085005	and fantasy	-0.052087
+-2.085005	and its	-0.082778
+-2.085005	and key	-0.052087
+-2.085005	and logic	-0.052087
+-2.085005	and require	-0.052087
+-2.085005	and run	-0.052087
+-2.085005	and same	-0.052087
+-2.073649	and superego	-0.052087
+-1.777169	and the	-0.052087
+-2.073649	and toilet	-0.052087
+-2.085005	and work	-0.052087
+-0.909614	anger shows	-0.052087
+-0.879532	anus is	-0.052087
+-0.658153	anxiety </s>
+-1.185603	anxiety by	-0.052087
+-0.909614	anxietyproducing thoughts	-0.052087
+-0.845086	any of	-0.052087
+-0.909901	applications from	-0.052087
+-0.910528	appropriate targets	-0.052087
+-0.769652	are </s>
+-1.758086	are a	-0.052087
+-1.909191	are disguised	-0.052087
+-1.909191	are distressing	-0.052087
+-1.909191	are equivalent	-0.052087
+-1.612845	are in	-0.052087
+-1.909191	are interested	-0.052087
+-1.909191	are oriented	-0.052087
+-1.909191	are recovered	-0.052087
+-1.909191	are shaped	-0.052087
+-1.909191	are valued	-0.052087
+-1.192247	as an	-0.052087
+-1.207091	as writing	-0.052087
+-0.552048	assessment </s>
+-0.671833	associated with	-0.052087
+-0.552048	association </s>
+-1.376079	at birth	-0.052087
+-1.378760	at pm	-0.052087
+-1.366794	at these	-0.052087
+-0.910528	attacks gaps	-0.052087
+-0.848107	attempt to	-0.052087
+-0.902966	attention or	-0.052087
+-0.910528	attributing unacceptable	-0.052087
+-1.205283	available on	-0.052087
+-1.091155	available to	-0.052087
+-0.910528	away anxietyproducing	-0.052087
+-0.722833	be </s>
+-1.434137	be a	-0.052087
+-1.495786	be available	-0.052087
+-1.499322	be reviewed	-0.052087
+-0.896141	because i	-0.052087
+-0.910528	been rejected	-0.052087
+-0.910528	begin soon	-0.052087
+-0.910528	behavior characteristic	-0.052087
+-0.552048	behaviors </s>
+-0.910528	being proven	-0.052087
+-0.896141	benefit for	-0.052087
+-0.909614	best treatment	-0.052087
+-1.205850	between id	-0.052087
+-1.205283	between reality	-0.052087
+-0.909614	bill likes	-0.082778
+-0.658153	birth </s>
+-1.207091	birth year	-0.052087
+-0.866688	blindness and	-0.052087
+-0.910528	book review	-0.052087
+-1.356900	but dad	-0.052087
+-1.378760	but later	-0.052087
+-1.376079	but many	-0.052087
+-0.265222	by </s>
+-1.678454	by participating	-0.052087
+-1.678454	by society	-0.052087
+-1.576445	by the	-0.052087
+-0.967472	can </s>
+-1.676433	can be	-0.052087
+-1.676433	can do	-0.052087
+-0.340880	can lead	-99
+-0.552048	castration </s>
+-0.902966	catharsis an	-0.052087
+-0.845086	characteristic of	-0.052087
+-0.552048	characteristics </s>
+-0.909901	charged memories	-0.052087
+-0.910528	chewing gum	-0.052087
+-0.899540	child can	-0.052087
+-0.910528	children participate	-0.052087
+-0.658153	claims </s>
+-1.205283	claims about	-0.052087
+-0.538797	class </s>
+-1.379664	class website	-0.052087
+-0.910528	classesv yale	-0.052087
+-1.205283	committee must	-0.052087
+-1.091155	committee to	-0.052087
+-0.910528	complete units	-0.052087
+-0.658153	complex </s>
+-1.185603	complex can	-0.052087
+-0.552048	conflict </s>
+-0.552048	conflicts </s>
+-0.896141	consciousness i	-0.052087
+-0.552048	contain </s>
+-1.207091	core freudian	-0.052087
+-1.205850	core ideas	-0.052087
+-0.552048	corpse </s>
+-0.552048	correctly </s>
+-0.845086	course of	-0.052087
+-0.909614	credits which	-0.052087
+-0.752755	dad </s>
+-1.544258	dad can	-0.052087
+-1.023936	dad is	-0.052087
+-1.592784	dad wins	-0.052087
+-0.552048	darwin </s>
+-0.910528	deafness paralysis	-0.052087
+-0.910528	death primes	-99
+-0.450565	deception </s>
+-0.910528	deep psychological	-0.052087
+-0.910528	defense mechanisms	-99
+-0.886100	details are	-0.052087
+-0.700186	development </s>
+-1.378760	development all	-0.052087
+-1.378760	development each	-0.052087
+-0.910528	develops out	-0.052087
+-0.845086	direction of	-0.052087
+-0.909614	disagree there	-0.052087
+-0.909614	disguised wish	-0.052087
+-0.552048	dislikes </s>
+-0.552048	disorders </s>
+-1.205283	displacement re	-0.052087
+-1.091155	displacement to	-0.052087
+-0.909614	distinguish between	-0.052087
+-0.848107	distressing to	-0.052087
+-0.845086	divisions of	-0.052087
+-0.700186	do </s>
+-1.378760	do too	-0.052087
+-1.337762	do you	-0.082778
+-0.909901	does not	-0.052087
+-0.869864	domination in	-0.052087
+-1.205850	dont do	-0.052087
+-1.205283	dont what	-0.052087
+-0.869864	down in	-0.052087
+-0.700186	dreams </s>
+-1.310551	dreams are	-0.052087
+-1.378760	dreams speech	-0.052087
+-0.910528	drives present	-0.052087
+-0.910528	driving chewing	-0.052087
+-0.910528	dynamics conflict	-0.052087
+-0.909614	each associated	-0.052087
+-1.185603	earlier stage	-0.052087
+-1.198995	earlier stages	-0.052087
+-0.552048	edu </s>
+-0.910528	educational benefit	-0.052087
+-1.207091	ego develops	-0.052087
+-1.091155	ego to	-0.052087
+-0.909614	electra complex	-0.052087
+-0.552048	else </s>
+-0.866688	emerge and	-0.052087
+-0.910528	emotionally charged	-0.052087
+-0.899540	employed by	-0.052087
+-0.910528	energy tied	-0.052087
+-0.910528	ensure educational	-0.052087
+-0.848107	equivalent to	-0.052087
+-0.910528	erogenous zone	-0.052087
+-0.552048	errors </s>
+-0.552048	etc </s>
+-0.552048	evaluation </s>
+-0.889421	evidence that	-0.052087
+-0.552048	evolve </s>
+-0.552048	excessive </s>
+-0.909614	experimental participation	-0.082778
+-0.700186	experiments </s>
+-1.356900	experiments or	-0.052087
+-1.378760	experiments will	-0.052087
+-0.906420	explore these	-0.052087
+-0.910528	explosive release	-0.052087
+-0.910528	expulsive behaviors	-0.052087
+-0.910528	extensive therapy	-0.052087
+-0.552048	false </s>
+-0.552048	falsifiability </s>
+-0.552048	fantasy </s>
+-0.845086	features of	-0.052087
+-1.124213	feelings and	-0.052087
+-1.205283	feelings re	-0.052087
+-0.552048	females </s>
+-0.552048	final </s>
+-0.902966	find pleasure	-0.052087
+-0.906420	five stages	-0.052087
+-0.909614	fixated adults	-0.052087
+-0.722833	fixation </s>
+-1.470693	fixation an	-0.052087
+-1.458162	fixation can	-99
+-1.495786	fixation if	-0.052087
+-0.845086	focus of	-0.052087
+-0.668072	for </s>
+-1.627376	for a	-0.052087
+-1.730356	for attention	-0.052087
+-1.726350	for experiments	-0.052087
+-1.724529	for feelings	-0.052087
+-1.730356	for guilt	-0.052087
+-0.910528	foundations part	-0.082778
+-0.910528	free association	-0.052087
+-0.703346	freud </s>
+-1.864593	freud adult	-0.052087
+-1.872731	freud meets	-0.052087
+-1.872731	freud originally	-0.052087
+-1.864593	freud scientific	-0.052087
+-1.872731	freud used	-0.052087
+-1.872731	freud yes	-0.052087
+-1.757982	freud you	-0.082778
+-1.864593	freud your	-0.052087
+-0.910528	freudian insight	-0.052087
+-0.910528	freuds five	-0.052087
+-0.552048	friday </s>
+-0.552048	friendships </s>
+-1.378760	from consciousness	-0.052087
+-1.378760	from investigators	-0.052087
+-1.366794	from this	-0.052087
+-0.552048	fulfillment </s>
+-0.845086	gaps of	-0.052087
+-0.899540	genital stage	-0.052087
+-0.552048	genitals </s>
+-0.909901	get at	-0.052087
+-0.909901	give up	-0.052087
+-1.207091	goes down	-0.052087
+-1.205850	goes up	-0.052087
+-0.910528	good liar	-0.052087
+-0.552048	group </s>
+-0.552048	guilt </s>
+-0.910528	gum shoelace	-0.052087
+-0.552048	habit </s>
+-0.910528	handled correctly	-0.082778
+-0.909614	handout which	-0.052087
+-0.909614	hate your	-0.082778
+-0.722833	have </s>
+-1.499322	have deep	-0.052087
+-1.495786	have repressed	-0.052087
+-1.499322	have their	-0.052087
+-0.552048	hazing </s>
+-0.909614	healthy adults	-0.052087
+-0.552048	him </s>
+-0.552048	hobbies </s>
+-0.845086	hours of	-0.052087
+-1.376079	how it	-0.052087
+-1.378760	how much	-0.082778
+-1.216101	how to	-0.052087
+-0.910528	https classesv	-0.052087
+-0.909614	hypnosis but	-0.052087
+-0.866688	hysteria and	-0.082778
+-0.691030	i </s>
+-1.264483	i am	-0.082778
+-1.784994	i disagree	-0.052087
+-1.778541	i dont	-0.052087
+-1.784994	i give	-0.052087
+-1.778541	i love	-0.052087
+-1.260763	id and	-0.052087
+-1.268675	id in	-0.052087
+-1.378760	id instinctual	-0.052087
+-0.658153	idea </s>
+-1.147738	idea is	-0.052087
+-0.700186	ideas </s>
+-1.376919	ideas have	-0.052087
+-1.376079	ideas shows	-0.052087
+-0.846126	if not	-0.082778
+-1.341275	if you	-0.052087
+-0.845086	importance of	-0.052087
+-0.848107	impulses to	-0.052087
+-0.521589	in </s>
+-2.063459	in adulthood	-0.082778
+-2.056211	in experiments	-0.052087
+-2.063459	in females	-0.052087
+-1.560517	in group	-0.082778
+-2.063459	in hobbies	-0.052087
+-2.063459	in infancy	-0.052087
+-2.063459	in males	-0.052087
+-2.063459	in modern	-99
+-2.063459	in other	-0.052087
+-1.772284	in the	-0.052087
+-2.017878	in these	-0.052087
+-2.052935	in ways	-0.052087
+-0.552048	infancy </s>
+-0.909901	influential ideas	-0.052087
+-0.876286	insight the	-0.052087
+-0.910528	instinctual drives	-0.052087
+-0.552048	intact </s>
+-0.910528	interested please	-0.052087
+-0.866688	interesting and	-0.052087
+-0.845086	internalization of	-0.052087
+-0.910528	investigators who	-0.052087
+-0.787169	is </s>
+-1.965154	is also	-0.052087
+-1.467771	is associated	-0.082778
+-1.975321	is because	-0.052087
+-1.975321	is catharsis	-0.052087
+-1.652377	is in	-0.052087
+-1.975321	is little	-0.052087
+-1.975321	is mad	-0.052087
+-1.975321	is nice	-0.052087
+-1.965154	is repressed	-0.052087
+-1.360809	is the	-0.052087
+-0.658153	it </s>
+-1.205850	it way	-0.052087
+-0.909614	its treatment	-0.082778
+-0.658153	january </s>
+-1.205850	january at	-0.052087
+-0.910528	john thinks	-0.082778
+-0.910528	jokes madness	-0.052087
+-0.910528	karl popper	-0.052087
+-0.552048	keeping </s>
+-0.552048	key </s>
+-0.902966	kill dad	-0.052087
+-0.552048	language </s>
+-0.910528	last pages	-0.052087
+-0.899540	latency stage	-0.052087
+-0.552048	later </s>
+-0.848107	lead to	-0.052087
+-0.848107	leading to	-0.052087
+-0.909901	lets not	-0.052087
+-0.552048	liar </s>
+-0.889421	like that	-0.082778
+-1.124213	likes and	-99
+-1.207091	likes him	-0.082778
+-0.910528	liking goes	-0.052087
+-0.658153	list </s>
+-1.207091	list positive	-0.082778
+-0.552048	literature </s>
+-0.902966	little or	-0.052087
+-0.866688	lock and	-0.052087
+-0.552048	logic </s>
+-0.700186	love </s>
+-1.260763	love and	-0.052087
+-1.376079	love mom	-0.052087
+-0.552048	mad </s>
+-0.909614	made they	-0.052087
+-0.552048	madness </s>
+-0.910528	make strong	-0.052087
+-0.910528	makes sense	-0.052087
+-0.892768	making a	-0.052087
+-0.866688	males and	-0.052087
+-1.085882	many of	-0.052087
+-1.207091	many remain	-0.052087
+-0.869864	masculinity in	-0.052087
+-0.552048	me </s>
+-0.552048	mechanisms </s>
+-0.909614	mediator between	-0.052087
+-0.910528	meet friday	-0.052087
+-0.910528	meets darwin	-0.052087
+-1.310551	memories are	-0.052087
+-1.378760	memories through	-0.052087
+-1.378760	memories under	-0.052087
+-0.910528	memory etc	-0.052087
+-1.207091	mental disorders	-0.052087
+-1.207091	mental processes	-0.052087
+-0.845086	methods of	-0.052087
+-0.552048	midterm </s>
+-0.552048	mind </s>
+-0.845086	mode of	-0.052087
+-0.552048	modern </s>
+-0.658153	mom </s>
+-1.147738	mom is	-0.052087
+-0.910528	moral standards	-0.052087
+-0.658153	more </s>
+-1.205283	more freud	-0.052087
+-0.552048	mother </s>
+-0.879532	mouth is	-0.052087
+-0.848107	moved to	-0.052087
+-0.909901	much do	-0.082778
+-1.376919	must be	-0.052087
+-1.378760	must complete	-0.052087
+-1.378760	must contain	-0.052087
+-0.909901	my ideas	-0.052087
+-0.910528	myth literature	-0.052087
+-0.724530	need </s>
+-0.795751	need to	-0.052087
+-0.910528	new applications	-0.052087
+-0.552048	nice </s>
+-0.658153	no </s>
+-1.179058	no i	-0.052087
+-1.378760	not distinguish	-0.052087
+-1.378760	not handled	-0.082778
+-1.376079	not think	-0.052087
+-0.909901	observing experiments	-0.052087
+-0.552048	occur </s>
+-1.205283	oedipus complex	-0.082778
+-1.192247	oedipus or	-0.052087
+-0.438882	of </s>
+-2.163156	of an	-0.052087
+-2.234502	of development	-0.052087
+-2.241513	of keeping	-0.052087
+-2.241513	of my	-0.052087
+-2.231333	of personality	-0.052087
+-2.163156	of pleasure	-0.052087
+-2.231333	of psychoanalysis	-0.052087
+-2.231333	of psychosexual	-0.052087
+-2.241513	of societys	-0.052087
+-2.048214	of that	-0.052087
+-0.692157	of the	-0.064104
+-2.241513	of those	-0.052087
+-2.231333	of weaning	-0.052087
+-0.910528	offer resistance	-0.052087
+-0.902966	oh dad	-0.052087
+-0.658153	on </s>
+-1.141736	on the	-0.052087
+-0.910528	operates according	-0.052087
+-0.896141	opportunities for	-0.052087
+-1.591898	or domination	-0.052087
+-1.591898	or electra	-0.052087
+-1.591898	or expulsive	-0.052087
+-1.424200	or in	-0.052087
+-1.587527	or no	-0.052087
+-1.376079	oral activities	-0.052087
+-1.260763	oral and	-0.052087
+-1.347226	oral stage	-0.052087
+-0.910528	oriented toward	-0.052087
+-0.910528	originally tried	-0.052087
+-0.909614	other ways	-0.052087
+-0.552048	others </s>
+-0.845086	out of	-0.052087
+-0.845086	pages of	-0.052087
+-0.848107	painful to	-0.052087
+-0.910528	panic attacks	-0.052087
+-0.552048	paralysis </s>
+-0.896141	part i	-0.082778
+-0.869864	participate in	-0.052087
+-0.869864	participating in	-0.052087
+-0.658153	participation </s>
+-1.207091	participation credits	-0.052087
+-0.910528	particular erogenous	-0.052087
+-1.205283	patient no	-0.052087
+-1.207091	patient wow	-0.052087
+-0.910528	patients offer	-0.052087
+-0.450565	person </s>
+-0.658153	personality </s>
+-1.207091	personality traits	-0.052087
+-0.899540	phallic stage	-0.052087
+-0.910528	please speak	-0.052087
+-0.649647	pleasure </s>
+-1.662644	pleasure as	-0.052087
+-1.479603	pleasure in	-0.052087
+-1.667666	pleasure principle	-0.052087
+-1.667666	pleasure shifts	-0.052087
+-0.552048	pm </s>
+-0.909901	pool need	-0.052087
+-0.552048	popper </s>
+-0.910528	positive features	-0.082778
+-1.159997	predictions are	-0.052087
+-1.205850	predictions need	-0.052087
+-0.552048	preference </s>
+-0.909901	present at	-0.052087
+-0.552048	primes </s>
+-0.552048	principle </s>
+-0.552048	problems </s>
+-0.552048	processes </s>
+-0.910528	projection reducing	-0.052087
+-0.910528	proven false	-0.052087
+-0.700186	psychoanalysis </s>
+-1.293313	psychoanalysis is	-0.052087
+-1.216101	psychoanalysis to	-0.052087
+-0.552048	psychoanalytic </s>
+-0.910528	psychological problems	-0.052087
+-0.552048	psychology </s>
+-1.205850	psychosexual development	-0.052087
+-1.198995	psychosexual stages	-0.052087
+-0.658153	puberty </s>
+-1.205283	puberty on	-0.052087
+-0.910528	rationalization reasoning	-0.052087
+-1.207091	re direction	-0.052087
+-1.207091	re emerge	-0.052087
+-0.910528	reading responses	-0.052087
+-0.648576	reality and	-0.052087
+-0.910528	reasoning away	-0.052087
+-0.896141	reasons for	-0.052087
+-0.909614	recovered there	-0.052087
+-0.552048	reduce </s>
+-0.909614	reducing anxiety	-0.052087
+-0.910528	regression retreating	-0.052087
+-0.552048	rejected </s>
+-0.845086	rejection of	-0.052087
+-0.552048	release </s>
+-0.552048	religion </s>
+-0.552048	remain </s>
+-0.910528	remains intact	-0.052087
+-0.910528	reports details	-0.052087
+-0.658153	repressed </s>
+-1.205283	repressed it	-0.052087
+-0.910528	require extensive	-0.052087
+-0.552048	requirement </s>
+-1.205283	research participation	-0.052087
+-1.207091	research reports	-0.052087
+-0.552048	resistance </s>
+-0.552048	responses </s>
+-0.896141	responsible for	-0.052087
+-0.902966	retentive or	-0.052087
+-0.848107	retreating to	-0.052087
+-0.552048	review </s>
+-0.899540	reviewed by	-0.052087
+-0.552048	right </s>
+-0.845086	risk of	-0.052087
+-0.845086	role of	-0.052087
+-0.876286	run the	-0.052087
+-0.909614	same sex	-0.052087
+-0.899540	satisfied by	-0.052087
+-0.866688	school and	-0.052087
+-1.207091	scientific assessment	-0.052087
+-1.205283	scientific predictions	-0.052087
+-0.896141	scientist i	-0.052087
+-0.909614	self deception	-0.052087
+-0.552048	sense </s>
+-1.179058	sex for	-0.052087
+-1.207091	sex friendships	-0.052087
+-0.700186	sexual </s>
+-1.376079	sexual feelings	-0.052087
+-1.378760	sexual preference	-0.052087
+-0.879532	sexuality is	-0.052087
+-0.909614	shameful thoughts	-0.052087
+-0.899540	shaped by	-0.052087
+-0.848107	shifts to	-0.052087
+-0.910528	shoelace tying	-0.052087
+-0.660773	shows that	-0.052087
+-0.552048	society </s>
+-0.910528	societys moral	-0.052087
+-0.910528	some interesting	-0.052087
+-1.207091	someone else	-0.052087
+-1.179058	someone you	-0.052087
+-0.552048	soon </s>
+-0.848107	speak to	-0.052087
+-0.909614	specific predictions	-0.052087
+-0.910528	speech errors	-0.052087
+-0.773914	stage </s>
+-1.663690	stage birth	-0.052087
+-1.144065	stage puberty	-0.052087
+-1.144065	stage years	-0.082778
+-0.133709	stages </s>
+-1.427922	stages of	-0.052087
+-0.552048	standards </s>
+-0.909614	strong claims	-0.052087
+-0.700186	students </s>
+-1.376919	students from	-0.052087
+-1.376079	students must	-0.052087
+-0.909614	sublimation displacement	-0.052087
+-0.910528	subliminal death	-99
+-0.845086	success of	-0.052087
+-0.552048	such </s>
+-0.450565	superego </s>
+-0.910528	supports any	-0.052087
+-0.552048	syllabus </s>
+-0.886100	symptoms are	-0.052087
+-0.552048	targets </s>
+-0.909614	terrible idea	-0.052087
+-0.351777	that </s>
+-1.779375	that are	-0.052087
+-1.924498	that bill	-0.082778
+-1.875108	that dad	-0.052087
+-1.924498	that makes	-0.052087
+-1.918268	that person	-0.052087
+-1.924498	that supports	-0.052087
+-1.897076	that this	-0.052087
+-0.531287	the </s>
+-2.197758	the best	-0.052087
+-1.710668	the core	-0.052087
+-2.197758	the course	-0.052087
+-2.183281	the ego	-0.052087
+-2.197758	the handout	-0.052087
+-2.187773	the id	-0.052087
+-2.197758	the importance	-0.052087
+-2.197758	the last	-0.052087
+-2.197758	the methods	-0.052087
+-2.197758	the mind	-0.052087
+-2.187773	the need	-0.052087
+-2.089674	the pleasure	-0.052087
+-2.197758	the pool	-0.052087
+-2.197758	the risk	-0.052087
+-2.187773	the students	-0.052087
+-2.187773	the unconscious	-99
+-2.197758	the world	-0.052087
+-2.197758	the worse	-0.052087
+-0.910528	their energy	-0.052087
+-0.552048	therapy </s>
+-0.658153	there </s>
+-1.147738	there is	-0.052087
+-0.590695	these </s>
+-1.485253	these stages	-0.052087
+-1.500217	these symptoms	-0.052087
+-1.159997	they are	-0.052087
+-1.205283	they dont	-0.052087
+-0.671360	think about	-0.052087
+-0.889421	thinks that	-0.082778
+-1.496893	this class	-0.052087
+-1.495786	this committee	-0.052087
+-1.495786	this idea	-0.052087
+-1.389739	this is	-0.052087
+-0.909614	those claims	-0.052087
+-0.658153	thoughts </s>
+-1.091155	thoughts to	-0.052087
+-0.910528	through hypnosis	-0.052087
+-0.909901	tied up	-0.052087
+-0.565781	to </s>
+-2.005173	to a	-0.052087
+-2.254025	to achieve	-0.052087
+-2.242543	to anal	-0.052087
+-1.772051	to be	-0.052087
+-2.237390	to dreams	-0.052087
+-2.254025	to ensure	-0.052087
+-2.254025	to excessive	-0.052087
+-2.254025	to explore	-0.052087
+-2.237390	to fixation	-0.052087
+-2.254025	to free	-0.052087
+-2.254025	to get	-0.052087
+-2.237390	to how	-0.052087
+-2.254025	to me	-0.052087
+-2.254025	to meet	-0.052087
+-2.237390	to more	-0.052087
+-2.237390	to oral	-0.052087
+-2.254025	to reduce	-0.052087
+-1.598186	to the	-0.052087
+-2.254025	to use	-0.052087
+-1.693981	to you	-0.052087
+-0.671833	toilet training	-0.052087
+-0.910528	too well	-0.052087
+-0.910528	toward others	-0.052087
+-0.658153	training </s>
+-1.185603	training can	-0.052087
+-0.886100	traits are	-0.052087
+-0.658153	treatment </s>
+-1.179058	treatment for	-0.052087
+-0.910528	trembling panic	-0.052087
+-0.848107	tried to	-0.052087
+-0.552048	tying </s>
+-0.910528	uh oh	-0.052087
+-0.910528	unacceptable impulses	-0.052087
+-0.746727	unconscious </s>
+-1.666789	unconscious dynamics	-0.052087
+-1.473668	unconscious in	-99
+-1.661600	unconscious mental	-0.052087
+-1.666789	unconscious reasons	-0.052087
+-1.666789	unconscious remains	-0.052087
+-0.552048	under </s>
+-0.909901	undergraduate students	-0.052087
+-0.909614	understands reality	-0.052087
+-0.910528	units hours	-0.052087
+-1.359223	up dad	-0.052087
+-0.813638	up in	-0.052087
+-0.876286	use the	-0.052087
+-0.876286	used the	-0.052087
+-0.899540	valued by	-0.052087
+-0.552048	volunteers </s>
+-0.538797	way </s>
+-1.219427	way of	-0.052087
+-1.207091	ways such	-0.052087
+-1.166258	ways that	-0.052087
+-1.172611	weaning a	-0.052087
+-1.124213	weaning and	-0.052087
+-0.876286	website the	-0.052087
+-0.910528	weekly reading	-0.052087
+-0.552048	well </s>
+-1.172611	what a	-0.052087
+-1.147738	what is	-0.052087
+-1.205850	when memories	-0.052087
+-1.207091	when specific	-0.052087
+-1.185603	which can	-0.052087
+-1.147738	which is	-0.052087
+-0.552048	while </s>
+-0.552048	who </s>
+-0.910528	why would	-0.052087
+-0.910528	will begin	-0.052087
+-0.552048	wins </s>
+-1.207091	wish fulfillment	-0.052087
+-1.091155	wish to	-0.052087
+-0.700186	with </s>
+-1.356900	with pleasure	-0.052087
+-1.376079	with sexual	-0.052087
+-0.910528	work fixated	-0.052087
+-0.866688	world and	-0.052087
+-0.552048	worse </s>
+-0.902966	would an	-0.052087
+-0.889421	wow that	-0.052087
+-0.909614	writing research	-0.052087
+-0.910528	yale edu	-0.052087
+-0.552048	year </s>
+-0.552048	years </s>
+-0.896141	yes i	-0.052087
+-0.769477	you </s>
+-1.631415	you are	-0.052087
+-1.784132	you hate	-0.082778
+-1.264802	you have	-0.052087
+-1.784132	you like	-0.082778
+-1.755063	you this	-0.052087
+-1.688853	you you	-0.052087
+-1.378760	your anger	-0.052087
+-1.378760	your mother	-0.082778
+-1.378760	your rejection	-0.052087
+-0.552048	zone </s>
+
+\3-grams:
+-1.155819	<s> a committee
+-1.157249	<s> a particular
+-0.633186	<s> achieved in
+-0.441495	<s> actions </s>
+-0.760680	<s> activities that
+-0.951843	<s> after class
+-0.951563	<s> after january
+-0.765100	<s> also you
+-0.520201	<s> am right
+-0.815604	<s> anal stage
+-0.919680	<s> and require
+-0.638131	<s> anus is
+-0.511592	<s> anxiety </s>
+-0.653624	<s> appropriate targets
+-1.171059	<s> are equivalent
+-1.171059	<s> are oriented
+-0.774483	<s> as writing
+-0.653624	<s> attributing unacceptable
+-0.653624	<s> been rejected
+-0.653624	<s> behavior characteristic
+-0.653624	<s> being proven
+-0.631549	<s> blindness and
+-0.653624	<s> book review
+-1.019967	<s> but dad
+-1.027696	<s> but many
+-0.441495	<s> castration </s>
+-0.653624	<s> children participate
+-0.823833	<s> class website
+-0.441495	<s> conflicts </s>
+-0.441495	<s> corpse </s>
+-0.369242	<s> deception </s>
+0.000000	<s> defense mechanisms
+-0.823610	<s> development each
+-0.773890	<s> displacement re
+-0.620266	<s> divisions of
+-0.653316	<s> does not
+-0.631879	<s> dreams </s>
+-1.000442	<s> dreams are
+-0.653624	<s> driving chewing
+-0.771815	<s> earlier stages
+-0.774483	<s> ego develops
+-0.653624	<s> emotionally charged
+-0.648195	<s> employed by
+-0.441495	<s> evaluation </s>
+-0.643134	<s> evidence that
+-0.441495	<s> evolve </s>
+-0.560184	<s> experimental participation
+-0.441495	<s> falsifiability </s>
+-0.441495	<s> final </s>
+-1.460834	<s> fixation an
+-0.212997	<s> fixation can
+-1.469374	<s> fixation if
+-0.620266	<s> focus of
+-0.887647	<s> for attention
+-0.560521	<s> foundations part
+-0.702132	<s> freud </s>
+-1.675303	<s> freud adult
+-1.679794	<s> freud meets
+-1.679794	<s> freud originally
+-1.675303	<s> freud scientific
+-1.679794	<s> freud used
+-1.679794	<s> freud yes
+-1.357727	<s> freud you
+-1.391209	<s> freud your
+-0.653624	<s> freuds five
+-0.823610	<s> from consciousness
+-0.648195	<s> genital stage
+-0.441495	<s> genitals </s>
+-0.441495	<s> habit </s>
+-0.850428	<s> have their
+0.000000	<s> hazing </s>
+-0.653175	<s> healthy adults
+-0.820772	<s> how much
+-1.049884	<s> how to
+-0.653624	<s> https classesv
+-0.543818	<s> hysteria and
+-1.148357	<s> i give
+-1.147028	<s> i love
+-0.823610	<s> id instinctual
+-0.737733	<s> if not
+-1.013520	<s> if you
+-0.743089	<s> in adulthood
+-0.653316	<s> influential ideas
+-0.620266	<s> internalization of
+-0.912181	<s> is catharsis
+-0.774076	<s> january at
+-0.560521	<s> john thinks
+-0.653624	<s> jokes madness
+-0.653624	<s> karl popper
+-0.649896	<s> kill dad
+-0.392147	<s> language </s>
+-0.648195	<s> latency stage
+-0.621860	<s> leading to
+-0.653316	<s> lets not
+0.000000	<s> likes and
+-0.560521	<s> liking goes
+-0.648125	<s> list positive
+-0.631549	<s> lock and
+-0.631879	<s> love </s>
+-0.978114	<s> love and
+-0.653175	<s> made they
+-0.653624	<s> make strong
+-0.644815	<s> making a
+-0.730942	<s> many of
+-0.633186	<s> masculinity in
+-0.653175	<s> mediator between
+-0.823610	<s> memories through
+-0.653624	<s> memory etc
+-0.774483	<s> mental disorders
+-0.441495	<s> midterm </s>
+-0.754134	<s> mom is
+-0.773890	<s> more freud
+-0.638131	<s> mouth is
+-0.621860	<s> moved to
+-0.653624	<s> myth literature
+-0.653624	<s> new applications
+-0.653316	<s> observing experiments
+-0.441495	<s> occur </s>
+-0.773488	<s> oedipus complex
+-1.035952	<s> oedipus or
+-0.927415	<s> of development
+-0.653624	<s> operates according
+-0.646502	<s> opportunities for
+-0.978114	<s> oral and
+-1.015991	<s> oral stage
+-0.621860	<s> painful to
+-0.951563	<s> patient no
+-0.952455	<s> patient wow
+-0.653624	<s> patients offer
+0.000000	<s> person </s>
+-0.648195	<s> phallic stage
+-0.593047	<s> pleasure </s>
+-1.120341	<s> pleasure as
+-0.653624	<s> projection reducing
+-0.992871	<s> psychoanalysis is
+-0.956878	<s> psychoanalysis to
+-0.441495	<s> psychoanalytic </s>
+0.000000	<s> psychology </s>
+-0.771815	<s> psychosexual stages
+-0.653624	<s> rationalization reasoning
+-0.653624	<s> regression retreating
+-0.441495	<s> religion </s>
+-0.441495	<s> requirement </s>
+-0.773890	<s> research participation
+-0.646502	<s> responsible for
+-0.649896	<s> retentive or
+-0.620266	<s> role of
+-0.648195	<s> satisfied by
+-0.631549	<s> school and
+-0.773890	<s> scientific predictions
+-0.646502	<s> scientist i
+-0.653175	<s> self deception
+-0.765100	<s> sex for
+-1.027696	<s> sexual feelings
+-1.028761	<s> sexual preference
+-0.638131	<s> sexuality is
+-0.653175	<s> shameful thoughts
+-0.653624	<s> some interesting
+-0.774483	<s> someone else
+-0.681302	<s> students must
+-0.653175	<s> sublimation displacement
+0.000000	<s> subliminal death
+-0.620266	<s> success of
+-0.369242	<s> superego </s>
+-0.441495	<s> syllabus </s>
+-1.165350	<s> that dad
+-1.172518	<s> that person
+-1.779537	<s> the core
+-1.929503	<s> the course
+-1.929503	<s> the handout
+-1.927495	<s> the students
+-0.232301	<s> the unconscious
+-1.929503	<s> the world
+-0.850606	<s> these symptoms
+-0.758487	<s> they are
+-0.519904	<s> think about
+-0.849722	<s> this committee
+-0.520201	<s> toilet training
+-0.653624	<s> trembling panic
+-0.653624	<s> uh oh
+-1.324593	<s> unconscious dynamics
+-1.322492	<s> unconscious mental
+-1.324593	<s> unconscious reasons
+-1.324593	<s> unconscious remains
+-0.653316	<s> undergraduate students
+-0.653175	<s> understands reality
+-0.441495	<s> volunteers </s>
+-0.432340	<s> way </s>
+-0.762884	<s> weaning a
+-0.653624	<s> weekly reading
+-0.754134	<s> what is
+-0.951843	<s> when memories
+-0.952455	<s> when specific
+-0.653624	<s> why would
+-0.733000	<s> wish to
+-0.648195	a child can
+-0.733000	a committee to
+-0.653624	a good liar
+-0.511592	a list </s>
+-0.620266	a mode of
+-0.653624	a particular erogenous
+-0.653175	a terrible idea
+-0.778486	a way of
+-0.441495	a while </s>
+-0.765100	about someone you
+-0.868397	according to the
+-0.915302	achieved in these
+-0.893593	activities that are
+-0.917667	adult in ways
+-0.774483	adult personality traits
+-0.649896	adults find pleasure
+-0.432340	after class </s>
+-0.511592	after january </s>
+-0.773890	also available on
+-0.792556	also you have
+0.000000	am right </s>
+-0.747685	an adult in
+-0.621860	an attempt to
+-0.767327	an earlier stage
+-0.653624	an explosive release
+-0.565519	an unconscious </s>
+-0.441495	anal characteristics </s>
+-0.752814	anal stage years
+-0.823610	and anal characteristics
+-0.653624	and deafness paralysis
+0.000000	and dislikes </s>
+-0.441495	and fantasy </s>
+-0.560184	and its treatment
+-0.441495	and key </s>
+-0.441495	and logic </s>
+-0.653624	and require extensive
+-0.636477	and run the
+-0.653175	and same sex
+-0.369242	and superego </s>
+-0.925263	and the need
+-0.520201	and toilet training
+-0.653624	and work fixated
+-0.513249	anger shows that
+-0.843961	anus is associated
+-0.225756	anxiety by </s>
+-0.511592	anxietyproducing thoughts </s>
+-0.927719	any of those
+-0.823610	applications from investigators
+-0.441495	appropriate targets </s>
+-0.898627	are a way
+-0.653175	are disguised wish
+-0.621860	are distressing to
+-0.621860	are equivalent to
+-0.420323	are in </s>
+-0.653624	are interested please
+-0.653624	are oriented toward
+-0.653175	are recovered there
+-0.648195	are shaped by
+-0.648195	are valued by
+-0.866617	as an adult
+-0.653175	as writing research
+-0.668424	associated with </s>
+-1.115378	associated with pleasure
+-1.125027	associated with sexual
+-0.511592	at birth </s>
+-0.441495	at pm </s>
+-0.467696	at these </s>
+-0.620266	attacks gaps of
+-0.928251	attempt to achieve
+-0.867351	attention or domination
+-0.653624	attributing unacceptable impulses
+-0.751974	available on the
+-0.928251	available to meet
+-0.653175	away anxietyproducing thoughts
+-0.899169	be a good
+-0.733000	be available to
+-0.648195	be reviewed by
+-0.532110	because i </s>
+-0.441495	been rejected </s>
+-0.441495	begin soon </s>
+-0.620266	behavior characteristic of
+-0.653624	being proven false
+-0.517844	benefit for </s>
+-0.765100	best treatment for
+-0.791345	between id and
+-0.505506	between reality and
+-0.648125	bill likes him
+-0.441495	birth year </s>
+-0.919680	blindness and deafness
+-0.441495	book review </s>
+-0.705614	but dad is
+-0.441495	but later </s>
+-0.774483	but many remain
+-0.633186	by participating in
+-0.441495	by society </s>
+-0.925044	by the ego
+-0.551397	can be </s>
+-0.537719	can do </s>
+0.000000	can lead to
+-0.867351	catharsis an explosive
+-0.924037	characteristic of an
+-0.823610	charged memories under
+-0.653624	chewing gum shoelace
+-0.285982	child can lead
+-0.633186	children participate in
+-0.432340	claims about </s>
+-0.636477	class website the
+-0.653624	classesv yale edu
+-0.823610	committee must contain
+-0.928251	committee to ensure
+-0.653624	complete units hours
+-0.680648	complex can </s>
+-0.792461	consciousness i am
+-0.653624	core freudian insight
+-0.823154	core ideas have
+-0.927276	course of psychosexual
+-0.767327	credits which can
+-0.880393	dad can do
+-1.117705	dad is in
+-1.181118	dad is mad
+-0.441495	dad wins </s>
+-0.441495	deafness paralysis </s>
+0.000000	death primes </s>
+-0.653624	deep psychological problems
+0.000000	defense mechanisms </s>
+-0.870785	details are in
+-0.441495	development all </s>
+-0.653175	development each associated
+-0.620266	develops out of
+-0.360619	direction of </s>
+-0.754134	disagree there is
+-0.774483	disguised wish fulfillment
+-0.774483	displacement re direction
+-0.450891	displacement to </s>
+-0.773890	distinguish between reality
+-0.882839	distressing to you
+-0.532802	divisions of the
+-0.653624	do too well
+-0.727868	do you like
+-0.823610	does not distinguish
+-0.918343	domination in females
+-0.823610	dont do too
+-0.762884	dont what a
+-0.861942	down in group
+-0.906737	dreams are disguised
+-0.653624	dreams speech errors
+-0.653316	drives present at
+-0.653624	driving chewing gum
+-0.441495	dynamics conflict </s>
+-0.520201	each associated with
+-0.581200	earlier stage </s>
+-0.116363	earlier stages </s>
+-0.646502	educational benefit for
+-0.653624	ego develops out
+-0.928251	ego to reduce
+-0.767327	electra complex can
+-0.426896	emerge and </s>
+-0.653316	emotionally charged memories
+-0.864728	employed by the
+-0.653316	energy tied up
+-0.653624	ensure educational benefit
+-0.927541	equivalent to how
+-0.441495	erogenous zone </s>
+-0.908066	evidence that supports
+-0.449625	experimental participation </s>
+-0.834401	experiments or in
+-0.653624	experiments will begin
+-0.467696	explore these </s>
+-0.441495	explosive release </s>
+-0.441495	expulsive behaviors </s>
+-0.441495	extensive therapy </s>
+-0.420922	features of </s>
+-1.190785	features of that
+-0.426896	feelings and </s>
+-0.774483	feelings re emerge
+-0.846430	find pleasure in
+-0.835247	five stages of
+-0.511592	fixated adults </s>
+-0.867351	fixation an attempt
+0.000000	fixation can lead
+-0.620815	fixation if not
+-0.924037	focus of pleasure
+-0.899169	for a while
+-0.649896	for attention or
+-0.823610	for experiments will
+-0.745557	for feelings and
+-0.441495	for guilt </s>
+-0.555154	foundations part i
+-0.441495	free association </s>
+-0.773890	freud adult personality
+-0.653624	freud meets darwin
+-0.653624	freud originally tried
+-0.774483	freud scientific assessment
+-0.636477	freud used the
+-0.646502	freud yes i
+-0.727868	freud you hate
+-1.028761	freud your anger
+-1.028761	freud your rejection
+-0.636477	freudian insight the
+-0.651602	freuds five stages
+-0.646502	from consciousness i
+-0.653624	from investigators who
+-0.849943	from this class
+-0.360619	gaps of </s>
+-0.752814	genital stage puberty
+-0.820623	get at these
+-0.818701	give up dad
+-0.633186	goes down in
+-0.603360	goes up in
+-0.441495	good liar </s>
+-0.653624	gum shoelace tying
+-0.392147	handled correctly </s>
+-0.754134	handout which is
+-0.681748	hate your mother
+-0.653624	have deep psychological
+-0.773890	have repressed it
+-0.653624	have their energy
+-0.774483	healthy adults find
+-0.360619	hours of </s>
+-0.774076	how it way
+-0.560290	how much do
+-0.892742	how to be
+-0.653624	https classesv yale
+-0.823610	hypnosis but later
+-0.743921	hysteria and its
+-0.456567	i am right
+-0.653175	i disagree there
+-0.773890	i dont what
+-0.653316	i give up
+-0.822946	i love mom
+-0.918983	id and superego
+-0.918343	id in infancy
+-0.653624	id instinctual drives
+-0.588694	idea is </s>
+-0.551397	ideas have </s>
+-0.513249	ideas shows that
+-0.681748	if not handled
+-0.873715	if you are
+-0.532802	importance of the
+-0.450891	impulses to </s>
+-0.392147	in adulthood </s>
+-0.537719	in experiments </s>
+-0.441495	in females </s>
+-0.392147	in group </s>
+-0.441495	in hobbies </s>
+-0.441495	in infancy </s>
+-0.631549	in males and
+0.000000	in modern </s>
+-0.653175	in other ways
+-0.427113	in the </s>
+-0.847591	in these stages
+-0.760680	in ways that
+-0.537719	influential ideas </s>
+-0.925741	insight the importance
+-0.653624	instinctual drives present
+-0.653624	interested please speak
+-0.426896	interesting and </s>
+-0.927719	internalization of societys
+-0.441495	investigators who </s>
+-0.773890	is also available
+-0.456567	is associated with
+-0.646502	is because i
+-0.649896	is catharsis an
+-0.892769	is in the
+-0.649896	is little or
+-0.441495	is mad </s>
+-0.441495	is nice </s>
+-0.511592	is repressed </s>
+-1.206653	is the best
+-1.206653	is the worse
+-0.432340	it way </s>
+-0.449625	its treatment </s>
+-0.823610	january at pm
+-0.552609	john thinks that
+-0.441495	jokes madness </s>
+-0.441495	karl popper </s>
+-0.569032	kill dad </s>
+-0.620266	last pages of
+-0.752814	latency stage puberty
+-0.578942	lead to </s>
+-1.557855	lead to anal
+-1.559937	lead to excessive
+-1.556906	lead to fixation
+-1.556906	lead to oral
+-0.927541	leading to dreams
+-0.822946	lets not think
+-0.266644	like that </s>
+0.000000	likes and dislikes
+-0.392147	likes him </s>
+-0.952455	liking goes down
+-0.951843	liking goes up
+-0.560521	list positive features
+-0.866617	little or no
+-0.919680	lock and key
+-0.919680	love and work
+-0.511592	love mom </s>
+-0.773890	made they dont
+-0.653175	make strong claims
+-0.441495	makes sense </s>
+-0.898379	making a list
+-0.893338	males and the
+-0.532802	many of the
+-0.441495	many remain </s>
+-0.918343	masculinity in males
+-0.774076	mediator between id
+-0.441495	meet friday </s>
+-0.441495	meets darwin </s>
+-0.906737	memories are recovered
+-0.653624	memories through hypnosis
+-0.441495	memories under </s>
+-0.441495	memory etc </s>
+-0.441495	mental disorders </s>
+-0.441495	mental processes </s>
+-0.360619	methods of </s>
+-0.360619	mode of </s>
+-0.912181	mom is nice
+-0.441495	moral standards </s>
+-0.539645	more freud </s>
+-0.843961	mouth is associated
+-0.928251	moved to free
+-0.674667	much do you
+-0.849722	must be available
+-0.653624	must complete units
+-0.441495	must contain </s>
+-0.822946	my ideas shows
+-0.441495	myth literature </s>
+-0.526404	need to </s>
+-1.145675	need to be
+-0.653316	new applications from
+-0.893497	no i dont
+-0.653175	not distinguish between
+-0.560521	not handled correctly
+-0.519904	not think about
+-0.818106	observing experiments or
+-0.449625	oedipus complex </s>
+-0.867351	oedipus or electra
+-0.866617	of an earlier
+-0.537719	of development </s>
+-0.441495	of keeping </s>
+-0.653316	of my ideas
+-0.511592	of personality </s>
+-0.879138	of pleasure shifts
+-0.537719	of psychoanalysis </s>
+-0.774076	of psychosexual development
+-0.653624	of societys moral
+-0.294476	of that </s>
+-0.490415	of the </s>
+-1.404490	of the core
+-1.549696	of the id
+-1.551660	of the mind
+-0.653175	of those claims
+-0.745557	of weaning and
+-0.441495	offer resistance </s>
+-0.705614	oh dad is
+-0.427113	on the </s>
+-0.621860	operates according to
+-0.887134	opportunities for experiments
+-0.633186	or domination in
+-0.653175	or electra complex
+-0.653624	or expulsive behaviors
+-0.918343	or in other
+-0.511592	or no </s>
+-0.511592	oral activities </s>
+-0.919201	oral and anal
+-0.878562	oral stage birth
+-0.653624	oriented toward others
+-0.621860	originally tried to
+-0.774483	other ways such
+-0.532802	out of the
+-0.532802	pages of the
+-0.882839	painful to you
+-0.653624	panic attacks gaps
+-0.466125	part i </s>
+-0.918343	participate in hobbies
+-0.917879	participating in experiments
+-0.653175	participation credits which
+-0.653624	particular erogenous zone
+-0.765100	patient no i
+-0.643134	patient wow that
+-0.653624	patients offer resistance
+-0.641460	personality traits are
+-0.752814	phallic stage years
+-0.621860	please speak to
+-0.769565	pleasure as an
+-0.420323	pleasure in </s>
+-0.441495	pleasure principle </s>
+-0.621860	pleasure shifts to
+-0.593493	pool need to
+-0.535200	positive features of
+-0.578769	predictions are </s>
+-0.593493	predictions need to
+-0.822946	present at birth
+-0.653175	projection reducing anxiety
+-0.441495	proven false </s>
+-0.819106	psychoanalysis is the
+-0.928251	psychoanalysis to explore
+-0.441495	psychological problems </s>
+-0.823610	psychosexual development all
+-0.116363	psychosexual stages </s>
+-0.511592	puberty on </s>
+-0.653624	rationalization reasoning away
+-0.620266	re direction of
+-0.631549	re emerge and
+-0.441495	reading responses </s>
+-1.195151	reality and fantasy
+-1.195151	reality and logic
+-0.653624	reasoning away anxietyproducing
+-0.886900	reasons for feelings
+-0.511592	recovered there </s>
+-0.767327	reducing anxiety by
+-0.621860	regression retreating to
+-0.927719	rejection of my
+-0.441495	remains intact </s>
+-0.641460	reports details are
+-0.511592	repressed it </s>
+-0.653624	require extensive therapy
+-0.774483	research participation credits
+-0.653624	research reports details
+-0.887647	responsible for guilt
+-0.867351	retentive or expulsive
+-0.914400	retreating to a
+-0.225756	reviewed by </s>
+-0.360619	risk of </s>
+-0.927276	role of weaning
+-0.925741	run the risk
+-0.774483	same sex friendships
+-0.880679	satisfied by participating
+-0.919680	school and same
+-0.441495	scientific assessment </s>
+-0.774076	scientific predictions need
+-0.894238	scientist i disagree
+-0.369242	self deception </s>
+-0.873087	sex for a
+-0.441495	sex friendships </s>
+-0.773890	sexual feelings re
+-0.441495	sexual preference </s>
+-0.911393	sexuality is repressed
+-0.733000	shameful thoughts to
+-0.225756	shaped by </s>
+-0.868397	shifts to the
+-0.441495	shoelace tying </s>
+-0.345735	shows that </s>
+-1.169072	shows that this
+-0.653624	societys moral standards
+-0.631549	some interesting and
+-0.441495	someone else </s>
+-0.578669	someone you </s>
+-0.928251	speak to me
+-0.758487	specific predictions are
+-0.441495	speech errors </s>
+-0.774483	stage birth year
+-0.599656	stage puberty </s>
+-0.951563	stage puberty on
+-0.392147	stage years </s>
+-0.927276	stages of personality
+-0.773890	strong claims about
+-0.820623	students from this
+-1.028030	students must be
+-1.028761	students must complete
+-0.733000	sublimation displacement to
+0.000000	subliminal death primes
+-0.927276	success of psychoanalysis
+-0.620266	supports any of
+-0.891083	symptoms are a
+-0.511592	terrible idea </s>
+-0.906737	that are valued
+-0.560184	that bill likes
+-0.859011	that dad can
+-0.653624	that makes sense
+-0.369242	that person </s>
+-0.653624	that supports any
+-0.849722	that this idea
+-0.653175	the best treatment
+-0.952455	the core freudian
+-0.951843	the core ideas
+-0.620266	the course of
+-0.733000	the ego to
+-0.653175	the handout which
+-0.793711	the id in
+-0.620266	the importance of
+-0.653624	the last pages
+-0.620266	the methods of
+-0.441495	the mind </s>
+-0.552410	the need </s>
+-0.879138	the pleasure principle
+-0.653316	the pool need
+-0.620266	the risk of
+-0.537719	the students </s>
+0.000000	the unconscious in
+-0.631549	the world and
+-0.441495	the worse </s>
+-0.653624	their energy tied
+-0.912181	there is little
+-0.116363	these stages </s>
+-0.641460	these symptoms are
+-0.906737	they are distressing
+-0.774076	they dont do
+-0.504417	think about </s>
+-1.028126	think about someone
+-0.736665	thinks that bill
+-0.432340	this class </s>
+-0.773890	this committee must
+-0.754134	this idea is
+-0.912181	this is because
+-0.511592	those claims </s>
+-0.927541	thoughts to more
+-0.653175	through hypnosis but
+-0.603360	tied up in
+-0.899169	to a mode
+-0.441495	to achieve </s>
+-0.537719	to anal </s>
+-1.049864	to be a
+-1.072611	to be reviewed
+-0.823610	to dreams speech
+-0.653624	to ensure educational
+-0.441495	to excessive </s>
+-0.651602	to explore these
+-0.551397	to fixation </s>
+-0.653624	to free association
+-0.653316	to get at
+-0.822946	to how it
+-0.441495	to me </s>
+-0.653624	to meet friday
+-0.511592	to more </s>
+-0.822946	to oral activities
+-0.441495	to reduce </s>
+-0.498253	to the </s>
+-1.195683	to the pleasure
+-0.636477	to use the
+-1.142058	to you this
+-1.126861	to you you
+-0.599656	toilet training </s>
+-0.941719	toilet training can
+-0.441495	too well </s>
+-0.441495	toward others </s>
+-0.285982	training can lead
+-0.906737	traits are shaped
+-0.517844	treatment for </s>
+-0.653624	trembling panic attacks
+-0.928251	tried to get
+-0.649896	uh oh dad
+-0.621860	unacceptable impulses to
+-0.653624	unconscious dynamics conflict
+0.000000	unconscious in modern
+-0.774483	unconscious mental processes
+-0.646502	unconscious reasons for
+-0.653624	unconscious remains intact
+-0.823154	undergraduate students from
+-0.505506	understands reality and
+-0.620266	units hours of
+-0.867499	up dad wins
+-0.490266	up in </s>
+-1.091990	up in group
+-0.925741	use the pool
+-0.925741	used the methods
+-0.880679	valued by society
+-0.927719	way of keeping
+-0.441495	ways such </s>
+-0.294476	ways that </s>
+-0.899169	weaning a child
+-0.918983	weaning and toilet
+-0.925741	website the last
+-0.653624	weekly reading responses
+-0.899169	what a terrible
+-0.819106	what is the
+-0.805737	when memories are
+-0.653175	when specific predictions
+-0.880393	which can be
+-0.911393	which is also
+-0.649896	why would an
+-0.653624	will begin soon
+-0.441495	wish fulfillment </s>
+-0.928251	wish to use
+-0.506189	with pleasure </s>
+-0.537719	with sexual </s>
+-0.653175	work fixated adults
+-0.919680	world and run
+-0.866847	would an unconscious
+-0.908066	wow that makes
+-0.774483	writing research reports
+-0.441495	yale edu </s>
+-0.792461	yes i am
+-0.906737	you are interested
+-0.560184	you hate your
+-1.072611	you have deep
+-1.071434	you have repressed
+-0.552609	you like that
+-0.826297	you this is
+-0.792556	you you have
+-0.653175	your anger shows
+-0.392147	your mother </s>
+-0.620266	your rejection of
+
+\end\

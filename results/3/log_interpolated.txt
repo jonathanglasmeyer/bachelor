@@ -1,0 +1,12 @@
+02:53:34.378 INFO wordPruningLookahea  Average Tokens/State: 10088
+02:53:39.211 INFO speedTracker            This  Time Audio: 2.00s  Proc: 5.14s 
+ Speed: 2.57 X real time
+02:53:39.211 INFO speedTracker            Total Processed Time Audio: 3768.01s 
+ Proc: 11624.32s 3.08 X real time
+Exception in thread "main" java.lang.NullPointerException
+        at edu.cmu.sphinx.result.Lattice.<init>(Lattice.java:171)
+        at edu.cmu.sphinx.api.SpeechResult.<init>(SpeechResult.java:38)
+        at edu.cmu.sphinx.api.AbstractSpeechRecognizer.getResult(AbstractSpeech
+Recognizer.java:62)
+        at Main.recognize(Main.java:89)
+        at Main.main(Main.java:71)

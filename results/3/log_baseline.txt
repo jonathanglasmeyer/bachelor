@@ -1,0 +1,8 @@
+18:55:29.586 INFO speedTracker            Total Processed Time Audio: 4468.29s
+ Proc: 13177.35s 2.95 X real time
+18:55:29.586 INFO memoryTracker           Mem  Total: 3862.00 Mb  Free: 1058.45
+ Mb
+18:55:29.586 INFO memoryTracker           Used: This: 2803.55 Mb  Avg: 2325.91
+Mb  Max: 3804.09 Mb
+Stats creation: 7415s
+Recognition: 6363s, 1644 Segments.

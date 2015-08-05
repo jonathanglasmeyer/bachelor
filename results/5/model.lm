@@ -1,0 +1,1743 @@
+
+\data\
+ngram 1=361
+ngram 2=726
+ngram 3=643
+
+\1-grams:
+-0.732046	</s>
+-99	<s>	-0.128136
+-1.837601	a	-0.148835
+-2.454054	about	-0.099933
+-2.783423	abstract	-0.064183
+-2.783423	abstractly	-0.064183
+-2.783423	accommodation	-0.064183
+-2.783423	accumulation	-0.064183
+-2.783423	achieve	-0.064183
+-2.783423	acquired	-0.064183
+-2.783423	act	-0.064183
+-2.783423	action	-0.064183
+-2.706729	actions	-0.064183
+-2.783423	active	-0.064183
+-2.783423	adulthood	-0.064183
+-2.706729	adults	-0.138893
+-2.783423	advanced	-0.064183
+-2.783423	age	-0.064183
+-2.783423	alcoholism	-0.064183
+-2.783423	already	-0.064183
+-2.706729	also	-0.064183
+-2.706729	an	-0.064183
+-1.837601	and	-0.120616
+-2.783423	another	-0.064183
+-2.783423	any	-0.064183
+-2.783423	approach	-0.064183
+-2.116486	are	-0.064183
+-2.783423	artifacts	-0.064183
+-2.454054	as	-0.064183
+-2.783423	ask	-0.064183
+-2.783423	assimilation	-0.064183
+-2.706729	at	-0.064183
+-2.783423	autism	-0.064183
+-2.783423	b	-0.064183
+-2.706729	babies	-0.064183
+-2.783423	baby	-0.064183
+-2.706729	ball	-0.064183
+-2.706729	bang	-0.064183
+-2.706729	be	-0.064183
+-2.783423	because	-0.064183
+-2.783423	before	-0.064183
+-2.783423	behave	-0.064183
+-2.706729	behaviorist	-0.064183
+-2.783423	behind	-0.064183
+-2.783423	believed	-0.064183
+-2.706729	between	-0.064183
+-2.783423	big	-0.064183
+-2.783423	biology	-0.064183
+-2.783423	birth	-0.064183
+-2.783423	boo	-0.064183
+-2.783423	boys	-0.064183
+-2.783423	brain	-0.064183
+-2.310462	but	-0.064183
+-2.454054	by	-0.064183
+-2.783423	called	-0.064183
+-2.783423	can	-0.064183
+-2.783423	case	-0.064183
+-2.783423	cease	-0.064183
+-2.783423	changed	-0.064183
+-2.783423	changes	-0.064183
+-2.706729	character	-0.064183
+-2.783423	characters	-0.064183
+-2.783423	cheries	-0.064183
+-2.783423	child	-0.064183
+-2.202733	children	-0.084250
+-2.783423	chomsky	-0.064183
+-2.783423	claims	-0.064183
+-2.783423	cognition	-0.064183
+-2.783423	cognitive	-0.064183
+-2.783423	colb	-0.064183
+-2.783423	coll	-0.064183
+-2.783423	concept	-0.064183
+-2.783423	conception	-0.064183
+-2.783423	concrete	-0.064183
+-2.783423	connectedness	-0.064183
+-2.783423	conservation	-0.064183
+-2.783423	constantly	-0.064183
+-2.783423	constrained	-0.064183
+-2.783423	construct	-0.064183
+-2.783423	constructivism	-0.064183
+-2.783423	continuity	-0.064183
+-2.783423	corrected	-0.064183
+-2.783423	created	-0.064183
+-2.783423	damaged	-0.064183
+-2.783423	darcy	-0.064183
+-2.783423	develop	-0.064183
+-2.116486	development	-0.345846
+-2.783423	differences	-0.064183
+-2.454054	different	-0.064183
+-2.783423	differently	-0.064183
+-2.783423	differing	-0.064183
+-2.783423	disappearance	-0.064183
+-2.783423	discovered	-0.064183
+-2.202733	do	-0.064183
+-2.706729	does	-0.064183
+-2.783423	drinking	-0.064183
+-2.783423	edu	-0.064183
+-2.783423	effect	-0.064183
+-2.783423	egocentric	-0.064183
+-2.783423	egocentrism	-0.064183
+-2.783423	emergence	-0.064183
+-2.783423	empiricism	-0.064183
+-2.783423	entirely	-0.064183
+-2.783423	epistemology	-0.064183
+-2.783423	erickson	-0.064183
+-2.706729	erik	-0.138893
+-2.783423	evaluation	-0.064183
+-2.706729	everything	-0.064183
+-2.706729	exist	-0.138893
+-2.706729	existing	-0.064183
+-2.783423	expect	-0.064183
+-2.783423	experience	-0.064183
+-2.706729	explain	-0.138893
+-2.706729	explanation	-0.064183
+-2.783423	face	-0.064183
+-2.783423	factual	-0.064183
+-2.783423	failure	-0.064183
+-2.783423	falsifiable	-0.064183
+-2.783423	finally	-0.064183
+-2.783423	findings	-0.064183
+-2.783423	fit	-0.064183
+-2.783423	fitting	-0.064183
+-2.783423	fodor	-0.064183
+-2.454054	for	-0.064183
+-2.783423	form	-0.064183
+-2.783423	formal	-0.064183
+-2.783423	framework	-0.064183
+-2.783423	frameworks	-0.064183
+-2.783423	freud	-0.064183
+-2.783423	freudian	-0.064183
+-2.310462	from	-0.099933
+-2.783423	g	-0.064183
+-2.783423	gained	-0.064183
+-2.706729	general	-0.064183
+-2.783423	genetic	-0.064183
+-2.783423	get	-0.064183
+-2.706729	give	-0.138893
+-2.783423	goal	-0.064183
+-2.783423	got	-0.064183
+-2.706729	greg	-0.138893
+-2.783423	h	-0.064183
+-2.783423	habituation	-0.064183
+-2.783423	have	-0.064183
+-2.706729	he	-0.064183
+-2.783423	help	-0.064183
+-2.783423	helper	-0.064183
+-2.783423	helps	-0.064183
+-2.783423	highly	-0.064183
+-2.783423	hinderer	-0.064183
+-2.783423	hinders	-0.064183
+-2.706729	how	-0.064183
+-2.783423	hypothetically	-0.064183
+-2.783423	i	-0.064183
+-2.706729	if	-0.064183
+-2.783423	ii	-0.064183
+-2.783423	iii	-0.064183
+-2.783423	impairment	-0.064183
+-1.928868	in	-0.079710
+-2.783423	inability	-0.064183
+-2.783423	increasingly	-0.064183
+-2.783423	independent	-0.064183
+-2.706729	infant	-0.064183
+-2.454054	infants	-0.064183
+-2.706729	information	-0.064183
+-2.783423	inhibition	-0.064183
+-2.783423	innate	-0.064183
+-2.783423	interacts	-0.064183
+-2.783423	interesting	-0.064183
+-2.783423	into	-0.064183
+-2.783423	invent	-0.064183
+-2.044562	is	-0.081690
+-2.454054	it	-0.064183
+-2.783423	iv	-0.064183
+-2.706729	izzat	-0.138893
+-2.706729	jane	-0.138893
+-2.783423	jarudi	-0.064183
+-2.783423	jean	-0.064183
+-2.783423	karen	-0.064183
+-2.783423	know	-0.064183
+-2.310462	knowledge	-0.241424
+-2.706729	koleen	-0.138893
+-2.783423	kuhlmeier	-0.064183
+-2.783423	lack	-0.064183
+-2.706729	language	-0.064183
+-2.783423	laun	-0.064183
+-2.783423	leading	-0.064183
+-2.783423	learn	-0.064183
+-2.783423	less	-0.064183
+-2.706729	limitations	-0.064183
+-2.783423	lio	-0.064183
+-2.783423	lip	-0.064183
+-2.783423	little	-0.064183
+-2.783423	logical	-0.064183
+-2.783423	looking	-0.064183
+-2.783423	manipulates	-0.064183
+-2.783423	maturation	-0.064183
+-2.783423	may	-0.064183
+-2.783423	mccrink	-0.064183
+-2.783423	mental	-0.064183
+-2.783423	method	-0.064183
+-2.783423	methodological	-0.064183
+-2.783423	methods	-0.064183
+-2.783423	mindblindness	-0.064183
+-2.706729	minds	-0.064183
+-2.783423	modern	-0.064183
+-2.783423	modular	-0.064183
+-2.783423	module	-0.064183
+-2.706729	modules	-0.064183
+-2.706729	month	-0.138893
+-2.783423	months	-0.064183
+-2.783423	morality	-0.064183
+-2.706729	more	-0.064183
+-2.783423	mostly	-0.064183
+-2.783423	motor	-0.064183
+-2.706729	movies	-0.138893
+-2.783423	much	-0.064183
+-2.783423	my	-0.064183
+-2.783423	nativism	-0.064183
+-2.783423	need	-0.064183
+-2.783423	neural	-0.064183
+-2.310462	new	-0.099933
+-2.454054	not	-0.064183
+-2.783423	o	-0.064183
+-2.706729	object	-0.138893
+-2.454054	objects	-0.112535
+-2.783423	observations	-0.064183
+-2.783423	occurs	-0.064183
+-1.548082	of	-0.167468
+-2.783423	olds	-0.064183
+-2.783423	one	-0.064183
+-2.783423	ones	-0.064183
+-2.783423	open	-0.064183
+-2.706729	operational	-0.138893
+-2.783423	operations	-0.064183
+-2.310462	or	-0.064183
+-2.783423	order	-0.064183
+-2.783423	organize	-0.064183
+-2.783423	p	-0.064183
+-2.783423	partially	-0.064183
+-2.783423	peek	-0.064183
+-2.454054	people	-0.064183
+-2.783423	perceives	-0.064183
+-2.783423	perceptions	-0.064183
+-2.783423	permanence	-0.064183
+-2.706729	physical	-0.064183
+-2.783423	physics	-0.064183
+-2.454054	piaget	-0.099933
+-2.783423	piagets	-0.064183
+-2.783423	poorly	-0.064183
+-2.783423	positive	-0.064183
+-2.783423	pre	-0.064183
+-2.783423	prediction	-0.064183
+-2.783423	preference	-0.064183
+-2.783423	preoperational	-0.064183
+-2.783423	primary	-0.064183
+-2.706729	problems	-0.064183
+-2.706729	process	-0.064183
+-2.783423	profound	-0.064183
+-2.783423	proposed	-0.064183
+-2.783423	q	-0.064183
+-2.706729	question	-0.064183
+-2.783423	questions	-0.064183
+-2.783423	radically	-0.064183
+-2.783423	reading	-0.064183
+-2.706729	really	-0.064183
+-2.783423	reappearance	-0.064183
+-2.706729	reason	-0.064183
+-2.454054	reasoning	-0.064183
+-2.783423	regard	-0.064183
+-2.783423	relationship	-0.064183
+-2.783423	removed	-0.064183
+-2.783423	response	-0.064183
+-2.783423	rich	-0.064183
+-2.783423	right	-0.064183
+-2.783423	schema	-0.064183
+-2.310462	schemas	-0.138893
+-2.783423	science	-0.064183
+-2.706729	scientific	-0.064183
+-2.783423	scientists	-0.064183
+-2.783423	senses	-0.064183
+-2.783423	sensorimotor	-0.064183
+-2.783423	separate	-0.064183
+-2.783423	series	-0.064183
+-2.706729	shown	-0.064183
+-2.783423	sight	-0.064183
+-2.783423	situation	-0.064183
+-2.783423	so	-0.064183
+-2.454054	social	-0.064183
+-2.783423	sociology	-0.064183
+-2.783423	solutions	-0.064183
+-2.783423	solve	-0.064183
+-2.706729	some	-0.064183
+-2.783423	sorts	-0.064183
+-2.310462	stage	-0.241424
+-2.783423	stages	-0.064183
+-2.783423	star	-0.064183
+-2.783423	start	-0.064183
+-2.783423	stau	-0.064183
+-2.783423	stop	-0.064183
+-2.706729	striking	-0.064183
+-2.783423	structures	-0.064183
+-2.783423	study	-0.064183
+-2.783423	studying	-0.064183
+-2.783423	sucking	-0.064183
+-2.783423	suffer	-0.064183
+-2.783423	sunjung	-0.064183
+-2.783423	sunny	-0.064183
+-2.783423	surprise	-0.064183
+-2.783423	surprised	-0.064183
+-2.783423	symbolic	-0.064183
+-2.783423	systems	-0.064183
+-2.783423	taking	-0.064183
+-2.783423	task	-0.064183
+-2.783423	tasks	-0.064183
+-2.783423	test	-0.064183
+-2.783423	tf	-0.064183
+-2.783423	than	-0.064183
+-2.116486	that	-0.087686
+-1.698014	the	-0.124812
+-2.783423	their	-0.064183
+-2.706729	them	-0.138893
+-2.706729	then	-0.064183
+-2.706729	theoretical	-0.064183
+-2.783423	theories	-0.064183
+-2.783423	theory	-0.064183
+-2.202733	there	-0.092544
+-2.454054	these	-0.064183
+-2.706729	they	-0.064183
+-2.783423	think	-0.064183
+-2.783423	thinkers	-0.064183
+-2.783423	this	-0.064183
+-2.783423	thompson	-0.064183
+-2.706729	thought	-0.138893
+-2.783423	through	-0.064183
+-1.728933	to	-0.107890
+-2.783423	treat	-0.064183
+-2.783423	treatment	-0.064183
+-2.783423	trying	-0.064183
+-2.202733	understanding	-0.338334
+-2.706729	understandings	-0.064183
+-2.783423	understood	-0.064183
+-2.783423	v	-0.064183
+-2.783423	valerie	-0.064183
+-2.783423	very	-0.064183
+-2.706729	vs	-0.064183
+-2.783423	was	-0.064183
+-2.783423	waves	-0.064183
+-2.706729	way	-0.064183
+-2.783423	ways	-0.064183
+-2.783423	we	-0.064183
+-2.454054	what	-0.064183
+-2.706729	which	-0.064183
+-2.783423	who	-0.064183
+-2.783423	why	-0.064183
+-2.783423	wired	-0.064183
+-2.310462	with	-0.064183
+-2.310462	world	-0.204491
+-2.783423	wynn	-0.064183
+-2.116486	yale	-0.622327
+-2.783423	years	-0.064183
+-2.783423	z	-0.064183
+
+\2-grams:
+-0.857971	<s> </s>
+-1.619932	<s> a	-0.041131
+-2.265651	<s> about	-0.041131
+-2.714354	<s> abstract	-0.041131
+-2.714354	<s> accommodation	-0.041131
+-2.714354	<s> advanced	-0.041131
+-2.714354	<s> age	-0.041131
+-2.714354	<s> alcoholism	-0.041131
+-2.714354	<s> already	-0.041131
+-2.193955	<s> are	-0.041131
+-2.714354	<s> artifacts	-0.041131
+-2.714354	<s> assimilation	-0.041131
+-2.714354	<s> because	-0.041131
+-2.714354	<s> before	-0.041131
+-2.664108	<s> behaviorist	-0.041131
+-2.394352	<s> big	-0.112051
+-2.714354	<s> biology	-0.041131
+-2.714354	<s> birth	-0.041131
+-2.714354	<s> brain	-0.041131
+-1.932351	<s> but	-0.041131
+-2.714354	<s> can	-0.041131
+-2.714354	<s> characters	-0.041131
+-2.126370	<s> children	-0.041131
+-2.714354	<s> chomsky	-0.041131
+-2.714354	<s> cognition	-0.041131
+-2.032972	<s> cognitive	-0.564970
+-2.714354	<s> coll	-0.041131
+-2.714354	<s> concrete	-0.041131
+-2.714354	<s> constrained	-0.041131
+-2.714354	<s> constructivism	-0.041131
+-2.714354	<s> continuity	-0.041131
+-2.714354	<s> corrected	-0.041131
+-2.714354	<s> created	-0.041131
+-2.714354	<s> darcy	-0.041131
+-1.724350	<s> development	-0.364892
+-2.714354	<s> differences	-0.041131
+-2.478656	<s> different	-0.041131
+-2.714354	<s> discovered	-0.041131
+-2.269821	<s> do	-0.041131
+-2.714354	<s> effect	-0.041131
+-2.394352	<s> egocentrism	-0.112051
+-2.394352	<s> emergence	-0.112051
+-2.714354	<s> empiricism	-0.041131
+-2.714354	<s> epistemology	-0.041131
+-2.664108	<s> erik	-0.041131
+-2.664108	<s> everything	-0.041131
+-2.664108	<s> explanation	-0.041131
+-2.714354	<s> factual	-0.041131
+-2.478656	<s> for	-0.041131
+-2.714354	<s> formal	-0.041131
+-2.714354	<s> freud	-0.041131
+-2.361805	<s> from	-0.041131
+-2.664108	<s> general	-0.041131
+-2.714354	<s> genetic	-0.041131
+-2.664108	<s> give	-0.041131
+-2.714354	<s> goal	-0.041131
+-2.664108	<s> greg	-0.041131
+-2.714354	<s> h	-0.041131
+-2.714354	<s> habituation	-0.041131
+-2.714354	<s> highly	-0.041131
+-2.664108	<s> how	-0.041131
+-2.714354	<s> hypothetically	-0.041131
+-2.664108	<s> if	-0.041131
+-2.023446	<s> in	-0.041131
+-2.714354	<s> independent	-0.041131
+-2.369576	<s> infant	-0.112051
+-2.664108	<s> information	-0.041131
+-2.714354	<s> innate	-0.041131
+-2.714354	<s> interesting	-0.041131
+-2.664108	<s> izzat	-0.041131
+-2.664108	<s> jane	-0.041131
+-2.714354	<s> jean	-0.041131
+-2.190451	<s> knowledge	-0.112051
+-2.664108	<s> koleen	-0.041131
+-2.394352	<s> lack	-0.041131
+-2.664108	<s> language	-0.041131
+-2.714354	<s> leading	-0.041131
+-2.714354	<s> less	-0.041131
+-2.664108	<s> limitations	-0.041131
+-2.714354	<s> lip	-0.041131
+-2.714354	<s> little	-0.041131
+-2.714354	<s> looking	-0.041131
+-2.714354	<s> manipulates	-0.041131
+-2.714354	<s> methodological	-0.041131
+-2.394352	<s> methods	-0.041131
+-2.714354	<s> mindblindness	-0.041131
+-2.664108	<s> month	-0.041131
+-2.714354	<s> morality	-0.041131
+-2.714354	<s> mostly	-0.041131
+-2.714354	<s> much	-0.041131
+-2.714354	<s> nativism	-0.041131
+-2.714354	<s> neural	-0.041131
+-2.369576	<s> object	-0.112051
+-2.714354	<s> observations	-0.041131
+-1.661938	<s> of	-0.041131
+-1.841725	<s> open	-0.689908
+-2.361805	<s> or	-0.041131
+-2.714354	<s> organize	-0.041131
+-2.714354	<s> p	-0.041131
+-2.714354	<s> peek	-0.041131
+-2.369576	<s> physical	-0.112051
+-2.714354	<s> physics	-0.041131
+-1.972240	<s> piaget	-0.087102
+-2.394352	<s> piagets	-0.041131
+-2.714354	<s> preference	-0.041131
+-2.394352	<s> preoperational	-0.112051
+-2.714354	<s> primary	-0.041131
+-2.369576	<s> problems	-0.112051
+-2.714354	<s> proposed	-0.041131
+-2.714354	<s> reading	-0.041131
+-2.714354	<s> removed	-0.041131
+-2.714354	<s> rich	-0.041131
+-2.190451	<s> schemas	-0.112051
+-2.714354	<s> senses	-0.041131
+-2.714354	<s> sensorimotor	-0.041131
+-2.394352	<s> separate	-0.041131
+-2.714354	<s> series	-0.041131
+-2.664108	<s> shown	-0.041131
+-1.679511	<s> social	-0.278001
+-2.714354	<s> sociology	-0.041131
+-2.714354	<s> solve	-0.041131
+-2.664108	<s> some	-0.041131
+-2.714354	<s> stau	-0.041131
+-2.714354	<s> stop	-0.041131
+-2.664108	<s> striking	-0.041131
+-2.714354	<s> structures	-0.041131
+-2.714354	<s> sucking	-0.041131
+-2.714354	<s> sunny	-0.041131
+-2.714354	<s> tasks	-0.041131
+-1.416230	<s> the	-0.041131
+-2.664108	<s> them	-0.041131
+-2.369576	<s> then	-0.041131
+-2.664108	<s> theoretical	-0.041131
+-2.714354	<s> theories	-0.041131
+-2.478656	<s> these	-0.041131
+-2.369576	<s> they	-0.041131
+-2.714354	<s> thinkers	-0.041131
+-2.714354	<s> treat	-0.041131
+-2.269821	<s> understanding	-0.041131
+-2.394352	<s> v	-0.112051
+-2.369576	<s> vs	-0.112051
+-2.478656	<s> what	-0.041131
+-2.714354	<s> who	-0.041131
+-2.394352	<s> why	-0.041131
+-2.361805	<s> with	-0.041131
+-2.361805	<s> world	-0.041131
+-2.714354	<s> wynn	-0.041131
+-2.032972	<s> years	-0.564970
+-0.518866	a </s>
+-1.976603	a ball	-0.041131
+-1.976603	a behaviorist	-0.041131
+-1.985994	a boo	-0.041131
+-1.985994	a colb	-0.041131
+-1.985994	a damaged	-0.041131
+-1.985994	a face	-0.041131
+-1.985994	a freudian	-0.041131
+-1.985994	a modular	-0.041131
+-1.898530	a new	-0.041131
+-1.409041	a not	-0.112051
+-1.359474	about in	-0.041131
+-1.444822	about minds	-0.041131
+-0.815930	about the	-0.041131
+-0.824134	abstract and	-0.041131
+-0.848922	abstractly or	-0.041131
+-0.856738	accommodation process	-0.041131
+-0.791011	accumulation of	-0.041131
+-0.824134	achieve a	-0.041131
+-0.526870	acquired </s>
+-0.852581	act as	-0.041131
+-0.526870	action </s>
+-0.640993	actions </s>
+-1.137197	actions or	-0.041131
+-0.526870	active </s>
+-0.526870	adulthood </s>
+-0.389000	adults </s>
+-0.856738	advanced understandings	-0.041131
+-0.857596	age adulthood	-0.041131
+-0.856738	alcoholism then	-0.041131
+-0.856738	already existing	-0.041131
+-0.640993	also </s>
+-1.152508	also some	-0.041131
+-0.640993	an </s>
+-1.154204	an entirely	-0.041131
+-0.548257	and </s>
+-1.862116	and action	-0.041131
+-1.854565	and adults	-0.041131
+-1.862116	and another	-0.041131
+-1.862116	and fitting	-0.041131
+-1.862116	and motor	-0.041131
+-1.819523	and people	-0.041131
+-1.854565	and scientific	-0.041131
+-1.574636	and to	-0.041131
+-0.856738	another character	-0.041131
+-0.857596	any profound	-0.041131
+-0.526870	approach </s>
+-0.756624	are </s>
+-1.777667	are active	-0.041131
+-1.770584	are also	-0.041131
+-1.777667	are changed	-0.041131
+-1.777667	are frameworks	-0.041131
+-1.594718	are in	-0.041131
+-1.770584	are modules	-0.041131
+-1.684585	are there	-0.041131
+-1.770584	are they	-0.041131
+-0.526870	artifacts </s>
+-1.234090	as a	-0.041131
+-1.323403	as if	-0.041131
+-1.311340	as objects	-0.041131
+-0.845293	ask children	-0.041131
+-0.856738	assimilation process	-0.041131
+-1.090284	at a	-0.041131
+-1.144333	at these	-0.041131
+-0.526870	autism </s>
+-0.640993	b </s>
+-1.154204	b task	-0.041131
+-0.640993	babies </s>
+-1.154204	babies expect	-0.041131
+-0.526870	baby </s>
+-0.711712	ball </s>
+-1.446524	ball achieve	-0.041131
+-1.446524	ball interacts	-0.041131
+-1.297154	ball to	-0.041131
+-1.154204	bang sunjung	-0.041131
+-1.123269	bang yale	-0.041131
+-1.154204	be surprised	-0.041131
+-1.130177	be there	-0.041131
+-0.852581	because it	-0.041131
+-0.857596	before months	-0.041131
+-0.857596	behave differently	-0.041131
+-0.640993	behaviorist </s>
+-1.154204	behaviorist treatment	-0.041131
+-0.857596	behind their	-0.041131
+-0.841694	believed that	-0.041131
+-1.144333	between different	-0.041131
+-1.065590	between the	-0.041131
+-0.857596	big questions	-0.112051
+-0.526870	biology </s>
+-0.526870	birth </s>
+-0.526870	boo </s>
+-0.526870	boys </s>
+-0.857596	brain waves	-0.041131
+-1.609205	but also	-0.041131
+-1.609205	but does	-0.041131
+-1.614077	but inability	-0.041131
+-1.586203	but not	-0.041131
+-1.614077	but suffer	-0.041131
+-1.548122	but there	-0.041131
+-1.323403	by babies	-0.041131
+-1.325919	by disappearance	-0.041131
+-1.323403	by which	-0.041131
+-0.848922	called schemas	-0.041131
+-0.856738	can be	-0.041131
+-0.791011	case of	-0.041131
+-0.813930	cease to	-0.041131
+-0.848922	changed or	-0.041131
+-0.831073	changes in	-0.041131
+-1.154204	character helps	-0.041131
+-1.154204	character hinders	-0.041131
+-0.831073	characters in	-0.041131
+-1.152508	cheries erik	-0.041131
+-1.123269	cheries yale	-0.041131
+-0.857596	child perceives	-0.041131
+-1.500342	children and	-0.041131
+-1.586277	children are	-0.041131
+-1.605711	children do	-0.041131
+-1.672753	children really	-0.041131
+-1.099303	children think	-0.041131
+-1.455914	children to	-0.041131
+-0.857596	chomsky fodor	-0.041131
+-0.526870	claims </s>
+-0.526870	cognition </s>
+-0.841694	cognitive development	-0.564970
+-0.526870	colb </s>
+-0.857596	coll g	-0.041131
+-0.791011	concept of	-0.041131
+-0.791011	conception of	-0.041131
+-0.856738	concrete operational	-0.041131
+-0.526870	connectedness </s>
+-0.526870	conservation </s>
+-0.857596	constantly trying	-0.041131
+-0.841694	constrained development	-0.041131
+-0.856738	construct more	-0.041131
+-0.526870	constructivism </s>
+-0.526870	continuity </s>
+-0.526870	corrected </s>
+-0.831073	created in	-0.041131
+-0.857596	damaged module	-0.041131
+-0.857596	darcy thompson	-0.041131
+-0.813930	develop to	-0.041131
+-0.226688	development </s>
+-1.691032	development occurs	-0.041131
+-1.489551	development of	-0.041131
+-0.856738	differences between	-0.041131
+-1.325919	different situation	-0.041131
+-1.325919	different sorts	-0.041131
+-1.325919	different ways	-0.041131
+-0.848922	differently with	-0.041131
+-0.831073	differing in	-0.041131
+-0.857596	disappearance reappearance	-0.041131
+-0.841694	discovered that	-0.041131
+-1.535040	do babies	-0.041131
+-1.482996	do children	-0.041131
+-1.515570	do infants	-0.041131
+-1.539144	do so	-0.041131
+-1.539144	do we	-0.041131
+-1.152508	does he	-0.041131
+-1.144333	does not	-0.041131
+-0.526870	drinking </s>
+-0.526870	edu </s>
+-0.791011	effect of	-0.041131
+-0.526870	egocentric </s>
+-0.526870	egocentrism </s>
+-0.791011	emergence of	-0.112051
+-0.526870	empiricism </s>
+-0.852581	entirely different	-0.041131
+-0.526870	epistemology </s>
+-1.152508	erickson jane	-0.041131
+-1.123269	erickson yale	-0.041131
+-0.560809	erik cheries	-0.041131
+-0.526870	evaluation </s>
+-0.640993	everything </s>
+-1.116468	everything is	-0.041131
+-0.389000	exist </s>
+-0.640993	existing </s>
+-1.154204	existing schema	-0.041131
+-0.810581	expect the	-0.041131
+-0.824134	experience and	-0.041131
+-0.389000	explain </s>
+-1.154204	explanation finally	-0.041131
+-1.144333	explanation for	-0.041131
+-0.526870	face </s>
+-0.852581	factual what	-0.041131
+-0.856738	failure at	-0.041131
+-0.857596	falsifiable claims	-0.041131
+-0.857596	finally invent	-0.041131
+-0.526870	findings </s>
+-0.848922	fit new	-0.041131
+-0.852581	fitting it	-0.041131
+-0.526870	fodor </s>
+-0.686837	for </s>
+-1.311340	for reasoning	-0.041131
+-1.325919	for studying	-0.041131
+-0.791011	form of	-0.041131
+-0.856738	formal operational	-0.041131
+-0.526870	framework </s>
+-0.841694	frameworks that	-0.041131
+-0.852581	freud piaget	-0.041131
+-0.856738	freudian explanation	-0.041131
+-0.546536	from </s>
+-1.447889	from sight	-0.041131
+-1.298690	from the	-0.041131
+-0.526870	g </s>
+-0.857596	gained through	-0.041131
+-0.640993	general </s>
+-1.154204	general changes	-0.041131
+-0.526870	genetic </s>
+-0.852581	get people	-0.041131
+-0.546268	give a	-0.041131
+-0.824134	goal and	-0.041131
+-0.841694	got that	-0.041131
+-0.560809	greg laun	-0.041131
+-0.857596	h lio	-0.041131
+-0.857596	habituation surprise	-0.041131
+-0.810581	have the	-0.041131
+-1.154204	he called	-0.041131
+-1.152508	he really	-0.041131
+-0.526870	help </s>
+-0.856738	helper vs	-0.041131
+-0.824134	helps a	-0.041131
+-0.857596	highly positive	-0.041131
+-0.526870	hinderer </s>
+-0.810581	hinders the	-0.041131
+-1.290701	how children	-0.041131
+-1.290701	how do	-0.041131
+-1.200073	how the	-0.041131
+-0.526870	hypothetically </s>
+-0.526870	i </s>
+-1.144333	if objects	-0.041131
+-1.130177	if there	-0.041131
+-0.526870	ii </s>
+-0.526870	iii </s>
+-0.526870	impairment </s>
+-0.770775	in </s>
+-1.772111	in an	-0.041131
+-1.204394	in how	-0.041131
+-1.778967	in order	-0.041131
+-1.778967	in radically	-0.041131
+-1.495556	in the	-0.041131
+-1.778967	in this	-0.041131
+-1.772111	in which	-0.041131
+-0.813930	inability to	-0.041131
+-0.857596	increasingly logical	-0.041131
+-0.791011	independent of	-0.041131
+-0.640993	infant </s>
+-1.130177	infant understanding	-0.112051
+-0.686837	infants </s>
+-1.325919	infants act	-0.041131
+-1.234090	infants and	-0.041131
+-0.640993	information </s>
+-1.116468	information is	-0.041131
+-0.640993	inhibition </s>
+-1.090284	inhibition and	-0.041131
+-0.848922	innate knowledge	-0.041131
+-0.848922	interacts with	-0.041131
+-0.857596	interesting falsifiable	-0.041131
+-0.856738	into an	-0.041131
+-0.824134	invent a	-0.041131
+-0.767696	is </s>
+-1.731954	is acquired	-0.041131
+-1.731954	is gained	-0.041131
+-1.731954	is my	-0.041131
+-1.070398	is the	-0.041131
+-1.650374	is there	-0.041131
+-1.731954	is understood	-0.041131
+-1.325919	it got	-0.041131
+-1.325919	it into	-0.041131
+-1.270999	it is	-0.041131
+-0.526870	iv </s>
+-0.560809	izzat jarudi	-0.041131
+-0.560809	jane erickson	-0.041131
+-1.152508	jarudi izzat	-0.041131
+-1.123269	jarudi yale	-0.041131
+-0.852581	jean piaget	-0.041131
+-0.526870	karen </s>
+-0.526870	know </s>
+-0.302425	knowledge </s>
+-1.430015	knowledge but	-0.041131
+-0.560809	koleen mccrink	-0.041131
+-0.857596	kuhlmeier karen	-0.041131
+-1.030996	lack of	-0.041131
+-1.065590	lack the	-0.041131
+-0.640993	language </s>
+-1.154204	language impairment	-0.041131
+-1.152508	laun greg	-0.041131
+-1.123269	laun yale	-0.041131
+-0.813930	leading to	-0.041131
+-0.856738	learn more	-0.041131
+-0.857596	less egocentric	-0.041131
+-0.640993	limitations </s>
+-1.030996	limitations of	-0.041131
+-0.526870	lio </s>
+-0.857596	lip o	-0.041131
+-0.857596	little scientists	-0.041131
+-0.856738	logical thought	-0.041131
+-0.526870	looking </s>
+-0.848922	manipulates but	-0.041131
+-0.526870	maturation </s>
+-0.856738	may be	-0.041131
+-1.152508	mccrink koleen	-0.041131
+-1.123269	mccrink yale	-0.041131
+-0.857596	mental operations	-0.041131
+-0.857596	method was	-0.041131
+-0.856738	methodological limitations	-0.041131
+-0.640993	methods </s>
+-1.144333	methods for	-0.041131
+-0.526870	mindblindness </s>
+-0.640993	minds </s>
+-1.030996	minds of	-0.041131
+-0.857596	modern science	-0.041131
+-0.857596	modular conception	-0.041131
+-0.857596	module autism	-0.041131
+-0.640993	modules </s>
+-1.144333	modules what	-0.041131
+-0.560809	month olds	-0.041131
+-0.852581	months infants	-0.041131
+-0.526870	morality </s>
+-0.640993	more </s>
+-1.144333	more about	-0.041131
+-0.857596	mostly boys	-0.041131
+-0.856738	motor actions	-0.041131
+-0.549335	movies in	-0.112051
+-0.845293	much understanding	-0.041131
+-0.857596	my tf	-0.041131
+-0.526870	nativism </s>
+-0.813930	need to	-0.041131
+-0.857596	neural maturation	-0.041131
+-1.447889	new experience	-0.041131
+-0.858807	new information	-0.112051
+-1.417561	new schemas	-0.041131
+-1.325919	not b	-0.041131
+-1.323403	not everything	-0.041131
+-1.323403	not reason	-0.041131
+-0.526870	o </s>
+-0.560809	object permanence	-0.087102
+-0.487444	objects </s>
+-1.325039	objects exist	-0.041131
+-0.526870	observations </s>
+-0.852581	occurs as	-0.041131
+-0.476660	of </s>
+-1.792401	of a	-0.041131
+-2.132859	of conservation	-0.041131
+-1.941374	of development	-0.041131
+-2.120289	of infant	-0.041131
+-2.120289	of language	-0.041131
+-2.132859	of mental	-0.041131
+-2.120289	of object	-0.041131
+-2.132859	of ones	-0.041131
+-2.132859	of q	-0.041131
+-2.019003	of schemas	-0.041131
+-2.063728	of social	-0.041131
+-2.132859	of stages	-0.041131
+-2.132859	of symbolic	-0.112051
+-2.132859	of taking	-0.041131
+-1.414383	of the	-0.461802
+-0.640993	olds </s>
+-1.152508	olds month	-0.041131
+-0.856738	one character	-0.041131
+-0.856738	ones actions	-0.041131
+-0.856738	open question	-0.041131
+-0.557100	operational stage	-0.112051
+-0.526870	operations </s>
+-0.711712	or </s>
+-1.328978	or a	-0.041131
+-1.413790	or new	-0.041131
+-1.446524	or perceptions	-0.041131
+-0.813930	order to	-0.041131
+-0.848922	organize knowledge	-0.041131
+-0.857596	p star	-0.041131
+-0.857596	partially pre	-0.041131
+-0.824134	peek a	-0.041131
+-1.311340	people as	-0.041131
+-1.300898	people but	-0.041131
+-1.208331	people to	-0.041131
+-0.824134	perceives and	-0.041131
+-0.791011	perceptions of	-0.041131
+-0.640993	permanence </s>
+-1.116468	permanence is	-0.041131
+-1.090284	physical and	-0.041131
+-1.137197	physical world	-0.041131
+-0.824134	physics and	-0.041131
+-0.546536	piaget </s>
+-1.447889	piaget believed	-0.041131
+-1.444822	piaget scientific	-0.112051
+-1.154204	piagets approach	-0.041131
+-1.154204	piagets theory	-0.041131
+-0.856738	poorly at	-0.041131
+-0.526870	positive </s>
+-0.857596	pre wired	-0.041131
+-0.852581	prediction by	-0.041131
+-0.526870	preference </s>
+-0.848922	preoperational stage	-0.112051
+-0.857596	primary method	-0.041131
+-1.090284	problems and	-0.041131
+-1.137197	problems with	-0.112051
+-1.144333	process by	-0.041131
+-1.030996	process of	-0.041131
+-0.856738	profound general	-0.041131
+-0.841694	proposed that	-0.041131
+-0.824134	q a	-0.041131
+-1.539144	question i	-0.041131
+-1.539144	question ii	-0.041131
+-1.539144	question iii	-0.041131
+-1.539144	question iv	-0.041131
+-1.535040	question them	-0.041131
+-0.526870	questions </s>
+-0.526870	radically </s>
+-0.857596	reading response	-0.041131
+-1.152508	really explain	-0.041131
+-1.154204	really know	-0.041131
+-0.791011	reappearance of	-0.041131
+-0.640993	reason </s>
+-1.154204	reason abstractly	-0.041131
+-0.686837	reasoning </s>
+-1.311340	reasoning about	-0.041131
+-1.325919	reasoning behind	-0.041131
+-0.813930	regard to	-0.041131
+-0.856738	relationship between	-0.041131
+-0.848922	removed from	-0.041131
+-0.526870	response </s>
+-0.856738	rich theoretical	-0.041131
+-0.848922	right knowledge	-0.041131
+-0.526870	schema </s>
+-0.566291	schemas </s>
+-0.846455	schemas are	-0.041131
+-0.791011	science of	-0.041131
+-1.154204	scientific evaluation	-0.112051
+-1.144333	scientific reasoning	-0.041131
+-0.526870	scientists </s>
+-0.824134	senses and	-0.041131
+-0.848922	sensorimotor stage	-0.041131
+-1.152508	separate modules	-0.041131
+-1.154204	separate partially	-0.041131
+-0.791011	series of	-0.041131
+-1.152508	shown movies	-0.041131
+-1.154204	shown test	-0.041131
+-0.857596	sight cease	-0.041131
+-0.526870	situation </s>
+-0.857596	so poorly	-0.041131
+-0.727350	social </s>
+-1.539144	social baby	-0.041131
+-1.539144	social connectedness	-0.041131
+-1.539144	social prediction	-0.041131
+-1.498978	social world	-0.087102
+-0.526870	sociology </s>
+-0.526870	solutions </s>
+-0.856738	solve problems	-0.041131
+-1.152508	some striking	-0.041131
+-1.130177	some understanding	-0.041131
+-0.526870	sorts </s>
+-0.302425	stage </s>
+-1.452342	stage child	-0.041131
+-0.857596	stages differing	-0.041131
+-0.526870	star </s>
+-0.526870	start </s>
+-0.857596	stau z	-0.041131
+-0.857596	stop drinking	-0.041131
+-0.640993	striking </s>
+-1.154204	striking findings	-0.041131
+-0.856738	structures he	-0.041131
+-0.841694	study development	-0.041131
+-0.852581	studying infants	-0.041131
+-0.526870	sucking </s>
+-0.848922	suffer from	-0.041131
+-0.856738	sunjung bang	-0.041131
+-0.856738	sunny bang	-0.041131
+-0.526870	surprise </s>
+-0.852581	surprised by	-0.041131
+-0.856738	symbolic thought	-0.112051
+-0.526870	systems </s>
+-0.848922	taking new	-0.041131
+-0.526870	task </s>
+-0.526870	tasks </s>
+-0.856738	test movies	-0.041131
+-0.526870	tf </s>
+-0.856738	than adults	-0.041131
+-1.016095	that children	-0.041131
+-1.615415	that develop	-0.041131
+-1.535411	that development	-0.041131
+-1.588887	that objects	-0.041131
+-1.610784	that way	-0.041131
+-0.683544	the </s>
+-2.142154	the accumulation	-0.041131
+-1.156986	the ball	-0.041131
+-2.142154	the case	-0.041131
+-2.142154	the concept	-0.041131
+-2.142154	the form	-0.041131
+-2.142154	the helper	-0.041131
+-2.142154	the hinderer	-0.041131
+-2.128013	the minds	-0.041131
+-2.142154	the modern	-0.041131
+-2.128013	the physical	-0.041131
+-2.064978	the reasoning	-0.041131
+-2.142154	the relationship	-0.041131
+-2.142154	the right	-0.041131
+-1.971547	the understanding	-0.041131
+-1.601426	the very	-0.112051
+-2.128013	the way	-0.041131
+-2.015755	the world	-0.041131
+-0.857596	their solutions	-0.041131
+-0.389000	them </s>
+-1.325919	then failure	-0.041131
+-1.323403	then give	-0.041131
+-1.323403	then shown	-0.041131
+-1.152508	theoretical does	-0.041131
+-1.154204	theoretical framework	-0.041131
+-0.526870	theories </s>
+-0.791011	theory of	-0.041131
+-0.751434	there </s>
+-1.540495	there any	-0.041131
+-0.936796	there are	-0.041131
+-1.502649	there from	-0.041131
+-0.686837	these </s>
+-1.311340	these social	-0.041131
+-1.323403	these understandings	-0.041131
+-0.686837	they </s>
+-1.325919	they have	-0.041131
+-1.325919	they need	-0.041131
+-0.640993	think </s>
+-1.103179	think in	-0.041131
+-0.857596	thinkers constantly	-0.041131
+-0.848922	this stage	-0.041131
+-0.526870	thompson </s>
+-0.389000	thought </s>
+-0.810581	through the	-0.041131
+-0.590755	to </s>
+-1.954774	to ask	-0.041131
+-1.954774	to behave	-0.041131
+-1.954774	to construct	-0.041131
+-1.945172	to exist	-0.041131
+-1.954774	to fit	-0.041131
+-1.954774	to get	-0.041131
+-1.954774	to help	-0.041131
+-1.954774	to increasingly	-0.041131
+-1.954774	to learn	-0.041131
+-1.945172	to question	-0.041131
+-1.945172	to reason	-0.041131
+-0.852581	treat people	-0.041131
+-0.813930	treatment to	-0.041131
+-0.813930	trying to	-0.041131
+-0.278463	understanding of	-0.461802
+-1.508837	understanding that	-0.041131
+-1.123269	understandings are	-0.041131
+-1.030996	understandings of	-0.041131
+-0.526870	understood </s>
+-0.526870	v </s>
+-0.857596	valerie kuhlmeier	-0.041131
+-0.857596	very start	-0.112051
+-0.640993	vs </s>
+-1.065590	vs the	-0.041131
+-0.813930	was to	-0.041131
+-0.526870	waves </s>
+-0.640993	way </s>
+-1.144333	way it	-0.041131
+-0.857596	ways than	-0.041131
+-0.856738	we explain	-0.041131
+-1.280739	what are	-0.041131
+-1.290701	what do	-0.041131
+-1.270999	what is	-0.041131
+-1.323403	which existing	-0.041131
+-1.325919	which one	-0.041131
+-1.200073	which the	-0.041131
+-0.838125	who is	-0.041131
+-1.130177	why do	-0.041131
+-1.154204	why study	-0.041131
+-0.857596	wired systems	-0.041131
+-1.446524	with inhibition	-0.041131
+-1.446524	with regard	-0.041131
+-1.427380	with these	-0.041131
+-1.446524	with valerie	-0.041131
+-0.423505	world </s>
+-1.013793	world is	-0.041131
+-1.621137	world may	-0.041131
+-0.526870	wynn </s>
+-0.118164	yale edu	-0.866000
+-0.526870	years </s>
+-0.526870	z </s>
+
+\3-grams:
+-1.495055	<s> a colb
+-1.495055	<s> a damaged
+-1.495055	<s> a modular
+-1.236141	<s> a not
+-1.070908	<s> about in
+-0.734813	<s> about the
+-0.644479	<s> abstract and
+-0.663794	<s> accommodation process
+-0.663794	<s> advanced understandings
+-0.664294	<s> age adulthood
+-0.663794	<s> alcoholism then
+-0.663794	<s> already existing
+-0.961909	<s> are there
+-0.442785	<s> artifacts </s>
+-0.663794	<s> assimilation process
+-0.661365	<s> because it
+-0.664294	<s> before months
+-0.812089	<s> behaviorist treatment
+-0.475411	<s> big questions
+-0.442785	<s> biology </s>
+-0.442785	<s> birth </s>
+-0.664294	<s> brain waves
+-1.281990	<s> but inability
+-1.269968	<s> but not
+-1.252831	<s> but there
+-0.663794	<s> can be
+-0.648639	<s> characters in
+-1.131218	<s> children and
+-1.190403	<s> children really
+-0.664294	<s> chomsky fodor
+-0.442785	<s> cognition </s>
+-0.115253	<s> cognitive development
+-0.664294	<s> coll g
+-0.663794	<s> concrete operational
+-0.654955	<s> constrained development
+-0.442785	<s> constructivism </s>
+-0.442785	<s> continuity </s>
+-0.442785	<s> corrected </s>
+-0.648639	<s> created in
+-0.664294	<s> darcy thompson
+-0.095886	<s> development </s>
+-1.436852	<s> development of
+-0.663794	<s> differences between
+-0.875137	<s> different ways
+-0.654955	<s> discovered that
+-0.932197	<s> do babies
+-0.624255	<s> effect of
+-0.340020	<s> egocentrism </s>
+-0.452942	<s> emergence of
+-0.442785	<s> empiricism </s>
+-0.442785	<s> epistemology </s>
+-0.467971	<s> erik cheries
+-0.796075	<s> everything is
+-0.812089	<s> explanation finally
+-0.661365	<s> factual what
+-0.870386	<s> for reasoning
+-0.663794	<s> formal operational
+-0.661365	<s> freud piaget
+-0.866177	<s> from the
+-0.812089	<s> general changes
+-0.442785	<s> genetic </s>
+-0.457243	<s> give a
+-0.644479	<s> goal and
+-0.467971	<s> greg laun
+-0.664294	<s> h lio
+-0.664294	<s> habituation surprise
+-0.664294	<s> highly positive
+-0.863476	<s> how do
+-0.442785	<s> hypothetically </s>
+-0.801986	<s> if there
+-0.976774	<s> in this
+-0.624255	<s> independent of
+-0.545675	<s> infant understanding
+-0.796075	<s> information is
+-0.659218	<s> innate knowledge
+-0.664294	<s> interesting falsifiable
+-0.467971	<s> izzat jarudi
+-0.467971	<s> jane erickson
+-0.661365	<s> jean piaget
+-0.212918	<s> knowledge </s>
+-0.467971	<s> koleen mccrink
+-0.886462	<s> lack of
+-0.908707	<s> lack the
+-0.812089	<s> language impairment
+-0.638312	<s> leading to
+-0.664294	<s> less egocentric
+-0.525388	<s> limitations </s>
+-0.664294	<s> lip o
+-0.664294	<s> little scientists
+-0.442785	<s> looking </s>
+-0.659218	<s> manipulates but
+-0.663794	<s> methodological limitations
+-0.596723	<s> methods </s>
+-0.956936	<s> methods for
+-0.442785	<s> mindblindness </s>
+-0.467971	<s> month olds
+-0.442785	<s> morality </s>
+-0.664294	<s> mostly boys
+-0.657081	<s> much understanding
+-0.442785	<s> nativism </s>
+-0.664294	<s> neural maturation
+-0.356742	<s> object permanence
+-0.442785	<s> observations </s>
+-0.996658	<s> of development
+-0.083975	<s> open question
+-0.876120	<s> or a
+-0.659218	<s> organize knowledge
+-0.664294	<s> p star
+-0.644479	<s> peek a
+-0.547078	<s> physical world
+-0.644479	<s> physics and
+-1.226979	<s> piaget believed
+-0.742350	<s> piaget scientific
+-0.962742	<s> piagets approach
+-0.962742	<s> piagets theory
+-0.442785	<s> preference </s>
+-0.472612	<s> preoperational stage
+-0.664294	<s> primary method
+-0.547078	<s> problems with
+-0.654955	<s> proposed that
+-0.664294	<s> reading response
+-0.659218	<s> removed from
+-0.663794	<s> rich theoretical
+-0.471809	<s> schemas are
+-0.644479	<s> senses and
+-0.659218	<s> sensorimotor stage
+-0.961748	<s> separate modules
+-0.962742	<s> separate partially
+-0.624255	<s> series of
+-0.811386	<s> shown movies
+-1.477455	<s> social baby
+-1.477455	<s> social prediction
+-0.343578	<s> social world
+-0.442785	<s> sociology </s>
+-0.663794	<s> solve problems
+-0.801986	<s> some understanding
+-0.664294	<s> stau z
+-0.664294	<s> stop drinking
+-0.812089	<s> striking findings
+-0.663794	<s> structures he
+-0.442785	<s> sucking </s>
+-0.663794	<s> sunny bang
+-0.442785	<s> tasks </s>
+-1.665197	<s> the accumulation
+-1.665197	<s> the case
+-1.665197	<s> the helper
+-1.665197	<s> the modern
+-1.606029	<s> the understanding
+-1.422113	<s> the very
+-0.335561	<s> them </s>
+-1.054879	<s> then failure
+-1.053651	<s> then shown
+-0.811386	<s> theoretical does
+-0.442785	<s> theories </s>
+-0.874325	<s> these understandings
+-1.054879	<s> they have
+-1.054879	<s> they need
+-0.664294	<s> thinkers constantly
+-0.661365	<s> treat people
+-0.244553	<s> understanding of
+-0.340020	<s> v </s>
+-0.393623	<s> vs </s>
+-0.856674	<s> what is
+-0.652840	<s> who is
+-0.948517	<s> why do
+-0.962742	<s> why study
+-0.910462	<s> with valerie
+-0.748406	<s> world is
+-0.442785	<s> wynn </s>
+-0.092239	<s> years </s>
+-0.910462	a ball achieve
+-0.525388	a behaviorist </s>
+-0.442785	a boo </s>
+-0.442785	a colb </s>
+-0.664294	a damaged module
+-0.442785	a face </s>
+-0.663794	a freudian explanation
+-0.664294	a modular conception
+-0.910823	a new experience
+-0.578581	a not b
+-0.611606	about in </s>
+-0.525388	about minds </s>
+-1.284374	about the physical
+-1.275617	about the reasoning
+-0.986842	abstract and scientific
+-0.573441	abstractly or </s>
+-0.807977	accommodation process by
+-0.404618	accumulation of </s>
+-0.436773	achieve a </s>
+-0.874325	act as if
+-0.910462	actions or perceptions
+-0.756815	advanced understandings of
+-0.442785	age adulthood </s>
+-0.874325	alcoholism then give
+-0.812089	already existing schema
+-0.811386	also some striking
+-0.661365	an entirely different
+-0.442785	and action </s>
+-0.335561	and adults </s>
+-0.663794	and another character
+-0.661365	and fitting it
+-0.663794	and motor actions
+-0.866917	and people but
+-0.807977	and scientific reasoning
+-0.997049	and to question
+-0.812089	another character hinders
+-0.663794	any profound general
+-0.442785	are active </s>
+-0.811386	are also some
+-0.659218	are changed or
+-0.654955	are frameworks that
+-0.922913	are in the
+-0.807977	are modules what
+-0.933429	are there any
+-0.556826	are they </s>
+-0.436773	as a </s>
+-0.807977	as if objects
+-0.412905	as objects </s>
+-0.912928	ask children to
+-0.756815	assimilation process of
+-0.900220	at a not
+-0.870386	at these social
+-0.442785	b task </s>
+-0.636276	babies expect the
+-0.644479	ball achieve a
+-0.659218	ball interacts with
+-0.998023	ball to behave
+-0.663794	bang sunjung bang
+-0.106063	bang yale edu
+-0.661365	be surprised by
+-0.599311	be there </s>
+-0.875137	because it got
+-0.661365	before months infants
+-0.659218	behave differently with
+-0.638312	behaviorist treatment to
+-0.664294	behind their solutions
+-0.749541	believed that children
+-0.875137	between different sorts
+-1.012621	between the minds
+-0.340020	big questions </s>
+-0.442785	brain waves </s>
+-0.525388	but also </s>
+-0.807977	but does not
+-0.638312	but inability to
+-0.874325	but not everything
+-0.659218	but suffer from
+-0.708686	but there are
+-0.525388	by babies </s>
+-0.664294	by disappearance reappearance
+-0.874325	by which existing
+-0.471991	called schemas </s>
+-0.812089	can be surprised
+-1.012078	case of object
+-0.997049	cease to exist
+-0.901553	changed or new
+-0.832157	changes in how
+-0.644479	character helps a
+-0.636276	character hinders the
+-0.975784	characters in an
+-0.467971	cheries erik cheries
+-0.106063	cheries yale edu
+-0.644479	child perceives and
+-0.986842	children and adults
+-0.976587	children are active
+-0.933125	children do so
+-0.812089	children really know
+-0.596723	children think </s>
+-0.932152	children think in
+-0.489766	children to </s>
+-0.442785	chomsky fodor </s>
+-0.050964	cognitive development </s>
+-0.442785	coll g </s>
+-1.012958	concept of conservation
+-0.404618	conception of </s>
+-0.465244	concrete operational stage
+-0.638312	constantly trying to
+-0.200593	constrained development </s>
+-0.525388	construct more </s>
+-0.976774	created in order
+-0.664294	damaged module autism
+-0.442785	darcy thompson </s>
+-0.998023	develop to help
+-0.661365	development occurs as
+-1.004065	development of schemas
+-0.773208	differences between the
+-0.442785	different situation </s>
+-0.442785	different sorts </s>
+-0.664294	different ways than
+-0.910462	differently with regard
+-0.832157	differing in how
+-0.624255	disappearance reappearance of
+-0.749541	discovered that children
+-0.812089	do babies expect
+-0.947260	do children do
+-0.843382	do infants and
+-0.664294	do so poorly
+-0.663794	do we explain
+-0.811386	does he really
+-0.874325	does not reason
+-1.012078	effect of language
+-0.632459	emergence of symbolic
+-0.875137	entirely different situation
+-0.467971	erickson jane erickson
+-0.106063	erickson yale edu
+-0.961748	erik cheries erik
+-0.944368	erik cheries yale
+-0.775432	everything is the
+-0.442785	existing schema </s>
+-0.813238	expect the ball
+-0.987766	experience and fitting
+-0.664294	explanation finally invent
+-0.556826	explanation for </s>
+-0.863476	factual what do
+-0.784491	failure at a
+-0.442785	falsifiable claims </s>
+-0.644479	finally invent a
+-0.665000	fit new information
+-0.875137	fitting it into
+-0.870386	for reasoning about
+-0.661365	for studying infants
+-0.404618	form of </s>
+-0.465244	formal operational stage
+-0.949181	frameworks that develop
+-0.457441	freud piaget </s>
+-0.807977	freudian explanation for
+-0.664294	from sight cease
+-0.946401	from the very
+-0.636276	gained through the
+-0.648639	general changes in
+-0.833673	get people to
+-1.261373	give a behaviorist
+-1.263004	give a freudian
+-0.987766	goal and another
+-0.948268	got that way
+-0.961748	greg laun greg
+-0.944368	greg laun yale
+-0.442785	h lio </s>
+-0.442785	habituation surprise </s>
+-1.013593	have the right
+-0.659218	he called schemas
+-0.811386	he really explain
+-0.773208	helper vs the
+-1.000168	helps a ball
+-0.442785	highly positive </s>
+-0.813238	hinders the ball
+-0.788525	how children think
+-0.933125	how do we
+-0.554603	how the </s>
+-0.412905	if objects </s>
+-0.708686	if there are
+-0.812089	in an entirely
+-1.037359	in how children
+-0.988999	in how the
+-0.638312	in order to
+-0.442785	in radically </s>
+-1.013593	in the form
+-0.659218	in this stage
+-1.054879	in which one
+-0.988999	in which the
+-0.997049	inability to reason
+-0.663794	increasingly logical thought
+-1.012958	independent of ones
+-0.197700	infant understanding of
+-0.661365	infants act as
+-0.458716	infants and </s>
+-0.969709	information is gained
+-0.987766	inhibition and action
+-0.264623	innate knowledge </s>
+-0.905312	interacts with these
+-0.664294	interesting falsifiable claims
+-0.525388	into an </s>
+-0.436773	invent a </s>
+-0.442785	is acquired </s>
+-0.664294	is gained through
+-0.664294	is my tf
+-1.286192	is the relationship
+-1.284374	is the way
+-0.924629	is there from
+-0.442785	is understood </s>
+-0.654955	it got that
+-0.663794	it into an
+-0.609662	it is </s>
+-0.961748	izzat jarudi izzat
+-0.944368	izzat jarudi yale
+-0.961748	jane erickson jane
+-0.944368	jane erickson yale
+-0.467971	jarudi izzat jarudi
+-0.106063	jarudi yale edu
+-0.457441	jean piaget </s>
+-0.948918	knowledge but suffer
+-0.961748	koleen mccrink koleen
+-0.944368	koleen mccrink yale
+-0.442785	kuhlmeier karen </s>
+-1.007816	lack of social
+-1.013593	lack the concept
+-0.442785	language impairment </s>
+-0.467971	laun greg laun
+-0.106063	laun yale edu
+-0.998023	leading to increasingly
+-0.807977	learn more about
+-0.442785	less egocentric </s>
+-1.012958	limitations of q
+-0.442785	lip o </s>
+-0.442785	little scientists </s>
+-0.335561	logical thought </s>
+-0.947955	manipulates but does
+-0.801986	may be there
+-0.467971	mccrink koleen mccrink
+-0.106063	mccrink yale edu
+-0.442785	mental operations </s>
+-0.638312	method was to
+-0.756815	methodological limitations of
+-0.875137	methods for studying
+-0.404618	minds of </s>
+-0.624255	modern science of
+-0.624255	modular conception of
+-0.442785	module autism </s>
+-0.860062	modules what are
+-0.596723	month olds </s>
+-0.961748	month olds month
+-0.875137	months infants act
+-0.910011	more about minds
+-0.442785	mostly boys </s>
+-0.525388	motor actions </s>
+-0.618945	movies in which
+-0.244553	much understanding of
+-0.442785	my tf </s>
+-0.998023	need to learn
+-0.442785	neural maturation </s>
+-0.644479	new experience and
+-0.393623	new information </s>
+-0.657766	new schemas are
+-0.596723	not b </s>
+-0.962742	not b task
+-0.525388	not everything </s>
+-0.525388	not reason </s>
+-0.470270	object permanence </s>
+-1.032922	object permanence is
+-0.335561	objects exist </s>
+-0.843382	occurs as a
+-1.001061	of a face
+-0.442785	of conservation </s>
+-0.200593	of development </s>
+-0.525388	of infant </s>
+-0.525388	of language </s>
+-0.664294	of mental operations
+-0.467971	of object permanence
+-0.663794	of ones actions
+-0.644479	of q a
+-0.471991	of schemas </s>
+-0.933125	of social connectedness
+-0.664294	of stages differing
+-0.475136	of symbolic thought
+-0.659218	of taking new
+-0.149854	of the </s>
+-1.669540	of the world
+-0.467971	olds month olds
+-0.812089	one character helps
+-0.804971	ones actions or
+-1.310901	open question i
+-1.310901	open question ii
+-1.310901	open question iii
+-1.310901	open question iv
+-0.212918	operational stage </s>
+-0.992031	or a new
+-0.902605	or new schemas
+-0.624255	or perceptions of
+-0.998023	order to fit
+-0.264623	organize knowledge </s>
+-0.442785	p star </s>
+-0.664294	partially pre wired
+-1.001061	peek a boo
+-0.870386	people as objects
+-0.947955	people but also
+-0.489766	people to </s>
+-0.458716	perceives and </s>
+-0.404618	perceptions of </s>
+-0.969709	permanence is acquired
+-0.458716	physical and </s>
+-0.410905	physical world </s>
+-0.875167	physical world is
+-0.982364	physics and people
+-0.654955	piaget believed that
+-0.550401	piaget scientific evaluation
+-0.442785	piagets approach </s>
+-0.624255	piagets theory of
+-0.807977	poorly at these
+-0.664294	pre wired systems
+-0.874325	prediction by babies
+-0.212918	preoperational stage </s>
+-0.664294	primary method was
+-0.940873	problems and to
+-0.593388	problems with inhibition
+-0.874325	process by which
+-1.012958	process of taking
+-0.525388	profound general </s>
+-0.932281	proposed that development
+-0.436773	q a </s>
+-0.442785	question i </s>
+-0.442785	question ii </s>
+-0.442785	question iii </s>
+-0.442785	question iv </s>
+-0.335561	question them </s>
+-0.442785	reading response </s>
+-0.335561	really explain </s>
+-0.442785	really know </s>
+-0.978675	reappearance of a
+-0.659218	reason abstractly or
+-0.639525	reasoning about the
+-0.664294	reasoning behind their
+-0.489766	regard to </s>
+-0.807977	relationship between different
+-0.910823	removed from sight
+-0.812089	rich theoretical framework
+-0.906030	right knowledge but
+-0.722548	schemas are </s>
+-1.343920	schemas are changed
+-1.343920	schemas are frameworks
+-1.012078	science of infant
+-0.340020	scientific evaluation </s>
+-0.556826	scientific reasoning </s>
+-0.987766	senses and motor
+-0.264623	sensorimotor stage </s>
+-0.525388	separate modules </s>
+-0.664294	separate partially pre
+-1.012958	series of stages
+-0.459514	shown movies in
+-0.663794	shown test movies
+-0.638312	sight cease to
+-0.663794	so poorly at
+-0.442785	social baby </s>
+-0.442785	social connectedness </s>
+-0.661365	social prediction by
+-0.337049	social world </s>
+-1.303660	social world may
+-0.784491	solve problems and
+-0.525388	some striking </s>
+-0.244553	some understanding of
+-0.664294	stage child perceives
+-0.648639	stages differing in
+-0.442785	stau z </s>
+-0.442785	stop drinking </s>
+-0.442785	striking findings </s>
+-0.812089	structures he called
+-0.200593	study development </s>
+-0.556826	studying infants </s>
+-0.457441	suffer from </s>
+-0.799020	sunjung bang yale
+-0.812089	sunny bang sunjung
+-0.875137	surprised by disappearance
+-0.265301	symbolic thought </s>
+-0.665000	taking new information
+-0.459514	test movies in
+-0.335561	than adults </s>
+-1.162643	that children are
+-0.929770	that children think
+-0.638312	that develop to
+-0.963013	that development occurs
+-0.874853	that objects exist
+-0.525388	that way </s>
+-0.624255	the accumulation of
+-0.684474	the ball </s>
+-1.203044	the ball interacts
+-1.119128	the ball to
+-0.624255	the case of
+-0.624255	the concept of
+-0.624255	the form of
+-0.663794	the helper vs
+-0.442785	the hinderer </s>
+-0.756815	the minds of
+-0.664294	the modern science
+-0.784491	the physical and
+-0.875137	the reasoning behind
+-0.663794	the relationship between
+-0.659218	the right knowledge
+-0.926108	the understanding that
+-0.475411	the very start
+-0.807977	the way it
+-0.363095	the world </s>
+-0.442785	their solutions </s>
+-0.663794	then failure at
+-0.457243	then give a
+-0.812089	then shown test
+-0.811386	theoretical does he
+-0.442785	theoretical framework </s>
+-0.404618	theory of </s>
+-0.664294	there any profound
+-1.217471	there are also
+-1.217471	there are modules
+-0.457441	there from </s>
+-0.583725	these social </s>
+-0.799020	these understandings are
+-0.636276	they have the
+-0.638312	they need to
+-0.976774	think in radically
+-0.664294	thinkers constantly trying
+-0.911995	this stage child
+-0.554603	through the </s>
+-0.657081	to ask children
+-0.664294	to behave differently
+-0.663794	to construct more
+-0.335561	to exist </s>
+-0.659218	to fit new
+-0.661365	to get people
+-0.442785	to help </s>
+-0.664294	to increasingly logical
+-0.663794	to learn more
+-0.932197	to question them
+-0.812089	to reason abstractly
+-0.870386	treat people as
+-0.998023	treatment to get
+-0.998023	trying to construct
+-1.685811	understanding of mental
+-0.187136	understanding of the
+-0.943847	understanding that objects
+-0.945042	understandings are in
+-0.901719	understandings of the
+-0.664294	valerie kuhlmeier karen
+-0.340020	very start </s>
+-1.013593	vs the hinderer
+-0.998023	was to ask
+-0.856674	way it is
+-0.663794	ways than adults
+-0.335561	we explain </s>
+-0.975561	what are they
+-0.927700	what do infants
+-0.775432	what is the
+-0.525388	which existing </s>
+-0.663794	which one character
+-0.813238	which the ball
+-0.969709	who is my
+-0.919823	why do children
+-0.654955	why study development
+-0.442785	wired systems </s>
+-0.596723	with inhibition </s>
+-0.924196	with inhibition and
+-0.638312	with regard to
+-0.556826	with these </s>
+-0.664294	with valerie kuhlmeier
+-1.183577	world is there
+-1.207308	world is understood
+-0.663794	world may be
+-0.043675	yale edu </s>
+
+\end\
