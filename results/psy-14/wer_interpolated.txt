@@ -7976,4 +7976,4 @@ SUB | see | to
 OK | you | you
 OK | all | all
 OK | wednesday | wednesday
-{'Ins': 359, 'Cor': 5056, 'Del': 714, 'Sub': 1848, 'WER': 0.383}
+{'Sub': 1848, 'Del': 714, 'Ins': 359, 'Cor': 5056, 'WER': 0.383}

@@ -8,12 +8,15 @@ export default class AudioStore extends Store {
   const audioActions = flux.getActions(constants.audio);
     this.register(audioActions.changePosition, this.handlePositionChange);
     this.register(audioActions.togglePlay, this.handleTogglePlay);
+    this.register(audioActions.changeFile, this.handleChangeFile);
+    this.register(audioActions.setLength, this.handleSetLength);
 
     this.state = {
       position: 0,
-      src: undefined,
+      src: 'audio.wav',
 
-      playing: false
+      playing: false,
+      length: undefined
     };
   }
 
@@ -26,5 +29,16 @@ export default class AudioStore extends Store {
     console.info('[AudioStore.js] ', 'toggle');
     this.setState(state => ({playing: !state.playing}));
   }
+
+  handleChangeFile(file) {
+    console.info('[AudioStore.js] ', 'change file', file);
+    this.setState(state => ({src: file}));
+  }
+
+  handleSetLength(length) {
+    console.info('[AudioStore.js] ', 'set length', length);
+    this.setState(state => ({length}));
+  }
+
 
 }

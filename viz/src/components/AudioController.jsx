@@ -21,9 +21,10 @@ export default class AudioController extends Component {
       flux={this.context.flux}
       connectToStores={[constants.audio]}>
 
-      <Audio src={this.props.file} />
+      <Audio />
 
     </FluxComponent>;
   }
+
 
 }

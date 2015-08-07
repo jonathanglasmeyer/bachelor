@@ -8028,4 +8028,4 @@ OK | see | see
 OK | you | you
 OK | all | all
 OK | wednesday | wednesday
-{'Ins': 411, 'Cor': 5040, 'WER': 0.392, 'Del': 658, 'Sub': 1920}
+{'Del': 658, 'Sub': 1920, 'Ins': 411, 'Cor': 5040, 'WER': 0.392}

@@ -24,15 +24,17 @@ export default class Main extends Component {
   static propTypes = {
     words: PropTypes.any,
     selectedWord: PropTypes.any,
-    clouds: PropTypes.bool
+    clouds: PropTypes.bool,
+    length: PropTypes.number
   }
 
   render() {
-    const {words, selectedWord, cloud} = this.props;
+    const {words, selectedWord, cloud, length} = this.props;
+    console.info('[Main.jsx] ', this.props);
 
     return words ? 
       <main style={styles}>
-        {!cloud ? <Cloud {...{selectedWord,words}} /> : <WordTimeslines words={words} /> }
+        {!cloud ? <Cloud {...{selectedWord, words, length}} /> : <WordTimeslines {...{words, length}} /> }
       </main> : <div>No file loaded.</div>
   }
 

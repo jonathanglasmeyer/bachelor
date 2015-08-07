@@ -1,4 +1,5 @@
 import React, {Component, PropTypes} from 'react';
+import constants from '../constants.js';
 
 export default class Audio extends Component {
 
@@ -9,37 +10,33 @@ export default class Audio extends Component {
   }
 
   componentDidMount() {
-
     const player = React.findDOMNode(this.refs.player);
-    // player.addEventListener('canplay', () =>
-    //     this.setState({canPlay: true}));
-    // player.addEventListener('play', () =>
-    //     this.setState({playing: true}));
-    // playerElement.addEventListener('timeupdate', this.audioUpdate);
-    // playerElement.addEventListener('pause', this.audioPause);
+    player.addEventListener('canplay', () =>
+        this._setLength(player.duration));
   }
 
-  componentDidUpdate() {
+  componentDidUpdate(prevProps) {
     if (this.props.src) {
       this._skipToSecond(this.props.position);
       this._handleSetPlayingState();
+    }
+
+    if (prevProps.src !== this.props.src) {
+      const player = React.findDOMNode(this.refs.player);
+      player.load();
+      console.info('[Audio.jsx] ', player.durationuuuuuu);
     }
   }
 
   render() {
     console.info('[Audio.jsx] ', this.props);
-    if (!this.props.src) {
-      return <div>No audio file selected</div>;
-      console.info('[Audio.jsx] ', this.props.src);
-    }
-    console.info('[Audio.jsx] ', this.props.src);
 
     return <audio
       controls="controls"
       style={{width: '100%', paddingRight: 20}}
       ref="player"
       preload="auto">
-      <source src={'data/' + this.props.src} type='audio/x-wav' />
+        <source src={'data/' + this.props.src} type='audio/x-wav' />
       </audio>;
   }
 
@@ -63,6 +60,10 @@ export default class Audio extends Component {
       player.pause();
     }
 
+  }
+
+  _setLength(length) {
+    this.props.flux.getActions(constants.audio).setLength(length);
   }
 
 }

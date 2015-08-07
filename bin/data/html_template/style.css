@@ -41,20 +41,28 @@ tr {
   /* border-bottom: 2px solid #333; */
 }
 
-tr.interesting {
+tr.changed {
   border: 1px solid #888;
 }
 
+tr.interesting {
+  background: rgba(0, 0, 255, .3);
+}
+
 tr.improved {
-  background: rgba(0, 255, 0, .05);
+  border: 2px solid rgba(0, 155, 0 , 1);
 }
 
 tr.worsened {
-  background: rgba(255, 0, 0, .05);
+  border: 2px solid rgba(255, 0, 0, 1);
 }
 
 .correct {
   color: #4CAF50;
+}
+
+tr.lemma {
+  border: 3px solid rgba(0, 0, 0 , 1) !important;
 }
 
 .false {

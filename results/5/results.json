@@ -1,0 +1,12 @@
+{
+  "improvedWordsInterestingRatio": "132/328 = 40%", 
+  "improvedWordsRatio": [
+    "328/7142 = 5%"
+  ], 
+  "interestingWordsImprovedRatio": "132/607 = 22%", 
+  "interestingWordsWorsenedRatio": "1/607 = 0%", 
+  "interesting_words": 607, 
+  "words": 7142, 
+  "worsenedWordsInterestingRatio": "1/362 = 0%", 
+  "worsenedWordsRatio": "362/7142 = 5%"
+}

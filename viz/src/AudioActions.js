@@ -8,4 +8,13 @@ export default class AudioActions extends Actions {
   togglePlay() {
     return true;
   }
+
+  changeFile(file) {
+    return file;
+  }
+
+  setLength(length) {
+    return length;
+  }
+
 };

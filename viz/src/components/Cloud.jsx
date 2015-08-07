@@ -58,12 +58,17 @@ export default class Cloud extends Component {
   static propTypes = {
     words: PropTypes.array,
     selectedWord: PropTypes.any,
+    length: PropTypes.number
   }
 
   render() {
-    let {words,selectedWord} = this.props;
+    let {words, selectedWord, length} = this.props;
     const [width, height] = ["100%", 480];
-    const lengthSec = 3186;
+    if (!length) {
+      return <div>Audio loading / length = 0</div>;
+    }
+    const lengthSec = length;
+
 
     words = words.filter(w => w.maxima && w.maxima.length);
 

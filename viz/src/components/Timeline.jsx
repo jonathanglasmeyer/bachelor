@@ -14,15 +14,17 @@ export default class Timeline extends Component {
 
   static propTypes = {
     word: PropTypes.object.isRequired,
+    length: PropTypes.number,
     maximaLines: PropTypes.bool // should vertical optima lines be rendered
   }
 
   shouldComponentUpdate = shouldPureComponentUpdate;
 
   render() {
-    const {maximaLines} = this.props;
+    const {maximaLines, length} = this.props;
     const {positions, maxima, graph, word} = this.props.word || {};
-    const lengthSec = 3186;
+    const lengthSec = length;
+    console.info('[Timeline.jsx] ', lengthSec);
     const [width, height] = ["100%", 80];
     // if (graph) console.info('[Timeline.jsx] ', graph);
     if (!this.props.word) {

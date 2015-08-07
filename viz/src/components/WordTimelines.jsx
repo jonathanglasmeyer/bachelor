@@ -28,26 +28,20 @@ function median(values) {
 export default class WordTimeslines extends Component {
 
   static propTypes = {
-    words: PropTypes.any
+    words: PropTypes.any,
+    length: PropTypes.number
   }
 
 
   render() {
-    let {words} = this.props;
-    console.info('[WordTimelines.jsx] ', words);
-    // words = words.sort((a,b) => median(a.positions) < median(b.positions));
-
-    // // words = words.filter(w => w.positions.length > 0);
-    // words = words.map(w => {
-    //   let w_ = w; 
-    //   w_.median = median(w.positions);
-    //   return w_;
-    // });
+    let {words, length} = this.props;
+    console.info('[WordTimelines.jsx] ', length);
 
     return <Section style={style}>
       <ul style={listStyle}>
         {words.map(w => <WordTimeline
           key={w.word}
+          length={length}
           word={w} />)}
       </ul>
     </Section>;

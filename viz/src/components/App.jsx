@@ -20,8 +20,7 @@ export default class App extends Component {
     super(props);
     this.state = {
       cloud: false,
-      jsonFile: undefined,
-      audioFile: undefined
+      jsonFile: 'words.json'
     };
   }
 
@@ -81,8 +80,9 @@ export default class App extends Component {
   _onSubmitFileAudio(e) {
     e.preventDefault();
     const input = React.findDOMNode(this.refs.fileAudio);
-    console.info('[App.jsx] ', e.target.files[0].name);
-    this.setState({audioFile: e.target.files[0].name});
+    const audioActions = this.props.flux.getActions(constants.audio);
+    audioActions.changeFile(e.target.files[0].name);
+
   }
 
 }
