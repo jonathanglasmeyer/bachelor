@@ -1,33 +1,11 @@
-# pdfreflow
-pdftohtml -xml class03.pdf
-pdfreflow (-r?) class03.xml
-output: class03.html
-pandoc class03.html -o class03.txt
-...
-
 # process
-[1] --> should be automated ('init new test case')
-sth like `init-new audio.mp3 slides.pdf name`
-  [x] convert audio file, put under `resources/`
-  [x] copy over `config.json`, adapt `resultsFolder`
 
-[2] --> should be one: ('build keyword model')
-| [x] `pdf-to-corpus.py slides.pdf > slides.corpus.txt`
-| [x] `estimate-ngram -text slides.corpus.txt -write-lm model.lm`
+`hotword-init testcase_name audio.mp3 transcript.html slide.pdf`
+`sphinx-interpolated.py config.json`
+`sphinx-interpolated.py config.json 1`
+`hotword-analyze testcase_name`
 
-[3] `sphinx-interpolated.py config.json`
-[4] `sphinx-interpolated.py config.json 1` for interpolated
-
-### NOTE
-This could all be one script, provided we do not manually edit the model
-
-approach of `sphinx-interpolated.py`:
-  supply a `config.json` which specifies the paths.
-  if it contains 'keywordModelPath' key, the result will be using the interpolated approach
-
-more exact:
-  - don't forget ffmpeg'ing the input file. save to resources/audio.wav
-
+----------- OLD -------------------
 ###. Recognition
 1.2 `html-to-corpus transcription.html reference` (will output `reference.corpus.txt`)
 1. `pdf-to-corpus.py slides.pdf > slides.corpus.txt`

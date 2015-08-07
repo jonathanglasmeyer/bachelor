@@ -13,6 +13,8 @@ export default class WordsActions extends Actions {
   async getWords(path) {
     const response = await fetch(path);
     const words = await response.json();
+    console.info('[WordsActions.js] ', words);
+    console.dir(words);
     return words;
   }
 

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Compare WER</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+          @import url(http://fonts.googleapis.com/css?family=Roboto);
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0,0,0,.87);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  text-align: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+tr {
+  /* border-bottom: 2px solid #333; */
+}
+
+tr.interesting {
+  border: 1px solid #888;
+}
+
+tr.improved {
+  background: rgba(0, 255, 0, .05);
+}
+
+tr.worsened {
+  background: rgba(255, 0, 0, .05);
+}
+
+.correct {
+  color: #4CAF50;
+}
+
+.false {
+  color: #D32F2F;
+}
+
+span.topword {
+  color: #888;
+}
+
+        </style>
+
+    </head>
+    <body>
+      <table>
+<tr>
+<th>Reference</th><th>baseline</th><th>interpolated</th>
+</tr>
+<tr class="">
+<td class=>so</td>
+<td class=false>....</td>
+<td class=false>....</td>
+</tr>
+<tr class="">
+<td class=>most</td>
+<td class=correct>most</td>
+<td class=correct>most</td>
+</tr>
+<tr class="">
+<td class=>of</td>
+<td class=correct>of</td>
+<td class=correct>of</td>
+</tr>
+<tr class="">
+<td class=>what</td>
+<td class=correct>what</td>
+<td class=correct>what</td>
+</tr>
+<tr class="">
+<td class=>we</td>
+<td class=correct>we</td>
+<td class=correct>we</td>
+</tr>
+<tr class="">
+<td class=>do</td>
+<td class=correct>do</td>
+<td class=correct>do</td>
+</tr>
+<tr class="">
+<td class=>these</td>
+<td class=correct>these</td>
+<td class=correct>these</td>
+</tr>
+<tr class="">
+<td class=>days</td>
+<td class=correct>days</td>
+<td class=correct>days</td>
+</tr>
+<tr class="">
+<td class=>our</td>
+<td class=false>are</td>
+<td class=false>are</td>
+</tr>
+<tr class="">
+<td class=>methods</td>
+<td class=correct>methods</td>
+<td class=correct>methods</td>
+</tr>
+<tr class="">
+<td class=>our</td>
+<td class=false>are</td>
+<td class=false>are</td>
+</tr>
+<tr class="">
+<td class=>theories</td>
+<td class=correct>theories</td>
+<td class=correct>theories</td>
+</tr>
+<tr class="">
+<td class=>our</td>
+<td class=false>....</td>
+<td class=false>....</td>
+</tr>
+<tr class="">
+<td class=>ideas</td>
+<td class=false>....</td>
+<td class=false>....</td>
+</tr>
+<tr class="">
+<td class=>are</td>
+<td class=correct>are</td>
+<td class=correct>are</td>
+</tr>
+<tr class="">
+<td class=>shaped</td>
+<td class=false>....</td>
+<td class=false>....</td>
+</tr>
+<tr class="">
+<td class=>to</td>
+<td class=false>ideas</td>
+<td class=false>ideas</td>
+</tr>
+<tr class="">
+<td class=>some</td>
+<td class=correct>some</td>
+<td class=correct>some</td>
+</tr>
+<tr class="">
+<td class=>extent</td>
+<td class=correct>extent</td>
+<td class=correct>extent</td>
+</tr>
+<tr class="">
+<td class=>by</td>
+<td class=correct>by</td>
+<td class=correct>by</td>
+</tr>
+<tr class="">
+<td class=>piaget's</td>
+<td class=false>ashley's</td>
+<td class=false>piagets</td>
+</tr>
+<tr class="interesting worsened">
+<td class=>influence</td>
+<td class=correct>influence</td>
+<td class=false>influenced</td>
+</tr>
+<tr class="">
+<td class=>and</td>
+<td class=correct>and</td>
+<td class=correct>and</td>
+</tr>
+<tr class="">
+<td class=>so</td>
+<td class=correct>so</td>
+<td class=correct>so</td>
+</tr>
+<tr class="">
+<td class=>what</td>
+<td class=false>....</td>
+<td class=false>....</td>
+</tr>
+<tr class="">
+<td class=>i</td>
+<td class=correct>i</td>
+<td class=correct>i</td>
+</tr>
+<tr class="">
+<td class=>want</td>
+<td class=false>....</td>
+<td class=false>....</td>
+</tr>
+<tr class="">
+<td class=>to</td>
+<td class=false>wanna</td>
+<td class=false>....</td>
+</tr>
+<tr class="interesting worsened">
+<td class=>do</td>
+<td class=correct>do</td>
+<td class=false>wanted</td>
+</tr>
+<tr class="interesting worsened">
+<td class=>is</td>
+<td class=correct>is</td>
+<td class=false>does</td>
+</tr>
+<tr class="">
+<td class=>begin</td>
+<td class=correct>begin</td>
+<td class=correct>begin</td>
+</tr>
+<tr class="">
+<td class=>this</td>
+<td class=correct>this</td>
+<td class=correct>this</td>
+</tr>
+<tr class="">
+<td class=>class</td>
+<td class=false>....</td>
+<td class=false>....</td>
+</tr>
+<tr class="">
+<td class=>that's</td>
+<td class=false>....</td>
+<td class=false>....</td>
+</tr>
+<tr class="">
+<td class=>going</td>
+<td class=false>....</td>
+<td class=false>....</td>
+</tr>
+<tr class="">
+<td class=>to</td>
+<td class=false>classes</td>
+<td class=false>classes</td>
+</tr>
+<tr class="">
+<td class=>talk</td>
+<td class=false>bennett</td>
+<td class=false>bennett</td>
+</tr>
+<tr class="">
+<td class=>about</td>
+<td class=false>aqua</td>
+<td class=false>aqua</td>
+</tr>
+<tr class="">
+<td class=>cognitive</td>
+<td class=false>cotton</td>
+<td class=false>cotton</td>
+</tr>
+<tr class="">
+<td class=>development</td>
+<td class=correct>development</td>
+<td class=correct>development</td>
+</tr>
+<tr class="interesting improved">
+<td class=>by</td>
+<td class=false>but</td>
+<td class=correct>by</td>
+</tr>
+<tr class="">
+<td class=>talking</td>
+<td class=correct>talking</td>
+<td class=correct>talking</td>
+</tr>
+<tr class="">
+<td class=>about</td>
+<td class=correct>about</td>
+<td class=correct>about</td>
+</tr>
+<tr class="">
+<td class=>his</td>
+<td class=correct>his</td>
+<td class=correct>his</td>
+</tr>
+<tr class="">
+<td class=>ideas</td>
+<td class=correct>ideas</td>
+<td class=correct>ideas</td>
+</tr>
+</table>
+<br/><p>Worsened: 3; Improved: 1</p>
+<p>Overall words: 45; Interesting words: 3</p>
+<br/><p>Interesting words: in corpus</p>
+
+            <br/>
+            <p>
+                <b>Worsened Words (3/45 = 7%)</b> (0/3 = 0% are interesting; 0/3 = 0% interesting words worsened):
+            </p>
+
+            <p><span class="topword">(influence, 1)</span> <span class="topword">(is, 1)</span> <span class="topword">(do, 1)</span></p>
+            <br/>
+            <p></p>
+            <br/>
+            <p>
+                <b>Improved Words (1/45 = 2%)</b> (0/1 = 0% are interesting; 0/3 = 0% interesting words improved):
+            </p>
+            <p><span class="topword">(by, 1)</span></p>
+            <br/>
+            <p></p>
+        
+<br/><p>baseline: {'Cor': 26, 'Sub': 10, 'WER': 0.444, 'Ins': 1, 'Del': 9}</p>
+<p>interpolated: {'Ins': 0, 'Del': 10, 'Sub': 11, 'WER': 0.467, 'Cor': 24}</p>
+    </body>
+</html>
+

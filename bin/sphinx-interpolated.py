@@ -56,8 +56,10 @@ def main():
     else:
         sphinx_config_file_path = default_config_path
 
-        outFilePathTranscription = result('sphinx_result.txt')
-        outFilePathTimes = result('sphinx_word_times.txt')
+        outFilePathTranscription = result('sphinx_result_baseline.txt')
+        outFilePathTimes = result('sphinx_word_times_baseline.txt')
+
+    log_file = result('sphinx_log_interpolated.txt' if INTERPOLATED else 'sphinx_log_baseline.txt')
 
     inputWaveFilepath = result('resources/audio.wav')
 
@@ -76,7 +78,7 @@ def main():
     call('touch "{}"'.format(outFilePathTimes), shell=True)
 
     gigs = 4 # 4GB heap
-    cmd = 'java -Xmx{}G -jar Hotwords.jar {}'.format(gigs, sphinx_arguments)
+    cmd = 'java -Xmx{}G -jar Hotwords.jar {} 2>&1 | tee -a "{}"'.format(gigs, sphinx_arguments, log_file)
     wd = os.path.join(script_path, 'sphinx')
     call(cmd, cwd=wd, shell=True)
 

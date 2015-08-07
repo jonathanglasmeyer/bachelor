@@ -34,6 +34,7 @@ export default class WordTimeslines extends Component {
 
   render() {
     let {words} = this.props;
+    console.info('[WordTimelines.jsx] ', words);
     // words = words.sort((a,b) => median(a.positions) < median(b.positions));
 
     // // words = words.filter(w => w.positions.length > 0);

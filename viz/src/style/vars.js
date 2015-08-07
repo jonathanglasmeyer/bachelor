@@ -1,7 +1,7 @@
 export const dimension = {
   grid: 16,
   Navbar: {
-    height: 64
+    height: 100
   }
 };
 

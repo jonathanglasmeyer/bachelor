@@ -27,7 +27,9 @@ export default class WordsStore extends Store {
 
   async handleGetWords(words) {
     // let words_ = words.filter(word => word.freq > 3).slice(0,20);
-    let words_ = words.filter(word => word.freq > 3);
+    // let words_ = words.filter(word => word.freq > 3);
+    let words_ = words;
+    console.info('[WordsStore.js] ', words_);
     words_ = words_.map(word => {
       let positionsSec = word.positions.map(p => p/1000);
       let maxima = word.maxima ? word.maxima.map(([pos, count]) => [pos/1000, count]) : null;

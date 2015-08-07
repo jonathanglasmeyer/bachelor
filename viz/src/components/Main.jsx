@@ -30,10 +30,10 @@ export default class Main extends Component {
   render() {
     const {words, selectedWord, cloud} = this.props;
 
-    return <main style={styles}>
-      {!cloud ? <Cloud {...{selectedWord,words}} /> : <WordTimeslines words={words} /> }
-
-    </main>;
+    return words ? 
+      <main style={styles}>
+        {!cloud ? <Cloud {...{selectedWord,words}} /> : <WordTimeslines words={words} /> }
+      </main> : <div>No file loaded.</div>
   }
 
 

@@ -38,7 +38,7 @@ def main():
     open(outname, 'w').write(result_string)
     call('tocorpus.pl < {0} > {0}.new'.format(outname))
     call('mv {0}.new {0}'.format(outname))
-    stripped = open(outname).read().strip()
+    stripped = open(outname).read().strip().lower()
     open(outname, 'w').write(stripped)
     call('mv {0} {1}.corpus.txt'.format(outname, outname.split('.')[0]))
 

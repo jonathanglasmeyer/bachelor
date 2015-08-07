@@ -1,0 +1,284 @@
+acousticModelPath: /home/jwerner/bachelor/models/en-new/cmusphinx-en-us-5.2
+dictionaryPath: /home/jwerner/bachelor/models/en-new/cmudict-en-us.dict
+languageModelPath: /home/jwerner/bachelor/models/en-new/cmusphinx-5.0-en-us.lm
+g2pPath: /home/jwerner/bachelor/models/en-new/en_us_nostress/model.fst.ser
+inputWaveFilepath: /home/jwerner/bachelor/results/5-slice2/resources/audio.wav
+outFilePathTranscription: /home/jwerner/bachelor/results/5-slice2/sphinx_result_baseline.txt
+outFilePathTimes: /home/jwerner/bachelor/results/5-slice2/sphinx_word_times_baseline.txt
+configPath: /home/jwerner/bachelor/bin/sphinx/config/default.config.xml
+VERSION: 4-AUG 13.14
+[LOG] using the normal way (no interpolation)
+Found supplied language model file ending with .lm -> setting languageModel to simpleNGramModel
+15:59:09.456 INFO unitManager          CI Unit: *+BREATH+
+15:59:09.460 INFO unitManager          CI Unit: *+COUGH+
+15:59:09.460 INFO unitManager          CI Unit: *+NOISE+
+15:59:09.461 INFO unitManager          CI Unit: *+SMACK+
+15:59:09.461 INFO unitManager          CI Unit: *+UH+
+15:59:09.461 INFO unitManager          CI Unit: *+UM+
+15:59:09.462 INFO unitManager          CI Unit: AA
+15:59:09.462 INFO unitManager          CI Unit: AE
+15:59:09.462 INFO unitManager          CI Unit: AH
+15:59:09.463 INFO unitManager          CI Unit: AO
+15:59:09.463 INFO unitManager          CI Unit: AW
+15:59:09.464 INFO unitManager          CI Unit: AY
+15:59:09.464 INFO unitManager          CI Unit: B
+15:59:09.464 INFO unitManager          CI Unit: CH
+15:59:09.465 INFO unitManager          CI Unit: D
+15:59:09.466 INFO unitManager          CI Unit: DH
+15:59:09.467 INFO unitManager          CI Unit: EH
+15:59:09.467 INFO unitManager          CI Unit: ER
+15:59:09.467 INFO unitManager          CI Unit: EY
+15:59:09.468 INFO unitManager          CI Unit: F
+15:59:09.468 INFO unitManager          CI Unit: G
+15:59:09.469 INFO unitManager          CI Unit: HH
+15:59:09.469 INFO unitManager          CI Unit: IH
+15:59:09.470 INFO unitManager          CI Unit: IY
+15:59:09.470 INFO unitManager          CI Unit: JH
+15:59:09.471 INFO unitManager          CI Unit: K
+15:59:09.471 INFO unitManager          CI Unit: L
+15:59:09.472 INFO unitManager          CI Unit: M
+15:59:09.472 INFO unitManager          CI Unit: N
+15:59:09.473 INFO unitManager          CI Unit: NG
+15:59:09.473 INFO unitManager          CI Unit: OW
+15:59:09.474 INFO unitManager          CI Unit: OY
+15:59:09.474 INFO unitManager          CI Unit: P
+15:59:09.475 INFO unitManager          CI Unit: R
+15:59:09.476 INFO unitManager          CI Unit: S
+15:59:09.476 INFO unitManager          CI Unit: SH
+15:59:09.477 INFO unitManager          CI Unit: T
+15:59:09.477 INFO unitManager          CI Unit: TH
+15:59:09.478 INFO unitManager          CI Unit: UH
+15:59:09.478 INFO unitManager          CI Unit: UW
+15:59:09.479 INFO unitManager          CI Unit: V
+15:59:09.479 INFO unitManager          CI Unit: W
+15:59:09.480 INFO unitManager          CI Unit: Y
+15:59:09.480 INFO unitManager          CI Unit: Z
+15:59:09.481 INFO unitManager          CI Unit: ZH
+15:59:11.111 INFO autoCepstrum         Cepstrum component auto-configured as follows: autoCepstrum {MelFrequencyFilterBank, Denoise, DiscreteCosineTransform2, Lifter}
+FOO Welcome to AbstractSpeechRecognizer
+Found supplied language model file ending with .lm -> setting languageModel to simpleNGramModel
+15:59:12.407 INFO unitManager          CI Unit: *+BREATH+
+15:59:12.407 INFO unitManager          CI Unit: *+COUGH+
+15:59:12.407 INFO unitManager          CI Unit: *+NOISE+
+15:59:12.408 INFO unitManager          CI Unit: *+SMACK+
+15:59:12.408 INFO unitManager          CI Unit: *+UH+
+15:59:12.408 INFO unitManager          CI Unit: *+UM+
+15:59:12.408 INFO unitManager          CI Unit: AA
+15:59:12.408 INFO unitManager          CI Unit: AE
+15:59:12.409 INFO unitManager          CI Unit: AH
+15:59:12.409 INFO unitManager          CI Unit: AO
+15:59:12.409 INFO unitManager          CI Unit: AW
+15:59:12.409 INFO unitManager          CI Unit: AY
+15:59:12.409 INFO unitManager          CI Unit: B
+15:59:12.410 INFO unitManager          CI Unit: CH
+15:59:12.410 INFO unitManager          CI Unit: D
+15:59:12.410 INFO unitManager          CI Unit: DH
+15:59:12.410 INFO unitManager          CI Unit: EH
+15:59:12.410 INFO unitManager          CI Unit: ER
+15:59:12.410 INFO unitManager          CI Unit: EY
+15:59:12.411 INFO unitManager          CI Unit: F
+15:59:12.411 INFO unitManager          CI Unit: G
+15:59:12.411 INFO unitManager          CI Unit: HH
+15:59:12.411 INFO unitManager          CI Unit: IH
+15:59:12.411 INFO unitManager          CI Unit: IY
+15:59:12.411 INFO unitManager          CI Unit: JH
+15:59:12.412 INFO unitManager          CI Unit: K
+15:59:12.412 INFO unitManager          CI Unit: L
+15:59:12.412 INFO unitManager          CI Unit: M
+15:59:12.412 INFO unitManager          CI Unit: N
+15:59:12.413 INFO unitManager          CI Unit: NG
+15:59:12.413 INFO unitManager          CI Unit: OW
+15:59:12.413 INFO unitManager          CI Unit: OY
+15:59:12.413 INFO unitManager          CI Unit: P
+15:59:12.413 INFO unitManager          CI Unit: R
+15:59:12.414 INFO unitManager          CI Unit: S
+15:59:12.414 INFO unitManager          CI Unit: SH
+15:59:12.414 INFO unitManager          CI Unit: T
+15:59:12.414 INFO unitManager          CI Unit: TH
+15:59:12.414 INFO unitManager          CI Unit: UH
+15:59:12.415 INFO unitManager          CI Unit: UW
+15:59:12.415 INFO unitManager          CI Unit: V
+15:59:12.415 INFO unitManager          CI Unit: W
+15:59:12.415 INFO unitManager          CI Unit: Y
+15:59:12.415 INFO unitManager          CI Unit: Z
+15:59:12.416 INFO unitManager          CI Unit: ZH
+15:59:14.954 INFO autoCepstrum         Cepstrum component auto-configured as follows: autoCepstrum {MelFrequencyFilterBank, Denoise, DiscreteCosineTransform2, Lifter}
+Start initializing Context
+/home/jwerner/bachelor/results/5-slice2/sphinx_word_times_baseline.txt
+/home/jwerner/bachelor/results/5-slice2/sphinx_result_baseline.txt
+java.io.PrintStream@2401f4c3
+15:59:15.277 INFO dictionary           Loading dictionary from: file:/home/jwerner/bachelor/models/en-new/cmudict-en-us.dict
+15:59:15.360 INFO dictionary           Loading filler dictionary from: file:/home/jwerner/bachelor/models/en-new/cmusphinx-en-us-5.2/noisedict
+15:59:15.361 INFO dictionary           Loading g2p model from: /home/jwerner/bachelor/models/en-new/en_us_nostress/model.fst.ser
+15:59:18.529 INFO acousticModelLoader  Loading tied-state acoustic model from: file:/home/jwerner/bachelor/models/en-new/cmusphinx-en-us-5.2
+15:59:18.530 INFO acousticModelLoader  Pool means Entries: 164416
+15:59:18.530 INFO acousticModelLoader  Pool variances Entries: 164416
+15:59:18.530 INFO acousticModelLoader  Pool transition_matrices Entries: 46
+15:59:18.530 INFO acousticModelLoader  Pool senones Entries: 5138
+15:59:18.530 INFO acousticModelLoader  Gaussian weights: mixture_weights. Entries: 5138
+15:59:18.531 INFO acousticModelLoader  Pool senones Entries: 5138
+15:59:18.531 INFO acousticModelLoader  Context Independent Unit Entries: 46
+15:59:18.531 INFO acousticModelLoader  HMM Manager: 137099 hmms
+15:59:18.532 INFO acousticModel        CompositeSenoneSequences: 0
+15:59:18.532 INFO simpleNGramModel     load language model from file:/home/jwerner/bachelor/models/en-new/cmusphinx-5.0-en-us.lm
+15:59:42.288 INFO simpleNGramModel     finished loading language model
+15:59:43.526 INFO lexTreeLinguist      Max CI Units 47
+15:59:43.526 INFO lexTreeLinguist      Unit table size 103823
+15:59:43.530 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+15:59:43.530 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+15:59:43.531 INFO speedTracker         Load Dictionary      1       3.2520s   3.2520s   3.2520s   3.2520s   3.2520s   
+15:59:43.532 INFO speedTracker         Load AM              1       3.7640s   3.7640s   3.7640s   3.7640s   3.7640s   
+15:59:43.534 INFO speedTracker         Load AM              1       3.3900s   3.3900s   3.3900s   3.3900s   3.3900s   
+15:59:43.535 INFO speedTracker         Compile              1       1.2390s   1.2390s   1.2390s   1.2390s   1.2390s   
+16:00:06.429 INFO speedTracker            This  Time Audio: 3.82s  Proc: 22.79s  Speed: 5.97 X real time
+16:00:06.430 INFO speedTracker            Total Processed Time Audio: 3.82s  Proc: 22.79s 5.97 X real time
+16:00:06.430 INFO memoryTracker           Mem  Total: 2193.00 Mb  Free: 699.80 Mb
+16:00:06.431 INFO memoryTracker           Used: This: 1493.20 Mb  Avg: 1493.20 Mb  Max: 1493.20 Mb
+16:00:10.542 INFO wordPruningLookahea  Average Tokens/State: 8867
+16:00:15.193 INFO speedTracker            This  Time Audio: 1.97s  Proc: 7.39s  Speed: 3.75 X real time
+16:00:15.193 INFO speedTracker            Total Processed Time Audio: 5.79s  Proc: 30.18s 5.21 X real time
+16:00:15.193 INFO memoryTracker           Mem  Total: 2245.50 Mb  Free: 483.83 Mb
+16:00:15.193 INFO memoryTracker           Used: This: 1761.67 Mb  Avg: 1627.43 Mb  Max: 1761.67 Mb
+16:00:30.256 INFO wordPruningLookahea  Average Tokens/State: 10749
+16:00:30.256 INFO speedTracker            This  Time Audio: 3.61s  Proc: 14.56s  Speed: 4.03 X real time
+16:00:30.256 INFO speedTracker            Total Processed Time Audio: 9.40s  Proc: 44.74s 4.76 X real time
+16:00:30.257 INFO memoryTracker           Mem  Total: 2295.50 Mb  Free: 760.25 Mb
+16:00:30.257 INFO memoryTracker           Used: This: 1535.25 Mb  Avg: 1596.71 Mb  Max: 1761.67 Mb
+16:00:37.214 INFO speedTracker            This  Time Audio: 1.42s  Proc: 5.88s  Speed: 4.14 X real time
+16:00:37.214 INFO speedTracker            Total Processed Time Audio: 10.82s  Proc: 50.61s 4.68 X real time
+16:00:37.214 INFO memoryTracker           Mem  Total: 2088.50 Mb  Free: 405.42 Mb
+16:00:37.214 INFO memoryTracker           Used: This: 1683.08 Mb  Avg: 1618.30 Mb  Max: 1761.67 Mb
+16:00:37.577 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+16:00:37.577 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+16:00:37.577 INFO speedTracker         Load Dictionary      1       3.2520s   3.2520s   3.2520s   3.2520s   3.2520s   
+16:00:37.577 INFO speedTracker         Load AM              1       3.7640s   3.7640s   3.7640s   3.7640s   3.7640s   
+16:00:37.577 INFO speedTracker         Load AM              1       3.3900s   3.3900s   3.3900s   3.3900s   3.3900s   
+16:00:37.578 INFO speedTracker         Score                2328    0.0010s   0.0000s   0.0950s   0.0057s   13.3610s  
+16:00:37.578 INFO speedTracker         Prune                8138    0.0000s   0.0000s   0.0050s   0.0001s   0.6830s   
+16:00:37.578 INFO speedTracker         Grow                 8148    0.0000s   0.0000s   9.5600s   0.0045s   36.5940s  
+16:00:37.578 INFO speedTracker         Compile              1       1.2390s   1.2390s   1.2390s   1.2390s   1.2390s   
+16:00:37.578 INFO speedTracker         Frontend             1170    0.0010s   0.0000s   0.0940s   0.0002s   0.2100s   
+16:00:37.579 INFO speedTracker            Total Processed Time Audio: 10.82s  Proc: 50.61s 4.68 X real time
+16:00:37.579 INFO memoryTracker           Mem  Total: 2088.50 Mb  Free: 405.42 Mb
+16:00:37.579 INFO memoryTracker           Used: This: 1683.08 Mb  Avg: 1631.26 Mb  Max: 1761.67 Mb
+16:00:38.074 INFO dictionary           Loading dictionary from: file:/home/jwerner/bachelor/models/en-new/cmudict-en-us.dict
+16:00:38.114 INFO dictionary           Loading filler dictionary from: file:/home/jwerner/bachelor/models/en-new/cmusphinx-en-us-5.2/noisedict
+16:00:38.115 INFO dictionary           Loading g2p model from: /home/jwerner/bachelor/models/en-new/en_us_nostress/model.fst.ser
+16:00:38.947 INFO simpleNGramModel     load language model from file:/home/jwerner/bachelor/models/en-new/cmusphinx-5.0-en-us.lm
+16:00:51.035 INFO simpleNGramModel     finished loading language model
+16:00:52.665 INFO lexTreeLinguist      Max CI Units 47
+16:00:52.665 INFO lexTreeLinguist      Unit table size 103823
+16:00:52.665 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+16:00:52.667 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+16:00:52.667 INFO speedTracker         Load Dictionary      2       0.8730s   0.8730s   3.2520s   2.0625s   4.1250s   
+16:00:52.667 INFO speedTracker         Load AM              1       3.7640s   3.7640s   3.7640s   3.7640s   3.7640s   
+16:00:52.667 INFO speedTracker         Load AM              1       3.3900s   3.3900s   3.3900s   3.3900s   3.3900s   
+16:00:52.667 INFO speedTracker         Score                2328    0.0010s   0.0000s   0.0950s   0.0057s   13.3610s  
+16:00:52.668 INFO speedTracker         Prune                8138    0.0000s   0.0000s   0.0050s   0.0001s   0.6830s   
+16:00:52.668 INFO speedTracker         Grow                 8148    0.0000s   0.0000s   9.5600s   0.0045s   36.5940s  
+16:00:52.668 INFO speedTracker         Compile              2       1.6300s   1.2390s   1.6300s   1.4345s   2.8690s   
+16:00:52.668 INFO speedTracker         Frontend             1170    0.0010s   0.0000s   0.0940s   0.0002s   0.2100s   
+16:01:14.548 INFO wordPruningLookahea  Average Tokens/State: 9677
+16:01:15.340 INFO speedTracker            This  Time Audio: 3.82s  Proc: 22.67s  Speed: 5.93 X real time
+16:01:15.340 INFO speedTracker            Total Processed Time Audio: 14.64s  Proc: 73.28s 5.01 X real time
+16:01:15.340 INFO memoryTracker           Mem  Total: 2591.50 Mb  Free: 1007.36 Mb
+16:01:15.340 INFO memoryTracker           Used: This: 1584.14 Mb  Avg: 1623.40 Mb  Max: 1761.67 Mb
+List of recognized words and their times:
+{<sil>, 1.000, [320:640]}
+{most, 1.000, [650:1030]}
+{of, 1.000, [1040:1130]}
+{what, 1.000, [1140:1320]}
+{we, 1.000, [1330:1470]}
+{do, 1.000, [1480:1730]}
+{these, 1.000, [1740:2050]}
+{days, 1.000, [2060:2330]}
+{are, 1.000, [2340:2450]}
+{methods, 1.000, [2460:2990]}
+{are, 1.000, [3000:3110]}
+{theories, 1.000, [3120:3570]}
+{are, 1.000, [3580:3700]}
+{ideas, 0.998, [3710:4180]}
+{[BREATH], 1.000, [4190:4300]}
+Best 3 hypotheses:
+<s> most of what we do these days are methods are theories or ideas </s>
+<s> most of what we do these days our methods are theories are ideas </s>
+<s> most of what we do these days are methods are theories are ideas </s>
+Best hypothesis:
+most of what we do these days are methods are theories are ideas
+16:01:20.731 INFO speedTracker            This  Time Audio: 1.97s  Proc: 5.33s  Speed: 2.71 X real time
+16:01:20.731 INFO speedTracker            Total Processed Time Audio: 16.61s  Proc: 78.61s 4.73 X real time
+16:01:20.731 INFO memoryTracker           Mem  Total: 2591.50 Mb  Free: 877.15 Mb
+16:01:20.731 INFO memoryTracker           Used: This: 1714.35 Mb  Avg: 1636.40 Mb  Max: 1761.67 Mb
+List of recognized words and their times:
+{some, 1.000, [4300:5230]}
+{extent, 1.000, [5240:5690]}
+{by, 1.000, [5700:5880]}
+{the, 1.000, [5890:6090]}
+{ashley's, 0.990, [6100:6530]}
+{influence, 1.000, [6540:7070]}
+{[BREATH], 1.000, [7080:7180]}
+Best 3 hypotheses:
+<s> some extent by the edges influence </s>
+<s> some extent by the ashley's influence </s>
+<s> some extent by the end she's influence </s>
+Best hypothesis:
+some extent by the ashley's influence
+16:01:25.022 INFO wordPruningLookahea  Average Tokens/State: 9034
+16:01:30.706 INFO speedTracker            This  Time Audio: 3.61s  Proc: 9.95s  Speed: 2.76 X real time
+16:01:30.707 INFO speedTracker            Total Processed Time Audio: 20.22s  Proc: 88.57s 4.38 X real time
+16:01:30.707 INFO memoryTracker           Mem  Total: 2591.50 Mb  Free: 925.30 Mb
+16:01:30.707 INFO memoryTracker           Used: This: 1666.20 Mb  Avg: 1640.12 Mb  Max: 1761.67 Mb
+List of recognized words and their times:
+{and, 0.995, [7180:7460]}
+{so, 0.994, [7470:7640]}
+{i, 0.996, [7650:7740]}
+{wanna, 0.999, [7750:8050]}
+{do, 0.998, [8060:8160]}
+{is, 0.998, [8170:8280]}
+{begin, 0.998, [8290:8690]}
+{this, 0.997, [8700:8900]}
+{classes, 0.997, [8910:9410]}
+{bennett, 0.773, [9420:9640]}
+{<sil>, 0.774, [9650:9670]}
+{aqua, 0.773, [9680:10050]}
+{cotton, 0.998, [10060:10410]}
+{development, 0.998, [10420:10960]}
+{[BREATH], 0.998, [10970:11100]}
+Best 3 hypotheses:
+<s> and so i wanna do is begin this classes bennett aqua cotton development </s>
+<s> and so i wanna do is begin this classes bennett aqua cochran development </s>
+<s> and so i wanna do is begin this classes than a aqua cotton development </s>
+Best hypothesis:
+and so i wanna do is begin this classes bennett aqua cotton development
+16:01:34.727 INFO speedTracker            This  Time Audio: 1.42s  Proc: 3.97s  Speed: 2.79 X real time
+16:01:34.727 INFO speedTracker            Total Processed Time Audio: 21.64s  Proc: 92.53s 4.28 X real time
+16:01:34.727 INFO memoryTracker           Mem  Total: 2591.50 Mb  Free: 826.09 Mb
+16:01:34.727 INFO memoryTracker           Used: This: 1765.41 Mb  Avg: 1654.04 Mb  Max: 1765.41 Mb
+List of recognized words and their times:
+{[SMACK], 1.000, [11100:11240]}
+{but, 1.000, [11250:11390]}
+{talking, 1.000, [11400:11800]}
+{about, 0.999, [11810:12060]}
+{his, 0.999, [12070:12280]}
+{ideas, 1.000, [12290:12820]}
+Best 3 hypotheses:
+<s> but talking about his ideas </s>
+<s> by talking about his ideas </s>
+<s> but talking about is ideas </s>
+Best hypothesis:
+but talking about his ideas
+16:01:34.737 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+16:01:34.738 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+16:01:34.738 INFO speedTracker         Load Dictionary      2       0.8730s   0.8730s   3.2520s   2.0625s   4.1250s   
+16:01:34.738 INFO speedTracker         Load AM              1       3.7640s   3.7640s   3.7640s   3.7640s   3.7640s   
+16:01:34.738 INFO speedTracker         Load AM              1       3.3900s   3.3900s   3.3900s   3.3900s   3.3900s   
+16:01:34.738 INFO speedTracker         Score                4656    0.0000s   0.0000s   0.0950s   0.0049s   22.6070s  
+16:01:34.738 INFO speedTracker         Prune                16276   0.0000s   0.0000s   0.0050s   0.0001s   1.0300s   
+16:01:34.738 INFO speedTracker         Grow                 16296   0.0000s   0.0000s   15.3290s  0.0042s   68.9040s  
+16:01:34.739 INFO speedTracker         Compile              2       1.6300s   1.2390s   1.6300s   1.4345s   2.8690s   
+16:01:34.739 INFO speedTracker         Frontend             2340    0.0000s   0.0000s   0.0940s   0.0001s   0.3060s   
+16:01:34.739 INFO speedTracker            Total Processed Time Audio: 21.64s  Proc: 92.53s 4.28 X real time
+16:01:34.739 INFO memoryTracker           Mem  Total: 2591.50 Mb  Free: 817.01 Mb
+16:01:34.739 INFO memoryTracker           Used: This: 1774.49 Mb  Avg: 1666.09 Mb  Max: 1774.49 Mb
+Stats creation: 83s
+Recognition: 56s, 4 Segments.

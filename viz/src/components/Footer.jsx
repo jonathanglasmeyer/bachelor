@@ -9,8 +9,10 @@ const styles = {
   width: '100%',
 
   display: 'flex',
-  alignItems: 'center',
-  padding: '0 20px',
+  flexDirection: 'column',
+
+  // alignItems: 'center',
+  padding: '20px',
 
   zIndex: 9999,
   height: dimension.Navbar.height,

@@ -1,0 +1,10 @@
+{
+  "acousticModelPath": "en-new/cmusphinx-en-us-5.2",
+  "dictionaryPath": "en-new/cmudict-en-us.dict",
+
+  "languageModelPath": "en-new/cmusphinx-5.0-en-us.lm",
+  "keywordModelPath": "model.lm",
+  "g2pModelPath": "en-new/en_us_nostress/model.fst.ser",
+
+  "resultsFolder": "biomed-eng-1"
+}

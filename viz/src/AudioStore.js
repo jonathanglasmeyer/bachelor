@@ -11,7 +11,7 @@ export default class AudioStore extends Store {
 
     this.state = {
       position: 0,
-      src: 'psy2.wav',
+      src: undefined,
 
       playing: false
     };

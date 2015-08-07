@@ -1,0 +1,184 @@
+beng frontiers of biomedical engineering professor mark saltzman
+chapter
+summary
+this chapter reviewed biochemical concepts that are important in understanding the interaction between molecules with each other molecules and their solvents and molecules and the cell membrane
+atoms can form ionic or covalent bonds with one another
+hydrogen bonds and van der waals interactions are weak bonds between molecules
+most chemical reactions in the body take place in an aqueous environment the type of molecule polar nonpolar acidic basic affects how it behaves in an aqueous environment
+hydrogen bonding is important in water chemistry as well as in the assembly of macromolecules such as nucleic acids and proteins
+buffer systems in the blood help to maintain near neutral ph which is critical to the function of many enzymes
+the body maintains homeostasis through negative feedback mechanisms such as the bicarbonate buffering system that detect a change and act to reduce the magnitude of the change
+biomolecules contain various functional groups that confer different properties
+carbohydrates nucleic acids and proteins are polymers of small subunits
+the cell is isolated from its extracellular environment by the phospholipid bilayer membrane phospholipids are amphiphilic molecules that make up the bilayer along with proteins and glycolipids
+diffusion is the movement of a solute from an area of high concentration to low concentration
+molecules can cross the membrane via passive or facilitated diffusion depending on their permeability
+active transport allows molecules to be transported against their concentration gradient by requiring energy input in the form of atp
+diffusion of water is called osmosis movement of water through a selective membrane can generate osmotic pressure
+key concepts and definitions
+acid a compound that can donate a proton h the carboxyl and phosphate groups are the primary acidic groups in biological molecules
+acidosis excess of acid in the body fluids as may occur in kidney disease or diabetes
+adenine a compound that is one of four constituent bases of nucleic acid that is a purine derivative and hybridizes thymine in double stranded dna
+amino acid monomeric building block of proteins consisting of a carbon atom bound to a carboxyl group an amino group a hydrogen atom and a distinctive side chain
+amphiphilic a molecule that has both hydrophobic and hydrophilic regions
+anion negatively charged ion e g cl
+active transport the transport of molecules in an energetically unfavorable direction across a membrane coupled to the hydrolysis of atp or other source of energy
+atp adenosine triphosphate a nucleotide that is the most important molecule for capturing and transferring free energy in cells hydrolysis of each of the two high energy phosphoanhydride bonds in atp is accompanied by a large free energy change g of kcal mole
+aquaporin a water channel protein which allows water molecules to cross the cell membrane much more rapidly than through the phospholipid bilayer
+base a compound usually containing nitrogen that can accept a proton h
+buffer a solution of the acid ha and base a form of a compound that undergoes little change in ph when small quantities of strong acid or strong base are added
+carbohydrate a large group of organic compounds containing hydrogen and oxygen molecules in the ratio that can be found in foods ad living tissues including sugars starch and cellulose and can be broken down to release energy
+cation positively charged ion e g na
+cell membrane a semipermeable membrane surrounding the cytoplasm of the cell that regulates transport of material from the external environment into the cell and vice versa
+complementary sequence a sequence whose nucleotide bases match or hybridize mirror images with the original sequence
+concentration gradient difference in concentration between adjacent regions
+condensation the opposite of a hydrolysis reaction a reaction that gives off a byproduct usually water during the reaction of two molecules to form one
+conjugate acid species formed by the addition of a proton h to a base ch cooh aq is the conjugate acid of ch coo aq
+conjugate base species formed by the loss of a proton h of an acid ch coo aq is
+the conjugate base of ch cooh aq
+covalent bond stable chemical force that holds the atoms in molecules together by sharing of one or more pairs of electrons such a bond has strength of kcal mol
+cytosine a constituent of nucleic acid that is a pyrimidine derivative and pairs with guanine
+diffusion net movement of molecules from high concentration to low concentration disaccharide a sugar that if formed by coupling together two monosaccharides or simple sugars
+dissociation constant the equilibrium constant for the decomposition of a complex ion into its components in solution the smaller the value of k the lesser the dissociation of the species in solution this value varies with temperature ionic strength and the nature of the solvent
+electrochemical gradient a difference in chemical concentration and electric potential across a membrane
+endothermic referring to a chemical reaction that absorbs heat such a reaction has a positive change in enthalpy
+enthalpy change h heat in a chemical reaction the enthalpy of the reactants or products is equal to their total bond energies
+entropy change s a measure of the degree of disorder or randomness in a system the higher the entropy the greater the disorder
+enzyme a protein that catalyzes a chemical reaction
+equilibrium constant ratio of forward and reverse rate constants for a reaction for a binding reaction a b ab it equals the association constant k the higher the k a a the tighter the binding between a and b the reciprocal of the k a is the dissociation constant k d the higher the k the weaker the binding between a and b d
+exothermic referring to a chemical reaction that releases heat such a reaction has a negative change in enthalpy
+facilitated diffusion protein aided transport of molecules across a membrane down its concentration gradient at a rate greater than that obtained by passive diffusion
+flux the rate of transfer of fluid particles or energy across a given surface
+free energy change g the difference in the free energy of the product molecules and of the reactants in a chemical reaction a large negative value of g indicates that a reaction has a strong tendency to occur that is at chemical equilibrium the concentration of products will be much greater than the concentration of reactants
+fructose a hexose sugar especially found in honey and fruits
+functional groups specific and variable chemical groups that give an organic compound its characteristic properties
+galactose a hexose sugar that is a constituent of lactose and many other polysaccharides
+genetic information useful hereditary information that is carried by nucleic acids present in the gene
+gene delivery the process of transfer of foreign dna into a cell
+gibbs free energy g a measure of the potential energy of a system which is a function of the enthalpy h and entropy s
+glucose a simple sugar that is an important energy source it has the formula c h o
+glycocalyx a carbohydrate coat covering the cell surface
+glycolipid a lipid consisting of two hydrocarbon chains linked to a polar head group containing carbohydrates
+glycoprotein a protein linked to oligosaccharides
+guanine a constituent of nucleic acid that belongs to a class called purines and hybridizes with cytosine in double stranded dna
+homeostasis the tendency of physiological systems to maintain a stable internal environment
+hybridization the process of two single strands of dna assembling into doublestranded dna
+hydrogen bond a noncovalent bond between an electronegative atom commonly oxygen or nitrogen and a hydrogen atom covalently bonded to another electronegative atom particularly important in stabilizing the three dimensional structure of proteins and formation of base pairs in nucleic acids
+hydrolysis the opposite of a condensation reaction a reaction in which a covalent bond is cleaved with addition of an h from water to one product of the cleavage and of an oh from water to the other
+hydrophilic literally water loving compounds that have an affinity for water because of an ability to form hydrogen bonds
+hydrophobic literally water hating compounds that do not form hydrogen bonds and therefore do not dissolve easily in water
+hydrophobic effect the property of nonpolar molecules to self aggregate or cluster together in order to shield themselves from aqueous molecules
+hypertonic referring to an external solution whose solute concentration is high enough to cause water to move out of cells due to osmosis
+hypotonic referring to an external solution whose solute concentration is low enough to cause water to move into cells due to osmosis
+ionic bond a noncovalent bond between a positively charged ion cation and negatively
+charged ion anion
+ion an atom or group of atoms that carries a positive or negative electric charge as a result of having lost or gained one or more electrons respectively
+isotonic referring to a solution whose solute concentration is such that it causes no net movement of water in or out of cells
+lactose a disaccharide made of glucose and galactose units usuall found in milk
+lipids small biological molecules that do not dissolve in water including fatty acids and steroids
+liposome spherical phospholipid bilayer structure with an aqueous interior that forms in vitro from phospholipids and may contain proteins
+macromolecule large molecules formed by the repeated coupling of smaller units called monomers
+molecular complex two or more molecules that are held together in an assembly by multiple weak non covalent bonds such as hydrogen bonds
+monomer any small molecule that can be linked with others of the same type to form a polymer examples include amino acids nucleotides and monosaccharides
+monosaccharide any simple sugar with the formula ch o n where n to
+messenger rna mrna a form of rna in which genetic information transcribed from rna is transferred to the ribosome
+neutral neither acidic nor basic ph
+nitrogenous base nitrogen containing base that make up the nucleotides that form nucleic acids
+noncovalent bond any relatively weak chemical bond that does not involve an intimate sharing of electrons multiple noncovalent bonds often stabilize the conformation of macromolecules and mediate highly specific interactions between molecules
+nonpolar referring to a molecule or structure that lacks any net electric charge or asymmetric distribution of positive and negative charges nonpolar molecules generally are insoluble in water
+nucleic acid a polymer of nucleotides linked by phosphorous containing bonds dna and rna are the primary nucleic acids in cells
+nucleotide a nucleoside with one or more phosphate groups linked to the sugar moiety dna and rna are polymers of nucleotides
+osmosis net movement of water across a semipermeable membrane from a solution of lesser to one of greater solute concentration the membrane must be permeable to water but not to solute molecules
+osmotic pressure hydrostatic pressure that must be applied to the more concentrated
+solution to stop the net flow of water across a semipermeable membrane separating solutions of different concentrations
+passive diffusion the process by which water and small uncharged molecules such as oxygen o and carbon dioxide co pass through the plasma membrane
+ph a measure of the acidity or alkalinity of a solution defined as the negative logarithm of the hydrogen ion concentration in moles per liter ph log h neutrality is equivalent to a ph of values below this are acidic and those above are alkaline
+peptide a small polymer usually containing fewer than amino acids connected by peptide bonds
+pentose a five carbon sugar
+phospholipid the principal components of cell membranes consisting of two hydrocarbon chains usually fatty acids joined to a polar head group containing phosphate
+polar referring to a molecule or structure with a net electric charge or asymmetric distribution of positive and negative charges polar molecules are usually soluble in water
+polymer any large molecule composed of multiple identical or similar units monomers linked by covalent bonds
+polymerization the chemical process of making a polymer from a collection of monomers
+polypeptide a linear organic polymer consisting of a large number of amino acid residues bonded together in a chain
+polysaccharide biological macromolecule composed of monosaccharide subunits protein biological macromolecule composed of amino acid subunits
+protein folding process by which a polypeptide or collection of polypeptides assumes its functional shape or conformation the process occurs through attractive and repulsive interactions of the polypeptide subunits
+proton positively charged subatomic particle equivalent to a hydrogen atom without an electron h
+purine a class of nitrogenous compounds containing two fused heterocyclic rings two purines adenine and guanine commonly are found in dna and rna
+pyrimidine a class of nitrogenous compounds containing one heterocyclic ring two pyrimidines cytosine and thymine commonly are found in dna in rna uracil replaces thymine
+solute substance that is dissolved to form a solution
+steady state a stable condition that does not change over time or in which change in one direction is continually balanced by change in another
+sucrose a disaccharide made up of one glucose molecule and one fructose molecule
+c h o
+thymine a constituent of nucleic acid that belongs to a classes of nitrogenous bases called pyrimidine and hybridizes with adenine in double stranded dna
+transcription the process whereby genetic information contained represented as dna nucleotides is copied into newly synthesized strands of rna using the dna as a template
+translation the process whereby a sequence of nucleotide triplets in mrna gives rise to a specific sequence of amino acids during protein synthesis
+triglycerides a storage form of fat consisting of a glycerol molecule linked to three fatty acids
+uracil a constituent base of rna hybridizes with adenine
+van der waals interaction a weak noncovalent attraction due to small transient asymmetric electron distributions around atoms dipoles
+questions
+describe the properties of acids and bases it might be helpful to look in a chemistry book to find information beyond that available in the chapter
+why are polar molecules hydrophilic and nonpolar molecules hydrophobic
+if hydrogen bonds are much weaker than covalent bonds why do you think hydrogen bonds are used to hold biomolecules together
+does entropy increase or decrease during a polymerization reaction why
+explain the difference between passive and active transport why is active transport necessary for some ions
+normal saline solution nacl by mass is used for intravenous administration or for lubrication of dry eyes do you think that this solution isotonic hypertonic or hypotonic compared to the body fluids why
+if you are on a deserted island why must you find water from a stream or well rather than drink the seawater explain your answer in terms of osmotic pressure
+how does hyperventilation that is very rapid deep breathing disturb the hco h co equilibrium does it result in acidosis or alkalosis
+do some research in the library or on the internet using reliable sources cystic fibrosis is a genetic disease what is the defect in cystic fibrosis patients and how does that defect manifest into the symptoms for the disease
+beng frontiers of biomedical engineering professor mark saltzman
+chapter
+summary
+linear polymers of amino acids are polypeptide chains a protein can be composed of one or more polypeptide chains
+there are different amino acids each with its unique chemical properties conferred by the side chain the amino acids can be placed into broad categories polar nonpolar acidic and basic
+there are four levels of structure for proteins the amino acid sequence is the primary structure the local domains are the secondary structure the overall three dimensional shape is the tertiary structure and the formation of a complex with other polypeptide chains is the quaternary structure
+all the information necessary for a protein to fold properly into its tertiary structure is contained in the primary amino acid sequence
+non covalent interactions such as hydrogen bonding or the hydrophobic hydrophilic forces hold a protein in its native form covalent disulfide bonds can be formed between two cysteine amino acids located at different regions of the polypeptide chain
+the three dimensional protein structure can be determined experimentally using nmr spectroscopy or x ray crystallography
+proteins are often modified after translation by the addition of chemical groups to certain amino acids
+proteins can also be processed via proteolytic cleavage of the polypeptide chain into smaller segments
+proteins have diverse functions such as maintaining cell structure transporting small molecules facilitating cell communication protecting against foreign invaders and catalyzing chemical reactions
+enzymes catalyze chemical reactions by lowering the activation energy of a reaction
+key concepts and definitions
+alpha helix a common secondary structure of proteins in which the linear sequence of amino acids is folded into a right handed spiral stabilized by hydrogen bonds between carboxyl and amide groups in the backbone a coiled secondary structure of a polypeptide chain formed by hydrogen bonding between amino acids separated by four residues
+acetylation the addition of one or more acetyl groups to a protein the formation of an acetyl derivative
+activation energy the input of energy required to overcome the barrier to initiate a chemical reaction by reducing the activation energy an enzyme increases the rate of a reaction
+active site the region of an enzyme that binds substrates and catalyzes an enzymatic reaction
+acylation the addition of one or more acyl groups to a protein
+beta sheet a planar secondary structure of proteins that is created by hydrogen bonding between the backbone atoms in two different polypeptide chains or segments of a single folded chain a sheet like secondary structure of a polypeptide chain formed by hydrogen bonding between amino acids located in different regions of the polypeptide
+affinity a measure of the degree to which an substance tends to bind to another
+antibody a specialized immune protein which helps fight infection by neutralizing pathogens and tagging them for destruction
+catalyst a substance that increases the rate of a reaction without itself undergoing any chemical change
+dimer a compound formed by two molecules of a simpler compound a polymer formed from two molecules of a monomer
+disulfide bond s s covalent linkage formed between two sulfhydryl groups on cysteines for extracellular proteins disulfide bonding is a common way of joining two proteins together or linking different parts of the same protein formed in the endoplasmic reticulum of eukaryotic cells
+enzyme a biological substance produced by living organisms to increase the rate of a biochemical reaction
+glycosylation the addition of one or more sugars to a protein or lipid molecule
+hydrophobic effect tendency of nonpolar groups to cluster so as to shield themselves
+from contact with an aqueous environment
+ion channel a transmembrane protein that transports ions which are otherwise impermeable to the cells
+ligand any molecule other than an enzyme substrate that binds tightly and specifically to a macromolecule usually a protein forming a macromolecule ligand complex
+lineweaver burke plot graphical model used to determine the maximum reaction rate vmax and michaelis constant km the linear graph is obtained by taking the reciprocal of both sides of the michaelis menten equation
+michaelis constant k m the value equal to the substrate concentration at which the enzyme reaction proceeds at half of the maximum velocity
+michaelis menten equation is an equation that describes the velocity of a given reaction developed from a simple model of enzyme substrate kinetics nascent proteins a protein that has not yet achieved its functional final folding pattern
+n myristoylation the addition of myristic acid a carbon fatty acid to the n terminal glycine residue of a polypeptide chain
+nuclear magnetic resonance nmr spectroscopy technique in which the magnetic nucleus of an atom is aligned with an external magnetic field and disturbing this alignment via the use of an electromagnetic field the response of this disturbance is interpreted and gives information concerning physical chemical electronic and structural information of compounds
+peptide bond covalent bond that links adjacent amino acid residues in proteins formed by a condensation reaction between the amino group of one amino acid and the carboxyl group of another with the release of a water molecule
+phosphorylation reaction in which a phosphate group becomes covalently coupled to another molecule
+post translational modification the enzyme catalyzed change to a protein made after it is synthesized
+protease enzyme such as trypsin that degrades proteins by hydrolyzing some of their peptide bonds
+protease inhibitor a substance that functions by inhibiting the actions of a protease
+proteome the complete set of proteins present in the cell
+proteomics a branch of molecular biology concerned with determining the proteome
+proteolysis degradation of polypeptide chains
+receptor transmembrane protein a transmembrane protein that has an extracellular domain that binds to molecules called ligands
+sequence homology analysis comparison of an unknown primary amino acid sequence to a database of known primary amino acid sequences in an attempt to identify functional capabilities of the unknown amino acid
+substrate molecule on which an enzyme acts
+transition state the structure that forms transiently in the course of a chemical reaction and has the highest free energy of any reaction intermediate its formation is a rate limiting step in the reaction
+turnover number k cat a rate constant that is equal to the number of substrate molecules processed per enzyme molecule each second
+x ray crystallography technique for determining the three dimensional structure of macromolecules particularly proteins and nucleic acids by passing x rays through a crystal of the purified molecules and analyzing the diffraction pattern of discrete spots that results a method in which the diffraction pattern of x rays is used to determine the arrangement of individual atoms within a molecule
+questions
+describe the varying levels of structure for proteins how do scientists experimentally determine the protein structure
+what is remarkable about post translational modification of proteins
+describe the hydrophobic effect and how it contributes to an energetically favorable protein folding reaction
+describe the difference between the lock and key model and the induced fit model then give a reason why the induced fit model may be more appropriate in describing enzyme mechanism
+describe some ways that drugs might act as enzyme inhibitors
+using a biochemistry textbook or on line resources determined which of the following proteins has quartenary structure a chymotrypsin hemoglobin insulin myoglobin and trypsin

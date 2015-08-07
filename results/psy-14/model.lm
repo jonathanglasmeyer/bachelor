@@ -1,0 +1,2650 @@
+
+\data\
+ngram 1=488
+ngram 2=1057
+ngram 3=1092
+
+\1-grams:
+-1.105882	</s>
+-99	<s>	-0.160869
+-1.915813	a	-0.108365
+-2.837215	ability	-0.096055
+-2.572130	about	-0.065583
+-2.837215	absence	-0.096055
+-2.966256	access	-0.065583
+-2.966256	accomplish	-0.065583
+-2.966256	across	-0.065583
+-2.966256	activity	-0.065583
+-2.966256	adults	-0.065583
+-2.966256	advantage	-0.065583
+-2.966256	after	-0.065583
+-2.966256	age	-0.065583
+-2.837215	aggression	-0.065583
+-2.837215	aggressive	-0.065583
+-2.966256	all	-0.065583
+-2.966256	allow	-0.065583
+-2.966256	almost	-0.065583
+-2.837215	also	-0.065583
+-2.966256	always	-0.065583
+-2.572130	an	-0.065583
+-1.469816	and	-0.071662
+-2.837215	animal	-0.065583
+-2.837215	animals	-0.096055
+-2.966256	answers	-0.065583
+-2.966256	any	-0.065583
+-2.966256	anything	-0.065583
+-2.572130	apartment	-0.209117
+-2.966256	appear	-0.065583
+-1.989405	are	-0.065583
+-2.966256	around	-0.065583
+-2.189589	as	-0.065583
+-2.966256	assignment	-0.065583
+-2.966256	astrological	-0.065583
+-2.340035	at	-0.065583
+-2.572130	attractive	-0.065583
+-2.966256	autism	-0.065583
+-2.440759	average	-0.096055
+-2.966256	b	-0.065583
+-2.837215	babies	-0.065583
+-2.340035	be	-0.065583
+-2.966256	beautiful	-0.065583
+-2.340035	beauty	-0.082733
+-2.966256	because	-0.065583
+-2.966256	bed	-0.065583
+-2.966256	been	-0.065583
+-2.966256	best	-0.065583
+-2.966256	better	-0.065583
+-2.966256	between	-0.065583
+-2.966256	big	-0.065583
+-2.966256	biology	-0.065583
+-2.966256	bisexual	-0.065583
+-2.966256	blood	-0.065583
+-2.966256	blue	-0.065583
+-2.966256	books	-0.065583
+-2.966256	both	-0.065583
+-2.837215	bottom	-0.096055
+-2.966256	buss	-0.065583
+-2.572130	but	-0.085659
+-2.572130	by	-0.065583
+-2.966256	campus	-0.065583
+-2.837215	can	-0.065583
+-2.966256	capacity	-0.065583
+-2.966256	care	-0.065583
+-2.966256	carries	-0.065583
+-2.966256	cases	-0.065583
+-2.837215	causes	-0.065583
+-2.837215	cell	-0.080552
+-2.966256	cells	-0.065583
+-2.966256	certain	-0.065583
+-2.837215	chance	-0.096055
+-2.572130	children	-0.065583
+-2.966256	chimps	-0.065583
+-2.966256	chin	-0.065583
+-2.966256	choice	-0.065583
+-2.966256	choose	-0.065583
+-2.966256	choosiness	-0.065583
+-2.837215	choosy	-0.065583
+-2.572130	clear	-0.085659
+-2.966256	cloning	-0.065583
+-2.837215	come	-0.065583
+-2.966256	compete	-0.065583
+-2.966256	complex	-0.065583
+-2.966256	conduct	-0.065583
+-2.966256	contact	-0.065583
+-2.837215	contacting	-0.065583
+-2.837215	coolidge	-0.096055
+-2.966256	copulation	-0.065583
+-2.966256	correct	-0.065583
+-2.966256	cost	-0.065583
+-2.966256	could	-0.065583
+-2.966256	count	-0.065583
+-2.966256	countries	-0.065583
+-2.966256	cover	-0.065583
+-2.966256	criteria	-0.065583
+-2.837215	culture	-0.065583
+-2.966256	dark	-0.065583
+-2.966256	data	-0.065583
+-2.966256	david	-0.065583
+-2.966256	dawkins	-0.065583
+-2.837215	debate	-0.065583
+-2.966256	deformities	-0.065583
+-2.966256	deserve	-0.065583
+-2.572130	desirable	-0.209117
+-2.966256	determine	-0.065583
+-2.966256	did	-0.065583
+-2.572130	differences	-0.082733
+-2.440759	different	-0.065583
+-2.966256	differential	-0.065583
+-2.966256	differently	-0.065583
+-2.966256	discouraging	-0.065583
+-2.966256	disorder	-0.065583
+-2.966256	displays	-0.065583
+-2.440759	do	-0.065583
+-2.966256	dont	-0.065583
+-2.966256	dz	-0.065583
+-2.837215	e	-0.096055
+-2.837215	each	-0.065583
+-2.837215	early	-0.065583
+-2.966256	easy	-0.065583
+-2.966256	edge	-0.065583
+-2.966256	effect	-0.065583
+-2.837215	effects	-0.065583
+-2.966256	egg	-0.065583
+-2.966256	elephant	-0.065583
+-2.966256	else	-0.065583
+-2.837215	empathy	-0.065583
+-2.966256	empirical	-0.065583
+-2.966256	enough	-0.065583
+-2.966256	environmental	-0.065583
+-2.966256	essay	-0.065583
+-2.572130	etc	-0.085659
+-2.837215	evidence	-0.065583
+-2.966256	evolution	-0.065583
+-2.837215	evolutionary	-0.065583
+-2.837215	evolve	-0.065583
+-2.837215	evolved	-0.065583
+-2.966256	exclusive	-0.065583
+-2.966256	existence	-0.065583
+-2.837215	experience	-0.065583
+-2.966256	explains	-0.065583
+-2.966256	extended	-0.065583
+-2.572130	extent	-0.085659
+-2.966256	eye	-0.065583
+-2.440759	eyes	-0.065583
+-2.837215	face	-0.065583
+-2.966256	factor	-0.065583
+-2.837215	factors	-0.065583
+-2.966256	false	-0.065583
+-2.966256	fantasies	-0.065583
+-2.966256	favorite	-0.065583
+-2.572130	female	-0.065583
+-1.883220	females	-0.087707
+-2.966256	fend	-0.065583
+-2.966256	fertilize	-0.065583
+-2.966256	fetus	-0.065583
+-2.966256	few	-0.065583
+-2.966256	fighting	-0.065583
+-2.966256	final	-0.065583
+-2.440759	find	-0.065583
+-2.966256	fixed	-0.065583
+-2.966256	focus	-0.065583
+-2.966256	follow	-0.065583
+-2.966256	food	-0.065583
+-2.031476	for	-0.070967
+-2.966256	forces	-0.065583
+-2.966256	frequency	-0.065583
+-2.440759	from	-0.065583
+-2.837215	full	-0.096055
+-2.966256	future	-0.065583
+-2.966256	g	-0.065583
+-2.966256	gay	-0.065583
+-2.966256	gender	-0.065583
+-2.966256	generations	-0.065583
+-2.340035	genes	-0.065583
+-2.966256	genetic	-0.065583
+-2.966256	gibbons	-0.065583
+-2.966256	gives	-0.065583
+-2.966256	glasses	-0.065583
+-2.837215	go	-0.065583
+-2.966256	good	-0.065583
+-2.966256	grades	-0.065583
+-2.966256	grow	-0.065583
+-2.966256	grown	-0.065583
+-2.966256	half	-0.065583
+-2.966256	happy	-0.065583
+-2.837215	hard	-0.065583
+-2.966256	harlow	-0.065583
+-2.837215	has	-0.065583
+-1.915813	have	-0.076761
+-2.966256	health	-0.065583
+-2.837215	her	-0.065583
+-2.966256	high	-0.065583
+-2.966256	higher	-0.065583
+-2.966256	homosexual	-0.065583
+-2.966256	homosexuality	-0.065583
+-2.966256	horns	-0.065583
+-2.837215	how	-0.065583
+-2.966256	html	-0.065583
+-2.966256	http	-0.065583
+-2.572130	humans	-0.065583
+-2.572130	i	-0.085659
+-2.966256	im	-0.065583
+-1.772899	in	-0.075942
+-2.966256	inc	-0.065583
+-2.966256	include	-0.065583
+-2.966256	increases	-0.065583
+-2.966256	index	-0.065583
+-2.966256	individual	-0.065583
+-2.966256	inescapable	-0.065583
+-2.966256	inevitable	-0.065583
+-2.966256	influences	-0.065583
+-2.837215	innate	-0.065583
+-2.966256	inside	-0.065583
+-2.837215	intact	-0.096055
+-2.966256	intelligence	-0.065583
+-2.966256	interest	-0.065583
+-2.966256	invest	-0.065583
+-2.966256	investing	-0.065583
+-2.440759	investment	-0.065583
+-2.078064	is	-0.065583
+-2.340035	it	-0.065583
+-2.837215	its	-0.065583
+-2.966256	itself	-0.065583
+-2.966256	ive	-0.065583
+-2.966256	joan	-0.065583
+-2.966256	john	-0.065583
+-2.966256	juggernaut	-0.065583
+-2.966256	just	-0.065583
+-2.966256	kindness	-0.065583
+-2.966256	known	-0.065583
+-2.837215	large	-0.096055
+-2.440759	larger	-0.077517
+-2.966256	leads	-0.065583
+-2.966256	least	-0.065583
+-2.966256	lecture	-0.065583
+-2.837215	less	-0.065583
+-2.966256	lets	-0.065583
+-2.966256	lifetime	-0.065583
+-2.837215	like	-0.065583
+-2.966256	likely	-0.065583
+-2.966256	lips	-0.065583
+-2.966256	little	-0.065583
+-2.966256	lizards	-0.065583
+-2.966256	look	-0.065583
+-2.966256	looking	-0.065583
+-2.966256	m	-0.065583
+-2.966256	machinery	-0.065583
+-2.258330	male	-0.075505
+-1.852904	males	-0.149279
+-2.837215	mammals	-0.065583
+-2.340035	many	-0.065583
+-2.440759	mate	-0.096055
+-2.966256	mateless	-0.065583
+-2.966256	mates	-0.065583
+-2.966256	math	-0.065583
+-2.966256	mathematics	-0.065583
+-2.837215	mating	-0.065583
+-2.966256	matter	-0.065583
+-2.837215	may	-0.096055
+-2.572130	me	-0.065583
+-2.966256	meaner	-0.065583
+-2.966256	measures	-0.065583
+-2.966256	mechanisms	-0.065583
+-2.966256	metabolic	-0.065583
+-2.966256	midterm	-0.065583
+-2.966256	millimeters	-0.065583
+-2.966256	mind	-0.065583
+-2.966256	minds	-0.065583
+-2.966256	minutes	-0.065583
+-2.966256	month	-0.065583
+-2.440759	months	-0.080552
+-2.966256	moral	-0.065583
+-2.440759	more	-0.080552
+-2.966256	most	-0.065583
+-2.966256	mostly	-0.065583
+-2.572130	much	-0.065583
+-2.966256	murder	-0.065583
+-2.966256	my	-0.065583
+-2.837215	mystery	-0.065583
+-2.966256	mz	-0.065583
+-2.966256	natural	-0.065583
+-2.966256	nature	-0.065583
+-2.966256	needed	-0.065583
+-2.966256	next	-0.065583
+-2.440759	no	-0.065583
+-2.966256	nonsense	-0.065583
+-2.966256	not	-0.065583
+-2.966256	noticing	-0.065583
+-2.966256	nourishes	-0.065583
+-2.966256	number	-0.065583
+-2.966256	numbers	-0.065583
+-2.966256	nuns	-0.065583
+-2.966256	nurses	-0.065583
+-2.966256	nurture	-0.065583
+-2.966256	obviously	-0.065583
+-1.665549	of	-0.082266
+-2.966256	off	-0.065583
+-2.340035	offspring	-0.065583
+-2.966256	offsprings	-0.065583
+-2.966256	often	-0.065583
+-2.572130	on	-0.065583
+-2.966256	one	-0.065583
+-2.966256	online	-0.065583
+-2.837215	only	-0.065583
+-2.440759	or	-0.065583
+-2.966256	org	-0.065583
+-2.966256	organism	-0.065583
+-2.837215	origins	-0.065583
+-2.440759	other	-0.065583
+-2.572130	others	-0.085659
+-2.966256	out	-0.065583
+-2.837215	over	-0.065583
+-2.966256	parent	-0.065583
+-2.189589	parental	-0.292038
+-2.966256	parenting	-0.065583
+-2.966256	parents	-0.065583
+-2.966256	partner	-0.065583
+-2.966256	partners	-0.065583
+-2.966256	passed	-0.065583
+-2.966256	peacock	-0.065583
+-2.966256	penguins	-0.065583
+-2.572130	people	-0.065583
+-2.966256	performance	-0.065583
+-2.966256	pernicious	-0.065583
+-2.966256	phenotype	-0.065583
+-2.966256	physiological	-0.065583
+-2.966256	physiology	-0.065583
+-2.966256	pipefish	-0.065583
+-2.966256	polygamous	-0.065583
+-2.966256	pornography	-0.065583
+-2.966256	possible	-0.065583
+-2.966256	posted	-0.065583
+-2.966256	power	-0.065583
+-2.966256	predict	-0.065583
+-2.966256	predisposition	-0.065583
+-2.340035	preference	-0.082733
+-2.966256	principle	-0.065583
+-2.837215	prostitution	-0.096055
+-2.966256	protective	-0.065583
+-2.966256	protects	-0.065583
+-2.966256	psych	-0.065583
+-2.966256	psychological	-0.065583
+-2.837215	psychologies	-0.096055
+-2.966256	psychology	-0.065583
+-2.966256	psychopathy	-0.065583
+-2.966256	puberty	-0.065583
+-2.966256	purposeful	-0.065583
+-2.966256	questions	-0.065583
+-2.966256	rd	-0.065583
+-2.966256	reading	-0.065583
+-2.837215	really	-0.065583
+-2.966256	related	-0.065583
+-2.966256	reproduce	-0.065583
+-2.837215	reproductive	-0.065583
+-2.966256	reputation	-0.065583
+-2.966256	response	-0.065583
+-2.966256	reverse	-0.065583
+-2.966256	reversed	-0.065583
+-2.966256	revised	-0.065583
+-2.966256	richard	-0.065583
+-2.966256	right	-0.065583
+-2.966256	robert	-0.065583
+-2.966256	romantic	-0.065583
+-2.966256	sack	-0.065583
+-2.966256	say	-0.065583
+-2.966256	scale	-0.065583
+-2.966256	science	-0.065583
+-2.966256	score	-0.065583
+-2.966256	seals	-0.065583
+-2.966256	segregation	-0.065583
+-2.966256	selection	-0.065583
+-2.966256	self	-0.065583
+-2.966256	several	-0.065583
+-1.915813	sex	-0.179396
+-2.966256	sexes	-0.065583
+-2.189589	sexual	-0.074074
+-2.966256	sexually	-0.065583
+-2.966256	sharp	-0.065583
+-2.966256	sheer	-0.065583
+-2.572130	should	-0.085659
+-2.966256	single	-0.065583
+-2.966256	sinister	-0.065583
+-2.966256	size	-0.065583
+-2.837215	skin	-0.065583
+-2.966256	small	-0.065583
+-2.966256	smart	-0.065583
+-2.837215	smith	-0.065583
+-2.837215	smooth	-0.096055
+-2.340035	so	-0.065583
+-2.966256	social	-0.065583
+-2.189589	some	-0.065583
+-2.966256	sorts	-0.065583
+-2.966256	special	-0.065583
+-2.966256	species	-0.065583
+-2.966256	spend	-0.065583
+-2.837215	sperm	-0.065583
+-2.966256	stags	-0.065583
+-2.966256	status	-0.065583
+-2.966256	stereotype	-0.065583
+-2.966256	straight	-0.065583
+-2.966256	strict	-0.065583
+-2.966256	studies	-0.065583
+-2.966256	success	-0.065583
+-2.966256	such	-0.065583
+-2.966256	summary	-0.065583
+-2.966256	sure	-0.065583
+-2.837215	surviving	-0.065583
+-2.966256	syllabus	-0.065583
+-2.837215	system	-0.065583
+-2.966256	tail	-0.065583
+-2.966256	take	-0.065583
+-2.837215	teeth	-0.065583
+-2.966256	television	-0.065583
+-2.837215	tell	-0.096055
+-2.966256	testosterone	-0.065583
+-2.966256	textbook	-0.065583
+-2.966256	tf	-0.065583
+-2.440759	than	-0.065583
+-2.258330	that	-0.065583
+-1.726730	the	-0.071317
+-2.837215	their	-0.065583
+-2.966256	them	-0.065583
+-2.966256	then	-0.065583
+-2.837215	theory	-0.065583
+-2.966256	there	-0.065583
+-2.440759	they	-0.096055
+-2.837215	this	-0.085659
+-2.340035	those	-0.077517
+-2.966256	thought	-0.065583
+-2.966256	throat	-0.065583
+-2.966256	through	-0.065583
+-2.966256	tight	-0.065583
+-2.837215	time	-0.065583
+-2.966256	times	-0.065583
+-2.837215	tiny	-0.065583
+-1.646932	to	-0.070134
+-2.837215	tonight	-0.077517
+-2.572130	top	-0.085659
+-2.966256	topics	-0.065583
+-2.966256	treated	-0.065583
+-2.966256	trivers	-0.065583
+-2.966256	true	-0.065583
+-2.966256	two	-0.065583
+-2.966256	types	-0.065583
+-2.966256	typical	-0.065583
+-2.340035	typically	-0.077517
+-2.837215	unblemished	-0.096055
+-2.966256	under	-0.065583
+-2.966256	universal	-0.065583
+-2.837215	universals	-0.096055
+-2.966256	unsure	-0.065583
+-2.966256	until	-0.065583
+-2.966256	up	-0.065583
+-2.966256	us	-0.065583
+-2.966256	using	-0.065583
+-2.966256	utero	-0.065583
+-2.837215	v	-0.065583
+-2.966256	variety	-0.065583
+-2.966256	versus	-0.065583
+-2.440759	very	-0.168548
+-2.966256	violence	-0.065583
+-2.966256	vs	-0.065583
+-2.837215	w	-0.096055
+-2.966256	we	-0.065583
+-2.966256	weapons	-0.065583
+-2.966256	week	-0.065583
+-2.440759	what	-0.065583
+-2.966256	where	-0.065583
+-2.966256	which	-0.065583
+-2.572130	who	-0.065583
+-2.966256	whose	-0.065583
+-2.340035	why	-0.077517
+-2.572130	will	-0.085659
+-2.130256	with	-0.077517
+-2.966256	woo	-0.065583
+-2.966256	work	-0.065583
+-2.966256	worked	-0.065583
+-2.340035	would	-0.430966
+-2.966256	www	-0.065583
+-2.966256	year	-0.065583
+-2.837215	years	-0.065583
+-2.258330	yes	-0.121404
+-2.837215	yo	-0.065583
+-2.189589	you	-0.074074
+-2.572130	your	-0.065583
+-2.966256	youth	-0.065583
+
+\2-grams:
+-1.256457	<s> </s>
+-1.721322	<s> a	-0.050711
+-2.637854	<s> aggression	-0.050711
+-2.689514	<s> all	-0.050711
+-2.637854	<s> also	-0.050711
+-2.689514	<s> any	-0.050711
+-2.502094	<s> apartment	-0.050711
+-2.351299	<s> be	-0.050711
+-2.165565	<s> beauty	-0.050711
+-2.637854	<s> bottom	-0.050711
+-2.502094	<s> but	-0.050711
+-2.689514	<s> cases	-0.050711
+-2.689514	<s> conduct	-0.050711
+-2.637854	<s> coolidge	-0.050711
+-2.689514	<s> correct	-0.050711
+-2.329852	<s> culture	-0.187142
+-2.689514	<s> dark	-0.050711
+-2.689514	<s> david	-0.050711
+-1.663064	<s> differences	-0.380564
+-2.637854	<s> e	-0.050711
+-2.689514	<s> egg	-0.050711
+-2.637854	<s> empathy	-0.050711
+-2.689514	<s> environmental	-0.050711
+-2.637854	<s> evidence	-0.050711
+-2.689514	<s> exclusive	-0.050711
+-2.637854	<s> experience	-0.050711
+-2.689514	<s> eye	-0.050711
+-2.502094	<s> female	-0.050711
+-1.985798	<s> females	-0.050711
+-1.934805	<s> how	-0.050711
+-2.689514	<s> http	-0.050711
+-1.904323	<s> i	-0.255626
+-2.689514	<s> im	-0.050711
+-1.887889	<s> in	-0.050711
+-2.637854	<s> innate	-0.050711
+-2.637854	<s> large	-0.050711
+-1.874117	<s> males	-0.050711
+-2.420185	<s> mate	-0.050711
+-2.689514	<s> midterm	-0.050711
+-2.420185	<s> months	-0.050711
+-2.689514	<s> nature	-0.050711
+-2.420185	<s> no	-0.050711
+-2.420185	<s> other	-0.050711
+-2.502094	<s> others	-0.050711
+-2.354504	<s> pornography	-0.050711
+-2.351299	<s> preference	-0.050711
+-2.637854	<s> prostitution	-0.050711
+-2.689514	<s> purposeful	-0.050711
+-2.689514	<s> richard	-0.050711
+-1.548890	<s> sex	-0.194651
+-2.689514	<s> sinister	-0.050711
+-2.689514	<s> size	-0.050711
+-2.689514	<s> small	-0.050711
+-2.689514	<s> smart	-0.050711
+-2.239584	<s> some	-0.050711
+-2.689514	<s> summary	-0.050711
+-2.689514	<s> tail	-0.050711
+-1.483750	<s> the	-0.113591
+-2.637854	<s> theory	-0.050711
+-2.420185	<s> they	-0.050711
+-2.329852	<s> this	-0.050711
+-1.773025	<s> to	-0.050711
+-2.502094	<s> top	-0.050711
+-2.689514	<s> topics	-0.050711
+-2.351299	<s> typically	-0.050711
+-2.637854	<s> universals	-0.050711
+-2.689514	<s> violence	-0.050711
+-1.520882	<s> w	-0.477474
+-1.650198	<s> what	-0.194651
+-2.502094	<s> who	-0.050711
+-1.104656	<s> would	-0.778504
+-2.502094	<s> your	-0.050711
+-2.005521	a desirable	-0.050711
+-2.064045	a fetus	-0.050711
+-2.064045	a few	-0.050711
+-2.064045	a look	-0.050711
+-2.064045	a matter	-0.050711
+-2.005521	a much	-0.050711
+-2.049623	a mystery	-0.050711
+-2.064045	a protective	-0.050711
+-2.064045	a single	-0.050711
+-2.049623	a system	-0.050711
+-2.049623	a tiny	-0.050711
+-1.190212	a week	-0.255626
+-1.945081	a would	-0.187142
+-1.190212	a year	-0.136751
+-0.664549	ability to	-0.050711
+-1.427786	about humans	-0.050711
+-1.418427	about larger	-0.050711
+-1.444063	about parenting	-0.050711
+-1.290964	about the	-0.050711
+-0.666073	absence of	-0.187142
+-0.797110	access to	-0.050711
+-0.850501	accomplish anything	-0.050711
+-0.846293	across humans	-0.050711
+-0.841361	activity many	-0.050711
+-0.682893	adults </s>
+-0.797110	advantage to	-0.050711
+-0.850501	after puberty	-0.050711
+-0.682893	age </s>
+-1.003364	aggression and	-0.050711
+-1.085416	aggression males	-0.050711
+-0.861819	aggressive </s>
+-1.003364	aggressive and	-0.050711
+-0.799330	all of	-0.050711
+-0.850501	allow them	-0.050711
+-0.850501	almost astrological	-0.050711
+-1.146717	also effects	-0.050711
+-1.148679	also food	-0.050711
+-0.843820	always find	-0.050711
+-1.321938	an almost	-0.050711
+-1.319017	an evolutionary	-0.050711
+-1.321938	an individual	-0.050711
+-1.115660	and </s>
+-1.688921	and a	-0.050711
+-2.316292	and also	-0.050711
+-2.345796	and biology	-0.187142
+-2.345796	and dz	-0.050711
+-1.833018	and females	-0.100266
+-2.345796	and follow	-0.050711
+-2.345796	and inescapable	-0.050711
+-2.345796	and intelligence	-0.050711
+-2.345796	and lecture	-0.050711
+-2.345796	and lets	-0.050711
+-2.345796	and little	-0.050711
+-1.809926	and males	-0.050711
+-2.176069	and mate	-0.050711
+-2.176069	and more	-0.050711
+-2.345796	and nurses	-0.050711
+-2.345796	and nurture	-0.050711
+-2.231744	and others	-0.050711
+-2.316292	and over	-0.050711
+-2.345796	and protects	-0.050711
+-2.345796	and psychological	-0.050711
+-2.345796	and psychology	-0.050711
+-2.345796	and reproduce	-0.050711
+-2.345796	and romantic	-0.050711
+-2.345796	and say	-0.050711
+-2.345796	and science	-0.050711
+-1.857408	and sex	-0.050711
+-1.852297	and so	-0.050711
+-2.345796	and status	-0.050711
+-2.345796	and testosterone	-0.050711
+-1.583637	and the	-0.050711
+-2.345796	and then	-0.050711
+-2.345796	and under	-0.050711
+-2.345796	and using	-0.050711
+-2.126728	and why	-0.050711
+-1.148679	animal gives	-0.050711
+-1.116616	animal with	-0.187142
+-0.681614	animals have	-0.050711
+-0.850501	answers posted	-0.050711
+-0.843820	any investment	-0.050711
+-0.771319	anything and	-0.050711
+-0.416745	apartment tonight	-0.226924
+-0.810603	appear in	-0.050711
+-1.960948	are bisexual	-0.050711
+-1.948369	are choosy	-0.050711
+-1.960948	are gay	-0.050711
+-1.855692	are genes	-0.050711
+-1.610540	are in	-0.050711
+-1.948369	are less	-0.050711
+-1.960948	are likely	-0.050711
+-1.656077	are males	-0.050711
+-1.855692	are so	-0.050711
+-1.960948	are straight	-0.050711
+-1.582636	are the	-0.050711
+-1.960948	are treated	-0.050711
+-1.855692	are typically	-0.050711
+-1.807756	are you	-0.050711
+-0.850501	around campus	-0.477474
+-1.678766	as adults	-0.050711
+-1.678766	as age	-0.050711
+-1.651188	as children	-0.050711
+-1.672152	as early	-0.050711
+-1.678766	as ive	-0.050711
+-1.620640	as many	-0.050711
+-1.620640	as those	-0.050711
+-0.682893	assignment </s>
+-0.850501	astrological scale	-0.050711
+-1.533382	at animal	-0.050711
+-1.538177	at certain	-0.050711
+-1.538177	at least	-0.050711
+-1.354929	at the	-0.050711
+-1.495363	at those	-0.050711
+-1.020393	attractive </s>
+-1.518052	attractive but	-0.050711
+-1.533382	attractive prostitution	-0.050711
+-1.506559	attractive very	-0.187142
+-1.506559	attractive what	-0.050711
+-0.682893	autism </s>
+-0.790413	average </s>
+-0.998361	average face	-0.050711
+-0.850501	b better	-0.050711
+-1.102969	babies are	-0.050711
+-1.094104	babies sex	-0.050711
+-1.672152	be aggressive	-0.050711
+-1.672152	be choosy	-0.050711
+-1.678766	be easy	-0.050711
+-1.672152	be hard	-0.050711
+-1.620640	be so	-0.050711
+-1.678766	be sure	-0.050711
+-1.672152	be surviving	-0.050711
+-0.849512	beautiful face	-0.050711
+-1.071631	beauty </s>
+-1.679512	beauty blue	-0.050711
+-1.239683	beauty health	-0.050711
+-1.673142	beauty universals	-0.050711
+-1.239683	beauty youth	-0.050711
+-0.841361	because it	-0.050711
+-0.834067	bed with	-0.477474
+-0.850501	been noticing	-0.477474
+-0.849512	best chance	-0.050711
+-0.843820	better than	-0.050711
+-0.806059	between the	-0.050711
+-0.850501	big enough	-0.050711
+-0.810603	biology in	-0.187142
+-0.682893	bisexual </s>
+-0.829272	blood for	-0.050711
+-0.843820	blue eyes	-0.050711
+-0.682893	books </s>
+-0.850501	both types	-0.050711
+-0.646667	bottom and	-0.187142
+-0.846293	buss people	-0.050711
+-0.706373	but </s>
+-1.322321	but complex	-0.050711
+-1.321938	by cloning	-0.050711
+-1.321938	by fighting	-0.050711
+-1.201677	by the	-0.050711
+-0.846293	campus i	-0.477474
+-1.148679	can always	-0.050711
+-1.148679	can fertilize	-0.050711
+-0.829272	capacity for	-0.050711
+-0.829272	care for	-0.050711
+-0.822177	carries a	-0.050711
+-0.850501	cases where	-0.050711
+-1.003364	causes and	-0.050711
+-1.102969	causes are	-0.050711
+-0.784336	cell </s>
+-1.444443	cell metabolic	-0.050711
+-1.385156	cell with	-0.187142
+-0.682893	cells </s>
+-0.843820	certain other	-0.050711
+-0.666073	chance of	-0.050711
+-0.989611	children </s>
+-1.444063	children accomplish	-0.050711
+-1.391503	children as	-0.050711
+-1.326933	children males	-0.050711
+-0.846293	chimps etc	-0.050711
+-0.819837	chin females	-0.050711
+-0.850501	choice not	-0.050711
+-0.846293	choose who	-0.050711
+-0.861819	choosiness </s>
+-1.135505	choosiness very	-0.050711
+-1.089739	choosy females	-0.050711
+-1.146717	choosy mating	-0.050711
+-0.954453	clear </s>
+-0.868836	clear eyes	-0.050711
+-0.682893	cloning </s>
+-1.146717	come over	-0.477474
+-1.148679	come up	-0.050711
+-0.829272	compete for	-0.050711
+-0.849512	complex animals	-0.050711
+-0.850501	conduct disorder	-0.050711
+-0.771319	contact and	-0.050711
+-1.140358	contacting me	-0.050711
+-1.140358	contacting your	-0.050711
+-0.700513	coolidge effect	-0.187142
+-0.771319	copulation and	-0.050711
+-0.850501	correct answers	-0.050711
+-0.771319	cost and	-0.050711
+-0.850501	could such	-0.050711
+-0.841361	count those	-0.050711
+-0.849512	countries really	-0.050711
+-0.771319	cover and	-0.050711
+-0.797110	criteria to	-0.050711
+-1.003364	culture and	-0.187142
+-1.146717	culture debate	-0.050711
+-0.850501	dark glasses	-0.050711
+-0.843820	data from	-0.050711
+-0.850501	david buss	-0.050711
+-0.806059	dawkins the	-0.050711
+-1.146717	debate debate	-0.050711
+-1.148679	debate index	-0.050711
+-1.146717	deformities absence	-0.050711
+-1.140358	deformities clear	-0.050711
+-0.849512	deserve their	-0.050711
+-0.417008	desirable partner	-0.255626
+-0.849512	determine mystery	-0.050711
+-0.841361	did genes	-0.050711
+-0.915551	differences </s>
+-1.522060	differences have	-0.050711
+-1.150974	differences in	-0.085521
+-1.595769	differences parental	-0.050711
+-1.679512	differences related	-0.050711
+-1.020393	different </s>
+-1.533382	different evolved	-0.050711
+-1.506559	different from	-0.050711
+-1.533382	different psychologies	-0.050711
+-1.533382	different this	-0.050711
+-0.836485	differential parental	-0.050711
+-0.849512	differently aggression	-0.050711
+-0.682893	discouraging </s>
+-0.850501	disorder psychopathy	-0.050711
+-0.682893	displays </s>
+-1.614580	do looking	-0.050711
+-1.563993	do so	-0.050711
+-1.403488	do the	-0.050711
+-1.369103	do to	-0.050711
+-1.614580	do we	-0.050711
+-1.538845	do you	-0.050711
+-0.850501	dont count	-0.050711
+-0.846293	dz but	-0.050711
+-0.700513	e g	-0.050711
+-0.861819	each </s>
+-1.135505	each other	-0.050711
+-1.121262	early as	-0.050711
+-1.146717	early experience	-0.050711
+-0.797110	easy to	-0.050711
+-0.850501	edge org	-0.050711
+-0.682893	effect </s>
+-1.052305	effects of	-0.050711
+-1.135505	effects than	-0.050711
+-0.682893	egg </s>
+-0.850501	elephant seals	-0.050711
+-0.849512	else sperm	-0.050711
+-1.072702	empathy in	-0.050711
+-1.148679	empathy performance	-0.050711
+-0.850501	empirical data	-0.050711
+-0.797110	enough to	-0.050711
+-0.849512	environmental causes	-0.050711
+-0.850501	essay assignment	-0.050711
+-0.706373	etc </s>
+-1.234777	etc males	-0.050711
+-1.135505	evidence from	-0.050711
+-1.125958	evidence that	-0.050711
+-0.799330	evolution of	-0.136751
+-1.148679	evolutionary john	-0.050711
+-1.135505	evolutionary what	-0.050711
+-0.861819	evolve </s>
+-1.135505	evolve what	-0.050711
+-1.148679	evolved special	-0.050711
+-1.148679	evolved through	-0.050711
+-0.850501	exclusive homosexuality	-0.050711
+-0.799330	existence of	-0.050711
+-1.148679	experience after	-0.050711
+-1.125958	experience yes	-0.050711
+-0.682893	explains </s>
+-0.850501	extended phenotype	-0.050711
+-0.954453	extent </s>
+-0.823862	extent of	-0.050711
+-0.850501	eye contact	-0.050711
+-1.279776	eyes and	-0.050711
+-1.590688	eyes clear	-0.050711
+-1.608869	eyes full	-0.050711
+-1.515073	eyes is	-0.050711
+-1.577136	eyes larger	-0.050711
+-1.608869	eyes unblemished	-0.050711
+-0.942710	face </s>
+-1.302448	face average	-0.050711
+-1.213067	face in	-0.050711
+-0.843820	factor or	-0.050711
+-1.003364	factors and	-0.050711
+-1.148679	factors determine	-0.050711
+-0.850501	false stereotype	-0.050711
+-0.850501	fantasies often	-0.050711
+-0.850501	favorite activity	-0.050711
+-0.942710	female </s>
+-1.309595	female female	-0.050711
+-1.321938	female increases	-0.050711
+-1.140988	females </s>
+-1.740786	females a	-0.050711
+-1.021645	females and	-0.136751
+-1.779423	females are	-0.050711
+-1.868841	females as	-0.050711
+-1.981575	females by	-0.050711
+-2.025326	females can	-0.050711
+-1.950532	females different	-0.050711
+-1.722685	females females	-0.050711
+-1.740786	females have	-0.050711
+-1.705308	females males	-0.050711
+-1.950532	females more	-0.050711
+-2.039626	females obviously	-0.050711
+-2.025326	females psychologies	-0.050711
+-1.981575	females should	-0.050711
+-0.829272	fend for	-0.050711
+-0.850501	fertilize several	-0.050711
+-0.850501	fetus inside	-0.050711
+-0.850501	few minutes	-0.050711
+-0.834067	fighting with	-0.050711
+-0.850501	final grades	-0.050711
+-1.444063	find mates	-0.050711
+-1.427786	find me	-0.050711
+-1.444063	find sexually	-0.050711
+-1.391503	find you	-0.156211
+-0.771319	fixed and	-0.050711
+-0.846293	focus on	-0.050711
+-0.843820	follow from	-0.050711
+-0.841361	food typically	-0.050711
+-1.100768	for </s>
+-1.864555	for access	-0.050711
+-1.637309	for have	-0.050711
+-1.864555	for itself	-0.050711
+-1.854574	for mammals	-0.050711
+-1.779279	for many	-0.050711
+-1.864555	for math	-0.050711
+-1.739205	for sexual	-0.187142
+-1.283910	for the	-0.050711
+-1.854574	for years	-0.050711
+-0.836485	forces some	-0.050711
+-0.799330	frequency of	-0.050711
+-1.440198	from each	-0.050711
+-1.440198	from evolutionary	-0.050711
+-1.444063	from mz	-0.050711
+-1.444063	from textbook	-0.050711
+-0.700513	full lips	-0.050711
+-0.850501	future generations	-0.050711
+-1.148679	g elephant	-0.050711
+-1.148679	g pipefish	-0.050711
+-0.771319	gay and	-0.050711
+-0.850501	gender self	-0.050711
+-0.817510	generations males	-0.050711
+-1.242757	genes and	-0.050711
+-1.506559	genes do	-0.050711
+-1.484448	genes that	-0.050711
+-1.538177	genes thought	-0.050711
+-1.324055	genes to	-0.050711
+-0.849512	genetic causes	-0.050711
+-0.849512	gibbons v	-0.050711
+-0.849512	gives only	-0.050711
+-0.771319	glasses and	-0.050711
+-1.321938	go mateless	-0.050711
+-1.321938	go out	-0.477474
+-1.179756	go to	-0.477474
+-0.850501	good moral	-0.050711
+-0.850501	grades revised	-0.050711
+-0.682893	grow </s>
+-0.850501	grown big	-0.050711
+-0.799330	half of	-0.050711
+-0.846293	happy people	-0.050711
+-1.121262	hard as	-0.050711
+-1.048339	hard to	-0.050711
+-0.850501	harlow studies	-0.050711
+-1.052305	has of	-0.050711
+-1.064428	has the	-0.050711
+-1.456236	have a	-0.050711
+-2.014762	have been	-0.477474
+-1.958428	have children	-0.050711
+-1.640230	have in	-0.050711
+-2.014762	have just	-0.050711
+-1.589919	have known	-0.255626
+-2.000906	have origins	-0.050711
+-1.722791	have sex	-0.255626
+-1.848454	have some	-0.050711
+-1.392276	have the	-0.136751
+-1.558252	have to	-0.050711
+-2.014762	have two	-0.050711
+-1.899969	have typically	-0.187142
+-1.146717	health absence	-0.050711
+-1.130705	health beauty	-0.050711
+-1.148679	her blood	-0.050711
+-1.148679	her nourishes	-0.050711
+-0.836485	high parental	-0.050711
+-0.836485	higher parental	-0.050711
+-0.822177	homosexual sex	-0.050711
+-0.831663	homosexuality is	-0.050711
+-0.799330	horns of	-0.050711
+-1.192547	how and	-0.050711
+-1.444063	how could	-0.050711
+-1.409266	how many	-0.050711
+-1.427786	how much	-0.050711
+-0.849512	html early	-0.050711
+-0.850501	http www	-0.050711
+-0.942710	humans </s>
+-1.321938	humans appear	-0.050711
+-1.281686	humans sexual	-0.050711
+-1.303677	i find	-0.477474
+-0.846951	i have	-0.477474
+-0.850501	im happy	-0.050711
+-2.078695	in an	-0.050711
+-1.709899	in children	-0.050711
+-2.154815	in countries	-0.050711
+-2.078695	in desirable	-0.050711
+-2.135765	in empathy	-0.050711
+-2.078695	in humans	-0.050711
+-2.154815	in investing	-0.050711
+-1.747772	in males	-0.187142
+-2.002995	in many	-0.050711
+-1.692563	in other	-0.050711
+-2.154815	in physiology	-0.050711
+-2.154815	in principle	-0.050711
+-2.154815	in psych	-0.050711
+-1.561522	in sex	-0.050711
+-1.938553	in sexual	-0.187142
+-1.481407	in the	-0.050711
+-2.135765	in their	-0.050711
+-2.154815	in typical	-0.050711
+-2.154815	in utero	-0.050711
+-0.850501	inc murder	-0.050711
+-0.841361	include at	-0.050711
+-0.806059	increases the	-0.050711
+-0.850501	index html	-0.050711
+-0.841361	individual offspring	-0.050711
+-0.682893	inescapable </s>
+-0.682893	inevitable </s>
+-0.799330	influences of	-0.050711
+-0.861819	innate </s>
+-1.148679	innate predisposition	-0.050711
+-0.849512	inside her	-0.050711
+-0.699861	intact teeth	-0.050711
+-0.682893	intelligence </s>
+-0.810603	interest in	-0.050711
+-0.850501	invest grown	-0.050711
+-0.810603	investing in	-0.050711
+-1.071088	investment </s>
+-1.734015	investment because	-0.050711
+-1.702827	investment by	-0.050711
+-1.734015	investment explains	-0.050711
+-1.702827	investment extent	-0.050711
+-1.541040	investment females	-0.050711
+-1.607233	investment is	-0.050711
+-1.702827	investment should	-0.050711
+-1.584840	is a	-0.050711
+-1.747718	is an	-0.050711
+-1.521743	is in	-0.050711
+-1.692143	is male	-0.050711
+-1.782441	is pernicious	-0.050711
+-1.774061	is really	-0.050711
+-1.782441	is reversed	-0.050711
+-1.498866	is the	-0.050711
+-1.747718	is your	-0.050711
+-1.533382	it has	-0.050711
+-1.533382	it how	-0.050711
+-1.453258	it is	-0.050711
+-1.538177	it until	-0.050711
+-1.463408	it with	-0.050711
+-1.094104	its a	-0.050711
+-1.130705	its genes	-0.050711
+-0.810603	itself in	-0.050711
+-0.850501	ive worked	-0.050711
+-0.849512	joan smith	-0.050711
+-0.849512	john smith	-0.050711
+-0.849512	juggernaut like	-0.050711
+-0.850501	just one	-0.050711
+-0.771319	kindness and	-0.050711
+-0.829272	known for	-0.136751
+-0.681614	large sex	-0.187142
+-1.248799	larger and	-0.050711
+-1.084064	larger eyes	-0.050711
+-1.507738	larger than	-0.050711
+-1.507738	larger they	-0.050711
+-0.797110	leads to	-0.187142
+-0.836485	least some	-0.050711
+-0.682893	lecture </s>
+-0.942710	less </s>
+-1.309595	less clear	-0.050711
+-1.302448	less no	-0.050711
+-0.822177	lets have	-0.050711
+-0.822177	lifetime a	-0.050711
+-1.148679	like reputation	-0.050711
+-1.048339	like to	-0.050711
+-0.849512	likely innate	-0.050711
+-1.146717	lips full	-0.050711
+-1.146717	lips smooth	-0.050711
+-0.850501	little else	-0.050711
+-0.850501	lizards throat	-0.050711
+-0.841361	look at	-0.050711
+-0.849512	looking time	-0.050711
+-0.942710	m </s>
+-1.295416	m preference	-0.050711
+-1.319017	m w	-0.380564
+-0.850501	machinery needed	-0.050711
+-0.879426	male </s>
+-1.609367	male can	-0.050711
+-1.614955	male chimps	-0.050711
+-1.614955	male high	-0.050711
+-1.552896	male male	-0.050711
+-1.993787	males about	-0.050711
+-0.679597	males and	-0.370743
+-1.939836	males beauty	-0.050711
+-2.045216	males compete	-0.050711
+-1.756372	males females	-0.050711
+-1.773325	males have	-0.050711
+-2.045216	males kindness	-0.050711
+-2.045216	males meaner	-0.050711
+-2.032621	males reproductive	-0.050711
+-1.993787	males should	-0.050711
+-1.939836	males those	-0.050711
+-1.405256	males to	-0.050711
+-1.003364	mammals and	-0.050711
+-1.121262	mammals parental	-0.050711
+-1.533382	many animals	-0.050711
+-1.405790	many females	-0.050711
+-1.506559	many months	-0.050711
+-1.473801	many sexual	-0.050711
+-1.538177	many species	-0.050711
+-0.987687	mate preference	-0.050711
+-0.978188	mate with	-0.050711
+-0.850501	mateless numbers	-0.050711
+-0.841361	mates so	-0.050711
+-0.771319	math and	-0.050711
+-0.806059	mathematics the	-0.050711
+-1.146717	mating only	-0.050711
+-1.146717	mating system	-0.050711
+-0.799330	matter of	-0.050711
+-0.694460	may be	-0.050711
+-1.309595	me attractive	-0.050711
+-1.321938	me final	-0.050711
+-1.319017	me tonight	-0.374645
+-0.810603	meaner in	-0.050711
+-0.849512	measures tell	-0.050711
+-0.838916	mechanisms that	-0.050711
+-0.850501	metabolic machinery	-0.050711
+-0.846293	midterm etc	-0.050711
+-0.850501	millimeters between	-0.050711
+-0.682893	mind </s>
+-0.799330	minds of	-0.050711
+-0.799330	minutes of	-0.050711
+-0.822177	month a	-0.050711
+-0.999400	months </s>
+-1.440705	months chance	-0.050711
+-0.999523	months unsure	-0.050711
+-0.850501	moral inevitable	-0.050711
+-1.440705	more aggressive	-0.050711
+-1.444443	more fixed	-0.050711
+-0.999523	more focus	-0.187142
+-1.148679	most beautiful	-0.050711
+-1.146717	most reproductive	-0.187142
+-0.850501	mostly polygamous	-0.050711
+-1.321938	much higher	-0.050711
+-1.302448	much more	-0.050711
+-1.319017	much time	-0.050711
+-0.682893	murder </s>
+-0.942710	my </s>
+-1.309595	my apartment	-0.187142
+-1.295416	my would	-0.187142
+-0.861819	mystery </s>
+-1.130705	mystery why	-0.050711
+-0.771319	mz and	-0.050711
+-0.850501	natural selection	-0.050711
+-0.771319	nature and	-0.050711
+-0.829272	needed for	-0.050711
+-1.148679	next month	-0.050711
+-1.146717	next years	-0.050711
+-1.020393	no </s>
+-1.414878	no a	-0.050711
+-1.506559	no different	-0.050711
+-1.473801	no sexual	-0.050711
+-1.484448	no yes	-0.050711
+-0.846293	nonsense on	-0.050711
+-0.841361	not typically	-0.050711
+-0.836485	noticing you	-0.226924
+-0.841361	nourishes it	-0.050711
+-0.799330	number of	-0.050711
+-0.850501	numbers dont	-0.050711
+-0.843820	nuns or	-0.050711
+-0.771319	nurses and	-0.050711
+-0.810603	nurture in	-0.050711
+-0.850501	obviously true	-0.050711
+-1.475735	of and	-0.050711
+-2.201686	of autism	-0.050711
+-2.180816	of babies	-0.050711
+-2.037506	of beauty	-0.050711
+-2.201686	of both	-0.050711
+-2.201686	of copulation	-0.050711
+-2.201686	of deformities	-0.050711
+-2.118786	of differences	-0.050711
+-2.076247	of different	-0.050711
+-2.201686	of differential	-0.050711
+-2.201686	of gender	-0.050711
+-2.076247	of investment	-0.050711
+-2.180816	of its	-0.050711
+-2.001939	of male	-0.050711
+-2.201686	of mathematics	-0.050711
+-2.201686	of millimeters	-0.050711
+-2.201686	of mind	-0.050711
+-1.596747	of sex	-0.050711
+-1.969066	of sexual	-0.050711
+-2.201686	of stags	-0.050711
+-2.180816	of surviving	-0.050711
+-1.224621	of the	-0.050711
+-1.969066	of you	-0.050711
+-0.841361	off those	-0.050711
+-1.443341	offspring for	-0.050711
+-1.414878	offspring have	-0.050711
+-1.495363	offspring it	-0.050711
+-1.538177	offspring mechanisms	-0.050711
+-1.484448	offspring that	-0.050711
+-0.850501	offsprings carries	-0.050711
+-0.836485	often as	-0.050711
+-1.440198	on ability	-0.050711
+-1.427786	on an	-0.050711
+-1.444063	on power	-0.050711
+-1.264191	on to	-0.050711
+-0.822177	one sex	-0.050711
+-0.849512	online contacting	-0.050711
+-1.130705	only at	-0.050711
+-1.148679	only half	-0.050711
+-1.444063	or books	-0.050711
+-1.440198	or factors	-0.050711
+-1.444063	or false	-0.050711
+-1.440198	or less	-0.136751
+-0.850501	org rd	-0.050711
+-0.797110	organism to	-0.050711
+-1.052305	origins of	-0.050711
+-1.125958	origins that	-0.050711
+-1.396889	other males	-0.050711
+-1.533382	other mammals	-0.050711
+-1.495363	other offspring	-0.050711
+-1.414878	other sex	-0.050711
+-1.473801	other some	-0.050711
+-0.851720	others are	-0.050711
+-1.319529	others may	-0.050711
+-0.834067	out with	-0.477474
+-0.942710	over </s>
+-1.179756	over to	-0.477474
+-1.309595	over top	-0.050711
+-0.810603	parent in	-0.050711
+-1.221668	parental </s>
+-1.682654	parental e	-0.050711
+-0.345493	parental investment	-0.050711
+-0.682893	parenting </s>
+-0.849512	parents ability	-0.050711
+-0.838916	partner that	-0.255626
+-0.841361	partners would	-0.050711
+-0.846293	passed on	-0.050711
+-0.850501	peacock lizards	-0.050711
+-0.843820	penguins investment	-0.050711
+-1.255462	people are	-0.050711
+-1.302448	people find	-0.050711
+-1.213067	people in	-0.050711
+-0.850501	performance frequency	-0.050711
+-0.850501	pernicious nonsense	-0.050711
+-0.682893	phenotype </s>
+-0.771319	physiological and	-0.050711
+-0.771319	physiology and	-0.050711
+-0.850501	pipefish penguins	-0.050711
+-0.849512	polygamous coolidge	-0.050711
+-0.861819	pornography </s>
+-1.146717	pornography mating	-0.050711
+-0.846293	possible will	-0.050711
+-0.850501	posted online	-0.050711
+-0.771319	power and	-0.050711
+-0.846293	predict extent	-0.050711
+-0.838916	predisposition yes	-0.050711
+-0.915551	preference </s>
+-1.545267	preference are	-0.050711
+-1.191247	preference for	-0.187142
+-1.679512	preference good	-0.050711
+-1.679512	preference reading	-0.050711
+-0.843820	principle no	-0.050711
+-0.582962	prostitution </s>
+-0.850501	protective cover	-0.050711
+-0.841361	protects it	-0.050711
+-0.850501	psych b	-0.050711
+-0.850501	psychological advantage	-0.050711
+-0.673774	psychologies in	-0.187142
+-0.682893	psychology </s>
+-0.682893	psychopathy </s>
+-0.843820	puberty no	-0.050711
+-0.850501	purposeful choice	-0.050711
+-0.682893	questions </s>
+-0.849512	rd culture	-0.050711
+-0.850501	reading response	-0.050711
+-1.148679	really discouraging	-0.050711
+-1.146717	really its	-0.050711
+-0.797110	related to	-0.050711
+-0.846293	reproduce by	-0.050711
+-1.148679	reproductive physiological	-0.050711
+-1.148679	reproductive success	-0.050711
+-0.841361	reputation why	-0.050711
+-0.682893	response </s>
+-1.140358	reverse others	-0.050711
+-1.130705	reverse why	-0.050711
+-0.849512	reversed v	-0.050711
+-0.850501	revised syllabus	-0.050711
+-0.850501	richard dawkins	-0.050711
+-0.817510	right males	-0.050711
+-0.850501	robert trivers	-0.050711
+-0.850501	romantic fantasies	-0.050711
+-0.846293	sack etc	-0.050711
+-0.850501	say take	-0.050711
+-0.850501	scale genetic	-0.050711
+-0.682893	science </s>
+-0.846293	score top	-0.050711
+-0.850501	seals vs	-0.050711
+-0.682893	segregation </s>
+-0.682893	selection </s>
+-0.850501	self segregation	-0.050711
+-0.819837	several females	-0.050711
+-1.217478	sex </s>
+-1.506013	sex and	-0.050711
+-1.952410	sex average	-0.050711
+-1.138970	sex cell	-0.113591
+-2.023413	sex cells	-0.050711
+-0.702403	sex differences	-0.127055
+-1.845036	sex is	-0.050711
+-1.906230	sex male	-0.050711
+-2.023413	sex social	-0.050711
+-1.864491	sex with	-0.255626
+-0.849512	sexes each	-0.050711
+-1.065001	sexual </s>
+-1.313307	sexual and	-0.050711
+-1.239548	sexual choosiness	-0.050711
+-1.679139	sexual partners	-0.050711
+-1.622022	sexual preference	-0.050711
+-1.679139	sexual variety	-0.050711
+-0.846293	sexually attractive	-0.050711
+-0.849512	sharp teeth	-0.050711
+-0.850501	sheer which	-0.050711
+-0.866349	should be	-0.050711
+-1.322321	should predict	-0.050711
+-0.838916	single male	-0.050711
+-0.850501	sinister juggernaut	-0.050711
+-0.817510	size males	-0.050711
+-0.989611	skin </s>
+-1.440198	skin intact	-0.050711
+-1.440198	skin smooth	-0.050711
+-1.440198	skin unblemished	-0.050711
+-0.822177	small sex	-0.050711
+-0.850501	smart questions	-0.050711
+-1.146717	smith theory	-0.050711
+-1.148679	smith versus	-0.050711
+-0.700513	smooth tight	-0.187142
+-1.042197	so </s>
+-1.492535	so are	-0.050711
+-1.590688	so much	-0.050711
+-1.614580	so sheer	-0.050711
+-1.614580	so times	-0.050711
+-1.590688	so will	-0.050711
+-0.849512	social factors	-0.050711
+-1.678766	some empirical	-0.050711
+-1.651188	some extent	-0.050711
+-1.678766	some influences	-0.050711
+-1.493661	some males	-0.050711
+-1.651188	some people	-0.050711
+-1.516259	some sex	-0.050711
+-1.672152	some yo	-0.050711
+-0.799330	sorts of	-0.050711
+-1.148679	special displays	-0.050711
+-1.148679	special weapons	-0.050711
+-0.850501	species there	-0.050711
+-0.841361	spend at	-0.050711
+-1.146717	sperm cell	-0.050711
+-1.130705	sperm why	-0.050711
+-0.850501	stags sharp	-0.050711
+-0.850501	status interest	-0.050711
+-0.682893	stereotype </s>
+-0.682893	straight </s>
+-0.850501	strict criteria	-0.050711
+-0.849512	studies tell	-0.050711
+-1.148679	success passed	-0.050711
+-1.148679	success whose	-0.050711
+-0.822177	such a	-0.050711
+-0.799330	summary of	-0.050711
+-0.797110	sure to	-0.050711
+-1.130705	surviving at	-0.050711
+-1.140358	surviving will	-0.050711
+-0.850501	syllabus essay	-0.050711
+-1.146717	system evolve	-0.050711
+-1.130705	system preference	-0.050711
+-0.799330	tail of	-0.050711
+-0.850501	take off	-0.050711
+-1.302448	teeth average	-0.050711
+-1.319017	teeth intact	-0.050711
+-1.185134	teeth of	-0.050711
+-0.850501	television nuns	-0.050711
+-0.700513	tell us	-0.187142
+-0.682893	testosterone </s>
+-0.771319	textbook and	-0.050711
+-0.849512	tf contacting	-0.050711
+-1.418427	than average	-0.050711
+-1.334498	than females	-0.050711
+-1.444063	than television	-0.050711
+-1.290964	than the	-0.050711
+-1.614580	that allow	-0.050711
+-1.492535	that are	-0.050711
+-1.577136	that different	-0.050711
+-1.608869	that evolve	-0.050711
+-1.590688	that female	-0.050711
+-1.538845	that you	-0.136751
+-1.852757	the animal	-0.187142
+-2.264523	the best	-0.050711
+-2.264523	the capacity	-0.050711
+-2.264523	the chin	-0.050711
+-2.264523	the cost	-0.050711
+-1.862688	the evolution	-0.255626
+-2.264523	the extended	-0.050711
+-2.119363	the eyes	-0.050711
+-2.075736	the genes	-0.050711
+-2.264523	the harlow	-0.050711
+-2.239896	the large	-0.050711
+-1.784423	the males	-0.050711
+-2.264523	the minds	-0.050711
+-1.862688	the most	-0.136751
+-2.264523	the next	-0.050711
+-2.264523	the number	-0.050711
+-2.075736	the offspring	-0.050711
+-2.264523	the offsprings	-0.050711
+-2.264523	the organism	-0.050711
+-2.239896	the origins	-0.050711
+-2.264523	the parent	-0.050711
+-2.264523	the parents	-0.050711
+-2.264523	the peacock	-0.050711
+-2.264523	the right	-0.050711
+-2.264523	the sorts	-0.050711
+-2.119363	the than	-0.050711
+-2.239896	the tiny	-0.050711
+-2.119363	the very	-0.050711
+-0.861819	their </s>
+-1.146717	their effects	-0.050711
+-0.797110	them to	-0.050711
+-0.822177	then have	-0.050711
+-1.052305	theory of	-0.050711
+-1.135505	theory they	-0.050711
+-0.831663	there is	-0.050711
+-0.968891	they are	-0.050711
+-0.962803	they have	-0.187142
+-1.270999	this is	-0.050711
+-0.875593	this leads	-0.187142
+-1.028786	those </s>
+-1.409175	those females	-0.050711
+-1.538555	those possible	-0.050711
+-1.088255	those who	-0.187142
+-0.797110	thought to	-0.050711
+-0.850501	throat sack	-0.050711
+-0.850501	through natural	-0.050711
+-0.849512	tight skin	-0.050711
+-1.135505	time do	-0.050711
+-1.148679	time measures	-0.050711
+-0.771319	times and	-0.050711
+-1.094104	tiny sex	-0.050711
+-1.146717	tiny sperm	-0.050711
+-2.178576	to babies	-0.050711
+-2.032463	to be	-0.050711
+-2.199939	to bed	-0.477474
+-2.199939	to care	-0.050711
+-2.199939	to choose	-0.050711
+-2.199939	to deserve	-0.050711
+-2.071872	to do	-0.050711
+-1.781867	to females	-0.050711
+-2.199939	to fend	-0.050711
+-2.199939	to future	-0.050711
+-2.178576	to go	-0.050711
+-2.199939	to grow	-0.050711
+-1.591891	to have	-0.050711
+-2.199939	to include	-0.050711
+-2.199939	to invest	-0.050711
+-2.071872	to mate	-0.050711
+-2.071872	to more	-0.050711
+-2.199939	to my	-0.156211
+-2.032463	to offspring	-0.050711
+-1.790940	to reverse	-0.050711
+-1.962982	to some	-0.050711
+-1.670508	to the	-0.187142
+-2.199939	to woo	-0.050711
+-2.199939	to work	-0.050711
+-0.838860	tonight </s>
+-1.518946	tonight apartment	-0.187142
+-1.538555	tonight homosexual	-0.050711
+-1.496812	tonight would	-0.380564
+-0.795572	top and	-0.187142
+-1.322321	top score	-0.050711
+-0.682893	topics </s>
+-0.850501	treated differently	-0.050711
+-0.838916	trivers male	-0.050711
+-0.843820	true or	-0.050711
+-0.850501	two sexes	-0.050711
+-0.849512	types may	-0.050711
+-0.836485	typical parental	-0.050711
+-1.028786	typically </s>
+-1.533885	typically evolved	-0.187142
+-1.445961	typically for	-0.050711
+-1.084064	typically larger	-0.050711
+-0.699861	unblemished skin	-0.050711
+-0.861819	under </s>
+-1.146717	under bottom	-0.050711
+-0.850501	universal across	-0.050711
+-0.666073	universals of	-0.187142
+-1.135505	unsure months	-0.050711
+-1.125958	unsure yes	-0.050711
+-0.841361	until it	-0.050711
+-0.771319	up and	-0.050711
+-0.846293	us about	-0.050711
+-0.850501	using strict	-0.050711
+-0.836485	utero as	-0.050711
+-1.072702	v in	-0.050711
+-1.085416	v males	-0.050711
+-0.861819	variety </s>
+-1.148679	variety mostly	-0.050711
+-0.850501	versus joan	-0.050711
+-0.539960	very attractive	-0.156211
+-1.446438	very existence	-0.050711
+-0.850501	violence inc	-0.050711
+-0.850501	vs gibbons	-0.050711
+-0.700513	w m	-0.328887
+-0.843820	we find	-0.050711
+-0.850501	weapons horns	-0.050711
+-0.843820	week or	-0.255626
+-1.518052	what about	-0.050711
+-1.433644	what are	-0.050711
+-1.506559	what do	-0.050711
+-1.538177	what factor	-0.050711
+-1.453258	what is	-0.050711
+-0.836485	where parental	-0.050711
+-0.850501	which forces	-0.050711
+-0.942710	who </s>
+-1.319017	who has	-0.050711
+-1.302448	who mate	-0.187142
+-0.841361	whose offspring	-0.050711
+-1.055806	why are	-0.050711
+-1.538555	why did	-0.050711
+-1.455666	why is	-0.050711
+-1.475752	why some	-0.050711
+-1.296941	will be	-0.050711
+-0.846951	will have	-0.187142
+-1.616707	with a	-0.136751
+-1.711697	with as	-0.050711
+-1.602714	with females	-0.050711
+-1.748616	with genes	-0.187142
+-1.817211	with her	-0.050711
+-1.377523	with me	-0.778504
+-1.256650	with the	-0.050711
+-1.768323	with they	-0.050711
+-0.819837	woo females	-0.050711
+-0.849512	work hard	-0.050711
+-0.797110	worked to	-0.050711
+-0.199499	would you	-0.508953
+-0.850501	www edge	-0.050711
+-0.861819	year </s>
+-1.125958	year yes	-0.050711
+-1.135505	years months	-0.050711
+-1.148679	years robert	-0.050711
+-0.651632	yes </s>
+-1.534590	yes a	-0.050711
+-1.675243	yes evidence	-0.050711
+-1.430969	yes to	-0.050711
+-1.616286	yes yes	-0.050711
+-1.146717	yo come	-0.050711
+-1.146717	yo yo	-0.050711
+-1.118686	you </s>
+-1.533761	you around	-0.477474
+-1.949304	you come	-0.477474
+-1.911158	you desirable	-0.050711
+-1.949304	you go	-0.477474
+-1.413616	you have	-0.226924
+-1.911158	you i	-0.187142
+-1.949304	you like	-0.050711
+-1.810768	you sexual	-0.050711
+-1.961663	you spend	-0.050711
+-1.961663	you universal	-0.050711
+-1.883803	you very	-0.187142
+-1.321938	your favorite	-0.050711
+-1.321938	your lifetime	-0.050711
+-1.321938	your tf	-0.050711
+-1.130705	youth beauty	-0.050711
+-1.135505	youth larger	-0.050711
+
+\3-grams:
+-1.352482	<s> a few
+-1.026144	<s> a week
+-1.026144	<s> a year
+-0.736837	<s> aggression males
+-0.599552	<s> all of
+-0.760255	<s> also effects
+-0.623979	<s> any investment
+-0.345783	<s> apartment tonight
+-0.889912	<s> be sure
+-0.973289	<s> beauty health
+-0.973289	<s> beauty youth
+-0.507321	<s> bottom and
+-0.816534	<s> but complex
+-0.627549	<s> cases where
+-0.627549	<s> conduct disorder
+-0.541309	<s> coolidge effect
+-0.627549	<s> correct answers
+-0.382400	<s> culture and
+-0.627549	<s> dark glasses
+-0.627549	<s> david buss
+-0.212483	<s> differences in
+-0.541309	<s> e g
+-0.530359	<s> egg </s>
+-0.731723	<s> empathy in
+-0.627023	<s> environmental causes
+-0.752553	<s> evidence that
+-0.627549	<s> exclusive homosexuality
+-0.760971	<s> experience after
+-0.627549	<s> eye contact
+-0.812963	<s> female female
+-0.920171	<s> females more
+-1.027566	<s> how and
+-1.146232	<s> how many
+-1.155127	<s> how much
+-0.627549	<s> http www
+-0.280786	<s> i have
+-0.627549	<s> im happy
+-0.932866	<s> in their
+-0.760971	<s> innate predisposition
+-0.529557	<s> large sex
+-0.617658	<s> males and
+-1.150603	<s> males females
+-0.695196	<s> mate preference
+-0.625303	<s> midterm etc
+-0.700526	<s> months unsure
+-0.583596	<s> nature and
+-0.709731	<s> no </s>
+-0.840318	<s> other sex
+-0.628198	<s> others are
+-0.751007	<s> pornography </s>
+-0.926010	<s> pornography mating
+-0.890020	<s> preference good
+-0.465141	<s> prostitution </s>
+-0.627549	<s> purposeful choice
+-0.627549	<s> richard dawkins
+-1.459928	<s> sex average
+-0.336845	<s> sex differences
+-0.627549	<s> sinister juggernaut
+-0.609670	<s> size males
+-0.612237	<s> small sex
+-0.627549	<s> smart questions
+-0.862293	<s> some sex
+-0.599552	<s> summary of
+-0.599552	<s> tail of
+-1.498410	<s> the chin
+-0.746594	<s> the next
+-1.476248	<s> the very
+-0.723330	<s> theory of
+-0.683728	<s> they have
+-0.988096	<s> this is
+-0.760456	<s> this leads
+-0.929044	<s> to mate
+-0.816534	<s> top score
+-0.530359	<s> topics </s>
+-0.847486	<s> typically for
+-0.519749	<s> universals of
+-0.627549	<s> violence inc
+-0.134710	<s> w m
+-0.451526	<s> what do
+-1.300621	<s> what is
+-0.815614	<s> who has
+-0.027490	<s> would you
+-0.816428	<s> your lifetime
+-0.345981	a desirable partner
+-0.627549	a fetus inside
+-0.627549	a few minutes
+-0.622658	a look at
+-0.599552	a matter of
+-0.816428	a much higher
+-0.633540	a mystery </s>
+-0.627549	a protective cover
+-0.621342	a single male
+-0.760255	a system evolve
+-0.760255	a tiny sperm
+-0.280312	a week or
+-0.118829	a would you
+-0.863071	a year </s>
+-0.540607	a year yes
+-1.108598	ability to have
+-1.216676	ability to invest
+-0.674209	about humans </s>
+-0.860598	about larger than
+-0.530359	about parenting </s>
+-0.939125	about the minds
+-0.450792	absence of deformities
+-0.903398	access to females
+-0.583596	accomplish anything and
+-0.816428	across humans appear
+-0.865620	activity many animals
+-0.936206	advantage to care
+-0.623979	after puberty no
+-0.935018	aggression and mate
+-0.927287	aggression males meaner
+-0.891367	aggressive and a
+-0.921679	all of you
+-0.598303	allow them to
+-0.627549	almost astrological scale
+-0.723330	also effects of
+-0.622658	also food typically
+-0.847060	always find mates
+-0.627549	an almost astrological
+-0.756124	an evolutionary what
+-0.622658	an individual offspring
+-1.202166	and a protective
+-1.200376	and a tiny
+-0.760971	and also food
+-0.346206	and biology in
+-0.625303	and dz but
+-0.704629	and females </s>
+-1.509512	and females different
+-1.423793	and females males
+-1.529732	and females psychologies
+-0.623979	and follow from
+-0.530359	and inescapable </s>
+-0.530359	and intelligence </s>
+-0.530359	and lecture </s>
+-0.612237	and lets have
+-0.627549	and little else
+-1.184928	and males beauty
+-1.199819	and males kindness
+-0.695196	and mate preference
+-0.846302	and more aggressive
+-0.583596	and nurses and
+-0.605848	and nurture in
+-0.628198	and others are
+-0.805124	and over </s>
+-1.005574	and over top
+-0.622658	and protects it
+-0.627549	and psychological advantage
+-0.530359	and psychology </s>
+-0.625303	and reproduce by
+-0.627549	and romantic fantasies
+-0.627549	and say take
+-0.530359	and science </s>
+-0.542474	and sex differences
+-0.866958	and so </s>
+-1.115111	and so times
+-0.627549	and status interest
+-0.530359	and testosterone </s>
+-1.203579	and the genes
+-1.208565	and the than
+-0.612237	and then have
+-0.751007	and under </s>
+-0.926010	and under bottom
+-0.627549	and using strict
+-0.724787	and why are
+-0.627023	animal gives only
+-0.413329	animal with the
+-1.195830	animals have just
+-1.195830	animals have two
+-0.627549	answers posted online
+-0.893312	any investment by
+-0.942254	anything and then
+-0.452371	apartment tonight </s>
+-0.801383	apartment tonight apartment
+-0.891881	appear in other
+-0.530359	are bisexual </s>
+-0.760255	are choosy mating
+-0.583596	are gay and
+-0.866533	are genes thought
+-0.933907	are in principle
+-0.812963	are less clear
+-0.627023	are likely innate
+-0.528291	are males and
+-0.857506	are so are
+-0.530359	are straight </s>
+-0.938061	are the origins
+-0.627549	are treated differently
+-0.736297	are typically larger
+-0.921084	are you universal
+-0.146066	around campus i
+-0.530359	as adults </s>
+-0.530359	as age </s>
+-0.834664	as children as
+-0.750778	as early as
+-0.627549	as ive worked
+-0.838147	as many females
+-0.737967	as those who
+-0.627549	astrological scale genetic
+-0.760971	at animal gives
+-0.623979	at certain other
+-0.620029	at least some
+-0.939125	at the cost
+-0.838960	at those females
+-0.544914	attractive but </s>
+-0.465141	attractive prostitution </s>
+-0.269591	attractive very attractive
+-0.844693	attractive what are
+-0.805124	average face </s>
+-1.002402	average face average
+-0.623979	b better than
+-0.921026	babies are treated
+-0.784798	babies sex </s>
+-0.633540	be aggressive </s>
+-0.738555	be choosy females
+-0.598303	be easy to
+-0.721671	be hard to
+-0.876009	be so much
+-0.598303	be sure to
+-0.757920	be surviving will
+-0.783344	beautiful face in
+-0.623979	beauty blue eyes
+-0.926010	beauty health absence
+-0.917365	beauty health beauty
+-0.519749	beauty universals of
+-0.917365	beauty youth beauty
+-0.919972	beauty youth larger
+-0.849112	because it is
+-0.166916	bed with me
+-0.145408	been noticing you
+-0.519749	best chance of
+-0.841157	better than average
+-0.931935	between the eyes
+-0.598303	big enough to
+-0.446640	biology in sexual
+-0.903093	blood for many
+-0.862059	blue eyes is
+-0.627023	both types may
+-0.452209	bottom and under
+-0.783344	buss people in
+-0.627023	but complex animals
+-0.530359	by cloning </s>
+-0.618721	by fighting with
+-0.939125	by the parent
+-0.165268	campus i find
+-0.623979	can always find
+-0.627549	can fertilize several
+-0.912353	capacity for math
+-0.805524	care for the
+-0.928539	carries a fetus
+-0.620029	cases where parental
+-0.748646	causes and </s>
+-0.879352	causes are in
+-0.627549	cell metabolic machinery
+-0.441680	cell with genes
+-0.835987	certain other males
+-1.071305	chance of and
+-1.214872	chance of surviving
+-0.627549	children accomplish anything
+-0.889912	children as adults
+-0.838019	children males to
+-0.790406	chimps etc males
+-0.710275	chin females and
+-0.622658	choice not typically
+-0.674209	choose who </s>
+-0.435511	choosiness very attractive
+-0.922664	choosy females should
+-0.760255	choosy mating only
+-1.108246	clear eyes clear
+-1.113494	clear eyes unblemished
+-0.161809	come over to
+-0.583596	come up and
+-0.912353	compete for access
+-0.529557	complex animals have
+-0.627549	conduct disorder psychopathy
+-0.942254	contact and testosterone
+-0.816428	contacting me final
+-0.816428	contacting your tf
+-0.314287	coolidge effect </s>
+-0.891367	copulation and a
+-0.627549	correct answers posted
+-0.942254	cost and nurses
+-0.612237	could such a
+-0.737967	count those who
+-0.760255	countries really its
+-0.874790	cover and the
+-0.936206	criteria to choose
+-0.452209	culture and biology
+-0.760255	culture debate debate
+-0.583596	dark glasses and
+-0.847060	data from textbook
+-0.625303	david buss people
+-0.939125	dawkins the extended
+-0.760971	debate debate index
+-0.627549	debate index html
+-0.519749	deformities absence of
+-0.637217	deformities clear eyes
+-0.633540	deserve their </s>
+-0.279565	desirable partner that
+-0.754334	determine mystery why
+-0.860361	did genes do
+-0.924135	differences have origins
+-1.662506	differences in empathy
+-1.645979	differences in humans
+-1.667685	differences in physiology
+-1.416981	differences in sex
+-0.895752	differences in the
+-1.667685	differences in typical
+-0.290892	differences parental investment
+-0.598303	differences related to
+-0.760971	different evolved through
+-0.846187	different from each
+-0.524625	different psychologies in
+-0.640731	different this leads
+-0.290892	differential parental investment
+-0.702239	differently aggression and
+-0.530359	disorder psychopathy </s>
+-0.627023	do looking time
+-0.876009	do so will
+-0.939125	do the harlow
+-0.936206	do to deserve
+-0.623979	do we find
+-0.921084	do you spend
+-0.622658	dont count those
+-0.544914	dz but </s>
+-0.927059	e g elephant
+-0.927059	e g pipefish
+-0.853577	each other some
+-0.889912	early as age
+-0.752553	early experience yes
+-0.904457	easy to reverse
+-0.627549	edge org rd
+-0.936291	effects of gender
+-0.847060	effects than television
+-0.627549	elephant seals vs
+-0.754334	else sperm why
+-0.894281	empathy in children
+-0.627549	empathy performance frequency
+-0.623979	empirical data from
+-0.936206	enough to fend
+-0.743752	environmental causes are
+-0.530359	essay assignment </s>
+-0.902384	etc males have
+-0.847060	evidence from mz
+-0.873652	evidence that different
+-0.620673	evolution of different
+-1.258003	evolution of sex
+-0.627023	evolutionary john smith
+-0.866533	evolutionary what factor
+-0.862646	evolve what about
+-0.927059	evolved special displays
+-0.927059	evolved special weapons
+-0.627549	evolved through natural
+-0.617416	exclusive homosexuality is
+-0.877043	existence of sex
+-0.627549	experience after puberty
+-0.844078	experience yes to
+-0.530359	extended phenotype </s>
+-1.208502	extent of differences
+-1.216838	extent of differential
+-0.583596	eye contact and
+-0.748646	eyes and </s>
+-0.637217	eyes clear eyes
+-0.541309	eyes full lips
+-0.902472	eyes is really
+-0.736297	eyes larger eyes
+-0.540907	eyes unblemished skin
+-0.700006	face average face
+-0.933907	face in psych
+-0.846187	factor or factors
+-0.911638	factors and sex
+-0.627023	factors determine mystery
+-0.530359	false stereotype </s>
+-0.620029	fantasies often as
+-0.622658	favorite activity many
+-0.674209	female female </s>
+-0.603318	female increases the
+-0.928539	females a single
+-0.611376	females and males
+-1.327982	females and so
+-0.919991	females are choosy
+-0.881005	females as those
+-0.816428	females by fighting
+-0.760971	females can always
+-0.865620	females different evolved
+-0.925909	females females can
+-0.849770	females have a
+-0.528291	females males and
+-0.700526	females more focus
+-0.627549	females obviously true
+-0.524625	females psychologies in
+-0.635917	females should be
+-0.912353	fend for itself
+-0.610951	fertilize several females
+-0.627023	fetus inside her
+-0.599552	few minutes of
+-0.878049	fighting with females
+-0.627549	final grades revised
+-0.622658	find mates so
+-0.812963	find me attractive
+-0.625303	find sexually attractive
+-0.794656	find you around
+-1.483709	find you sexual
+-0.826369	find you very
+-0.942254	fixed and inescapable
+-1.058511	focus on ability
+-1.059935	focus on power
+-0.846187	follow from evolutionary
+-0.736297	food typically larger
+-0.598303	for access to
+-0.875877	for have known
+-0.605848	for itself in
+-0.750778	for mammals parental
+-0.860361	for many months
+-0.583596	for math and
+-0.439271	for sexual variety
+-1.203579	for the offspring
+-1.222262	for the organism
+-0.760971	for years robert
+-0.857738	forces some males
+-0.936291	frequency of autism
+-0.756124	from each other
+-0.760971	from evolutionary john
+-0.583596	from mz and
+-0.583596	from textbook and
+-0.926010	full lips full
+-0.926010	full lips smooth
+-0.609670	future generations males
+-0.627549	g elephant seals
+-0.627549	g pipefish penguins
+-0.937695	gay and others
+-0.627549	gender self segregation
+-0.927287	generations males compete
+-1.226219	genes and also
+-1.228287	genes and little
+-0.829026	genes do to
+-0.880017	genes that allow
+-0.598303	genes thought to
+-0.926411	genes to offspring
+-0.702239	genetic causes and
+-0.731723	gibbons v in
+-0.760971	gives only half
+-0.942254	glasses and lets
+-0.627549	go mateless numbers
+-0.145244	go out with
+-0.174548	go to bed
+-0.627549	good moral inevitable
+-0.627549	grades revised syllabus
+-0.627549	grown big enough
+-0.935259	half of its
+-0.810924	happy people find
+-0.889912	hard as ive
+-0.904457	hard to reverse
+-0.627023	harlow studies tell
+-0.787132	has of the
+-0.912167	has the most
+-1.202166	have a look
+-1.194571	have a much
+-0.146345	have been noticing
+-0.847060	have children accomplish
+-0.929478	have in desirable
+-0.627549	have just one
+-0.278074	have known for
+-0.752553	have origins that
+-0.344401	have sex with
+-0.888949	have some yo
+-1.390349	have the best
+-0.613678	have the most
+-0.936206	have to woo
+-0.627549	have two sexes
+-0.432866	have typically evolved
+-0.519749	health absence of
+-0.791969	health beauty health
+-0.616116	her blood for
+-0.622658	her nourishes it
+-0.786170	high parental </s>
+-0.290892	higher parental investment
+-0.916318	homosexual sex male
+-0.899236	homosexuality is an
+-0.936291	horns of stags
+-0.932357	how and why
+-0.627549	how could such
+-0.853577	how many sexual
+-0.815614	how much time
+-0.760255	html early experience
+-0.627549	http www edge
+-0.605848	humans appear in
+-0.791926	humans sexual choosiness
+-0.167198	i find you
+-0.173823	i have been
+-0.625303	im happy people
+-0.816428	in an individual
+-0.834942	in children </s>
+-1.013150	in children males
+-0.627023	in countries really
+-0.345981	in desirable partner
+-0.760971	in empathy performance
+-0.804865	in humans sexual
+-0.605848	in investing in
+-0.313368	in males and
+-0.866533	in many species
+-1.090659	in other mammals
+-1.078087	in other offspring
+-0.583596	in physiology and
+-0.623979	in principle no
+-0.627549	in psych b
+-1.196988	in sex cells
+-1.196988	in sex social
+-0.436994	in sexual preference
+-1.381167	in the capacity
+-1.289433	in the males
+-1.381167	in the sorts
+-0.760255	in their effects
+-0.620029	in typical parental
+-0.620029	in utero as
+-0.530359	inc murder </s>
+-0.866533	include at least
+-0.939125	increases the offsprings
+-0.627023	index html early
+-0.855827	individual offspring that
+-0.936291	influences of both
+-0.621342	innate predisposition yes
+-0.760971	inside her nourishes
+-1.002402	intact teeth average
+-1.009712	intact teeth intact
+-0.933907	interest in investing
+-0.627549	invest grown big
+-0.894281	investing in children
+-0.622658	investment because it
+-0.779543	investment by the
+-0.530359	investment explains </s>
+-0.613160	investment extent of
+-0.898356	investment females have
+-0.903466	investment is reversed
+-0.816534	investment should predict
+-0.927585	is a mystery
+-0.815614	is an evolutionary
+-0.855188	is in the
+-0.880079	is male high
+-0.627549	is pernicious nonsense
+-0.760971	is really discouraging
+-0.627023	is reversed v
+-0.911166	is the animal
+-0.816428	is your favorite
+-0.723330	it has of
+-0.847060	it how could
+-0.863370	it is in
+-0.622658	it until it
+-0.907412	it with her
+-0.928539	its a matter
+-0.817015	its genes to
+-0.891881	itself in other
+-0.598303	ive worked to
+-0.760255	joan smith theory
+-0.760971	john smith versus
+-0.760971	juggernaut like reputation
+-0.612237	just one sex
+-0.942254	kindness and intelligence
+-0.535717	known for </s>
+-1.271157	known for have
+-0.400907	large sex cell
+-0.935018	larger and more
+-1.113494	larger eyes full
+-1.104231	larger eyes larger
+-0.819881	larger than females
+-0.683728	larger they have
+-0.438945	leads to the
+-0.889912	least some empirical
+-0.679800	less clear </s>
+-1.048982	less no a
+-1.074340	less no yes
+-0.849770	lets have a
+-0.775650	lifetime a week
+-0.622658	like reputation why
+-0.876215	like to have
+-0.633540	likely innate </s>
+-0.541309	lips full lips
+-0.541309	lips smooth tight
+-0.627023	little else sperm
+-0.627549	lizards throat sack
+-0.858088	look at those
+-0.760971	looking time measures
+-0.776004	m preference for
+-0.176107	m w m
+-0.616116	machinery needed for
+-0.760971	male can fertilize
+-0.625303	male chimps etc
+-0.620029	male high parental
+-0.642712	male male </s>
+-0.841157	males about larger
+-0.250235	males and females
+-1.613474	males and so
+-0.890020	males beauty blue
+-0.616116	males compete for
+-0.898356	males females a
+-0.870267	males have to
+-0.583596	males kindness and
+-0.605848	males meaner in
+-0.760971	males reproductive physiological
+-0.635917	males should be
+-0.866604	males those possible
+-1.214656	males to go
+-1.216676	males to work
+-0.942254	mammals and follow
+-0.290892	mammals parental investment
+-0.529557	many animals have
+-0.912777	many females as
+-0.846302	many months chance
+-0.889966	many sexual partners
+-0.627549	many species there
+-0.787328	mate preference </s>
+-1.094439	mate preference are
+-1.267463	mate with as
+-1.065440	mate with the
+-1.284789	mate with they
+-0.627549	mateless numbers dont
+-0.880017	mates so sheer
+-0.942254	math and science
+-0.939125	mathematics the number
+-0.754334	mating only at
+-0.754334	mating system preference
+-0.936291	matter of mathematics
+-1.132255	may be easy
+-1.130573	may be hard
+-0.862646	me attractive but
+-0.627549	me final grades
+-0.403807	me tonight </s>
+-1.633892	me tonight homosexual
+-0.607456	me tonight would
+-0.933907	meaner in utero
+-0.541309	measures tell us
+-0.879076	mechanisms that evolve
+-0.627549	metabolic machinery needed
+-0.544914	midterm etc </s>
+-0.603318	millimeters between the
+-0.935259	minds of babies
+-0.936291	minutes of copulation
+-0.775650	month a year
+-0.519749	months chance of
+-0.919972	months unsure months
+-0.914774	months unsure yes
+-0.530359	moral inevitable </s>
+-0.702239	more aggressive and
+-0.583596	more fixed and
+-0.353917	more focus on
+-0.627023	most beautiful face
+-0.402049	most reproductive success
+-0.627023	mostly polygamous coolidge
+-0.620029	much higher parental
+-0.847145	much more fixed
+-0.756124	much time do
+-0.222550	my apartment tonight
+-0.118829	my would you
+-0.853992	mystery why some
+-0.942254	mz and dz
+-0.530359	natural selection </s>
+-0.942254	nature and nurture
+-0.805524	needed for the
+-0.612237	next month a
+-0.756124	next years months
+-0.775650	no a week
+-0.860361	no different from
+-0.814013	no sexual and
+-0.510520	no yes </s>
+-0.843343	nonsense on an
+-0.713363	not typically </s>
+-0.546241	noticing you around
+-0.831770	noticing you i
+-0.851339	nourishes it with
+-0.936291	number of millimeters
+-0.627549	numbers dont count
+-0.847060	nuns or books
+-0.942254	nurses and protects
+-0.870862	nurture in sex
+-0.623979	obviously true or
+-0.874790	of and the
+-0.530359	of autism </s>
+-0.740281	of babies sex
+-0.884211	of beauty </s>
+-1.130826	of beauty universals
+-0.627549	of both types
+-0.583596	of copulation and
+-0.926010	of deformities absence
+-0.922594	of deformities clear
+-0.660975	of differences </s>
+-1.090659	of different psychologies
+-1.090659	of different this
+-0.620029	of differential parental
+-0.627549	of gender self
+-0.897484	of investment because
+-0.754334	of its genes
+-0.880079	of male chimps
+-0.603318	of mathematics the
+-0.627549	of millimeters between
+-0.530359	of mind </s>
+-0.635147	of sex differences
+-1.168661	of sex is
+-0.728581	of sexual </s>
+-0.627549	of stags sharp
+-0.754334	of surviving at
+-1.310312	of the evolution
+-1.381167	of the parents
+-1.381167	of the peacock
+-0.749800	of you </s>
+-0.713363	off those </s>
+-0.911351	offspring for years
+-0.834855	offspring have the
+-0.865620	offspring it how
+-0.621342	offspring mechanisms that
+-0.876009	offspring that female
+-0.612237	offsprings carries a
+-0.888949	often as early
+-0.518780	on ability to
+-0.816428	on an almost
+-0.583596	on power and
+-0.936206	on to future
+-0.860251	one sex and
+-0.757920	online contacting your
+-0.866533	only at certain
+-0.599552	only half of
+-0.530359	or books </s>
+-0.760971	or factors determine
+-0.627549	or false stereotype
+-0.920762	or less </s>
+-0.569018	or less no
+-0.627023	org rd culture
+-0.936206	organism to grow
+-0.921679	origins of sexual
+-0.857506	origins that are
+-0.528291	other males and
+-0.702239	other mammals and
+-0.846897	other offspring for
+-0.542474	other sex differences
+-0.889912	other some influences
+-1.188164	others are bisexual
+-1.188164	others are gay
+-0.537566	others may be
+-0.166916	out with me
+-0.174548	over to my
+-0.597437	over top and
+-0.929478	parent in an
+-0.541309	parental e g
+-1.010614	parental investment </s>
+-1.415016	parental investment explains
+-1.322009	parental investment females
+-1.356321	parental investment is
+-1.401428	parental investment should
+-0.518780	parents ability to
+-0.336348	partner that you
+-0.172452	partners would you
+-0.799599	passed on to
+-0.627549	peacock lizards throat
+-0.893312	penguins investment extent
+-0.921026	people are straight
+-0.843343	people find me
+-0.933907	people in countries
+-0.599552	performance frequency of
+-0.625303	pernicious nonsense on
+-0.942254	physiological and psychological
+-0.942254	physiology and psychology
+-0.623979	pipefish penguins investment
+-0.541309	polygamous coolidge effect
+-0.760255	pornography mating system
+-0.625655	possible will have
+-0.627023	posted online contacting
+-0.942254	power and status
+-0.613160	predict extent of
+-0.889400	predisposition yes evidence
+-0.911464	preference are so
+-0.441375	preference for sexual
+-0.627549	preference good moral
+-0.627549	preference reading response
+-0.860361	principle no different
+-0.583596	protective cover and
+-0.866533	protects it until
+-0.627549	psych b better
+-0.598303	psychological advantage to
+-0.441653	psychologies in males
+-0.853577	puberty no sexual
+-0.627549	purposeful choice not
+-0.760255	rd culture debate
+-0.530359	reading response </s>
+-0.530359	really discouraging </s>
+-0.740281	really its a
+-0.935146	related to babies
+-0.816428	reproduce by cloning
+-0.583596	reproductive physiological and
+-0.927059	reproductive success passed
+-0.927059	reproductive success whose
+-0.724787	reputation why are
+-0.815757	reverse others may
+-0.866604	reverse why did
+-0.736837	reversed v males
+-0.627549	revised syllabus essay
+-0.603318	richard dawkins the
+-0.919273	right males those
+-0.621342	robert trivers male
+-0.627549	romantic fantasies often
+-0.544914	sack etc </s>
+-0.627549	say take off
+-0.627023	scale genetic causes
+-0.597437	score top and
+-0.627549	seals vs gibbons
+-0.530359	self segregation </s>
+-0.895998	several females females
+-0.942254	sex and reproduce
+-0.594520	sex average </s>
+-0.812348	sex cell </s>
+-1.257910	sex cell metabolic
+-0.684544	sex cell with
+-0.530359	sex cells </s>
+-0.973061	sex differences </s>
+-1.418200	sex differences have
+-0.613699	sex differences in
+-1.459982	sex differences parental
+-1.503693	sex differences related
+-0.874999	sex is a
+-0.869284	sex male male
+-0.627023	sex social factors
+-0.338837	sex with a
+-0.633540	sexes each </s>
+-0.942254	sexual and romantic
+-0.751007	sexual choosiness </s>
+-0.919972	sexual choosiness very
+-0.622658	sexual partners would
+-0.787328	sexual preference </s>
+-1.132443	sexual preference reading
+-0.751007	sexual variety </s>
+-0.927059	sexual variety mostly
+-0.860361	sexually attractive what
+-0.773903	sharp teeth of
+-0.627549	sheer which forces
+-1.130573	should be aggressive
+-1.130573	should be choosy
+-0.625303	should predict extent
+-0.879158	single male can
+-0.627023	sinister juggernaut like
+-0.923600	size males about
+-0.540907	skin intact teeth
+-0.541309	skin smooth tight
+-0.540907	skin unblemished skin
+-0.757407	small sex cell
+-0.530359	smart questions </s>
+-0.756124	smith theory they
+-0.627549	smith versus joan
+-0.354589	smooth tight skin
+-0.906367	so are you
+-0.810924	so much more
+-0.627549	so sheer which
+-0.583596	so times and
+-0.809337	so will be
+-0.702239	social factors and
+-0.627549	some empirical data
+-0.679800	some extent </s>
+-0.599552	some influences of
+-0.838019	some males to
+-0.796915	some people are
+-0.542474	some sex differences
+-0.760255	some yo yo
+-0.929323	sorts of investment
+-0.530359	special displays </s>
+-0.627549	special weapons horns
+-0.617416	species there is
+-0.865620	spend at animal
+-0.591066	sperm cell </s>
+-0.849644	sperm why is
+-0.627023	stags sharp teeth
+-0.605848	status interest in
+-0.598303	strict criteria to
+-0.541309	studies tell us
+-0.625303	success passed on
+-0.622658	success whose offspring
+-0.927585	such a system
+-0.787132	summary of the
+-0.936206	sure to include
+-0.825345	surviving at the
+-0.625655	surviving will have
+-0.627549	syllabus essay assignment
+-0.633540	system evolve </s>
+-0.776004	system preference for
+-0.787132	tail of the
+-0.622658	take off those
+-0.700006	teeth average face
+-0.540907	teeth intact teeth
+-0.924212	teeth of male
+-0.623979	television nuns or
+-0.353917	tell us about
+-0.942254	textbook and lecture
+-0.757920	tf contacting me
+-0.594520	than average </s>
+-0.926906	than females obviously
+-0.627549	than television nuns
+-0.911166	than the animal
+-0.627549	that allow them
+-0.919991	that are less
+-0.709731	that different </s>
+-0.756124	that evolve what
+-0.816428	that female increases
+-1.340165	that you desirable
+-0.582448	that you have
+-0.398191	the animal with
+-0.627023	the best chance
+-0.616116	the capacity for
+-0.610951	the chin females
+-0.583596	the cost and
+-0.273265	the evolution of
+-0.627549	the extended phenotype
+-0.804297	the eyes and
+-0.855827	the genes that
+-0.627549	the harlow studies
+-0.529557	the large sex
+-0.926422	the males reproductive
+-0.599552	the minds of
+-1.052740	the most beautiful
+-0.544468	the most reproductive
+-0.927059	the next month
+-0.926010	the next years
+-0.599552	the number of
+-0.866533	the offspring mechanisms
+-0.627549	the offsprings carries
+-0.598303	the organism to
+-0.723330	the origins of
+-0.605848	the parent in
+-0.627023	the parents ability
+-0.627549	the peacock lizards
+-0.609670	the right males
+-0.599552	the sorts of
+-0.807598	the than the
+-0.740281	the tiny sex
+-0.847593	the very existence
+-0.756124	their effects than
+-0.929044	them to do
+-0.910727	then have some
+-0.936291	theory of mind
+-0.686566	theory they are
+-0.891822	there is male
+-1.188164	they are likely
+-1.170639	they are typically
+-0.445796	they have typically
+-0.903466	this is pernicious
+-0.343159	this leads to
+-0.710275	those females and
+-0.625303	those possible will
+-0.417400	those who mate
+-0.926411	thought to be
+-0.625303	throat sack etc
+-0.627549	through natural selection
+-0.834942	tight skin </s>
+-1.058511	tight skin smooth
+-0.866659	time do you
+-0.627023	time measures tell
+-0.942254	times and using
+-0.757407	tiny sex cell
+-0.760255	tiny sperm cell
+-0.743752	to babies are
+-0.881005	to be so
+-0.145244	to bed with
+-0.616116	to care for
+-0.625303	to choose who
+-0.627023	to deserve their
+-0.871309	to do so
+-0.922664	to females by
+-0.616116	to fend for
+-0.627549	to future generations
+-0.816428	to go mateless
+-0.530359	to grow </s>
+-1.187784	to have children
+-1.122185	to have in
+-0.622658	to include at
+-0.627549	to invest grown
+-0.690860	to mate with
+-0.700526	to more focus
+-0.992799	to my </s>
+-0.758837	to my apartment
+-0.756016	to my would
+-0.858088	to offspring it
+-0.922594	to reverse others
+-0.917365	to reverse why
+-0.885812	to some extent
+-0.444908	to the evolution
+-0.610951	to woo females
+-0.627023	to work hard
+-0.222550	tonight apartment tonight
+-0.612237	tonight homosexual sex
+-0.072291	tonight would you
+-0.451955	top and over
+-0.625303	top score top
+-0.627023	treated differently aggression
+-0.642712	trivers male </s>
+-0.847060	true or false
+-0.627023	two sexes each
+-0.537566	types may be
+-0.890472	typical parental e
+-0.402049	typically evolved special
+-0.911351	typically for mammals
+-0.977658	typically larger and
+-1.082260	typically larger they
+-1.058511	unblemished skin intact
+-1.058511	unblemished skin unblemished
+-0.507321	under bottom and
+-0.625303	universal across humans
+-0.448497	universals of beauty
+-0.700526	unsure months unsure
+-0.510520	unsure yes </s>
+-0.865620	until it has
+-0.942254	up and say
+-1.059935	us about parenting
+-0.997244	us about the
+-0.627549	using strict criteria
+-0.885812	utero as children
+-0.924291	v in many
+-0.923600	v males should
+-0.627549	variety mostly polygamous
+-0.627023	versus joan smith
+-0.684826	very attractive </s>
+-1.371835	very attractive prostitution
+-0.791098	very attractive very
+-0.599552	very existence of
+-0.627549	violence inc murder
+-0.627023	vs gibbons v
+-0.504572	w m </s>
+-1.443733	w m preference
+-0.549897	w m w
+-0.847060	we find sexually
+-0.599552	weapons horns of
+-0.332508	week or less
+-0.843343	what about humans
+-0.874616	what are the
+-1.233969	what do looking
+-1.143417	what do the
+-1.233969	what do we
+-0.623979	what factor or
+-0.899236	what is your
+-0.290892	where parental investment
+-0.620029	which forces some
+-0.728346	who has the
+-0.378386	who mate with
+-0.840318	whose offspring have
+-1.170639	why are genes
+-1.126406	why are males
+-0.622658	why did genes
+-0.858804	why is the
+-0.885812	why some people
+-0.888949	will be surviving
+-0.424327	will have the
+-1.357115	with a desirable
+-0.616776	with a would
+-0.881005	with as many
+-0.903110	with females are
+-0.412015	with genes and
+-0.760971	with her blood
+-0.074968	with me tonight
+-1.378228	with the large
+-1.381167	with the right
+-1.378228	with the tiny
+-0.686566	with they are
+-0.710275	woo females and
+-0.750778	work hard as
+-0.929044	worked to more
+-0.747168	would you come
+-0.354431	would you go
+-1.085136	would you have
+-2.032372	would you like
+-0.627549	www edge org
+-1.091046	year yes a
+-1.115591	year yes yes
+-0.700471	years months </s>
+-0.627549	years robert trivers
+-0.775650	yes a year
+-0.756124	yes evidence from
+-0.921190	yes to some
+-0.510520	yes yes </s>
+-0.760971	yo come up
+-0.760255	yo yo come
+-0.146345	you around campus
+-0.160713	you come over
+-0.345981	you desirable partner
+-0.456753	you go out
+-0.449177	you go to
+-0.808888	you have known
+-0.555697	you have sex
+-0.354055	you i have
+-0.721671	you like to
+-0.791926	you sexual choosiness
+-0.622658	you spend at
+-0.627549	you universal across
+-0.269591	you very attractive
+-0.627549	your favorite activity
+-0.612237	your lifetime a
+-0.627023	your tf contacting
+-0.791969	youth beauty youth
+-0.736297	youth larger eyes
+
+\end\

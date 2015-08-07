@@ -28,6 +28,7 @@ def in_(w, corpus):
     return w in corpus or w + 's' in corpus
 
 def percent(a,b):
+    if not b: return '[div by 0]'
     return '{}/{} = {:.0%}'.format(a, b, a/b)
     # return '{}/{}'.format(a, b)
 
@@ -50,7 +51,7 @@ def filter_out_INS(result):
     return [l for l in result
         if '|' in l and l.split(' | ')[0] != 'INS']
 
-def compare(wer_result1, wer_result2, name1, name2, template, corpus_without_top_words):
+def compare(wer_result1, wer_result2, name1, name2, template, css, corpus_without_top_words):
     if FILTER_BY_CORPUS:
         corpus = corpus_without_top_words
     else:
@@ -190,7 +191,9 @@ def compare(wer_result1, wer_result2, name1, name2, template, corpus_without_top
 
     out.append('<br/><p>{}: {}</p>'.format(name1, summary1))
     out.append('<p>{}: {}</p>'.format(name2, summary2))
-    print(template.format('\n'.join(out)))
+
+
+    print(template.format(css, '\n'.join(out)))
 
 def main_():
     args = sys.argv[1:]
@@ -202,6 +205,7 @@ def main_():
     corpus_without_top_words = \
         [w for w in corpus if w not in topXwords]
     template = open(os.path.join(template_folder, 'template.html')).read()
-    compare(wer_result1, wer_result2, name1, name2, template, corpus_without_top_words)
+    css = open(os.path.join(template_folder, 'style.css')).read()
+    compare(wer_result1, wer_result2, name1, name2, template, css,corpus_without_top_words)
 
 main_()

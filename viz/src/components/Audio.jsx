@@ -5,7 +5,6 @@ export default class Audio extends Component {
   static propTypes = {
     src: PropTypes.string,
     position: PropTypes.number,
-    foo: PropTypes.any,
     playing: PropTypes.bool
   }
 
@@ -21,19 +20,26 @@ export default class Audio extends Component {
   }
 
   componentDidUpdate() {
-    this._skipToSecond(this.props.position);
-    this._handleSetPlayingState();
+    if (this.props.src) {
+      this._skipToSecond(this.props.position);
+      this._handleSetPlayingState();
+    }
   }
 
   render() {
-    console.info('[Audio.jsx] ', 'render');
+    console.info('[Audio.jsx] ', this.props);
+    if (!this.props.src) {
+      return <div>No audio file selected</div>;
+      console.info('[Audio.jsx] ', this.props.src);
+    }
+    console.info('[Audio.jsx] ', this.props.src);
 
     return <audio
       controls="controls"
-      style={{width: '100%'}}
+      style={{width: '100%', paddingRight: 20}}
       ref="player"
       preload="auto">
-      <source src={'assets/' + this.props.src} type='audio/x-wav' />
+      <source src={'data/' + this.props.src} type='audio/x-wav' />
       </audio>;
   }
 
