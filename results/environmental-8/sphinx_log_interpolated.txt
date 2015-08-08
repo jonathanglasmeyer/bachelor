@@ -1,0 +1,260 @@
+acousticModelPath: /home/jwerner/bachelor/models/en-new/cmusphinx-en-us-5.2
+dictionaryPath: /home/jwerner/bachelor/models/en-new/cmudict-en-us.dict
+languageModelPath: /home/jwerner/bachelor/models/en-new/cmusphinx-5.0-en-us.lm
+g2pPath: /home/jwerner/bachelor/models/en-new/en_us_nostress/model.fst.ser
+inputWaveFilepath: /home/jwerner/bachelor/results/environmental-8/resources/audio.wav
+outFilePathTranscription: /home/jwerner/bachelor/results/environmental-8/sphinx_result_interpolated.txt
+outFilePathTimes: /home/jwerner/bachelor/results/environmental-8/sphinx_word_times_interpolated.txt
+configPath: /tmp/interpolated.config.json
+VERSION: 4-AUG 13.14
+[LOG] using interpolation
+16:37:05.402 INFO unitManager          CI Unit: *+BREATH+
+16:37:05.405 INFO unitManager          CI Unit: *+COUGH+
+16:37:05.405 INFO unitManager          CI Unit: *+NOISE+
+16:37:05.406 INFO unitManager          CI Unit: *+SMACK+
+16:37:05.406 INFO unitManager          CI Unit: *+UH+
+16:37:05.406 INFO unitManager          CI Unit: *+UM+
+16:37:05.407 INFO unitManager          CI Unit: AA
+16:37:05.407 INFO unitManager          CI Unit: AE
+16:37:05.407 INFO unitManager          CI Unit: AH
+16:37:05.408 INFO unitManager          CI Unit: AO
+16:37:05.408 INFO unitManager          CI Unit: AW
+16:37:05.408 INFO unitManager          CI Unit: AY
+16:37:05.409 INFO unitManager          CI Unit: B
+16:37:05.409 INFO unitManager          CI Unit: CH
+16:37:05.409 INFO unitManager          CI Unit: D
+16:37:05.410 INFO unitManager          CI Unit: DH
+16:37:05.410 INFO unitManager          CI Unit: EH
+16:37:05.410 INFO unitManager          CI Unit: ER
+16:37:05.411 INFO unitManager          CI Unit: EY
+16:37:05.411 INFO unitManager          CI Unit: F
+16:37:05.411 INFO unitManager          CI Unit: G
+16:37:05.412 INFO unitManager          CI Unit: HH
+16:37:05.412 INFO unitManager          CI Unit: IH
+16:37:05.412 INFO unitManager          CI Unit: IY
+16:37:05.412 INFO unitManager          CI Unit: JH
+16:37:05.413 INFO unitManager          CI Unit: K
+16:37:05.413 INFO unitManager          CI Unit: L
+16:37:05.413 INFO unitManager          CI Unit: M
+16:37:05.413 INFO unitManager          CI Unit: N
+16:37:05.414 INFO unitManager          CI Unit: NG
+16:37:05.414 INFO unitManager          CI Unit: OW
+16:37:05.414 INFO unitManager          CI Unit: OY
+16:37:05.414 INFO unitManager          CI Unit: P
+16:37:05.414 INFO unitManager          CI Unit: R
+16:37:05.415 INFO unitManager          CI Unit: S
+16:37:05.415 INFO unitManager          CI Unit: SH
+16:37:05.415 INFO unitManager          CI Unit: T
+16:37:05.416 INFO unitManager          CI Unit: TH
+16:37:05.416 INFO unitManager          CI Unit: UH
+16:37:05.416 INFO unitManager          CI Unit: UW
+16:37:05.417 INFO unitManager          CI Unit: V
+16:37:05.417 INFO unitManager          CI Unit: W
+16:37:05.417 INFO unitManager          CI Unit: Y
+16:37:05.418 INFO unitManager          CI Unit: Z
+16:37:05.418 INFO unitManager          CI Unit: ZH
+16:37:06.667 INFO autoCepstrum         Cepstrum component auto-configured as follows: autoCepstrum {MelFrequencyFilterBank, Denoise, DiscreteCosineTransform2, Lifter}
+FOO Welcome to AbstractSpeechRecognizer
+16:37:07.828 INFO unitManager          CI Unit: *+BREATH+
+16:37:07.828 INFO unitManager          CI Unit: *+COUGH+
+16:37:07.828 INFO unitManager          CI Unit: *+NOISE+
+16:37:07.829 INFO unitManager          CI Unit: *+SMACK+
+16:37:07.829 INFO unitManager          CI Unit: *+UH+
+16:37:07.829 INFO unitManager          CI Unit: *+UM+
+16:37:07.829 INFO unitManager          CI Unit: AA
+16:37:07.830 INFO unitManager          CI Unit: AE
+16:37:07.830 INFO unitManager          CI Unit: AH
+16:37:07.830 INFO unitManager          CI Unit: AO
+16:37:07.830 INFO unitManager          CI Unit: AW
+16:37:07.830 INFO unitManager          CI Unit: AY
+16:37:07.831 INFO unitManager          CI Unit: B
+16:37:07.831 INFO unitManager          CI Unit: CH
+16:37:07.831 INFO unitManager          CI Unit: D
+16:37:07.831 INFO unitManager          CI Unit: DH
+16:37:07.831 INFO unitManager          CI Unit: EH
+16:37:07.832 INFO unitManager          CI Unit: ER
+16:37:07.832 INFO unitManager          CI Unit: EY
+16:37:07.832 INFO unitManager          CI Unit: F
+16:37:07.832 INFO unitManager          CI Unit: G
+16:37:07.832 INFO unitManager          CI Unit: HH
+16:37:07.833 INFO unitManager          CI Unit: IH
+16:37:07.833 INFO unitManager          CI Unit: IY
+16:37:07.833 INFO unitManager          CI Unit: JH
+16:37:07.833 INFO unitManager          CI Unit: K
+16:37:07.833 INFO unitManager          CI Unit: L
+16:37:07.833 INFO unitManager          CI Unit: M
+16:37:07.834 INFO unitManager          CI Unit: N
+16:37:07.834 INFO unitManager          CI Unit: NG
+16:37:07.834 INFO unitManager          CI Unit: OW
+16:37:07.834 INFO unitManager          CI Unit: OY
+16:37:07.834 INFO unitManager          CI Unit: P
+16:37:07.834 INFO unitManager          CI Unit: R
+16:37:07.835 INFO unitManager          CI Unit: S
+16:37:07.835 INFO unitManager          CI Unit: SH
+16:37:07.835 INFO unitManager          CI Unit: T
+16:37:07.835 INFO unitManager          CI Unit: TH
+16:37:07.835 INFO unitManager          CI Unit: UH
+16:37:07.835 INFO unitManager          CI Unit: UW
+16:37:07.835 INFO unitManager          CI Unit: V
+16:37:07.835 INFO unitManager          CI Unit: W
+16:37:07.836 INFO unitManager          CI Unit: Y
+16:37:07.836 INFO unitManager          CI Unit: Z
+16:37:07.836 INFO unitManager          CI Unit: ZH
+16:37:09.306 INFO autoCepstrum         Cepstrum component auto-configured as follows: autoCepstrum {MelFrequencyFilterBank, Denoise, DiscreteCosineTransform2, Lifter}
+Start initializing Context
+/home/jwerner/bachelor/results/environmental-8/sphinx_word_times_interpolated.txt
+/home/jwerner/bachelor/results/environmental-8/sphinx_result_interpolated.txt
+java.io.PrintStream@2401f4c3
+16:37:09.616 INFO dictionary           Loading dictionary from: file:/home/jwerner/bachelor/models/en-new/cmudict-en-us.dict
+16:37:09.699 INFO dictionary           Loading filler dictionary from: file:/home/jwerner/bachelor/models/en-new/cmusphinx-en-us-5.2/noisedict
+16:37:09.700 INFO dictionary           Loading g2p model from: /home/jwerner/bachelor/models/en-new/en_us_nostress/model.fst.ser
+16:37:10.047 INFO acousticModelLoader  Loading tied-state acoustic model from: file:/home/jwerner/bachelor/models/en-new/cmusphinx-en-us-5.2
+16:37:10.048 INFO acousticModelLoader  Pool means Entries: 164416
+16:37:10.048 INFO acousticModelLoader  Pool variances Entries: 164416
+16:37:10.048 INFO acousticModelLoader  Pool transition_matrices Entries: 46
+16:37:10.048 INFO acousticModelLoader  Pool senones Entries: 5138
+16:37:10.048 INFO acousticModelLoader  Gaussian weights: mixture_weights. Entries: 5138
+16:37:10.048 INFO acousticModelLoader  Pool senones Entries: 5138
+16:37:10.048 INFO acousticModelLoader  Context Independent Unit Entries: 46
+16:37:10.051 INFO acousticModelLoader  HMM Manager: 137099 hmms
+16:37:10.051 INFO acousticModel        CompositeSenoneSequences: 0
+16:37:10.051 INFO simpleNGramModel     load language model from file:/home/jwerner/bachelor/models/en-new/cmusphinx-5.0-en-us.lm
+16:37:29.037 INFO simpleNGramModel     finished loading language model
+16:37:29.044 INFO simpleNGramModelKey  load language model from file:/home/jwerner/bachelor/results/environmental-8/model.lm
+16:37:29.045 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'agric'
+16:37:29.045 INFO dictionary           Generating phonetic transcription(s) for the word 'agric' using g2p model
+16:37:29.087 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'caa'
+16:37:29.087 INFO dictionary           Generating phonetic transcription(s) for the word 'caa' using g2p model
+16:37:29.107 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'carsons'
+16:37:29.107 INFO dictionary           Generating phonetic transcription(s) for the word 'carsons' using g2p model
+16:37:29.121 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'cercla'
+16:37:29.121 INFO dictionary           Generating phonetic transcription(s) for the word 'cercla' using g2p model
+16:37:29.132 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'cwa'
+16:37:29.133 INFO dictionary           Generating phonetic transcription(s) for the word 'cwa' using g2p model
+16:37:29.139 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'dicofol'
+16:37:29.139 INFO dictionary           Generating phonetic transcription(s) for the word 'dicofol' using g2p model
+16:37:29.152 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'dieldrin'
+16:37:29.152 INFO dictionary           Generating phonetic transcription(s) for the word 'dieldrin' using g2p model
+16:37:29.165 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'endrin'
+16:37:29.166 INFO dictionary           Generating phonetic transcription(s) for the word 'endrin' using g2p model
+16:37:29.177 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'epa'
+16:37:29.177 INFO dictionary           Generating phonetic transcription(s) for the word 'epa' using g2p model
+16:37:29.183 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'esa'
+16:37:29.183 INFO dictionary           Generating phonetic transcription(s) for the word 'esa' using g2p model
+16:37:29.189 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'eu'
+16:37:29.190 INFO dictionary           Generating phonetic transcription(s) for the word 'eu' using g2p model
+16:37:29.194 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'evst'
+16:37:29.194 INFO dictionary           Generating phonetic transcription(s) for the word 'evst' using g2p model
+16:37:29.201 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'fda'
+16:37:29.202 INFO dictionary           Generating phonetic transcription(s) for the word 'fda' using g2p model
+16:37:29.207 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'ffdca'
+16:37:29.207 INFO dictionary           Generating phonetic transcription(s) for the word 'ffdca' using g2p model
+16:37:29.215 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'fifra'
+16:37:29.215 INFO dictionary           Generating phonetic transcription(s) for the word 'fifra' using g2p model
+16:37:29.223 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'fqpa'
+16:37:29.223 INFO dictionary           Generating phonetic transcription(s) for the word 'fqpa' using g2p model
+16:37:29.229 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'furans'
+16:37:29.230 INFO dictionary           Generating phonetic transcription(s) for the word 'furans' using g2p model
+16:37:29.241 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'hcb'
+16:37:29.241 INFO dictionary           Generating phonetic transcription(s) for the word 'hcb' using g2p model
+16:37:29.246 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'heptachlor'
+16:37:29.246 INFO dictionary           Generating phonetic transcription(s) for the word 'heptachlor' using g2p model
+16:37:29.259 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'hexabromobiphenyl'
+16:37:29.259 INFO dictionary           Generating phonetic transcription(s) for the word 'hexabromobiphenyl' using g2p model
+16:37:29.283 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'hexachlorobenzene'
+16:37:29.283 INFO dictionary           Generating phonetic transcription(s) for the word 'hexachlorobenzene' using g2p model
+16:37:29.305 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'hmta'
+16:37:29.305 INFO dictionary           Generating phonetic transcription(s) for the word 'hmta' using g2p model
+16:37:29.309 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'ii'
+16:37:29.309 INFO dictionary           Generating phonetic transcription(s) for the word 'ii' using g2p model
+16:37:29.312 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'inerts'
+16:37:29.312 INFO dictionary           Generating phonetic transcription(s) for the word 'inerts' using g2p model
+16:37:29.319 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'intl'
+16:37:29.319 INFO dictionary           Generating phonetic transcription(s) for the word 'intl' using g2p model
+16:37:29.324 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'kochi'
+16:37:29.324 INFO dictionary           Generating phonetic transcription(s) for the word 'kochi' using g2p model
+16:37:29.330 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'mirex'
+16:37:29.330 INFO dictionary           Generating phonetic transcription(s) for the word 'mirex' using g2p model
+16:37:29.335 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'ny'
+16:37:29.335 INFO dictionary           Generating phonetic transcription(s) for the word 'ny' using g2p model
+16:37:29.338 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'parathion'
+16:37:29.338 INFO dictionary           Generating phonetic transcription(s) for the word 'parathion' using g2p model
+16:37:29.347 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'pcbs'
+16:37:29.347 INFO dictionary           Generating phonetic transcription(s) for the word 'pcbs' using g2p model
+16:37:29.351 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'pg'
+16:37:29.351 INFO dictionary           Generating phonetic transcription(s) for the word 'pg' using g2p model
+16:37:29.353 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'plsc'
+16:37:29.353 INFO dictionary           Generating phonetic transcription(s) for the word 'plsc' using g2p model
+16:37:29.356 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'polyaromatic'
+16:37:29.356 INFO dictionary           Generating phonetic transcription(s) for the word 'polyaromatic' using g2p model
+16:37:29.366 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'rcra'
+16:37:29.367 INFO dictionary           Generating phonetic transcription(s) for the word 'rcra' using g2p model
+16:37:29.370 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'rodenticides'
+16:37:29.370 INFO dictionary           Generating phonetic transcription(s) for the word 'rodenticides' using g2p model
+16:37:29.382 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'sdwa'
+16:37:29.382 INFO dictionary           Generating phonetic transcription(s) for the word 'sdwa' using g2p model
+16:37:29.386 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'toxaphene'
+16:37:29.386 INFO dictionary           Generating phonetic transcription(s) for the word 'toxaphene' using g2p model
+16:37:29.395 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'tsca'
+16:37:29.395 INFO dictionary           Generating phonetic transcription(s) for the word 'tsca' using g2p model
+16:37:29.401 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'usda'
+16:37:29.402 INFO dictionary           Generating phonetic transcription(s) for the word 'usda' using g2p model
+16:37:29.407 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'whos'
+16:37:29.407 INFO dictionary           Generating phonetic transcription(s) for the word 'whos' using g2p model
+16:37:29.413 INFO dictionary           The dictionary is missing a phonetic transcription for the word 'ww'
+16:37:29.413 INFO dictionary           Generating phonetic transcription(s) for the word 'ww' using g2p model
+16:37:29.425 INFO simpleNGramModelKey  finished loading language model
+16:37:30.251 INFO lexTreeLinguist      Max CI Units 47
+16:37:30.251 INFO lexTreeLinguist      Unit table size 103823
+16:37:30.255 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+16:37:30.256 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+16:37:30.256 INFO speedTracker         Compile              1       0.8260s   0.8260s   0.8260s   0.8260s   0.8260s   
+16:37:30.257 INFO speedTracker         Load Dictionary      1       0.4310s   0.4310s   0.4310s   0.4310s   0.4310s   
+16:37:30.257 INFO speedTracker         Load AM              1       2.5890s   2.5890s   2.5890s   2.5890s   2.5890s   
+16:37:30.257 INFO speedTracker         Load AM              1       3.0260s   3.0260s   3.0260s   3.0260s   3.0260s   
+16:37:42.230 INFO speedTracker            This  Time Audio: 2.91s  Proc: 11.90s  Speed: 4.09 X real time
+16:37:42.230 INFO speedTracker            Total Processed Time Audio: 2.91s  Proc: 11.90s 4.09 X real time
+16:37:44.399 INFO speedTracker            This  Time Audio: 0.43s  Proc: 1.28s  Speed: 2.97 X real time
+16:37:44.400 INFO speedTracker            Total Processed Time Audio: 3.34s  Proc: 13.18s 3.95 X real time
+16:37:46.925 INFO speedTracker            This  Time Audio: 0.71s  Proc: 2.37s  Speed: 3.34 X real time
+16:37:46.926 INFO speedTracker            Total Processed Time Audio: 4.05s  Proc: 15.55s 3.84 X real time
+16:37:48.340 INFO wordPruningLookahea  Average Tokens/State: 9721
+16:38:10.583 INFO speedTracker            This  Time Audio: 4.74s  Proc: 23.48s  Speed: 4.95 X real time
+16:38:10.583 INFO speedTracker            Total Processed Time Audio: 8.79s  Proc: 39.03s 4.44 X real time
+16:38:12.837 INFO wordPruningLookahea  Average Tokens/State: 10282
+16:38:13.571 INFO speedTracker            This  Time Audio: 0.28s  Proc: 1.92s  Speed: 6.88 X real time
+16:38:13.572 INFO speedTracker            Total Processed Time Audio: 9.07s  Proc: 40.95s 4.52 X real time
+16:38:22.052 INFO speedTracker            This  Time Audio: 2.66s  Proc: 8.38s  Speed: 3.15 X real time
+16:38:22.052 INFO speedTracker            Total Processed Time Audio: 11.73s  Proc: 49.34s 4.21 X real time
+16:38:28.034 INFO wordPruningLookahea  Average Tokens/State: 10240
+16:38:28.906 INFO speedTracker            This  Time Audio: 2.09s  Proc: 6.21s  Speed: 2.97 X real time
+16:38:28.906 INFO speedTracker            Total Processed Time Audio: 13.82s  Proc: 55.55s 4.02 X real time
+16:38:30.970 INFO speedTracker            This  Time Audio: 0.78s  Proc: 1.59s  Speed: 2.04 X real time
+16:38:30.970 INFO speedTracker            Total Processed Time Audio: 14.60s  Proc: 57.14s 3.91 X real time
+16:38:39.666 INFO speedTracker            This  Time Audio: 2.78s  Proc: 8.51s  Speed: 3.06 X real time
+16:38:39.666 INFO speedTracker            Total Processed Time Audio: 17.38s  Proc: 65.65s 3.78 X real time
+16:38:41.260 INFO wordPruningLookahea  Average Tokens/State: 9826
+16:38:44.989 INFO speedTracker            This  Time Audio: 2.55s  Proc: 4.68s  Speed: 1.83 X real time
+16:38:44.989 INFO speedTracker            Total Processed Time Audio: 19.93s  Proc: 70.33s 3.53 X real time
+16:38:45.992 INFO speedTracker            This  Time Audio: 0.37s  Proc: 0.41s  Speed: 1.11 X real time
+16:38:45.992 INFO speedTracker            Total Processed Time Audio: 20.30s  Proc: 70.74s 3.48 X real time
+16:38:52.570 INFO wordPruningLookahea  Average Tokens/State: 9408
+16:38:54.077 INFO speedTracker            This  Time Audio: 3.07s  Proc: 7.97s  Speed: 2.60 X real time
+16:38:54.077 INFO speedTracker            Total Processed Time Audio: 23.37s  Proc: 78.71s 3.37 X real time
+16:39:00.555 INFO speedTracker            This  Time Audio: 2.28s  Proc: 5.83s  Speed: 2.56 X real time
+16:39:00.555 INFO speedTracker            Total Processed Time Audio: 25.65s  Proc: 84.54s 3.30 X real time
+16:39:04.562 INFO speedTracker            This  Time Audio: 1.25s  Proc: 3.50s  Speed: 2.80 X real time
+16:39:04.562 INFO speedTracker            Total Processed Time Audio: 26.90s  Proc: 88.04s 3.27 X real time
+16:39:05.440 INFO wordPruningLookahea  Average Tokens/State: 9353
+16:39:09.829 INFO speedTracker            This  Time Audio: 1.72s  Proc: 4.96s  Speed: 2.89 X real time
+16:39:09.829 INFO speedTracker            Total Processed Time Audio: 28.62s  Proc: 93.00s 3.25 X real time
+16:39:12.189 INFO speedTracker            This  Time Audio: 0.49s  Proc: 1.97s  Speed: 4.02 X real time
+16:39:12.189 INFO speedTracker            Total Processed Time Audio: 29.11s  Proc: 94.97s 3.26 X real time
+16:39:14.118 INFO speedTracker            This  Time Audio: 1.36s  Proc: 1.80s  Speed: 1.32 X real time
+16:39:14.118 INFO speedTracker            Total Processed Time Audio: 30.47s  Proc: 96.77s 3.18 X real time
+16:39:15.797 INFO wordPruningLookahea  Average Tokens/State: 9061
+16:39:15.845 INFO speedTracker            This  Time Audio: 0.87s  Proc: 1.43s  Speed: 1.64 X real time
+16:39:15.845 INFO speedTracker            Total Processed Time Audio: 31.34s  Proc: 98.19s 3.13 X real time
+16:39:21.651 INFO speedTracker            This  Time Audio: 2.06s  Proc: 5.61s  Speed: 2.72 X real time
+16:39:21.652 INFO speedTracker            Total Processed Time Audio: 33.40s  Proc: 103.80s 3.11 X real time
+16:39:27.547 INFO wordPruningLookahea  Average Tokens/State: 9022

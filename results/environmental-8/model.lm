@@ -1,0 +1,2373 @@
+
+\data\
+ngram 1=521
+ngram 2=943
+ngram 3=896
+
+\1-grams:
+-1.019896	</s>
+-99	<s>	-0.077496
+-2.364125	a	-0.034427
+-2.803577	about	-0.034427
+-2.889977	absent	-0.034427
+-2.803577	acres	-0.034427
+-2.190792	act	-0.061346
+-2.889977	actions	-0.034427
+-2.889977	added	-0.034427
+-2.889977	additives	-0.034427
+-2.889977	adulterated	-0.034427
+-2.889977	advantage	-0.034427
+-2.889977	adverse	-0.034427
+-2.889977	advertising	-0.034427
+-2.889977	affected	-0.034427
+-2.889977	africa	-0.034427
+-2.889977	against	-0.034427
+-2.889977	age	-0.034427
+-2.889977	agencies	-0.034427
+-2.889977	agents	-0.034427
+-2.889977	agric	-0.034427
+-2.889977	agriculture	-0.034427
+-2.889977	aids	-0.034427
+-2.889977	air	-0.034427
+-2.889977	alar	-0.034427
+-2.803577	aldrin	-0.034427
+-2.803577	all	-0.034427
+-2.889977	allowed	-0.034427
+-2.889977	amended	-0.034427
+-2.803577	amendment	-0.034427
+-2.889977	amendments	-0.034427
+-1.592902	and	-0.034427
+-2.889977	announcement	-0.034427
+-2.889977	any	-0.034427
+-2.889977	apple	-0.034427
+-2.889977	approved	-0.034427
+-2.889977	arata	-0.034427
+-2.889977	are	-0.034427
+-2.803577	areas	-0.034427
+-2.889977	armed	-0.034427
+-2.889977	artificial	-0.034427
+-2.656985	as	-0.034427
+-2.889977	assess	-0.034427
+-2.889977	at	-0.034427
+-2.889977	atmosphere	-0.034427
+-2.889977	atmospheric	-0.034427
+-2.889977	aug	-0.034427
+-2.889977	august	-0.034427
+-2.803577	authority	-0.090046
+-2.889977	authorized	-0.034427
+-2.889977	availability	-0.034427
+-2.889977	awarded	-0.034427
+-2.803577	b	-0.034427
+-2.889977	balancing	-0.034427
+-1.930073	ban	-0.034427
+-2.889977	banned	-0.034427
+-2.889977	bans	-0.034427
+-2.803577	based	-0.034427
+-2.486324	be	-0.034427
+-2.889977	being	-0.034427
+-2.889977	benefit	-0.034427
+-2.889977	benefits	-0.034427
+-2.889977	best	-0.034427
+-2.889977	bill	-0.034427
+-2.803577	billion	-0.090046
+-2.803577	biological	-0.034427
+-2.889977	brazil	-0.034427
+-2.889977	british	-0.034427
+-2.889977	budgets	-0.034427
+-2.889977	bureaucratic	-0.034427
+-2.889977	but	-0.034427
+-2.364125	by	-0.034427
+-2.889977	caa	-0.034427
+-2.889977	cancellations	-0.034427
+-2.889977	canned	-0.034427
+-2.889977	carcinogens	-0.034427
+-2.889977	carsons	-0.034427
+-2.889977	categories	-0.034427
+-2.889977	caution	-0.034427
+-2.889977	central	-0.034427
+-2.889977	century	-0.034427
+-2.889977	cercla	-0.034427
+-2.889977	chem	-0.034427
+-2.656985	chemicals	-0.034427
+-2.889977	chicago	-0.034427
+-2.889977	children	-0.034427
+-2.889977	chlordane	-0.034427
+-2.889977	circulation	-0.034427
+-2.889977	clean	-0.034427
+-2.889977	clinically	-0.034427
+-2.889977	color	-0.034427
+-2.889977	coloring	-0.034427
+-2.889977	colors	-0.034427
+-2.803577	commerce	-0.034427
+-2.889977	concentration	-0.034427
+-2.889977	concentrations	-0.034427
+-2.889977	condemned	-0.034427
+-2.889977	conditional	-0.034427
+-2.889977	conditions	-0.034427
+-2.889977	conflict	-0.034427
+-2.889977	confusion	-0.034427
+-2.889977	congress	-0.034427
+-2.889977	consideration	-0.034427
+-2.889977	consolidated	-0.034427
+-2.889977	consumer	-0.034427
+-2.803577	contaminants	-0.034427
+-2.889977	contamination	-0.034427
+-2.889977	continued	-0.034427
+-2.803577	control	-0.034427
+-2.889977	controlling	-0.034427
+-2.889977	cosmetic	-0.034427
+-2.889977	costs	-0.034427
+-2.803577	could	-0.034427
+-2.889977	countries	-0.034427
+-2.803577	created	-0.034427
+-2.889977	cropland	-0.034427
+-2.889977	cultivated	-0.034427
+-2.889977	cultivating	-0.034427
+-2.889977	cultural	-0.034427
+-2.889977	cwa	-0.034427
+-2.889977	dangerous	-0.034427
+-2.486324	data	-0.034427
+-2.803577	days	-0.034427
+-2.016549	ddt	-0.043216
+-2.889977	deadline	-0.034427
+-2.889977	dec	-0.034427
+-2.889977	deeper	-0.034427
+-2.803577	defined	-0.034427
+-2.889977	delaney	-0.034427
+-2.889977	delay	-0.034427
+-2.889977	dependence	-0.034427
+-2.889977	described	-0.034427
+-2.889977	designed	-0.034427
+-2.889977	dicofol	-0.034427
+-2.803577	dieldrin	-0.034427
+-2.803577	different	-0.034427
+-2.889977	differing	-0.034427
+-2.803577	dioxins	-0.034427
+-2.889977	director	-0.034427
+-2.889977	disabled	-0.034427
+-2.889977	discharges	-0.034427
+-2.889977	discovering	-0.034427
+-2.889977	diversity	-0.034427
+-2.889977	do	-0.034427
+-2.889977	does	-0.034427
+-2.889977	domestic	-0.034427
+-2.889977	dozen	-0.034427
+-2.889977	dr	-0.034427
+-2.803577	drug	-0.034427
+-2.889977	drugs	-0.034427
+-2.889977	during	-0.034427
+-2.889977	dusted	-0.034427
+-2.889977	e	-0.034427
+-2.889977	econ	-0.034427
+-2.803577	economic	-0.034427
+-2.889977	effect	-0.034427
+-2.889977	effective	-0.034427
+-2.656985	effects	-0.034427
+-2.889977	eliminate	-0.034427
+-2.889977	emissions	-0.034427
+-2.889977	encephalitis	-0.034427
+-2.889977	endemic	-0.034427
+-2.889977	endrin	-0.034427
+-2.889977	energy	-0.034427
+-2.803577	enforcement	-0.034427
+-2.889977	entry	-0.034427
+-2.889977	environment	-0.034427
+-2.486324	environmental	-0.034427
+-2.656985	epa	-0.055827
+-2.889977	epidemic	-0.034427
+-2.889977	epidemics	-0.034427
+-2.889977	esa	-0.034427
+-2.889977	established	-0.034427
+-2.889977	eu	-0.034427
+-2.889977	europe	-0.034427
+-2.889977	evst	-0.034427
+-2.889977	exposure	-0.034427
+-2.889977	extended	-0.034427
+-2.889977	farmer	-0.034427
+-2.889977	farmers	-0.034427
+-2.889977	fat	-0.034427
+-2.889977	fate	-0.034427
+-2.656985	fda	-0.034427
+-2.889977	february	-0.034427
+-2.656985	federal	-0.034427
+-2.889977	fertilizers	-0.034427
+-2.889977	ffdca	-0.034427
+-2.889977	field	-0.034427
+-2.486324	fifra	-0.055827
+-2.889977	filthy	-0.034427
+-2.889977	fined	-0.034427
+-2.889977	flavors	-0.034427
+-2.889977	flour	-0.034427
+-2.016549	food	-0.044995
+-2.803577	foods	-0.090046
+-1.971162	for	-0.034427
+-2.889977	forbade	-0.034427
+-2.889977	force	-0.034427
+-2.889977	foreign	-0.034427
+-2.889977	found	-0.034427
+-2.889977	fqpa	-0.034427
+-2.803577	fractured	-0.070704
+-2.889977	framework	-0.034427
+-2.803577	fraudulently	-0.034427
+-2.889977	fresh	-0.034427
+-2.656985	from	-0.070704
+-2.889977	frozen	-0.034427
+-2.889977	full	-0.034427
+-2.889977	fumigating	-0.034427
+-2.889977	fungicide	-0.034427
+-2.803577	furans	-0.034427
+-2.889977	g	-0.034427
+-2.889977	general	-0.034427
+-2.889977	genetic	-0.034427
+-2.803577	given	-0.034427
+-2.889977	gives	-0.034427
+-2.656985	global	-0.034427
+-2.889977	green	-0.034427
+-2.889977	groups	-0.034427
+-2.889977	hand	-0.034427
+-2.889977	hans	-0.034427
+-2.889977	has	-0.034427
+-2.803577	have	-0.034427
+-2.803577	hazard	-0.034427
+-2.889977	hazardous	-0.034427
+-2.889977	hcb	-0.034427
+-2.656985	health	-0.034427
+-2.889977	heightened	-0.034427
+-2.803577	heptachlor	-0.034427
+-2.889977	herbicides	-0.034427
+-2.889977	hexabromobiphenyl	-0.034427
+-2.803577	hexachlorobenzene	-0.090046
+-2.889977	hmta	-0.034427
+-2.803577	house	-0.034427
+-2.656985	human	-0.070704
+-2.889977	hydrocarbons	-0.034427
+-2.889977	if	-0.034427
+-2.889977	ii	-0.034427
+-2.889977	image	-0.034427
+-2.889977	imminent	-0.034427
+-2.889977	immunity	-0.034427
+-2.889977	implementation	-0.034427
+-2.889977	imported	-0.034427
+-2.889977	impotent	-0.034427
+-1.611324	in	-0.043216
+-2.803577	incidence	-0.034427
+-2.889977	including	-0.034427
+-2.803577	indoor	-0.034427
+-2.889977	industrial	-0.034427
+-2.889977	inertia	-0.034427
+-2.889977	inerts	-0.034427
+-2.889977	ingredient	-0.034427
+-2.803577	insecticide	-0.034427
+-2.889977	insecticides	-0.034427
+-2.889977	intelligence	-0.034427
+-2.656985	interstate	-0.034427
+-2.889977	intl	-0.034427
+-2.889977	into	-0.034427
+-2.889977	intrastate	-0.034427
+-2.803577	is	-0.034427
+-2.889977	islands	-0.034427
+-2.889977	jailed	-0.034427
+-2.889977	january	-0.034427
+-2.889977	john	-0.034427
+-2.889977	juice	-0.034427
+-2.803577	june	-0.034427
+-2.889977	jungle	-0.034427
+-2.889977	jurisdictions	-0.034427
+-2.889977	knowledge	-0.034427
+-2.889977	kochi	-0.034427
+-2.803577	labeled	-0.034427
+-2.889977	labels	-0.034427
+-2.803577	land	-0.034427
+-2.889977	latitude	-0.034427
+-2.803577	law	-0.034427
+-2.889977	lecture	-0.034427
+-2.889977	led	-0.034427
+-2.889977	leveling	-0.034427
+-2.889977	levels	-0.034427
+-2.803577	limits	-0.034427
+-2.889977	lindane	-0.034427
+-2.889977	list	-0.034427
+-2.889977	loss	-0.034427
+-2.889977	losses	-0.034427
+-2.190792	malaria	-0.170547
+-2.889977	manage	-0.034427
+-2.889977	mandated	-0.034427
+-2.889977	manufacturer	-0.034427
+-2.889977	mar	-0.034427
+-2.889977	market	-0.034427
+-2.889977	marketplace	-0.034427
+-2.889977	materials	-0.034427
+-2.889977	may	-0.034427
+-2.889977	mean	-0.034427
+-2.889977	meat	-0.034427
+-2.889977	medicine	-0.034427
+-2.889977	methyl	-0.034427
+-2.889977	migrant	-0.034427
+-2.889977	milk	-0.034427
+-2.889977	miller	-0.034427
+-2.656985	million	-0.034427
+-2.889977	mirex	-0.034427
+-2.889977	mistaken	-0.034427
+-2.889977	mixing	-0.034427
+-2.889977	mobility	-0.034427
+-2.889977	modification	-0.034427
+-2.889977	momentum	-0.034427
+-2.803577	mortality	-0.034427
+-2.889977	mosquito	-0.034427
+-2.889977	most	-0.034427
+-2.889977	moved	-0.034427
+-2.889977	muller	-0.034427
+-2.656985	must	-0.070704
+-2.889977	naples	-0.034427
+-2.889977	narrative	-0.034427
+-2.889977	natal	-0.034427
+-2.803577	nation	-0.034427
+-2.889977	national	-0.034427
+-2.889977	nations	-0.034427
+-2.889977	natural	-0.034427
+-2.889977	nepa	-0.034427
+-2.364125	new	-0.466814
+-2.803577	no	-0.034427
+-2.889977	nobel	-0.034427
+-2.889977	non	-0.034427
+-2.889977	notified	-0.034427
+-2.889977	now	-0.034427
+-2.656985	ny	-0.583413
+-2.889977	october	-0.034427
+-1.541904	of	-0.066762
+-2.889977	offending	-0.034427
+-2.889977	older	-0.034427
+-2.486324	on	-0.034427
+-2.889977	one	-0.034427
+-2.486324	or	-0.034427
+-2.889977	organic	-0.034427
+-2.889977	organism	-0.034427
+-2.889977	osha	-0.034427
+-2.803577	other	-0.034427
+-2.889977	overconsumption	-0.034427
+-2.803577	packaging	-0.034427
+-2.889977	parasite	-0.034427
+-2.889977	parathion	-0.034427
+-2.889977	parent	-0.034427
+-2.889977	paris	-0.034427
+-2.889977	passed	-0.034427
+-2.889977	past	-0.034427
+-2.889977	paul	-0.034427
+-2.889977	pcbs	-0.034427
+-2.889977	pending	-0.034427
+-2.889977	persistence	-0.034427
+-2.889977	persistent	-0.034427
+-2.889977	persons	-0.034427
+-2.889977	pesticide	-0.034427
+-1.892537	pesticides	-0.145795
+-2.889977	pg	-0.034427
+-2.889977	playing	-0.034427
+-2.889977	plsc	-0.034427
+-2.889977	poisons	-0.034427
+-2.889977	political	-0.034427
+-2.803577	politics	-0.034427
+-2.889977	pollutant	-0.034427
+-2.889977	polyaromatic	-0.034427
+-2.656985	pops	-0.070704
+-2.889977	population	-0.034427
+-2.803577	populations	-0.090046
+-2.889977	position	-0.034427
+-2.889977	potential	-0.034427
+-2.889977	poultry	-0.034427
+-2.803577	ppm	-0.090046
+-2.889977	predispositions	-0.034427
+-2.889977	prevent	-0.034427
+-2.889977	prices	-0.034427
+-2.889977	prior	-0.034427
+-2.889977	private	-0.034427
+-2.889977	prize	-0.034427
+-2.656985	problems	-0.070704
+-2.889977	processed	-0.034427
+-2.803577	processing	-0.034427
+-2.889977	producers	-0.034427
+-2.889977	product	-0.034427
+-2.803577	products	-0.034427
+-2.889977	professor	-0.034427
+-2.889977	programme	-0.034427
+-2.889977	prohibited	-0.034427
+-2.889977	promotion	-0.034427
+-2.889977	protect	-0.034427
+-2.889977	protocol	-0.034427
+-2.656985	public	-0.034427
+-2.803577	published	-0.034427
+-2.656985	pure	-0.070704
+-2.889977	purity	-0.034427
+-2.889977	rachel	-0.034427
+-2.889977	raw	-0.034427
+-2.889977	rcra	-0.034427
+-2.889977	recognized	-0.034427
+-2.889977	reduced	-0.034427
+-2.803577	refugees	-0.034427
+-2.364125	registration	-0.034427
+-2.889977	regulated	-0.034427
+-2.803577	regulation	-0.034427
+-2.889977	regulations	-0.034427
+-2.803577	regulatory	-0.034427
+-2.889977	remove	-0.034427
+-2.364125	required	-0.034427
+-2.889977	residual	-0.034427
+-2.486324	responsibility	-0.034427
+-2.889977	restricted	-0.034427
+-2.803577	review	-0.034427
+-2.803577	risk	-0.034427
+-2.889977	risks	-0.034427
+-2.889977	rodenticide	-0.034427
+-2.889977	rodenticides	-0.034427
+-2.889977	s	-0.034427
+-2.889977	safe	-0.034427
+-2.889977	safety	-0.034427
+-2.889977	sale	-0.034427
+-2.889977	sales	-0.034427
+-2.889977	samples	-0.034427
+-2.803577	sanitation	-0.034427
+-2.656985	science	-0.034427
+-2.889977	sdwa	-0.034427
+-2.889977	sec	-0.034427
+-2.889977	secrecy	-0.034427
+-2.889977	secretary	-0.034427
+-2.889977	seized	-0.034427
+-2.889977	sept	-0.034427
+-2.803577	set	-0.034427
+-2.889977	sets	-0.034427
+-2.889977	setting	-0.034427
+-2.889977	shipped	-0.034427
+-2.889977	signal	-0.034427
+-2.889977	signed	-0.034427
+-2.889977	silent	-0.034427
+-2.889977	sinclair	-0.034427
+-2.889977	slaughtering	-0.034427
+-2.889977	soil	-0.034427
+-2.889977	solomon	-0.034427
+-2.889977	some	-0.034427
+-2.889977	soviet	-0.034427
+-2.803577	species	-0.034427
+-2.803577	spraying	-0.034427
+-2.889977	spring	-0.034427
+-2.889977	staff	-0.034427
+-2.889977	standard	-0.034427
+-2.889977	standards	-0.034427
+-2.889977	states	-0.034427
+-2.889977	statutory	-0.034427
+-2.889977	stockyards	-0.034427
+-2.889977	submitted	-0.034427
+-2.889977	subsidies	-0.034427
+-2.889977	sugar	-0.034427
+-2.889977	suggest	-0.034427
+-2.889977	superfund	-0.034427
+-2.889977	supertanker	-0.034427
+-2.889977	support	-0.034427
+-2.889977	susceptible	-0.034427
+-2.889977	take	-0.034427
+-2.889977	target	-0.034427
+-2.803577	taste	-0.034427
+-2.889977	territories	-0.034427
+-2.889977	th	-0.034427
+-2.889977	than	-0.034427
+-1.930073	the	-0.034427
+-2.803577	their	-0.034427
+-2.803577	these	-0.034427
+-2.889977	those	-0.034427
+-2.803577	times	-0.052187
+-2.889977	tissues	-0.034427
+-1.796184	to	-0.041002
+-2.803577	tolerance	-0.034427
+-2.803577	tolerances	-0.034427
+-2.889977	tools	-0.034427
+-2.889977	toxaphene	-0.034427
+-2.803577	trade	-0.034427
+-2.803577	treaty	-0.034427
+-2.889977	tropical	-0.034427
+-2.889977	tsca	-0.034427
+-2.889977	typhus	-0.034427
+-2.889977	u	-0.034427
+-2.803577	un	-0.034427
+-2.889977	uniformity	-0.034427
+-2.889977	unit	-0.034427
+-2.889977	unreasonable	-0.034427
+-2.889977	upon	-0.034427
+-2.889977	upton	-0.034427
+-2.889977	us	-0.034427
+-2.364125	usda	-0.034427
+-2.486324	use	-0.034427
+-2.889977	uses	-0.034427
+-2.889977	values	-0.034427
+-2.889977	vary	-0.034427
+-2.889977	vermont	-0.034427
+-2.803577	virus	-0.090046
+-2.889977	vs	-0.034427
+-2.889977	wargo	-0.034427
+-2.803577	warning	-0.034427
+-2.889977	was	-0.034427
+-2.889977	waste	-0.034427
+-2.656985	water	-0.034427
+-2.803577	we	-0.034427
+-2.889977	were	-0.034427
+-2.889977	what	-0.034427
+-2.889977	where	-0.034427
+-2.803577	who	-0.034427
+-2.889977	wholesome	-0.034427
+-2.889977	whos	-0.034427
+-2.889977	why	-0.034427
+-2.889977	wilderness	-0.034427
+-2.889977	wisconsin	-0.034427
+-2.803577	with	-0.034427
+-2.889977	words	-0.034427
+-2.803577	worker	-0.090046
+-2.889977	worlds	-0.034427
+-2.889977	worry	-0.034427
+-2.889977	ww	-0.034427
+-2.889977	year	-0.034427
+-2.364125	years	-0.805261
+-2.889977	york	-0.034427
+-2.889977	zero	-0.034427
+-2.889977	zimbabwe	-0.034427
+
+\2-grams:
+-1.093538	<s> </s>
+-2.693093	<s> about	-0.011660
+-2.747143	<s> amended	-0.011660
+-1.656152	<s> and	-0.011660
+-2.747143	<s> announcement	-0.011660
+-2.747143	<s> atmosphere	-0.011660
+-2.747143	<s> atmospheric	-0.011660
+-2.747143	<s> august	-0.011660
+-1.875257	<s> ban	-0.011660
+-2.693093	<s> billion	-0.011660
+-2.747143	<s> bureaucratic	-0.011660
+-2.747143	<s> but	-0.011660
+-2.363563	<s> by	-0.011660
+-2.747143	<s> caa	-0.011660
+-2.747143	<s> central	-0.011660
+-2.747143	<s> cercla	-0.011660
+-2.747143	<s> children	-0.011660
+-2.747143	<s> color	-0.011660
+-2.747143	<s> conditional	-0.011660
+-2.747143	<s> consolidated	-0.011660
+-2.747143	<s> cwa	-0.011660
+-1.418855	<s> ddt	-0.033431
+-2.747143	<s> deeper	-0.011660
+-2.747143	<s> delaney	-0.011660
+-2.747143	<s> described	-0.011660
+-2.747143	<s> designed	-0.011660
+-2.747143	<s> dicofol	-0.011660
+-2.693093	<s> different	-0.011660
+-2.747143	<s> dr	-0.011660
+-2.747143	<s> e	-0.011660
+-2.747143	<s> effect	-0.011660
+-2.747143	<s> eliminate	-0.011660
+-2.747143	<s> encephalitis	-0.011660
+-1.646594	<s> epa	-0.011660
+-2.592572	<s> fda	-0.011660
+-2.272210	<s> federal	-0.011660
+-2.205498	<s> fifra	-0.011660
+-2.057238	<s> food	-0.011660
+-2.747143	<s> fqpa	-0.011660
+-2.317395	<s> fractured	-0.011660
+-2.747143	<s> fumigating	-0.011660
+-2.747143	<s> general	-0.011660
+-2.693093	<s> given	-0.011660
+-2.747143	<s> hans	-0.011660
+-2.747143	<s> hmta	-0.011660
+-2.592572	<s> human	-0.011660
+-2.747143	<s> industrial	-0.011660
+-2.693093	<s> insecticide	-0.011660
+-2.747143	<s> intrastate	-0.011660
+-2.693093	<s> june	-0.011660
+-2.747143	<s> lecture	-0.011660
+-2.051019	<s> malaria	-0.011660
+-2.747143	<s> methyl	-0.011660
+-2.592572	<s> million	-0.011660
+-2.747143	<s> mobility	-0.011660
+-2.747143	<s> nations	-0.011660
+-2.147682	<s> new	-0.056352
+-2.317395	<s> no	-0.011660
+-2.592572	<s> ny	-0.011660
+-1.606710	<s> of	-0.011660
+-2.747143	<s> one	-0.011660
+-2.747143	<s> osha	-0.011660
+-2.693093	<s> packaging	-0.011660
+-2.747143	<s> paul	-0.011660
+-2.339337	<s> persistence	-0.011660
+-2.747143	<s> persistent	-0.011660
+-1.502588	<s> pesticides	-0.011660
+-2.747143	<s> prohibited	-0.011660
+-2.747143	<s> rachel	-0.011660
+-2.693093	<s> refugees	-0.011660
+-2.693093	<s> regulatory	-0.011660
+-2.147682	<s> required	-0.011660
+-2.747143	<s> sec	-0.011660
+-2.747143	<s> soil	-0.011660
+-2.747143	<s> soviet	-0.011660
+-2.747143	<s> th	-0.011660
+-1.977181	<s> the	-0.011660
+-2.747143	<s> those	-0.011660
+-2.693093	<s> tolerances	-0.011660
+-2.747143	<s> tropical	-0.011660
+-2.747143	<s> uniformity	-0.011660
+-2.147682	<s> usda	-0.011660
+-2.592572	<s> water	-0.011660
+-2.693093	<s> we	-0.011660
+-2.339337	<s> what	-0.011660
+-2.693093	<s> who	-0.011660
+-2.747143	<s> wisconsin	-0.011660
+-2.747143	<s> zero	-0.011660
+-2.747143	<s> zimbabwe	-0.011660
+-1.784306	a clean	-0.011660
+-1.762528	a global	-0.011660
+-1.784306	a national	-0.011660
+-1.784306	a position	-0.011660
+-1.784306	a year	-0.011660
+-1.402775	about different	-0.011660
+-1.310187	about the	-0.011660
+-1.111258	absent full	-0.011660
+-1.216723	acres in	-0.011660
+-1.189560	acres of	-0.011660
+-0.886884	act </s>
+-1.941610	act fda	-0.011660
+-1.941610	act federal	-0.011660
+-1.972860	act forbade	-0.011660
+-1.144207	act of	-0.011660
+-1.972860	act was	-0.011660
+-1.111258	actions suggest	-0.011660
+-1.041052	added to	-0.011660
+-1.111258	additives if	-0.011660
+-1.101139	adulterated or	-0.011660
+-0.988278	advantage of	-0.011660
+-1.106542	adverse effects	-0.011660
+-1.111258	advertising cultivating	-0.011660
+-0.783959	affected </s>
+-1.109790	africa incidence	-0.011660
+-1.085320	against malaria	-0.011660
+-1.111258	age groups	-0.011660
+-0.783959	agencies </s>
+-1.111258	agents overconsumption	-0.011660
+-1.106542	agric must	-0.011660
+-0.783959	agriculture </s>
+-1.109790	aids virus	-0.011660
+-1.111258	air genetic	-0.011660
+-0.783959	alar </s>
+-0.898433	aldrin </s>
+-1.402775	aldrin dieldrin	-0.011660
+-1.405661	all age	-0.011660
+-1.301582	all pesticides	-0.011660
+-1.111258	allowed absent	-0.011660
+-1.101139	amended fifra	-0.011660
+-0.898433	amendment </s>
+-1.402775	amendment their	-0.011660
+-0.783959	amendments </s>
+-2.407610	and alar	-0.011660
+-2.407610	and condemned	-0.011660
+-2.407610	and cosmetic	-0.011660
+-2.407610	and countries	-0.011660
+-2.407610	and delay	-0.011660
+-2.379459	and drug	-0.056352
+-2.407610	and drugs	-0.011660
+-2.407610	and eu	-0.011660
+-2.379459	and furans	-0.011660
+-2.322676	and health	-0.011660
+-2.379459	and heptachlor	-0.011660
+-2.322676	and interstate	-0.011660
+-2.407610	and jailed	-0.011660
+-2.379459	and law	-0.011660
+-2.407610	and losses	-0.011660
+-2.061710	and malaria	-0.011660
+-2.407610	and migrant	-0.011660
+-2.407610	and momentum	-0.011660
+-2.407610	and offending	-0.011660
+-2.407610	and pcbs	-0.011660
+-2.407610	and polyaromatic	-0.011660
+-2.407610	and poultry	-0.011660
+-2.407610	and rodenticides	-0.011660
+-2.379459	and set	-0.011660
+-1.867306	and the	-0.011660
+-2.379459	and tolerance	-0.011660
+-2.407610	and vermont	-0.011660
+-2.407610	and wholesome	-0.011660
+-1.095801	announcement by	-0.011660
+-1.111258	any discharges	-0.011660
+-1.111258	apple juice	-0.011660
+-1.106542	approved as	-0.011660
+-1.111258	arata kochi	-0.011660
+-1.111258	are at	-0.011660
+-0.898433	areas </s>
+-1.375724	areas new	-0.011660
+-1.111258	armed conflict	-0.011660
+-1.106542	artificial water	-0.011660
+-1.570967	as economic	-0.011660
+-1.464758	as food	-0.011660
+-1.575225	as safe	-0.011660
+-0.783959	assess </s>
+-1.109790	at risk	-0.011660
+-1.095801	atmosphere years	-0.011660
+-1.111258	atmospheric concentrations	-0.011660
+-0.783959	aug </s>
+-0.783959	august </s>
+-0.698429	authority to	-0.056352
+-1.041052	authorized to	-0.011660
+-1.055313	availability pesticides	-0.011660
+-1.111258	awarded nobel	-0.011660
+-1.405661	b evst	-0.011660
+-1.405661	b february	-0.011660
+-0.783959	balancing </s>
+-1.026388	ban </s>
+-2.135820	ban aldrin	-0.011660
+-2.151660	ban chlordane	-0.011660
+-1.831066	ban ddt	-0.011660
+-2.135820	ban dieldrin	-0.011660
+-2.151660	ban endrin	-0.011660
+-2.151660	ban hcb	-0.011660
+-2.135820	ban heptachlor	-0.011660
+-1.545618	ban in	-0.011660
+-2.151660	ban mean	-0.011660
+-2.151660	ban mirex	-0.011660
+-1.489614	ban of	-0.011660
+-2.151660	ban toxaphene	-0.011660
+-0.783959	banned </s>
+-1.109790	bans dioxins	-0.011660
+-1.385949	based on	-0.011660
+-1.405661	based upon	-0.011660
+-1.784306	be added	-0.011660
+-1.784306	be fined	-0.011660
+-1.784306	be notified	-0.011660
+-1.762528	be pure	-0.011660
+-1.784306	be seized	-0.011660
+-1.111258	being mistaken	-0.011660
+-1.109790	benefit risk	-0.011660
+-1.111258	benefits assess	-0.011660
+-1.111258	best tools	-0.011660
+-0.988278	bill of	-0.011660
+-0.724614	billion acres	-0.056352
+-1.402775	biological contaminants	-0.011660
+-1.405661	biological diversity	-0.011660
+-1.109790	brazil incidence	-0.011660
+-1.111258	british support	-0.011660
+-1.111258	budgets political	-0.011660
+-1.111258	bureaucratic inertia	-0.011660
+-1.111258	but why	-0.011660
+-1.762528	by epa	-0.011660
+-1.784306	by hand	-0.011660
+-1.784306	by latitude	-0.011660
+-1.777437	by products	-0.011660
+-1.777437	by un	-0.011660
+-0.783959	caa </s>
+-0.783959	cancellations </s>
+-1.101139	canned or	-0.011660
+-1.005167	carcinogens in	-0.011660
+-1.111258	carsons silent	-0.011660
+-1.109790	categories created	-0.011660
+-1.109790	caution warning	-0.011660
+-1.106542	central problems	-0.011660
+-1.109790	century mortality	-0.011660
+-1.111258	cercla superfund	-0.011660
+-0.783959	chem </s>
+-1.561640	chemicals from	-0.011660
+-1.575225	chemicals hexabromobiphenyl	-0.011660
+-1.318662	chemicals in	-0.011660
+-0.783959	chicago </s>
+-1.005167	children in	-0.011660
+-0.783959	chlordane </s>
+-0.783959	circulation </s>
+-1.111258	clean bill	-0.011660
+-1.111258	clinically disabled	-0.011660
+-1.095801	color required	-0.011660
+-1.111258	coloring agents	-0.011660
+-1.111258	colors natural	-0.011660
+-1.216723	commerce in	-0.011660
+-1.396421	commerce must	-0.011660
+-1.111258	concentration dangerous	-0.011660
+-1.111258	concentrations vary	-0.011660
+-0.783959	condemned </s>
+-1.095801	conditional registration	-0.011660
+-1.005167	conditions in	-0.011660
+-1.111258	conflict heightened	-0.011660
+-1.000882	confusion and	-0.011660
+-1.111258	congress mandated	-0.011660
+-0.988278	consideration of	-0.011660
+-1.111258	consolidated unit	-0.011660
+-1.111258	consumer intelligence	-0.011660
+-1.402775	contaminants biological	-0.011660
+-1.402775	contaminants dioxins	-0.011660
+-1.070057	contamination food	-0.011660
+-1.070057	continued ddt	-0.011660
+-1.601953	control act	-0.011660
+-1.688148	control areas	-0.011660
+-1.380282	control in	-0.011660
+-1.693732	control natal	-0.011660
+-1.085320	controlling malaria	-0.011660
+-1.085320	cosmetic act	-0.011660
+-0.988278	costs of	-0.011660
+-1.385949	could be	-0.011660
+-1.405661	could now	-0.011660
+-1.111258	countries submitted	-0.011660
+-1.405661	created costs	-0.011660
+-1.216723	created in	-0.011660
+-1.106542	cropland million	-0.011660
+-1.109790	cultivated taste	-0.011660
+-1.109790	cultivating taste	-0.011660
+-1.111258	cultural predispositions	-0.011660
+-0.783959	cwa </s>
+-1.101139	dangerous or	-0.011660
+-0.969421	data </s>
+-1.524266	data ban	-0.011660
+-1.693732	data sets	-0.011660
+-1.470790	data to	-0.011660
+-0.944447	days </s>
+-1.575225	days aids	-0.011660
+-1.575225	days ffdca	-0.011660
+-0.929284	ddt </s>
+-1.988633	ddt a	-0.011660
+-2.109364	ddt aldrin	-0.011660
+-1.530690	ddt and	-0.011660
+-1.769929	ddt ban	-0.011660
+-2.123948	ddt during	-0.011660
+-2.031275	ddt environmental	-0.011660
+-2.123948	ddt found	-0.011660
+-1.545075	ddt in	-0.011660
+-2.123948	ddt insecticides	-0.011660
+-2.123948	ddt levels	-0.056352
+-0.783959	deadline </s>
+-0.783959	dec </s>
+-1.106542	deeper problems	-0.011660
+-1.396421	defined as	-0.011660
+-1.301582	defined pesticides	-0.011660
+-1.109790	delaney amendment	-0.011660
+-1.005167	delay in	-0.011660
+-1.109790	dependence biological	-0.011660
+-1.111258	described filthy	-0.011660
+-1.041052	designed to	-0.011660
+-1.106542	dicofol ny	-0.011660
+-1.402775	dieldrin indoor	-0.011660
+-1.405661	dieldrin lindane	-0.011660
+-1.405661	different jurisdictions	-0.011660
+-1.405661	different risks	-0.011660
+-0.783959	differing </s>
+-1.209771	dioxins and	-0.011660
+-1.402775	dioxins furans	-0.011660
+-0.988278	director of	-0.011660
+-0.783959	disabled </s>
+-1.111258	discharges emissions	-0.011660
+-1.070057	discovering ddt	-0.011660
+-1.109790	diversity worker	-0.011660
+-1.109790	do these	-0.011660
+-1.095801	does a	-0.011660
+-1.111258	domestic imported	-0.011660
+-1.060172	dozen ban	-0.011660
+-1.111258	dr arata	-0.011660
+-1.355969	drug act	-0.011660
+-1.209771	drug and	-0.011660
+-1.109790	drugs hexachlorobenzene	-0.011660
+-1.111258	during naples	-0.011660
+-1.109790	dusted with	-0.011660
+-1.111258	e g	-0.011660
+-1.111258	econ benefits	-0.011660
+-1.396421	economic effects	-0.011660
+-1.405661	economic poisons	-0.011660
+-1.111258	effect confusion	-0.011660
+-1.109790	effective is	-0.011660
+-1.284588	effects of	-0.011660
+-1.546405	effects on	-0.011660
+-1.570967	effects processing	-0.011660
+-1.111258	eliminate any	-0.011660
+-1.000882	emissions and	-0.011660
+-1.109790	encephalitis virus	-0.011660
+-1.109790	endemic areas	-0.011660
+-1.109790	endrin spraying	-0.011660
+-1.109790	energy processing	-0.011660
+-1.216723	enforcement in	-0.011660
+-1.189560	enforcement of	-0.011660
+-1.111258	entry into	-0.011660
+-1.111258	environment congress	-0.011660
+-1.693732	environmental fate	-0.011660
+-1.675972	environmental health	-0.011660
+-1.693732	environmental pesticide	-0.011660
+-1.688148	environmental politics	-0.011660
+-0.798872	epa </s>
+-1.779257	epa created	-0.011660
+-1.764995	epa fda	-0.011660
+-1.720234	epa registration	-0.011660
+-0.783959	epidemic </s>
+-1.109790	epidemics all	-0.011660
+-1.111258	esa wilderness	-0.011660
+-1.065086	established for	-0.011660
+-1.109790	eu have	-0.011660
+-0.783959	europe </s>
+-1.109790	evst b	-0.011660
+-0.783959	exposure </s>
+-1.109790	extended regulation	-0.011660
+-1.111258	farmer knowledge	-0.011660
+-1.106542	farmers from	-0.011660
+-0.944447	fat </s>
+-1.318662	fat in	-0.011660
+-1.575225	fat where	-0.011660
+-0.783959	fate </s>
+-1.575225	fda authorized	-0.011660
+-1.570967	fda enforcement	-0.011660
+-1.531686	fda usda	-0.011660
+-1.111258	february professor	-0.011660
+-1.693732	federal agencies	-0.011660
+-1.656252	federal environmental	-0.011660
+-1.553695	federal food	-0.011660
+-1.688148	federal insecticide	-0.011660
+-1.109790	fertilizers species	-0.011660
+-1.111258	ffdca sdwa	-0.011660
+-0.783959	field </s>
+-1.118988	fifra amendments	-0.056352
+-1.742038	fifra fifra	-0.011660
+-1.720234	fifra new	-0.011660
+-1.785821	fifra rcra	-0.011660
+-1.111258	filthy slaughtering	-0.011660
+-1.000882	fined and	-0.011660
+-1.111258	flavors colors	-0.011660
+-1.101139	flour or	-0.011660
+-2.056380	food additives	-0.011660
+-1.218454	food and	-0.040938
+-2.056380	food availability	-0.011660
+-2.043918	food billion	-0.011660
+-2.043918	food drug	-0.011660
+-2.056380	food led	-0.011660
+-2.056380	food prices	-0.011660
+-2.056380	food shipped	-0.011660
+-2.017404	food water	-0.011660
+-0.576935	foods </s>
+-1.021497	for </s>
+-2.076741	for all	-0.011660
+-2.090534	for carcinogens	-0.011660
+-2.047532	for chemicals	-0.011660
+-2.090534	for controlling	-0.011660
+-2.090534	for discovering	-0.011660
+-2.090534	for flour	-0.011660
+-2.076741	for house	-0.011660
+-2.090534	for miller	-0.011660
+-1.961676	for registration	-0.011660
+-2.090534	for some	-0.011660
+-1.111258	forbade foreign	-0.011660
+-0.988278	force of	-0.011660
+-1.000882	foreign and	-0.011660
+-1.005167	found in	-0.011660
+-1.111258	fqpa tsca	-0.011660
+-0.899036	fractured law	-0.011660
+-1.564229	fractured science	-0.011660
+-1.085320	framework malaria	-0.011660
+-1.405661	fraudulently being	-0.011660
+-1.402775	fraudulently labeled	-0.011660
+-1.111258	fresh canned	-0.011660
+-0.899867	from market	-0.011660
+-1.440253	from pesticides	-0.011660
+-1.070057	frozen food	-0.011660
+-1.101139	full data	-0.011660
+-1.109790	fumigating refugees	-0.011660
+-1.111258	fungicide rodenticide	-0.011660
+-0.898433	furans </s>
+-1.405661	furans fresh	-0.011660
+-1.111258	g apple	-0.011660
+-1.111258	general vs	-0.011660
+-1.111258	genetic modification	-0.011660
+-1.402775	given authority	-0.011660
+-1.385949	given responsibility	-0.011660
+-1.109790	gives indoor	-0.011660
+-1.440631	global ban	-0.011660
+-1.575225	global circulation	-0.011660
+-1.575225	global marketplace	-0.011660
+-1.095801	green by	-0.011660
+-1.111258	groups affected	-0.011660
+-1.070057	hand ddt	-0.011660
+-1.111258	hans dusted	-0.011660
+-1.111258	has approved	-0.011660
+-1.405661	have against	-0.011660
+-1.405661	have signed	-0.011660
+-1.405661	hazard extended	-0.011660
+-1.276747	hazard to	-0.011660
+-1.106542	hazardous chemicals	-0.011660
+-0.783959	hcb </s>
+-1.452527	health for	-0.011660
+-1.561640	health problems	-0.011660
+-1.575225	health promotion	-0.011660
+-1.111258	heightened exposure	-0.011660
+-1.310187	heptachlor ban	-0.011660
+-1.402775	heptachlor products	-0.011660
+-1.000882	herbicides and	-0.011660
+-1.000882	hexabromobiphenyl and	-0.011660
+-0.681923	hexachlorobenzene and	-0.011660
+-1.111258	hmta nepa	-0.011660
+-1.310187	house ban	-0.011660
+-1.402775	house spraying	-0.011660
+-1.576785	human samples	-0.011660
+-0.899867	human tissues	-0.011660
+-1.109790	hydrocarbons commerce	-0.011660
+-1.111258	if concentration	-0.011660
+-1.109790	ii sanitation	-0.011660
+-0.988278	image of	-0.011660
+-1.109790	imminent hazard	-0.011660
+-0.783959	immunity </s>
+-0.783959	implementation </s>
+-1.109790	imported foods	-0.011660
+-1.055313	impotent pesticides	-0.011660
+-1.047450	in </s>
+-2.149368	in a	-0.011660
+-2.337391	in defined	-0.011660
+-2.362339	in domestic	-0.011660
+-2.362339	in endemic	-0.011660
+-2.362339	in europe	-0.011660
+-2.212556	in fifra	-0.011660
+-1.768847	in foods	-0.056352
+-1.891104	in for	-0.011660
+-2.286530	in human	-0.011660
+-2.362339	in implementation	-0.011660
+-2.286530	in interstate	-0.011660
+-2.045286	in malaria	-0.011660
+-2.362339	in meat	-0.011660
+-2.362339	in medicine	-0.011660
+-2.362339	in mosquito	-0.011660
+-2.149368	in new	-0.011660
+-1.535066	in of	-0.011660
+-2.337391	in other	-0.011660
+-1.581054	in the	-0.011660
+-2.362339	in u	-0.011660
+-2.362339	in ww	-0.011660
+-0.898433	incidence </s>
+-1.402775	incidence mortality	-0.011660
+-1.111258	including us	-0.011660
+-1.405661	indoor residual	-0.011660
+-1.385949	indoor use	-0.011660
+-1.106542	industrial chemicals	-0.011660
+-1.000882	inertia and	-0.011660
+-1.106542	inerts from	-0.011660
+-1.111258	ingredient list	-0.011660
+-1.355969	insecticide act	-0.011660
+-1.405661	insecticide fungicide	-0.011660
+-1.109790	insecticides who	-0.011660
+-0.783959	intelligence </s>
+-1.570967	interstate commerce	-0.011660
+-1.570967	interstate hexachlorobenzene	-0.011660
+-1.575225	interstate intl	-0.011660
+-1.109790	intl trade	-0.011660
+-1.111258	into force	-0.011660
+-1.111258	intrastate sales	-0.011660
+-1.310187	is ban	-0.011660
+-1.327925	is ddt	-0.011660
+-0.783959	islands </s>
+-0.783959	jailed </s>
+-1.111258	january upton	-0.011660
+-1.111258	john wargo	-0.011660
+-1.000882	juice and	-0.011660
+-1.405661	june pg	-0.011660
+-1.396421	june pops	-0.011660
+-0.783959	jungle </s>
+-1.101139	jurisdictions data	-0.011660
+-1.111258	knowledge consumer	-0.011660
+-1.111258	kochi director	-0.011660
+-1.327925	labeled food	-0.011660
+-1.301582	labeled pesticides	-0.011660
+-1.041052	labels to	-0.011660
+-0.898433	land </s>
+-1.405661	land values	-0.011660
+-0.783959	latitude </s>
+-0.944447	law </s>
+-1.575225	law plsc	-0.011660
+-1.570967	law regulatory	-0.011660
+-1.101139	lecture environmental	-0.011660
+-1.041052	led to	-0.011660
+-1.060172	leveling the	-0.011660
+-1.109790	levels ppm	-0.056352
+-1.318965	limits for	-0.011660
+-1.216723	limits in	-0.011660
+-1.111258	lindane adulterated	-0.011660
+-1.109790	list other	-0.011660
+-0.988278	loss of	-0.011660
+-0.988278	losses of	-0.011660
+-0.555645	malaria control	-0.011660
+-1.975200	malaria is	-0.011660
+-1.983126	malaria parasite	-0.011660
+-1.983126	malaria programme	-0.011660
+-1.983126	malaria sept	-0.011660
+-1.983126	malaria susceptible	-0.011660
+-1.055313	manage pesticides	-0.011660
+-1.095801	mandated a	-0.011660
+-0.783959	manufacturer </s>
+-0.783959	mar </s>
+-0.898433	market </s>
+-1.402775	market based	-0.011660
+-0.783959	marketplace </s>
+-1.111258	materials energy	-0.011660
+-0.898433	may </s>
+-1.375724	may new	-0.011660
+-1.005167	mean in	-0.011660
+-1.000882	meat and	-0.011660
+-1.005167	medicine in	-0.011660
+-1.111258	methyl parathion	-0.011660
+-1.109790	migrant populations	-0.011660
+-1.111258	milk fat	-0.011660
+-1.109790	miller amendment	-0.011660
+-1.570967	million acres	-0.011660
+-1.575225	million clinically	-0.011660
+-1.575225	million mixing	-0.011660
+-0.783959	mirex </s>
+-1.065086	mistaken for	-0.011660
+-1.111258	mixing paris	-0.011660
+-1.106542	mobility global	-0.011660
+-1.111258	modification waste	-0.011660
+-1.111258	momentum supertanker	-0.011660
+-1.405661	mortality armed	-0.011660
+-1.396421	mortality million	-0.011660
+-0.783959	mosquito </s>
+-1.111258	most effective	-0.011660
+-1.041052	moved to	-0.011660
+-1.111258	muller awarded	-0.011660
+-0.894117	must be	-0.011660
+-1.576785	must take	-0.011660
+-1.111258	naples typhus	-0.011660
+-1.111258	narrative advantage	-0.011660
+-1.111258	natal brazil	-0.011660
+-1.405661	nation bans	-0.011660
+-1.405661	nation states	-0.011660
+-1.060172	national ban	-0.011660
+-1.111258	nations including	-0.011660
+-1.111258	natural artificial	-0.011660
+-1.111258	nepa esa	-0.011660
+-1.804605	new standard	-0.011660
+-0.191209	new york	-0.710630
+-1.570967	no nation	-0.011660
+-1.575225	no unreasonable	-0.011660
+-1.531686	no usda	-0.011660
+-1.111258	nobel prize	-0.011660
+-1.111258	non target	-0.011660
+-0.988278	notified of	-0.011660
+-1.101139	now be	-0.011660
+-0.131096	ny times	-0.011660
+-1.111258	october entry	-0.011660
+-2.438293	of agric	-0.011660
+-2.438293	of consideration	-0.011660
+-2.438293	of cropland	-0.011660
+-1.966785	of ddt	-0.011660
+-2.438293	of farmer	-0.011660
+-1.966785	of food	-0.011660
+-2.410246	of fraudulently	-0.011660
+-2.353653	of health	-0.011660
+-2.353653	of human	-0.011660
+-2.410246	of land	-0.011660
+-2.410246	of limits	-0.011660
+-2.438293	of manufacturer	-0.011660
+-2.438293	of october	-0.011660
+-2.438293	of older	-0.011660
+-2.438293	of organism	-0.011660
+-2.438293	of parent	-0.011660
+-2.438293	of pending	-0.011660
+-1.868932	of pesticides	-0.011660
+-2.438293	of producers	-0.011660
+-2.438293	of protocol	-0.011660
+-2.204252	of registration	-0.011660
+-2.410246	of regulation	-0.011660
+-2.438293	of regulations	-0.011660
+-2.410246	of sanitation	-0.011660
+-1.075843	of the	-0.011660
+-2.410246	of these	-0.011660
+-2.438293	of whos	-0.011660
+-2.438293	of worlds	-0.011660
+-1.111258	offending persons	-0.011660
+-1.055313	older pesticides	-0.011660
+-1.693732	on environment	-0.011660
+-1.688148	on june	-0.011660
+-1.675972	on pops	-0.011660
+-1.524266	on the	-0.011660
+-0.988278	one of	-0.011660
+-1.688148	or fraudulently	-0.011660
+-1.693732	or frozen	-0.011660
+-1.693732	or impotent	-0.011660
+-1.693732	or sugar	-0.011660
+-1.111258	organic pollutant	-0.011660
+-1.005167	organism in	-0.011660
+-0.783959	osha </s>
+-1.396421	other federal	-0.011660
+-1.405661	other than	-0.011660
+-1.111258	overconsumption flavors	-0.011660
+-1.405661	packaging contamination	-0.011660
+-1.405661	packaging materials	-0.011660
+-1.109790	parasite days	-0.011660
+-1.060172	parathion ban	-0.011660
+-1.111258	parent chem	-0.011660
+-1.111258	paris green	-0.011660
+-1.101139	passed on	-0.011660
+-1.095801	past years	-0.011660
+-1.111258	paul muller	-0.011660
+-1.000882	pcbs and	-0.011660
+-1.111258	pending cancellations	-0.011660
+-0.898433	persistence </s>
+-1.189560	persistence of	-0.011660
+-1.111258	persistent organic	-0.011660
+-1.109790	persons could	-0.011660
+-1.109790	pesticide control	-0.011660
+-0.548589	pesticides </s>
+-1.364325	pesticides and	-0.011660
+-2.176822	pesticides as	-0.011660
+-1.922205	pesticides ddt	-0.011660
+-2.207306	pesticides defined	-0.011660
+-1.922205	pesticides food	-0.011660
+-2.221733	pesticides raw	-0.011660
+-2.221733	pesticides regulated	-0.011660
+-2.087696	pesticides required	-0.011660
+-2.221733	pesticides statutory	-0.011660
+-1.782253	pesticides to	-0.011660
+-0.783959	pg </s>
+-1.111258	playing field	-0.011660
+-1.109790	plsc b	-0.011660
+-1.111258	poisons benefit	-0.011660
+-1.111258	political territories	-0.011660
+-1.209771	politics and	-0.011660
+-1.189560	politics of	-0.011660
+-1.109790	pollutant treaty	-0.011660
+-1.111258	polyaromatic hydrocarbons	-0.011660
+-1.564229	pops pure	-0.011660
+-0.870250	pops the	-0.011660
+-1.111258	population are	-0.011660
+-0.576935	populations </s>
+-1.109790	position based	-0.011660
+-1.065086	potential for	-0.011660
+-1.111258	poultry econ	-0.011660
+-0.725146	ppm milk	-99
+-1.041052	predispositions to	-0.011660
+-1.109790	prevent their	-0.011660
+-1.111258	prices fertilizers	-0.011660
+-1.041052	prior to	-0.011660
+-1.106542	private science	-0.011660
+-1.005167	prize in	-0.011660
+-0.686117	problems </s>
+-1.550113	problems environmental	-0.011660
+-1.070057	processed food	-0.011660
+-0.898433	processing </s>
+-1.396421	processing effects	-0.011660
+-1.111258	producers advertising	-0.011660
+-1.095801	product usda	-0.011660
+-1.402775	products contaminants	-0.011660
+-1.402775	products could	-0.011660
+-1.111258	professor john	-0.011660
+-1.109790	programme no	-0.011660
+-1.060172	prohibited the	-0.011660
+-0.783959	promotion </s>
+-1.405661	protect farmers	-0.011660
+-1.405661	protect uses	-0.011660
+-1.111258	protocol january	-0.011660
+-0.944447	public </s>
+-1.575225	public non	-0.011660
+-1.575225	public subsidies	-0.011660
+-1.216723	published in	-0.011660
+-1.310187	published the	-0.011660
+-1.326978	pure and	-0.011660
+-0.876095	pure food	-0.056352
+-1.095801	purity required	-0.011660
+-1.111258	rachel carsons	-0.011660
+-1.041052	raw to	-0.011660
+-0.783959	rcra </s>
+-1.095801	recognized by	-0.011660
+-1.111258	reduced immunity	-0.011660
+-1.209771	refugees and	-0.011660
+-1.216723	refugees in	-0.011660
+-1.784306	registration allowed	-0.011660
+-1.410844	registration and	-0.011660
+-1.784306	registration prior	-0.011660
+-1.738576	registration responsibility	-0.011660
+-1.777437	registration review	-0.011660
+-0.783959	regulated </s>
+-1.405661	regulation leveling	-0.011660
+-1.276747	regulation to	-0.011660
+-0.783959	regulations </s>
+-1.405661	regulatory actions	-0.011660
+-1.385949	regulatory responsibility	-0.011660
+-1.405661	remove hazardous	-0.011660
+-1.301582	remove pesticides	-0.011660
+-1.857241	required ingredient	-0.011660
+-1.857241	required product	-0.011660
+-1.857241	required signal	-0.011660
+-1.561110	required to	-0.011660
+-1.849127	required tolerances	-0.011660
+-1.849127	required warning	-0.011660
+-1.109790	residual house	-0.011660
+-0.969421	responsibility </s>
+-1.341241	responsibility of	-0.011660
+-1.693732	responsibility private	-0.011660
+-1.470790	responsibility to	-0.011660
+-1.101139	restricted use	-0.011660
+-1.405661	review deadline	-0.011660
+-1.189560	review of	-0.011660
+-1.405661	risk balancing	-0.011660
+-1.405661	risk epidemics	-0.011660
+-0.783959	risks </s>
+-1.085320	rodenticide act	-0.011660
+-0.783959	rodenticides </s>
+-1.111258	s agriculture	-0.011660
+-1.065086	safe for	-0.011660
+-1.405661	safety cultivated	-0.011660
+-1.405661	safety narrative	-0.011660
+-0.988278	sale of	-0.011660
+-0.988278	sales of	-0.011660
+-1.111258	samples past	-0.011660
+-1.209771	sanitation and	-0.011660
+-1.216723	sanitation in	-0.011660
+-1.309890	science and	-0.011660
+-1.570967	science fractured	-0.011660
+-1.570967	science trade	-0.011660
+-0.783959	sdwa </s>
+-0.988278	sec of	-0.011660
+-1.109790	secrecy worker	-0.011660
+-1.109790	secretary given	-0.011660
+-1.000882	seized and	-0.011660
+-1.109790	sept nation	-0.011660
+-1.402775	set limits	-0.011660
+-1.405661	set standards	-0.011660
+-1.111258	sets budgets	-0.011660
+-1.101139	setting responsibility	-0.011660
+-1.005167	shipped in	-0.011660
+-1.111258	signal words	-0.011660
+-1.060172	signed the	-0.011660
+-1.111258	silent spring	-0.011660
+-1.109790	sinclair published	-0.011660
+-1.111258	slaughtering conditions	-0.011660
+-1.095801	soil years	-0.011660
+-1.111258	solomon islands	-0.011660
+-1.055313	some pesticides	-0.011660
+-1.060172	soviet ban	-0.011660
+-1.405661	species dependence	-0.011660
+-1.375724	species usda	-0.011660
+-1.189560	spraying of	-0.011660
+-1.310187	spraying the	-0.011660
+-1.109790	spring published	-0.011660
+-1.111258	staff moved	-0.011660
+-1.065086	standard for	-0.011660
+-1.065086	standards for	-0.011660
+-1.111258	states recognized	-0.011660
+-1.111258	statutory framework	-0.011660
+-0.783959	stockyards </s>
+-1.101139	submitted data	-0.011660
+-1.109790	subsidies land	-0.011660
+-1.109790	sugar labeled	-0.011660
+-0.783959	suggest </s>
+-0.783959	superfund </s>
+-0.783959	supertanker </s>
+-1.111258	support continued	-0.011660
+-1.109790	susceptible populations	-0.011660
+-1.095801	take a	-0.011660
+-1.109790	target species	-0.011660
+-1.405661	taste coloring	-0.011660
+-1.396421	taste public	-0.011660
+-1.111258	territories cultural	-0.011660
+-1.111258	th century	-0.011660
+-1.111258	than inerts	-0.011660
+-1.969937	the act	-0.011660
+-2.225245	the best	-0.011660
+-2.225245	the chicago	-0.011660
+-2.109139	the data	-0.011660
+-2.225245	the dozen	-0.011660
+-2.206543	the economic	-0.011660
+-2.225245	the image	-0.011660
+-2.225245	the jungle	-0.011660
+-2.225245	the most	-0.011660
+-2.225245	the playing	-0.011660
+-2.206543	the politics	-0.011660
+-2.225245	the potential	-0.011660
+-2.225245	the sale	-0.011660
+-2.167603	the science	-0.011660
+-2.225245	the solomon	-0.011660
+-2.206543	the treaty	-0.011660
+-0.898433	their </s>
+-1.405661	their purity	-0.011660
+-1.405661	these differing	-0.011660
+-1.396421	these pure	-0.011660
+-1.109790	those with	-0.011660
+-1.011404	times </s>
+-1.858734	times aug	-0.011660
+-1.858734	times dec	-0.011660
+-1.858734	times mar	-0.011660
+-1.196811	times may	-0.011660
+-0.898433	tissues </s>
+-1.375724	tissues years	-0.011660
+-1.811020	to ban	-0.011660
+-2.111676	to be	-0.011660
+-2.169561	to epa	-0.011660
+-2.226551	to herbicides	-0.011660
+-2.169561	to interstate	-0.011660
+-2.226551	to manage	-0.011660
+-1.784713	to pesticides	-0.011660
+-2.226551	to prevent	-0.011660
+-2.226551	to processed	-0.011660
+-1.609434	to protect	-0.011660
+-2.169561	to public	-0.011660
+-2.226551	to remove	-0.011660
+-2.208070	to set	-0.011660
+-2.208070	to un	-0.011660
+-2.226551	to worry	-0.011660
+-1.318965	tolerance for	-0.011660
+-1.405661	tolerance setting	-0.011660
+-1.318965	tolerances for	-0.011660
+-1.405661	tolerances were	-0.011660
+-1.109790	tools we	-0.011660
+-1.085320	toxaphene malaria	-0.011660
+-1.375724	trade required	-0.011660
+-1.405661	trade secrecy	-0.011660
+-1.396421	treaty pops	-0.011660
+-1.405661	treaty stockyards	-0.011660
+-1.111258	tropical africa	-0.011660
+-0.783959	tsca </s>
+-1.111258	typhus epidemic	-0.011660
+-1.111258	u s	-0.011660
+-0.898433	un </s>
+-1.385949	un on	-0.011660
+-0.988278	uniformity of	-0.011660
+-1.005167	unit in	-0.011660
+-1.111258	unreasonable adverse	-0.011660
+-1.111258	upon imminent	-0.011660
+-1.111258	upton sinclair	-0.011660
+-1.000882	us and	-0.011660
+-0.995919	usda </s>
+-1.849127	usda authority	-0.011660
+-1.849127	usda enforcement	-0.011660
+-1.777386	usda registration	-0.011660
+-1.857241	usda secretary	-0.011660
+-1.857241	usda staff	-0.011660
+-0.969421	use </s>
+-1.693732	use categories	-0.011660
+-1.341241	use of	-0.011660
+-1.688148	use packaging	-0.011660
+-1.106542	uses public	-0.011660
+-1.111258	values loss	-0.011660
+-1.095801	vary by	-0.011660
+-1.106542	vermont ny	-0.011660
+-0.724614	virus days	-0.011660
+-1.111258	vs restricted	-0.011660
+-0.783959	wargo </s>
+-1.402775	warning hazard	-0.011660
+-1.405661	warning labels	-0.011660
+-1.111258	was passed	-0.011660
+-0.783959	waste </s>
+-1.575225	water air	-0.011660
+-1.546405	water use	-0.011660
+-1.531686	water years	-0.011660
+-1.402775	we have	-0.011660
+-1.396421	we must	-0.011660
+-1.111258	were established	-0.011660
+-1.405661	what do	-0.011660
+-1.405661	what does	-0.011660
+-1.111258	where banned	-0.011660
+-1.405661	who gives	-0.011660
+-1.405661	who has	-0.011660
+-0.783959	wholesome </s>
+-1.106542	whos global	-0.011660
+-1.070057	why ddt	-0.011660
+-1.085320	wilderness act	-0.011660
+-1.101139	wisconsin use	-0.011660
+-1.327925	with ddt	-0.011660
+-1.405661	with reduced	-0.011660
+-1.111258	words caution	-0.011660
+-0.725146	worker safety	-0.011660
+-1.111258	worlds population	-0.011660
+-1.109790	worry about	-0.011660
+-1.111258	ww ii	-0.011660
+-1.109790	year review	-0.011660
+-0.066322	years </s>
+-1.405661	york british	-0.011660
+-1.402775	york times	-0.033431
+-1.109790	zero tolerance	-0.011660
+-1.109790	zimbabwe ppm	-0.011660
+
+\3-grams:
+-1.129889	<s> about the
+-0.984572	<s> amended fifra
+-1.518581	<s> and vermont
+-0.980593	<s> announcement by
+-0.980593	<s> atmosphere years
+-0.992082	<s> atmospheric concentrations
+-0.729120	<s> august </s>
+-1.696574	<s> ban chlordane
+-1.696574	<s> ban mirex
+-0.677723	<s> billion acres
+-0.992082	<s> bureaucratic inertia
+-0.992082	<s> but why
+-1.369146	<s> by products
+-0.729120	<s> caa </s>
+-0.988588	<s> central problems
+-0.992082	<s> cercla superfund
+-0.911192	<s> children in
+-0.980593	<s> color required
+-0.980593	<s> conditional registration
+-0.992082	<s> consolidated unit
+-0.729120	<s> cwa </s>
+-1.817064	<s> ddt environmental
+-1.867014	<s> ddt found
+-1.168741	<s> ddt levels
+-0.988588	<s> deeper problems
+-0.990996	<s> delaney amendment
+-0.992082	<s> described filthy
+-0.939074	<s> designed to
+-0.988588	<s> dicofol ny
+-1.188798	<s> different jurisdictions
+-0.992082	<s> dr arata
+-0.992082	<s> e g
+-0.992082	<s> effect confusion
+-0.992082	<s> eliminate any
+-0.990996	<s> encephalitis virus
+-1.601818	<s> epa created
+-1.592537	<s> epa fda
+-1.562727	<s> epa registration
+-1.278733	<s> fda enforcement
+-1.459324	<s> federal environmental
+-1.478777	<s> federal insecticide
+-1.510364	<s> fifra fifra
+-1.534823	<s> fifra rcra
+-1.455437	<s> food availability
+-0.992082	<s> fqpa tsca
+-0.866222	<s> fractured law
+-1.400140	<s> fractured science
+-0.990996	<s> fumigating refugees
+-0.992082	<s> general vs
+-1.177044	<s> given responsibility
+-0.992082	<s> hans dusted
+-0.992082	<s> hmta nepa
+-0.826565	<s> human tissues
+-0.988588	<s> industrial chemicals
+-1.158756	<s> insecticide act
+-0.992082	<s> intrastate sales
+-1.188798	<s> june pg
+-0.984572	<s> lecture environmental
+-0.546569	<s> malaria control
+-1.631419	<s> malaria susceptible
+-0.992082	<s> methyl parathion
+-1.280842	<s> million clinically
+-0.988588	<s> mobility global
+-0.992082	<s> nations including
+-0.162919	<s> new york
+-1.407445	<s> no unreasonable
+-1.378159	<s> no usda
+-0.127061	<s> ny times
+-1.522321	<s> of worlds
+-0.897894	<s> one of
+-0.729120	<s> osha </s>
+-1.188798	<s> packaging contamination
+-0.992082	<s> paul muller
+-0.865678	<s> persistence </s>
+-1.118251	<s> persistence of
+-0.992082	<s> persistent organic
+-1.293247	<s> pesticides and
+-1.688778	<s> pesticides ddt
+-1.833492	<s> pesticides statutory
+-0.953717	<s> prohibited the
+-0.992082	<s> rachel carsons
+-1.062744	<s> refugees and
+-1.188798	<s> regulatory actions
+-1.572370	<s> required product
+-1.568252	<s> required warning
+-0.897894	<s> sec of
+-0.980593	<s> soil years
+-0.953717	<s> soviet ban
+-0.992082	<s> th century
+-1.487574	<s> the politics
+-0.990996	<s> those with
+-1.188798	<s> tolerances were
+-0.992082	<s> tropical africa
+-0.897894	<s> uniformity of
+-1.568252	<s> usda enforcement
+-1.572370	<s> usda staff
+-1.258777	<s> water years
+-1.183315	<s> we must
+-1.288199	<s> what do
+-1.288199	<s> what does
+-1.188798	<s> who gives
+-0.984572	<s> wisconsin use
+-0.990996	<s> zero tolerance
+-0.990996	<s> zimbabwe ppm
+-0.992082	a clean bill
+-1.280842	a global marketplace
+-0.953717	a national ban
+-0.990996	a position based
+-0.990996	a year review
+-1.188798	about different risks
+-1.490991	about the potential
+-0.984572	absent full data
+-1.512625	acres in u
+-1.774857	acres of cropland
+-1.768778	acres of land
+-1.280842	act fda authorized
+-1.270067	act federal food
+-0.992082	act forbade foreign
+-1.774857	act of consideration
+-1.774857	act of october
+-0.992082	act was passed
+-0.729120	actions suggest </s>
+-1.371898	added to pesticides
+-0.992082	additives if concentration
+-1.333000	adulterated or fraudulently
+-1.522321	advantage of producers
+-1.266358	adverse effects on
+-0.990996	advertising cultivating taste
+-1.187091	africa incidence mortality
+-1.434185	against malaria is
+-0.992082	age groups affected
+-0.992082	agents overconsumption flavors
+-0.821831	agric must be
+-0.677723	aids virus days
+-0.992082	air genetic modification
+-1.188798	aldrin dieldrin lindane
+-0.992082	all age groups
+-0.520345	all pesticides </s>
+-0.992082	allowed absent full
+-1.346499	amended fifra new
+-1.188798	amendment their purity
+-0.729120	and alar </s>
+-0.729120	and condemned </s>
+-0.972743	and cosmetic act
+-0.992082	and countries submitted
+-0.911192	and delay in
+-0.794834	and drug act
+-0.990996	and drugs hexachlorobenzene
+-0.990996	and eu have
+-0.825386	and furans </s>
+-1.280842	and health promotion
+-1.187091	and heptachlor products
+-1.278733	and interstate commerce
+-0.729120	and jailed </s>
+-1.280842	and law plsc
+-0.897894	and losses of
+-0.526777	and malaria control
+-0.990996	and migrant populations
+-0.992082	and momentum supertanker
+-0.992082	and offending persons
+-0.907829	and pcbs and
+-0.992082	and polyaromatic hydrocarbons
+-0.992082	and poultry econ
+-0.729120	and rodenticides </s>
+-1.188798	and set standards
+-1.490991	and the image
+-1.188798	and tolerance setting
+-0.988588	and vermont ny
+-0.729120	and wholesome </s>
+-1.363417	announcement by epa
+-0.992082	any discharges emissions
+-0.907829	apple juice and
+-1.280842	approved as safe
+-0.992082	arata kochi director
+-0.990996	are at risk
+-0.184892	areas new york
+-0.992082	armed conflict heightened
+-1.266358	artificial water use
+-1.188798	as economic poisons
+-1.455437	as food additives
+-0.957456	as safe for
+-1.188798	at risk epidemics
+-0.064428	atmosphere years </s>
+-0.992082	atmospheric concentrations vary
+-0.896532	authority to remove
+-1.487857	authorized to set
+-1.418677	availability pesticides food
+-0.992082	awarded nobel prize
+-0.990996	b evst b
+-0.992082	b february professor
+-0.825386	ban aldrin </s>
+-0.729120	ban chlordane </s>
+-1.470980	ban ddt insecticides
+-1.187091	ban dieldrin indoor
+-0.990996	ban endrin spraying
+-0.729120	ban hcb </s>
+-1.129889	ban heptachlor ban
+-1.476357	ban in new
+-0.911192	ban mean in
+-0.729120	ban mirex </s>
+-1.522321	ban of parent
+-0.972743	ban toxaphene malaria
+-1.062744	bans dioxins and
+-1.254908	based on the
+-0.992082	based upon imminent
+-0.939074	be added to
+-0.907829	be fined and
+-0.897894	be notified of
+-1.140606	be pure and
+-0.907829	be seized and
+-0.957456	being mistaken for
+-1.188798	benefit risk balancing
+-0.729120	benefits assess </s>
+-0.990996	best tools we
+-1.511419	bill of health
+-0.748472	billion acres of
+-1.187091	biological contaminants biological
+-0.990996	biological diversity worker
+-0.825386	brazil incidence </s>
+-0.992082	british support continued
+-0.992082	budgets political territories
+-0.907829	bureaucratic inertia and
+-0.961228	but why ddt
+-0.741884	by epa </s>
+-0.961228	by hand ddt
+-0.729120	by latitude </s>
+-1.187091	by products contaminants
+-0.825386	by un </s>
+-1.335391	canned or frozen
+-1.365860	carcinogens in foods
+-0.992082	carsons silent spring
+-1.188798	categories created costs
+-1.187091	caution warning hazard
+-1.268249	central problems environmental
+-1.183315	century mortality million
+-0.729120	cercla superfund </s>
+-0.826565	chemicals from market
+-0.907829	chemicals hexabromobiphenyl and
+-1.365860	chemicals in foods
+-1.512625	children in endemic
+-0.897894	clean bill of
+-0.729120	clinically disabled </s>
+-1.273808	color required to
+-0.992082	coloring agents overconsumption
+-0.992082	colors natural artificial
+-0.943990	commerce in </s>
+-0.821831	commerce must be
+-0.984572	concentration dangerous or
+-0.980593	concentrations vary by
+-1.371745	conditional registration allowed
+-1.283713	conditions in the
+-0.992082	conflict heightened exposure
+-1.518581	confusion and delay
+-0.980593	congress mandated a
+-0.965605	consideration of the
+-0.911192	consolidated unit in
+-0.729120	consumer intelligence </s>
+-1.188798	contaminants biological diversity
+-1.187091	contaminants dioxins furans
+-1.445599	contamination food water
+-0.850607	continued ddt </s>
+-1.016217	control act of
+-1.170862	control areas new
+-1.512625	control in ww
+-0.992082	control natal brazil
+-1.436390	controlling malaria sept
+-1.424511	cosmetic act fda
+-1.487147	costs of registration
+-1.371745	could be fined
+-0.984572	could now be
+-0.984572	countries submitted data
+-0.897894	created costs of
+-1.488686	created in fifra
+-1.278733	cropland million acres
+-1.188798	cultivated taste coloring
+-1.183315	cultivating taste public
+-0.939074	cultural predispositions to
+-1.335391	dangerous or impotent
+-1.473522	data ban aldrin
+-0.992082	data sets budgets
+-1.487857	data to un
+-0.990996	days aids virus
+-0.992082	days ffdca sdwa
+-1.371745	ddt a clean
+-1.187091	ddt aldrin dieldrin
+-1.456731	ddt and malaria
+-1.473522	ddt ban heptachlor
+-0.992082	ddt during naples
+-1.335391	ddt environmental fate
+-0.911192	ddt found in
+-1.501374	ddt in human
+-0.990996	ddt insecticides who
+-0.721474	ddt levels ppm
+-0.643897	deeper problems </s>
+-1.222737	defined as food
+-1.481891	defined pesticides as
+-0.825386	delaney amendment </s>
+-1.512625	delay in implementation
+-1.187091	dependence biological contaminants
+-0.992082	described filthy slaughtering
+-1.297414	designed to protect
+-0.127061	dicofol ny times
+-1.188798	dieldrin indoor residual
+-0.992082	dieldrin lindane adulterated
+-0.984572	different jurisdictions data
+-0.729120	different risks </s>
+-1.514941	dioxins and furans
+-1.188798	dioxins furans fresh
+-1.522321	director of whos
+-0.907829	discharges emissions and
+-0.850607	discovering ddt </s>
+-0.678187	diversity worker safety
+-1.188798	do these differing
+-1.371745	does a national
+-0.990996	domestic imported foods
+-1.388765	dozen ban ddt
+-0.992082	dr arata kochi
+-1.080453	drug act of
+-1.626942	drug act was
+-1.518581	drug and cosmetic
+-0.640190	drugs hexachlorobenzene and
+-0.992082	during naples typhus
+-1.141206	dusted with ddt
+-0.992082	e g apple
+-0.992082	econ benefits assess
+-1.113263	economic effects of
+-0.992082	economic poisons benefit
+-0.907829	effect confusion and
+-1.141206	effective is ddt
+-1.522321	effects of regulations
+-1.335391	effects on environment
+-0.825386	effects processing </s>
+-0.992082	eliminate any discharges
+-1.518581	emissions and losses
+-0.677723	encephalitis virus days
+-0.825386	endemic areas </s>
+-1.129889	endrin spraying the
+-1.183315	energy processing effects
+-1.512625	enforcement in meat
+-1.518911	enforcement of limits
+-0.992082	entry into force
+-0.992082	environment congress mandated
+-0.729120	environmental fate </s>
+-1.274075	environmental health problems
+-0.990996	environmental pesticide control
+-1.062744	environmental politics and
+-1.067556	epa created in
+-1.258777	epa fda usda
+-1.191854	epa registration and
+-1.188798	epidemics all age
+-0.972743	esa wilderness act
+-1.463526	established for some
+-1.188798	eu have signed
+-1.188798	evst b february
+-1.108102	extended regulation to
+-0.992082	farmer knowledge consumer
+-1.208903	farmers from pesticides
+-1.452703	fat in malaria
+-0.992082	fat where banned
+-0.939074	fda authorized to
+-1.048619	fda enforcement of
+-0.903924	fda usda </s>
+-0.992082	february professor john
+-0.729120	federal agencies </s>
+-1.335391	federal environmental pesticide
+-1.452363	federal food drug
+-1.188798	federal insecticide fungicide
+-1.188798	fertilizers species dependence
+-0.729120	ffdca sdwa </s>
+-0.574907	fifra amendments </s>
+-0.997788	fifra fifra amendments
+-1.379277	fifra new standard
+-0.729120	fifra rcra </s>
+-0.992082	filthy slaughtering conditions
+-1.518581	fined and jailed
+-0.992082	flavors colors natural
+-1.335391	flour or sugar
+-0.992082	food additives if
+-1.070968	food and drug
+-1.906927	food and drugs
+-0.950010	food availability pesticides
+-0.677723	food billion acres
+-1.062744	food drug and
+-0.939074	food led to
+-0.992082	food prices fertilizers
+-0.911192	food shipped in
+-1.280842	food water air
+-1.124339	for all pesticides
+-0.911192	for carcinogens in
+-1.135317	for chemicals in
+-0.972743	for controlling malaria
+-0.961228	for discovering ddt
+-0.984572	for flour or
+-1.129889	for house ban
+-0.990996	for miller amendment
+-1.369146	for registration review
+-0.950010	for some pesticides
+-0.907829	forbade foreign and
+-1.522321	force of protocol
+-1.506947	foreign and interstate
+-1.260529	found in of
+-0.729120	fqpa tsca </s>
+-0.906998	fractured law </s>
+-1.404624	fractured law regulatory
+-1.278733	fractured science fractured
+-1.436390	framework malaria parasite
+-0.992082	fraudulently being mistaken
+-1.141206	fraudulently labeled food
+-0.984572	fresh canned or
+-0.865678	from market </s>
+-1.286053	from market based
+-1.487716	from pesticides defined
+-1.455437	frozen food shipped
+-0.882918	full data </s>
+-1.067556	fumigating refugees in
+-0.972743	fungicide rodenticide act
+-0.992082	furans fresh canned
+-0.992082	g apple juice
+-0.992082	general vs restricted
+-0.992082	genetic modification waste
+-0.654754	given authority to
+-1.226090	given responsibility to
+-1.177044	gives indoor use
+-1.476830	global ban toxaphene
+-0.729120	global circulation </s>
+-0.729120	global marketplace </s>
+-1.371745	green by hand
+-0.729120	groups affected </s>
+-1.258259	hand ddt and
+-0.990996	hans dusted with
+-0.988588	has approved as
+-0.972743	have against malaria
+-0.953717	have signed the
+-0.990996	hazard extended regulation
+-1.480455	hazard to public
+-1.274075	hazardous chemicals from
+-1.463526	health for controlling
+-0.643897	health problems </s>
+-0.729120	health promotion </s>
+-0.729120	heightened exposure </s>
+-1.476830	heptachlor ban hcb
+-1.187091	heptachlor products could
+-1.518581	herbicides and rodenticides
+-1.518581	hexabromobiphenyl and pcbs
+-1.761744	hexachlorobenzene and heptachlor
+-1.768191	hexachlorobenzene and polyaromatic
+-0.992082	hmta nepa esa
+-1.476830	house ban endrin
+-1.048619	house spraying of
+-0.992082	human samples past
+-0.865678	human tissues </s>
+-1.265767	human tissues years
+-1.183315	hydrocarbons commerce must
+-0.992082	if concentration dangerous
+-1.067556	ii sanitation in
+-1.518911	image of sanitation
+-1.108102	imminent hazard to
+-0.546127	imported foods </s>
+-1.490358	impotent pesticides raw
+-1.363417	in a global
+-1.124339	in defined pesticides
+-0.992082	in domestic imported
+-0.990996	in endemic areas
+-0.729120	in europe </s>
+-0.997788	in fifra amendments
+-0.450574	in foods </s>
+-1.463526	in for discovering
+-0.826565	in human tissues
+-0.729120	in implementation </s>
+-1.278733	in interstate hexachlorobenzene
+-0.526777	in malaria control
+-0.907829	in meat and
+-0.911192	in medicine in
+-0.729120	in mosquito </s>
+-0.184892	in new york
+-1.511419	in of human
+-1.183315	in other federal
+-1.720319	in the chicago
+-1.720319	in the solomon
+-0.992082	in u s
+-0.992082	in ww ii
+-1.188798	incidence mortality armed
+-0.907829	including us and
+-0.990996	indoor residual house
+-1.149592	indoor use of
+-1.280842	industrial chemicals hexabromobiphenyl
+-1.518581	inertia and momentum
+-0.826565	inerts from market
+-0.990996	ingredient list other
+-1.424511	insecticide act federal
+-0.992082	insecticide fungicide rodenticide
+-1.188798	insecticides who has
+-1.067556	interstate commerce in
+-0.640190	interstate hexachlorobenzene and
+-0.990996	interstate intl trade
+-1.170862	intl trade required
+-0.897894	into force of
+-0.897894	intrastate sales of
+-1.473522	is ban dieldrin
+-1.366276	is ddt ban
+-0.992082	january upton sinclair
+-0.729120	john wargo </s>
+-1.518581	juice and alar
+-0.729120	june pg </s>
+-0.802066	june pops the
+-1.335391	jurisdictions data sets
+-0.992082	knowledge consumer intelligence
+-0.897894	kochi director of
+-1.068751	labeled food and
+-1.163903	labeled pesticides and
+-1.297414	labels to protect
+-0.992082	land values loss
+-0.990996	law plsc b
+-1.177044	law regulatory responsibility
+-1.333000	lecture environmental politics
+-1.381611	led to ban
+-1.490991	leveling the playing
+-0.542003	levels ppm milk
+-1.453261	limits for chemicals
+-1.512625	limits in domestic
+-0.984572	lindane adulterated or
+-1.188798	list other than
+-1.522321	loss of farmer
+-1.518911	losses of these
+-1.540736	malaria control areas
+-1.306394	malaria control in
+-1.544600	malaria control natal
+-1.129889	malaria is ban
+-0.990996	malaria parasite days
+-0.990996	malaria programme no
+-0.990996	malaria sept nation
+-0.990996	malaria susceptible populations
+-0.520345	manage pesticides </s>
+-1.371745	mandated a year
+-1.188798	market based upon
+-0.990996	materials energy processing
+-0.184892	may new york
+-1.476357	mean in a
+-1.518581	meat and poultry
+-1.408941	medicine in for
+-0.953717	methyl parathion ban
+-0.546127	migrant populations </s>
+-0.922758	milk fat </s>
+-1.255168	milk fat in
+-1.459432	milk fat where
+-1.187091	miller amendment their
+-1.067556	million acres in
+-0.992082	million clinically disabled
+-0.992082	million mixing paris
+-1.463526	mistaken for flour
+-0.992082	mixing paris green
+-1.280842	mobility global circulation
+-0.729120	modification waste </s>
+-0.729120	momentum supertanker </s>
+-0.992082	mortality armed conflict
+-1.280842	mortality million mixing
+-0.990996	most effective is
+-1.480455	moved to epa
+-0.992082	muller awarded nobel
+-1.533994	must be notified
+-1.521946	must be pure
+-0.980593	must take a
+-0.992082	naples typhus epidemic
+-0.897894	narrative advantage of
+-0.990996	natal brazil incidence
+-0.990996	nation bans dioxins
+-0.992082	nation states recognized
+-1.476830	national ban mean
+-0.992082	nations including us
+-0.988588	natural artificial water
+-0.992082	nepa esa wilderness
+-0.957456	new standard for
+-1.887768	new york british
+-0.092749	new york times
+-1.188798	no nation bans
+-0.992082	no unreasonable adverse
+-1.395030	no usda authority
+-0.911192	nobel prize in
+-0.990996	non target species
+-1.522321	notified of pending
+-1.371745	now be seized
+-1.651551	ny times dec
+-1.651551	ny times mar
+-1.150538	ny times may
+-0.992082	october entry into
+-0.988588	of agric must
+-0.897894	of consideration of
+-0.988588	of cropland million
+-1.437906	of ddt a
+-0.992082	of farmer knowledge
+-1.452363	of food billion
+-1.188798	of fraudulently being
+-1.215874	of health for
+-1.281612	of human samples
+-0.825386	of land </s>
+-1.067556	of limits in
+-0.729120	of manufacturer </s>
+-0.992082	of october entry
+-0.950010	of older pesticides
+-0.911192	of organism in
+-0.992082	of parent chem
+-0.992082	of pending cancellations
+-1.490358	of pesticides regulated
+-0.992082	of producers advertising
+-0.992082	of protocol january
+-1.353957	of registration responsibility
+-1.188798	of regulation leveling
+-0.729120	of regulations </s>
+-1.062744	of sanitation and
+-1.834887	of the best
+-1.834887	of the dozen
+-1.827379	of the economic
+-1.183315	of these pure
+-0.988588	of whos global
+-0.992082	of worlds population
+-0.990996	offending persons could
+-0.520345	older pesticides </s>
+-0.992082	on environment congress
+-1.183315	on june pops
+-0.802066	on pops the
+-1.480064	on the science
+-0.965605	one of the
+-1.187091	or fraudulently labeled
+-0.961228	or frozen food
+-0.950010	or impotent pesticides
+-0.990996	or sugar labeled
+-0.990996	organic pollutant treaty
+-1.512625	organism in mosquito
+-1.335391	other federal agencies
+-0.992082	other than inerts
+-0.992082	overconsumption flavors colors
+-0.961228	packaging contamination food
+-0.992082	packaging materials energy
+-0.862882	parasite days </s>
+-0.927743	parathion ban </s>
+-0.729120	parent chem </s>
+-0.980593	paris green by
+-1.333000	passed on june
+-0.064428	past years </s>
+-0.992082	paul muller awarded
+-1.518581	pcbs and offending
+-0.729120	pending cancellations </s>
+-1.522321	persistence of organism
+-0.992082	persistent organic pollutant
+-1.177044	persons could be
+-1.293847	pesticide control act
+-1.761744	pesticides and set
+-1.577426	pesticides and the
+-1.278733	pesticides as economic
+-1.467781	pesticides ddt aldrin
+-1.183315	pesticides defined as
+-1.455437	pesticides food prices
+-0.939074	pesticides raw to
+-0.729120	pesticides regulated </s>
+-1.397789	pesticides required ingredient
+-0.992082	pesticides statutory framework
+-1.491225	pesticides to prevent
+-0.729120	playing field </s>
+-1.188798	plsc b evst
+-0.990996	poisons benefit risk
+-0.992082	political territories cultural
+-1.514941	politics and law
+-1.431811	politics of food
+-1.183315	pollutant treaty pops
+-0.990996	polyaromatic hydrocarbons commerce
+-0.806923	pops pure food
+-1.625657	pops the act
+-1.681585	pops the data
+-0.992082	population are at
+-1.177044	position based on
+-0.923944	potential for </s>
+-0.992082	poultry econ benefits
+0.000000	ppm milk fat
+-1.491225	predispositions to worry
+-0.825386	prevent their </s>
+-0.990996	prices fertilizers species
+-1.480455	prior to interstate
+-1.278733	private science trade
+-1.512625	prize in medicine
+-1.327726	problems environmental health
+-1.455437	processed food led
+-1.278733	processing effects processing
+-0.992082	producers advertising cultivating
+-1.369127	product usda registration
+-1.187091	products contaminants dioxins
+-1.188798	products could now
+-0.992082	professor john wargo
+-1.278733	programme no nation
+-1.490991	prohibited the sale
+-0.988588	protect farmers from
+-0.988588	protect uses public
+-0.992082	protocol january upton
+-0.992082	public non target
+-0.990996	public subsidies land
+-1.509105	published in defined
+-1.490991	published the jungle
+-1.518581	pure and wholesome
+-0.757456	pure food and
+-1.395030	purity required tolerances
+-0.992082	rachel carsons silent
+-1.491225	raw to processed
+-1.369146	recognized by un
+-0.729120	reduced immunity </s>
+-1.518581	refugees and migrant
+-1.512625	refugees in europe
+-0.992082	registration allowed absent
+-1.514941	registration and tolerance
+-0.939074	registration prior to
+-1.149592	registration responsibility of
+-1.048619	registration review of
+-0.953717	regulation leveling the
+-1.491225	regulation to herbicides
+-0.992082	regulatory actions suggest
+-1.335391	regulatory responsibility private
+-0.988588	remove hazardous chemicals
+-1.462872	remove pesticides required
+-0.992082	required ingredient list
+-0.980593	required product usda
+-0.992082	required signal words
+-1.468294	required to be
+-1.135511	required tolerances for
+-1.188798	required warning labels
+-1.187091	residual house spraying
+-1.522321	responsibility of manufacturer
+-0.988588	responsibility private science
+-1.491225	responsibility to manage
+-1.335391	restricted use categories
+-0.729120	review deadline </s>
+-1.522321	review of older
+-0.729120	risk balancing </s>
+-0.990996	risk epidemics all
+-0.815861	rodenticide act </s>
+-0.729120	s agriculture </s>
+-1.460317	safe for house
+-0.990996	safety cultivated taste
+-0.992082	safety narrative advantage
+-1.518911	sale of fraudulently
+-1.401706	sales of pesticides
+-0.980593	samples past years
+-1.506947	sanitation and health
+-1.283713	sanitation in the
+-1.518581	science and countries
+-0.825882	science fractured law
+-1.188798	science trade secrecy
+-1.522321	sec of agric
+-0.678187	secrecy worker safety
+-1.187091	secretary given authority
+-1.518581	seized and condemned
+-1.188798	sept nation states
+-1.135511	set limits for
+-0.957456	set standards for
+-0.992082	sets budgets political
+-0.882918	setting responsibility </s>
+-1.501374	shipped in interstate
+-0.992082	signal words caution
+-1.487574	signed the treaty
+-0.990996	silent spring published
+-1.129889	sinclair published the
+-0.911192	slaughtering conditions in
+-0.064428	soil years </s>
+-0.729120	solomon islands </s>
+-0.520345	some pesticides </s>
+-1.265956	soviet ban in
+-0.990996	species dependence biological
+-1.397789	species usda secretary
+-0.965605	spraying of the
+-1.490991	spraying the most
+-1.067556	spring published in
+-0.939074	staff moved to
+-1.430354	standard for registration
+-1.463526	standards for miller
+-0.980593	states recognized by
+-0.972743	statutory framework malaria
+-1.226090	submitted data to
+-1.188798	subsidies land values
+-1.124339	sugar labeled pesticides
+-0.961228	support continued ddt
+-0.546127	susceptible populations </s>
+-1.371745	take a position
+-1.170862	target species usda
+-0.992082	taste coloring agents
+-1.280842	taste public subsidies
+-0.992082	territories cultural predispositions
+-0.990996	th century mortality
+-0.988588	than inerts from
+-1.433528	the act forbade
+-0.992082	the best tools
+-0.729120	the chicago </s>
+-1.254908	the data ban
+-0.953717	the dozen ban
+-1.183315	the economic effects
+-0.897894	the image of
+-0.729120	the jungle </s>
+-0.992082	the most effective
+-0.992082	the playing field
+-1.048619	the politics of
+-0.957456	the potential for
+-0.897894	the sale of
+-1.129698	the science and
+-0.992082	the solomon islands
+-1.188798	the treaty stockyards
+-0.980593	their purity required
+-0.729120	these differing </s>
+-0.806923	these pure food
+-1.188798	those with reduced
+-0.729120	times aug </s>
+-0.729120	times dec </s>
+-0.729120	times mar </s>
+-0.865678	times may </s>
+-1.265767	times may new
+-0.064428	tissues years </s>
+-1.236420	to ban of
+-1.371745	to be added
+-0.741884	to epa </s>
+-0.907829	to herbicides and
+-1.280842	to interstate intl
+-0.950010	to manage pesticides
+-1.370971	to pesticides to
+-0.990996	to prevent their
+-0.961228	to processed food
+-1.288199	to protect farmers
+-1.288199	to protect uses
+-0.862882	to public </s>
+-1.288199	to remove hazardous
+-1.208600	to remove pesticides
+-1.187091	to set limits
+-1.177044	to un on
+-0.990996	to worry about
+-1.463526	tolerance for carcinogens
+-0.984572	tolerance setting responsibility
+-1.460317	tolerances for all
+-0.992082	tolerances were established
+-1.187091	tools we have
+-1.436390	toxaphene malaria programme
+-1.397789	trade required signal
+-0.990996	trade secrecy worker
+-1.275373	treaty pops pure
+-0.729120	treaty stockyards </s>
+-0.990996	tropical africa incidence
+-0.729120	typhus epidemic </s>
+-0.992082	u s agriculture
+-1.327726	un on pops
+-1.518911	uniformity of regulation
+-1.509105	unit in other
+-0.988588	unreasonable adverse effects
+-0.990996	upon imminent hazard
+-0.990996	upton sinclair published
+-1.518581	us and eu
+-0.654754	usda authority to
+-1.067556	usda enforcement in
+-1.371745	usda registration prior
+-0.990996	usda secretary given
+-0.992082	usda staff moved
+-0.990996	use categories created
+-1.431811	use of ddt
+-1.188798	use packaging materials
+-1.280842	uses public non
+-0.897894	values loss of
+-1.371745	vary by latitude
+-0.127061	vermont ny times
+-1.407445	virus days aids
+-1.407445	virus days ffdca
+-0.984572	vs restricted use
+-1.188798	warning hazard extended
+-0.939074	warning labels to
+-0.984572	was passed on
+-0.992082	water air genetic
+-1.333000	water use packaging
+-0.064428	water years </s>
+-1.188798	we have against
+-1.281612	we must take
+-0.957456	were established for
+-0.990996	what do these
+-0.980593	what does a
+-0.729120	where banned </s>
+-0.990996	who gives indoor
+-0.992082	who has approved
+-1.209118	whos global ban
+-1.265679	why ddt in
+-0.815861	wilderness act </s>
+-0.882918	wisconsin use </s>
+-1.470980	with ddt during
+-0.992082	with reduced immunity
+-0.990996	words caution warning
+-1.288199	worker safety cultivated
+-1.288199	worker safety narrative
+-0.992082	worlds population are
+-1.187091	worry about different
+-0.990996	ww ii sanitation
+-1.188798	year review deadline
+-0.992082	york british support
+-0.820920	york times </s>
+-1.711283	york times aug
+-1.183931	york times may
+-1.135511	zero tolerance for
+-0.678187	zimbabwe ppm milk
+
+\end\
