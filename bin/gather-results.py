@@ -26,28 +26,28 @@ def main():
             result['name'] = resultDir
             results.append(result)
 
-    pprint(results)
+    print(json.dumps(results, sort_keys=True, indent=2, separators=(', ', ': ')))
 
-    table = []
-    for result in results:
-        table.append([
-            result['name'],
-            result['words'],
-            percent(result['wrong_words_baseline'], result['words']),
-            percent(result['wrong_words_interpolated'], result['words']),
-            percent(result['wrong_words_baseline'], result['words']),
-            percent(result['wrong_words_interpolated'], result['words'])
+    # table = []
+    # for result in results:
+    #     table.append([
+    #         result['name'],
+    #         result['words'],
+    #         percent(result['wrong_words_baseline'], result['words']),
+    #         percent(result['wrong_words_interpolated'], result['words']),
+    #         percent(result['wrong_words_baseline'], result['words']),
+    #         percent(result['wrong_words_interpolated'], result['words'])
 
-        ])
+    #     ])
 
-    print(tabulate(table, headers=[
-        'Name',
-        'Words',
-        'Wrong words baseline',
-        'Wrong words interpolated',
-        'Interesting Wrong Words Baseline',
-        'WrongI 2',
-        ]))
+    # print(tabulate(table, headers=[
+    #     'Name',
+    #     'Words',
+    #     'Wrong words baseline',
+    #     'Wrong words interpolated',
+    #     'Interesting Wrong Words Baseline',
+    #     'WrongI 2',
+    #     ]))
     # print tabulate(table, headers=["Planet","R (km)", "mass (x 10^29 kg)"])
 
 

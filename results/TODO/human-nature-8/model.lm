@@ -1,0 +1,2323 @@
+
+\data\
+ngram 1=449
+ngram 2=899
+ngram 3=962
+
+\1-grams:
+-1.322615	</s>
+-99	<s>	-0.200007
+-1.882962	a	-0.063354
+-2.828978	able	-0.063354
+-2.705644	about	-0.081220
+-2.828978	accept	-0.063354
+-2.828978	accessible	-0.063354
+-2.828978	account	-0.063354
+-2.828978	accurate	-0.063354
+-2.828978	active	-0.063354
+-2.828978	added	-0.063354
+-2.828978	additional	-0.063354
+-2.828978	admiralstockdale	-0.063354
+-2.275188	adversity	-0.063354
+-2.828978	all	-0.063354
+-2.762660	also	-0.063354
+-2.828978	am	-0.063354
+-2.828978	among	-0.063354
+-2.511189	an	-0.063354
+-1.615890	and	-0.067016
+-2.828978	any	-0.063354
+-2.828978	anything	-0.063354
+-2.828978	appears	-0.063354
+-2.828978	applicable	-0.063354
+-2.828978	apply	-0.063354
+-1.963839	are	-0.098941
+-2.828978	around	-0.063354
+-2.828978	arrested	-0.063354
+-2.275188	as	-0.266953
+-2.123134	at	-0.085804
+-2.828978	avoidance	-0.063354
+-2.828978	b	-0.063354
+-2.762660	background	-0.093552
+-2.828978	bce	-0.063354
+-2.377351	be	-0.063354
+-2.828978	because	-0.063354
+-2.828978	befalls	-0.063354
+-2.828978	behavior	-0.063354
+-2.828978	believed	-0.063354
+-2.828978	benefit	-0.063354
+-2.762660	benefits	-0.063354
+-2.828978	between	-0.063354
+-2.828978	bit	-0.063354
+-2.377351	boethius	-0.063354
+-2.828978	bond	-0.063354
+-2.377351	book	-0.063354
+-2.762660	books	-0.063354
+-2.828978	born	-0.063354
+-2.762660	but	-0.063354
+-2.705644	by	-0.063354
+-2.705644	c	-0.093552
+-2.828978	called	-0.063354
+-2.762660	can	-0.063354
+-2.828978	categories	-0.063354
+-2.511189	ce	-0.063354
+-2.828978	centuries	-0.063354
+-2.828978	cgsc	-0.063354
+-2.828978	changed	-0.063354
+-2.828978	chapter	-0.063354
+-2.828978	charges	-0.063354
+-2.762660	christian	-0.109477
+-2.828978	circumstances	-0.063354
+-2.828978	college	-0.063354
+-2.828978	completely	-0.063354
+-2.828978	complex	-0.063354
+-2.828978	composed	-0.063354
+-2.762660	concepts	-0.063354
+-2.828978	confusing	-0.063354
+-2.828978	confusion	-0.063354
+-2.828978	considered	-0.063354
+-2.828978	consolation	-0.063354
+-2.828978	consolations	-0.063354
+-2.828978	consul	-0.063354
+-2.828978	contents	-0.063354
+-2.828978	context	-0.063354
+-2.762660	coping	-0.063354
+-2.828978	could	-0.063354
+-2.762660	courage	-0.109477
+-2.828978	d	-0.063354
+-2.828978	dan	-0.063354
+-2.828978	decorated	-0.063354
+-2.828978	delivered	-0.063354
+-2.828978	describes	-0.063354
+-2.828978	desiring	-0.063354
+-2.828978	detachment	-0.063354
+-2.828978	details	-0.063354
+-2.828978	determined	-0.063354
+-2.828978	deterministic	-0.063354
+-2.828978	dialogue	-0.063354
+-2.828978	different	-0.063354
+-2.828978	directing	-0.063354
+-2.762660	discussion	-0.063354
+-2.828978	distinguish	-0.063354
+-2.828978	divided	-0.063354
+-2.377351	do	-0.081220
+-2.828978	doctrines	-0.063354
+-2.828978	document	-0.063354
+-2.705644	does	-0.076040
+-2.828978	drawn	-0.063354
+-2.762660	during	-0.109477
+-2.762660	each	-0.063354
+-2.828978	eadings	-0.063354
+-2.762660	early	-0.063354
+-2.828978	ebooks	-0.063354
+-2.828978	effort	-0.063354
+-2.828978	en	-0.063354
+-2.762660	encheiridion	-0.063354
+-2.828978	encourage	-0.063354
+-2.828978	endure	-0.063354
+-2.828978	engaging	-0.063354
+-2.828978	english	-0.063354
+-2.828978	ensures	-0.063354
+-2.828978	entitled	-0.063354
+-2.275188	epictetus	-0.063354
+-2.828978	epictetuss	-0.063354
+-2.828978	equanimity	-0.063354
+-2.828978	equired	-0.063354
+-2.828978	especially	-0.063354
+-2.828978	even	-0.063354
+-2.828978	examples	-0.063354
+-2.828978	excerpts	-0.063354
+-2.828978	executed	-0.063354
+-2.828978	explain	-0.063354
+-2.828978	explicit	-0.063354
+-2.828978	external	-0.063354
+-2.828978	extreme	-0.063354
+-2.828978	face	-0.063354
+-2.828978	false	-0.063354
+-2.828978	family	-0.063354
+-2.828978	famous	-0.063354
+-2.828978	february	-0.063354
+-2.762660	figure	-0.063354
+-2.828978	find	-0.063354
+-2.828978	fire	-0.063354
+-2.828978	first	-0.063354
+-2.705644	five	-0.063354
+-2.828978	flourished	-0.063354
+-2.828978	flourishing	-0.063354
+-2.828978	focus	-0.063354
+-2.828978	focusing	-0.063354
+-2.828978	following	-0.063354
+-2.828978	footnotes	-0.063354
+-2.275188	for	-0.063354
+-2.828978	foreknowledge	-0.063354
+-2.762660	fortune	-0.063354
+-2.762660	fortunes	-0.063354
+-2.828978	found	-0.063354
+-2.828978	four	-0.063354
+-2.828978	free	-0.063354
+-2.377351	from	-0.078191
+-2.762660	full	-0.063354
+-2.828978	gave	-0.063354
+-2.762660	gendler	-0.063354
+-2.828978	gifts	-0.063354
+-2.762660	give	-0.063354
+-2.828978	go	-0.063354
+-2.828978	gods	-0.063354
+-2.762660	good	-0.063354
+-2.828978	great	-0.063354
+-2.828978	growth	-0.063354
+-2.828978	guide	-0.063354
+-2.828978	gutenberg	-0.063354
+-2.828978	h	-0.063354
+-2.828978	hackett	-0.063354
+-2.762660	haidt	-0.063354
+-2.828978	handbook	-0.063354
+-2.828978	hanoi	-0.063354
+-2.705644	happiness	-0.063354
+-2.762660	has	-0.063354
+-2.192540	he	-0.149525
+-2.828978	held	-0.063354
+-2.828978	helped	-0.063354
+-2.828978	hence	-0.063354
+-2.828978	highly	-0.063354
+-2.828978	hilton	-0.063354
+-2.828978	him	-0.063354
+-2.123134	his	-0.063354
+-2.828978	hoa	-0.063354
+-2.275188	how	-0.177649
+-2.762660	http	-0.093552
+-2.762660	human	-0.093552
+-2.828978	hundred	-0.063354
+-2.762660	hypothesis	-0.063354
+-2.705644	i	-0.063354
+-2.828978	if	-0.063354
+-2.828978	ii	-0.063354
+-2.828978	iii	-0.063354
+-2.762660	ill	-0.109477
+-2.762660	implement	-0.063354
+-2.762660	important	-0.063354
+-2.828978	impossible	-0.063354
+-2.828978	imprisoned	-0.063354
+-2.828978	imprisonment	-0.063354
+-1.577720	in	-0.145295
+-2.828978	indianapolis	-0.063354
+-2.828978	indicates	-0.063354
+-2.828978	influence	-0.063354
+-2.828978	influential	-0.063354
+-2.762660	information	-0.109477
+-2.828978	intended	-0.063354
+-2.828978	interact	-0.063354
+-2.828978	interesting	-0.063354
+-2.828978	into	-0.063354
+-2.762660	introduction	-0.109477
+-1.882962	is	-0.063354
+-2.377351	it	-0.120825
+-2.705644	its	-0.063354
+-2.828978	iv	-0.063354
+-2.511189	james	-0.085804
+-2.828978	john	-0.063354
+-2.762660	jonathan	-0.109477
+-2.828978	judgments	-0.063354
+-2.828978	keep	-0.063354
+-2.828978	key	-0.063354
+-2.828978	kings	-0.063354
+-2.762660	knowledge	-0.063354
+-2.828978	la	-0.063354
+-2.762660	laboratory	-0.063354
+-2.828978	late	-0.063354
+-2.828978	latin	-0.063354
+-2.828978	least	-0.063354
+-2.828978	lecture	-0.063354
+-2.828978	less	-0.063354
+-2.828978	levels	-0.063354
+-2.762660	life	-0.109477
+-2.828978	like	-0.063354
+-2.828978	likely	-0.063354
+-2.828978	list	-0.063354
+-2.828978	lived	-0.063354
+-2.828978	lost	-0.063354
+-2.828978	made	-0.063354
+-2.828978	maintain	-0.063354
+-2.828978	maintained	-0.063354
+-2.705644	make	-0.063354
+-2.828978	may	-0.063354
+-2.828978	mcadams	-0.063354
+-2.828978	mccain	-0.063354
+-2.828978	mean	-0.063354
+-2.828978	medieval	-0.063354
+-2.828978	mid	-0.063354
+-2.828978	mind	-0.063354
+-2.762660	more	-0.063354
+-2.762660	most	-0.063354
+-2.828978	movement	-0.063354
+-2.828978	nature	-0.063354
+-2.828978	need	-0.063354
+-2.828978	next	-0.063354
+-2.828978	nicholas	-0.063354
+-2.828978	nicolas	-0.063354
+-2.828978	noble	-0.063354
+-2.377351	not	-0.063354
+-2.828978	notorious	-0.063354
+-2.828978	november	-0.063354
+-2.828978	number	-0.063354
+-2.762660	observation	-0.063354
+-2.828978	observations	-0.063354
+-2.828978	obtain	-0.063354
+-1.542635	of	-0.088676
+-2.828978	offers	-0.063354
+-2.828978	officer	-0.063354
+-2.705644	on	-0.063354
+-2.828978	once	-0.063354
+-2.828978	one	-0.063354
+-2.828978	opening	-0.063354
+-2.828978	optional	-0.063354
+-2.762660	or	-0.063354
+-2.828978	order	-0.063354
+-2.762660	org	-0.063354
+-2.828978	originally	-0.063354
+-2.828978	originated	-0.063354
+-2.828978	other	-0.063354
+-2.828978	otherwise	-0.063354
+-2.762660	our	-0.063354
+-2.828978	outlook	-0.063354
+-2.762660	over	-0.063354
+-2.828978	own	-0.063354
+-2.828978	p	-0.063354
+-2.828978	pace	-0.063354
+-2.828978	page	-0.063354
+-2.828978	pages	-0.063354
+-2.828978	particularly	-0.063354
+-2.762660	passages	-0.109477
+-2.762660	people	-0.063354
+-2.828978	period	-0.063354
+-2.828978	person	-0.063354
+-2.828978	personal	-0.063354
+-2.828978	personality	-0.063354
+-2.828978	personified	-0.063354
+-2.762660	phil	-0.063354
+-2.828978	philosopher	-0.063354
+-2.828978	philosophical	-0.063354
+-2.511189	philosophy	-0.074434
+-2.705644	please	-0.093552
+-2.828978	pointless	-0.063354
+-2.828978	points	-0.063354
+-2.828978	political	-0.063354
+-2.828978	position	-0.063354
+-2.828978	possible	-0.063354
+-2.828978	posted	-0.063354
+-2.762660	posttraumatic	-0.109477
+-2.828978	potential	-0.063354
+-2.828978	pow	-0.063354
+-2.828978	pp	-0.063354
+-2.828978	practical	-0.063354
+-2.828978	previous	-0.063354
+-2.828978	prior	-0.063354
+-2.828978	prison	-0.063354
+-2.828978	prisoner	-0.063354
+-2.828978	proposed	-0.063354
+-2.762660	questions	-0.109477
+-2.705644	r	-0.063354
+-2.511189	read	-0.081220
+-2.377351	reading	-0.089108
+-2.828978	readings	-0.063354
+-2.828978	reappraisal	-0.063354
+-2.828978	reasons	-0.063354
+-2.828978	recommend	-0.063354
+-2.828978	relating	-0.063354
+-2.828978	remainder	-0.063354
+-2.828978	rising	-0.063354
+-2.828978	roman	-0.063354
+-2.828978	rome	-0.063354
+-2.828978	roughly	-0.063354
+-2.828978	s	-0.063354
+-2.762660	say	-0.063354
+-2.828978	says	-0.063354
+-2.828978	sci	-0.063354
+-2.828978	science	-0.063354
+-2.828978	section	-0.063354
+-2.762660	sections	-0.063354
+-2.762660	see	-0.063354
+-2.828978	selection	-0.063354
+-2.762660	selections	-0.063354
+-2.828978	senator	-0.063354
+-2.828978	sense	-0.063354
+-2.828978	seven	-0.063354
+-2.828978	should	-0.063354
+-2.828978	skim	-0.063354
+-2.705644	so	-0.063354
+-2.762660	some	-0.063354
+-2.828978	something	-0.063354
+-2.828978	sorrows	-0.063354
+-2.705644	speech	-0.063354
+-2.828978	spent	-0.063354
+-2.762660	spring	-0.063354
+-2.828978	state	-0.063354
+-2.828978	states	-0.063354
+-2.828978	steady	-0.063354
+-2.705644	stockdale	-0.063354
+-2.828978	stockdales	-0.063354
+-2.762660	stoic	-0.063354
+-2.828978	stoics	-0.063354
+-2.828978	stripped	-0.063354
+-2.828978	strong	-0.063354
+-2.828978	style	-0.063354
+-2.828978	subsequent	-0.063354
+-2.828978	subtitle	-0.063354
+-2.762660	suggestions	-0.063354
+-2.762660	sure	-0.109477
+-2.828978	tacit	-0.063354
+-2.762660	terms	-0.093552
+-2.762660	testing	-0.093552
+-2.762660	text	-0.063354
+-2.762660	th	-0.063354
+-2.828978	than	-0.063354
+-2.010731	that	-0.071384
+-1.400234	the	-0.086476
+-2.762660	their	-0.063354
+-2.705644	them	-0.063354
+-2.828978	themselves	-0.063354
+-2.828978	thereafter	-0.063354
+-2.828978	therefore	-0.063354
+-2.828978	these	-0.063354
+-2.828978	they	-0.063354
+-2.275188	things	-0.076040
+-2.828978	think	-0.063354
+-2.828978	this	-0.063354
+-2.828978	those	-0.063354
+-2.828978	three	-0.063354
+-2.828978	through	-0.063354
+-2.828978	tidy	-0.063354
+-2.762660	time	-0.063354
+-2.828978	title	-0.063354
+-2.828978	titles	-0.063354
+-1.680282	to	-0.074922
+-2.828978	trans	-0.063354
+-2.762660	translation	-0.063354
+-2.828978	treason	-0.063354
+-2.828978	true	-0.063354
+-2.828978	truly	-0.063354
+-2.828978	twice	-0.063354
+-2.828978	two	-0.063354
+-2.828978	under	-0.063354
+-2.828978	underpin	-0.063354
+-2.828978	understand	-0.063354
+-2.762660	understanding	-0.063354
+-2.828978	university	-0.063354
+-2.762660	up	-0.109477
+-2.828978	upsets	-0.063354
+-2.762660	us	-0.063354
+-2.828978	use	-0.063354
+-2.828978	using	-0.063354
+-2.705644	v	-0.163852
+-2.828978	vanity	-0.063354
+-2.828978	versions	-0.063354
+-2.828978	very	-0.063354
+-2.762660	vietnam	-0.063354
+-2.828978	volumes	-0.063354
+-2.762660	war	-0.063354
+-2.192540	was	-0.072195
+-2.828978	way	-0.063354
+-2.705644	we	-0.163852
+-2.828978	weak	-0.063354
+-2.828978	wealth	-0.063354
+-2.828978	website	-0.063354
+-2.828978	week	-0.063354
+-2.377351	what	-0.127281
+-2.828978	whatever	-0.063354
+-2.762660	when	-0.109477
+-2.828978	where	-0.063354
+-2.762660	which	-0.063354
+-2.762660	white	-0.063354
+-2.828978	whites	-0.063354
+-2.705644	who	-0.063354
+-2.511189	why	-0.063354
+-2.828978	wiki	-0.063354
+-2.762660	wikipedia	-0.063354
+-2.762660	will	-0.063354
+-2.828978	willingly	-0.063354
+-2.828978	wise	-0.063354
+-2.828978	wish	-0.063354
+-2.828978	with	-0.063354
+-2.828978	without	-0.063354
+-2.828978	woman	-0.063354
+-2.828978	word	-0.063354
+-2.762660	work	-0.063354
+-2.828978	works	-0.063354
+-2.828978	world	-0.063354
+-2.828978	worry	-0.063354
+-2.705644	would	-0.063354
+-2.828978	writings	-0.063354
+-2.705644	written	-0.093552
+-2.828978	www	-0.063354
+-2.762660	yale	-0.109477
+-2.828978	year	-0.063354
+-2.762660	years	-0.063354
+-2.828978	yes	-0.063354
+-2.010731	you	-0.078191
+-2.828978	your	-0.063354
+
+\2-grams:
+-1.490550	<s> </s>
+-1.800955	<s> a	-0.050862
+-2.489982	<s> all	-0.065714
+-1.273871	<s> as	-0.764684
+-2.071165	<s> b	-0.050862
+-1.292700	<s> background	-0.764684
+-2.305663	<s> be	-0.065714
+-2.305663	<s> boethius	-0.065714
+-2.450595	<s> c	-0.065714
+-2.489982	<s> cgsc	-0.065714
+-2.071165	<s> d	-0.050862
+-2.248045	<s> for	-0.065714
+-2.489982	<s> free	-0.065714
+-1.962522	<s> how	-0.065714
+-2.450595	<s> i	-0.065714
+-2.372111	<s> james	-0.065714
+-2.489982	<s> john	-0.065714
+-2.489982	<s> optional	-0.065714
+-2.469750	<s> our	-0.065714
+-2.063340	<s> passages	-0.050862
+-2.450595	<s> please	-0.065714
+-2.489982	<s> posted	-0.065714
+-2.450595	<s> r	-0.065714
+-1.063370	<s> reading	-0.594931
+-2.489982	<s> readings	-0.065714
+-2.063340	<s> terms	-0.065714
+-1.036530	<s> the	-0.060707
+-1.729868	<s> what	-0.055757
+-2.450595	<s> who	-0.065714
+-1.746548	<s> why	-99
+-2.074409	a bit	-0.065714
+-2.074409	a dialogue	-0.065714
+-1.930691	a epictetus	-0.050862
+-2.074409	a highly	-0.065714
+-2.063647	a laboratory	-0.050862
+-2.074409	a list	-0.065714
+-2.063647	a more	-0.065714
+-2.074409	a noble	-0.065714
+-2.074409	a number	-0.065714
+-2.074409	a pow	-0.065714
+-2.074409	a prisoner	-0.065714
+-2.074409	a sense	-0.065714
+-2.053242	a speech	-0.065714
+-2.074409	a steady	-0.065714
+-2.074409	a tidy	-0.065714
+-2.074409	a very	-0.065714
+-2.074409	a way	-0.065714
+-2.074409	a wise	-0.065714
+-2.074409	a woman	-0.065714
+-0.813094	able to	-0.065714
+-1.476331	about his	-0.065714
+-1.543938	about jonathan	-0.065714
+-0.913179	about the	-0.065714
+-1.543938	about understanding	-0.065714
+-0.863221	accept whatever	-0.065714
+-0.805024	accessible and	-0.065714
+-0.794493	account of	-0.065714
+-0.858862	accurate why	-0.065714
+-0.862552	active coping	-0.065714
+-0.863221	added footnotes	-0.065714
+-0.862552	additional information	-0.065714
+-0.862552	admiralstockdale us	-0.065714
+-1.360990	adversity and	-0.065714
+-1.617702	adversity hypothesis	-0.065714
+-1.342228	adversity in	-0.065714
+-1.621526	adversity interact	-0.065714
+-1.580908	adversity it	-0.065714
+-1.613947	adversity would	-0.065714
+-0.863221	all other	-0.065714
+-1.160209	also added	-0.065714
+-1.160209	also held	-0.065714
+-0.863221	am directing	-0.065714
+-0.769231	among the	-0.065714
+-1.546242	an accessible	-0.065714
+-1.546242	an account	-0.065714
+-1.543025	an early	-0.065714
+-1.546242	an effort	-0.065714
+-1.546242	an influential	-0.065714
+-1.824781	and are	-0.065714
+-2.146550	and concepts	-0.065714
+-2.159499	and consul	-0.065714
+-2.159499	and detachment	-0.065714
+-2.146550	and early	-0.065714
+-2.159499	and engaging	-0.065714
+-2.159499	and examples	-0.065714
+-2.159499	and false	-0.065714
+-2.159499	and flourished	-0.065714
+-2.159499	and gods	-0.065714
+-1.916855	and his	-0.065714
+-1.991253	and how	-0.065714
+-2.146550	and ill	-0.065714
+-2.159499	and imprisoned	-0.065714
+-2.159499	and influence	-0.065714
+-2.134092	and make	-0.065714
+-2.159499	and previous	-0.065714
+-2.146550	and some	-0.065714
+-2.159499	and strong	-0.065714
+-1.278455	and the	-0.764684
+-2.159499	and thereafter	-0.065714
+-1.952463	and was	-0.065714
+-2.081086	and why	-0.065714
+-0.862552	any time	-0.065714
+-0.752383	anything </s>
+-0.799727	appears in	-0.065714
+-0.855856	applicable do	-0.065714
+-0.863221	apply this	-0.065714
+-1.934725	are able	-0.065714
+-1.934725	are drawn	-0.065714
+-1.424589	are not	-0.050862
+-1.934725	are particularly	-0.065714
+-1.860719	are reading	-0.065714
+-0.982097	are the	-0.053792
+-1.567562	are to	-0.065714
+-1.447880	are up	-0.050862
+-1.934725	are using	-0.065714
+-0.863221	around bce	-0.065714
+-0.861889	arrested on	-0.065714
+-0.369079	as a	-0.065714
+-1.388175	as the	-0.065714
+-1.607881	as you	-99
+-1.557319	at a	-0.065714
+-1.740312	at any	-0.065714
+-1.635483	at his	-0.065714
+-1.243197	at http	-0.065714
+-1.740312	at kings	-0.065714
+-1.244726	at least	-0.065714
+-0.862552	avoidance coping	-0.065714
+-0.858862	b james	-0.050862
+-1.077785	background </s>
+-0.824089	background information	-0.050862
+-0.805024	bce and	-0.065714
+-1.414955	be a	-0.065714
+-1.546242	be different	-0.065714
+-1.546242	be found	-0.065714
+-1.525624	be read	-0.065714
+-1.543025	be sure	-0.065714
+-0.813094	because to	-0.065714
+-0.861889	befalls them	-0.065714
+-1.145734	behavior do	-0.065714
+-1.042294	behavior in	-0.065714
+-0.841129	believed that	-0.065714
+-0.855856	benefit from	-0.065714
+-0.962628	benefits </s>
+-1.033186	benefits of	-0.065714
+-0.855856	between boethius	-0.065714
+-0.863221	bit confusing	-0.065714
+-1.318065	boethius and	-0.065714
+-1.511840	boethius book	-0.065714
+-1.543025	boethius has	-0.065714
+-1.210872	boethius the	-0.065714
+-1.485519	boethius was	-0.065714
+-0.861889	bond stockdale	-0.065714
+-1.539861	book i	-0.065714
+-1.546242	book ii	-0.065714
+-1.546242	book iii	-0.065714
+-1.546242	book iv	-0.065714
+-1.539861	book v	-0.065714
+-1.160209	books if	-0.065714
+-0.990307	books the	-0.065714
+-0.813094	born to	-0.065714
+-1.145734	but do	-0.065714
+-1.158883	but their	-0.065714
+-1.332295	by dan	-0.065714
+-1.332295	by h	-0.065714
+-1.328384	by its	-0.065714
+-0.818366	c boethius	-0.050862
+-1.321206	c ce	-0.065714
+-0.863221	called hanoi	-0.065714
+-1.145734	can be	-0.065714
+-1.160209	can find	-0.065714
+-0.752383	categories </s>
+-1.260715	ce and	-0.065714
+-1.453265	ce born	-0.065714
+-1.403602	ce he	-0.065714
+-1.450666	ce when	-0.065714
+-0.855856	centuries from	-0.065714
+-0.862552	cgsc phil	-0.065714
+-0.849905	changed he	-0.065714
+-0.863221	chapter pp	-0.050862
+-0.794493	charges of	-0.065714
+-0.647407	christian philosophy	-0.065714
+-0.752383	circumstances </s>
+-0.863221	college november	-0.065714
+-0.863221	completely determined	-0.065714
+-0.863221	complex philosophical	-0.065714
+-0.852870	composed as	-0.065714
+-1.063669	concepts </s>
+-1.179306	concepts and	-0.065714
+-1.098901	concepts the	-0.065714
+-0.841129	confusing you	-0.065714
+-0.752383	confusion </s>
+-0.863221	considered one	-0.065714
+-0.794493	consolation of	-0.050862
+-0.794493	consolations of	-0.050862
+-0.799727	consul in	-0.065714
+-0.855856	contents book	-0.065714
+-0.841129	context you	-0.065714
+-1.160209	coping explicit	-0.065714
+-1.160209	coping reappraisal	-0.065714
+-0.862552	could implement	-0.065714
+-0.649810	courage under	-99
+-0.862552	d jonathan	-0.050862
+-0.863221	dan mcadams	-0.065714
+-0.862552	decorated vietnam	-0.065714
+-0.846960	delivered at	-0.065714
+-0.852870	describes how	-0.065714
+-0.841129	desiring that	-0.065714
+-0.752383	detachment </s>
+-0.752383	details </s>
+-0.861889	determined by	-0.065714
+-0.861889	deterministic its	-0.065714
+-0.863221	dialogue between	-0.065714
+-0.863221	different because	-0.065714
+-0.841129	directing you	-0.065714
+-0.962628	discussion </s>
+-1.145734	discussion what	-0.065714
+-0.863221	distinguish among	-0.065714
+-0.863221	divided into	-0.065714
+-1.513907	do not	-0.065714
+-1.540895	do please	-0.065714
+-1.540895	do so	-0.065714
+-1.012249	do you	-0.050862
+-0.799727	doctrines in	-0.050862
+-0.852870	document for	-0.065714
+-1.622599	does adversity	-0.065714
+-1.166748	does epictetus	-0.065714
+-1.681086	does haidt	-0.050862
+-1.605918	does he	-0.065714
+-1.658015	does philosophy	-0.050862
+-1.676868	does stockdale	-0.065714
+-0.855856	drawn from	-0.065714
+-0.640789	during his	-0.065714
+-0.962628	each </s>
+-1.033186	each of	-0.065714
+-0.861889	eadings r	-0.065714
+-1.158883	early christian	-0.065714
+-1.158883	early th	-0.065714
+-0.752383	ebooks </s>
+-0.813094	effort to	-0.065714
+-0.862552	en wikipedia	-0.065714
+-0.990307	encheiridion the	-0.065714
+-1.160209	encheiridion trans	-0.065714
+-0.841129	encourage you	-0.065714
+-0.852870	endure adversity	-0.065714
+-0.863221	engaging style	-0.065714
+-0.863221	english word	-0.065714
+-0.862552	ensures understanding	-0.065714
+-0.862552	entitled courage	-0.065714
+-1.675858	epictetus c	-0.065714
+-1.684610	epictetus helped	-0.065714
+-1.374244	epictetus in	-0.050862
+-1.684610	epictetus mean	-0.065714
+-1.684610	epictetus opening	-0.065714
+-1.555601	epictetus that	-0.065714
+-1.269384	epictetus the	-0.050862
+-0.863221	epictetuss doctrines	-0.050862
+-0.862552	equanimity during	-0.065714
+-0.752383	equired </s>
+-0.861889	especially on	-0.065714
+-0.799727	even in	-0.065714
+-0.752383	examples </s>
+-0.849905	excerpts was	-0.065714
+-0.752383	executed </s>
+-0.863221	explain points	-0.065714
+-0.862552	explicit knowledge	-0.065714
+-0.863221	external world	-0.065714
+-0.863221	extreme circumstances	-0.065714
+-0.794493	face of	-0.065714
+-0.855856	false book	-0.065714
+-0.849905	family he	-0.065714
+-0.862552	famous work	-0.065714
+-0.752383	february </s>
+-1.033186	figure of	-0.065714
+-1.160209	figure rising	-0.065714
+-0.769231	find the	-0.065714
+-0.862552	fire testing	-0.055757
+-0.863221	first four	-0.065714
+-1.330326	five books	-0.065714
+-1.332295	five hundred	-0.065714
+-1.332295	five practical	-0.065714
+-0.852870	flourished for	-0.065714
+-0.805024	flourishing and	-0.065714
+-0.861889	focus on	-0.050862
+-0.863221	focusing especially	-0.065714
+-1.330326	following questions	-99
+-1.330326	following sections	-0.065714
+-1.330326	following terms	-0.065714
+-0.841129	footnotes that	-0.065714
+-1.218180	for </s>
+-1.512766	for a	-0.065714
+-1.680192	for background	-0.065714
+-1.684610	for february	-0.065714
+-1.680192	for over	-0.065714
+-1.684610	for something	-0.065714
+-1.620201	for things	-0.065714
+-0.752383	foreknowledge </s>
+-1.063669	fortune </s>
+-1.310953	fortune book	-0.065714
+-1.247480	fortune is	-0.065714
+-1.160209	fortunes changed	-0.065714
+-1.160209	fortunes gifts	-0.065714
+-0.846960	found at	-0.065714
+-0.862552	four books	-0.065714
+-0.862552	free will	-0.065714
+-1.567752	from adversity	-0.065714
+-1.567752	from epictetus	-0.065714
+-1.622309	from roughly	-0.065714
+-0.968567	from the	-0.065714
+-1.618606	from which	-0.065714
+-1.393154	full at	-0.065714
+-1.453265	full focusing	-0.065714
+-1.448106	full its	-0.065714
+-1.450666	full text	-0.065714
+-0.799727	gave in	-0.065714
+-1.151614	gendler philosophy	-99
+-1.158883	gendler yale	-0.065714
+-0.855856	gifts book	-0.065714
+-1.128559	give his	-0.065714
+-1.117474	give you	-0.065714
+-0.863221	go otherwise	-0.065714
+-0.863221	gods foreknowledge	-0.065714
+-1.051597	good and	-0.065714
+-1.158883	good fortune	-0.065714
+-0.852870	great adversity	-0.065714
+-0.962628	growth </s>
+-1.160209	growth active	-0.065714
+-1.332295	guide flourishing	-0.065714
+-1.302492	guide for	-0.065714
+-1.330326	guide gendler	-99
+-0.862552	gutenberg org	-0.065714
+-0.861889	h r	-0.065714
+-0.752383	hackett </s>
+-1.330326	haidt say	-0.065714
+-1.330326	haidt see	-0.065714
+-1.098901	haidt the	-0.050862
+-1.124637	handbook </s>
+-1.453265	handbook appears	-0.065714
+-1.344381	handbook is	-0.065714
+-1.165435	handbook the	-0.065714
+-0.863221	hanoi hilton	-0.065714
+-1.179306	happiness and	-0.065714
+-1.330326	happiness hypothesis	-0.050862
+-1.247480	happiness is	-0.065714
+-1.158883	has also	-0.065714
+-1.145734	has not	-0.065714
+-1.792295	he apply	-0.065714
+-1.792295	he describes	-0.065714
+-1.792295	he gave	-0.065714
+-1.792295	he recommend	-0.065714
+-1.792295	he says	-0.065714
+-0.656750	he was	-0.065714
+-0.852870	held as	-0.065714
+-0.863221	helped him	-0.065714
+-0.769231	hence the	-0.065714
+-0.863221	highly decorated	-0.065714
+-0.863221	hilton where	-0.065714
+-0.813094	him to	-0.065714
+-1.859100	his discussion	-0.065714
+-1.865788	his famous	-0.065714
+-1.859100	his fortunes	-0.065714
+-1.865788	his imprisonment	-0.065714
+-1.865788	his lecture	-0.065714
+-1.859100	his life	-0.065714
+-1.865788	his mid	-99
+-1.865788	his personal	-0.065714
+-1.865788	his subsequent	-0.065714
+-1.859100	his time	-0.065714
+-1.865788	his wealth	-0.065714
+-0.863221	hoa la	-0.065714
+-1.690884	how applicable	-0.065714
+-0.554620	how does	-0.058225
+-1.684044	how happiness	-0.065714
+-1.338924	how the	-0.065714
+-1.333099	http en	-0.065714
+-0.824661	http www	-0.065714
+-1.333099	human behavior	-0.065714
+-0.824661	human nature	-0.764684
+-0.862552	hundred years	-0.065714
+-1.160209	hypothesis chapter	-0.050862
+-1.160209	hypothesis weak	-0.065714
+-1.332295	i am	-0.065714
+-1.332295	i encourage	-0.065714
+-1.098901	i the	-0.065714
+-0.841129	if you	-0.065714
+-0.769231	ii the	-0.065714
+-0.863221	iii true	-0.065714
+-0.649442	ill fortune	-0.065714
+-1.042294	implement in	-0.065714
+-1.160209	implement those	-0.065714
+-1.157574	important please	-0.065714
+-1.160209	important works	-0.065714
+-0.832527	impossible a	-0.065714
+-0.769231	imprisoned the	-0.065714
+-0.863221	imprisonment composed	-0.065714
+-1.587118	in a	-0.055757
+-2.140691	in an	-0.065714
+-2.140691	in ce	-0.065714
+-2.215502	in context	-0.065714
+-2.203192	in each	-0.065714
+-2.215502	in entitled	-0.065714
+-1.751020	in full	-0.065714
+-1.111559	in his	-0.667774
+-2.095344	in it	-0.065714
+-2.215502	in latin	-0.065714
+-2.215502	in mind	-99
+-2.215502	in nicholas	-0.065714
+-2.215502	in order	-0.065714
+-2.215502	in rome	-0.065714
+-0.861794	in the	-0.060707
+-2.215502	in themselves	-0.065714
+-2.203192	in vietnam	-0.065714
+-2.215502	in your	-0.065714
+-0.863221	indianapolis hackett	-0.065714
+-0.769231	indicates the	-0.065714
+-0.862552	influence can	-0.065714
+-0.863221	influential political	-0.065714
+-0.649077	information about	-0.065714
+-0.852870	intended as	-0.065714
+-0.863221	interact with	-0.065714
+-0.863221	interesting document	-0.065714
+-0.861889	into five	-0.065714
+-0.621521	introduction to	-0.065714
+-1.691118	is a	-0.065714
+-1.985879	is accurate	-0.065714
+-1.968539	is by	-0.065714
+-1.985879	is completely	-0.065714
+-1.985879	is considered	-0.065714
+-1.985879	is deterministic	-0.065714
+-1.985879	is divided	-0.065714
+-1.985879	is intended	-0.065714
+-1.897086	is not	-0.065714
+-1.470776	is of	-0.065714
+-1.985879	is pointless	-0.065714
+-1.985879	is possible	-0.065714
+-1.362135	is the	-0.065714
+-1.567120	is to	-0.065714
+-1.968539	is written	-0.065714
+-1.494750	it he	-0.065714
+-0.702284	it is	-0.065714
+-1.548675	it offers	-0.065714
+-1.247480	its a	-0.065714
+-1.332295	its prior	-0.065714
+-1.332295	its state	-0.065714
+-0.862552	iv good	-0.065714
+-1.269143	james and	-0.065714
+-1.454062	james bond	-0.065714
+-0.946824	james stockdale	-0.055757
+-0.863221	john mccain	-0.065714
+-0.649442	jonathan haidt	-0.055757
+-0.861889	judgments about	-0.065714
+-0.799727	keep in	-99
+-0.813094	key to	-0.065714
+-0.863221	kings college	-0.065714
+-0.962628	knowledge </s>
+-1.160209	knowledge tacit	-0.065714
+-0.863221	la prison	-0.065714
+-1.063669	laboratory </s>
+-1.154775	laboratory of	-0.050862
+-1.328384	laboratory speech	-0.065714
+-1.160209	late medieval	-0.065714
+-1.158883	late th	-0.065714
+-0.769231	latin the	-0.065714
+-1.160209	least once	-0.065714
+-1.160209	least twice	-0.065714
+-0.769231	lecture the	-0.065714
+-0.863221	less extreme	-0.065714
+-0.794493	levels of	-0.065714
+-0.616834	life and	-0.065714
+-0.813094	like to	-0.065714
+-0.813094	likely to	-0.065714
+-0.794493	list of	-0.065714
+-0.799727	lived in	-0.065714
+-0.863221	lost anything	-0.065714
+-0.799727	made in	-0.065714
+-0.863221	maintain equanimity	-0.065714
+-0.855856	maintained it	-0.065714
+-1.247480	make a	-0.065714
+-1.319581	make an	-0.065714
+-1.330326	make sure	-0.065714
+-0.855856	may be	-0.065714
+-0.805024	mcadams and	-0.065714
+-0.849905	mccain was	-0.065714
+-0.862552	mean when	-0.065714
+-0.863221	medieval period	-0.065714
+-0.863221	mid s	-0.065714
+-0.769231	mind the	-99
+-1.160209	more complex	-0.065714
+-1.160209	more use	-0.065714
+-1.158883	most important	-0.065714
+-1.160209	most likely	-0.065714
+-0.863221	movement originated	-0.065714
+-1.158883	nature gendler	-0.065714
+-1.158883	nature spring	-99
+-0.813094	need to	-0.065714
+-1.160209	next week	-0.065714
+-1.160209	next year	-0.065714
+-0.863221	nicholas whites	-0.065714
+-0.863221	nicolas p	-0.065714
+-0.863221	noble roman	-0.065714
+-1.165800	not </s>
+-1.546242	not need	-0.065714
+-1.498480	not things	-0.065714
+-1.546242	not truly	-0.065714
+-1.543025	not up	-0.050862
+-0.863221	notorious hoa	-0.065714
+-0.861889	november v	-0.065714
+-0.794493	number of	-0.065714
+-1.042294	observation in	-0.065714
+-1.117474	observation that	-0.065714
+-0.838243	observations are	-0.065714
+-0.863221	obtain these	-0.065714
+-1.361814	of </s>
+-2.045416	of adversity	-0.065714
+-2.091506	of boethius	-0.065714
+-2.201602	of c	-0.065714
+-2.215469	of christian	-0.065714
+-2.045416	of epictetus	-0.065714
+-2.201602	of five	-0.065714
+-2.215469	of fortunes	-0.065714
+-2.229932	of great	-0.065714
+-1.667419	of his	-0.065714
+-2.045416	of how	-0.065714
+-1.775339	of human	-0.527984
+-2.215469	of more	-0.065714
+-2.229932	of personality	-0.065714
+-1.455633	of philosophy	-0.059713
+-2.229932	of potential	-0.065714
+-2.091506	of reading	-0.050862
+-2.229932	of reasons	-0.065714
+-2.229932	of senator	-0.065714
+-1.187406	of the	-0.065714
+-2.229932	of treason	-0.065714
+-2.215469	of war	-0.065714
+-2.215469	of which	-0.065714
+-0.858862	offers an	-0.065714
+-0.861889	officer who	-0.065714
+-1.332295	on charges	-0.065714
+-1.332295	on pages	-0.065714
+-1.330326	on passages	-0.050862
+-0.799727	once in	-0.065714
+-0.794493	one of	-0.065714
+-0.862552	opening observation	-0.065714
+-0.861889	optional make	-0.065714
+-1.128559	or at	-0.065714
+-1.151614	or why	-0.065714
+-0.813094	order to	-0.065714
+-1.160209	org ebooks	-0.065714
+-1.160209	org wiki	-0.065714
+-0.861889	originally written	-0.065714
+-0.863221	originated around	-0.065714
+-0.862552	other sections	-0.065714
+-0.863221	otherwise hence	-0.065714
+-1.158883	our selections	-0.065714
+-1.158883	our translation	-0.065714
+-0.855856	outlook it	-0.065714
+-1.157574	over five	-0.065714
+-0.990307	over the	-0.065714
+-0.862552	own life	-0.065714
+-0.862552	p white	-0.065714
+-0.752383	pace </s>
+-0.794493	page of	-0.058225
+-0.862552	pages but	-0.065714
+-0.862552	particularly important	-0.065714
+-0.621521	passages to	-0.050862
+-1.101361	people is	-0.065714
+-1.158883	people most	-0.065714
+-0.752383	period </s>
+-0.861889	person would	-0.065714
+-0.863221	personal website	-0.065714
+-0.863221	personality proposed	-0.065714
+-0.852870	personified as	-0.065714
+-1.158883	phil phil	-0.065714
+-1.160209	phil sci	-0.065714
+-0.852870	philosopher epictetus	-0.065714
+-0.863221	philosophical outlook	-0.065714
+-1.427485	philosophy and	-99
+-1.227399	philosophy from	-0.065714
+-1.739542	philosophy personified	-0.065714
+-1.734657	philosophy say	-0.050862
+-1.734657	philosophy selections	-0.050862
+-1.650237	philosophy was	-0.065714
+-1.729871	philosophy who	-0.065714
+-1.329443	please make	-0.065714
+-0.820937	please read	-0.050862
+-0.813094	pointless to	-0.065714
+-0.794493	points of	-0.065714
+-0.862552	political figure	-0.065714
+-0.794493	position of	-0.065714
+-0.863221	possible even	-0.065714
+-0.752383	posted </s>
+-0.649810	posttraumatic growth	-0.065714
+-0.863221	potential confusion	-0.065714
+-0.863221	pow additional	-0.065714
+-0.752383	pp </s>
+-0.862552	practical suggestions	-0.065714
+-0.862552	previous discussion	-0.065714
+-0.863221	prior states	-0.065714
+-0.769231	prison the	-0.065714
+-0.794493	prisoner of	-0.065714
+-0.861889	proposed by	-0.065714
+-0.585373	questions </s>
+-1.332295	r eadings	-0.065714
+-1.332295	r equired	-0.065714
+-1.319581	r james	-0.065714
+-1.476331	read at	-0.065714
+-0.913179	read the	-0.055757
+-1.540895	read them	-0.065714
+-1.547032	read through	-99
+-1.686163	reading excerpts	-0.065714
+-1.187957	reading guide	-0.542836
+-1.522080	reading is	-0.065714
+-1.686163	reading pace	-0.065714
+-1.186626	reading questions	-99
+-0.852870	readings for	-0.065714
+-0.863221	reappraisal avoidance	-0.065714
+-0.752383	reasons </s>
+-0.863221	recommend relating	-0.065714
+-0.813094	relating to	-0.065714
+-0.794493	remainder of	-0.065714
+-0.813094	rising to	-0.065714
+-0.863221	roman family	-0.065714
+-0.799727	rome in	-0.065714
+-0.858862	roughly ce	-0.065714
+-1.179306	s and	-0.065714
+-1.286051	s his	-0.065714
+-1.166867	s in	-0.065714
+-1.262499	say are	-0.065714
+-1.247480	say is	-0.065714
+-1.270209	say that	-0.065714
+-0.855856	says what	-0.065714
+-0.862552	sci human	-0.065714
+-0.794493	science of	-99
+-0.852870	section how	-0.065714
+-1.262499	sections are	-0.065714
+-1.332295	sections may	-0.065714
+-1.332295	sections should	-0.065714
+-0.990307	see the	-0.065714
+-1.157574	see them	-0.065714
+-1.160209	selection keep	-99
+-1.157574	selection we	-0.065714
+-1.112037	selections are	-0.065714
+-1.157574	selections v	-0.050862
+-0.799727	senator in	-0.065714
+-0.794493	sense of	-0.065714
+-0.862552	seven years	-0.065714
+-0.855856	should be	-0.065714
+-0.752383	skim </s>
+-1.332295	so called	-0.065714
+-1.247480	so is	-0.065714
+-1.332295	so they	-0.065714
+-1.112037	some are	-0.065714
+-1.139933	some things	-0.065714
+-0.863221	something impossible	-0.065714
+-0.794493	sorrows of	-0.065714
+-1.332295	speech delivered	-0.065714
+-1.166867	speech in	-0.050862
+-1.270209	speech that	-0.065714
+-0.863221	spent seven	-0.065714
+-0.962628	spring </s>
+-1.158883	spring yale	-99
+-0.846960	state at	-0.065714
+-0.861889	states so	-0.065714
+-0.855856	steady reading	-0.065714
+-1.450666	stockdale courage	-0.050862
+-1.450666	stockdale give	-0.065714
+-1.403602	stockdale was	-0.065714
+-1.453265	stockdale yes	-0.065714
+-0.863221	stockdales observations	-0.065714
+-1.063669	stoic </s>
+-1.332295	stoic movement	-0.065714
+-1.332295	stoic philosopher	-0.065714
+-0.863221	stoics believed	-0.065714
+-0.794493	stripped of	-0.065714
+-0.863221	strong versions	-0.065714
+-0.752383	style </s>
+-0.805024	subsequent and	-0.065714
+-1.101361	subtitle is	-0.065714
+-1.158883	subtitle testing	-0.065714
+-1.145734	suggestions from	-0.065714
+-1.158883	suggestions over	-0.065714
+-0.637518	sure that	-0.050862
+-0.862552	tacit knowledge	-0.065714
+-0.774513	terms and	-0.050862
+-1.331259	terms concepts	-0.065714
+-1.305186	testing epictetus	-0.050862
+-0.824661	testing epictetuss	-0.050862
+-1.128559	text at	-0.065714
+-1.042294	text in	-0.065714
+-1.051597	th and	-0.065714
+-1.160209	th centuries	-0.065714
+-0.862552	than good	-0.065714
+-1.666337	that are	-0.065714
+-1.798652	that boethius	-0.065714
+-1.866538	that ensures	-0.065714
+-1.866538	that explain	-0.065714
+-1.749929	that he	-0.065714
+-1.859960	that ill	-0.065714
+-1.859960	that some	-0.065714
+-1.336316	that the	-0.065714
+-1.773607	that things	-0.065714
+-1.311673	that you	-0.065714
+-2.166444	the adversity	-0.065714
+-2.030706	the consolation	-0.050862
+-2.030706	the consolations	-0.050862
+-2.410799	the encheiridion	-0.065714
+-2.433815	the english	-0.065714
+-2.433815	the external	-0.065714
+-2.433815	the face	-0.065714
+-2.410799	the figure	-0.065714
+-2.433815	the first	-0.065714
+-1.736191	the following	-0.423734
+-2.410799	the full	-0.065714
+-1.736191	the handbook	-0.065714
+-2.389142	the happiness	-0.050862
+-2.433815	the key	-0.065714
+-2.410799	the laboratory	-0.065714
+-2.030706	the late	-0.065714
+-2.410799	the most	-0.065714
+-2.030706	the next	-0.065714
+-2.433815	the notorious	-0.065714
+-2.410799	the people	-0.065714
+-2.433815	the position	-0.065714
+-2.228788	the reading	-0.065714
+-2.433815	the remainder	-0.065714
+-2.433815	the science	-99
+-2.030706	the selection	-0.764684
+-2.389142	the so	-0.065714
+-2.433815	the sorrows	-0.065714
+-2.389142	the speech	-0.050862
+-2.021463	the stoic	-0.065714
+-2.433815	the stoics	-0.065714
+-2.030706	the subtitle	-0.065714
+-2.410799	the text	-0.065714
+-1.904798	the things	-0.055757
+-2.433815	the three	-0.065714
+-2.433815	the title	-0.065714
+-2.433815	the titles	-0.065714
+-2.410799	the translation	-0.065714
+-2.433815	the two	-0.065714
+-2.433815	the vanity	-0.065714
+-2.433815	the volumes	-0.065714
+-2.410799	the wikipedia	-0.065714
+-2.410799	the work	-0.065714
+-2.433815	the writings	-0.065714
+-1.160209	their details	-0.065714
+-1.160209	their judgments	-0.065714
+-1.286051	them at	-0.065714
+-1.166867	them in	-0.065714
+-1.332295	them without	-0.065714
+-0.862552	themselves but	-0.065714
+-0.752383	thereafter </s>
+-0.863221	therefore accept	-0.065714
+-0.862552	these benefits	-0.065714
+-0.863221	they maintained	-0.065714
+-1.544947	things are	-0.065714
+-1.685386	things go	-0.065714
+-1.066227	things in	-0.065714
+-1.685386	things section	-0.065714
+-1.559406	things that	-0.050862
+-1.432776	things to	-0.065714
+-1.160209	think stockdales	-0.065714
+-0.990307	think the	-0.065714
+-0.862552	this observation	-0.065714
+-0.862552	those suggestions	-0.065714
+-1.158883	three benefits	-0.065714
+-1.160209	three levels	-0.065714
+-0.769231	through the	-99
+-0.862552	tidy introduction	-0.065714
+-1.042294	time in	-0.065714
+-1.101361	time is	-0.065714
+-0.863221	title indicates	-0.065714
+-0.794493	titles of	-0.065714
+-1.517215	to a	-0.065714
+-2.025432	to be	-0.065714
+-2.145738	to benefit	-0.065714
+-2.145738	to distinguish	-0.065714
+-2.025432	to do	-0.065714
+-2.145738	to focus	-0.050862
+-2.133410	to implement	-0.065714
+-2.145738	to less	-0.065714
+-2.145738	to maintain	-0.065714
+-2.145738	to obtain	-0.065714
+-2.133410	to our	-0.065714
+-2.133410	to posttraumatic	-0.065714
+-2.070830	to read	-0.065714
+-2.133410	to see	-0.065714
+-2.145738	to skim	-0.050862
+-1.276873	to the	-0.065714
+-1.984334	to things	-0.065714
+-2.133410	to us	-0.065714
+-1.685645	to wish	-0.050862
+-2.145738	to worry	-0.065714
+-0.863221	trans nicolas	-0.065714
+-1.157574	translation we	-0.065714
+-1.158883	translation white	-0.065714
+-0.805024	treason and	-0.065714
+-0.861889	true happiness	-0.065714
+-0.863221	truly lost	-0.065714
+-0.752383	twice </s>
+-0.863221	two categories	-0.065714
+-0.863221	under fire	-99
+-0.769231	underpin the	-0.065714
+-0.805024	understand and	-0.065714
+-0.962628	understanding </s>
+-1.158883	understanding their	-0.065714
+-1.160209	university page	-99
+-1.158883	university spring	-0.065714
+-0.621521	up to	-99
+-0.862552	upsets people	-0.065714
+-1.165800	us </s>
+-1.318065	us and	-0.065714
+-1.498480	us how	-0.065714
+-1.546242	us underpin	-0.065714
+-1.511840	us what	-0.065714
+-0.863221	use than	-0.065714
+-0.832527	using is	-0.065714
+-0.459794	v </s>
+-0.794493	vanity of	-0.065714
+-0.862552	versions posttraumatic	-0.065714
+-0.863221	very interesting	-0.065714
+-1.051597	vietnam and	-0.065714
+-1.158883	vietnam war	-0.065714
+-0.863221	volumes contents	-0.065714
+-1.042294	war in	-0.065714
+-1.160209	war officer	-0.065714
+-1.607982	was a	-0.065714
+-1.822857	was also	-0.065714
+-1.326303	was an	-0.065714
+-1.828881	was executed	-0.065714
+-1.444116	was in	-0.065714
+-1.828881	was made	-0.065714
+-1.828881	was originally	-0.065714
+-1.828881	was stripped	-0.065714
+-1.816970	was written	-0.065714
+-0.841129	way that	-0.065714
+-0.492508	we are	-0.055757
+-0.805024	weak and	-0.065714
+-0.863221	wealth arrested	-0.065714
+-0.862552	website http	-0.065714
+-0.752383	week </s>
+-0.781869	what are	-99
+-1.120664	what does	-0.055757
+-1.624724	what upsets	-0.065714
+-0.863221	whatever befalls	-0.065714
+-0.642434	when he	-0.065714
+-0.752383	where </s>
+-1.157574	which we	-0.065714
+-1.158883	which will	-0.065714
+-1.158883	white has	-0.065714
+-1.160209	white indianapolis	-0.065714
+-0.862552	whites introduction	-0.065714
+-1.262499	who are	-0.065714
+-1.332295	who lived	-0.065714
+-1.332295	who spent	-0.065714
+-1.448106	why does	-0.055757
+-1.425284	why not	-0.065714
+-1.450666	why or	-0.065714
+-1.425284	why what	-0.065714
+-0.858862	wiki james	-0.065714
+-1.158883	wikipedia or	-0.065714
+-1.158883	wikipedia org	-0.065714
+-1.051597	will and	-0.065714
+-1.158883	will give	-0.065714
+-0.863221	willingly endure	-0.065714
+-0.863221	wise person	-0.065714
+-0.852870	wish for	-0.065714
+-0.862552	with each	-0.065714
+-0.863221	without desiring	-0.065714
+-0.855856	woman it	-0.065714
+-0.862552	word stoic	-0.065714
+-1.158883	work encheiridion	-0.065714
+-1.101361	work is	-0.065714
+-0.794493	works of	-0.065714
+-0.832527	world is	-0.065714
+-0.861889	worry about	-0.065714
+-1.332295	would like	-0.065714
+-1.332295	would therefore	-0.065714
+-1.270209	would you	-0.065714
+-0.794493	writings of	-0.065714
+-1.331259	written during	-0.065714
+-0.769903	written in	-0.065714
+-1.160209	www admiralstockdale	-0.065714
+-1.160209	www gutenberg	-0.065714
+-0.649810	yale university	-0.764684
+-0.858862	year ce	-0.065714
+-1.139933	years as	-0.065714
+-0.990307	years the	-0.065714
+-0.861889	yes i	-0.065714
+-1.652726	you a	-0.065714
+-1.894353	you can	-0.065714
+-1.901365	you could	-0.065714
+-1.829311	you do	-0.065714
+-1.401096	you read	-0.764684
+-1.901365	you think	-0.065714
+-1.263002	you to	-0.065714
+-1.901365	you understand	-0.065714
+-1.901365	you willingly	-0.065714
+-1.887515	you would	-0.065714
+-0.863221	your own	-0.065714
+
+\3-grams:
+-0.917390	<s> a epictetus
+-0.588045	<s> all other
+-1.454479	<s> as the
+-0.094614	<s> as you
+-0.631486	<s> b james
+-0.089177	<s> background </s>
+-1.268726	<s> background information
+-0.782412	<s> be sure
+-0.773335	<s> boethius was
+-0.567008	<s> c boethius
+-0.587739	<s> cgsc phil
+-0.633426	<s> d jonathan
+-0.800320	<s> for background
+-0.587739	<s> free will
+-1.056875	<s> how applicable
+-0.508766	<s> how does
+-0.743728	<s> i encourage
+-0.767928	<s> james bond
+-0.588045	<s> john mccain
+-0.587437	<s> optional make
+-0.698877	<s> our selections
+-0.490604	<s> passages to
+-0.568245	<s> please read
+-0.533960	<s> posted </s>
+-0.743728	<s> r eadings
+-0.136218	<s> reading guide
+-1.317739	<s> reading questions
+-0.583293	<s> readings for
+-0.668211	<s> terms and
+-0.957425	<s> terms concepts
+-1.501614	<s> the consolation
+-1.501614	<s> the consolations
+-1.277353	<s> the following
+-1.501614	<s> the selection
+-1.499219	<s> the stoic
+-0.716374	<s> what are
+-0.852960	<s> what does
+-0.727259	<s> who are
+0.000000	<s> why does
+-0.588045	a bit confusing
+-0.588045	a dialogue between
+-0.800373	a epictetus the
+-0.588045	a highly decorated
+-0.762458	a laboratory of
+-0.555340	a list of
+-0.699272	a more complex
+-0.588045	a noble roman
+-0.555340	a number of
+-0.588045	a pow additional
+-0.555340	a prisoner of
+-0.555340	a sense of
+-0.729179	a speech that
+-0.584670	a steady reading
+-0.587739	a tidy introduction
+-0.588045	a very interesting
+-0.577828	a way that
+-0.588045	a wise person
+-0.584670	a woman it
+-0.833965	able to distinguish
+-0.817268	about his life
+-0.477419	about jonathan haidt
+-1.105729	about the stoic
+-1.091981	about the things
+-0.698877	about understanding their
+-0.588045	accept whatever befalls
+-0.834533	accessible and engaging
+-0.829259	account of how
+-0.767325	accurate why or
+-0.699272	active coping reappraisal
+-0.577828	added footnotes that
+-0.477208	additional information about
+-0.700927	admiralstockdale us </s>
+-0.831052	adversity and why
+-0.699272	adversity hypothesis weak
+-0.836676	adversity in order
+-0.588045	adversity interact with
+-0.507197	adversity it is
+-0.729179	adversity would you
+-0.587739	all other sections
+-0.588045	also added footnotes
+-0.583293	also held as
+-0.577828	am directing you
+-0.806317	among the following
+-0.560528	an accessible and
+-0.555340	an account of
+-0.698877	an early christian
+-0.564459	an effort to
+-0.588045	an influential political
+-0.822720	and are able
+-0.840292	and concepts </s>
+-0.858041	and concepts the
+-0.557926	and consul in
+-0.533960	and detachment </s>
+-0.698877	and early th
+-0.588045	and engaging style
+-0.533960	and examples </s>
+-0.584670	and false book
+-0.583293	and flourished for
+-0.588045	and gods foreknowledge
+-0.817786	and his famous
+-0.420080	and how does
+-0.477419	and ill fortune
+-0.542637	and imprisoned the
+-0.587739	and influence can
+-0.740877	and make an
+-0.587739	and previous discussion
+-0.684379	and some are
+-0.588045	and strong versions
+-1.541334	and the figure
+-0.096566	and the science
+-0.533960	and thereafter </s>
+-0.814832	and was made
+-0.762692	and why what
+-0.680922	any time is
+-0.836676	appears in nicholas
+-0.649774	applicable do you
+-0.587739	apply this observation
+-0.564459	are able to
+-0.584670	are drawn from
+-0.866486	are not up
+-0.587739	are particularly important
+-1.055928	are reading excerpts
+-1.017523	are reading is
+-1.501481	are the people
+-1.258003	are the things
+-1.323666	are the three
+-0.833965	are to less
+-0.490604	are up to
+-0.573774	are using is
+-0.560528	around bce and
+-0.743728	arrested on charges
+-1.451899	as a dialogue
+-1.451899	as a pow
+-1.451899	as a prisoner
+-1.451899	as a tidy
+-1.451899	as a woman
+-0.842885	as the title
+0.000000	as you read
+-0.830727	at a steady
+-0.587739	at any time
+-0.817786	at his personal
+-0.958093	at http en
+-0.701312	at http www
+-0.588045	at kings college
+-0.887226	at least once
+-0.887226	at least twice
+-0.699272	avoidance coping explicit
+-0.675612	b james stockdale
+-0.508538	background information about
+-0.834533	bce and flourished
+-0.830727	be a bit
+-0.588045	be different because
+-0.580552	be found at
+-0.771789	be read at
+-0.470482	be sure that
+-0.828191	because to do
+-0.743728	befalls them without
+-0.649774	behavior do you
+-0.831730	behavior in it
+-0.744616	believed that the
+-0.786012	benefit from adversity
+-0.829259	benefits of adversity
+-0.740533	between boethius and
+-0.577828	bit confusing you
+-0.731204	boethius and the
+-0.782890	boethius book ii
+-0.694916	boethius has not
+-1.106684	boethius the consolation
+-1.106684	boethius the consolations
+-0.742392	boethius was an
+-0.758556	bond stockdale was
+-0.680118	book i the
+-0.542637	book ii the
+-0.588045	book iii true
+-0.587739	book iv good
+-0.357921	book v </s>
+-0.577828	books if you
+-0.842885	books the titles
+-0.778463	born to a
+-0.782093	but do please
+-0.699272	but their judgments
+-0.588045	by dan mcadams
+-0.587437	by h r
+-0.743728	by its prior
+-0.781852	c boethius the
+-0.726811	c ce and
+-0.588045	called hanoi hilton
+-0.782890	can be found
+-0.542637	can find the
+-0.821510	ce and his
+-0.564459	ce born to
+-0.481632	ce he was
+-0.473352	ce when he
+-0.793358	centuries from roughly
+-0.698877	cgsc phil phil
+-0.481632	changed he was
+-0.572146	chapter pp </s>
+-0.837186	charges of treason
+-0.916747	christian philosophy from
+-1.064384	christian philosophy who
+-0.587437	college november v
+-0.587437	completely determined by
+-0.588045	complex philosophical outlook
+-0.294240	composed as a
+-0.834533	concepts and examples
+-0.834814	concepts the adversity
+-0.814867	confusing you do
+-0.555340	considered one of
+-0.848720	consolation of philosophy
+-0.848720	consolations of philosophy
+-0.684225	consul in his
+-0.781938	contents book i
+-0.819919	context you can
+-0.587739	coping explicit knowledge
+-0.588045	coping reappraisal avoidance
+-0.660742	could implement in
+0.000000	courage under fire
+-0.508773	d jonathan haidt
+-0.560528	dan mcadams and
+-0.698877	decorated vietnam war
+-0.806731	delivered at kings
+-0.745188	describes how the
+-0.809953	desiring that things
+-0.742858	determined by its
+-0.743728	deterministic its state
+-0.584670	dialogue between boethius
+-0.564459	different because to
+-0.727385	directing you to
+-0.549038	discussion what are
+-0.542637	distinguish among the
+-0.587437	divided into five
+-0.782890	do not need
+-0.568245	do please read
+-0.723446	do so is
+-0.914781	do you think
+-0.874412	doctrines in a
+-0.777762	document for a
+-0.793258	does adversity interact
+-1.055615	does epictetus mean
+-1.055615	does epictetus opening
+-0.817899	does haidt say
+-1.075318	does he apply
+-1.075318	does he recommend
+-0.896526	does philosophy say
+-0.767325	does stockdale give
+-0.632959	drawn from the
+-1.086615	during his imprisonment
+-1.085653	during his time
+-0.707184	each of the
+-0.743728	eadings r equired
+-0.476241	early christian philosophy
+-0.699272	early th centuries
+-0.833441	effort to implement
+-0.698877	en wikipedia org
+-0.806317	encheiridion the handbook
+-0.588045	encheiridion trans nicolas
+-0.727385	encourage you to
+-0.745910	endure adversity in
+-0.533960	engaging style </s>
+-0.587739	english word stoic
+-0.630592	ensures understanding </s>
+-0.477633	entitled courage under
+-0.741245	epictetus c ce
+-0.588045	epictetus helped him
+-0.633029	epictetus in the
+-0.587739	epictetus mean when
+-0.587739	epictetus opening observation
+-0.739071	epictetus that you
+-0.896724	epictetus the handbook
+-0.599325	epictetuss doctrines in
+-0.472393	equanimity during his
+-0.743728	especially on pages
+-0.587393	even in the
+-0.813828	excerpts was written
+-0.555340	explain points of
+-0.699272	explicit knowledge tacit
+-0.573774	external world is
+-0.533960	extreme circumstances </s>
+-0.837186	face of great
+-0.782890	false book iv
+-0.481632	family he was
+-0.698877	famous work encheiridion
+-0.768206	figure of philosophy
+-0.564459	figure rising to
+-0.842364	find the full
+-0.930942	fire testing epictetus
+-0.748347	fire testing epictetuss
+-0.587739	first four books
+-0.641458	five books the
+-0.587739	five hundred years
+-0.587739	five practical suggestions
+-0.800320	flourished for over
+-0.834533	flourishing and detachment
+-0.817899	focus on passages
+-0.587437	focusing especially on
+0.000000	following questions </s>
+-0.931158	following sections are
+-0.957802	following sections may
+-0.545323	following terms and
+-0.817844	footnotes that explain
+-0.830727	for a number
+-0.569756	for background information
+-0.533960	for february </s>
+-0.698487	for over five
+-0.588045	for something impossible
+-0.764082	for things to
+-0.781938	fortune book v
+-0.770842	fortune is of
+-0.581920	fortunes changed he
+-0.584670	fortunes gifts book
+-0.722340	found at http
+-0.699272	four books if
+-0.664041	free will and
+-0.749927	from adversity and
+-0.784264	from epictetus that
+-0.586051	from roughly ce
+-1.134444	from the first
+-1.106684	from the late
+-0.698487	from which we
+-0.784514	full at a
+-0.588045	full focusing especially
+-0.723446	full its a
+-0.689616	full text at
+-0.836676	gave in entitled
+0.000000	gendler philosophy and
+-0.477633	gendler yale university
+-0.782890	gifts book iii
+-0.817786	give his lecture
+-0.797118	give you a
+-0.588045	go otherwise hence
+-0.533960	gods foreknowledge </s>
+-0.833999	good and ill
+-0.668254	good fortune </s>
+-0.787857	great adversity it
+-0.587739	growth active coping
+-0.560528	guide flourishing and
+-0.715719	guide for </s>
+0.000000	guide gendler philosophy
+-0.699272	gutenberg org ebooks
+-0.740877	h r james
+-0.931158	haidt say are
+-0.925075	haidt say is
+-0.641458	haidt see the
+-0.942532	haidt the happiness
+-0.557926	handbook appears in
+-0.825937	handbook is intended
+-0.842364	handbook the encheiridion
+-0.588045	hanoi hilton where
+-0.834533	happiness and false
+-0.764409	happiness hypothesis chapter
+-0.825937	happiness is possible
+-0.699272	has also added
+-0.782890	has not truly
+-0.588045	he apply this
+-0.583293	he describes how
+-0.557926	he gave in
+-0.588045	he recommend relating
+-0.584670	he says what
+-1.121165	he was an
+-1.320098	he was executed
+-1.180322	he was in
+-1.320098	he was stripped
+-0.294240	held as a
+-0.564459	helped him to
+-0.842885	hence the english
+-0.587739	highly decorated vietnam
+-0.533960	hilton where </s>
+-0.833965	him to maintain
+-0.694916	his discussion what
+-0.587739	his famous work
+-0.699272	his fortunes changed
+-0.588045	his imprisonment composed
+-0.542637	his lecture the
+-0.458260	his life and
+0.000000	his mid s
+-0.588045	his personal website
+-0.560528	his subsequent and
+-0.660742	his time in
+-0.588045	his wealth arrested
+-0.588045	hoa la prison
+-0.584670	how applicable do
+-1.252132	how does adversity
+-1.023764	how does epictetus
+-1.113912	how does he
+-0.723446	how happiness is
+-0.842885	how the writings
+-0.587739	http en wikipedia
+-0.887226	http www admiralstockdale
+-0.887226	http www gutenberg
+-0.880530	human behavior do
+-0.829175	human behavior in
+-1.397847	human nature gendler
+-0.090484	human nature spring
+-0.641458	hundred years the
+-0.633777	hypothesis chapter pp
+-0.560528	hypothesis weak and
+-0.588045	i am directing
+-0.577828	i encourage you
+-0.842885	i the sorrows
+-0.819420	if you would
+-0.842885	ii the vanity
+-0.587437	iii true happiness
+-0.949935	ill fortune book
+-0.925075	ill fortune is
+-0.836676	implement in your
+-0.587739	implement those suggestions
+-0.743094	important please make
+-0.555340	important works of
+-0.830727	impossible a wise
+-0.828477	imprisoned the next
+-0.583293	imprisonment composed as
+-1.090046	in a laboratory
+-1.265862	in a way
+-0.782890	in an accessible
+-0.767325	in ce when
+-0.577828	in context you
+-0.657468	in each of
+-0.587739	in entitled courage
+-1.088463	in full at
+-1.113071	in full focusing
+-1.111038	in full its
+-0.123247	in his mid
+-1.419846	in his subsequent
+-0.774861	in it he
+-0.542637	in latin the
+0.000000	in mind the
+-0.588045	in nicholas whites
+-0.564459	in order to
+-0.557926	in rome in
+-1.575021	in the face
+-1.395603	in the laboratory
+-1.501614	in the late
+-1.575021	in the notorious
+-1.572185	in the work
+-0.587739	in themselves but
+-0.664041	in vietnam and
+-0.588045	in your own
+-0.533960	indianapolis hackett </s>
+-0.806317	indicates the handbook
+-0.694916	influence can be
+-0.587739	influential political figure
+-1.121985	information about his
+-1.146461	information about jonathan
+-0.818765	information about the
+-0.294240	intended as a
+-0.587739	interact with each
+-0.583293	interesting document for
+-0.743290	into five books
+-1.016209	introduction to a
+-1.116152	introduction to our
+-0.829664	is a speech
+-0.586051	is accurate why
+-0.743728	is by h
+-0.588045	is completely determined
+-0.588045	is considered one
+-0.587437	is deterministic its
+-0.588045	is divided into
+-0.583293	is intended as
+-0.775470	is not things
+-0.836674	is of more
+-0.564459	is pointless to
+-0.588045	is possible even
+-0.842885	is the key
+-0.800935	is to wish
+-0.542980	is written in
+-0.811666	it he describes
+-1.254247	it is considered
+-1.254247	it is pointless
+-1.251435	it is written
+-0.586051	it offers an
+-0.830727	its a very
+-0.588045	its prior states
+-0.580552	its state at
+-0.664041	iv good and
+-0.823876	james and was
+-0.587437	james bond stockdale
+-0.979486	james stockdale courage
+-1.109134	james stockdale yes
+-0.581920	john mccain was
+-1.055941	jonathan haidt see
+-0.842490	jonathan haidt the
+-0.610123	judgments about the
+0.000000	keep in mind
+-0.833441	key to posttraumatic
+-0.588045	kings college november
+-0.587739	knowledge tacit knowledge
+-0.542637	la prison the
+-0.901570	laboratory of human
+-0.743728	laboratory speech delivered
+-0.588045	late medieval period
+-0.664041	late th and
+-0.842364	latin the translation
+-0.557926	least once in
+-0.533960	least twice </s>
+-0.828477	lecture the subtitle
+-0.588045	less extreme circumstances
+-0.837186	levels of personality
+-1.118248	life and influence
+-1.116208	life and make
+-0.833441	like to see
+-0.833965	likely to benefit
+-0.836168	list of five
+-0.836676	lived in rome
+-0.533960	lost anything </s>
+-0.587393	made in the
+-0.587739	maintain equanimity during
+-0.507197	maintained it is
+-0.830727	make a list
+-0.782890	make an effort
+-0.470482	make sure that
+-0.760742	may be a
+-0.826255	mcadams and how
+-0.814327	mccain was also
+-0.473352	mean when he
+-0.533960	medieval period </s>
+-0.984264	mid s and
+-1.039556	mid s his
+-0.977396	mid s in
+0.000000	mind the following
+-0.588045	more complex philosophical
+-0.588045	more use than
+-0.699272	most important works
+-0.564459	most likely to
+-0.588045	movement originated around
+-0.698877	nature gendler yale
+0.000000	nature spring yale
+-0.833965	need to worry
+-0.533960	next week </s>
+-0.586051	next year ce
+-0.587739	nicholas whites introduction
+-0.587739	nicolas p white
+-0.588045	noble roman family
+-0.564459	not need to
+-0.669137	not things in
+-0.588045	not truly lost
+-0.490604	not up to
+-0.588045	notorious hoa la
+-0.357921	november v </s>
+-0.837186	number of reasons
+-0.684225	observation in his
+-0.817335	observation that some
+-0.785985	observations are to
+-0.587739	obtain these benefits
+-0.792283	of adversity would
+-0.777615	of boethius book
+-0.567008	of c boethius
+-0.476241	of christian philosophy
+-0.800819	of epictetus helped
+-0.743728	of five practical
+-0.699272	of fortunes gifts
+-0.583293	of great adversity
+-1.085653	of his discussion
+-1.086615	of his wealth
+-0.800755	of how happiness
+-1.295776	of human behavior
+-0.148091	of human nature
+-0.699272	of more use
+-0.588045	of personality proposed
+-1.098473	of philosophy from
+-1.356938	of philosophy personified
+-1.219952	of philosophy selections
+-1.322530	of philosophy was
+-0.588045	of potential confusion
+-0.773671	of reading questions
+-0.533960	of reasons </s>
+-0.557926	of senator in
+-1.299772	of the most
+-1.301266	of the two
+-1.301266	of the volumes
+-0.560528	of treason and
+-0.660742	of war in
+-0.698877	of which will
+-0.782890	offers an account
+-0.743728	officer who spent
+-0.555340	on charges of
+-0.587739	on pages but
+-0.490604	on passages to
+-0.788711	once in a
+-0.707184	one of the
+-0.686117	opening observation that
+-0.723446	optional make a
+-0.795015	or at his
+-0.762692	or why not
+-0.833965	order to obtain
+-0.533960	org ebooks </s>
+-0.586051	org wiki james
+-0.542980	originally written in
+-0.588045	originated around bce
+-0.743728	other sections should
+-0.542637	otherwise hence the
+-0.684379	our selections are
+-0.698877	our translation white
+-0.507197	outlook it is
+-0.743728	over five hundred
+-0.828477	over the next
+-0.458260	own life and
+-0.699272	p white indianapolis
+-1.135959	page of </s>
+-1.391443	page of c
+-1.205216	page of reading
+-0.694916	pages but do
+-0.698487	particularly important please
+-1.210294	passages to focus
+-1.210294	passages to skim
+-0.820116	people is not
+-0.699272	people most likely
+-0.743728	person would therefore
+-0.587739	personal website http
+-0.587437	personality proposed by
+-0.294240	personified as a
+-0.699272	phil phil sci
+-0.587739	phil sci human
+-0.799827	philosopher epictetus c
+-0.584670	philosophical outlook it
+0.000000	philosophy and the
+-0.788825	philosophy from the
+-1.041452	philosophy from which
+-0.583293	philosophy personified as
+-0.800622	philosophy say that
+-0.763465	philosophy selections v
+-0.814832	philosophy was originally
+-0.743728	philosophy who lived
+-0.743290	please make sure
+-0.659260	please read the
+-0.800935	pointless to wish
+-0.837186	points of potential
+-0.699272	political figure rising
+-0.837186	position of senator
+-0.557926	possible even in
+-0.785439	posttraumatic growth </s>
+-0.887226	posttraumatic growth active
+-0.533960	potential confusion </s>
+-0.587739	pow additional information
+-0.694916	practical suggestions from
+-0.630592	previous discussion </s>
+-0.587437	prior states so
+-0.841849	prison the so
+-0.836674	prisoner of war
+-0.743728	proposed by dan
+-0.587437	r eadings r
+-0.533960	r equired </s>
+-0.728915	r james and
+-0.722736	read at least
+-1.111999	read the speech
+-1.299102	read the text
+-0.733043	read them at
+0.000000	read through the
+-0.581920	reading excerpts was
+-1.434923	reading guide flourishing
+-1.423870	reading guide for
+-0.167454	reading guide gendler
+-0.801545	reading is a
+-0.533960	reading pace </s>
+0.000000	reading questions </s>
+-0.800819	readings for february
+-0.587739	reappraisal avoidance coping
+-0.564459	recommend relating to
+-0.825845	relating to things
+-0.798853	remainder of his
+-0.730817	rising to the
+-0.581920	roman family he
+-0.587393	rome in the
+-0.767787	roughly ce born
+-0.834533	s and consul
+-0.817268	s his fortunes
+-0.833752	s in ce
+-0.638278	say are the
+-0.750168	say is the
+-1.076360	say that boethius
+-1.085777	say that ill
+-0.793665	says what upsets
+-0.570030	sci human nature
+0.000000	science of human
+-0.420080	section how does
+-0.822720	sections are particularly
+-0.584670	sections may be
+-0.584670	sections should be
+-0.837146	see the reading
+-0.701242	see them in
+0.000000	selection keep in
+-0.379891	selection we are
+-0.822720	selections are drawn
+-0.377703	selections v </s>
+-0.684225	senator in his
+-0.707184	sense of the
+-0.693142	seven years as
+-0.779771	should be read
+-0.588045	so called hanoi
+-0.785922	so is to
+-0.588045	so they maintained
+-0.762562	some are not
+-0.782698	some things are
+-0.573774	something impossible a
+-0.831550	sorrows of boethius
+-0.580552	speech delivered at
+-0.898605	speech in full
+-0.807685	speech that he
+-0.587739	spent seven years
+0.000000	spring yale university
+-0.806731	state at any
+-0.743728	states so they
+-0.800993	steady reading pace
+-0.509010	stockdale courage under
+-0.689616	stockdale give his
+-0.791506	stockdale was a
+-0.587437	stockdale yes i
+-0.576472	stockdales observations are
+-0.588045	stoic movement originated
+-0.583293	stoic philosopher epictetus
+-0.577828	stoics believed that
+-0.798853	stripped of his
+-0.587739	strong versions posttraumatic
+-0.834533	subsequent and previous
+-0.825937	subtitle is accurate
+-0.570030	subtitle testing epictetuss
+-0.786012	suggestions from epictetus
+-0.641458	suggestions over the
+-0.812720	sure that you
+-0.630592	tacit knowledge </s>
+-0.932317	terms and concepts
+-0.704864	terms concepts and
+-0.829469	testing epictetus in
+-0.633777	testing epictetuss doctrines
+-0.722340	text at http
+-0.807792	text in full
+-0.833999	th and early
+-0.584670	th centuries from
+-0.698877	than good fortune
+-0.989075	that are not
+-0.996286	that are up
+-0.782412	that boethius has
+-0.587739	that ensures understanding
+-0.588045	that explain points
+-0.811666	that he gave
+-0.477419	that ill fortune
+-0.693142	that some things
+-0.842885	that the external
+-0.800906	that things go
+-1.239618	that you could
+-1.091830	that you read
+-1.239618	that you understand
+-0.792768	the adversity hypothesis
+-0.596382	the consolation of
+-0.596382	the consolations of
+-0.699272	the encheiridion trans
+-0.588045	the english word
+-0.588045	the external world
+-0.555340	the face of
+-0.657468	the figure of
+-0.588045	the first four
+-0.229851	the following questions
+-1.308091	the following sections
+-1.423918	the following terms
+-0.767325	the full text
+-1.001660	the handbook </s>
+-1.184582	the handbook appears
+-1.130761	the handbook is
+-1.027640	the handbook the
+-0.817899	the happiness hypothesis
+-0.564459	the key to
+-0.840292	the laboratory </s>
+-0.956378	the laboratory speech
+-0.887226	the late medieval
+-0.886618	the late th
+-0.698877	the most important
+-0.887226	the next week
+-0.887226	the next year
+-0.588045	the notorious hoa
+-0.698877	the people most
+-0.555340	the position of
+-0.707341	the reading guide
+-0.555340	the remainder of
+0.000000	the science of
+-0.090504	the selection keep
+-1.397457	the selection we
+-0.743728	the so called
+-0.555340	the sorrows of
+-0.766778	the speech in
+-0.957802	the stoic movement
+-0.957802	the stoic philosopher
+-0.588045	the stoics believed
+-0.859254	the subtitle is
+-0.886618	the subtitle testing
+-0.660742	the text in
+-1.187379	the things section
+-1.009061	the things that
+-0.886618	the three benefits
+-0.887226	the three levels
+-0.588045	the title indicates
+-0.555340	the titles of
+-0.698487	the translation we
+-0.588045	the two categories
+-0.555340	the vanity of
+-0.588045	the volumes contents
+-0.698877	the wikipedia or
+-0.680922	the work is
+-0.555340	the writings of
+-0.533960	their details </s>
+-0.587437	their judgments about
+-0.722736	them at least
+-0.836676	them in context
+-0.588045	them without desiring
+-0.698877	themselves but their
+-0.588045	therefore accept whatever
+-0.630592	these benefits </s>
+-0.584670	they maintained it
+-0.766827	things are up
+-0.588045	things go otherwise
+-1.121510	things in each
+-1.122375	things in themselves
+-0.583293	things section how
+-0.887076	things that are
+-0.828191	things to be
+-0.588045	think stockdales observations
+-0.828477	think the subtitle
+-0.660742	this observation in
+-0.698877	those suggestions over
+-0.657468	three benefits of
+-0.555340	three levels of
+0.000000	through the selection
+-0.461050	tidy introduction to
+-0.836227	time in vietnam
+-0.825937	time is completely
+-0.542637	title indicates the
+-0.836674	titles of which
+-1.109944	to a more
+-1.110962	to a noble
+-0.782890	to be different
+-0.584670	to benefit from
+-0.588045	to distinguish among
+-0.782093	to do so
+-0.633079	to focus on
+-0.699272	to implement those
+-0.588045	to less extreme
+-0.588045	to maintain equanimity
+-0.588045	to obtain these
+-0.698877	to our translation
+-0.477633	to posttraumatic growth
+-0.610123	to read the
+-0.698487	to see them
+-0.572146	to skim </s>
+-1.134444	to the position
+-1.133425	to the wikipedia
+-0.669137	to things in
+-1.116730	to us and
+-1.204935	to us how
+-1.225176	to us underpin
+-1.210726	to us what
+-0.628318	to wish for
+-0.587437	to worry about
+-0.588045	trans nicolas p
+-0.379891	translation we are
+-0.698877	translation white has
+-0.834533	treason and imprisoned
+-0.704864	true happiness and
+-0.588045	truly lost anything
+-0.533960	two categories </s>
+0.000000	under fire testing
+-0.842885	underpin the remainder
+-0.814489	understand and are
+-0.699272	understanding their details
+0.000000	university page of
+-0.630592	university spring </s>
+0.000000	up to us
+-0.680922	upsets people is
+-0.833999	us and some
+-0.420080	us how does
+-0.542637	us underpin the
+-0.549038	us what are
+-0.587739	use than good
+-0.824886	using is by
+-0.836674	vanity of fortunes
+-0.477633	versions posttraumatic growth
+-0.588045	very interesting document
+-0.834533	vietnam and thereafter
+-0.699272	vietnam war officer
+-0.584670	volumes contents book
+-0.587393	war in the
+-0.587437	war officer who
+-0.830727	was a highly
+-0.699272	was also held
+-1.023058	was an early
+-1.023891	was an influential
+-0.533960	was executed </s>
+-0.684225	was in his
+-0.557926	was made in
+-0.587437	was originally written
+-0.555340	was stripped of
+-0.743498	was written during
+-0.817844	way that ensures
+-1.066519	we are reading
+-1.243907	we are using
+-0.834533	weak and strong
+-0.587437	wealth arrested on
+-0.570030	website http www
+0.000000	what are the
+-0.971768	what does epictetus
+-1.036175	what does haidt
+-0.587739	what upsets people
+-0.587437	whatever befalls them
+-1.075318	when he says
+-0.585564	when he was
+-0.379891	which we are
+-0.698877	which will give
+-0.698877	white has also
+-0.588045	white indianapolis hackett
+-0.461050	whites introduction to
+-0.638278	who are the
+-0.557926	who lived in
+-0.588045	who spent seven
+-1.031480	why does philosophy
+-1.184982	why does stockdale
+-0.700927	why not </s>
+-0.696698	why or why
+-0.687131	why what does
+-0.624198	wiki james stockdale
+-0.689616	wikipedia or at
+-0.699272	wikipedia org wiki
+-0.834533	will and gods
+-0.686117	will give you
+-0.583293	willingly endure adversity
+-0.587437	wise person would
+-1.055615	wish for something
+-1.041814	wish for things
+-0.630592	with each </s>
+-0.577828	without desiring that
+-0.783250	woman it offers
+-0.668254	word stoic </s>
+-0.641458	work encheiridion the
+-0.825937	work is divided
+-0.836674	works of christian
+-0.825937	world is deterministic
+-0.782548	worry about understanding
+-0.564459	would like to
+-0.588045	would therefore accept
+-0.820423	would you willingly
+-0.829259	writings of epictetus
+-0.472393	written during his
+-1.116748	written in an
+-1.122375	written in latin
+-0.587739	www admiralstockdale us
+-0.587739	www gutenberg org
+-0.090504	yale university page
+-1.397847	yale university spring
+-0.758556	year ce he
+-0.294240	years as a
+-0.842885	years the stoics
+-0.743728	yes i am
+-0.830727	you a sense
+-0.699272	you can find
+-0.587739	you could implement
+-0.777942	you do not
+-1.481063	you read them
+-0.094270	you read through
+-0.887226	you think stockdales
+-0.801045	you think the
+-1.110626	you to read
+-0.936862	you to the
+-0.560528	you understand and
+-0.588045	you willingly endure
+-0.743728	you would like
+-0.587739	your own life
+
+\end\

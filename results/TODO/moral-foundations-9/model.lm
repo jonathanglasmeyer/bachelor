@@ -1,0 +1,3225 @@
+
+\data\
+ngram 1=542
+ngram 2=1264
+ngram 3=1406
+
+\1-grams:
+-1.371220	</s>
+-99	<s>	-0.159944
+-1.805776	a	-0.085190
+-3.025989	ability	-0.068866
+-3.025989	absence	-0.068866
+-3.025989	absolute	-0.068866
+-3.025989	abundantly	-0.068866
+-3.025989	accomplished	-0.068866
+-2.949816	according	-0.173866
+-3.025989	accordingly	-0.068866
+-2.949816	activity	-0.068866
+-3.025989	advance	-0.068866
+-2.340695	after	-0.101125
+-3.025989	afternoon	-0.068866
+-3.025989	alien	-0.068866
+-3.025989	alienation	-0.068866
+-2.525595	all	-0.068866
+-2.949816	also	-0.068866
+-3.025989	alternative	-0.068866
+-3.025989	although	-0.068866
+-3.025989	american	-0.068866
+-2.659525	amount	-0.112137
+-2.211418	an	-0.214902
+-3.025989	anarchy	-0.068866
+-1.480900	and	-0.104477
+-2.525595	another	-0.068866
+-3.025989	antithesis	-0.068866
+-2.525595	any	-0.068866
+-3.025989	application	-0.068866
+-2.211418	are	-0.068866
+-2.949816	argument	-0.068866
+-3.025989	around	-0.068866
+-1.828321	as	-0.155006
+-3.025989	assumptions	-0.068866
+-2.423378	at	-0.150737
+-3.025989	average	-0.068866
+-3.025989	back	-0.068866
+-3.025989	banners	-0.068866
+-3.025989	base	-0.068866
+-3.025989	based	-0.068866
+-3.025989	basic	-0.068866
+-3.025989	basis	-0.068866
+-2.340695	be	-0.068866
+-2.949816	because	-0.068866
+-2.949816	become	-0.068866
+-2.949816	becomes	-0.068866
+-3.025989	becoming	-0.068866
+-3.025989	been	-0.068866
+-3.025989	beginning	-0.068866
+-3.025989	behind	-0.068866
+-2.659525	being	-0.068866
+-3.025989	belong	-0.068866
+-3.025989	belongs	-0.068866
+-2.949816	between	-0.068866
+-3.025989	biography	-0.068866
+-3.025989	birth	-0.068866
+-3.025989	birthmarks	-0.068866
+-3.025989	blood	-0.068866
+-2.659525	bourgeois	-0.135974
+-3.025989	branch	-0.068866
+-3.025989	brought	-0.068866
+-2.211418	but	-0.068866
+-3.025989	butterfly	-0.068866
+-3.025989	buy	-0.068866
+-2.340695	by	-0.101125
+-2.423378	c	-0.135974
+-2.271264	can	-0.068866
+-3.025989	cannot	-0.068866
+-3.025989	capacity	-0.068866
+-2.949816	capital	-0.068866
+-3.025989	capitalism	-0.068866
+-2.949816	capitalist	-0.068866
+-2.949816	case	-0.068866
+-3.025989	cattle	-0.068866
+-3.025989	ceases	-0.068866
+-2.949816	certificate	-0.068866
+-3.025989	challenge	-0.068866
+-3.025989	check	-0.068866
+-2.949816	chief	-0.068866
+-3.025989	children	-0.068866
+-2.949816	circulation	-0.068866
+-2.659525	class	-0.068866
+-3.025989	classical	-0.068866
+-3.025989	cleavage	-0.068866
+-3.025989	co	-0.068866
+-3.025989	come	-0.068866
+-2.949816	comes	-0.068866
+-2.949816	commodities	-0.068866
+-2.525595	commodity	-0.107875
+-3.025989	common	-0.068866
+-3.025989	communism	-0.068866
+-2.949816	communist	-0.173866
+-3.025989	competition	-0.068866
+-2.949816	conception	-0.173866
+-3.025989	conditioned	-0.068866
+-3.025989	conditions	-0.068866
+-3.025989	connected	-0.068866
+-3.025989	consciousness	-0.068866
+-2.949816	consider	-0.068866
+-3.025989	consist	-0.068866
+-3.025989	consists	-0.068866
+-3.025989	constant	-0.068866
+-3.025989	constantly	-0.068866
+-2.525595	consumption	-0.118200
+-3.025989	content	-0.068866
+-3.025989	contrary	-0.068866
+-2.949816	contribution	-0.173866
+-3.025989	contributions	-0.068866
+-3.025989	controlled	-0.068866
+-3.025989	corn	-0.068866
+-3.025989	cost	-0.068866
+-3.025989	creation	-0.068866
+-3.025989	crisis	-0.068866
+-3.025989	critic	-0.068866
+-3.025989	critical	-0.068866
+-3.025989	criticize	-0.068866
+-3.025989	criticthe	-0.068866
+-2.949816	critique	-0.068866
+-3.025989	crossed	-0.068866
+-3.025989	cultural	-0.068866
+-3.025989	dead	-0.068866
+-3.025989	deal	-0.068866
+-2.949816	declining	-0.173866
+-3.025989	deducting	-0.068866
+-3.025989	deductions	-0.068866
+-3.025989	deed	-0.068866
+-3.025989	defects	-0.068866
+-2.949816	defined	-0.068866
+-3.025989	definite	-0.068866
+-3.025989	definition	-0.068866
+-3.025989	degree	-0.068866
+-3.025989	determined	-0.068866
+-2.949816	developed	-0.173866
+-2.949816	development	-0.068866
+-3.025989	did	-0.068866
+-3.025989	differences	-0.068866
+-3.025989	different	-0.068866
+-3.025989	dinner	-0.068866
+-3.025989	disillusionment	-0.068866
+-3.025989	dissipated	-0.068866
+-3.025989	divided	-0.068866
+-2.949816	division	-0.173866
+-2.659525	do	-0.068866
+-2.659525	does	-0.118200
+-3.025989	domination	-0.068866
+-3.025989	dont	-0.068866
+-3.025989	draws	-0.068866
+-3.025989	duration	-0.068866
+-2.525595	each	-0.118200
+-3.025989	early	-0.068866
+-3.025989	earth	-0.068866
+-3.025989	economic	-0.068866
+-3.025989	economically	-0.068866
+-3.025989	economy	-0.068866
+-3.025989	elimination	-0.068866
+-2.949816	else	-0.068866
+-3.025989	emerged	-0.068866
+-3.025989	emergence	-0.068866
+-3.025989	emerges	-0.068866
+-3.025989	end	-0.068866
+-3.025989	endowment	-0.068866
+-3.025989	english	-0.068866
+-3.025989	enlightenment	-0.068866
+-3.025989	enslaves	-0.068866
+-3.025989	enslaving	-0.068866
+-3.025989	entirety	-0.068866
+-2.659525	equal	-0.101125
+-2.949816	equality	-0.068866
+-3.025989	equivalents	-0.068866
+-3.025989	escape	-0.068866
+-3.025989	evening	-0.068866
+-3.025989	evenly	-0.068866
+-3.025989	ever	-0.068866
+-2.949816	every	-0.068866
+-2.949816	everyone	-0.068866
+-3.025989	everything	-0.068866
+-3.025989	exactly	-0.068866
+-3.025989	example	-0.068866
+-2.340695	exchange	-0.144878
+-2.949816	exclusive	-0.173866
+-2.949816	exists	-0.068866
+-3.025989	explain	-0.068866
+-2.525595	exploitation	-0.068866
+-3.025989	exploitometer	-0.068866
+-2.949816	fact	-0.068866
+-3.025989	failure	-0.068866
+-3.025989	fairly	-0.068866
+-3.025989	feminist	-0.068866
+-3.025989	first	-0.068866
+-3.025989	fish	-0.068866
+-2.949816	fisherman	-0.068866
+-3.025989	flow	-0.068866
+-3.025989	foolishly	-0.068866
+-2.211418	for	-0.090104
+-3.025989	forced	-0.068866
+-3.025989	forces	-0.068866
+-3.025989	form	-0.068866
+-3.025989	formulations	-0.068866
+-3.025989	forth	-0.068866
+-3.025989	foundations	-0.068866
+-2.949816	freedom	-0.068866
+-3.025989	fresh	-0.068866
+-2.158829	from	-0.112434
+-3.025989	fund	-0.068866
+-3.025989	funds	-0.068866
+-3.025989	furnished	-0.068866
+-3.025989	further	-0.068866
+-3.025989	gaining	-0.068866
+-3.025989	general	-0.068866
+-3.025989	genuine	-0.068866
+-2.949816	german	-0.068866
+-3.025989	given	-0.068866
+-3.025989	gives	-0.068866
+-3.025989	gotha	-0.068866
+-3.025989	government	-0.068866
+-2.211418	has	-0.087933
+-2.423378	have	-0.068866
+-1.962865	he	-0.091601
+-2.949816	hence	-0.068866
+-2.949816	here	-0.173866
+-3.025989	hidden	-0.068866
+-2.949816	higher	-0.068866
+-2.525595	him	-0.068866
+-3.025989	himself	-0.068866
+-2.525595	his	-0.068866
+-3.025989	historical	-0.068866
+-3.025989	history	-0.068866
+-3.025989	horizon	-0.068866
+-3.025989	how	-0.068866
+-3.025989	human	-0.068866
+-3.025989	hunt	-0.068866
+-2.949816	hunter	-0.068866
+-2.271264	i	-0.092833
+-3.025989	ideology	-0.068866
+-2.659525	if	-0.068866
+-3.025989	ignored	-0.068866
+-3.025989	ii	-0.068866
+-3.025989	iii	-0.068866
+-3.025989	immanent	-0.068866
+-3.025989	immiseration	-0.068866
+-1.674125	in	-0.300024
+-3.025989	increased	-0.068866
+-2.659525	individual	-0.068866
+-2.949816	individuals	-0.068866
+-3.025989	inequality	-0.068866
+-3.025989	inevitable	-0.068866
+-3.025989	injustice	-0.068866
+-3.025989	inscribe	-0.068866
+-3.025989	insofar	-0.068866
+-3.025989	instance	-0.068866
+-3.025989	instead	-0.068866
+-3.025989	intellectual	-0.068866
+-3.025989	intellectually	-0.068866
+-2.949816	intensity	-0.068866
+-3.025989	interest	-0.068866
+-2.423378	into	-0.107875
+-1.784345	is	-0.109862
+-3.025989	isnt	-0.068866
+-1.995612	it	-0.105331
+-2.158829	its	-0.068866
+-3.025989	juice	-0.068866
+-2.659525	just	-0.135974
+-3.025989	karl	-0.068866
+-3.025989	know	-0.068866
+-1.877257	labor	-0.115270
+-3.025989	larval	-0.068866
+-3.025989	laws	-0.068866
+-3.025989	leads	-0.068866
+-3.025989	legacy	-0.068866
+-3.025989	letter	-0.068866
+-3.025989	life	-0.068866
+-3.025989	lifes	-0.068866
+-2.525595	like	-0.068866
+-3.025989	limitation	-0.068866
+-3.025989	limitations	-0.068866
+-3.025989	livelihood	-0.068866
+-3.025989	living	-0.068866
+-3.025989	loggerheads	-0.068866
+-3.025989	long	-0.068866
+-2.949816	longer	-0.068866
+-3.025989	lose	-0.068866
+-3.025989	losing	-0.068866
+-2.525595	m	-0.135974
+-2.659525	made	-0.068866
+-3.025989	make	-0.068866
+-3.025989	makes	-0.068866
+-2.340695	man	-0.068866
+-3.025989	mans	-0.068866
+-3.025989	market	-0.068866
+-3.025989	markets	-0.068866
+-3.025989	married	-0.068866
+-2.423378	marx	-0.135787
+-3.025989	marxian	-0.068866
+-3.025989	marxisms	-0.068866
+-3.025989	marxs	-0.068866
+-3.025989	materialist	-0.068866
+-3.025989	me	-0.068866
+-2.659525	means	-0.112137
+-3.025989	measurable	-0.068866
+-3.025989	measure	-0.068866
+-2.949816	measurement	-0.068866
+-3.025989	mental	-0.068866
+-3.025989	mentally	-0.068866
+-3.025989	merely	-0.068866
+-3.025989	might	-0.068866
+-3.025989	militancy	-0.068866
+-3.025989	mind	-0.068866
+-3.025989	mingle	-0.068866
+-2.949816	mixing	-0.068866
+-3.025989	molecules	-0.068866
+-2.659525	money	-0.068866
+-3.025989	monopolies	-0.068866
+-3.025989	monopoly	-0.068866
+-2.949816	moral	-0.068866
+-3.025989	morally	-0.068866
+-2.340695	more	-0.068866
+-3.025989	morning	-0.068866
+-3.025989	much	-0.068866
+-2.423378	must	-0.068866
+-3.025989	my	-0.068866
+-3.025989	narrow	-0.068866
+-2.659525	natural	-0.068866
+-3.025989	naturally	-0.068866
+-3.025989	nature	-0.068866
+-3.025989	necessary	-0.068866
+-3.025989	need	-0.068866
+-3.025989	needed	-0.068866
+-3.025989	needs	-0.068866
+-3.025989	never	-0.068866
+-3.025989	new	-0.068866
+-2.949816	no	-0.068866
+-3.025989	nobody	-0.068866
+-3.025989	nor	-0.068866
+-3.025989	normal	-0.068866
+-2.069598	not	-0.068866
+-3.025989	nothing	-0.068866
+-3.025989	nozick	-0.068866
+-3.025989	nozicks	-0.068866
+-1.422607	of	-0.147659
+-3.025989	offers	-0.068866
+-3.025989	old	-0.068866
+-2.340695	on	-0.109468
+-1.995612	one	-0.096367
+-3.025989	ones	-0.068866
+-2.111926	only	-0.087933
+-3.025989	operative	-0.068866
+-3.025989	opposed	-0.068866
+-2.340695	or	-0.068866
+-2.949816	other	-0.068866
+-3.025989	otherwise	-0.068866
+-3.025989	over	-0.068866
+-2.423378	own	-0.084592
+-2.949816	owner	-0.068866
+-3.025989	ownership	-0.068866
+-3.025989	owns	-0.068866
+-3.025989	pangs	-0.068866
+-3.025989	part	-0.068866
+-2.949816	particular	-0.068866
+-3.025989	performance	-0.068866
+-3.025989	perhaps	-0.068866
+-3.025989	permeated	-0.068866
+-3.025989	persistence	-0.068866
+-2.949816	phase	-0.173866
+-3.025989	physical	-0.068866
+-3.025989	physically	-0.068866
+-3.025989	place	-0.068866
+-2.949816	point	-0.068866
+-3.025989	political	-0.068866
+-2.949816	politics	-0.068866
+-2.949816	possible	-0.068866
+-2.949816	power	-0.068866
+-3.025989	practice	-0.068866
+-3.025989	predictions	-0.068866
+-3.025989	present	-0.068866
+-3.025989	prevalent	-0.068866
+-3.025989	previously	-0.068866
+-3.025989	prices	-0.068866
+-3.025989	prime	-0.068866
+-2.949816	principle	-0.068866
+-3.025989	privilege	-0.068866
+-2.949816	problem	-0.068866
+-3.025989	process	-0.068866
+-3.025989	produce	-0.068866
+-3.025989	producer	-0.068866
+-3.025989	producers	-0.068866
+-2.659525	production	-0.068866
+-2.949816	productive	-0.068866
+-2.949816	profit	-0.068866
+-3.025989	profits	-0.068866
+-3.025989	program	-0.068866
+-2.949816	project	-0.173866
+-3.025989	prolonged	-0.068866
+-3.025989	property	-0.068866
+-3.025989	proportional	-0.068866
+-3.025989	question	-0.068866
+-3.025989	radioactive	-0.068866
+-2.949816	rate	-0.173866
+-3.025989	rather	-0.068866
+-3.025989	rear	-0.068866
+-3.025989	receive	-0.068866
+-2.949816	receives	-0.068866
+-2.949816	recognizes	-0.068866
+-3.025989	regarded	-0.068866
+-3.025989	regulates	-0.068866
+-3.025989	relative	-0.068866
+-3.025989	remain	-0.068866
+-3.025989	remains	-0.068866
+-3.025989	rents	-0.068866
+-3.025989	required	-0.068866
+-3.025989	respect	-0.068866
+-3.025989	rest	-0.068866
+-3.025989	reward	-0.068866
+-3.025989	richer	-0.068866
+-2.211418	right	-0.087933
+-3.025989	rights	-0.068866
+-2.949816	robert	-0.068866
+-3.025989	role	-0.068866
+-2.659525	s	-0.068866
+-3.025989	same	-0.068866
+-3.025989	scarcity	-0.068866
+-3.025989	science	-0.068866
+-3.025989	sea	-0.068866
+-3.025989	search	-0.068866
+-3.025989	seattle	-0.068866
+-3.025989	seattles	-0.068866
+-3.025989	seen	-0.068866
+-3.025989	seeps	-0.068866
+-3.025989	sell	-0.068866
+-3.025989	serve	-0.068866
+-2.949816	shepherd	-0.173866
+-3.025989	side	-0.068866
+-3.025989	skill	-0.068866
+-2.659525	snlt	-0.068866
+-2.525595	so	-0.068866
+-3.025989	social	-0.068866
+-3.025989	socialism	-0.068866
+-3.025989	socialisms	-0.068866
+-3.025989	socially	-0.068866
+-2.069598	society	-0.105331
+-3.025989	something	-0.068866
+-3.025989	soon	-0.068866
+-3.025989	source	-0.068866
+-2.949816	sphere	-0.173866
+-3.025989	spill	-0.068866
+-3.025989	spite	-0.068866
+-3.025989	springs	-0.068866
+-3.025989	stamped	-0.068866
+-2.949816	standard	-0.068866
+-3.025989	starting	-0.068866
+-3.025989	state	-0.068866
+-3.025989	stigmatized	-0.068866
+-2.949816	still	-0.068866
+-3.025989	stock	-0.068866
+-3.025989	strand	-0.068866
+-3.025989	structure	-0.068866
+-3.025989	subordination	-0.068866
+-3.025989	subsequent	-0.068866
+-2.659525	such	-0.068866
+-3.025989	superabundance	-0.068866
+-3.025989	superior	-0.068866
+-3.025989	superstructure	-0.068866
+-3.025989	supplies	-0.068866
+-3.025989	supply	-0.068866
+-2.949816	surplus	-0.135974
+-3.025989	t	-0.068866
+-3.025989	tacitly	-0.068866
+-3.025989	take	-0.068866
+-3.025989	taken	-0.068866
+-3.025989	teleological	-0.068866
+-3.025989	tendency	-0.068866
+-2.340695	than	-0.089963
+-2.340695	that	-0.068866
+-1.513270	the	-0.113367
+-3.025989	their	-0.068866
+-2.949816	them	-0.068866
+-2.949816	then	-0.068866
+-2.949816	theories	-0.173866
+-2.659525	theory	-0.112137
+-2.949816	thereby	-0.068866
+-2.949816	therefore	-0.068866
+-3.025989	therewith	-0.068866
+-2.949816	these	-0.068866
+-2.525595	they	-0.068866
+-2.949816	thing	-0.068866
+-3.025989	things	-0.068866
+-2.340695	this	-0.101125
+-3.025989	threw	-0.068866
+-3.025989	throughout	-0.068866
+-2.659525	thus	-0.068866
+-2.659525	time	-0.068866
+-1.725748	to	-0.152880
+-3.025989	today	-0.068866
+-2.949816	tomato	-0.173866
+-3.025989	tomorrow	-0.068866
+-3.025989	transformation	-0.068866
+-2.525595	under	-0.068866
+-2.423378	unequal	-0.068866
+-3.025989	unique	-0.068866
+-3.025989	unites	-0.068866
+-3.025989	unowned	-0.068866
+-3.025989	upon	-0.068866
+-2.949816	us	-0.068866
+-2.659525	use	-0.112137
+-3.025989	utopia	-0.068866
+-3.025989	utopian	-0.068866
+-2.659525	v	-0.135974
+-2.271264	value	-0.084592
+-3.025989	vanished	-0.068866
+-3.025989	variable	-0.068866
+-3.025989	versus	-0.068866
+-3.025989	very	-0.068866
+-3.025989	view	-0.068866
+-3.025989	voluntarily	-0.068866
+-3.025989	wages	-0.068866
+-2.949816	want	-0.068866
+-3.025989	way	-0.068866
+-2.949816	we	-0.068866
+-3.025989	wealth	-0.068866
+-3.025989	weave	-0.068866
+-3.025989	web	-0.068866
+-3.025989	were	-0.068866
+-2.340695	what	-0.156910
+-3.025989	whatever	-0.068866
+-3.025989	when	-0.068866
+-2.949816	where	-0.068866
+-2.525595	which	-0.118200
+-2.949816	while	-0.068866
+-3.025989	who	-0.068866
+-3.025989	whose	-0.068866
+-2.949816	why	-0.068866
+-3.025989	will	-0.068866
+-3.025989	wishes	-0.068866
+-2.158829	with	-0.121607
+-3.025989	withdraw	-0.068866
+-3.025989	without	-0.068866
+-3.025989	womb	-0.068866
+-2.949816	worker	-0.068866
+-2.949816	workers	-0.068866
+-3.025989	working	-0.068866
+-2.525595	workmanship	-0.100909
+-3.025989	would	-0.068866
+-2.949816	yet	-0.068866
+
+\2-grams:
+-1.502868	<s> </s>
+-2.019171	<s> alternative	-0.098516
+-2.579499	<s> base	-0.053220
+-2.205232	<s> but	-0.053220
+-2.338017	<s> c	-0.053220
+-2.559367	<s> chief	-0.053220
+-2.393147	<s> commodity	-0.053220
+-2.559367	<s> consider	-0.053220
+-2.559367	<s> critique	-0.053220
+-2.559367	<s> declining	-0.053220
+-2.579499	<s> early	-0.053220
+-2.393147	<s> exploitation	-0.053220
+-2.013536	<s> freedom	-0.053220
+-2.559367	<s> hence	-0.053220
+-2.579499	<s> how	-0.053220
+-1.778985	<s> in	-0.053220
+-2.579499	<s> karl	-0.053220
+-1.742429	<s> labor	-0.098516
+-2.005363	<s> living	-0.086966
+-1.959427	<s> m	-0.098516
+-1.926803	<s> marx	-0.086966
+-2.579499	<s> marxisms	-0.053220
+-2.005363	<s> marxs	-0.053220
+-2.456306	<s> money	-0.053220
+-2.579499	<s> monopolies	-0.053220
+-2.013536	<s> moral	-0.098516
+-2.579499	<s> need	-0.053220
+-2.289104	<s> or	-0.053220
+-1.630955	<s> part	-0.053220
+-2.579499	<s> persistence	-0.053220
+-2.559367	<s> project	-0.053220
+-2.579499	<s> relative	-0.053220
+-2.559367	<s> robert	-0.053220
+-2.456306	<s> s	-0.053220
+-2.019171	<s> socialism	-0.098516
+-2.579499	<s> socialisms	-0.053220
+-2.579499	<s> superabundance	-0.053220
+-2.579499	<s> t	-0.053220
+-2.579499	<s> teleological	-0.053220
+-0.817959	<s> the	-0.068781
+-2.559367	<s> these	-0.053220
+-2.289104	<s> this	-0.053220
+-2.393147	<s> under	-0.053220
+-2.456306	<s> use	-0.053220
+-2.289104	<s> what	-0.053220
+-2.559367	<s> why	-0.053220
+-2.579499	<s> working	-0.053220
+-2.393147	<s> workmanship	-0.053220
+-2.185069	a bourgeois	-0.053220
+-2.259294	a butterfly	-0.053220
+-2.039474	a can	-0.053220
+-2.247739	a certificate	-0.053220
+-2.259294	a cleavage	-0.053220
+-1.624616	a commodity	-0.053220
+-1.653510	a communist	-0.098516
+-2.259294	a critical	-0.053220
+-2.247739	a fisherman	-0.053220
+-2.259294	a given	-0.053220
+-2.247739	a higher	-0.053220
+-2.247739	a hunter	-0.053220
+-2.247739	a longer	-0.053220
+-2.185069	a means	-0.053220
+-2.259294	a measure	-0.053220
+-2.259294	a mind	-0.053220
+-2.185069	a natural	-0.053220
+-2.247739	a particular	-0.053220
+-2.259294	a previously	-0.053220
+-2.009600	a right	-0.053220
+-2.247739	a shepherd	-0.053220
+-1.930626	a society	-0.098516
+-2.247739	a standard	-0.053220
+-2.259294	a strand	-0.053220
+-2.185069	a use	-0.053220
+-1.642133	a way	-0.082887
+-2.247739	a worker	-0.053220
+-0.788657	ability to	-0.053220
+-0.747423	absence of	-0.053220
+-0.830930	absolute surplus	-0.053220
+-0.814652	abundantly only	-0.053220
+-0.783284	accomplished in	-0.053220
+-0.465328	according to	-0.082887
+-0.762431	accordingly the	-0.053220
+-1.266614	activity but	-0.053220
+-1.201348	activity is	-0.053220
+-1.288843	activity which	-0.053220
+-0.822375	advance this	-0.053220
+-1.598847	after deducting	-0.053220
+-1.598847	after dinner	-0.053220
+-1.456556	after labor	-0.053220
+-1.598847	after prolonged	-0.053220
+-0.872023	after the	-0.053220
+-0.831384	afternoon rear	-0.053220
+-0.830930	alien power	-0.053220
+-0.737698	alienation </s>
+-1.426399	all around	-0.053220
+-1.391972	all man	-0.053220
+-1.201814	all the	-0.053220
+-1.426399	all things	-0.053220
+-1.130053	also increased	-0.053220
+-1.002212	also the	-0.053220
+-0.831384	alternative formulations	-0.053220
+-0.830930	although principle	-0.053220
+-0.831384	american government	-0.053220
+-0.590481	amount of	-0.082887
+-1.723451	an alien	-0.053220
+-1.706310	an amount	-0.053220
+-0.472793	an equal	-0.069765
+-1.685511	an unequal	-0.053220
+-0.831384	anarchy state	-0.053220
+-2.272750	and all	-0.053220
+-2.272750	and another	-0.053220
+-2.427931	and communism	-0.053220
+-2.427931	and criticize	-0.053220
+-2.427931	and domination	-0.053220
+-2.272750	and exploitation	-0.098516
+-1.937185	and he	-0.053220
+-2.411721	and hence	-0.053220
+-2.326570	and individual	-0.053220
+-2.427931	and injustice	-0.053220
+-2.427931	and intellectually	-0.053220
+-2.411721	and intensity	-0.053220
+-2.073333	and its	-0.053220
+-1.872178	and labor	-0.053220
+-2.427931	and legacy	-0.053220
+-2.427931	and market	-0.053220
+-2.427931	and militancy	-0.053220
+-2.013664	and not	-0.053220
+-2.427931	and nothing	-0.053220
+-2.427931	and physical	-0.053220
+-2.411721	and politics	-0.053220
+-2.427931	and practice	-0.053220
+-2.427931	and profits	-0.053220
+-2.427931	and science	-0.053220
+-1.788444	and so	-0.075278
+-2.013664	and society	-0.053220
+-2.427931	and spill	-0.053220
+-2.326570	and such	-0.053220
+-2.427931	and superstructure	-0.053220
+-2.427931	and supplies	-0.053220
+-1.103133	and the	-0.053220
+-2.427931	and therewith	-0.053220
+-2.272750	and they	-0.053220
+-1.818513	and thus	-0.053220
+-2.427931	and utopia	-0.053220
+-2.142525	and value	-0.053220
+-2.427931	and variable	-0.053220
+-2.272750	and which	-0.053220
+-1.723093	and with	-0.053220
+-1.843204	and yet	-0.053220
+-1.240133	another and	-0.098516
+-1.363025	another is	-0.053220
+-1.420816	another one	-0.053220
+-1.520985	another physically	-0.053220
+-1.520985	another tomorrow	-0.053220
+-0.830930	antithesis between	-0.053220
+-1.426399	any branch	-0.053220
+-1.406678	any commodity	-0.053220
+-1.424616	any other	-0.053220
+-1.414222	any use	-0.053220
+-0.747423	application of	-0.053220
+-1.718209	are brought	-0.053220
+-1.718209	are connected	-0.053220
+-1.718209	are inevitable	-0.053220
+-1.718209	are measurable	-0.053220
+-1.714725	are no	-0.053220
+-1.718209	are regarded	-0.053220
+-1.718209	are taken	-0.053220
+-1.351609	are the	-0.053220
+-1.123856	argument class	-0.053220
+-1.130053	argument corn	-0.098516
+-0.830930	around development	-0.053220
+-0.894205	as a	-0.053220
+-2.145023	as activity	-0.053220
+-1.994695	as i	-0.053220
+-1.434724	as it	-0.053220
+-1.517964	as long	-0.082887
+-2.019123	as man	-0.053220
+-2.152756	as much	-0.053220
+-2.152756	as soon	-0.053220
+-1.023993	as the	-0.070776
+-2.072532	as they	-0.053220
+-2.145023	as workers	-0.053220
+-2.145023	as yet	-0.053220
+-0.831384	assumptions behind	-0.098516
+-1.522980	at loggerheads	-0.053220
+-0.813495	at the	-0.053220
+-0.877361	at their	-0.098516
+-0.993460	average and	-0.053220
+-1.130053	average degree	-0.053220
+-0.816570	back from	-0.053220
+-0.816570	banners from	-0.053220
+-0.757370	base and	-0.053220
+-0.822375	based on	-0.098516
+-0.830930	basic problem	-0.053220
+-0.747423	basis of	-0.053220
+-1.464779	be a	-0.053220
+-1.662504	be crossed	-0.053220
+-1.659438	be defined	-0.053220
+-1.659438	be developed	-0.053220
+-1.662504	be different	-0.053220
+-1.659438	be higher	-0.053220
+-1.662504	be richer	-0.053220
+-1.129151	because everyone	-0.053220
+-1.086512	because one	-0.053220
+-1.130053	become accomplished	-0.053220
+-1.093728	become not	-0.053220
+-1.104783	becomes an	-0.053220
+-1.130053	becomes permeated	-0.053220
+-0.830930	becoming hunter	-0.053220
+-0.828258	been made	-0.053220
+-0.816570	beginning its	-0.053220
+-0.826288	behind workmanship	-0.098516
+-1.303796	being controlled	-0.053220
+-1.288843	being each	-0.053220
+-1.303796	being ignored	-0.053220
+-0.788657	belong to	-0.053220
+-0.788657	belongs to	-0.053220
+-1.130053	between mental	-0.053220
+-1.002212	between the	-0.053220
+-0.737698	biography </s>
+-0.831384	birth pangs	-0.053220
+-0.747423	birthmarks of	-0.053220
+-0.822375	blood that	-0.053220
+-1.304803	bourgeois limitation	-0.053220
+-0.648914	bourgeois right	-0.053220
+-0.807065	branch he	-0.053220
+-0.826288	brought under	-0.053220
+-1.680401	but each	-0.053220
+-1.569444	but it	-0.053220
+-1.718209	but lifes	-0.053220
+-1.718209	but nor	-0.053220
+-1.653179	but on	-0.053220
+-1.569444	but one	-0.053220
+-1.666577	but unequal	-0.053220
+-1.714725	but why	-0.053220
+-0.824327	butterfly must	-0.053220
+-0.826288	buy his	-0.053220
+-1.433796	by a	-0.053220
+-1.533005	by an	-0.053220
+-1.571842	by him	-0.053220
+-0.937548	by its	-0.053220
+-1.312120	by the	-0.053220
+-0.850557	c </s>
+-1.565467	c c	-0.053220
+-0.950203	c m	-0.053220
+-1.584346	c v	-0.053220
+-1.659438	can become	-0.053220
+-1.662504	can check	-0.053220
+-1.662504	can consist	-0.053220
+-1.491216	can labor	-0.053220
+-1.662504	can never	-0.053220
+-1.274106	can of	-0.053220
+-1.326779	can the	-0.053220
+-0.831384	cannot escape	-0.053220
+-0.797764	capacity as	-0.053220
+-1.116126	capital c	-0.053220
+-1.104783	capital has	-0.053220
+-0.737698	capitalism </s>
+-1.174243	capitalist in	-0.053220
+-1.302451	capitalist other	-0.098516
+-1.250659	capitalist society	-0.053220
+-1.104783	case are	-0.053220
+-1.039100	case in	-0.053220
+-0.783284	cattle in	-0.053220
+-0.788657	ceases to	-0.053220
+-1.101067	certificate from	-0.053220
+-1.082948	certificate he	-0.053220
+-0.757370	challenge and	-0.053220
+-0.822375	check this	-0.053220
+-1.130053	chief seattle	-0.053220
+-1.130053	chief seattles	-0.053220
+-0.822375	children than	-0.053220
+-1.112312	circulation than	-0.053220
+-1.129151	circulation these	-0.053220
+-1.303796	class consciousness	-0.053220
+-1.303796	class differences	-0.053220
+-1.303796	class monopoly	-0.053220
+-0.831384	classical political	-0.086966
+-0.830930	cleavage exists	-0.053220
+-0.831384	co operative	-0.053220
+-0.788657	come to	-0.053220
+-1.116126	comes into	-0.053220
+-1.048833	comes to	-0.053220
+-1.116126	commodities at	-0.053220
+-1.039100	commodities in	-0.053220
+-1.204054	commodity </s>
+-0.867986	commodity exchange	-0.053220
+-1.375263	commodity is	-0.053220
+-1.499587	commodity like	-0.053220
+-1.130053	common funds	-0.053220
+-1.130053	common interest	-0.053220
+-0.737698	communism </s>
+-0.474156	communist society	-0.053220
+-0.737698	competition </s>
+-0.449488	conception of	-0.098516
+-0.830930	conditioned thereby	-0.053220
+-0.747423	conditions of	-0.053220
+-0.826288	connected like	-0.053220
+-0.737698	consciousness </s>
+-1.129151	consider chief	-0.053220
+-1.129151	consider robert	-0.053220
+-0.814652	consist only	-0.053220
+-0.783284	consists in	-0.053220
+-0.757370	constant and	-0.053220
+-0.831384	constantly stigmatized	-0.053220
+-1.160763	consumption </s>
+-0.753835	consumption as	-0.053220
+-1.427400	consumption fund	-0.053220
+-0.826288	content like	-0.053220
+-0.828258	contrary just	-0.053220
+-0.449488	contribution of	-0.098516
+-0.762431	contributions the	-0.098516
+-0.822375	controlled by	-0.053220
+-0.828258	corn theory	-0.098516
+-0.737698	cost </s>
+-0.747423	creation of	-0.053220
+-0.737698	crisis </s>
+-0.757370	critic and	-0.053220
+-0.831384	critical critic	-0.053220
+-0.822375	criticize after	-0.053220
+-0.830930	criticthe german	-0.053220
+-0.960115	critique </s>
+-0.976468	critique of	-0.053220
+-0.783284	crossed in	-0.053220
+-0.830930	cultural development	-0.053220
+-0.830930	dead workers	-0.098516
+-0.816570	deal with	-0.053220
+-0.480776	declining tendency	-0.098516
+-0.826288	deducting his	-0.053220
+-0.824327	deductions have	-0.053220
+-0.830930	deed becomes	-0.053220
+-0.818496	defects are	-0.053220
+-1.065556	defined as	-0.053220
+-1.112312	defined by	-0.053220
+-0.831384	definite side	-0.053220
+-0.747423	definition of	-0.053220
+-0.747423	degree of	-0.053220
+-0.822375	determined by	-0.098516
+-0.477599	developed on	-0.053220
+-1.130053	development conditioned	-0.053220
+-0.976468	development of	-0.053220
+-0.812743	did not	-0.053220
+-0.830930	differences because	-0.053220
+-0.830930	different individuals	-0.053220
+-0.828258	dinner just	-0.053220
+-0.737698	disillusionment </s>
+-0.831384	dissipated my	-0.053220
+-0.831384	divided mans	-0.053220
+-0.449488	division of	-0.086966
+-1.272066	do i	-0.053220
+-1.303796	do markets	-0.053220
+-1.240339	do one	-0.053220
+-1.425805	does mixing	-0.053220
+-0.765879	does not	-0.053220
+-1.292577	does to	-0.053220
+-0.737698	domination </s>
+-1.123856	dont if	-0.053220
+-1.116126	dont own	-0.053220
+-0.816570	draws from	-0.053220
+-0.822375	duration or	-0.053220
+-0.780391	each according	-0.098516
+-1.390001	each can	-0.053220
+-1.396473	each man	-0.053220
+-0.831384	early utopian	-0.053220
+-1.119974	earth all	-0.053220
+-1.123856	earth does	-0.053220
+-0.831384	economic structure	-0.053220
+-0.831384	economically morally	-0.053220
+-0.737698	economy </s>
+-0.747423	elimination of	-0.053220
+-1.123856	else being	-0.053220
+-1.104783	else but	-0.053220
+-0.822375	emerged after	-0.053220
+-0.797764	emergence as	-0.053220
+-1.130053	emerges accordingly	-0.053220
+-1.101067	emerges from	-0.053220
+-0.747423	end of	-0.053220
+-0.757370	endowment and	-0.053220
+-0.824327	english marx	-0.053220
+-0.737698	enlightenment </s>
+-0.826288	enslaves him	-0.053220
+-0.831384	enslaving subordination	-0.053220
+-0.757370	entirety and	-0.053220
+-1.384916	equal in	-0.053220
+-1.598847	equal performance	-0.053220
+-1.596387	equal point	-0.053220
+-0.939912	equal right	-0.082887
+-1.596387	equal standard	-0.053220
+-0.960115	equality </s>
+-1.130053	equality consists	-0.053220
+-1.039100	equivalents in	-0.053220
+-1.002212	equivalents the	-0.053220
+-0.807065	escape he	-0.053220
+-0.757370	evening and	-0.053220
+-0.831384	evenly throughout	-0.053220
+-0.831384	ever becoming	-0.053220
+-1.130053	every respect	-0.053220
+-1.104783	every right	-0.053220
+-1.129151	everyone else	-0.053220
+-1.058789	everyone is	-0.053220
+-0.830930	everything else	-0.053220
+-0.822375	exactly what	-0.053220
+-0.797764	example as	-0.053220
+-1.721148	exchange constant	-0.053220
+-1.718202	exchange exists	-0.053220
+-1.342932	exchange of	-0.082887
+-1.688984	exchange under	-0.053220
+-0.669237	exchange value	-0.053220
+-0.480617	exclusive sphere	-0.098516
+-1.129151	exists between	-0.053220
+-1.097382	exists only	-0.053220
+-0.830930	explain declining	-0.053220
+-1.136917	exploitation </s>
+-1.188035	exploitation and	-0.053220
+-1.426399	exploitation immiseration	-0.053220
+-1.426399	exploitation role	-0.098516
+-0.831384	exploitometer might	-0.053220
+-1.130053	fact receive	-0.053220
+-1.112312	fact that	-0.053220
+-0.757370	failure and	-0.053220
+-0.818496	fairly but	-0.053220
+-0.830930	feminist critique	-0.098516
+-1.130053	first example	-0.053220
+-1.129151	first phase	-0.053220
+-0.783284	fish in	-0.053220
+-1.062159	fisherman a	-0.053220
+-1.129151	fisherman shepherd	-0.053220
+-0.822375	flow more	-0.053220
+-0.831384	foolishly dissipated	-0.053220
+-1.065389	for a	-0.053220
+-1.547305	for as	-0.053220
+-1.768062	for instance	-0.053220
+-1.658958	for its	-0.053220
+-1.768062	for me	-0.053220
+-1.384919	for the	-0.053220
+-1.764342	for theories	-0.053220
+-1.713127	for unequal	-0.053220
+-0.831384	forced upon	-0.053220
+-0.824327	forces have	-0.053220
+-0.824327	form must	-0.053220
+-0.960115	formulations </s>
+-1.130053	formulations exploitometer	-0.053220
+-0.828258	forth thus	-0.053220
+-0.818496	foundations but	-0.053220
+-1.302451	freedom argument	-0.053220
+-1.124635	freedom the	-0.053220
+-1.303796	freedom versus	-0.053220
+-0.822375	fresh exchange	-0.053220
+-1.129716	from capitalist	-0.098516
+-1.765498	from circulation	-0.053220
+-1.730622	from each	-0.053220
+-1.618156	from one	-0.053220
+-1.097512	from society	-0.053220
+-1.398284	from the	-0.053220
+-1.769040	from whose	-0.053220
+-0.808950	fund one	-0.053220
+-0.757370	funds and	-0.053220
+-0.828258	furnished such	-0.053220
+-0.808950	further one	-0.053220
+-0.822375	gaining what	-0.053220
+-0.828258	general production	-0.053220
+-0.826288	genuine workmanship	-0.098516
+-1.130053	german ideology	-0.053220
+-1.116126	german marx	-0.053220
+-0.812743	given society	-0.053220
+-0.788657	gives to	-0.053220
+-0.831384	gotha program	-0.053220
+-0.824327	government c	-0.053220
+-1.561670	has a	-0.053220
+-1.807422	has become	-0.053220
+-1.807422	has developed	-0.053220
+-1.811552	has furnished	-0.053220
+-1.783772	has just	-0.053220
+-1.735400	has more	-0.053220
+-1.129410	has one	-0.053220
+-1.522573	has to	-0.053220
+-1.811552	has vanished	-0.053220
+-1.369842	have a	-0.053220
+-1.518770	have also	-0.053220
+-1.520985	have been	-0.053220
+-1.469841	have i	-0.053220
+-1.343193	have to	-0.053220
+-1.949356	he cannot	-0.053220
+-1.943741	he division	-0.053220
+-1.296388	he does	-0.082887
+-1.949356	he draws	-0.053220
+-1.949356	he gives	-0.053220
+-1.811038	he has	-0.053220
+-1.218704	he is	-0.053220
+-1.868731	he must	-0.053220
+-1.943741	he receives	-0.053220
+-1.949356	he threw	-0.053220
+-1.949356	he wishes	-0.053220
+-1.104783	hence an	-0.053220
+-1.123856	hence equal	-0.053220
+-0.467349	here is	-0.053220
+-0.830930	hidden moral	-0.098516
+-1.129151	higher phase	-0.053220
+-1.112312	higher than	-0.053220
+-1.188035	him and	-0.053220
+-1.377747	him for	-0.053220
+-1.426399	him instead	-0.053220
+-1.406678	him which	-0.053220
+-0.737698	himself </s>
+-1.520985	his ability	-0.053220
+-1.518770	his commodities	-0.053220
+-1.390960	his labor	-0.053220
+-1.505897	his means	-0.053220
+-1.520985	his needs	-0.053220
+-0.831384	historical predictions	-0.053220
+-0.737698	history </s>
+-0.747423	horizon of	-0.053220
+-0.794098	how is	-0.053220
+-0.801460	human labor	-0.086966
+-0.783284	hunt in	-0.053220
+-1.062159	hunter a	-0.053220
+-1.129151	hunter fisherman	-0.053220
+-1.278345	i </s>
+-1.644860	i can	-0.053220
+-1.719190	i dont	-0.053220
+-1.719190	i foolishly	-0.053220
+-1.670074	i have	-0.053220
+-1.067914	i own	-0.053220
+-1.715885	i thereby	-0.053220
+-0.737698	ideology </s>
+-1.235269	if he	-0.053220
+-1.272066	if i	-0.053220
+-1.288843	if they	-0.053220
+-0.831384	ignored further	-0.053220
+-0.737698	ii </s>
+-0.737698	iii </s>
+-0.831384	immanent laws	-0.053220
+-0.757370	immiseration and	-0.053220
+-1.491126	in a	-0.053220
+-2.159575	in any	-0.053220
+-2.159575	in commodity	-0.053220
+-2.222318	in every	-0.053220
+-2.222318	in fact	-0.053220
+-1.554175	in its	-0.053220
+-2.228925	in larval	-0.053220
+-2.185180	in natural	-0.053220
+-2.222318	in principle	-0.053220
+-2.228925	in spite	-0.053220
+-2.185180	in such	-0.053220
+-0.386130	in the	-0.059409
+-2.222318	in them	-0.053220
+-0.816570	increased with	-0.053220
+-1.278697	individual and	-0.053220
+-1.595212	individual case	-0.053220
+-1.597856	individual endowment	-0.053220
+-1.597856	individual producer	-0.053220
+-1.597856	individual rights	-0.053220
+-1.392694	individual to	-0.053220
+-0.993460	individuals and	-0.053220
+-1.123856	individuals if	-0.053220
+-0.783284	inequality in	-0.053220
+-0.783284	inevitable in	-0.053220
+-0.737698	injustice </s>
+-0.822375	inscribe on	-0.053220
+-0.797764	insofar as	-0.053220
+-0.783284	instance in	-0.053220
+-0.747423	instead of	-0.053220
+-0.831384	intellectual biography	-0.053220
+-0.830930	intellectually still	-0.053220
+-0.976468	intensity of	-0.053220
+-1.130053	intensity otherwise	-0.053220
+-0.797764	interest as	-0.053220
+-1.508138	into being	-0.053220
+-1.519951	into capital	-0.053220
+-1.429375	into it	-0.053220
+-0.807186	into the	-0.053220
+-1.426794	is a	-0.053220
+-1.991264	is an	-0.053220
+-1.444092	is as	-0.053220
+-2.200481	is defined	-0.053220
+-1.599133	is determined	-0.098516
+-2.210252	is forced	-0.053220
+-2.146812	is made	-0.053220
+-2.210252	is married	-0.053220
+-2.210252	is merely	-0.053220
+-1.507899	is not	-0.053220
+-1.941885	is only	-0.053220
+-2.200481	is profit	-0.053220
+-2.210252	is proportional	-0.053220
+-2.210252	is seen	-0.053220
+-1.596720	is still	-0.053220
+-2.210252	is superior	-0.053220
+-1.316470	is the	-0.053220
+-2.200481	is therefore	-0.053220
+-2.146812	is thus	-0.053220
+-2.210252	is when	-0.053220
+-0.830930	isnt mixing	-0.053220
+-1.916327	it at	-0.053220
+-2.004196	it ceases	-0.053220
+-1.376982	it emerges	-0.053220
+-1.336668	it has	-0.053220
+-1.751743	it he	-0.053220
+-1.916327	it into	-0.053220
+-1.266557	it is	-0.053220
+-1.708324	it labor	-0.053220
+-2.004196	it perhaps	-0.053220
+-1.998027	it possible	-0.053220
+-1.998027	it recognizes	-0.053220
+-2.004196	it tacitly	-0.053220
+-2.004196	it whatever	-0.053220
+-1.885272	its banners	-0.053220
+-1.830801	its consumption	-0.053220
+-1.885272	its content	-0.053220
+-1.885272	its cultural	-0.053220
+-1.885272	its duration	-0.053220
+-1.885272	its emergence	-0.053220
+-1.885272	its entirety	-0.053220
+-1.792794	its exchange	-0.053220
+-1.885272	its molecules	-0.053220
+-1.811382	its own	-0.053220
+-1.851129	its production	-0.053220
+-1.885272	its very	-0.053220
+-0.960115	juice </s>
+-0.993460	juice and	-0.053220
+-0.636772	just as	-0.053220
+-1.304803	just emerged	-0.053220
+-0.824327	karl marx	-0.053220
+-0.762431	know the	-0.053220
+-1.411933	labor </s>
+-2.017295	labor after	-0.053220
+-1.277089	labor and	-0.053220
+-2.156725	labor comes	-0.053220
+-2.165440	labor cost	-0.053220
+-1.492069	labor for	-0.053220
+-1.492069	labor has	-0.053220
+-1.650712	labor in	-0.053220
+-1.858344	labor it	-0.053220
+-2.165440	labor offers	-0.053220
+-1.533039	labor power	-0.089071
+-2.165440	labor prevalent	-0.053220
+-1.535034	labor theory	-0.387996
+-2.075919	labor they	-0.053220
+-1.535034	labor time	-0.053220
+-1.687602	labor to	-0.053220
+-1.941964	labor with	-0.053220
+-0.831384	larval form	-0.053220
+-0.747423	laws of	-0.053220
+-0.788657	leads to	-0.053220
+-0.737698	legacy </s>
+-0.788657	letter to	-0.053220
+-1.104783	life but	-0.053220
+-1.082948	life he	-0.053220
+-0.831384	lifes prime	-0.053220
+-1.406678	like any	-0.053220
+-1.424616	like every	-0.053220
+-1.424616	like everyone	-0.053220
+-1.201814	like the	-0.053220
+-0.762431	limitation the	-0.053220
+-0.737698	limitations </s>
+-0.830930	livelihood while	-0.053220
+-0.831384	living human	-0.086966
+-0.830930	loggerheads while	-0.053220
+-1.065556	long as	-0.053220
+-1.129151	long therefore	-0.053220
+-1.116126	longer at	-0.053220
+-1.123856	longer time	-0.053220
+-0.826288	lose his	-0.053220
+-0.822375	losing what	-0.053220
+-0.850557	m </s>
+-0.947969	m c	-0.082887
+-1.574804	m m	-0.053220
+-1.597564	m where	-0.053220
+-1.303796	made exactly	-0.053220
+-1.303796	made radioactive	-0.053220
+-1.261231	made with	-0.053220
+-0.808950	make one	-0.053220
+-0.808950	makes it	-0.053220
+-1.597856	man belongs	-0.053220
+-1.597856	man did	-0.053220
+-1.527477	man has	-0.053220
+-1.414982	man is	-0.053220
+-1.547695	man man	-0.053220
+-1.597856	man remains	-0.053220
+-0.824327	mans own	-0.053220
+-0.830930	market theories	-0.053220
+-0.830930	markets freedom	-0.053220
+-0.826288	married another	-0.053220
+-0.775584	marx </s>
+-0.806498	marx and	-0.075278
+-0.831384	marxian challenge	-0.053220
+-0.831384	marxisms failure	-0.053220
+-1.303796	marxs definition	-0.053220
+-1.303796	marxs historical	-0.053220
+-1.303796	marxs intellectual	-0.053220
+-0.830930	materialist conception	-0.053220
+-0.788657	me to	-0.053220
+-0.590481	means of	-0.053220
+-0.814652	measurable only	-0.053220
+-0.824327	measure must	-0.053220
+-1.058789	measurement is	-0.053220
+-1.112312	measurement this	-0.053220
+-0.757370	mental and	-0.053220
+-0.757370	mentally and	-0.053220
+-0.795927	merely a	-0.053220
+-0.812743	might not	-0.053220
+-0.737698	militancy </s>
+-0.831384	mind without	-0.053220
+-0.831384	mingle evenly	-0.053220
+-1.086512	mixing one	-0.053220
+-1.112312	mixing what	-0.053220
+-0.828258	molecules made	-0.053220
+-1.069665	money </s>
+-1.283178	money into	-0.053220
+-1.302451	money owner	-0.053220
+-0.757370	monopolies and	-0.053220
+-0.757370	monopoly and	-0.053220
+-1.129151	moral argument	-0.098516
+-1.130053	moral assumptions	-0.098516
+-0.757370	morally and	-0.053220
+-1.597856	more abundantly	-0.053220
+-1.597856	more children	-0.053220
+-1.414982	more is	-0.053220
+-1.446600	more labor	-0.053220
+-1.547695	more than	-0.053220
+-1.537468	more value	-0.053220
+-0.831384	morning fish	-0.053220
+-0.797764	much as	-0.053220
+-1.240133	must and	-0.053220
+-1.478578	must be	-0.053220
+-1.520985	must buy	-0.053220
+-1.436551	must not	-0.053220
+-1.520985	must remain	-0.053220
+-0.830930	my tomato	-0.053220
+-0.831384	narrow horizon	-0.053220
+-1.113070	natural and	-0.053220
+-1.303796	natural privilege	-0.053220
+-1.250659	natural society	-0.053220
+-0.831384	naturally divided	-0.053220
+-0.820431	nature can	-0.053220
+-0.801460	necessary labor	-0.053220
+-0.788657	need to	-0.053220
+-0.788657	needed to	-0.053220
+-0.737698	needs </s>
+-0.822375	never be	-0.053220
+-0.822375	new exchange	-0.053220
+-1.123856	no class	-0.053220
+-1.129151	no longer	-0.053220
+-0.818496	nobody has	-0.053220
+-0.828258	nor do	-0.053220
+-0.818496	normal for	-0.053220
+-1.620680	not as	-0.053220
+-1.818897	not be	-0.053220
+-1.917806	not belong	-0.053220
+-1.532365	not in	-0.053220
+-1.917806	not naturally	-0.053220
+-1.701147	not one	-0.053220
+-1.747763	not only	-0.053220
+-1.917806	not reward	-0.053220
+-1.917806	not take	-0.053220
+-1.838662	not unequal	-0.053220
+-1.917806	not voluntarily	-0.053220
+-1.912303	not want	-0.053220
+-1.917806	not weave	-0.053220
+-0.822375	nothing more	-0.053220
+-0.831384	nozick anarchy	-0.053220
+-0.831384	nozicks question	-0.053220
+-1.869766	of a	-0.053220
+-2.499755	of activity	-0.053220
+-2.517765	of alienation	-0.053220
+-2.171369	of an	-0.053220
+-2.348033	of any	-0.053220
+-2.406271	of being	-0.053220
+-2.406271	of bourgeois	-0.053220
+-2.499755	of circulation	-0.053220
+-1.946436	of classical	-0.086966
+-2.517765	of co	-0.053220
+-2.499755	of commodities	-0.053220
+-2.499755	of communist	-0.098516
+-2.517765	of competition	-0.053220
+-2.348033	of consumption	-0.053220
+-2.517765	of crisis	-0.053220
+-2.517765	of dead	-0.098516
+-2.517765	of equivalents	-0.053220
+-2.348033	of exploitation	-0.053220
+-2.517765	of fresh	-0.053220
+-2.517765	of gaining	-0.053220
+-2.517765	of history	-0.098516
+-2.517765	of inequality	-0.053220
+-1.748795	of it	-0.053220
+-1.689230	of labor	-0.067800
+-1.946436	of life	-0.053220
+-2.517765	of livelihood	-0.053220
+-2.517765	of losing	-0.053220
+-2.406271	of means	-0.053220
+-2.499755	of measurement	-0.053220
+-2.406271	of money	-0.053220
+-2.406271	of natural	-0.053220
+-2.517765	of new	-0.053220
+-2.406271	of production	-0.053220
+-2.499755	of profit	-0.098516
+-2.517765	of scarcity	-0.053220
+-2.517765	of skill	-0.053220
+-2.517765	of socially	-0.053220
+-2.074230	of society	-0.053220
+-1.941529	of surplus	-0.082887
+-0.790822	of the	-0.067800
+-2.250779	of this	-0.053220
+-2.499755	of tomato	-0.053220
+-2.209262	of value	-0.151868
+-2.517765	of view	-0.053220
+-2.517765	of wages	-0.053220
+-2.348033	of workmanship	-0.098516
+-0.830930	offers us	-0.053220
+-0.812743	old society	-0.053220
+-1.289120	on </s>
+-1.356432	on and	-0.053220
+-1.719840	on genuine	-0.098516
+-1.056166	on its	-0.053220
+-0.961881	on the	-0.053220
+-1.944119	one comes	-0.053220
+-1.949678	one definite	-0.053220
+-1.944119	one exclusive	-0.053220
+-1.812568	one has	-0.053220
+-1.849875	one man	-0.053220
+-1.319807	one owns	-0.053220
+-1.912632	one s	-0.053220
+-1.455416	one the	-0.053220
+-1.944119	one thing	-0.053220
+-1.949678	one unique	-0.053220
+-1.319807	one will	-0.053220
+-1.944119	one worker	-0.053220
+-0.801460	ones labor	-0.053220
+-1.103724	only a	-0.053220
+-1.572020	only as	-0.053220
+-1.735400	only by	-0.053220
+-1.705908	only for	-0.053220
+-1.495400	only in	-0.053220
+-1.735400	only on	-0.053220
+-1.811552	only source	-0.086966
+-1.401067	only the	-0.053220
+-1.807422	only then	-0.053220
+-0.831384	operative wealth	-0.053220
+-0.788657	opposed to	-0.053220
+-1.464779	or a	-0.053220
+-1.593161	or can	-0.053220
+-1.659438	or consider	-0.053220
+-1.662504	or criticthe	-0.053220
+-1.616772	or have	-0.053220
+-1.659438	or intensity	-0.053220
+-1.662504	or mentally	-0.053220
+-1.130053	other contributions	-0.098516
+-1.101067	other its	-0.053220
+-0.808950	otherwise it	-0.053220
+-0.824327	over into	-0.053220
+-1.007853	own a	-0.053220
+-1.718858	own deed	-0.053220
+-1.718858	own foundations	-0.053220
+-1.718858	own rather	-0.053220
+-1.360788	own the	-0.053220
+-1.619087	own with	-0.053220
+-0.976468	owner of	-0.053220
+-1.130053	owner who	-0.053220
+-0.831384	ownership seeps	-0.053220
+-1.130053	owns ones	-0.053220
+-1.130053	owns ownership	-0.053220
+-0.816570	pangs from	-0.053220
+-1.384801	part i	-0.053220
+-1.426399	part ii	-0.053220
+-1.426399	part iii	-0.053220
+-1.414222	part theory	-0.053220
+-0.993460	particular and	-0.053220
+-1.129151	particular exclusive	-0.053220
+-0.747423	performance of	-0.053220
+-0.830930	perhaps because	-0.053220
+-0.816570	permeated with	-0.053220
+-0.747423	persistence of	-0.053220
+-0.449488	phase of	-0.098516
+-0.801460	physical labor	-0.053220
+-0.822375	physically or	-0.053220
+-0.783284	place in	-0.053220
+-1.058789	point is	-0.053220
+-0.976468	point of	-0.053220
+-0.831384	political economy	-0.086966
+-0.960115	politics </s>
+-1.130053	politics subsequent	-0.053220
+-1.129151	possible according	-0.053220
+-1.104783	possible for	-0.053220
+-1.306887	power as	-0.098516
+-1.377747	power has	-0.053220
+-1.295160	power is	-0.053220
+-1.426399	power opposed	-0.053220
+-0.818496	practice are	-0.053220
+-0.737698	predictions </s>
+-0.830930	present case	-0.053220
+-0.783284	prevalent in	-0.053220
+-0.831384	previously unowned	-0.053220
+-0.831384	prices rents	-0.053220
+-0.830930	prime want	-0.053220
+-0.993460	principle and	-0.053220
+-1.123856	principle bourgeois	-0.053220
+-0.808950	privilege it	-0.053220
+-0.960115	problem </s>
+-0.976468	problem of	-0.053220
+-0.831384	process withdraw	-0.053220
+-1.119974	produce any	-0.053220
+-1.086512	produce it	-0.053220
+-0.830930	producer receives	-0.053220
+-0.794098	producers is	-0.053220
+-1.113070	production and	-0.053220
+-1.303796	production normal	-0.053220
+-1.294583	production snlt	-0.053220
+-1.130053	productive capacity	-0.053220
+-1.130053	productive forces	-0.053220
+-0.960115	profit </s>
+-1.129151	profit possible	-0.053220
+-0.737698	profits </s>
+-0.737698	program </s>
+-0.449488	project of	-0.098516
+-0.831384	prolonged birth	-0.053220
+-0.816570	property its	-0.053220
+-0.788657	proportional to	-0.053220
+-0.737698	question </s>
+-0.826288	radioactive so	-0.053220
+-0.449488	rate of	-0.082887
+-0.822375	rather than	-0.053220
+-0.831384	rear cattle	-0.053220
+-0.822375	receive more	-0.053220
+-1.062159	receives a	-0.053220
+-1.130053	receives back	-0.053220
+-1.129151	recognizes no	-0.053220
+-1.116126	recognizes unequal	-0.053220
+-0.814652	regarded only	-0.053220
+-0.762431	regulates the	-0.053220
+-0.831384	relative absolute	-0.053220
+-0.826288	remain so	-0.053220
+-0.783284	remains in	-0.053220
+-0.757370	rents and	-0.053220
+-0.788657	required to	-0.053220
+-0.831384	respect economically	-0.053220
+-0.818496	rest but	-0.053220
+-0.831384	reward fairly	-0.053220
+-0.822375	richer than	-0.053220
+-1.811552	right although	-0.053220
+-1.735400	right be	-0.053220
+-1.735400	right by	-0.053220
+-1.720404	right can	-0.053220
+-1.705908	right for	-0.053220
+-1.807422	right here	-0.053220
+-1.551561	right is	-0.053220
+-1.013917	right of	-0.053220
+-1.705908	right right	-0.053220
+-0.737698	rights </s>
+-1.130053	robert nozick	-0.053220
+-1.130053	robert nozicks	-0.053220
+-0.747423	role of	-0.098516
+-1.220406	s labor	-0.053220
+-1.294583	s s	-0.053220
+-1.294583	s v	-0.053220
+-1.123856	same amount	-0.053220
+-1.123856	same time	-0.053220
+-0.757370	scarcity and	-0.053220
+-0.737698	science </s>
+-1.294583	sea do	-0.053220
+-1.277587	sea or	-0.053220
+-1.288843	sea so	-0.053220
+-0.818496	search for	-0.053220
+-0.737698	seattle </s>
+-0.831384	seattles letter	-0.053220
+-0.783284	seen in	-0.053220
+-0.831384	seeps over	-0.053220
+-0.830930	sell them	-0.053220
+-0.797764	serve as	-0.053220
+-0.477599	shepherd or	-0.053220
+-0.814652	side only	-0.053220
+-0.757370	skill and	-0.053220
+-1.266614	snlt for	-0.053220
+-1.201348	snlt is	-0.053220
+-1.303796	snlt needed	-0.053220
+-1.597856	so forth	-0.053220
+-1.537468	so i	-0.053220
+-1.579905	so if	-0.053220
+-1.547695	so on	-0.053220
+-1.480701	so one	-0.053220
+-1.547695	so that	-0.053220
+-1.119974	social consumption	-0.053220
+-1.130053	social stock	-0.053220
+-0.795927	socialism a	-0.098516
+-0.831384	socialisms limitations	-0.053220
+-0.831384	socially necessary	-0.053220
+-1.371184	society </s>
+-1.348535	society after	-0.098516
+-1.172847	society and	-0.053220
+-1.681616	society as	-0.053220
+-2.004196	society based	-0.098516
+-1.835415	society from	-0.053220
+-2.004196	society inscribe	-0.053220
+-1.799990	society not	-0.053220
+-2.004196	society regulates	-0.053220
+-1.854274	society right	-0.053220
+-1.348535	society that	-0.053220
+-1.998027	society where	-0.053220
+-1.939151	society which	-0.053220
+-0.831384	something make	-0.053220
+-0.797764	soon as	-0.053220
+-0.747423	source of	-0.082887
+-0.449488	sphere of	-0.082887
+-0.808950	spill it	-0.053220
+-0.747423	spite of	-0.053220
+-0.747423	springs of	-0.053220
+-0.816570	stamped with	-0.053220
+-1.377747	standard but	-0.053220
+-1.426399	standard insofar	-0.053220
+-1.318940	standard labor	-0.053220
+-1.161724	standard of	-0.053220
+-0.830930	starting point	-0.053220
+-0.757370	state and	-0.053220
+-0.822375	stigmatized by	-0.053220
+-1.303796	still constantly	-0.053220
+-1.174243	still in	-0.053220
+-1.303796	still stamped	-0.053220
+-0.747423	stock of	-0.053220
+-0.747423	strand of	-0.053220
+-0.747423	structure of	-0.053220
+-0.747423	subordination of	-0.053220
+-0.831384	subsequent disillusionment	-0.053220
+-1.206035	such a	-0.053220
+-1.266614	such an	-0.053220
+-1.113070	such and	-0.053220
+-0.757370	superabundance and	-0.053220
+-0.788657	superior to	-0.053220
+-0.737698	superstructure </s>
+-0.822375	supplies more	-0.053220
+-0.762431	supply the	-0.053220
+-1.303647	surplus contribution	-0.098516
+-0.650034	surplus value	-0.053220
+-0.807065	t he	-0.053220
+-0.830930	tacitly recognizes	-0.053220
+-0.831384	take place	-0.053220
+-0.816570	taken from	-0.053220
+-0.830930	teleological conception	-0.053220
+-0.783284	tendency in	-0.098516
+-1.430009	than a	-0.053220
+-0.934774	than another	-0.082887
+-1.477633	than he	-0.053220
+-1.306519	than the	-0.053220
+-1.659438	that becomes	-0.053220
+-1.519368	that he	-0.053220
+-1.456312	that is	-0.053220
+-1.570767	that its	-0.053220
+-1.659438	that measurement	-0.053220
+-1.326779	that the	-0.053220
+-1.662504	that unites	-0.053220
+-2.631360	the absence	-0.053220
+-2.631360	the afternoon	-0.053220
+-2.408075	the all	-0.053220
+-2.631360	the american	-0.053220
+-2.481702	the amount	-0.053220
+-2.631360	the antithesis	-0.053220
+-2.631360	the application	-0.053220
+-2.098201	the average	-0.053220
+-2.631360	the basic	-0.053220
+-2.631360	the basis	-0.053220
+-2.631360	the beginning	-0.053220
+-2.631360	the birthmarks	-0.053220
+-2.631360	the blood	-0.053220
+-2.090693	the capitalist	-0.082887
+-2.098201	the common	-0.053220
+-2.098201	the conditions	-0.098516
+-2.631360	the contrary	-0.053220
+-2.631360	the creation	-0.053220
+-2.631360	the deductions	-0.053220
+-2.090693	the division	-0.098516
+-2.098201	the earth	-0.053220
+-2.631360	the economic	-0.053220
+-2.631360	the elimination	-0.053220
+-2.631360	the end	-0.053220
+-2.631360	the english	-0.053220
+-2.631360	the enlightenment	-0.053220
+-2.631360	the enslaving	-0.053220
+-2.606251	the equality	-0.053220
+-2.631360	the evening	-0.053220
+-1.657455	the exchange	-0.078280
+-2.606251	the fact	-0.053220
+-2.631360	the feminist	-0.098516
+-2.098201	the first	-0.053220
+-2.631360	the general	-0.053220
+-2.606251	the german	-0.053220
+-2.631360	the gotha	-0.053220
+-2.631360	the hidden	-0.098516
+-2.631360	the immanent	-0.053220
+-2.036729	the individual	-0.053220
+-1.401227	the labor	-0.136712
+-2.631360	the marxian	-0.053220
+-2.631360	the materialist	-0.053220
+-2.481702	the money	-0.053220
+-2.631360	the morning	-0.053220
+-2.631360	the narrow	-0.053220
+-2.631360	the old	-0.053220
+-1.879316	the only	-0.086966
+-2.606251	the owner	-0.053220
+-2.606251	the particular	-0.053220
+-2.631360	the present	-0.053220
+-2.606251	the problem	-0.053220
+-2.631360	the process	-0.053220
+-2.631360	the producers	-0.053220
+-2.606251	the productive	-0.053220
+-2.606251	the project	-0.053220
+-2.606251	the rate	-0.098516
+-2.631360	the rest	-0.053220
+-2.197552	the right	-0.053220
+-2.098201	the same	-0.053220
+-2.084726	the sea	-0.053220
+-2.631360	the search	-0.053220
+-2.481702	the snlt	-0.053220
+-2.098201	the social	-0.053220
+-2.087599	the society	-0.053220
+-2.606251	the sphere	-0.053220
+-2.631360	the springs	-0.053220
+-2.631360	the starting	-0.053220
+-2.631360	the transformation	-0.053220
+-2.098201	the web	-0.053220
+-0.820431	their value	-0.053220
+-1.116126	them at	-0.053220
+-1.130053	them everything	-0.053220
+-1.108531	then can	-0.053220
+-1.129151	then then	-0.053220
+-0.449488	theories of	-0.053220
+-0.590481	theory of	-0.328424
+-0.960115	thereby </s>
+-1.130053	thereby come	-0.053220
+-1.062159	therefore a	-0.053220
+-1.065556	therefore as	-0.053220
+-0.830930	therewith also	-0.053220
+-1.104783	these are	-0.053220
+-1.130053	these defects	-0.053220
+-1.377747	they are	-0.053220
+-1.426399	they supply	-0.053220
+-1.426399	they were	-0.053220
+-1.426399	they would	-0.053220
+-1.112312	thing that	-0.053220
+-1.130053	thing today	-0.053220
+-0.818496	things are	-0.053220
+-1.598847	this advance	-0.053220
+-1.596387	this certificate	-0.053220
+-0.951928	this equal	-0.098516
+-1.598847	this mingle	-0.053220
+-1.596387	this we	-0.053220
+-0.824327	threw into	-0.053220
+-0.762431	throughout the	-0.053220
+-1.261765	thus in	-0.053220
+-1.426399	thus makes	-0.053220
+-1.424616	thus productive	-0.053220
+-1.370806	thus with	-0.053220
+-1.188035	time and	-0.053220
+-1.391972	time or	-0.053220
+-1.426399	time required	-0.053220
+-1.414222	time snlt	-0.053220
+-2.111455	to another	-0.053220
+-1.543831	to be	-0.053220
+-2.200502	to deal	-0.053220
+-2.143868	to do	-0.053220
+-2.111455	to each	-0.053220
+-2.200502	to explain	-0.053220
+-2.111455	to him	-0.053220
+-2.200502	to himself	-0.053220
+-2.111455	to his	-0.053220
+-2.200502	to hunt	-0.053220
+-1.894696	to it	-0.053220
+-2.200502	to lose	-0.053220
+-2.053092	to man	-0.053220
+-2.081294	to marx	-0.053220
+-1.552367	to own	-0.053220
+-1.584359	to produce	-0.053220
+-2.200502	to serve	-0.053220
+-0.787248	to the	-0.053220
+-0.757370	today and	-0.053220
+-0.480776	tomato juice	-0.053220
+-0.788657	tomorrow to	-0.053220
+-0.747423	transformation of	-0.053220
+-1.377747	under an	-0.053220
+-1.426399	under capitalism	-0.053220
+-1.406678	under consumption	-0.053220
+-1.201814	under the	-0.053220
+-1.461276	unequal are	-0.053220
+-1.505897	unequal individual	-0.053220
+-1.518770	unequal individuals	-0.053220
+-1.390960	unequal labor	-0.053220
+-1.461276	unequal right	-0.053220
+-0.831384	unique property	-0.053220
+-0.830930	unites us	-0.053220
+-0.830930	unowned thing	-0.053220
+-0.826288	upon him	-0.053220
+-1.119974	us all	-0.053220
+-1.002212	us the	-0.053220
+-0.635074	use value	-0.053220
+-0.737698	utopia </s>
+-0.830930	utopian politics	-0.053220
+-0.600253	v </s>
+-1.296879	v v	-0.053220
+-1.109703	value </s>
+-1.155744	value and	-0.075278
+-1.888715	value exchange	-0.053220
+-1.934853	value exploitation	-0.053220
+-1.827571	value from	-0.053220
+-1.644214	value is	-0.053220
+-1.697172	value labor	-0.053220
+-2.002614	value leads	-0.053220
+-1.395043	value of	-0.053220
+-1.996169	value rate	-0.053220
+-2.002614	value sell	-0.053220
+-1.934853	value under	-0.053220
+-0.822375	vanished after	-0.053220
+-0.830930	variable capital	-0.053220
+-0.830930	versus equality	-0.053220
+-0.831384	very nature	-0.053220
+-0.818496	view are	-0.053220
+-0.812743	voluntarily not	-0.053220
+-0.831384	wages prices	-0.053220
+-1.112312	want after	-0.053220
+-1.048833	want to	-0.053220
+-0.976468	way of	-0.053220
+-1.112312	way that	-0.053220
+-1.116126	we have	-0.053220
+-1.130053	we know	-0.053220
+-0.831384	wealth flow	-0.053220
+-0.762431	weave the	-0.053220
+-1.082948	web he	-0.053220
+-0.976468	web of	-0.053220
+-0.812743	were not	-0.053220
+-1.544580	what he	-0.053220
+-0.612405	what i	-0.098516
+-1.553051	what one	-0.053220
+-1.662937	what we	-0.053220
+-0.807065	whatever he	-0.053220
+-0.808950	when it	-0.053220
+-1.119974	where m	-0.053220
+-1.130053	where nobody	-0.053220
+-1.427400	which enslaves	-0.053220
+-1.347209	which he	-0.053220
+-0.750875	which is	-0.053220
+-1.039100	while in	-0.053220
+-1.002212	while the	-0.053220
+-0.794098	who is	-0.053220
+-0.831384	whose womb	-0.053220
+-1.123856	why does	-0.053220
+-1.130053	why isnt	-0.053220
+-1.112312	will be	-0.053220
+-1.039100	will in	-0.053220
+-0.812743	wishes society	-0.053220
+-1.151032	with an	-0.098516
+-1.809332	with here	-0.053220
+-1.813170	with something	-0.053220
+-1.038818	with the	-0.053220
+-1.742017	with this	-0.053220
+-1.158448	with what	-0.053220
+-0.822375	withdraw more	-0.053220
+-0.831384	without ever	-0.053220
+-0.808950	womb it	-0.053220
+-1.058789	worker is	-0.053220
+-1.119974	worker like	-0.053220
+-0.993460	workers and	-0.053220
+-1.129151	workers contribution	-0.098516
+-0.828258	working class	-0.053220
+-0.689537	workmanship </s>
+-1.201677	workmanship and	-0.053220
+-0.812743	would not	-0.053220
+-1.283178	yet at	-0.053220
+-1.283178	yet must	-0.053220
+-1.255913	yet only	-0.053220
+
+\3-grams:
+-0.494213	<s> alternative formulations
+-0.568630	<s> base and
+-0.856442	<s> but one
+-0.668477	<s> c m
+-0.742548	<s> chief seattles
+-0.628516	<s> commodity exchange
+-0.742220	<s> consider chief
+-0.680425	<s> critique of
+-0.389606	<s> declining tendency
+-0.609475	<s> early utopian
+-0.828348	<s> exploitation immiseration
+-0.906359	<s> freedom the
+-0.993026	<s> freedom versus
+-0.740291	<s> hence equal
+-0.589288	<s> how is
+-0.841983	<s> in a
+-0.605715	<s> karl marx
+-0.645499	<s> labor theory
+-0.519771	<s> living human
+-0.533425	<s> m c
+-0.509660	<s> marx and
+-0.609475	<s> marxisms failure
+-1.084090	<s> marxs definition
+-1.084090	<s> marxs historical
+-1.084090	<s> marxs intellectual
+-0.719677	<s> money </s>
+-0.568630	<s> monopolies and
+-0.581646	<s> moral assumptions
+-0.586276	<s> need to
+-0.870594	<s> or consider
+-1.185042	<s> part i
+-1.207781	<s> part ii
+-1.207781	<s> part iii
+-1.201227	<s> part theory
+-0.562904	<s> persistence of
+-0.366941	<s> project of
+-0.609475	<s> relative absolute
+-0.742548	<s> robert nozick
+-0.795263	<s> s s
+-0.480872	<s> socialism a
+-0.609475	<s> socialisms limitations
+-0.568630	<s> superabundance and
+-0.596399	<s> t he
+-0.609234	<s> teleological conception
+-1.935331	<s> the basic
+-1.546774	<s> the exchange
+-1.930911	<s> the german
+-1.445873	<s> the hidden
+-1.100994	<s> the labor
+-1.935331	<s> the marxian
+-1.935331	<s> the materialist
+-1.935331	<s> the search
+-1.935331	<s> the transformation
+-0.742548	<s> these defects
+-0.860940	<s> this we
+-0.823867	<s> under consumption
+-0.494430	<s> use value
+-0.871096	<s> what we
+-0.740291	<s> why does
+-0.607813	<s> working class
+-0.767166	<s> workmanship and
+-0.798103	a bourgeois limitation
+-0.605715	a butterfly must
+-0.789428	a can of
+-0.731816	a certificate from
+-0.609234	a cleavage exists
+-0.947051	a commodity </s>
+-1.067179	a commodity like
+-0.327481	a communist society
+-0.609475	a critical critic
+-0.716695	a fisherman a
+-0.599482	a given society
+-0.742220	a higher phase
+-0.716695	a hunter a
+-0.740291	a longer time
+-0.465371	a means of
+-0.605715	a measure must
+-0.609475	a mind without
+-0.797825	a natural privilege
+-0.742220	a particular exclusive
+-0.609475	a previously unowned
+-0.696784	a right of
+-0.387325	a shepherd or
+-0.676033	a society based
+-0.753763	a standard of
+-0.562904	a strand of
+-0.494430	a use value
+-0.652615	a way of
+-0.990373	a way that
+-0.738867	a worker like
+-0.913012	ability to each
+-0.928052	absence of alienation
+-0.503944	absolute surplus value
+-0.889020	abundantly only then
+-0.915571	accomplished in any
+-0.848647	according to his
+-1.343938	according to marx
+-0.908468	accordingly the individual
+-0.873548	activity but each
+-0.845260	activity is not
+-0.564898	activity which is
+-0.669274	advance this equal
+-0.606762	after deducting his
+-0.607813	after dinner just
+-0.842170	after labor has
+-0.609475	after prolonged birth
+-1.392421	after the deductions
+-1.392421	after the enslaving
+-1.391104	after the productive
+-0.609475	afternoon rear cattle
+-0.828348	alien power opposed
+-0.609234	all around development
+-0.861179	all man did
+-0.930333	all the springs
+-0.602587	all things are
+-0.601550	also increased with
+-0.930333	also the antithesis
+-0.810671	alternative formulations </s>
+-0.909250	alternative formulations exploitometer
+-0.687947	although principle and
+-0.605715	american government c
+-0.817580	amount of labor
+-1.387722	amount of socially
+-0.609234	an alien power
+-0.465371	an amount of
+-1.265016	an equal in
+-1.390724	an equal performance
+-1.389425	an equal point
+-0.949601	an equal standard
+-0.835894	an unequal right
+-0.568630	anarchy state and
+-0.767211	and all the
+-0.847747	and another tomorrow
+-0.557252	and communism </s>
+-0.604670	and criticize after
+-0.557252	and domination </s>
+-0.632993	and exploitation role
+-0.895168	and he must
+-0.733217	and hence an
+-0.861179	and individual rights
+-0.557252	and injustice </s>
+-0.609234	and intellectually still
+-0.680425	and intensity of
+-0.896696	and its cultural
+-0.874535	and labor to
+-0.557252	and legacy </s>
+-0.609234	and market theories
+-0.557252	and militancy </s>
+-0.849861	and not in
+-0.604670	and nothing more
+-0.593337	and physical labor
+-0.673032	and politics </s>
+-0.602587	and practice are
+-0.557252	and profits </s>
+-0.557252	and science </s>
+-1.300518	and so forth
+-0.902045	and so on
+-1.246941	and so one
+-0.906249	and society inscribe
+-0.597424	and spill it
+-0.787243	and such an
+-0.557252	and superstructure </s>
+-0.604670	and supplies more
+-1.580401	and the common
+-1.671836	and the elimination
+-1.671836	and the english
+-1.671836	and the enlightenment
+-1.264865	and the labor
+-1.669333	and the project
+-0.609234	and therewith also
+-0.828348	and they would
+-1.041874	and thus makes
+-1.041222	and thus productive
+-0.557252	and utopia </s>
+-0.735061	and value </s>
+-0.609234	and variable capital
+-0.809377	and which he
+-0.858335	and with the
+-1.132592	and with this
+-0.983988	and yet at
+-0.983988	and yet must
+-0.665695	another and so
+-0.845260	another is not
+-0.802185	another one will
+-0.604670	another physically or
+-0.586276	another tomorrow to
+-0.742548	antithesis between mental
+-0.596399	any branch he
+-0.816400	any commodity is
+-0.731816	any other its
+-0.494430	any use value
+-0.916158	application of an
+-0.606762	are brought under
+-0.606762	are connected like
+-0.583285	are inevitable in
+-0.600515	are measurable only
+-0.742220	are no longer
+-0.600515	are regarded only
+-0.601550	are taken from
+-0.912258	are the conditions
+-0.797825	argument class monopoly
+-0.493064	argument corn theory
+-0.680425	around development of
+-1.553836	as a butterfly
+-1.553836	as a cleavage
+-1.553836	as a measure
+-1.539951	as a natural
+-1.539951	as a use
+-0.767059	as activity is
+-0.872108	as i have
+-1.121591	as it emerges
+-1.101315	as it has
+-1.063829	as it is
+-0.685393	as long as
+-1.000804	as long therefore
+-0.861179	as man remains
+-0.591308	as much as
+-0.591308	as soon as
+-1.523437	as the division
+-1.245690	as the labor
+-1.034332	as the only
+-1.525154	as the same
+-0.817006	as they are
+-0.687947	as workers and
+-0.784076	as yet only
+-0.492337	assumptions behind workmanship
+-0.609234	at loggerheads while
+-1.223781	at the beginning
+-1.223781	at the end
+-0.490164	at their value
+-0.906911	average and not
+-0.562904	average degree of
+-0.730469	back from society
+-0.880143	banners from each
+-0.925787	base and superstructure
+-0.661252	based on genuine
+-0.680425	basic problem of
+-0.587477	basis of the
+-0.919614	be a standard
+-0.583285	be crossed in
+-0.736033	be defined by
+-0.387325	be developed on
+-0.609234	be different individuals
+-0.736033	be higher than
+-0.604670	be richer than
+-0.715346	because everyone is
+-0.802185	because one owns
+-0.583285	become accomplished in
+-0.882246	become not only
+-0.879242	becomes an alien
+-0.601550	becomes permeated with
+-0.742220	becoming hunter fisherman
+-0.797825	been made exactly
+-0.896696	beginning its emergence
+-0.436682	behind workmanship </s>
+-0.604670	being controlled by
+-0.821487	being each man
+-0.609475	being ignored further
+-0.909526	belong to man
+-0.585493	belongs to the
+-0.568630	between mental and
+-0.929878	between the particular
+-0.601550	birth pangs from
+-0.587477	birthmarks of the
+-0.871034	blood that unites
+-0.571522	bourgeois limitation the
+-1.146793	bourgeois right although
+-1.131145	bourgeois right be
+-0.902142	branch he wishes
+-0.817006	brought under an
+-0.819955	but each can
+-0.906249	but it tacitly
+-0.609475	but lifes prime
+-0.607813	but nor do
+-0.673838	but on the
+-0.893359	but one man
+-0.847330	but unequal individuals
+-0.742548	but why isnt
+-0.779306	butterfly must and
+-0.847330	buy his commodities
+-0.916822	by a bourgeois
+-0.383866	by an equal
+-0.817006	by him for
+-1.159971	by its duration
+-1.159971	by its very
+-1.217641	by the amount
+-1.217641	by the snlt
+-0.858958	c c v
+-0.787156	c m </s>
+-0.859584	c m c
+-1.216161	c m where
+-0.471827	c v </s>
+-0.742548	can become accomplished
+-0.604670	can check this
+-0.600515	can consist only
+-0.842170	can labor for
+-0.604670	can never be
+-0.927634	can of tomato
+-0.930333	can the narrow
+-0.596399	cannot escape he
+-0.641681	capacity as a
+-0.855758	capital c c
+-0.848045	capital has to
+-0.918816	capitalist in larval
+-0.581646	capitalist other contributions
+-1.154653	capitalist society right
+-1.168492	capitalist society which
+-0.878574	case are regarded
+-0.918816	case in spite
+-0.319706	cattle in the
+-0.851945	ceases to be
+-0.730469	certificate from society
+-0.902142	certificate he draws
+-0.732596	challenge and the
+-0.861339	check this mingle
+-0.557252	chief seattle </s>
+-0.609475	chief seattles letter
+-0.661274	children than another
+-0.839272	circulation than he
+-0.733217	circulation these are
+-0.557252	class consciousness </s>
+-0.609234	class differences because
+-0.568630	class monopoly and
+-0.519771	classical political economy
+-0.742220	cleavage exists between
+-0.609475	co operative wealth
+-0.853468	come to own
+-0.845306	comes into being
+-0.853468	comes to own
+-0.633269	commodities at their
+-0.916827	commodities in such
+-1.127301	commodity exchange exists
+-1.120496	commodity exchange under
+-0.861386	commodity is determined
+-0.823867	commodity like any
+-0.568630	common funds and
+-0.591308	common interest as
+-1.164415	communist society after
+-1.325619	communist society as
+-1.368004	communist society not
+-1.423428	communist society where
+-0.687457	conception of history
+-0.673032	conditioned thereby </s>
+-1.213691	conditions of production
+-0.697082	conditions of the
+-0.767211	connected like the
+-0.742548	consider chief seattle
+-0.742548	consider robert nozicks
+-0.842828	consist only in
+-0.319706	consists in the
+-0.925787	constant and variable
+-0.604670	constantly stigmatized by
+-0.768185	consumption as a
+-1.194570	consumption as much
+-0.597424	consumption fund one
+-0.827949	content like every
+-0.495515	contrary just as
+-0.983401	contribution of dead
+-0.637333	contribution of the
+-0.688637	contributions the feminist
+-0.856852	controlled by him
+-0.389767	corn theory of
+-0.928052	creation of fresh
+-0.901163	critic and he
+-0.568630	critical critic and
+-0.861339	criticize after dinner
+-0.742548	criticthe german ideology
+-0.587477	critique of the
+-0.853788	crossed in its
+-0.742548	cultural development conditioned
+-0.581442	dead workers contribution
+-0.889224	deal with here
+-0.475950	declining tendency in
+-0.820183	deducting his labor
+-0.847747	deductions have been
+-0.733217	deed becomes an
+-0.878574	defects are inevitable
+-0.701050	defined as the
+-0.662579	defined by its
+-0.600515	definite side only
+-0.895265	definition of a
+-0.928052	degree of skill
+-0.616542	determined by the
+-0.868379	developed on its
+-0.811778	developed on the
+-0.609234	development conditioned thereby
+-0.587477	development of the
+-0.899553	did not weave
+-0.742220	differences because everyone
+-0.740291	different individuals if
+-0.495515	dinner just as
+-0.609234	dissipated my tomato
+-0.605715	divided mans own
+-0.702870	division of labor
+-0.878276	do i thereby
+-0.609234	do markets freedom
+-0.901724	do one thing
+-0.726256	does mixing one
+-1.165223	does not belong
+-1.164357	does not want
+-1.198997	does to himself
+-0.694531	does to the
+-0.788836	dont if i
+-0.694189	dont own a
+-0.821912	draws from the
+-0.870594	duration or intensity
+-0.322440	each according to
+-0.870594	each can become
+-0.848958	each man has
+-0.609234	early utopian politics
+-0.828348	earth all things
+-0.573484	earth does not
+-0.562904	economic structure of
+-0.568630	economically morally and
+-0.928052	elimination of competition
+-0.797825	else being ignored
+-0.856442	else but it
+-0.861339	emerged after prolonged
+-0.641681	emergence as a
+-0.571522	emerges accordingly the
+-0.742426	emerges from capitalist
+-0.587477	end of the
+-0.890191	endowment and thus
+-0.578970	english marx </s>
+-0.828348	enslaves him instead
+-0.562904	enslaving subordination of
+-0.906911	entirety and society
+-0.319706	equal in the
+-0.562904	equal performance of
+-0.680425	equal point of
+-1.289734	equal right here
+-0.799956	equal right is
+-1.121967	equal standard but
+-1.145170	equal standard insofar
+-1.092103	equal standard labor
+-0.583285	equality consists in
+-0.915571	equivalents in commodity
+-0.927197	equivalents the money
+-0.772632	escape he is
+-0.925787	evening and criticize
+-0.571522	evenly throughout the
+-0.609234	ever becoming hunter
+-0.609475	every respect economically
+-0.876981	every right right
+-0.733217	everyone else but
+-0.901544	everyone is only
+-0.740291	everything else being
+-0.852080	exactly what he
+-0.847178	example as long
+-0.568630	exchange constant and
+-0.730419	exchange exists only
+-1.386597	exchange of commodities
+-0.860719	exchange of equivalents
+-0.828348	exchange under capitalism
+-1.042681	exchange value and
+-1.310656	exchange value is
+-1.331615	exchange value labor
+-1.190732	exchange value of
+-0.313283	exclusive sphere of
+-0.691757	exists between the
+-0.880737	exists only on
+-0.389606	explain declining tendency
+-0.925787	exploitation and injustice
+-0.568630	exploitation immiseration and
+-0.461509	exploitation role of
+-0.599482	exploitometer might not
+-0.604670	fact receive more
+-0.870594	fact that measurement
+-0.925787	failure and legacy
+-0.878574	fairly but nor
+-0.537116	feminist critique </s>
+-0.591308	first example as
+-0.366941	first phase of
+-0.319706	fish in the
+-0.919614	fisherman a shepherd
+-0.387325	fisherman shepherd or
+-0.861179	flow more abundantly
+-0.609475	foolishly dissipated my
+-1.203872	for a given
+-1.202961	for a longer
+-0.915224	for as soon
+-0.583285	for instance in
+-0.893482	for its production
+-0.586276	for me to
+-0.912258	for the common
+-0.366941	for theories of
+-0.820183	for unequal labor
+-0.606762	forced upon him
+-0.847330	forces have also
+-0.847747	form must buy
+-0.609475	formulations exploitometer might
+-0.815307	forth thus with
+-0.869688	foundations but on
+-0.740291	freedom argument class
+-0.930333	freedom the absence
+-0.609234	freedom versus equality
+-0.878950	fresh exchange constant
+-0.606063	from capitalist society
+-0.736033	from circulation than
+-0.581668	from each according
+-0.902167	from one definite
+-1.011814	from society after
+-1.011814	from society that
+-0.912258	from the social
+-0.609475	from whose womb
+-0.802185	fund one will
+-0.879196	funds and with
+-0.736315	furnished such and
+-0.901724	further one worker
+-0.479787	gaining what i
+-0.736315	general production and
+-0.436682	genuine workmanship </s>
+-0.557252	german ideology </s>
+-0.596090	german marx and
+-0.757577	given society and
+-0.897544	gives to it
+-0.557252	gotha program </s>
+-0.619545	government c </s>
+-0.919614	has a particular
+-0.729027	has become not
+-0.387325	has developed on
+-0.607813	has furnished such
+-0.798103	has just emerged
+-0.861179	has more children
+-1.169234	has one exclusive
+-1.170055	has one unique
+-0.851945	has to be
+-0.604670	has vanished after
+-0.920088	have a mind
+-0.742548	have also increased
+-0.607813	have been made
+-0.878700	have i foolishly
+-0.917545	have to deal
+-0.609475	he cannot escape
+-0.366941	he division of
+-0.744486	he does not
+-0.750981	he does to
+-0.601550	he draws from
+-0.586276	he gives to
+-0.889459	he has furnished
+-1.042018	he is a
+-1.199848	he is merely
+-0.847747	he must remain
+-0.716695	he receives a
+-0.605715	he threw into
+-0.599482	he wishes society
+-0.383866	hence an equal
+-0.663687	hence equal right
+-1.042018	here is a
+-1.096603	here is still
+-0.581442	hidden moral argument
+-0.366941	higher phase of
+-0.798575	higher than the
+-0.920626	him and which
+-0.852568	him for as
+-0.562904	him instead of
+-0.828571	him which enslaves
+-0.586276	his ability to
+-0.737448	his commodities at
+-0.842170	his labor for
+-0.465371	his means of
+-0.557252	his needs </s>
+-0.557252	historical predictions </s>
+-0.925169	horizon of bourgeois
+-0.917545	how is profit
+-0.687276	human labor power
+-0.319706	hunt in the
+-0.919614	hunter a fisherman
+-0.742220	hunter fisherman shepherd
+-0.871034	i can check
+-0.905942	i dont if
+-0.901784	i dont own
+-0.609475	i foolishly dissipated
+-0.815069	i have a
+-0.901960	i own a
+-1.256918	i own rather
+-1.223949	i own with
+-0.742548	i thereby come
+-0.795768	if he does
+-0.718984	if i own
+-0.828348	if they were
+-0.597424	ignored further one
+-0.562904	immanent laws of
+-0.925787	immiseration and militancy
+-1.111753	in a communist
+-1.202961	in a higher
+-0.828348	in any branch
+-0.628516	in commodity exchange
+-0.742548	in every respect
+-0.742548	in fact receive
+-1.159971	in its content
+-1.159971	in its entirety
+-0.609475	in larval form
+-0.782502	in natural society
+-0.740291	in principle bourgeois
+-0.562904	in spite of
+-0.768579	in such a
+-1.988169	in the afternoon
+-1.988169	in the application
+-1.988169	in the evening
+-1.983072	in the fact
+-1.818313	in the first
+-1.789086	in the individual
+-1.988169	in the morning
+-1.988169	in the present
+-1.506504	in the rate
+-1.818313	in the same
+-1.818313	in the social
+-1.813427	in the society
+-1.983072	in the sphere
+-0.742548	in them everything
+-0.707224	increased with the
+-0.920626	individual and all
+-0.707340	individual case in
+-0.568630	individual endowment and
+-0.609234	individual producer receives
+-0.557252	individual rights </s>
+-0.585493	individual to the
+-0.920626	individuals and they
+-0.793647	individuals if they
+-0.853788	inequality in its
+-0.319706	inevitable in the
+-0.714292	inscribe on its
+-0.910737	insofar as they
+-0.319706	instance in the
+-0.925169	instead of being
+-0.557252	intellectual biography </s>
+-0.797825	intellectually still stamped
+-0.587477	intensity of the
+-0.597424	intensity otherwise it
+-0.847178	interest as long
+-0.793647	into being each
+-0.733217	into capital has
+-0.899427	into it at
+-1.223781	into the rest
+-1.187455	into the sea
+-1.225910	is a commodity
+-1.235899	is a communist
+-1.362061	is a hunter
+-0.874250	is an unequal
+-1.073101	is as long
+-1.193811	is as yet
+-0.718048	is defined as
+-0.490887	is determined by
+-0.609475	is forced upon
+-0.785657	is made with
+-0.606762	is married another
+-0.590297	is merely a
+-1.123372	is not one
+-1.165223	is not voluntarily
+-0.732819	is only a
+-0.742220	is profit possible
+-0.586276	is proportional to
+-0.583285	is seen in
+-0.993026	is still constantly
+-0.932202	is still in
+-0.586276	is superior to
+-1.112752	is the exchange
+-1.158974	is the only
+-0.716695	is therefore a
+-0.785815	is thus in
+-0.597424	is when it
+-0.736033	isnt mixing what
+-0.599889	it at the
+-0.586276	it ceases to
+-0.909250	it emerges accordingly
+-0.893586	it emerges from
+-1.146000	it has developed
+-1.141336	it has just
+-0.901693	it he receives
+-0.596464	it into the
+-1.198995	it is therefore
+-1.199848	it is when
+-0.849985	it labor power
+-0.609234	it perhaps because
+-0.733217	it possible for
+-0.742220	it recognizes no
+-0.609234	it tacitly recognizes
+-0.596399	it whatever he
+-0.601550	its banners from
+-0.566601	its consumption as
+-0.606762	its content like
+-0.609234	its cultural development
+-0.604670	its duration or
+-0.591308	its emergence as
+-0.568630	its entirety and
+-0.515980	its exchange value
+-0.607813	its molecules made
+-0.878658	its own foundations
+-0.795263	its production snlt
+-0.609475	its very nature
+-0.925787	juice and spill
+-1.176385	just as i
+-1.044894	just as it
+-0.604670	just emerged after
+-0.578970	karl marx </s>
+-0.912258	know the earth
+-0.861339	labor after deducting
+-1.378073	labor and hence
+-1.277010	labor and so
+-1.379378	labor and therewith
+-0.737448	labor comes into
+-0.557252	labor cost </s>
+-0.873650	labor for a
+-1.026272	labor for the
+-1.146000	labor has become
+-1.146793	labor has vanished
+-0.319706	labor in the
+-0.905811	labor it recognizes
+-0.609234	labor offers us
+-0.915909	labor power as
+-1.242603	labor power has
+-0.911991	labor power is
+-0.583285	labor prevalent in
+-0.157506	labor theory of
+-0.828348	labor they supply
+-1.041874	labor time required
+-1.037390	labor time snlt
+-0.917545	labor to serve
+-0.889630	labor with something
+-0.605715	larval form must
+-0.587477	laws of the
+-0.585493	leads to the
+-0.585493	letter to the
+-0.878574	life but lifes
+-0.772632	life he is
+-0.609234	lifes prime want
+-0.827949	like any other
+-0.733217	like every right
+-0.742220	like everyone else
+-0.930333	like the blood
+-0.917409	limitation the right
+-0.707340	livelihood while in
+-0.507571	living human labor
+-0.691757	loggerheads while the
+-0.768185	long as a
+-1.179590	long as man
+-0.718048	long therefore as
+-0.848121	longer at loggerheads
+-0.762682	longer time and
+-0.844874	lose his means
+-0.479787	losing what i
+-0.809651	m c </s>
+-0.642130	m c m
+-0.619545	m m </s>
+-0.738867	m where m
+-0.604670	made exactly what
+-0.606762	made radioactive so
+-0.750035	made with an
+-0.834659	make one the
+-0.905811	makes it possible
+-0.586276	man belongs to
+-0.599482	man did not
+-0.855100	man has a
+-0.917990	man is superior
+-0.861179	man man belongs
+-0.583285	man remains in
+-0.878658	mans own deed
+-0.366941	market theories of
+-0.797454	markets freedom argument
+-0.813378	married another is
+-1.484162	marx and individual
+-1.495229	marx and science
+-0.775239	marx and the
+-0.568630	marxian challenge and
+-0.568630	marxisms failure and
+-0.562904	marxs definition of
+-0.609475	marxs historical predictions
+-0.609475	marxs intellectual biography
+-0.366941	materialist conception of
+-0.914765	me to do
+-1.372493	means of consumption
+-1.314688	means of life
+-1.385846	means of livelihood
+-0.880737	measurable only by
+-0.839464	measure must be
+-0.914918	measurement is made
+-0.669274	measurement this equal
+-0.925787	mental and physical
+-0.925787	mentally and supplies
+-0.920088	merely a strand
+-0.899553	might not reward
+-0.609475	mind without ever
+-0.609475	mingle evenly throughout
+-0.899111	mixing one s
+-0.479787	mixing what i
+-0.797825	molecules made radioactive
+-0.847553	money into capital
+-0.742548	money owner who
+-0.732596	monopolies and the
+-0.925787	monopoly and domination
+-0.581646	moral argument corn
+-0.494213	moral assumptions behind
+-0.925787	morally and intellectually
+-0.600515	more abundantly only
+-0.604670	more children than
+-0.917990	more is seen
+-0.869328	more labor in
+-0.661274	more than another
+-0.891127	more value from
+-0.583285	morning fish in
+-0.701050	much as the
+-0.892703	must and yet
+-0.870594	must be defined
+-0.606762	must buy his
+-0.899553	must not take
+-0.606762	must remain so
+-0.389606	my tomato juice
+-0.562904	narrow horizon of
+-0.925787	natural and market
+-0.597424	natural privilege it
+-0.809717	natural society that
+-0.609475	naturally divided mans
+-0.871034	nature can consist
+-0.850350	necessary labor time
+-0.917545	need to explain
+-0.858961	needed to produce
+-0.870594	never be higher
+-0.515980	new exchange value
+-0.797825	no class differences
+-0.737448	no longer at
+-0.742315	nobody has one
+-0.797825	nor do markets
+-0.717982	normal for a
+-0.830192	not as it
+-0.871034	not be different
+-0.586276	not belong to
+-0.319706	not in the
+-0.609475	not naturally divided
+-0.889567	not one has
+-0.732819	not only a
+-0.609475	not reward fairly
+-0.609475	not take place
+-0.835894	not unequal are
+-0.599482	not voluntarily not
+-0.711325	not want to
+-0.571522	not weave the
+-0.825773	nothing more is
+-0.609475	nozick anarchy state
+-0.557252	nozicks question </s>
+-0.865409	of a commodity
+-0.976552	of activity but
+-0.986495	of activity which
+-0.557252	of alienation </s>
+-0.383866	of an equal
+-0.823867	of any commodity
+-0.797825	of being controlled
+-0.503235	of bourgeois right
+-0.742220	of circulation these
+-0.519771	of classical political
+-0.609475	of co operative
+-0.707340	of commodities in
+-0.327481	of communist society
+-0.557252	of competition </s>
+-0.566601	of consumption as
+-0.557252	of crisis </s>
+-0.494046	of dead workers
+-0.858499	of equivalents in
+-0.836590	of equivalents the
+-0.745023	of exploitation </s>
+-0.604670	of fresh exchange
+-0.604670	of gaining what
+-0.457470	of history </s>
+-0.583285	of inequality in
+-1.177650	of it perhaps
+-1.177650	of it whatever
+-1.561573	of labor after
+-0.947505	of labor and
+-1.598854	of labor comes
+-1.600902	of labor cost
+-1.600902	of labor offers
+-0.895621	of life but
+-0.883552	of life he
+-0.609234	of livelihood while
+-0.604670	of losing what
+-0.465371	of means of
+-0.736033	of measurement this
+-0.792038	of money into
+-0.736315	of natural and
+-0.604670	of new exchange
+-0.797825	of production normal
+-0.537116	of profit </s>
+-0.568630	of scarcity and
+-0.568630	of skill and
+-0.609475	of socially necessary
+-0.757577	of society and
+-0.753584	of surplus contribution
+-0.650908	of surplus value
+-1.389682	of the capitalist
+-1.546124	of the exchange
+-1.935162	of the gotha
+-1.935162	of the immanent
+-1.380005	of the individual
+-1.360798	of the labor
+-1.935162	of the old
+-1.930733	of the problem
+-1.935162	of the process
+-1.935162	of the producers
+-0.861339	of this advance
+-0.389606	of tomato juice
+-0.560058	of value </s>
+-0.969665	of value and
+-1.607902	of value exploitation
+-0.602587	of view are
+-0.609475	of wages prices
+-0.436682	of workmanship </s>
+-0.691757	offers us the
+-0.891924	old society from
+-0.886954	on and so
+-0.492337	on genuine workmanship
+-1.159971	on its banners
+-1.146761	on its own
+-1.341984	on the average
+-1.392421	on the basis
+-1.392421	on the contrary
+-0.711325	one comes to
+-0.609475	one definite side
+-0.389492	one exclusive sphere
+-0.880737	one has more
+-0.825773	one man is
+-0.909250	one owns ones
+-0.909250	one owns ownership
+-0.773171	one s labor
+-0.929878	one the owner
+-0.742548	one thing today
+-0.609475	one unique property
+-0.899720	one will be
+-0.858499	one will in
+-0.715346	one worker is
+-0.790290	ones labor and
+-1.197614	only a means
+-1.202961	only a worker
+-0.914825	only as workers
+-0.849978	only by an
+-0.884644	only for instance
+-0.319706	only in the
+-0.673838	only on the
+-0.484267	only source of
+-0.911822	only the capitalist
+-0.742220	only then then
+-0.609475	operative wealth flow
+-0.913012	opposed to him
+-0.920088	or a critical
+-0.842001	or can labor
+-0.742220	or consider robert
+-0.609234	or criticthe german
+-0.837675	or have i
+-0.742548	or intensity otherwise
+-0.568630	or mentally and
+-0.467639	other contributions the
+-0.887435	other its exchange
+-0.906249	otherwise it ceases
+-0.596464	over into the
+-1.332340	own a can
+-1.363375	own a previously
+-1.232018	own a way
+-0.609234	own deed becomes
+-0.602587	own foundations but
+-0.604670	own rather than
+-0.911470	own the sea
+-0.752627	own with what
+-0.882371	owner of it
+-0.589288	owner who is
+-0.609475	ownership seeps over
+-0.593337	owns ones labor
+-0.609475	owns ownership seeps
+-0.742426	pangs from capitalist
+-0.790652	part i </s>
+-0.557252	part ii </s>
+-0.557252	part iii </s>
+-0.465371	part theory of
+-0.732596	particular and the
+-0.389492	particular exclusive sphere
+-0.874756	performance of labor
+-0.726256	perhaps because one
+-0.752627	permeated with what
+-0.928052	persistence of scarcity
+-0.687241	phase of communist
+-0.842170	physical labor has
+-0.871034	physically or mentally
+-0.319706	place in the
+-0.801286	point is the
+-0.928052	point of view
+-0.479897	political economy </s>
+-0.609475	politics subsequent disillusionment
+-0.378472	possible according to
+-0.884644	possible for me
+-0.555372	power as the
+-0.742315	power has one
+-1.042018	power is a
+-0.998463	power is the
+-0.586276	power opposed to
+-0.878127	practice are no
+-0.733217	present case are
+-0.319706	prevalent in the
+-0.609234	previously unowned thing
+-0.568630	prices rents and
+-0.736033	prime want after
+-0.925787	principle and practice
+-0.503235	principle bourgeois right
+-0.787226	privilege it is
+-0.901909	problem of classical
+-0.604670	process withdraw more
+-0.825600	produce any use
+-0.877297	produce it labor
+-0.742548	producer receives back
+-0.917990	producers is proportional
+-0.890191	production and thus
+-0.602587	production normal for
+-0.767059	production snlt is
+-0.591308	productive capacity as
+-0.605715	productive forces have
+-0.742220	profit possible according
+-0.673726	project of classical
+-0.609475	prolonged birth pangs
+-0.891457	property its consumption
+-0.585493	proportional to the
+-0.850794	radioactive so i
+-1.375186	rate of exploitation
+-0.860384	rate of profit
+-0.829151	rather than a
+-0.583285	rear cattle in
+-0.852638	receive more than
+-0.919614	receives a certificate
+-0.601550	receives back from
+-0.740291	recognizes no class
+-0.844874	recognizes unequal individual
+-0.856882	regarded only as
+-0.930333	regulates the general
+-0.609234	relative absolute surplus
+-0.858216	remain so if
+-0.916827	remains in natural
+-0.925787	rents and profits
+-0.858961	required to produce
+-0.609475	respect economically morally
+-0.878127	rest but why
+-0.602587	reward fairly but
+-0.661274	richer than another
+-0.609234	right although principle
+-0.871034	right be crossed
+-0.662579	right by its
+-0.871034	right can never
+-0.877921	right for unequal
+-0.379935	right here is
+-1.175922	right is an
+-1.096603	right is still
+-1.219311	right of inequality
+-0.697082	right of the
+-0.880737	right right by
+-0.609475	robert nozick anarchy
+-0.609475	robert nozicks question
+-0.685018	role of workmanship
+-0.901550	s labor with
+-0.795263	s s v
+-0.795905	s v v
+-0.465371	same amount of
+-0.820423	same time or
+-0.925328	scarcity and politics
+-0.788836	sea do i
+-0.864192	sea or have
+-0.852638	sea so that
+-0.884212	search for theories
+-0.586276	seattles letter to
+-0.918528	seen in them
+-0.605715	seeps over into
+-0.737448	sell them at
+-0.641681	serve as a
+-1.055491	shepherd or a
+-1.114021	shepherd or criticthe
+-0.876981	side only for
+-0.925328	skill and intensity
+-0.870525	snlt for its
+-0.917545	snlt is defined
+-0.586276	snlt needed to
+-0.607813	so forth thus
+-0.868467	so i can
+-0.777811	so if he
+-0.986617	so on </s>
+-1.015014	so on and
+-0.901724	so one comes
+-0.856668	so that its
+-0.828571	social consumption fund
+-0.562904	social stock of
+-0.673042	socialism a society
+-0.557252	socialisms limitations </s>
+-0.593337	socially necessary labor
+-0.508677	society after the
+-1.186163	society and its
+-1.128406	society and with
+-0.830192	society as it
+-0.490887	society based on
+-0.884757	society from whose
+-0.604670	society inscribe on
+-0.864801	society not as
+-0.571522	society regulates the
+-0.878855	society right can
+-1.073546	society that he
+-1.052554	society that is
+-0.742548	society where nobody
+-0.564898	society which is
+-0.597424	something make one
+-0.701050	soon as the
+-1.387722	source of new
+-0.839365	source of surplus
+-0.860384	sphere of activity
+-1.386597	sphere of circulation
+-0.899427	spill it into
+-0.919740	spite of this
+-0.928052	springs of co
+-0.707224	stamped with the
+-0.871614	standard but unequal
+-0.591308	standard insofar as
+-0.825077	standard labor </s>
+-0.927634	standard of measurement
+-0.715346	starting point is
+-0.925787	state and utopia
+-0.829988	stigmatized by a
+-0.609475	still constantly stigmatized
+-0.918528	still in principle
+-0.601550	still stamped with
+-0.925169	stock of means
+-0.882371	strand of it
+-0.910840	structure of society
+-0.587477	subordination of the
+-0.557252	subsequent disillusionment </s>
+-0.868062	such a way
+-0.877033	such an amount
+-0.922621	such and such
+-0.925787	superabundance and communism
+-0.913012	superior to another
+-0.832776	supplies more labor
+-0.929878	supply the equality
+-0.313283	surplus contribution of
+-0.898304	surplus value </s>
+-1.176583	surplus value rate
+-0.901693	t he division
+-0.737448	tacitly recognizes unequal
+-0.583285	take place in
+-0.864408	taken from one
+-0.366941	teleological conception of
+-0.275265	tendency in the
+-0.868062	than a way
+-0.737944	than another and
+-1.156154	than another one
+-0.902142	than he threw
+-0.930333	than the economic
+-0.742548	that becomes permeated
+-0.889405	that he has
+-0.832235	that is as
+-0.896696	that its molecules
+-0.715346	that measurement is
+-0.930333	that the starting
+-0.609234	that unites us
+-0.562904	the absence of
+-0.609475	the afternoon rear
+-0.828348	the all around
+-0.609475	the american government
+-0.465371	the amount of
+-0.609234	the antithesis between
+-0.562904	the application of
+-0.831281	the average and
+-0.909250	the average degree
+-0.609234	the basic problem
+-0.562904	the basis of
+-0.601550	the beginning its
+-0.562904	the birthmarks of
+-0.604670	the blood that
+-1.027970	the capitalist in
+-0.753305	the capitalist other
+-0.909250	the common funds
+-0.909250	the common interest
+-0.461509	the conditions of
+-0.607813	the contrary just
+-0.562904	the creation of
+-0.605715	the deductions have
+-0.313283	the division of
+-0.903858	the earth all
+-0.905942	the earth does
+-0.609475	the economic structure
+-0.562904	the elimination of
+-0.562904	the end of
+-0.605715	the english marx
+-0.557252	the enlightenment </s>
+-0.609475	the enslaving subordination
+-0.742548	the equality consists
+-0.568630	the evening and
+-0.759412	the exchange of
+-0.682604	the exchange value
+-0.736033	the fact that
+-0.494046	the feminist critique
+-0.909250	the first example
+-0.908770	the first phase
+-0.607813	the general production
+-0.737448	the german marx
+-0.609475	the gotha program
+-0.494046	the hidden moral
+-0.609475	the immanent laws
+-1.122625	the individual and
+-1.289872	the individual case
+-1.291027	the individual producer
+-1.189432	the individual to
+-1.668306	the labor prevalent
+-0.616321	the labor theory
+-1.645800	the labor they
+-1.422854	the labor time
+-0.609475	the marxian challenge
+-0.609234	the materialist conception
+-0.797454	the money owner
+-0.609475	the morning fish
+-0.609475	the narrow horizon
+-0.599482	the old society
+-0.711969	the only source
+-0.680425	the owner of
+-0.687947	the particular and
+-0.609234	the present case
+-0.673032	the problem </s>
+-0.609475	the process withdraw
+-0.589288	the producers is
+-0.742548	the productive forces
+-0.366941	the project of
+-0.313283	the rate of
+-0.602587	the rest but
+-0.696784	the right of
+-0.905942	the same amount
+-0.905942	the same time
+-1.079151	the sea do
+-1.069913	the sea or
+-1.076050	the sea so
+-0.602587	the search for
+-0.797825	the snlt needed
+-0.903858	the social consumption
+-0.909250	the social stock
+-0.815400	the society </s>
+-0.366941	the sphere of
+-0.562904	the springs of
+-0.609234	the starting point
+-0.562904	the transformation of
+-0.883552	the web he
+-0.820854	the web of
+-0.922730	their value and
+-1.177441	their value sell
+-0.633269	them at their
+-0.609234	them everything else
+-0.804046	then can the
+-0.734623	then then can
+-1.213691	theories of natural
+-1.219311	theories of wages
+-1.846499	theory of crisis
+-1.740272	theory of surplus
+-0.294278	theory of value
+-0.586276	thereby come to
+-0.906628	therefore a right
+-0.914825	therefore as activity
+-0.691757	therewith also the
+-0.810501	these are the
+-0.602587	these defects are
+-0.878574	they are brought
+-0.571522	they supply the
+-0.599482	they were not
+-0.599482	they would not
+-0.870594	thing that becomes
+-0.568630	thing today and
+-0.878574	things are connected
+-0.604670	this advance this
+-0.724878	this certificate he
+-0.530937	this equal right
+-0.609475	this mingle evenly
+-0.742548	this we know
+-0.829010	threw into it
+-0.911470	throughout the sea
+-0.918528	thus in every
+-0.597424	thus makes it
+-0.742548	thus productive capacity
+-0.750035	thus with an
+-0.895490	time and labor
+-0.860414	time or can
+-0.586276	time required to
+-0.787243	time snlt for
+-0.847747	to another physically
+-1.055491	to be a
+-1.113252	to be developed
+-0.601550	to deal with
+-0.779369	to do one
+-0.581668	to each according
+-0.609234	to explain declining
+-0.823867	to him which
+-0.557252	to himself </s>
+-1.074058	to his ability
+-1.074058	to his needs
+-0.583285	to hunt in
+-0.882724	to it he
+-0.606762	to lose his
+-0.852638	to man man
+-0.578970	to marx </s>
+-0.839989	to own a
+-1.016765	to own the
+-0.903858	to produce any
+-0.885541	to produce it
+-0.591308	to serve as
+-1.671836	to the american
+-1.671836	to the creation
+-1.578372	to the division
+-1.580401	to the earth
+-1.264865	to the labor
+-1.580401	to the web
+-0.920626	today and another
+-0.810671	tomato juice </s>
+-0.831281	tomato juice and
+-0.917545	tomorrow to hunt
+-0.925169	transformation of money
+-0.383866	under an equal
+-0.557252	under capitalism </s>
+-0.753430	under consumption </s>
+-0.912258	under the conditions
+-0.878574	unequal are measurable
+-0.861179	unequal individual endowment
+-0.687947	unequal individuals and
+-0.894180	unequal labor it
+-0.876981	unequal right for
+-0.601550	unique property its
+-0.738867	unites us all
+-0.736033	unowned thing that
+-0.762682	upon him and
+-0.820423	us all man
+-0.912258	us the first
+-1.302120	use value exchange
+-1.325711	use value leads
+-1.312270	use value under
+-0.742548	utopian politics subsequent
+-0.471827	v v </s>
+-0.974843	value and exploitation
+-1.457308	value and value
+-1.388300	value and yet
+-0.515980	value exchange value
+-0.762682	value exploitation and
+-0.884347	value from circulation
+-0.861386	value is determined
+-0.849985	value labor power
+-0.586276	value leads to
+-0.923352	value of any
+-0.366941	value rate of
+-0.609234	value sell them
+-0.767211	value under the
+-0.834900	vanished after labor
+-0.737448	variable capital c
+-0.673032	versus equality </s>
+-0.603627	very nature can
+-0.878574	view are taken
+-0.899553	voluntarily not naturally
+-0.609475	wages prices rents
+-0.630568	want after the
+-0.917545	want to lose
+-1.219311	way of gaining
+-1.219311	way of losing
+-0.804046	way that the
+-0.808344	we have to
+-0.571522	we know the
+-0.604670	wealth flow more
+-0.912258	weave the web
+-0.795768	web he does
+-0.901909	web of life
+-0.892250	were not unequal
+-0.902142	what he gives
+-0.932958	what i dont
+-0.770464	what i own
+-0.802185	what one owns
+-0.737448	what we have
+-0.795768	whatever he does
+-0.806650	when it has
+-0.857355	where m m
+-0.602587	where nobody has
+-0.606762	which enslaves him
+-0.902142	which he cannot
+-1.199848	which is forced
+-1.193987	which is thus
+-0.841983	while in a
+-0.870308	while the exchange
+-0.832235	who is as
+-0.597424	whose womb it
+-0.828215	why does mixing
+-0.609234	why isnt mixing
+-0.871034	will be richer
+-0.918528	will in fact
+-0.906249	wishes society regulates
+-0.326706	with an equal
+-0.379935	with here is
+-0.609475	with something make
+-1.377774	with the all
+-1.341984	with the average
+-1.392421	with the birthmarks
+-0.860940	with this certificate
+-0.562841	with what i
+-1.083941	with what one
+-0.850794	withdraw more value
+-0.609475	without ever becoming
+-0.816819	womb it emerges
+-0.917990	worker is married
+-0.827949	worker like everyone
+-0.925787	workers and nothing
+-0.313283	workers contribution of
+-0.797825	working class consciousness
+-0.732596	workmanship and the
+-0.890231	would not be
+-0.599889	yet at the
+-0.830593	yet must not
+-0.822564	yet only the
+
+\end\

@@ -1,0 +1,20 @@
+evst a g g a the atmosphere ocean and environmental change problem set due friday sept 
+mars has a radius of x m and a surface gravity of ms calculate the escape velocity 
+for mars and the typical speed of a co molecule assume t k how can mars retain its co 
+atmosphere hint the molecular weight of carbon dioxide is use the formulae given in class 
+give an approximate altitude or depth above or below sea level in kilometers for a the tropopause 
+b the ozone layer c the stratosphere d the cruising altitude of a light plane cessna piper etc e the cruising altitude of a dc f the cruising altitude of the concorde g a typical cumulus cloud h a cirrus cloud i mt everest j mt mckinley alaska k mt washington new hampshire l the thickness of the turbulent boundary layer on a sunny day m the top of a cumulonimbus anvil n the density scale height o depth to the abyssal plain p depth to a deep ocean trench q thickness of the earths crust r radius of the earth 
+if the sea level air density is kg m and the scale height is meters estimate the air density at an altitude of meters what assumptions have you made what is the density at m 
+using the stefan boltzmann law f t determine the flux of radiant energy emitted from one square meter of a the suns surface t k and b the earths surface t k the 
+stefan boltzmann constant is wm k do these two objects emit at the same wavelength 
+using the formula for the average temperature of a planet t s 
+a 
+predict the earths 
+temperature assuming that s w m and a how much would this predicted temperature change if the albedo were increased to explain 
+what is the special structure and property of a greenhouse gas molecule give a few examples of greenhouse gases 
+given an atmospheric surface pressure of hpa a surface gravity of g m s and an earth radius of km compute the mass of the earths atmosphere 
+on a typical day the pressures at hill base and hill top are measured to be p mb and mb respectively estimate the height of the hill 
+recall the tank experiment done in class imagine that the exit valve coefficient is k cgs units predict the steady state depth of water z for inflow rates of and 
+milliliters second explain any problems you encounter hint use q out k z eff and 
+z
+

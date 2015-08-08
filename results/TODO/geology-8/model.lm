@@ -1,0 +1,1028 @@
+
+\data\
+ngram 1=214
+ngram 2=389
+ngram 3=412
+
+\1-grams:
+-1.331075	</s>
+-99	<s>	-0.062462
+-1.542678	a	-0.061132
+-2.493653	above	-0.054643
+-2.493653	abyssal	-0.054643
+-2.380254	air	-0.139994
+-2.493653	alaska	-0.054643
+-2.493653	albedo	-0.054643
+-2.257526	altitude	-0.109641
+-2.091649	an	-0.054643
+-1.628532	and	-0.083776
+-2.493653	anvil	-0.054643
+-2.493653	any	-0.054643
+-2.493653	approximate	-0.054643
+-2.493653	are	-0.054643
+-2.493653	assume	-0.054643
+-2.493653	assuming	-0.054643
+-2.493653	assumptions	-0.054643
+-2.257526	at	-0.054643
+-2.257526	atmosphere	-0.054643
+-2.493653	atmospheric	-0.054643
+-2.493653	average	-0.054643
+-2.380254	b	-0.139994
+-2.493653	base	-0.054643
+-2.493653	be	-0.054643
+-2.493653	below	-0.054643
+-2.493653	boltzmann	-0.054643
+-2.493653	boundary	-0.054643
+-2.493653	c	-0.054643
+-2.493653	calculate	-0.054643
+-2.493653	can	-0.054643
+-2.493653	carbon	-0.054643
+-2.493653	cessna	-0.054643
+-2.493653	cgs	-0.054643
+-2.380254	change	-0.054643
+-2.493653	cirrus	-0.054643
+-2.493653	class	-0.054643
+-2.380254	cloud	-0.054643
+-2.380254	co	-0.054643
+-2.493653	coefficient	-0.054643
+-2.493653	compute	-0.054643
+-2.493653	concorde	-0.054643
+-2.493653	constant	-0.054643
+-2.493653	cruising	-0.054643
+-2.493653	crust	-0.054643
+-2.493653	cumulonimbus	-0.054643
+-2.493653	cumulus	-0.054643
+-2.493653	d	-0.054643
+-2.380254	day	-0.054643
+-2.493653	dc	-0.054643
+-2.493653	deep	-0.054643
+-2.380254	density	-0.095225
+-2.091649	depth	-0.095225
+-2.493653	determine	-0.054643
+-2.493653	dioxide	-0.054643
+-2.493653	do	-0.054643
+-2.493653	done	-0.054643
+-2.493653	due	-0.054643
+-2.493653	e	-0.054643
+-2.380254	earth	-0.054643
+-2.493653	earths	-0.054643
+-2.493653	eff	-0.054643
+-2.493653	emit	-0.054643
+-2.493653	emitted	-0.054643
+-2.493653	encounter	-0.054643
+-2.493653	energy	-0.054643
+-2.493653	environmental	-0.054643
+-2.493653	escape	-0.054643
+-2.380254	estimate	-0.139994
+-2.493653	etc	-0.054643
+-2.493653	everest	-0.054643
+-2.493653	evst	-0.054643
+-2.493653	examples	-0.054643
+-2.493653	exit	-0.054643
+-2.493653	experiment	-0.054643
+-2.380254	explain	-0.054643
+-2.380254	f	-0.054643
+-2.493653	few	-0.054643
+-2.493653	flux	-0.054643
+-2.091649	for	-0.054643
+-2.493653	formula	-0.054643
+-2.493653	formulae	-0.054643
+-2.493653	friday	-0.054643
+-2.493653	from	-0.054643
+-2.091649	g	-0.095225
+-2.493653	gas	-0.054643
+-2.493653	gases	-0.054643
+-2.380254	give	-0.054643
+-2.380254	given	-0.054643
+-2.493653	gravity	-0.054643
+-2.380254	greenhouse	-0.054643
+-2.493653	h	-0.054643
+-2.493653	hampshire	-0.054643
+-2.493653	has	-0.054643
+-2.493653	have	-0.054643
+-2.380254	height	-0.054643
+-2.257526	hill	-0.054643
+-2.380254	hint	-0.054643
+-2.380254	how	-0.054643
+-2.493653	hpa	-0.054643
+-2.493653	i	-0.054643
+-2.380254	if	-0.139994
+-2.493653	imagine	-0.054643
+-2.257526	in	-0.109641
+-2.493653	increased	-0.054643
+-2.493653	inflow	-0.054643
+-1.878149	is	-0.054643
+-2.493653	its	-0.054643
+-2.493653	j	-0.054643
+-1.971909	k	-0.054643
+-2.493653	kg	-0.054643
+-2.493653	kilometers	-0.054643
+-2.493653	km	-0.054643
+-2.493653	l	-0.054643
+-2.493653	law	-0.054643
+-2.380254	layer	-0.054643
+-2.493653	level	-0.054643
+-2.493653	light	-0.054643
+-1.878149	m	-0.026463
+-2.493653	made	-0.054643
+-2.257526	mars	-0.054643
+-2.493653	mass	-0.054643
+-2.380254	mb	-0.054643
+-2.493653	mckinley	-0.054643
+-2.493653	measured	-0.054643
+-2.493653	meter	-0.054643
+-2.380254	meters	-0.054643
+-2.493653	milliliters	-0.054643
+-2.493653	molecular	-0.054643
+-2.380254	molecule	-0.054643
+-2.493653	ms	-0.054643
+-2.257526	mt	-0.054643
+-2.493653	much	-0.054643
+-2.493653	n	-0.054643
+-2.493653	new	-0.054643
+-2.493653	o	-0.054643
+-2.493653	objects	-0.054643
+-2.380254	ocean	-0.054643
+-1.381779	of	-0.146537
+-2.380254	on	-0.139994
+-2.493653	one	-0.054643
+-2.380254	or	-0.054643
+-2.493653	out	-0.054643
+-2.493653	ozone	-0.054643
+-2.380254	p	-0.054643
+-2.493653	piper	-0.054643
+-2.493653	plain	-0.054643
+-2.493653	plane	-0.054643
+-2.493653	planet	-0.054643
+-2.380254	predict	-0.139994
+-2.493653	predicted	-0.054643
+-2.493653	pressure	-0.054643
+-2.493653	pressures	-0.054643
+-2.493653	problem	-0.054643
+-2.493653	problems	-0.054643
+-2.493653	property	-0.054643
+-2.380254	q	-0.054643
+-2.493653	r	-0.054643
+-2.493653	radiant	-0.054643
+-2.257526	radius
+-2.493653	rates	-0.054643
+-2.493653	recall	-0.054643
+-2.493653	respectively	-0.054643
+-2.493653	retain	-0.054643
+-2.257526	s	-0.054643
+-2.493653	same	-0.054643
+-2.380254	scale	-0.139994
+-2.380254	sea	-0.139994
+-2.493653	second	-0.054643
+-2.493653	sept	-0.054643
+-2.493653	set	-0.054643
+-2.493653	special	-0.054643
+-2.493653	speed	-0.054643
+-2.493653	square	-0.054643
+-2.493653	state	-0.054643
+-2.493653	steady	-0.054643
+-2.380254	stefan	-0.139994
+-2.493653	stratosphere	-0.054643
+-2.493653	structure	-0.054643
+-2.493653	sunny	-0.054643
+-2.493653	suns	-0.054643
+-2.091649	surface	-0.095225
+-2.091649	t	-0.095225
+-2.493653	tank	-0.054643
+-2.257526	temperature	-0.054643
+-2.380254	that	-0.054643
+-1.156181	the	-0.049927
+-2.493653	these	-0.054643
+-2.380254	thickness	-0.139994
+-2.493653	this	-0.054643
+-2.257526	to	-0.054643
+-2.380254	top	-0.054643
+-2.493653	trench	-0.054643
+-2.493653	tropopause	-0.054643
+-2.493653	turbulent	-0.054643
+-2.493653	two	-0.054643
+-2.380254	typical	-0.054643
+-2.493653	units	-0.054643
+-2.380254	use	-0.054643
+-2.493653	using	-0.054643
+-2.493653	valve	-0.054643
+-2.493653	velocity	-0.054643
+-2.493653	w	-0.054643
+-2.493653	washington	-0.054643
+-2.493653	water	-0.054643
+-2.493653	wavelength	-0.054643
+-2.493653	weight	-0.054643
+-2.493653	were	-0.054643
+-2.257526	what	-0.109641
+-2.493653	wm	-0.054643
+-2.493653	would	-0.054643
+-2.493653	x	-0.054643
+-2.380254	you	-0.054643
+-2.257526	z	-0.054643
+
+\2-grams:
+-1.334241	<s> </s>
+-1.512371	<s> a	-0.019070
+-1.970707	<s> atmosphere	-0.019070
+-2.021387	<s> b	-0.019070
+-2.060965	<s> evst	-0.019070
+-1.888600	<s> for	-0.019070
+-2.021387	<s> give	-0.019070
+-2.021387	<s> given	-0.019070
+-2.021387	<s> if	-0.019070
+-1.970707	<s> mars	-0.019070
+-2.060965	<s> milliliters	-0.019070
+-2.021387	<s> on	-0.019070
+-2.021387	<s> predict	-0.019070
+-2.060965	<s> recall	-0.019070
+-2.021387	<s> stefan	-0.019070
+-1.970707	<s> temperature	-0.019070
+-1.518065	<s> using	-0.166862
+-1.970707	<s> what	-0.019070
+-1.970707	<s> z	-0.019070
+-1.335721	a </s>
+-2.074825	a cirrus	-0.019070
+-2.033903	a co	-0.019070
+-2.074825	a cumulonimbus	-0.019070
+-2.074825	a dc	-0.019070
+-2.074825	a deep	-0.019070
+-2.074825	a few	-0.019070
+-1.897426	a g	-0.019070
+-2.033903	a greenhouse	-0.019070
+-2.033903	a how	-0.019070
+-2.074825	a light	-0.019070
+-2.074825	a planet	-0.019070
+-1.981676	a radius	-0.019070
+-2.074825	a sunny	-0.019070
+-1.477849	a surface	-0.166862
+-1.217313	a the	-0.019070
+-1.524874	a typical	-0.019070
+-0.913995	above or	-0.019070
+-0.917013	abyssal plain	-0.019070
+-0.555062	air density	-0.019070
+-0.894035	alaska k	-0.019070
+-0.917013	albedo were	-0.019070
+-0.665634	altitude of	-0.086709
+-1.370126	altitude or	-0.019070
+-1.463063	an altitude	-0.019070
+-1.489641	an approximate	-0.019070
+-1.489641	an atmospheric	-0.019070
+-1.478465	an earth	-0.019070
+-1.052698	and </s>
+-1.463664	and a	-0.019070
+-1.758833	and an	-0.019070
+-1.848225	and b	-0.019070
+-1.873098	and environmental	-0.019070
+-1.815165	and hill	-0.019070
+-1.848225	and mb	-0.019070
+-1.873098	and property	-0.019070
+-0.967984	and the	-0.019070
+-0.917013	anvil n	-0.019070
+-0.917013	any problems	-0.019070
+-0.909742	approximate altitude	-0.019070
+-0.917013	are measured	-0.019070
+-0.901818	assume t	-0.019070
+-0.913995	assuming that	-0.019070
+-0.917013	assumptions have	-0.019070
+-1.435372	at an	-0.019070
+-1.463063	at hill	-0.019070
+-1.384783	at m	-0.019070
+-1.040485	at the	-0.019070
+-1.093931	atmosphere </s>
+-1.365698	atmosphere hint	-0.019070
+-1.365698	atmosphere ocean	-0.019070
+-0.901818	atmospheric surface	-0.019070
+-0.909742	average temperature	-0.019070
+-0.486628	b the	-0.019070
+-0.857087	base and	-0.019070
+-0.913995	be p	-0.019070
+-0.913995	below sea	-0.019070
+-1.208009	boltzmann constant	-0.019070
+-1.208009	boltzmann law	-0.019070
+-0.913995	boundary layer	-0.019070
+-0.745285	c the	-0.019070
+-0.745285	calculate the	-0.019070
+-0.909742	can mars	-0.019070
+-0.917013	carbon dioxide	-0.019070
+-0.917013	cessna piper	-0.019070
+-0.917013	cgs units	-0.019070
+-1.202130	change if	-0.019070
+-1.208009	change problem	-0.019070
+-0.913995	cirrus cloud	-0.019070
+-0.998894	class </s>
+-1.208009	class imagine	-0.019070
+-1.208009	cloud h	-0.019070
+-1.208009	cloud i	-0.019070
+-0.998894	co </s>
+-1.202130	co molecule	-0.019070
+-0.886390	coefficient is	-0.019070
+-0.745285	compute the	-0.019070
+-0.901818	concorde g	-0.019070
+-0.886390	constant is	-0.019070
+-0.909742	cruising altitude
+-0.917013	crust r	-0.019070
+-0.917013	cumulonimbus anvil	-0.019070
+-0.913995	cumulus cloud	-0.019070
+-0.745285	d the	-0.019070
+-1.150047	day m	-0.019070
+-0.918451	day the	-0.019070
+-0.913995	dc f	-0.019070
+-0.913995	deep ocean	-0.019070
+-0.847052	density at	-0.019070
+-1.395894	density is	-0.019070
+-1.482770	density scale	-0.019070
+-1.493039	depth above	-0.019070
+-1.201357	depth of	-0.019070
+-0.847052	depth to	-0.019070
+-0.745285	determine the	-0.019070
+-0.886390	dioxide is	-0.019070
+-0.917013	do these	-0.019070
+-0.909742	done in	-0.019070
+-0.917013	due friday	-0.019070
+-0.745285	e the	-0.019070
+-0.998894	earth </s>
+-1.193910	earth radius	-0.019070
+-1.150591	earths </s>
+-1.463063	earths atmosphere	-0.019070
+-1.489641	earths crust	-0.019070
+-1.435372	earths surface	-0.019070
+-0.857087	eff and	-0.019070
+-0.909742	emit at	-0.019070
+-0.917013	emitted from	-0.019070
+-0.913995	encounter hint	-0.019070
+-0.917013	energy emitted	-0.019070
+-0.913995	environmental change	-0.019070
+-0.917013	escape velocity	-0.019070
+-0.486628	estimate the	-0.019070
+-0.917013	etc e	-0.019070
+-0.917013	everest j	-0.019070
+-0.843145	evst a	-0.019070
+-0.810132	examples of	-0.019070
+-0.917013	exit valve	-0.019070
+-0.917013	experiment done	-0.019070
+-0.998894	explain </s>
+-1.208009	explain any	-0.019070
+-1.178791	f t	-0.019070
+-0.918451	f the	-0.019070
+-0.917013	few examples	-0.019070
+-0.810132	flux of	-0.019070
+-1.260974	for a	-0.019070
+-1.489641	for inflow	-0.019070
+-1.463063	for mars	-0.019070
+-1.040485	for the	-0.019070
+-0.901818	formula for	-0.019070
+-0.913995	formulae given	-0.019070
+-0.917013	friday sept	-0.019070
+-0.917013	from one	-0.019070
+-0.793723	g a	-0.019070
+-1.442976	g g	-0.019070
+-1.395894	g m	-0.019070
+-0.913995	gas molecule	-0.019070
+-0.797598	gases </s>
+-1.073721	give a	-0.019070
+-1.178791	give an	-0.019070
+-1.178791	given an	-0.019070
+-1.193910	given in	-0.019070
+-0.810132	gravity of	-0.019070
+-1.208009	greenhouse gas	-0.019070
+-1.208009	greenhouse gases	-0.019070
+-0.843145	h a	-0.019070
+-0.917013	hampshire l	-0.019070
+-0.843145	has a	-0.019070
+-0.913995	have you	-0.019070
+-1.291727	height is	-0.019070
+-1.374293	height o	-0.019070
+-1.119089	height of	-0.019070
+-1.093931	hill </s>
+-1.374293	hill base	-0.019070
+-1.365698	hill top	-0.019070
+-0.918451	hint the	-0.019070
+-1.202130	hint use	-0.019070
+-1.208009	how can	-0.019070
+-1.208009	how much	-0.019070
+-0.843145	hpa a	-0.019070
+-0.909742	i mt	-0.019070
+-0.486628	if the	-0.019070
+-0.913995	imagine that	-0.019070
+-0.730030	in class	-0.019070
+-1.377768	in kilometers	-0.019070
+-0.909742	increased to	-0.019070
+-0.917013	inflow rates	-0.019070
+-1.535938	is k	-0.019070
+-1.647164	is kg	-0.019070
+-1.631190	is meters	-0.019070
+-1.090192	is the	-0.019070
+-1.631190	is use	-0.019070
+-1.647164	is wm	-0.019070
+-0.913995	its co	-0.019070
+-0.909742	j mt	-0.019070
+-1.424462	k and	-0.019070
+-1.705116	k cgs	-0.019070
+-1.705116	k do	-0.019070
+-1.686909	k how	-0.019070
+-1.662283	k mt	-0.019070
+-1.105506	k the	-0.019070
+-1.662283	k z	-0.019070
+-0.886390	kg m	-0.019070
+-0.901818	kilometers for	-0.019070
+-0.917013	km compute	-0.019070
+-0.745285	l the	-0.019070
+-0.913995	law f	-0.019070
+-1.208009	layer c	-0.019070
+-1.202130	layer on	-0.019070
+-1.202130	level air	-0.019070
+-1.193910	level in	-0.019070
+-0.917013	light plane	-0.019070
+-1.196514	m </s>
+-1.654995	m and	-0.111818
+-1.603722	m s	-0.019070
+-1.068680	m the	-0.019070
+-0.909742	made what	-0.019070
+-1.220767	mars and	-0.019070
+-1.374293	mars has	-0.019070
+-1.374293	mars retain	-0.019070
+-0.810132	mass of	-0.019070
+-1.097703	mb and	-0.019070
+-1.208009	mb respectively	-0.019070
+-0.917013	mckinley alaska	-0.019070
+-0.909742	measured to	-0.019070
+-0.810132	meter of	-0.019070
+-1.202130	meters estimate	-0.019070
+-1.193910	meters what	-0.019070
+-0.917013	milliliters second	-0.019070
+-0.917013	molecular weight	-0.019070
+-1.208009	molecule assume	-0.019070
+-1.202130	molecule give	-0.019070
+-0.917013	ms calculate	-0.019070
+-1.374293	mt everest	-0.019070
+-1.374293	mt mckinley	-0.019070
+-1.374293	mt washington	-0.019070
+-0.917013	much would	-0.019070
+-0.745285	n the	-0.019070
+-0.917013	new hampshire	-0.019070
+-0.901818	o depth	-0.019070
+-0.917013	objects emit	-0.019070
+-1.097703	ocean and	-0.019070
+-1.208009	ocean trench	-0.019070
+-0.804604	of a	-0.019070
+-1.654444	of and	-0.019070
+-2.115556	of carbon	-0.019070
+-1.952631	of g	-0.019070
+-2.078468	of greenhouse	-0.019070
+-2.115556	of hpa	-0.019070
+-2.115556	of km	-0.019070
+-2.078468	of meters	-0.019070
+-2.115556	of ms	-0.019070
+-2.115556	of radiant	-0.019070
+-0.851659	of the	-0.062973
+-2.115556	of water	-0.019070
+-2.115556	of x	-0.019070
+-0.528240	on a	-0.019070
+-0.917013	one square	-0.019070
+-1.208009	or below	-0.019070
+-1.178791	or depth	-0.019070
+-0.894035	out k	-0.019070
+-0.913995	ozone layer	-0.019070
+-1.178791	p depth	-0.019070
+-1.202130	p mb	-0.019070
+-0.917013	piper etc	-0.019070
+-0.913995	plain p	-0.019070
+-0.917013	plane cessna	-0.019070
+-0.901818	planet t	-0.019070
+-0.486628	predict the	-0.019070
+-0.909742	predicted temperature	-0.019070
+-0.810132	pressure of	-0.019070
+-0.909742	pressures at	-0.019070
+-0.917013	problem set	-0.019070
+-0.913995	problems you	-0.019070
+-0.810132	property of	-0.019070
+-1.208009	q out	-0.019070
+-1.202130	q thickness	-0.019070
+-0.909742	r radius	-0.019070
+-0.917013	radiant energy	-0.019070
+-1.381779	radius of	-0.019070
+-0.810132	rates of	-0.019070
+-0.745285	recall the	-0.019070
+-0.913995	respectively estimate	-0.019070
+-0.917013	retain its	-0.019070
+-1.093931	s </s>
+-1.220767	s and	-0.019070
+-1.374293	s w	-0.019070
+-0.917013	same wavelength	-0.019070
+-0.555062	scale height	-0.019070
+-0.556145	sea level	-0.019070
+-0.913995	second explain	-0.019070
+-0.797598	sept </s>
+-0.917013	set due	-0.019070
+-0.917013	special structure	-0.019070
+-0.810132	speed of	-0.019070
+-0.917013	square meter	-0.019070
+-0.901818	state depth	-0.019070
+-0.917013	steady state	-0.019070
+-0.556145	stefan boltzmann	-0.019070
+-0.917013	stratosphere d	-0.019070
+-0.857087	structure and	-0.019070
+-0.913995	sunny day	-0.019070
+-0.901818	suns surface	-0.019070
+-1.493039	surface gravity	-0.166862
+-1.493039	surface pressure	-0.019070
+-0.840793	surface t	-0.166862
+-1.493039	t determine	-0.019070
+-0.834623	t k	-0.019070
+-1.468581	t s	-0.019070
+-0.917013	tank experiment	-0.019070
+-1.374293	temperature assuming	-0.019070
+-1.365698	temperature change	-0.019070
+-1.119089	temperature of	-0.019070
+-1.193910	that s	-0.019070
+-0.918451	that the	-0.019070
+-1.351889	the </s>
+-2.240791	the abyssal	-0.019070
+-2.180628	the air	-0.019070
+-2.240791	the albedo	-0.019070
+-2.107340	the atmosphere	-0.019070
+-2.240791	the average	-0.019070
+-2.240791	the concorde	-0.019070
+-2.543580	the cruising
+-1.765597	the density	-0.019070
+-2.180628	the earth	-0.019070
+-2.543580	the earths	-0.019070
+-2.240791	the escape	-0.019070
+-2.240791	the exit	-0.019070
+-2.240791	the flux	-0.019070
+-2.240791	the formula	-0.019070
+-2.240791	the formulae	-0.019070
+-2.180628	the height	-0.019070
+-2.107340	the hill	-0.019070
+-2.240791	the mass	-0.019070
+-2.240791	the molecular	-0.019070
+-2.240791	the ozone	-0.019070
+-2.240791	the pressures	-0.019070
+-2.240791	the same	-0.019070
+-2.180628	the scale	-0.019070
+-2.180628	the sea	-0.019070
+-2.240791	the special	-0.019070
+-2.240791	the steady	-0.019070
+-2.180628	the stefan	-0.019070
+-2.240791	the stratosphere	-0.019070
+-2.240791	the suns	-0.019070
+-2.240791	the tank	-0.019070
+-2.180628	the thickness	-0.019070
+-2.180628	the top	-0.019070
+-2.240791	the tropopause	-0.019070
+-2.240791	the turbulent	-0.019070
+-2.180628	the typical	-0.019070
+-0.917013	these two	-0.019070
+-0.514803	thickness of	-0.166862
+-0.917013	this predicted	-0.019070
+-1.260974	to a	-0.019070
+-1.489641	to be	-0.019070
+-1.478465	to explain	-0.019070
+-1.040485	to the	-0.019070
+-1.208009	top are	-0.019070
+-1.018991	top of	-0.019070
+-0.913995	trench q	-0.019070
+-0.797598	tropopause </s>
+-0.917013	turbulent boundary	-0.019070
+-0.917013	two objects	-0.019070
+-1.374293	typical cumulus	-0.019070
+-1.365698	typical day	-0.019070
+-1.374293	typical speed	-0.019070
+-0.913995	units predict	-0.019070
+-1.202130	use q	-0.019070
+-0.918451	use the	-0.019070
+-0.745285	using the	-0.019070
+-0.917013	valve coefficient	-0.019070
+-0.797598	velocity </s>
+-0.886390	w m	-0.019070
+-0.917013	washington new	-0.019070
+-0.909742	water z	-0.019070
+-0.797598	wavelength </s>
+-0.810132	weight of	-0.019070
+-0.917013	were increased	-0.019070
+-1.377768	what assumptions	-0.019070
+-0.712225	what is	-0.166862
+-0.894035	wm k	-0.019070
+-0.917013	would this	-0.019070
+-0.886390	x m	-0.019070
+-1.208009	you encounter	-0.019070
+-1.208009	you made	-0.019070
+-1.093931	z </s>
+-1.374293	z eff	-0.019070
+-1.332089	z for	-0.019070
+
+\3-grams:
+-1.059794	<s> a </s>
+-1.074733	<s> atmosphere hint
+-0.449691	<s> b the
+-0.744015	<s> evst a
+-1.119699	<s> for mars
+-0.973194	<s> give an
+-0.973194	<s> given an
+-0.449691	<s> if the
+-1.078921	<s> mars has
+-0.799109	<s> milliliters second
+-0.486052	<s> on a
+-0.449691	<s> predict the
+-0.667550	<s> recall the
+-0.510181	<s> stefan boltzmann
+-1.078921	<s> temperature assuming
+-0.355134	<s> using the
+-0.640898	<s> what is
+-0.920639	<s> z </s>
+-0.796905	a cirrus cloud
+-0.986956	a co molecule
+-0.799109	a cumulonimbus anvil
+-0.796905	a dc f
+-0.796905	a deep ocean
+-0.799109	a few examples
+-1.110866	a g g
+-0.990374	a greenhouse gas
+-0.990374	a how much
+-0.799109	a light plane
+-0.787971	a planet t
+-1.082534	a radius of
+-0.796905	a sunny day
+-0.467378	a surface gravity
+-1.661654	a the atmosphere
+-1.702962	a the suns
+-1.702962	a the tropopause
+-1.208285	a typical cumulus
+-1.202653	a typical day
+-0.990374	above or below
+-0.796905	abyssal plain p
+-0.802483	air density at
+-1.222268	air density is
+-1.195265	alaska k mt
+-0.799109	albedo were increased
+-0.540694	altitude of a
+-1.755075	altitude of meters
+-0.899673	altitude of the
+-0.973194	altitude or depth
+-0.602688	an altitude of
+-0.793792	an approximate altitude
+-0.787971	an atmospheric surface
+-0.982144	an earth radius
+-1.518107	and a how
+-1.273048	and a surface
+-1.126318	and an earth
+-0.449691	and b the
+-0.796905	and environmental change
+-1.074733	and hill top
+-0.990374	and mb respectively
+-0.718643	and property of
+-1.556054	and the scale
+-1.556054	and the typical
+-0.667550	anvil n the
+-0.796905	any problems you
+-1.076896	approximate altitude or
+-0.793792	are measured to
+-0.737508	assume t k
+-0.982144	assuming that s
+-0.796905	assumptions have you
+-1.119699	at an altitude
+-1.078921	at hill base
+-0.983672	at m </s>
+-1.314647	at the same
+-0.800157	atmosphere hint the
+-0.923057	atmosphere ocean and
+-1.132458	atmospheric surface pressure
+-0.936626	average temperature of
+-1.615876	b the earths
+-1.569008	b the ozone
+-1.239525	base and hill
+-0.986956	be p mb
+-0.510181	below sea level
+-0.776558	boltzmann constant is
+-0.796905	boltzmann law f
+-0.986956	boundary layer on
+-1.314647	c the stratosphere
+-1.314647	calculate the escape
+-1.078921	can mars retain
+-0.776558	carbon dioxide is
+-0.799109	cessna piper etc
+-0.796905	cgs units predict
+-0.449691	change if the
+-0.799109	change problem set
+-0.990374	cirrus cloud i
+-0.796905	class imagine that
+-0.744015	cloud h a
+-0.793792	cloud i mt
+-0.990374	co molecule assume
+-1.149843	coefficient is k
+-1.314647	compute the mass
+-0.705868	concorde g a
+-1.190270	constant is wm
+-0.665634	cruising altitude of
+-0.793792	crust r radius
+-0.799109	cumulonimbus anvil n
+-0.990374	cumulus cloud h
+-1.340113	d the cruising
+-0.904257	day m the
+-1.314647	day the pressures
+-0.800157	dc f the
+-0.990374	deep ocean trench
+-1.247183	density at an
+-1.215106	density at m
+-1.190270	density is kg
+-0.509249	density scale height
+-0.796905	depth above or
+-1.298484	depth of water
+-1.131031	depth to a
+-0.963909	depth to the
+-1.314647	determine the flux
+-1.184866	dioxide is use
+-0.799109	do these two
+-0.655301	done in class
+-0.799109	due friday sept
+-1.340113	e the cruising
+-1.082534	earth radius of
+-0.920639	earths atmosphere </s>
+-0.799109	earths crust r
+-0.742222	earths surface t
+-0.893715	eff and </s>
+-0.885572	emit at the
+-0.799109	emitted from one
+-0.986956	encounter hint use
+-0.799109	energy emitted from
+-0.990374	environmental change problem
+-0.708895	escape velocity </s>
+-1.556054	estimate the air
+-1.556054	estimate the height
+-0.667550	etc e the
+-0.793792	everest j mt
+-1.259010	evst a g
+-1.292874	examples of greenhouse
+-0.799109	exit valve coefficient
+-0.793792	experiment done in
+-0.799109	explain any problems
+-1.132458	f t determine
+-1.340113	f the cruising
+-0.718643	few examples of
+-1.298484	flux of radiant
+-0.995744	for a the
+-0.799109	for inflow rates
+-0.997726	for mars and
+-1.314647	for the average
+-0.885572	formula for the
+-0.982144	formulae given in
+-0.708895	friday sept </s>
+-0.799109	from one square
+-1.099606	g a the
+-1.300515	g a typical
+-0.705868	g g a
+-1.175262	g m s
+-0.986956	gas molecule give
+-1.292301	give a few
+-1.131037	give an approximate
+-1.131037	given an atmospheric
+-0.655301	given in class
+-1.492778	gravity of g
+-1.540392	gravity of ms
+-0.796905	greenhouse gas molecule
+-0.708895	greenhouse gases </s>
+-1.292301	h a cirrus
+-0.667550	hampshire l the
+-1.276197	has a radius
+-0.990374	have you made
+-1.184866	height is meters
+-0.787971	height o depth
+-0.750485	height of the
+-0.754594	hill base and
+-0.990374	hill top are
+-1.314647	hint the molecular
+-0.986956	hint use q
+-0.793792	how can mars
+-0.799109	how much would
+-1.126056	hpa a surface
+-1.078921	i mt everest
+-1.569008	if the albedo
+-1.556054	if the sea
+-0.800157	imagine that the
+-0.930229	in class </s>
+-1.092796	in class imagine
+-0.787971	in kilometers for
+-1.126318	increased to explain
+-0.718643	inflow rates of
+-1.208792	is k cgs
+-0.776558	is kg m
+-0.986956	is meters estimate
+-1.421381	is the density
+-1.569008	is the special
+-0.800157	is use the
+-0.782227	is wm k
+-0.857274	its co </s>
+-1.078921	j mt mckinley
+-1.247695	k and b
+-0.799109	k cgs units
+-0.799109	k do these
+-0.990374	k how can
+-1.078921	k mt washington
+-1.067916	k the </s>
+-1.078921	k z eff
+-1.192872	kg m and
+-1.020293	kilometers for a
+-0.667550	km compute the
+-1.307388	l the thickness
+-0.973194	law f t
+-0.667550	layer c the
+-0.486052	layer on a
+-0.509249	level air density
+-1.080602	level in kilometers
+-0.799109	light plane cessna
+-0.621142	m and a
+-1.010844	m and the
+-0.997726	m s and
+-1.307388	m the top
+-0.640898	made what is
+-0.835691	mars and the
+-0.744015	mars has a
+-0.799109	mars retain its
+-0.750485	mass of the
+-1.247695	mb and mb
+-0.796905	mb respectively estimate
+-0.782227	mckinley alaska k
+-1.131037	measured to be
+-0.714351	meter of a
+-0.449691	meters estimate the
+-1.080602	meters what assumptions
+-0.796905	milliliters second explain
+-0.718643	molecular weight of
+-0.787971	molecule assume t
+-0.907554	molecule give a
+-0.667550	ms calculate the
+-0.799109	mt everest j
+-0.799109	mt mckinley alaska
+-0.799109	mt washington new
+-0.799109	much would this
+-1.226375	n the density
+-0.799109	new hampshire l
+-0.746988	o depth to
+-0.793792	objects emit at
+-1.253539	ocean and environmental
+-0.796905	ocean trench q
+-1.824234	of a co
+-1.847932	of a cumulonimbus
+-1.847932	of a dc
+-1.824234	of a greenhouse
+-1.847932	of a light
+-1.847932	of a planet
+-1.192720	of a the
+-0.893715	of and </s>
+-0.799109	of carbon dioxide
+-1.089259	of g m
+-0.990374	of greenhouse gases
+-0.744015	of hpa a
+-0.799109	of km compute
+-0.982144	of meters what
+-0.799109	of ms calculate
+-0.799109	of radiant energy
+-1.916192	of the concorde
+-1.890530	of the earth
+-0.963323	of the earths
+-1.856489	of the hill
+-1.916192	of the turbulent
+-0.793792	of water z
+-0.776558	of x m
+-1.529656	on a sunny
+-1.300515	on a typical
+-0.799109	one square meter
+-0.796905	or below sea
+-1.132458	or depth above
+-1.195265	out k z
+-0.990374	ozone layer c
+-0.746988	p depth to
+-0.923057	p mb and
+-0.799109	piper etc e
+-0.973194	plain p depth
+-0.799109	plane cessna piper
+-1.122086	planet t s
+-1.615876	predict the earths
+-1.569008	predict the steady
+-1.074733	predicted temperature change
+-1.298484	pressure of hpa
+-1.119699	pressures at hill
+-0.799109	problem set due
+-0.990374	problems you encounter
+-0.714351	property of a
+-0.782227	q out k
+-0.474359	q thickness of
+-1.082534	r radius of
+-0.799109	radiant energy emitted
+-1.664454	radius of km
+-0.826843	radius of the
+-1.664454	radius of x
+-1.192690	rates of and
+-1.314647	recall the tank
+-0.449691	respectively estimate the
+-0.796905	retain its co
+-1.224494	s and an
+-0.776558	s w m
+-0.708895	same wavelength </s>
+-1.152626	scale height is
+-1.208285	scale height o
+-1.088473	sea level air
+-1.082402	sea level in
+-0.990374	second explain any
+-0.799109	set due friday
+-0.754594	special structure and
+-0.714351	speed of a
+-0.718643	square meter of
+-0.986504	state depth of
+-0.787971	steady state depth
+-1.092796	stefan boltzmann constant
+-1.092796	stefan boltzmann law
+-0.667550	stratosphere d the
+-1.253539	structure and property
+-0.955831	sunny day m
+-0.742222	suns surface t
+-0.372169	surface gravity of
+-0.718643	surface pressure of
+-0.378126	surface t k
+-0.667550	t determine the
+-1.298143	t k and
+-1.468526	t k how
+-1.048747	t k the
+-0.920639	t s </s>
+-0.799109	tank experiment done
+-0.796905	temperature assuming that
+-0.986956	temperature change if
+-0.714351	temperature of a
+-1.078921	that s w
+-1.314647	that the exit
+-0.799109	the abyssal plain
+-0.509249	the air density
+-0.799109	the albedo were
+-1.074733	the atmosphere ocean
+-0.793792	the average temperature
+-0.787971	the concorde g
+-0.909742	the cruising altitude
+-0.802483	the density at
+-1.275979	the density scale
+-0.857274	the earth </s>
+-1.105678	the earths </s>
+-1.359610	the earths atmosphere
+-1.379503	the earths crust
+-1.338564	the earths surface
+-0.799109	the escape velocity
+-0.799109	the exit valve
+-0.718643	the flux of
+-0.787971	the formula for
+-0.796905	the formulae given
+-0.936626	the height of
+-0.920639	the hill </s>
+-0.718643	the mass of
+-0.799109	the molecular weight
+-0.796905	the ozone layer
+-0.793792	the pressures at
+-0.799109	the same wavelength
+-0.509249	the scale height
+-0.510181	the sea level
+-0.799109	the special structure
+-0.799109	the steady state
+-0.510181	the stefan boltzmann
+-0.799109	the stratosphere d
+-0.787971	the suns surface
+-0.799109	the tank experiment
+-0.474359	the thickness of
+-0.871056	the top of
+-0.708895	the tropopause </s>
+-0.799109	the turbulent boundary
+-1.078921	the typical speed
+-0.799109	these two objects
+-0.382121	thickness of the
+-0.793792	this predicted temperature
+-1.292301	to a deep
+-0.796905	to be p
+-0.857274	to explain </s>
+-1.314647	to the abyssal
+-0.799109	top are measured
+-0.714351	top of a
+-0.986956	trench q thickness
+-0.796905	turbulent boundary layer
+-0.799109	two objects emit
+-0.796905	typical cumulus cloud
+-0.800157	typical day the
+-0.718643	typical speed of
+-0.449691	units predict the
+-0.990374	use q out
+-1.314647	use the formulae
+-1.569008	using the formula
+-1.556054	using the stefan
+-0.776558	valve coefficient is
+-1.192872	w m and
+-0.799109	washington new hampshire
+-1.057949	water z for
+-1.298484	weight of carbon
+-0.793792	were increased to
+-0.799109	what assumptions have
+-0.426732	what is the
+-1.208792	wm k do
+-0.799109	would this predicted
+-1.192872	x m and
+-0.796905	you encounter hint
+-0.793792	you made what
+-0.754594	z eff and
+-1.131037	z for inflow
+
+\end\

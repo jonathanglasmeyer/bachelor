@@ -5,7 +5,7 @@ from subprocess import call
 
 script_path = os.path.dirname(os.path.realpath(__file__))
 project_path = os.path.abspath(join(script_path, os.pardir))
-results_path = join(project_path, 'results')
+results_path = join(project_path, 'results/TODO')
 
 config_template = """{{
   "acousticModelPath": "en-new/cmusphinx-en-us-5.2",

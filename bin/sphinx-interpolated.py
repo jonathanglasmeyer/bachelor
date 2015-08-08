@@ -10,14 +10,12 @@ data_resources_folder = os.path.join(script_path, 'data')
 def wrapInDoubleQuotes(s):
     return '"{}"'.format(s)
 
-def main():
+def main(INTERPOLATED):
     args = sys.argv[1:]
     config_path = args[0]
-    if len(args) == 2: 
-        INTERPOLATED = True
+    if INTERPOLATED:
         print('INTERPOLATE MODE\n')
     else:
-        INTERPOLATED = False
         print('BASELINE MODE\n')
 
     config = json.load(open(config_path))
@@ -82,6 +80,7 @@ def main():
     wd = os.path.join(script_path, 'sphinx')
     call(cmd, cwd=wd, shell=True)
 
-main()
+main(False)
+main(True)
 
 
