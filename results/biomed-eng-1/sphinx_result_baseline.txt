@@ -1,0 +1,961 @@
+this is that this is a course that aversion of which i taught him almost every year for the last
+the years
+and it involves a little bit every eye year i think i get a little bit better at it
+ah so hopefully you'll get some advantage
+from that experience
+but the idea is to try to present to you a sort of what's exciting about bio medical engineering
+the ways that one can take
+science and mathematics and apply that to accept improve on human health
+a song not working alone here but we have
+three by teaching fellows who are affiliated with the course
+two of which are here today yen got crew is
+they are yen
+major can't hire
+so everyone can see yeah and i worked on the course last year
+and so that she's the i. senior of the teaching fellows that are working on the course
+at this year
+serge cope set is in the back
+tom band
+to be the second that teaching fellow
+i should mention the yen is a ph d. student in bio medical engineering and that's
+serge is an m. d. p. h. d. student who's getting is a ph d. in by a medical engineering
+good god teaching fellow
+couldn't make it today is name is michael look and all introduce
+to you that when he
+when he's available
+so this is that does that goal out for my first lecture today to try to answer these questions
+and got in
+e. you might have ari notice
+that i'm using the classes
+the two server
+so the soul of this is there a minute over the soul of us a little bit later but
+so this is available online
+the first our reading is available online
+and all talk more about the readings
+and when i get to that up force of a lecture here
+and i'm been opposed to a power points for all the lectures hopeful we found at least the day before
+by the lecture takes place so i posted this last night
+some hot student spine that they come
+benefit from printing out the power points and they can just take their notes along with the slides
+go
+and that's one way to do it but
+ah but feel free to do it
+how whatever we worked
+are you with those should be available
+questions i wanted tried a answered today are what is bio medical engineering
+so why would you be interested in spending it's a master learning about this says subject
+i'll talk about who will benefit from the course
+and a little bit about
+so the detail
+a
+a
+subject matter that will cover in the course of this as a master
+so there
+to answer the question what is it
+bio medical engineering were good
+time on that today and will spend time
+on thursday
+ana will approach it from a couple of different angles
+one is by just showing you a series of
+cheers
+i which you might not recognize and talk about why this is a digs
+by medical engineering
+so this is one picture that probably you all
+got you all know what it is when you see it's it's a familiar
+looking at image it's that something that probably we all have some personal experience with right this is a chest x. ray
+ah that would be taken in on your doctor's office
+for example or or radio adjust office
+and it is a date
+a good example of bio medical engineering and that it
+physical principle that is how do x. rays
+interact with the tissues of your body
+any news is that
+physics that physical principle
+to develop a picture of what's inside your body
+to look inside and see things that you couldn't see
+i without this device
+and i don't recognize some of the parts of the image you can see the rib cage here the bones to concede
+the heart is this large about bright object down here
+here um if your
+i have good i site from the discuss the iraqi can see the vessels leading out of that
+out of the heart and into the lungs of the lungs are these
+about darker spaces
+our within that rib cage
+and then physicians over the years of having this instrument have learned how to be very sick
+kate about looking at these pictures
+and the diagnosed saying
+when something is wrong inside the chance for example
+so this is an example a bio medical engineering one that is
+well integrated into art society to the point that we've probably all
+got a picture like this somewhere
+a in our past
+and to where we understand the physical principles
+that allow us to to use it
+we've gotten over the last two decades in particular very sophisticated about taking pictures inside the body
+allowing doctors to look inside the body and predict things about our internal physiology
+ah that they couldn't project
+i despite looking at us are putting their hands on us
+and this image on the top here is another example of a haven't imaging technique
+this is a plaza try mission tom a graf
+p. t. t.
+image
+and is taken by using radio new clients
+and inject in them into use a radioactive chemicals
+that interact with tissues in your body a specific way
+and you can see where those radioactive chemicals go
+and allows us to look not just at the anatomy of what's going on inside your body like an x-ray does
+to look at the chemistry
+the bio chemistry
+of what's happening
+inside a particular
+organ or tissue in your body in this case
+these are pictures of the brain
+and uh this is ben and exceptionally important technique
+in understanding
+hollow molecules like neuro transmitter is
+effect disease and how they change uncertain disease states and out people
+and what will talk about this is another example
+bio medical engineering
+advanced methods for imaging inside the body
+all this out that picture you can
+probably see too much about the u.
+by recognize what it is
+where was this picture taken
+kind of a space was a taken in
+bob
+somebody said o. r. are operating room and that's right this is a picture in in an operating room and operating rooms if you win and to any operating room around the country
+you see lots exit bob examples of instruments that are used to
+help us surgeons
+by that
+and it's easy allah just
+got to keep the patient alive and healthy during the course of the surgery
+and this particular one had down here this portion here is a heart lung machine
+and this is a machine that can take over the function of
+patient's heart
+and lungs
+during the period when they're undergoing
+open heart surgery
+for example
+they're having
+a popcorn yuri artery bypass or they're having a heart transplant
+then there's some period at which there
+normal heart
+there are
+hard to stop
+and this machine assumes the functions of their heart
+and this is an
+the obvious example a bio medical engineering building machine that can replace the function of one of your organs
+even temporarily
+for example a during an operation
+this is another familiar picture ai ay ay ay purposely picked one that looks sort of old fashioned compared to the usual way you see this which might be on the nightly news
+leap going across the screen to indicate that they got their finger on the pulse of what's happening
+or you see it that tv shows like e. r.
+i you see these images on computer screens all the time
+it's an example of the k. g.
+e. c. g. intellect or cardio graf
+it said machine that also looks inside your body that looks inside in it in a different kind of way
+rather than by forming in a major a picture
+ah
+collect roads on the surface of the body
+and measure the electrical potential
+as a function of position
+on the body
+it turns out that the electrical potential or electricity that you can measure on the surface of the body
+things that are happening
+for inside
+like the beating of your heart
+and if you put the elect roads in the right position and you measure in the right way
+can detect
+the electrical activity of the heart and record it
+on a stripper quarter like this one ship is shown here
+or display it on a computer
+and
+so this is another example love
+of bio medical engineering where you can
+look
+function of a heart
+in a living person
+and that physician whose experience that looking at eddie's
+in a machine that works well
+and with those two things you can
+diagnosed a lot of things
+that are happening inside a heart
+and we'll talk about that about halfway through the corps
+
+this ad picture might be less of familiar to you but you probably all know that we have developed over the last hundred years or so
+the ability to take cells
+out of a person
+we're selves adam an animal
+keep those isolated cells to live in culture for extended periods of time
+so this technology is called sell culture technology
+reduce spend quite a bit of time talking about it during the third week of the course
+candy out by taking cells from the skin for example ourselves from your blood ourselves from the bone marrow
+bingham alive and culture we been able to study
+how
+human cells work and learn a lot about the functioning of
+human organism
+we've also learned how to
+not only keep sells allied been a certain cases make them rapid k.
+outside the body so maybe you could take a few skin cells
+and keep them in culture in the right way and rap what kate them so that you get many millions of
+themselves after kicked out of skin cells after this
+for weeks or so
+now one of that
+new
+technology is that's evolving
+they were gonna talk about
+it is in the last half of the corps
+king cells that have been prop it aided in this way outside the body
+and
+encouraging them
+form new tissues
+and this is one example of that this is actually artificial skin
+it's in this pete free dish here is a thin member a knees up oliver scalpel
+and on that palmer staff old as scientists have placed
+some skin cells
+and it allowed it to grow
+and if you maintain it in the right way this pollen risk elf old together with the skin cells will grow into scan
+and you can use this
+tissue engineered
+again
+to treat a patient who said severe burns for example
+or i diabetic whose developed all sir is that won't heal
+and so this is an example of a technology that's just emerging now it's
+heidi you in your lifetime
+and we'll talk about how it works and what the yeah what the yeah
+data the art is there
+this ad
+device
+held
+here it is not really
+native namely plastic
+in a little bit of metal
+foley implant double
+artificial heart
+and he was introduced
+about that
+seven or eight years ago now was implanted into the first to a patient that a gentleman in kentucky and he stayed alive for
+a period of time
+out with this device replacing his heart
+and the development of an artificial heart begin another
+example a bio medical engineering
+is something back
+eleven trying to accomplish for decades now
+and this is the closest cobb that we've buck
+hum
+and there are many advantages of this particular artificial heart and it's it's important
+innovation and encircled the per ways
+a murder that talk about this whole science of building artificial organs
+a devices that are made out of totally synthetic components
+to replace the function of your natural organs
+in the artificial heart is a good example of them
+if
+will this town
+a picture on the bottom here is
+really
+just a series of coloured
+a dots
+some are yellow summer read in summer green does it
+anybody know what this says
+it's an example of ahh but technology called the gene chip
+that allows you to on each one of these spots there is d. n. a. a
+for example
+that specific for a particular gene
+in
+i your um
+in been your gino i'm in the human gino for example
+and by a key bathing a small sample of fluid
+patient
+on the gene ship like this
+we're every one of these dots
+presents a different gene
+can see
+ah by looking at the pattern of
+collars on this chip
+which genes are being expressed in which genes are not being knicks
+rest in that particular individual
+so what you do at a profile
+of not just the genes that you possess
+what genes are actually being used
+to make proteins
+in that
+cells that surround the fluid where this was collected
+and so this has been out remarkable innovation it's another example of
+while medical engineering technology
+that allows us to look at what's happening inside an individual a patient
+in a totally different way than we were before
+i'm looking to seek
+not just what chained to carry but what genes are being used a particular times in her life
+and
+and this is mainly a reach search tool now
+but there's lots of reasons to believe that this is gonna change the way that
+physicians practice medicine
+i allowing them to diagnosed her predict what's gonna happen to you in ways that they can't
+currently
+as a we'll talk about technologies like this where they're apt
+but what the
+scientific basis of it is
+and how they might be useful
+this is an airplane
+what is that have to do with bio medical engine airing
+well if you could stretch it and say that stated example of
+engineering
+to improve
+human health is getting them from one place to another
+ah but that would
+the mortars stretch that i'm going to make
+ah but it turns out that technologies like airplanes which were developed in the last century have become inter go parts of medicine
+ah for example
+are you all know that some the only treatment for some diseases is to get an organ
+plant
+so a kidney transplant or a liver transplant
+is the only
+cobb life extending
+hi intervention they can be done for some kinds of diseases
+and
+transplants
+choir donors
+and a donor organ
+is usually not at the same physical location
+that
+a the recipient is
+and so
+jack's like this one
+have become very important in connecting donors to recipients
+king of surgeons is working to harvest an organ one cite one other team of surgeons
+is working to prepare
+the recipient of another site
+and the organ is flown
+they're now why does that happen because ye out to get your gun from one place to another fast
+right
+the organ has to get from one place to another
+very rapidly in the says the fastest way to do it
+or what if we could develop ways using engineering techniques to the expand the life of an organ
+so it didn't happen get where went so quickly
+then that would open up
+lots of more possibilities for organ transplant patient that are known now
+or what if we could figure out ways to avoid organ transportation entirely
+we could just take a few cells from that donor organ
+ship them to the site growing new organ of the site and the new planted there
+and these are examples of
+while medical engineering of the future
+the expand on what we currently use which involves
+to know small wigs
+dent
+knowledge it like this
+ah
+i would guess that probably thirty to fifty percent of you do this every day
+i do put a piece of
+plastic that synthetic piece of plastic and tear on a
+that to improve your vision
+and contact lens that technology has
+change dramatically from the time that i was born to the
+to to the time that you were born and the
+contact lenses to use today are much different than the ones that would've been used thirty years ago
+and that this is by medical engineering as well
+engineers were developing new materials materials that can be if you think about it
+there's not very many things that you would wanna putting your eyes
+and even feel comfortable putting into your eyes
+so this is a very safe a very a nerd
+a material what gives it those properties
+what makes it
+so safe to put in one of the most sensitive
+places in your body
+in contact with your eyes
+why do you have confidence
+putting it in contact with one of the most important
+organs of your body
+ah because you trust
+while medical engineers
+not to have done a good job in designing at these things will talk about
+ow ow ah bio materials are designed and tested
+and what makes a material
+properties of a material that you could use as a contact lens what are the one of the properties that he needs to have
+shh
+i'm that this is not an example of an artificial
+yep
+we've learned a lot about
+panic said how humans work as
+n.'s organisms
+over the last hundred years yourself how we work assert a physical objects that have to obey the laws of physics that you know about
+we live in a gravitational field and that it affects our day to day life
+and if you have hit paying or a hip that's diseased in some way
+and you can't stand up against that gravitational field in the same way that severely limits
+what you can do
+in the world
+and so bio medical engineers have been working for many years on how to decide replacement parts
+for
+caught
+for a joints
+like the yep
+and the artificial hit is the most well developed a ballots will talk about this in some detail
+and you can imagine that baird that there are many requirements that a device like this has been made
+it has to meet in order for it to be a good artificial
+and we'll talk about those
+and how the design of these has changed over the years and what we can expect in the future
+and last lee up here
+it's a picture about pub a much smaller device this is actually an artificial heart valve
+it is made of
+plastics and metal
+can replace
+the valve inside your heart
+and bombed
+dow mueller diseases not uncommon in the world
+i will will talk about that little bit
+we'll talk about how your normal
+valves function inside your heart how your heart couldn't work in the way that it did
+it didn't have valves that work
+doing a very complex operation many many times a day
+and had them will talk about howl
+you can build something to replace
+a complicated
+small part in the body like that
+let's take that as step back
+for a minute
+that's sort of one way of looking at bio medical engineering by looking at sword of the things they you know about
+better than the result of the work of our medical engineers and talk more generally
+so what is engineering
+what do engineers do
+what makes engineering
+different
+other fields of study what makes it unique so that we have a school of engineering
+at yale butts
+separate from
+science in the humanity is
+any thoughts
+it much more hands on me and idiot you're actually
+a. in that
+in there doing bangs i and many the things i showed you were things that were built
+right that were but were built from ah parts adapted that's a good
+chin
+what makes it differ from science
+science can be hands on might be down at that
+wake nope
+well gee in studying them
+a bit of hands on
+but what's different
+what would make you an engineer
+a
+it is all i'm so scientists
+observing try to describe any engineers try design they take those descriptions in that slide this know and they try to design new things
+and so to look at a dictionary as words like this
+but your designing fangs or another way to say that is the or try to apply science
+you're looking at applications
+so we're trying to take scientific information
+and make something new
+and the other thing about it is that you could make lots of things that are new but generally you think of engineers is making things that are not just new but they're useful
+they do something that needs to be done
+and that they do something that improves a life
+right the quality of life of a people
+and so here is a briefed and
+god
+garry biased
+history of engineering it short
+ah by bounty
+engineering became a disciplined
+at about the the middle of the eighteen hundreds
+lots of university started teaching engineering as a discipline including vale
+in eighteen fifty two around that time
+ah this might've been the first course that was offered in engineering in the country was taught at yale
+in the fats in civil engineering
+in eighteen fifty two in anything else students don't know
+that's what a long distinguished history of engineering that there
+their own
+to shun has
+first ph d. degree in engineering was awarded to a fellow named j. willard kids
+at yale in eighteen sixty three
+he says he did on how peers
+worker
+and i forget exactly what the details are vivid heard of gibbs
+as a name that
+rings a bell
+we're to hear about
+from
+sorry
+yet she
+thank you disagree energy
+i that knowing concept that you had to try to master in chemistry at some point but but gibbs is really that
+father of love of
+modern physical chemistry
+and
+and got was one of the most
+to come
+that was being the scientists
+of that nineteenth century in got the first case the indian hear it at yale
+and then from these beginnings
+i engineers at transformed wife in the twenty is that century
+so a lot of things started in the twentieth century became commonplace things like a lecture city have intellect or city
+delivered to your home she had them ways to generate electricity in the carried from point to point
+i was engineers that did that
+bridges and roads and we couldn't and automobiles and die and so we can get from one place to another relatively quickly
+because of that because their error
+planes that were also developed
+a by a engineers that century
+in next century
+but we divert cited lot of new materials that could be used to build things the couldn't a been done otherwise
+things like steel
+apollo mercer plastics and ceramic sta
+and
+course computers
+which he has progressed remarkably you do the work of engineers in your lifetime till now
+i you can carry around a cell phone which would've been and think of all
+even even thirty years ago
+so i engineers in the twentieth century up
+transformed our society
+while the other things that happen during the twentieth century is that human life expected to increase dramatically
+people started living a lot longer
+and so what i plan on this graf here
+is is a function of time years
+dates
+i'll light expected see is a function of time
+and bound
+what the idea you'll see here is that about
+for the period before
+sort of seventeen hundred
+or so
+human life expecting c. was less than forty years of age so that means a person i was born in that year
+to live on average about forty years
+that was the expected like span
+and they expected life's bands increased dramatically
+in the last
+a hundred years till now
+people that were born when you were born you can expect to live
+he eighty
+and years old a doubling in life span
+fairly dramatic
+so what's responsible for that
+why are people living longer
+than they did just a few hundred years ago
+was a clue
+here on the slide
+might i indicated a couple of points here
+where free looked in the years sixteen sixty five and one then
+you could ask the question
+another way to ask the question why are people living so long as they asked the question why do people die
+and in sixty sixty five ninety three percent of the people that died in that year died of infectious diseases
+not yet on being contrast if you look at the u. s. city
+ten years ago in nineteen ninety seven for example
+then people still died
+but they didn't die for calmly protections diseases
+they died from other thing only four percent died from infectious diseases
+so one of the reasons there is a huge increase in life span is because people are dying of things that they would have
+in prior years
+so why the change in
+why the change
+in infectious diseases
+why that focus on that one what makes it
+so much better
+to be alive now
+terms of your likelihood to dive in infectious disease than it did and wanton sixteen sixty five
+yes i have a lot specifically
+drugs like
+antibiotics
+and is still in a refer my son again something else you probably all had experience with the they'd well that's
+i am medical engine hearing that's
+that science that's that
+somebody discovering a molecules that kills mike organisms
+and that's true it is science
+but
+in order for that to go from being a science that works in a laboratory or in one hospital
+to being
+and is still in which could be used all over the world the gotta be able to make it in tremendously large
+quantities
+and that's the work of bio medical engineers
+joining in the kinds of quantities that you need
+so that those could be available for everyone in the world that they got infected
+and to make it not just in abundance but make it cheap way enough that everyone could afford it
+right
+so
+can make out a hundred times of the dry but it cost a hundred thousand dollars
+graham
+that might not be a useful dry because nobody could afford to use it
+read it so it's the work of bio medical and here is really
+take these innovation since science liked rods and make them
+useful
+them so that everybody can take advantage of it
+and you also mention vaccines are murdered talk a lot in the middle part of the course about vaccines in the engineering of immunity
+had you engineer what happens in our muse system
+in order to protect us from diseases
+and that's another example of an area where by medical engineers have made a tremendous contributions
+so just did go a little bit further out with that
+point
+if you look at the cause of death in london in sixteen sixty five here's a list that i
+that i am
+drama from a source that was written at that time
+and bombed
+i don't even understand what some of these things are
+the ones in green
+are are infectious diseases their infectious causes a disease
+outs spotted fever in her polls
+about which we call a new souls
+i was at
+with a significant cause of death as was the play
+right
+which we'll
+have any more
+goodness
+tom but people died at typically op either infectious diseases
+or they die during child birth
+or they might have guided old age which would have been out fifty or so
+at a time
+in contrast today because we have at about a son
+scenes people don't die
+of infectious diseases and softened
+they live much longer lives
+they live
+bob had to die of something else
+and that leading causes of death
+bob
+currently haven't changed very much since nineteen ninety seven when this data was published
+but they die of heart disease
+cancer primarily those are the number one and two causes of death
+and we're in a talk a lot about how
+i'll one can use the technology that we have now to treat these kinds of diseases
+i like cancer and heart disease
+but why do you think these are the number one and two
+now
+on these have risen
+above infectious diseases
+over the
+over the last several hundred years
+why is cancer
+one of the leading killers in the u. s. novel wasn't even on the charts
+in sixteen sixty five
+so could be that the dead dead dead
+that which are name
+so done suggested said it could be new things that are around
+and your expose a stop we were in exposed to before and that's true our environment has changed
+the world is become industrialized
+fred were exposed to things that might cause cancer were we were exposed to them before
+and so on
+and so that might be a reason
+yeah and sixty sixty five they were diagnosed in cancer right was easy to tell somebody at an infectious disease
+ah but you might not an old they had cancer that time and they just died and we didn't have the same methods of diagnosis
+that we do now so maybe it was just not diagnosed than
+oh
+people are living longer and so now they have more opportunity to get cancer right the longer you live
+of the more opportunity have to acquire
+a disease like it
+sir which often isn't accumulated shun
+of of
+of
+i am
+for over a long
+a period of time
+so they talk about about cancer for example
+crew
+what are some of the causes of cancer in the environment around is not we protect yourselves from it
+and will talk about treatments
+well
+cardio vascular disease
+why
+why is cardio vascular disease
+obesity or
+they generally are dives are different than they were in sixteen sixty five
+while we eat different kinds of things in many people think that that's
+pretty good too
+to
+ah too much more heart disease
+could also be that it was in as easily diagnosed that
+so
+we're dying of old age and i was really heart disease that was
+killing them they just didn't know
+i'm
+so there is
+it's a it's a mall to effect rail
+about that
+that is what is shea this last
+grab for this last
+said of statistics
+to go from
+causes of death in the u. s.
+the cause of death in the world
+to illustrate that what happens in the world around us in the u. s. isn't nests
+fairly this
+in other places infectious diseases a much bigger part of their life
+and a much much greater risk of death permit pictures diseases in paris civic diseases
+if you live in places other than the u. s. or western europe
+for example
+and so on
+problem of infectious disease
+prevention and treatment isn't salt
+you know that
+and so there's
+body of room to still in a day in that way to develop new methods
+diseases
+not like aids
+or diseases like malaria
+that god that we don't have
+problems with here but they do in many parts of the world
+so we'll talk about that
+i mentioned out that the book for the course
+and out the book is a book dead dead dead i've written is not published yet and so i'm gonna put chapters from the book
+ah that irv
+in a fairly final foreman i think you'll find them easy to read
+a benito have to buy it
+can it be posted on the internet at all post chapters of that advance of the readings
+and if you look on the other classes server you sought chapter one
+in chapter one describe some of that
+organisation of bio medical engineering into into sobbed as a plans
+a child listed here
+and so we're good
+talk about
+king about the body as bad
+as a as a system
+as a system that can be understood the same way a motor to be understood or computer that could be understood
+and that
+daddy is systems physiology
+and that's a important
+sub division a bio medical engineering
+will talk about instrument haitian a little bit and i've mentioned this things like that the k. g. machine and a heart lung machine
+for months
+that are designed to
+either keep
+patients alive
+or to allow you to them
+allow you to um
+was what i thought
+
+or who are allow you to us to monitor
+shin overtime
+imaging which i mentioned while mechanics of the study of
+of of
+humans as mechanical objects
+we'll talk about a field which is growing now called bio molecular engineering
+and that is
+it is the design of bio materials are new materials that can be implants in the body
+new ways of drug delivery
+poll
+field of tissue engineering that i mentioned earlier
+about artificial organs
+talk about systems biology
+or at thinking about how do acquiring permission to things like gene chips
+and use that information to understand what's happening in a complex organism
+like you
+i've i've highlighted three days in blue here
+imaging mechanics in bio molecular engineering
+because if you go on the study
+while medical engineering fury gail anyway
+these are that things that you might
+he act
+to emphasize on these the things that we do best and what we have advanced
+available
+in these three categories us on the emphasize these three
+but will talk about all of these subjects as we go through the corps
+the services posted online i've just got copied it here so you could take a look
+can it
+as a week one were ed
+what is bio medical engineering
+are there some chapters here
+for reading chapters one two and
+or i list
+i've only posted chapter one which basically reviews the things i talk about today
+actors to end for
+i really reviews of things that you probably already know something about
+so they're reviews a basic chemistry
+concepts
+that are important thrust all
+understand as we move forward
+and hot review of palm
+of proteins
+and our bio chemistry
+basically
+some men oppose those on line
+and and we're not gonna talk about them directly in the lectures
+but that there's a resort soap
+you read about something like ph and you've forgotten what ph is
+you can go back to chapter two which is posted and you can read about ph and i tried it take you through sir of what you need to know
+in order to understand the rest of the coarse material
+and he forgot about proteins and what their structure is like an good chapter foreign reid
+to give up a brief review of
+while chemistry
+i mean
+in the section this week i'll talk about the section meetings in just a moment
+there's no
+acquired section meeting this week
+during the section times all be available
+if you feel like you water read chapters to informant common ask
+corey all
+on these topics of chemistry and vile chemistry
+our than all be available to talk about that during that time
+we'll start with me to talk about genetic engineering
+what's d. n. a. e. how could it be manipulated
+how is our ability that
+to manipulate d. n. a. lead to things like gene therapy
+and now be done in people
+and so will talk about them that's what chapter three is about
+i'll talk about so culture engineering during a week
+for the maintain selves and culture where the limits of this how can you use culture itself to do
+fangs
+and out of engineers behold
+new things out of culture of cells is gonna be a subject we talk about throughout the rest of the course
+chapter is
+here
+that's enough you can follow irwin with the soul of a son see sir what the topics are each week
+the reading a sign that is to do before the lecture
+i ordered to get the most out of the lecture
+now i
+i am a section meeting required section they're all all the sections meet on thursday afternoon
+and the idea of the os
+why on some subject we talked about during the week
+and we do this and uh the under graduate bio medical engineering laboratory in the malone building
+so that we can do demonstrations answered of hands on a projects
+to really get little bit deeper into the subject
+that we're considering
+and so in the first week we we run a section called from strawberries to gene therapy
+talk about d. n. a.
+track d. n. a.
+play with the d. n. a lot of an organism
+and we get think about how to use d. n. a. for other purposes
+in week three you'll actually do some sell culture in a laboratory and look at culture itself and learn how to
+manipulate
+to manipulation son cells in culture
+and so on throughout the weeks
+we have a one hour that section it's designed to give you some more detail leaks
+period some hands on experience with
+some of the topics we're talking about
+there are no lab reports
+that are due
+they sometimes will be homework assignments which sort of build on what we've done during this section
+ah but it's not a lab in that sense that it's a long experience in the afternoon at the ric
+wires in the detail of reports
+ah but it is required and i think an important part of that course
+there's a mid term exam halfway through in a final exams at the end
+and there's a term paper
+do near the end of the courts
+so this just got to say a little bit more about the sections theirs
+three sections we have online
+a
+passion section signed up as anybody try to do that
+yeah
+so they know that it's available
+so's was to be available from day one you can cyprus section that fits your schedule needs this is sort of the list of things that will go through in the section beatings
+grady
+ah thirty percent
+of the grady is for the mid term thirty percent
+for the final
+and so the final is not to know it at the final covers only things for the last half of the court so it's really just like a
+a a a pet
+covers half the course bids given during the final exam period
+there's a term paper which all talk more about is the weeks
+go on that's also work
+so the grade
+and the have weekly
+slowly weekly homework assignments that are that are hum
+grade
+ah but they have an impact beyond the ten percent because of the can do the homework in the understand the homework and have no problem with the exams
+uh so i'm selling courage to spend more time than there
+waiting would suggest
+so how'd he get in may
+it's a in a course it's very simple
+i i knew how to do the reading before class
+come to class
+and you do the homework
+and i guarantee if you do those
+three things
+throughout the course
+other you'll do well in the courts and and i'd i'd said this almost every time i've given a course in nobody's ever told me that i'm wrong
+and so do these three things if you don't get in a tin can come back and talking about it later
+eileen
+the assignment for the next class is a du problem to a chapter one which i repeated right here
+so
+and that's to think beyond what i've talked about in terms of what is by a medical engineering
+i to think a little bit more about by a medical engineering projects that you've encountered in your life for the yeah some experience with
+and then to think beyond what
+permission i'd given you in that chapter in this lecture
+to say what products of bio medical itching to you mix
+the act
+to become routine in the next
+five years
+to spend
+ten or fifteen minutes thinking about this and and write it down or bring europe
+responses to class
+in the next period will talk about that
+and i
+so
+the end
+here this first
+a lecture rag on some way in trying to tell you what
+while medical engineering is about i thought it
+credit
+related in a different that sort of way
+and yet you've you've heard this
+this
+paul
+london bridges
+falling down
+everybody's for this palm
+play the game
+i another's video games now people play games like this where london bridge is falling down but
+by this a picture of london bridge is an interesting coverage which is important in the history of london
+when deception
+rev up you're really changed our society
+allowed us to get from one place to another
+in ways that we couldn't have gotten to a easily before
+what are the interesting things about london bridge is that it's now no longer in london
+ice in arizona you can see a palm tree
+here but when they when they re constructed london bridge the movie old london bridge to arizona
+some guy
+bought it
+that that must be interesting story but
+tommy
+but i just
+i have it here
+heidi and i think good that the plan tells you something about
+engineering
+through the out
+and the problems of engineering
+and in bridge building were well advanced
+in understanding
+what are the problems with building bridges and how do we overcome them
+for example
+one thing that could happen is that you build it up with wooden clay
+the wrong material
+for a bridge
+any of it will
+not stand up to the forces of nature
+right it will wash away
+as c. gotta pick the right materials in order to build a bridge
+i so you pick a better material like irons
+deal
+that makes a better bridge we know that now because we haven't
+periods of bridges
+ah but still you're bridge might fail
+you might built for a different region
+they might band and bow
+that is
+forces of nature
+like the movement of the river that's not bits knocking the bridge down but it's just the failure of these materials over time
+but they don't last as long as they might
+as a hugo that with that with that
+carol like silver and gold
+and then you encounter the problems of society
+right that you're bridge might get stolen because somebody thinks they have a better used
+spring gold been hurt
+bridge
+and i would say that in bio medical engineering largely
+we're we're still at the stage where we're trying to understand
+things work and how they fail him what materials are the right ones
+we're maybe where
+civil engineering and bridge building was
+a hundred years ago
+and that makes it for me a very exciting time to study this because the problems aren't solved
+in the way that bridge building is largely
+i solved the problem now
+problems like the artificial heart ours
+jill
+and saul
+still room for innovation
+still room to learn from what has it worked before
+to learn from science
+design something better
+as a wad of by a
+does that this courses to get you
+where the study bio medical injuring after this or not
+excited about this subject
+i so the u. start thinking about how you
+good
+innovative in this area where lots of problems are still left us all
+so also you on
+thursday
+tully
