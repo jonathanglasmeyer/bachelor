@@ -240,10 +240,10 @@ def compare(wer_result1, wer_result2, name1, name2, template, css, corpus_withou
     bag_IW_improved = format_as_bag(improved_words_interesting, corpus)
     bag_W_worse = format_as_bag(worsened_words_top, corpus)
     bags = [
-        (bag_W_worse, 'W_worse'),
-        (bag_W_improved, 'W_improved'),
-        (bag_IW_worse, 'IW_worse'),
-        (bag_IW_improved, 'IW_improved')
+        (bag_W_improved, 'Normal words improved'),
+        (bag_IW_improved, 'IW improved'),
+        (bag_W_worse, 'Normal words worse'),
+        (bag_IW_worse, 'IW worse')
     ]
 
     for bag, caption in bags:
