@@ -6,6 +6,11 @@ from collections import Counter
 
 SHOW_CORRECT_LINES = True
 
+# Show all words in a table
+DETAILED = False
+
+PRINT_HTML = True
+
 from nltk.stem.wordnet import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 lemmatize = lemmatizer.lemmatize
@@ -77,16 +82,17 @@ def compare(wer_result1, wer_result2, name1, name2, template, css, corpus_withou
 
     out = []
 
-    out.append('<table>')
-    out.append('<tr>')
-    out.append('<th>' + '</th><th>'.join([
-        'Reference', '# in top5000 (cap is {})'.format(X), name1, name2,
-        '# wrong words base',
-        '# wrong words interpolated',
-        '# interesting wrong words base',
-        '# wrong interesting words interpolated',
-        ]) + '</th>')
-    out.append('</tr>')
+    if DETAILED:
+        out.append('<table>')
+        out.append('<tr>')
+        out.append('<th>' + '</th><th>'.join([
+            'Reference', '# in top5000 (cap is {})'.format(X), name1, name2,
+            '# wrong words base',
+            '# wrong words interpolated',
+            '# interesting wrong words base',
+            '# wrong interesting words interpolated',
+            ]) + '</th>')
+        out.append('</tr>')
 
     worsened = 0
     worsened_words = []
@@ -151,16 +157,17 @@ def compare(wer_result1, wer_result2, name1, name2, template, css, corpus_withou
 
 
             prefix = '# ' if hyp1 != hyp2 else '  '
-            out.append('<tr class="{}">'.format(tr_class))
-            out.append('<td class={}>{}</td>'.format('', ref))
-            out.append('<td>{}</td>'.format(top5000index(ref) or '-'))
-            out.append('<td class={}>{}</td>'.format(hyp1_class, hyp1))
-            out.append('<td class={}>{}</td>'.format(hyp2_class, hyp2))
-            out.append('<td>{}</td>'.format(len(wrong_words_baseline)))
-            out.append('<td>{}</td>'.format(len(wrong_words_interpolated)))
-            out.append('<td>{}</td>'.format(len(wrong_interesting_words_baseline)))
-            out.append('<td>{}</td>'.format(len(wrong_interesting_words_interpolated)))
-            out.append('</tr>')
+            if DETAILED:
+                out.append('<tr class="{}">'.format(tr_class))
+                out.append('<td class={}>{}</td>'.format('', ref))
+                out.append('<td>{}</td>'.format(top5000index(ref) or '-'))
+                out.append('<td class={}>{}</td>'.format(hyp1_class, hyp1))
+                out.append('<td class={}>{}</td>'.format(hyp2_class, hyp2))
+                out.append('<td>{}</td>'.format(len(wrong_words_baseline)))
+                out.append('<td>{}</td>'.format(len(wrong_words_interpolated)))
+                out.append('<td>{}</td>'.format(len(wrong_interesting_words_baseline)))
+                out.append('<td>{}</td>'.format(len(wrong_interesting_words_interpolated)))
+                out.append('</tr>')
         except ValueError: # last line
             pass
 
@@ -173,94 +180,81 @@ def compare(wer_result1, wer_result2, name1, name2, template, css, corpus_withou
     improved_words_top = [w for w in improved_words if not in_(w, corpus)]
     improved_words_interesting = [w for w in improved_words if in_(w, corpus)]
 
-    formatted_worsened_words_top = format_as_bag(worsened_words_top, corpus)
-    formatted_worsened_words_not_top = format_as_bag(worsened_words_interesting, corpus)
-
-    formatted_improved_words_top = format_as_bag(improved_words_top, corpus)
-    formatted_improved_words_not_top = format_as_bag(improved_words_interesting, corpus)
 
 
-    out.append('<br/><p>Wrong words baseline: {}</br> Wrong words interpolated: {}</p>'.format(
-        percent(wrong_words_baseline, reference_words),
-        percent(wrong_words_interpolated, reference_words)
-    ))
+    W = len(reference_words)
 
-    out.append('<br/><p>Wrong interesting words baseline: {}</br> Wrong interesting words interpolated: {}</p>'.format(
-        percent(wrong_interesting_words_baseline, interesting_words),
-        percent(wrong_interesting_words_interpolated, interesting_words)
-    ))
+    WER_A = percent(wrong_words_baseline, reference_words)
+    WER_B = percent(wrong_words_interpolated, reference_words)
+    # W_worse and W_improved combined explain the difference between WER_A and WER_B
+    W_worse = percent(worsened_words, reference_words)
+    W_improved = percent(improved_words, reference_words)
 
+    # These are the key indicators how *effective* the method B is
+    # It tells us: how many of the words that we improved in run B are actually interesting words.
+    # + how many of the 'worsened' words are interesting words.
+    # So B is better if we have *less* interesting worsened words and *more* interesting improved words.
+    # It answers the question 'How well does method B fullfill the goal of improving interesting words
+    # versus just messing with ordinary words?'
+    W_worse_I = percent(worsened_words_interesting, worsened_words)
+    W_improved_I = percent(improved_words_interesting, improved_words)
 
-    out.append('<br/><p>Worsened: {}; Improved: {}</p>'.format(
-        worsened, improved))
-    out.append('<p>Overall words: {}; Interesting words: {}</p>'.format(len(reference_words), len(interesting_words)))
+    IW = len(interesting_words)
 
-    explanation = "Interesting words: in (slides corpus - top {})".format(X)
+    IWER_A = percent(wrong_interesting_words_baseline, interesting_words)
+    IWER_B = percent(wrong_interesting_words_interpolated, interesting_words)
+    # IW_worse and IW_improved explain the difference between IWER_A and IWER_B
+    IW_worse = percent(worsened_words_interesting, interesting_words)
+    IW_improved = percent(improved_words_interesting, interesting_words)
 
-    worsenedWordsRatio = percent(worsened_words, reference_words)
-    worsenedWordsInterestingRatio = percent(worsened_words_interesting, worsened_words)
-    interestingWordsWorsenedRatio = percent(worsened_words_interesting, interesting_words)
-    improvedWordsRatio = percent(improved_words, reference_words),
-    improvedWordsInterestingRatio = percent(improved_words_interesting, improved_words)
-    interestingWordsImprovedRatio = percent(improved_words_interesting, interesting_words)
+    stats = dict(
+        W=W,
+        WER_A=WER_A,
+        WER_B=WER_B,
+        W_worse=W_worse,
+        W_improved=W_improved,
+        W_worse_I=W_worse_I,
+        W_improved_I=W_improved_I,
 
-    out.append('<br/><p>{}</p>'.format(explanation))
-    out.append('''
-            <br/>
-            <p>
-                <b>Worsened Words ({worsenedWordsRatio})
-                </b> ({worsenedWordsInterestingRatio} are interesting; 
-                We worsened {interestingWordsWorsenedRatio} of the overall interesting words).
-            </p>
+        IW=IW,
+        IWER_A=IWER_A,
+        IWER_B=IWER_B,
 
-            <u>Non-interesting words</u></br>
-            <p>{formatted_worsened_words_top}</p>
-            <br/>
-            <u>Interesting words</u></br>
-            <p>{formatted_worsened_words_not_top}</p>
-            <br/>
-            <p>
-                <b>Improved Words ({improvedWordsRatio})</b> 
-                ({improvedWordsInterestingRatio} are interesting; 
-                We improved {interestingWordsImprovedRatio} of the overall interesting words).
-            </p>
-            <u>Non-interesting words</u></br>
-            <p>{formatted_improved_words_top}</p>
-            <br/>
-            <u>Interesting words</u></br>
-            <p>{formatted_improved_words_not_top}</p>
-        '''.format(
-        worsenedWordsRatio=worsenedWordsRatio,
-        worsenedWordsInterestingRatio=worsenedWordsInterestingRatio,
-        interestingWordsWorsenedRatio=interestingWordsWorsenedRatio,
-
-        formatted_worsened_words_top=formatted_worsened_words_top,
-        formatted_worsened_words_not_top=formatted_worsened_words_not_top,
-
-        improvedWordsRatio=improvedWordsRatio,
-        improvedWordsInterestingRatio=improvedWordsInterestingRatio,
-        interestingWordsImprovedRatio=interestingWordsImprovedRatio,
-
-        formatted_improved_words_top=formatted_improved_words_top,
-        formatted_improved_words_not_top=formatted_improved_words_not_top
-        )
+        IW_worse=IW_worse,
+        IW_improved=IW_improved
     )
+
+    out.append('<pre><code>{}</code></pre>'.format(
+        json.dumps(stats, sort_keys=True, indent=2, separators=(', ', ': '))))
+
+    def print_bag(bag, caption):
+        out.append('''
+            <br/>
+            <b>{caption}</b><br/>
+            {bag}
+            <br/>
+        '''.format(caption=caption, bag=bag))
+
+    bag_IW_worse = format_as_bag(worsened_words_interesting, corpus)
+    bag_W_improved = format_as_bag(improved_words_top, corpus)
+    bag_IW_improved = format_as_bag(improved_words_interesting, corpus)
+    bag_W_worse = format_as_bag(worsened_words_top, corpus)
+    bags = [
+        (bag_W_worse, 'W_worse'),
+        (bag_W_improved, 'W_improved'),
+        (bag_IW_worse, 'IW_worse'),
+        (bag_IW_improved, 'IW_improved')
+    ]
+
+    for bag, caption in bags:
+        print_bag(bag, caption)
+
 
     out.append('<br/><p>{}: {}</p>'.format(name1, summary1))
     out.append('<p>{}: {}</p>'.format(name2, summary2))
 
-    print(template.format(css, '\n'.join(out)))
-
-    stats = dict(
-        words=len(reference_words),
-        interesting_words=len(interesting_words),
-        worsenedWordsRatio=worsenedWordsRatio,
-        worsenedWordsInterestingRatio=worsenedWordsInterestingRatio,
-        interestingWordsWorsenedRatio=interestingWordsWorsenedRatio,
-        improvedWordsRatio=improvedWordsRatio,
-        improvedWordsInterestingRatio=improvedWordsInterestingRatio,
-        interestingWordsImprovedRatio=interestingWordsImprovedRatio,
-    )
+    if PRINT_HTML:
+        print(template.format('Analyze WER/IWER', css, '\n'.join(out)))
 
     open('results.json', 'w').write(json.dumps(stats, sort_keys=True, indent=2, separators=(', ', ': ')))
 

@@ -37,6 +37,19 @@ td, th {
   padding-bottom: 5px;
 }
 
+td.rightBorder, th.rightBorder {
+  border-right: 1px solid #ccc;
+}
+
+th, td {
+  cursor: default;
+}
+
+th:hover, td:hover {
+  color: #555;
+}
+
+
 tr {
   /* border-bottom: 2px solid #333; */
 }
