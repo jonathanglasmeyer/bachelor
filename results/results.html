@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Summary</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+          @import url(http://fonts.googleapis.com/css?family=Roboto);
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0,0,0,.87);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  text-align: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+td.rightBorder, th.rightBorder {
+  border-right: 1px solid #ccc;
+}
+
+th, td {
+  cursor: default;
+}
+
+th:hover, td:hover {
+  color: #555;
+}
+
+
+tr {
+  /* border-bottom: 2px solid #333; */
+}
+
+tr.changed {
+  border: 1px solid #888;
+}
+
+tr.interesting {
+  background: rgba(0, 0, 255, .3);
+}
+
+tr.improved {
+  border: 2px solid rgba(0, 155, 0 , 1);
+}
+
+tr.worsened {
+  border: 2px solid rgba(255, 0, 0, 1);
+}
+
+.correct {
+  color: #4CAF50;
+}
+
+tr.lemma {
+  border: 3px solid rgba(0, 0, 0 , 1) !important;
+}
+
+.false {
+  color: #D32F2F;
+}
+
+span.topword {
+  color: #888;
+}
+
+        </style>
+
+    </head>
+    <body>
+      <table>
+<tr>
+	<th class="rightBorder" title="">Name</th>
+<th class="" title="# of words in reference"># W</th>
+<th class="rightBorder" title="# of interesting words in reference"># IW</th>
+<th class="" title="Word Error Rate of baseline (A)">WER<sub>A</sub></th>
+<th class="" title="Word Error Rate of interpolated run (B)">WER<sub>B</sub></th>
+<th class="" title="W that have been recognized in (A) but not in (B). Together with W_improved it explains the improvement from WER_A to WER_B">W<sub>worse</sub></th>
+<th class="rightBorder" title="W that have not been recognized in (A) but have been in (B)">W<sub>improved</sub></th>
+<th class="" title="Interesting Word Error Rate of baseline (A)">IWER<sub>A</sub></th>
+<th class="" title="Interesting Word Error Rate of interpolated run (B)">IWER<sub>B</sub></th>
+<th class="" title="IW that have been recognized in (A) but not in (B). Together with IW_improved it explains the improvement from IWER_A to IWER_B">IW<sub>worse</sub></th>
+<th class="rightBorder" title="IW that have not been recognized in (A) but have been in (B)">IW<sub>improved</sub></th>
+<th class="" title="Amount of worsened words that were interesting.  This is the key quality indicator of the interpolation run ">W<sub>worse</sub>(I)</th>
+<th class="rightBorder" title="Amount of improved words that were interesting.  This is the key quality indicator of the interpolation run ">W<sub>improved</sub>(I)</th>
+</tr>
+
+<tr>
+	<td class="rightBorder">human-nature-8</td>
+<td class="">5342</td>
+<td class="rightBorder">376</td>
+<td class=""><span title="2273/5342">43%</span></td>
+<td class=""><span title="2277/5342">43%</span></td>
+<td class=""><span title="227/5342">4%</span></td>
+<td class="rightBorder"><span title="223/5342">4%</span></td>
+<td class=""><span title="182/376">48%</span></td>
+<td class=""><span title="121/376">32%</span></td>
+<td class=""><span title="6/376">2%</span></td>
+<td class="rightBorder"><span title="67/376">18%</span></td>
+<td class=""><span title="6/227">3%</span></td>
+<td class="rightBorder"><span title="67/223">30%</span></td>
+</tr>
+
+<tr>
+	<td class="rightBorder">environmental-8</td>
+<td class="">7233</td>
+<td class="rightBorder">715</td>
+<td class=""><span title="2150/7233">30%</span></td>
+<td class=""><span title="2144/7233">30%</span></td>
+<td class=""><span title="294/7233">4%</span></td>
+<td class="rightBorder"><span title="300/7233">4%</span></td>
+<td class=""><span title="241/715">34%</span></td>
+<td class=""><span title="131/715">18%</span></td>
+<td class=""><span title="7/715">1%</span></td>
+<td class="rightBorder"><span title="117/715">16%</span></td>
+<td class=""><span title="7/294">2%</span></td>
+<td class="rightBorder"><span title="117/300">39%</span></td>
+</tr>
+
+<tr>
+	<td class="rightBorder">psy-14</td>
+<td class="">7618</td>
+<td class="rightBorder">974</td>
+<td class=""><span title="2578/7618">34%</span></td>
+<td class=""><span title="2562/7618">34%</span></td>
+<td class=""><span title="383/7618">5%</span></td>
+<td class="rightBorder"><span title="399/7618">5%</span></td>
+<td class=""><span title="322/974">33%</span></td>
+<td class=""><span title="165/974">17%</span></td>
+<td class=""><span title="8/974">1%</span></td>
+<td class="rightBorder"><span title="165/974">17%</span></td>
+<td class=""><span title="8/383">2%</span></td>
+<td class="rightBorder"><span title="165/399">41%</span></td>
+</tr>
+
+<tr>
+	<td class="rightBorder">psy-5</td>
+<td class="">7142</td>
+<td class="rightBorder">607</td>
+<td class=""><span title="2621/7142">37%</span></td>
+<td class=""><span title="2655/7142">37%</span></td>
+<td class=""><span title="362/7142">5%</span></td>
+<td class="rightBorder"><span title="328/7142">5%</span></td>
+<td class=""><span title="244/607">40%</span></td>
+<td class=""><span title="113/607">19%</span></td>
+<td class=""><span title="1/607">0%</span></td>
+<td class="rightBorder"><span title="132/607">22%</span></td>
+<td class=""><span title="1/362">0%</span></td>
+<td class="rightBorder"><span title="132/328">40%</span></td>
+</tr>
+
+<tr>
+	<td class="rightBorder">biomed-eng-1</td>
+<td class="">7046</td>
+<td class="rightBorder">518</td>
+<td class=""><span title="1554/7046">22%</span></td>
+<td class=""><span title="1582/7046">22%</span></td>
+<td class=""><span title="220/7046">3%</span></td>
+<td class="rightBorder"><span title="192/7046">3%</span></td>
+<td class=""><span title="167/518">32%</span></td>
+<td class=""><span title="87/518">17%</span></td>
+<td class=""><span title="5/518">1%</span></td>
+<td class="rightBorder"><span title="85/518">16%</span></td>
+<td class=""><span title="5/220">2%</span></td>
+<td class="rightBorder"><span title="85/192">44%</span></td>
+</tr>
+
+</table>
+    </body>
+</html>
+

@@ -1,12 +1,14 @@
 {
-  "improvedWordsInterestingRatio": "165/399 = 41%", 
-  "improvedWordsRatio": [
-    "399/7618 = 5%"
-  ], 
-  "interestingWordsImprovedRatio": "165/974 = 17%", 
-  "interestingWordsWorsenedRatio": "8/974 = 1%", 
-  "interesting_words": 974, 
-  "words": 7618, 
-  "worsenedWordsInterestingRatio": "8/383 = 2%", 
-  "worsenedWordsRatio": "383/7618 = 5%"
+  "IW": 974, 
+  "IWER_A": "322/974 = 33%", 
+  "IWER_B": "165/974 = 17%", 
+  "IW_improved": "165/974 = 17%", 
+  "IW_worse": "8/974 = 1%", 
+  "W": 7618, 
+  "WER_A": "2578/7618 = 34%", 
+  "WER_B": "2562/7618 = 34%", 
+  "W_improved": "399/7618 = 5%", 
+  "W_improved_I": "165/399 = 41%", 
+  "W_worse": "383/7618 = 5%", 
+  "W_worse_I": "8/383 = 2%"
 }
