@@ -13,19 +13,26 @@ One approach to accomplish those goals is utilizing Automatic Speech Recognition
 
 The main challenge when using ASR for this task is the recognition accuracy of technical terms. Most of them are not included in the language models that are available as those are broad and generic so as to optimize for accuracy over a wide topic spectrum. But when they are not included into the language model they have no chance to be correctly recognized at all.  <!-- Is this absolutely true?  --!>
 
-So the usefulness of applying ASR with a generic language model to the problem is very small, as the interection of interesting keywords with those technical terms that can not be recognized is very big.
+So the usefulness of applying ASR with a generic language model to the problem is very small, as the intesection of interesting keywords with those technical terms that can not be recognized is very big.
 
 The central goal of this thesis is to explore an approach to overcome this problem. This approach consists of using words from lecture slides or other notes to **generate a lecture-specific language model**. This is then **merged** with a generic language model and being compared to the 'baseline' accuracy of the generic model.
 
-## Summarize research questions
+<!-- High level overview of the proposed process & the implementation --!>
+## Structure of this thesis
+I will now describe the structure of this thesis.
+
+
+
+
+<!-- High level overview of the proposed metrics --!>
+
+<!-- Summary: research questions --!>
+
+<!-- Summarize research questions --!>
 
 <!--
-A concrete use case exists at the University of Hamburg with the lecture2go system which makes video recordings of many lectures available.  It would be a great benefit for students that want to rewatch the lectures in preparation for an exam to have searchable transcriptions of the lectures.  If the results of the augmented transcriptions are good enough they could be rather easily integrated into the lecture2go website and provide an actual benefit to students.
 
-During a project at the University of Hamburg in the winter semester 14/15 we implemented a system which automatically generated subtitles for a given audio/video and a transcription.
-The system that I plan to implement for this thesis will integrate with this project.
-It would supply the missing first step in the toolchain: automatically generating the transcriptions (for the project we only used human generated transcriptions) with speech recognition. .
-The software solution from our project could then align those results.
+
 
 A live example of this idea can be seen at superlectures.com ^[http://www.superlectures.com/sigdial2014/welcome-and-conference-overview-1]. They present transcripts generated via automatic speech recognition, aligned to the video in a searchable text box beneath the video player. The main problem here is the bad recognition accuracy of technical terms, which diminishes the value of this solution: scanning the text is actually less effective than 'scanning the video' as the false-positives are confusing.
  --!>
@@ -34,9 +41,6 @@ A live example of this idea can be seen at superlectures.com ^[http://www.superl
 ## Lecture recordings in universities
 ## Speech recognition accuracy problems with special words / technical terms
 ## Goal: improving searchability / scannability through adapting language models
-## High level overview of the proposed process & the implementation
-## High level overview of the proposed metrics
-## Summary: research questions
 --!>
 
 # Background
@@ -54,6 +58,7 @@ A live example of this idea can be seen at superlectures.com ^[http://www.superl
 --!>
 
 # Methodology
+
 <!--
 ## From the goal of searchability to good metrics
 - Why keywords are important for searching ( obvious?)
