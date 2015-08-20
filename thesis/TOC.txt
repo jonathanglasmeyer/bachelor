@@ -1,6 +1,5 @@
 _header
 
-foo/bar
+Main
 
 _footer
-
