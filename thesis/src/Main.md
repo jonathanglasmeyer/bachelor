@@ -1,15 +1,18 @@
 <!-- Task: the Introduction basically talks about the whole project at a
 high level from top to bottom. --!>
 
-# Introduction {-} Scannability is crucial for academic research: you
+\newpage
+
+# Introduction {-}
+Scannability is crucial for academic research: you
 have to be able to quickly evaluate the usefulness of a given resource
 by skimming the content and looking for the parts that are specifically
 relevant to the task at hand.
 
 The medium in which those resources are available is very centered on
-textual representation. Spoken content, hereinafter called **speech
-media** (audio- or audiovisual media that mainly consists of spoken
-language) **doesn't make it possible to scan its contents.** You are
+textual representation. Spoken content, hereinafter called *speech
+media* (audio- or audiovisual media that mainly consists of spoken
+language) doesn't make it possible to scan its contents. You are
 "stabbing in the dark" when looking for something specific in a medium
 like this and have to consume it like a linear narrative.
 
@@ -17,8 +20,8 @@ This means that although lectures and conference talks are a central
 element to science they are much more challenging and tedious to use for
 research work.
 
-Being able to a) efficiently **search** and b) look at the **temporal
-distribution of important keywords** in a visually dense way would
+Being able to a) efficiently search and b) look at the temporal
+distribution of important keywords in a visually dense way would
 elevate the usefulness of speech media in the scientific context
 immensely.
 
@@ -26,10 +29,10 @@ One approach to accomplish those goals is utilizing Automatic Speech
 Recognition (ASR) to transcribe speech to text and also get timing
 information for the recognized words. This makes it possible to derive
 information about the density of given words at a given point of time in
-the talk, which in turn allows to compute **word occurence density
-maxima**. This opens up possibilities for **compact visual
-representation** of the interesting keywords, thus allowing the user to
-**scan**.
+the talk, which in turn allows to compute word occurence density
+maxima. This opens up possibilities for compact visual
+representation of the interesting keywords, thus allowing the user to
+scan.
 
 The main challenge when using ASR for this task is the recognition
 accuracy of technical terms. Most of them are not included in the
@@ -39,14 +42,16 @@ not included into the language model they have no chance to be correctly
 recognized at all.  <!-- Is this absolutely true?  --!>
 
 So the usefulness of applying ASR with a generic language model to the
-problem is very small, as the intesection of interesting keywords with
+problem is very small, as the intersection of interesting keywords with
 those technical terms that can not be recognized is very big.
 
 The central goal of this thesis is to explore an approach to overcome
 this problem. This approach consists of using words from lecture slides
-or other notes to **generate a lecture-specific language model**. This
-is then **interpolated** with a generic language model and being
+or other notes to generate a lecture-specific language model. This
+is then interpolated with a generic language model and being
 compared to the 'baseline' accuracy of the generic model.
+
+\pagebreak
 
 ## Structure of this thesis {-}
 The structure of this thesis is laid out as follows:
@@ -71,15 +76,14 @@ The structure of this thesis is laid out as follows:
 
 (#) **Motivation**
 
-    Here i will provide a motivation why it is necessary to improve on the baseline performance of ASR in our context.
+    Here i will motivate why it is necessary to improve on the baseline performance of ASR in our context.
 
-    I will talk about keywords and technical terms and why they are not being detected and how that diminishes the usefulness of ASR for the purposes of scannability.
+    I will talk about the role of keywords and technical terms and why they are not being detected and how that diminishes the usefulness of ASR for the purposes of scannability.
 
 (#) **Test data**
 
-    I will use the openly available *Open Yale Courses*, which provide a
-    diverse selection of university lectures with the added bonus of
-    having quality transcriptions and course notes or slides available.
+    I will use the openly available *Open Yale Courses* @openyale, which provide a
+    diverse selection of audio and video recordings of university lectures at Yale, additionally supplying quality manual transcriptions and course notes or slides.
 
     I will present the chosen courses, their selection criteria and
     discuss the range of types of lecture material.
@@ -94,12 +98,12 @@ The structure of this thesis is laid out as follows:
 
     #. **Process overview**
 
-        I will first give a overview of the design and architecture of
+        I will then give a overview of the design and architecture of
         our approach.
 
     #. **Implementation**
 
-        I will then describe the technical implementation by which the
+        Finally i will describe the technical implementation by which the
         lecture material is compiled into a specialized language model
         and recognition is performed using a *interpolated* language
         model.
@@ -110,7 +114,7 @@ The structure of this thesis is laid out as follows:
 
         I will discuss how to analyze the results and develop metrics
         that assess how well the given goals are met with our approach.
-        <!-- which metrics follow from the goals of searchability and
+        <!-- TODO: which metrics follow from the goals of searchability and
         scannability.  define those terms first, discuss what's
         important there ->> keywords! --!>
 
@@ -121,42 +125,34 @@ The structure of this thesis is laid out as follows:
 
     #. **Discussion, Finding and Conclusions**
 
-        I will discuss the findings.
+        I will discuss the findings and draw conclusions from the quantitative analysis concerning the effectiveness of our approach.
 
-        I will then draw conclusions from the quantitative analysis
-        concerning the viability of our approach.
+(#) **Visualization for Scannability**
 
-<!-- TODO: visualization chapter --!>
+    I will present a prototype visualization method that uses the results from our approach to present a condensed representation of the keyword content from lectures with the goal of providing a quick, interactive way to search and scan speech media.
 
 (#) **Improvements, Open Ends**
 
     I will discuss possible improvements and open ends that were out of
-    the scope of this thesis but would be interesting to further
-    exploration.
+    the scope of this thesis but would be interesting to explore further.
 
 (#) **Summary**
 
     I will end by summarizing the goals, the proposed approach, the
     design and implementation, the analysis and the results.
 
+\pagebreak
+
 # Research questions
 The central research questions i want to investigate in this thesis can
 be formulated as follows:
 
-(#) When we want to run ASR on speech media, especially university
-lectures, what is the advantage of using an approach that consists of
-creating a lecture-specific language model and interpolating it with a
-generic language model, given that we are interested in improving the
-recognition accuracy of *interesting keywords* for the sake of
+(#) When we apply ASR to university lectures, what is the advantage of using an approach that consists of creating a lecture-specific language model and interpolating it with a generic language model, given that we are interested in improving the recognition accuracy of *interesting keywords* for the sake of
 searchability and scannability?
 
 (#) What metric is useful for quantifying this advantage?
 
-A secondary question is:
-
-> How can we *use* the results from our approach to provide graphical
-> *interfaces* for improving the users ability to search and scan the
-> given speech medium?
+A secondary question is: How can we *use* the results from our approach to provide graphical interfaces for improving the users ability to search and scan the given speech medium?
 
 The exploration of this question will not be the center of this thesis,
 but it will provide practical motivation for the results that the
