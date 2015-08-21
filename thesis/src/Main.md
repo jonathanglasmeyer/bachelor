@@ -141,7 +141,7 @@ The structure of this thesis is laid out as follows:
 
 # Research questions
 The central research questions i want to investigate in this thesis can
-be formulated like the following:
+be formulated as follows:
 
 (#) When we want to run ASR on speech media, especially university
 lectures, what is the advantage of using an approach that consists of
@@ -211,4 +211,14 @@ There are three dimensions which serve to classify different applications of spe
 
 (3) **Continuous vs. isolated speech**. Isolated speech consists of single words that are spoken with pauses in between them, whereas continuous speech consists of words that are spoken in a connected way. Continuous speech is significantly more difficult to recognize, as it is a) more difficult to find the start and end of words and b) the pronunciation of words changes in relation to their surrounding words.
 
+With those three dimensions we can for example classify the application areas command and control systems, dictation and lecture transcription @marquard:
+
+```{.table type="pipe" aligns="LLLL" caption="Three application areas" header="yes"}
+Application,                Speaker,     Vocabulary, Duration
+Dictation,                  Dependent,   Large,      Connected
+Command and control system, Independent, Small,      Isolated
+Lecture transcription,      Independent, Large,      Connected
+```
+
+The task of automatic lecture transcriptions can thus be characterized as speaker-independent (SI) large continuous speech recognition (LVCSR).
 

@@ -1,9 +1,10 @@
-\section{Introduction}\label{introduction}
+\section{Introduction \{-\} Scannability is crucial for academic
+research:
+you}\label{introduction---scannability-is-crucial-for-academic-research-you}
 
-Scannability is crucial for academic research: you have to be able to
-quickly evaluate the usefulness of a given resource by skimming the
-content and looking for the parts that are specifically relevant to the
-task at hand.
+have to be able to quickly evaluate the usefulness of a given resource
+by skimming the content and looking for the parts that are specifically
+relevant to the task at hand.
 
 The medium in which those resources are available is very centered on
 textual representation. Spoken content, hereinafter called
@@ -45,50 +46,286 @@ those technical terms that can not be recognized is very big.
 The central goal of this thesis is to explore an approach to overcome
 this problem. This approach consists of using words from lecture slides
 or other notes to \textbf{generate a lecture-specific language model}.
-This is then \textbf{merged} with a generic language model and being
-compared to the `baseline' accuracy of the generic model.
+This is then \textbf{interpolated} with a generic language model and
+being compared to the `baseline' accuracy of the generic model.
 
-\subsection{Structure of this thesis}\label{structure-of-this-thesis}
+\subsection*{Structure of this thesis}\label{structure-of-this-thesis}
+\addcontentsline{toc}{subsection}{Structure of this thesis}
 
 The structure of this thesis is laid out as follows:
 
-\subparagraph*{Scientific Background}\label{scientific-background}
-\addcontentsline{toc}{subparagraph}{Scientific Background}
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\item
+  \textbf{Research questions}
 
-I will start by giving an overview over the state of the art of ASR and
-the most prevalent approaches.
+  I will state the research questions.
+\item
+  \textbf{Scientific Background}
 
-I will explain the concepts which are fundamental for the understanding
-of the given problem.
+  \begin{enumerate}
+  \item
+    I will start by giving an overview over the state of the art of ASR
+    and the most prevalent approaches.
+  \item
+    I will explain the \emph{concepts} which are fundamental for the
+    understanding of speech recognition.
+  \item
+    I will then examine the \emph{scientific work} that has been done on
+    applying ASR to the problem of lectures transcriptions.
+  \item
+    Finally i will summarize the \emph{metrics} that have been used to
+    assess the quality of the improvements in different approaches.
+  \end{enumerate}
+\item
+  \textbf{Motivation}
 
-I will then examine the scientific work that has been done on applying
-ASR to the problem of lectures transcriptions.
+  Here i will provide a motivation why it is necessary to improve on the
+  baseline performance of ASR in our context.
 
-Finally i will summarize the metrics that have been used to assess the
-quality of the improvements in different approaches.
+  I will talk about keywords and technical terms and why they are not
+  being detected and how that diminishes the usefulness of ASR for the
+  purposes of scannability.
+\item
+  \textbf{Test data}
 
-\begin{description}
-\tightlist
-\item[Technical process]
-In the next step i will introduce the open source speech recognition
-framework \emph{Sphinx 4}
+  I will use the openly available \emph{Open Yale Courses}, which
+  provide a diverse selection of university lectures with the added
+  bonus of having quality transcriptions and course notes or slides
+  available.
 
-In the next step i will describe the technical process by which the
-lecture material is compiled into a specific language model and
-recognition is performed while using a `merged' language model.
-\end{description}
+  I will present the chosen courses, their selection criteria and
+  discuss the range of types of lecture material.
+\item
+  \textbf{The LM-Interpolation approach}
+
+  \begin{enumerate}
+  \item
+    \textbf{Technical basis}
+
+    I will introduce the open source speech recognition framework
+    \emph{Sphinx 4}. This is the software that is used for performing
+    the actual recognition.
+  \item
+    \textbf{Process overview}
+
+    I will first give a overview of the design and architecture of our
+    approach.
+  \item
+    \textbf{Implementation}
+
+    I will then describe the technical implementation by which the
+    lecture material is compiled into a specialized language model and
+    recognition is performed using a \emph{interpolated} language model.
+  \end{enumerate}
+\item
+  \textbf{Analysis}
+
+  \begin{enumerate}
+  \item
+    \textbf{Methods}
+
+    I will discuss how to analyze the results and develop metrics that
+    assess how well the given goals are met with our approach. 
+  \item
+    \textbf{Analysis}
+
+    I will then perform quantitative analysis on our test dataset with
+    the metrics we developed before.
+  \item
+    \textbf{Discussion, Finding and Conclusions}
+
+    I will discuss the findings.
+
+    I will then draw conclusions from the quantitative analysis
+    concerning the viability of our approach.
+  \end{enumerate}
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\item
+  \textbf{Improvements, Open Ends}
+
+  I will discuss possible improvements and open ends that were out of
+  the scope of this thesis but would be interesting to further
+  exploration.
+\item
+  \textbf{Summary}
+
+  I will end by summarizing the goals, the proposed approach, the design
+  and implementation, the analysis and the results.
+\end{enumerate}
+
+\section{Research questions}\label{research-questions}
+
+The central research questions i want to investigate in this thesis can
+be formulated as follows:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\item
+  When we want to run ASR on speech media, especially university
+  lectures, what is the advantage of using an approach that consists of
+  creating a lecture-specific language model and interpolating it with a
+  generic language model, given that we are interested in improving the
+  recognition accuracy of \emph{interesting keywords} for the sake of
+  searchability and scannability?
+\item
+  What metric is useful for quantifying this advantage?
+\end{enumerate}
+
+A secondary question is:
+
+\begin{quote}
+How can we \emph{use} the results from our approach to provide graphical
+\emph{interfaces} for improving the users ability to search and scan the
+given speech medium?
+\end{quote}
+
+The exploration of this question will not be the center of this thesis,
+but it will provide practical motivation for the results that the
+exploration.
 
 \section{Background}\label{background}
 
-\section{Methodology}\label{methodology}
+\subsection{The field of Automatic Speech
+Recognition}\label{the-field-of-automatic-speech-recognition}
 
-\section{Process}\label{process}
+Automatic Speech Recognition (ASR) can be defined as the process by
+which a computer maps an acoustic speech signal to text
+{[}\hyperref[ref-cmufaq]{1}{]}.
 
-\section{Discussion and Findings}\label{discussion-and-findings}
+Rabiner and Juang {[}\hyperref[ref-rabiner]{2}{]} date the first
+research on ASR back to the early 1950s, when Bell Labs built a system
+for single-speaker digit recognition. Since then the field has seen
+three major approaches, which Marquard {[}\hyperref[ref-marquard]{3}{]}
+summarizes as follows:
 
-\section{Improvements}\label{improvements}
+\begin{quote}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The \emph{acoustic-phonetic approach} aimed to identify features of
+  speech such as vowels directly through their acoustic properties, and
+  from there build up words based on their constituent phonetic
+  elements.
+\end{enumerate}
+\end{quote}
 
-\section{Conclusions}\label{conclusions}
+\begin{quote}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  The \emph{statistical pattern-recognition approach} measures features
+  of the acoustic signal, and compares these to existing patterns
+  established from a range of reference sources to produce similarity
+  scores which may be used to establish the best match.
+\end{enumerate}
+\end{quote}
+
+\begin{quote}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  \emph{Artificial intelligence (AI) approaches} have been used to
+  integrate different types of knowledge sources (such as acoustic,
+  lexical, syntactic, semantic and pragmatic knowledge) to influence the
+  output from a pattern-recognition system to select the most likely
+  match.
+\end{enumerate}
+\end{quote}
+
+The most prevalent approach today is the \emph{statistical
+pattern-recognition approach}, as it produces results with much higher
+accuracy compared to the acoustic-phonetic approach. The use of Hidden
+Markov Models (HMM) has been playing a key role in this approach, as it
+allows recognizers to use a statistical model of a given pattern rather
+than a fixed representation.
+
+In the last years there has been a resurgence of AI approaches,
+specifically \emph{deep learning approaches}
+{[}\hyperref[ref-hinton2012deep]{4}{]}. The ASR paradigm we will use for
+this thesis will be limited to the former, however.
+
+\subsection{Dimensions of speech
+recognition}\label{dimensions-of-speech-recognition}
+
+There are three dimensions which serve to classify different
+applications of speech recognition {[}\hyperref[ref-cmufaq]{1}{]}
+{[}\hyperref[ref-marquard]{3}{]}:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\item
+  \textbf{Dependent vs.~independent}. Dependent recognition systems are
+  developed to be used by one speaker, whereas independent systems are
+  developed to be used by \emph{any} speaker of a particular type, i.e
+  North-American speakers. \textbf{Adaptive} systems lie between those
+  poles, they are able to adapt to a particular speaker through
+  training.
+\item
+  \textbf{Small vs.~large vocabulary}. Small vocabularies contain only
+  up to a few hundred words and might be modeled by an explicit grammar,
+  whereas large vocabularies contain tens of thousands of words so as to
+  be able to model general purpose spoken language over a variety of
+  domains.
+\item
+  \textbf{Continuous vs.~isolated speech}. Isolated speech consists of
+  single words that are spoken with pauses in between them, whereas
+  continuous speech consists of words that are spoken in a connected
+  way. Continuous speech is significantly more difficult to recognize,
+  as it is a) more difficult to find the start and end of words and b)
+  the pronunciation of words changes in relation to their surrounding
+  words.
+\end{enumerate}
+
+With those three dimensions we can for example classify the application
+areas command and control systems, dictation and lecture transcription
+{[}\hyperref[ref-marquard]{3}{]}:
+
+\begin{longtable}[c]{@{}llll@{}}
+\caption{Three application areas}\tabularnewline
+\toprule
+Application & Speaker & Vocabulary & Duration\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Application & Speaker & Vocabulary & Duration\tabularnewline
+\midrule
+\endhead
+Dictation & Adapted & Large & Connected\tabularnewline
+Command and control system & Independent & Small &
+Isolated\tabularnewline
+Lecture transcription & Independent & Large & Connected\tabularnewline
+\bottomrule
+\end{longtable}
+
+\newpage
 
 \section*{Bibliography}\label{bibliography}
 \addcontentsline{toc}{section}{Bibliography}
+
+\hyperdef{}{ref-cmufaq}{\label{ref-cmufaq}}
+{[}1{]} ``Comp.speech frequently asked questions.''
+\url{http://www.speech.cs.cmu.edu/comp.speech/Section6/Q6.1.html}.
+
+\hyperdef{}{ref-rabiner}{\label{ref-rabiner}}
+{[}2{]} L. Rabiner and B.-H. Juang, ``Fundamentals of speech
+recognition,'' 1993.
+
+\hyperdef{}{ref-marquard}{\label{ref-marquard}}
+{[}3{]} S. Marquard, ``Improving searchability of automatically
+transcribed lectures through dynamic language modelling,'' 2012.
+
+\hyperdef{}{ref-hinton2012deep}{\label{ref-hinton2012deep}}
+{[}4{]} G. Hinton, L. Deng, D. Yu, G. E. Dahl, A.-r. Mohamed, N. Jaitly,
+A. Senior, V. Vanhoucke, P. Nguyen, T. N. Sainath, and others, ``Deep
+neural networks for acoustic modeling in speech recognition: The shared
+views of four research groups,'' \emph{Signal Processing Magazine,
+IEEE}, vol. 29, no. 6, pp. 82--97, 2012.
