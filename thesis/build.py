@@ -26,7 +26,8 @@ def main():
     files = ['src/{}.md'.format(basename) for basename in toc]
     print('files: {}'.format(files))
 
-    call_('pandoc -t latex -o {outfile} --number-sections --filter pandoc-citeproc {files}'.format(
+    # --include-in-header newpage.tex
+    call_('pandoc -t latex -o {outfile} --toc --number-sections --filter pandoc-csv2table --filter pandoc-citeproc {files}'.format(
         outfile=OUT_FILE, files=' '.join(map(wrapInQuotes, files))
     ))
 

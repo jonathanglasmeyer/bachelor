@@ -1,0 +1,94 @@
+\section{Introduction}\label{introduction}
+
+Scannability is crucial for academic research: you have to be able to
+quickly evaluate the usefulness of a given resource by skimming the
+content and looking for the parts that are specifically relevant to the
+task at hand.
+
+The medium in which those resources are available is very centered on
+textual representation. Spoken content, hereinafter called
+\textbf{speech media} (audio- or audiovisual media that mainly consists
+of spoken language) \textbf{doesn't make it possible to scan its
+contents.} You are ``stabbing in the dark'' when looking for something
+specific in a medium like this and have to consume it like a linear
+narrative.
+
+This means that although lectures and conference talks are a central
+element to science they are much more challenging and tedious to use for
+research work.
+
+Being able to a) efficiently \textbf{search} and b) look at the
+\textbf{temporal distribution of important keywords} in a visually dense
+way would elevate the usefulness of speech media in the scientific
+context immensely.
+
+One approach to accomplish those goals is utilizing Automatic Speech
+Recognition (ASR) to transcribe speech to text and also get timing
+information for the recognized words. This makes it possible to derive
+information about the density of given words at a given point of time in
+the talk, which in turn allows to compute \textbf{word occurence density
+maxima}. This opens up possibilities for \textbf{compact visual
+representation} of the interesting keywords, thus allowing the user to
+\textbf{scan}.
+
+The main challenge when using ASR for this task is the recognition
+accuracy of technical terms. Most of them are not included in the
+language models that are available as those are broad and generic so as
+to optimize for accuracy over a wide topic spectrum. But when they are
+not included into the language model they have no chance to be correctly
+recognized at all.
+
+So the usefulness of applying ASR with a generic language model to the
+problem is very small, as the intesection of interesting keywords with
+those technical terms that can not be recognized is very big.
+
+The central goal of this thesis is to explore an approach to overcome
+this problem. This approach consists of using words from lecture slides
+or other notes to \textbf{generate a lecture-specific language model}.
+This is then \textbf{merged} with a generic language model and being
+compared to the `baseline' accuracy of the generic model.
+
+\subsection{Structure of this thesis}\label{structure-of-this-thesis}
+
+The structure of this thesis is laid out as follows:
+
+\subparagraph*{Scientific Background}\label{scientific-background}
+\addcontentsline{toc}{subparagraph}{Scientific Background}
+
+I will start by giving an overview over the state of the art of ASR and
+the most prevalent approaches.
+
+I will explain the concepts which are fundamental for the understanding
+of the given problem.
+
+I will then examine the scientific work that has been done on applying
+ASR to the problem of lectures transcriptions.
+
+Finally i will summarize the metrics that have been used to assess the
+quality of the improvements in different approaches.
+
+\begin{description}
+\tightlist
+\item[Technical process]
+In the next step i will introduce the open source speech recognition
+framework \emph{Sphinx 4}
+
+In the next step i will describe the technical process by which the
+lecture material is compiled into a specific language model and
+recognition is performed while using a `merged' language model.
+\end{description}
+
+\section{Background}\label{background}
+
+\section{Methodology}\label{methodology}
+
+\section{Process}\label{process}
+
+\section{Discussion and Findings}\label{discussion-and-findings}
+
+\section{Improvements}\label{improvements}
+
+\section{Conclusions}\label{conclusions}
+
+\section*{Bibliography}\label{bibliography}
+\addcontentsline{toc}{section}{Bibliography}
