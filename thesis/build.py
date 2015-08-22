@@ -5,7 +5,10 @@ from subprocess import call
 script_path = os.path.dirname(os.path.realpath(__file__))
 
 TOC_FILE = 'TOC.txt'
-OUT_FILE = 'out/bachelor.pdf'
+if len(sys.argv) == 2:
+    OUT_FILE = 'out/bachelor.tex'
+else:
+    OUT_FILE = 'out/bachelor.pdf'
 
 def flatten(l):
     return [item for sublist in l for item in sublist]
@@ -26,8 +29,8 @@ def main():
     files = ['src/{}.md'.format(basename) for basename in toc]
     print('files: {}'.format(files))
 
-    # --include-in-header newpage.tex
-    call_('pandoc -t latex -o {outfile} --toc --number-sections --filter pandoc-csv2table --filter pandoc-citeproc {files}'.format(
+    # 
+    call_('pandoc -t latex -o {outfile} --include-in-header header.tex --toc --number-sections --filter pandoc-csv2table --filter pandoc-citeproc {files}'.format(
         outfile=OUT_FILE, files=' '.join(map(wrapInQuotes, files))
     ))
 

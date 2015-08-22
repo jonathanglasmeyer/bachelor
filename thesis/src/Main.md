@@ -218,3 +218,33 @@ Lecture transcription,      Independent, Large,      Connected
 
 The task of automatic lecture transcriptions can thus be characterized as speaker-independent (SI) large continuous speech recognition (LVCSR).
 
+## Concepts
+Speech recognition in the *statistical pattern-recognition approach* paradigm has three major concepts necessary for its understanding:
+
+* phonemes
+* acoustic models (AM)
+* language models (LM)
+
+### Phonemes
+A *phoneme* is "the smallest contrastive linguistic unit which may bring about a change of meaning" [@cruttenden2014gimson, p. 43]. They are the smallest unit of sound in speech which are combined to form words. The word *sun* for example can be represented by the phonemes `/s/`, `/u/` and `/n/`; the word *table* by `/t/`, `/a/` and `/bl/`.
+
+A language together with a specific accent can be described by a set of phonemes that it consists of. Figure \ref{phonemic-chart} uses symbols from the International Phonetic Alphabet (IPA) to display the 44 phonemes that are being used in Received Pronunciation (RP), which is regarded as the "standard accent" in the south of the United Kingdom [@stevenson2011concise].
+
+![Phonemic Chart representing 44 phonemes used in RP British English\label{phonemic-chart}](images/phonemes_50.jpg)
+
+To be able to use phonemes in software, an ASCII representation is more suitable. The standard for General American English is the *Arpabet*. Here each phoneme is mapped to one or two capital letters. The digits `0`, `1` and `2` signify stress markers: no stress, primary and secondary stress respectively. A comparison of the IPA format and the arphabet format can be seen in Figure \ref{arpabet}, an excerpt that just shows the *monophthongs* ^[pure vowel sounds with relatively fixed articulation at the start and the end that don't glide towards a new position of articulation].
+
+![Excerpt from the Arpabet @wikiArpabet \label{arpabet}](images/arpabet.png)
+
+### Acoustic models
+An acoustic model describes the statistical relation between an audio signal and the probability that this signal represents a given phoneme.
+
+Acoustic models are created by *training* them on a *corpus* of audio recordings and matching transcripts. When being used in the context of speaker-independent recognition, those models are trained with a variety of speakers that represent a broad spectrum of the language/accent that the acoustic model should represent.
+
+Acoustic models alone are not sufficient for speech recognition, as they do not have the higher-level linguistic information necessary to for example decide between homonyms and similar-sounding phrases such as "wreck a nice beach" and "recognize speech" [@marquard, p. 11]. This information finally is provided by *Language Models*.
+
+### Language Models
+
+\newpage
+
+# Bibliography

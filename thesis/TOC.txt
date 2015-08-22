@@ -1,5 +1,2 @@
 _header
-
 Main
-
-_footer

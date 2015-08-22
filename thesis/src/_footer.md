@@ -1,4 +1,1 @@
 
-\newpage
-
-# Bibliography
