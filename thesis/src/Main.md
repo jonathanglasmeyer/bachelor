@@ -38,8 +38,8 @@ The main challenge when using ASR for this task is the recognition
 accuracy of technical terms. Most of them are not included in the
 language models that are available as those are broad and generic so as
 to optimize for accuracy over a wide topic spectrum. But when they are
-not included into the language model they have no chance to be correctly
-recognized at all.  <!-- Is this absolutely true?  --!>
+not included into the language model they have a very small chance to be correctly
+recognized at all.  <!-- TODO: maybe account for smoothing here? --!>
 
 So the usefulness of applying ASR with a generic language model to the
 problem is very small, as the intersection of interesting keywords with
@@ -241,11 +241,72 @@ An acoustic model describes the relation between an audio signal and the probabi
 
 Acoustic models are created by *training* them on a *corpus* of audio recordings and matching transcripts. When being used in the context of speaker-independent recognition, those models are trained with a variety of speakers that represent a broad spectrum of the language/accent that the acoustic model should represent.
 
-Acoustic models alone are not sufficient for speech recognition, as they do not have the higher-level linguistic information necessary to for example decide between homonyms and similar-sounding phrases such as "wreck a nice beach" and "recognize speech" [@marquard, p. 11]. This information finally is provided by *Language Models*.
+Acoustic models alone are not sufficient for speech recognition, as they do not have the higher-level linguistic information necessary to for example decide between homonyms and similar-sounding phrases such as "wreck a nice beach" and "recognize speech" [@marquard, p.11]. This information finally is provided by *language models*.
 
 
 ### Language Models
 
+Language models (LM) guide and constrain the search process a speech recognition system performs by assigning probabilities to sequences of words. They are created by applying statistical methods to a text corpus. As in the case of acoustic models, generic language models use huge text corpora with a broad variety of topics. It is however possible to train language models on small and specialised text corpora, which is the technical foundation for the approach discussed in this thesis.
+
+The most commonly used form of language models are *n-gram language models*. In the context of a language model a *n-gram* is a sequence of *n* words. 1-grams are called *unigrams*, 2-grams are called *bigrams* and 3-grams are called *trigrams*. A *n-gram language model* maps a set of *n-grams* to probabilities that they occur in a given piece of text.
+
+<!-- TODO: trained --!>
+
+N-gram language models don't need to be constrained to one type of n-gram. The *Generic US English Generic Language Model* @cmuLm from CMUSphinx we will use as the baseline for our approach for example consists of 1-, 2, and 3-grams.
+
+A toy example of a language model with 1- and 2-grams when represented in *ARPA*-format (as used by CMUSphinx) looks like follows @cmuArpa:
+
+    \data\
+    ngram 1=7
+    ngram 2=7
+
+    \1-grams:
+    -1.0000 <UNK>	-0.2553
+    -98.9366 <s>	 -0.3064
+    -1.0000 </s>	 0.0000
+    -0.6990 wood	 -0.2553
+    -0.6990 cindy	-0.2553
+    -0.6990 pittsburgh		-0.2553
+    -0.6990 jean	 -0.1973
+
+    \2-grams:
+    -0.2553 <UNK> wood
+    -0.2553 <s> <UNK>
+    -0.2553 wood pittsburgh
+    -0.2553 cindy jean
+    -0.2553 pittsburgh cindy
+    -0.5563 jean </s>
+    -0.5563 jean wood
+
+    \end\
+
+Here the first number in a row is the probability of the given n-gram in $log_{10}$ format. This means that the unigram *wood* has a probability of $10^{-0.6990} \approx 0.2 = 20\%$ and the probability of the words "wood pittsburg" occuring in sequence is $10^{-0.2553} \approx 0.55 = 55\%$ .
+
+The optional third numeric column in a row is called *backoff weight*. Backoff weights make it possible to calculate n-grams that are not listed by applying the formula
+
+    P( word_N | word_{N-1}, word_{N-2}, ...., word_1 ) =
+    P( word_N | word_{N-1}, word_{N-2}, ...., word_2 ) *
+      backoff-weight( word_{N-1} | word_{N-2}, ...., word_1 )
+
+With the side condition that missing entries for `word_{N-1} | word_{N-2}, ...., word_1` are replaced by $1.0$.
+
+So if the text to be recognized would contain the sequence "wood cindy", which does not appear as a bigram in the LM, the probability for this bigram could be calculated by `P(wood|cindy) = P(wood) * BWt(cindy)`.
+
+Finally, the overall probability of a sentence with the words $w_1,...,w_n$ can be approximated as follows:
+
+$$P(w_1,...,w_n) = \prod_{n=1}^m P(w_i \mid w_1,...w_{i-1})$$
+
+An example approximation with a bigram model @wikiLM for the sentence "I saw the red house" represented as $P(\text{I, saw, the, red, house})$ would look like
+$$
+  P(\text{I} \mid \langle s \rangle) \times
+  P(\text{saw} \mid \text{I}) \times
+  P(\text{the} \mid \text{saw}) \times
+  P(\text{red} \mid \text{the}) \times
+  P(\text{house} \mid \text{red}) \times
+  P(\langle s \rangle \mid \text{house})
+$$
+
+A key idea in modelling language like this is the *independence assumption*, which says that the probability of a given word is only dependent on the last *n* - 1 words. This assumption significantly decreases the statistical complexity and makes it thus computationally feasible.
 
 
 
@@ -279,4 +340,6 @@ Acoustic models alone are not sufficient for speech recognition, as they do not 
 
 \newpage
 
-# Bibliography
+
+
+# References
