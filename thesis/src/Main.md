@@ -221,7 +221,7 @@ The task of automatic lecture transcriptions can thus be characterized as speake
 ## Concepts
 Speech recognition in the *statistical pattern-recognition approach* paradigm has three major concepts necessary for its understanding:
 
-* phonemes
+* phonemes and phonetic dictionaries
 * acoustic models (AM)
 * language models (LM)
 
@@ -236,21 +236,40 @@ To be able to use phonemes in software an ASCII representation is more suitable.
 
 ![Excerpt from the Arpabet @wikiArpabet \label{arpabet}](images/arpabet.png)
 
+### Phonetic dictionaries
+
+Phonetic dictionaries map words to one or multiple versions of phoneme sequences.
+
+A phonetic representation of a word is specified manually from the knowledge how written words *actually sound* when spoken.
+
+An excerpt from the dictionary `cmudict-en-us.dict` @cmuDict looks like this:
+
+    ...
+    abdollah AE B D AA L AH
+    abdomen AE B D OW M AH N
+    abdomen(2) AE B D AH M AH N
+    abdominal AE B D AA M AH N AH L
+    abdominal(2) AH B D AA M AH N AH L
+    ...
+
+The dictionary has 133.425 entries. In the general case only words that are in the phonetic dictionary being used can be recognized during speech recognition. *Grapheme^["The smallest unit used in describing the writing system of a language" @florian1996blackwell, p.174]-to-Phoneme converters* (G2P) however make it possible to get phoneme sequence hypotheses for arbitrary words (that meaning arbitrary sequences of graphemes). While those results are on average less accurate than manually created variants, they play a vital role in texts with many technical terms as those are often not part of phonetic dictionaries.
+
 ### Acoustic models
-An acoustic model describes the relation between an audio signal and the probability that this signal represents a given phoneme.
+An acoustic model (AM) describes the relation between an audio signal and the probability that this signal represents a given phoneme.
 
 Acoustic models are created by *training* them on a *corpus* of audio recordings and matching transcripts. When being used in the context of speaker-independent recognition, those models are trained with a variety of speakers that represent a broad spectrum of the language/accent that the acoustic model should represent.
 
-Acoustic models alone are not sufficient for speech recognition, as they do not have the higher-level linguistic information necessary to for example decide between homonyms and similar-sounding phrases such as "wreck a nice beach" and "recognize speech" [@marquard, p.11]. This information finally is provided by *language models*.
+During the *decoding* phase the acoustic model and a phonetic dictionary are used to match sequences of small audio "slices" to possible phonemes and those phonemes to possible word sequence hypotheses. <!-- TODO: oohoo. is this precise? --!>
 
+However, acoustic models alone are not sufficient for speech recognition as they don't have the "higher-level" linguistic information necessary to for example decide between homonyms and similar-sounding phrases such as "wreck a nice beach" and "recognize speech" [@marquard, p.11]. This information finally is provided by *language models*.
 
 ### Language Models
 
-Language models (LM) guide and constrain the search process a speech recognition system performs by assigning probabilities to sequences of words. They are created by applying statistical methods to a text corpus. As in the case of acoustic models, generic language models use huge text corpora with a broad variety of topics. It is however possible to train language models on small and specialised text corpora, which is the technical foundation for the approach discussed in this thesis.
+Language models (LM) guide and constrain the search process a speech recognition system performs by assigning probabilities to sequences of words. They are trained by applying statistical methods on a text corpus. <!-- TODO: mh. awkward --!> Analogous to acoustic models, generic language models use huge text corpora with a broad variety of topics. It is however possible to train language models on small and specialized text corpora, which is the central technical foundation for the approach discussed in this thesis.
 
 The most commonly used form of language models are *n-gram language models*. In the context of a language model a *n-gram* is a sequence of *n* words. 1-grams are called *unigrams*, 2-grams are called *bigrams* and 3-grams are called *trigrams*. A *n-gram language model* maps a set of *n-grams* to probabilities that they occur in a given piece of text.
 
-<!-- TODO: trained --!>
+A key idea in modelling language like this is the *independence assumption*, which says that the probability of a given word is only dependent on the last *n* - 1 words. This assumption significantly decreases the statistical complexity and makes it thus computationally feasible.
 
 N-gram language models don't need to be constrained to one type of n-gram. The *Generic US English Generic Language Model* @cmuLm from CMUSphinx we will use as the baseline for our approach for example consists of 1-, 2, and 3-grams.
 
@@ -296,7 +315,7 @@ Finally, the overall probability of a sentence with the words $w_1,...,w_n$ can 
 
 $$P(w_1,...,w_n) = \prod_{n=1}^m P(w_i \mid w_1,...w_{i-1})$$
 
-An example approximation with a bigram model @wikiLM for the sentence "I saw the red house" represented as $P(\text{I, saw, the, red, house})$ would look like
+An example approximation with a bigram model for the sentence "I saw the red house" @wikiLM represented as $P(\text{I, saw, the, red, house})$ would look like
 $$
   P(\text{I} \mid \langle s \rangle) \times
   P(\text{saw} \mid \text{I}) \times
@@ -306,7 +325,26 @@ $$
   P(\langle s \rangle \mid \text{house})
 $$
 
-A key idea in modelling language like this is the *independence assumption*, which says that the probability of a given word is only dependent on the last *n* - 1 words. This assumption significantly decreases the statistical complexity and makes it thus computationally feasible.
+<!-- TODO: überleitun? --!>
+
+## Work done on ASR for lecture transcription
+
+(#) I will then examine the *scientific work* that has been done on
+applying ASR to the problem of lectures transcriptions.
+
+
+
+- Generalization approaches
+
+    Generalization approaches have examined ways of accounting for the larger
+    vocabulary, including specialized terms, and greater variation in delivery
+    style characteristic of spoken lectures.
+
+    Specialization approaches have
+    looked at features specific to many lectures, such as the use of
+    presentation slides, and using these attributes to “know more” about the
+    content of the lecture and thus improve recognition accuracy and
+    usefulness.
 
 
 
