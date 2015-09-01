@@ -255,7 +255,8 @@ context of meetings or conferences) [29], the potential requirement for ASR
 systems to transcribe not only the speech of the lecturer but also that of
 people asking questions or interjecting in a lecture is largely unexplored.
 
-2.5 Acoustic model adaptation Acoustic models derived from the broadcast
+2.5 Acoustic model adaptation
+Acoustic models derived from the broadcast
 and news genres may be a poor fit for lecture recordings, and thus a class
 of research has focused on how to adapt acoustic models to more accurately
 reflect the characteristics of lecture speech.  Adaptation strategies which
@@ -265,7 +266,8 @@ account for speaking rate [31], unsupervised adaptation to account for new
 speakers [32] and using discriminatively trained models for language
 identification and multilingual speech recognition [33].
 
-2.6 Language model adaptation Researchers have investigated strategies for
+2.6 Language model adaptation 
+Researchers have investigated strategies for
 generating and adapting the language model (LM) to improve recognition
 accuracy for lectures, on the assumption that a model which closely
 reflects the context of the utterances is likely to outperform a more

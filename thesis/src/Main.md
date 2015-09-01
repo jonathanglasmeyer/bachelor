@@ -170,10 +170,10 @@ improving searchability / scannability through adapting language models
 Automatic Speech Recognition (ASR) can be defined as the process by which
 a computer maps an acoustic speech signal to text @cmufaq.
 
-Rabiner and Juang @rabiner date the first research on ASR back to the
+@rabiner date the first research on ASR back to the
 early 1950s, when Bell Labs built a system for single-speaker digit
 recognition. Since then the field has seen three major approaches, which
-Marquard @marquard summarizes as follows:
+@marquard summarizes as follows:
 
 > 1. The *acoustic-phonetic approach* aimed to identify features of
     speech such as vowels directly through their acoustic properties,
@@ -196,10 +196,10 @@ The most prevalent approach today is the *statistical
 pattern-recognition approach*, as it produces results with much higher
 accuracy compared to the acoustic-phonetic approach. The use of Hidden Markov Models (HMM) has been playing a key role in this approach, as it allows recognizers to use a statistical model of a given pattern rather than a fixed representation.
 
-In the last years there has been a resurgence of AI approaches, specifically *deep learning approaches* @hinton2012deep. The ASR paradigm we will use for this thesis will be limited to the former, however.
+In the last years there has been a resurgence of AI approaches, specifically *deep learning approaches* [@hinton2012deep]. The ASR paradigm we will use for this thesis will be limited to the former, however.
 
 ## Dimensions of speech recognition
-There are three dimensions which serve to classify different applications of speech recognition @cmufaq @marquard:
+There are three dimensions which serve to classify different applications of speech recognition [@cmufaq, @marquard]:
 
 (1) **Dependent vs. independent**. Dependent recognition systems are developed to be used by one speaker, whereas independent systems are developed to be used by *any* speaker of a particular type, i.e North-American speakers. **Adaptive** systems lie between those poles, they are able to adapt to a particular speaker through training.
 
@@ -207,7 +207,7 @@ There are three dimensions which serve to classify different applications of spe
 
 (3) **Continuous vs. isolated speech**. Isolated speech consists of single words that are spoken with pauses in between them, whereas continuous speech consists of words that are spoken in a connected way. Continuous speech is significantly more difficult to recognize, as it is a) more difficult to find the start and end of words and b) the pronunciation of words changes in relation to their surrounding words.
 
-With those three dimensions we can for example classify the application areas command and control systems, dictation and lecture transcription @marquard:
+With those three dimensions we can for example classify the application areas command and control systems, dictation and lecture transcription [@marquard]:
 
 ```{.table type="pipe" aligns="LLLL" caption="Three application areas" header="yes"}
 Application,                Speaker,     Vocabulary, Duration
@@ -261,7 +261,7 @@ Acoustic models are created by *training* them on a *corpus* of audio recordings
 
 During the *decoding* phase the acoustic model and a phonetic dictionary are used to match sequences of small audio "slices" to possible phonemes and those phonemes to possible word sequence hypotheses. <!-- TODO: oohoo. is this precise? --!>
 
-However, acoustic models alone are not sufficient for speech recognition as they don't have the "higher-level" linguistic information necessary to for example decide between homonyms and similar-sounding phrases such as "wreck a nice beach" and "recognize speech" [@marquard, p.11]. This information finally is provided by *language models*.
+However, acoustic models alone are not sufficient for speech recognition as they don't have the "higher-level" linguistic information necessary to for example decide between homonyms and similar-sounding phrases such as "wreck a nice beach" and "recognize speech" [@marquard, 11]. This information finally is provided by *language models*.
 
 ### Language Models
 
@@ -329,25 +329,43 @@ $$
 
 ## Work done on ASR for lecture transcription
 
-(#) I will then examine the *scientific work* that has been done on
-applying ASR to the problem of lectures transcriptions.
+I will now give an overview over the scientific work done on lecture transcription, using @marquard as a guiding reference.
 
+The research for speech recognition on lectures can be partitioned into three general approaches: generalization approaches, specialization approaches and approaches involving the user for manual correction and improvements.
 
+### Generalization approaches
+Generalization approaches try to create models that capture common characteristics of lectures. Those characteristics include highly spontaneous presentation style and "strong coarticulation effects, non-grammatical constructions, hesitations, repetitions, and filled pauses" [@yamazaki]. @glass note the "colloquial nature" of lectures as well as the "poor planning at the sentence level [and] higher structural levels".
 
-- Generalization approaches
+The generalization approach has been applied on the acoustic model level: @cettolo have examined adapting a generic acoustic model to account for spontaneous speech phenomena ("filler sounds"). <!-- TODO: formulierung --!>
 
-    Generalization approaches have examined ways of accounting for the larger
-    vocabulary, including specialized terms, and greater variation in delivery
-    style characteristic of spoken lectures.
+While the a subfield of ASR called "speaker diarization" tries to account for the interactivity between lecturers and students by identifying multiple speakers, most research treats lectures as single speaker events with the audience as background noise.
 
-    Specialization approaches have
-    looked at features specific to many lectures, such as the use of
-    presentation slides, and using these attributes to “know more” about the
-    content of the lecture and thus improve recognition accuracy and
-    usefulness.
+Generalization approaches at the language model level try to model common linguistic traits of the lecture genre (this can be called the "macro level"). @kato2000 investigate topic-independent language modeling by creating a large corpus of text from lecture transcripts and panel discussions and then removing topic-specific keywords. ^[In a second step they combine this generalization technique with a specialization technique by adapting the resulting LM with a lecture-specific language model by using preprint papers of a given lecture.]
 
+### Specialization approaches
+Specialization approaches try to use context specific to a single lecture ("meso level") or parts of a single lecture ("micro level"^[The three levels are taken from @marquard.]).
 
+Methods used for creating LMs from context information can be categorized into two approaches: direct usage of lecture slides and notes for the creation of LMs versus usage of "derived" data from those materials. Deriving data by using keywords found in slides, using them as web search query terms and using the found documents as the basis for LM creation is explored in @munteanu, @kawahara08 and @marquard.
 
+Using the whole text from lecture slides has been explored by @yamazaki. They compare the *meso level* with the *micro level* by dynamically adapting the LM for the speech corresponding to a particular slide. <!-- TODO: results? --!> @kawahara08  also examine dynamic local slide-by-slide adaption and compare it to global topic adaption using Probabilistic Latent Semantic Analysis (PLSA)^[Latent Semantic Analysis is an approach to document comparison and retrieval which relies on a numeric analysis of word frequency and proximity. <!-- TODO: reformulate --!>] and web text collection, concluding that the last performs worse then the former because of a worse orientation to topic words. <!-- TODO: find citation that is not from marquard --!>.
+
+<!-- 
+@akita (todo):
+
+    statistical transformation model for adapting a pronunciation model
+    and LM from a text corpus primarily reflecting written language to
+    one more suited for recognizing spoken language.
+
+    While n-gram language models are the dominant paradigm in ASR
+    systems, they offer a relatively coarse model of language context.
+
+“The sequence
+memoizer,”
+    Newer research is exploring more accurate statistical representations
+    of “deep context”, for example accounting for connections between
+    related but widely separated words and phrases [41].
+
+ --!>
 
 
 
