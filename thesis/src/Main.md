@@ -349,7 +349,7 @@ Methods used for creating LMs from context information can be categorized into t
 
 Using the whole text from lecture slides has been explored by @yamazaki. They compare the *meso level* with the *micro level* by dynamically adapting the LM for the speech corresponding to a particular slide. <!-- TODO: results? --!> @kawahara08  also examine dynamic local slide-by-slide adaption and compare it to global topic adaption using Probabilistic Latent Semantic Analysis (PLSA)^[Latent Semantic Analysis is an approach to document comparison and retrieval which relies on a numeric analysis of word frequency and proximity. <!-- TODO: reformulate --!>] and web text collection, concluding that the last performs worse then the former because of a worse orientation to topic words. <!-- TODO: find citation that is not from marquard --!>.
 
-<!-- 
+<!--
 @akita (todo):
 
     statistical transformation model for adapting a pronunciation model
@@ -366,6 +366,89 @@ memoizer,”
     related but widely separated words and phrases [41].
 
  --!>
+<!-- TODO: finish this crap --!>
+
+## Metrics
+
+<!-- TODO: finish this crap --!>
+
+# Test data
+
+42 courses
+The test data i will use for evaluating our approach will be from *Open Yale Courses*^[[http://oyc.yale.edu/](http://oyc.yale.edu/)], which is a selection of openly available lectures from Yale university. It consists of 42 courses from 25 departments. Each course has about 20-25 sessions that have an average length of 50 minutes. Each lecture is provided with good quality audio and video recordings, precise manual transcripts and lecture material when available. Only about 20% of the lecture have lecture notes or slides at all and most materials from the natural and formal science departments (physics, astronomics, mathematics) consist of hand-written notes, making them unsuitable for our approach. All talks are in English.
+
+I have chosen the following lectures: (Department, Course, Lecture Number - Title, abbreviation)
+
+- *Biomedical Engineering*: Frontiers of Biomedical Engineering, 1 - What is Biomedical Engineering?  (`biomed-eng-1`)
+
+- *Environmental Studies*: Environmental Politics and Law, 8 - Chemically Dependent Agriculture (`environmental-8`)
+
+- *Geology & Geophysics*: The atmosphere, the ocean, and environmental change, 8 - Horizontal transport (`geology-8`)
+
+- *Philosopy*: Philosophy and the science of human nature, 8 - Flourishing and Detachment (`human-nature-8`)
+
+- *Psychology*: Introduction to Psychology, 14 - What Motivates Us: Sex (`psy-14`)
+
+- *Psychology*: Introduction to Psychology, 5 - What Is It Like to Be a Baby: The Development of Thought (`psy-5`)
+
+The main selection criterion here was topical diversity, with the challenge that the majority of talks with computer-parsable notes was from the humanities.
+
+## Materials overview
+The available material is very heterogeneous. I will now give an overview with excerpts which will serve as a basis for examining later if the quality and quantity of the supplied material is correlated with the amount of improvement of our approach.
+
+`geology-8` supplies a 2-page excercise sheet.
+
+> "Mars has a radius of 3.39 x 106 m and a surface gravity of 3.73 ms-2. Calculate the escape velocity
+> for Mars and the typical speed of a CO2 molecule (assume T = 250 K). How can Mars retain its CO2
+> atmosphere? (Hint: the molecular weight of carbon dioxide is 44. Use the formulae given in class.) [...]"
+
+`biomed-eng-1` provides a 7-page glossary of technical terms.
+
+
+> "[...] active transport - the transport of molecules in an energetically unfavorable direction across a membrane coupled to the hydrolysis of ATP or other source of energy
+>
+> ATP (adenosine 5’-triphosphate) - a nucleotide that is the most important molecule for capturing and transferring free energy in cells. Hydrolysis of each of the two high-energy
+> phosphoanhydride bonds in ATP is accompanied by a large free-energy change ("G) of 7
+> kcal/mole
+>
+> aquaporin – a water channel protein which allows water molecules to cross the cell
+> membrane much more rapidly than through the phospholipid bilayer [...]"
+
+
+`human-nature-8` provides reading assignments for four books with short summaries each.
+
+> "[A] Epictetus, The Handbook
+>
+> Background information about the Stoic philosopher Epictetus (c. 50-130 CE) and his famous
+> work Encheiridion (The Handbook) appears in Nicholas White’s introduction to our translation.
+> White has also added footnotes that explain points of potential confusion.
+>
+> As the title indicates, The Handbook is intended as a tidy introduction to a more complex
+> philosophical outlook. It is written in an accessible and engaging style.
+>
+> The Stoic movement originated around 300 BCE and flourished for over five hundred years. The
+> Stoics believed that the external world is deterministic: its state at any time is completely
+> determined by its prior states. So, they maintained, it is pointless to wish for things to be different
+> because to do so is to wish for something impossible. A wise person would, therefore, accept
+> whatever befalls them without desiring that things go otherwise – hence the English word ‘stoic.’
+
+> Passages to focus on/passages to skim
+>
+> I encourage you to read the text in full, at a steady reading pace. [...]"
+
+`psy-14/5` and `enviromental-8` provide ~10-page slides with a typical amount of text.
+
+### Conclusion
+Only about 20% of the courses have lecture material at all; only about 20% of those actually have typical "slides" -- the rest provides heterogenous other kinds of material. While it can not be inferred from this dataset that this is a general condition, it nevertheless shows a clear "real-world" disadvantage of an approach only relying on those materials. We will look at the impact of the varying quality and quantity in the analysis later.
+
+# The LM-Interpolation approach
+I will now describe the LM-Interpolation approach. The high level overview looks like the following: we will use the open source speech recognition framework Sphinx 4 ^[Homepage: <http://cmusphinx.sourceforge.net/wiki/sphinx4:webhome>] as the software for performing speech recognition. Sphinx 4 has a modular architecture which allows specifying components of the whole process per configuration. It provides multiple implementations of LMs^[Overview: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/LanguageModel.html>], the default one being an ngram model.
+
+It also provides an `InterpolatedLanguageModel`^[Javadoc: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/InterpolatedLanguageModel.html>] (ILM), which allows you to specify multiple LMs and weights and interpolate the probabilities for a given ngram from all models probabilities ($p = w_1*p_1 + w_2*p_2 + \ldots$ where $w_n$ are the weights ($\sum_{i=1}^n(w_i) = 1$) and $p_n$ are the probabilities from the $n$ LMs for a given word).
+
+The ILM's use in our approach is to factor in the importance of keywords. Those keywords have to be supplied in the form of an ngram language model. For this we extract text content from the lecture material, postprocess it and create an ngram LM from the resulting corpus. Sphinx4 is then a) run with a generic english ngram LM only and b) with the ILM configured to use the generic english LM and the keyword language model in a 50/50 weighting. Finally the two resulting transcriptions are compared with a selection of metrics.
+
+As an example, the 1-gram *sex* has a probability of 2.82% in the keyword model from `psy-14`, but a probability of 0.012% in the generic english LM ^[@cmuLm]. When applying 50/50 interpolation, the result is $2.82\%*0.5 + 0.012\%*0.5 = 1.416\%$, which is an increase by the factor of ~117 over the generic probability.
 
 
 
@@ -390,11 +473,44 @@ memoizer,”
 
 
 
+# Analysis
+
+<!--
+#. **Methods**
+
+    I will discuss how to analyze the results and develop metrics
+    that assess how well the given goals are met with our approach.
+
+    TODO: which metrics follow from the goals of searchability and
+    scannability.  define those terms first, discuss what's
+    important there ->> keywords!
+
+#. **Analysis**
+
+    I will then perform quantitative analysis on our test dataset
+    with the metrics we developed before.
+
+#. **Discussion, Finding and Conclusions**
+
+    I will discuss the findings and draw conclusions from the quantitative analysis concerning the effectiveness of our approach.
+
+--!>
 
 
 
 
-\newpage
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

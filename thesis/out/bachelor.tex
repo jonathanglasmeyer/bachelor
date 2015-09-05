@@ -123,8 +123,8 @@ The main challenge when using ASR for this task is the recognition
 accuracy of technical terms. Most of them are not included in the
 language models that are available as those are broad and generic so as
 to optimize for accuracy over a wide topic spectrum. But when they are
-not included into the language model they have no chance to be correctly
-recognized at all.
+not included into the language model they have a very small chance to be
+correctly recognized at all.
 
 So the usefulness of applying ASR with a generic language model to the
 problem is very small, as the intersection of interesting keywords with
@@ -178,8 +178,8 @@ The structure of this thesis is laid out as follows:
 \item
   \textbf{Test data}
 
-  I will use the openly available \emph{Open Yale Courses}
-  {[}\hyperref[ref-openyale]{1}{]}, which provide a diverse selection of
+  I will use the openly available \emph{Open Yale Courses} (\emph{Open
+  Yale Courses Website}, n.d.), which provide a diverse selection of
   audio and video recordings of university lectures at Yale,
   additionally supplying quality manual transcriptions and course notes
   or slides.
@@ -282,12 +282,12 @@ Recognition}\label{the-field-of-automatic-speech-recognition}
 
 Automatic Speech Recognition (ASR) can be defined as the process by
 which a computer maps an acoustic speech signal to text
-{[}\hyperref[ref-cmufaq]{2}{]}.
+(\emph{comp.speech Frequently Asked Questions}, n.d.).
 
-Rabiner and Juang {[}\hyperref[ref-rabiner]{3}{]} date the first
-research on ASR back to the early 1950s, when Bell Labs built a system
-for single-speaker digit recognition. Since then the field has seen
-three major approaches, which Marquard {[}\hyperref[ref-marquard]{4}{]}
+Rabiner \& Juang (\hyperref[ref-rabiner]{1993}) date the first research
+on ASR back to the early 1950s, when Bell Labs built a system for
+single-speaker digit recognition. Since then the field has seen three
+major approaches, which Marquard (\hyperref[ref-marquard]{2012})
 summarizes as follows:
 
 \begin{quote}
@@ -337,16 +337,16 @@ allows recognizers to use a statistical model of a given pattern rather
 than a fixed representation.
 
 In the last years there has been a resurgence of AI approaches,
-specifically \emph{deep learning approaches}
-{[}\hyperref[ref-hinton2012deep]{5}{]}. The ASR paradigm we will use for
+specifically \emph{deep learning approaches} (Hinton et al.,
+\hyperref[ref-hinton2012deep]{2012}). The ASR paradigm we will use for
 this thesis will be limited to the former, however.
 
 \subsection{Dimensions of speech
 recognition}\label{dimensions-of-speech-recognition}
 
 There are three dimensions which serve to classify different
-applications of speech recognition {[}\hyperref[ref-cmufaq]{2}{]}
-{[}\hyperref[ref-marquard]{4}{]}:
+applications of speech recognition (\emph{comp.speech Frequently Asked
+Questions}, n.d., Marquard (\hyperref[ref-marquard]{2012})):
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
@@ -375,7 +375,7 @@ applications of speech recognition {[}\hyperref[ref-cmufaq]{2}{]}
 
 With those three dimensions we can for example classify the application
 areas command and control systems, dictation and lecture transcription
-{[}\hyperref[ref-marquard]{4}{]}:
+(Marquard, \hyperref[ref-marquard]{2012}):
 
 \begin{longtable}[c]{@{}llll@{}}
 \caption{Three application areas}\tabularnewline
@@ -406,7 +406,7 @@ understanding:
 \begin{itemize}
 \tightlist
 \item
-  phonemes
+  phonemes and phonetic dictionaries
 \item
   acoustic models (AM)
 \item
@@ -416,19 +416,19 @@ understanding:
 \subsubsection{Phonemes}\label{phonemes}
 
 A \emph{phoneme} is ``the smallest contrastive linguistic unit which may
-bring about a change of meaning''
-{[}\hyperref[ref-cruttenden2014gimson]{6}, p. 43{]}. They are the
-smallest unit of sound in speech which are combined to form words. The
-word \emph{sun} for example can be represented by the phonemes
-\texttt{/s/}, \texttt{/u/} and \texttt{/n/}; the word \emph{table} by
-\texttt{/t/}, \texttt{/a/} and \texttt{/bl/}.
+bring about a change of meaning'' (Cruttenden,
+\hyperref[ref-cruttenden2014gimson]{2014}, p. 43). They are the smallest
+unit of sound in speech which are combined to form words. The word
+\emph{sun} for example can be represented by the phonemes \texttt{/s/},
+\texttt{/u/} and \texttt{/n/}; the word \emph{table} by \texttt{/t/},
+\texttt{/a/} and \texttt{/bl/}.
 
 A language together with a specific accent can be described by a set of
 phonemes that it consists of. Figure \ref{phonemic-chart} uses symbols
 from the International Phonetic Alphabet (IPA) to display the 44
 phonemes that are being used in Received Pronunciation (RP), which is
 regarded as the ``standard accent'' in the south of the United Kingdom
-{[}\hyperref[ref-stevenson2011concise]{7}{]}.
+(Stevenson \& Waite, \hyperref[ref-stevenson2011concise]{2011}).
 
 \begin{figure}[htbp]
 \centering
@@ -437,7 +437,7 @@ regarded as the ``standard accent'' in the south of the United Kingdom
 English\label{phonemic-chart}}
 \end{figure}
 
-To be able to use phonemes in software, an ASCII representation is more
+To be able to use phonemes in software an ASCII representation is more
 suitable. The standard for General American English is the
 \emph{Arpabet}. Here each phoneme is mapped to one or two capital
 letters. The digits \texttt{0}, \texttt{1} and \texttt{2} signify stress
@@ -451,14 +451,47 @@ Figure \ref{arpabet}, an excerpt that just shows the
 \begin{figure}[htbp]
 \centering
 \includegraphics{images/arpabet.png}
-\caption{Excerpt from the Arpabet {[}\hyperref[ref-wikiArpabet]{8}{]}
-\label{arpabet}}
+\caption{Excerpt from the Arpabet (\emph{English Wikipedia Arpabet
+article}, 2015 (accessed 22.8.15)) \label{arpabet}}
 \end{figure}
+
+\subsubsection{Phonetic dictionaries}\label{phonetic-dictionaries}
+
+Phonetic dictionaries map words to one or multiple versions of phoneme
+sequences.
+
+A phonetic representation of a word is specified manually from the
+knowledge how written words \emph{actually sound} when spoken.
+
+An excerpt from the dictionary \texttt{cmudict-en-us.dict} (\emph{CMU
+EN-US Pronouncing Dictionary (cmudict-en-us.dict)},
+\hyperref[ref-cmuDict]{2015}) looks like this:
+
+\begin{verbatim}
+...
+abdollah AE B D AA L AH
+abdomen AE B D OW M AH N
+abdomen(2) AE B D AH M AH N
+abdominal AE B D AA M AH N AH L
+abdominal(2) AH B D AA M AH N AH L
+...
+\end{verbatim}
+
+The dictionary has 133.425 entries. In the general case only words that
+are in the phonetic dictionary being used can be recognized during
+speech recognition. \emph{Grapheme\footnote{``The smallest unit used in
+  describing the writing system of a language'' Florian
+  (\hyperref[ref-florian1996blackwell]{1996}), p.174}-to-Phoneme
+converters} (G2P) however make it possible to get phoneme sequence
+hypotheses for arbitrary words (that meaning arbitrary sequences of
+graphemes). While those results are on average less accurate than
+manually created variants, they play a vital role in texts with many
+technical terms as those are often not part of phonetic dictionaries.
 
 \subsubsection{Acoustic models}\label{acoustic-models}
 
-An acoustic model describes the statistical relation between an audio
-signal and the probability that this signal represents a given phoneme.
+An acoustic model (AM) describes the relation between an audio signal
+and the probability that this signal represents a given phoneme.
 
 Acoustic models are created by \emph{training} them on a \emph{corpus}
 of audio recordings and matching transcripts. When being used in the
@@ -466,52 +499,307 @@ context of speaker-independent recognition, those models are trained
 with a variety of speakers that represent a broad spectrum of the
 language/accent that the acoustic model should represent.
 
-Acoustic models alone are not sufficient for speech recognition, as they
-do not have the higher-level linguistic information necessary to for
-example decide between homonyms and similar-sounding phrases such as
-``wreck a nice beach'' and ``recognize speech''
-{[}\hyperref[ref-marquard]{4}, p. 11{]}. This information finally is
-provided by \emph{Language Models}.
+During the \emph{decoding} phase the acoustic model and a phonetic
+dictionary are used to match sequences of small audio ``slices'' to
+possible phonemes and those phonemes to possible word sequence
+hypotheses.
+
+However, acoustic models alone are not sufficient for speech recognition
+as they don't have the ``higher-level'' linguistic information necessary
+to for example decide between homonyms and similar-sounding phrases such
+as ``wreck a nice beach'' and ``recognize speech'' (Marquard,
+\hyperref[ref-marquard]{2012}, p. 11). This information finally is
+provided by \emph{language models}.
 
 \subsubsection{Language Models}\label{language-models}
 
+Language models (LM) guide and constrain the search process a speech
+recognition system performs by assigning probabilities to sequences of
+words. They are trained by applying statistical methods on a text
+corpus. Analogous to acoustic models, generic language models use huge
+text corpora with a broad variety of topics. It is however possible to
+train language models on small and specialized text corpora, which is
+the central technical foundation for the approach discussed in this
+thesis.
+
+The most commonly used form of language models are \emph{n-gram language
+models}. In the context of a language model a \emph{n-gram} is a
+sequence of \emph{n} words. 1-grams are called \emph{unigrams}, 2-grams
+are called \emph{bigrams} and 3-grams are called \emph{trigrams}. A
+\emph{n-gram language model} maps a set of \emph{n-grams} to
+probabilities that they occur in a given piece of text.
+
+A key idea in modelling language like this is the \emph{independence
+assumption}, which says that the probability of a given word is only
+dependent on the last \emph{n} - 1 words. This assumption significantly
+decreases the statistical complexity and makes it thus computationally
+feasible.
+
+N-gram language models don't need to be constrained to one type of
+n-gram. The \emph{Generic US English Generic Language Model}
+(\emph{CMUSphinx US English Generic Language Model
+(cmusphinx-5.0-en-us.lm)}, \hyperref[ref-cmuLm]{2015}) from CMUSphinx we
+will use as the baseline for our approach for example consists of 1-, 2,
+and 3-grams.
+
+A toy example of a language model with 1- and 2-grams when represented
+in \emph{ARPA}-format (as used by CMUSphinx) looks like follows
+(\emph{CMUSphinx ARPA Language models}, 2015 (accessed 23.8.15)):
+
+\begin{verbatim}
+\data\
+ngram 1=7
+ngram 2=7
+
+\1-grams:
+-1.0000 <UNK>   -0.2553
+-98.9366 <s>     -0.3064
+-1.0000 </s>     0.0000
+-0.6990 wood     -0.2553
+-0.6990 cindy   -0.2553
+-0.6990 pittsburgh      -0.2553
+-0.6990 jean     -0.1973
+
+\2-grams:
+-0.2553 <UNK> wood
+-0.2553 <s> <UNK>
+-0.2553 wood pittsburgh
+-0.2553 cindy jean
+-0.2553 pittsburgh cindy
+-0.5563 jean </s>
+-0.5563 jean wood
+
+\end\
+\end{verbatim}
+
+Here the first number in a row is the probability of the given n-gram in
+\(log_{10}\) format. This means that the unigram \emph{wood} has a
+probability of \(10^{-0.6990} \approx 0.2 = 20\%\) and the probability
+of the words ``wood pittsburg'' occuring in sequence is
+\(10^{-0.2553} \approx 0.55 = 55\%\) .
+
+The optional third numeric column in a row is called \emph{backoff
+weight}. Backoff weights make it possible to calculate n-grams that are
+not listed by applying the formula
+
+\begin{verbatim}
+P( word_N | word_{N-1}, word_{N-2}, ...., word_1 ) =
+P( word_N | word_{N-1}, word_{N-2}, ...., word_2 ) *
+  backoff-weight( word_{N-1} | word_{N-2}, ...., word_1 )
+\end{verbatim}
+
+With the side condition that missing entries for
+\texttt{word\_\{N-1\}\ \textbar{}\ word\_\{N-2\},\ ....,\ word\_1} are
+replaced by \(1.0\).
+
+So if the text to be recognized would contain the sequence ``wood
+cindy'', which does not appear as a bigram in the LM, the probability
+for this bigram could be calculated by
+\texttt{P(wood\textbar{}cindy)\ =\ P(wood)\ *\ BWt(cindy)}.
+
+Finally, the overall probability of a sentence with the words
+\(w_1,...,w_n\) can be approximated as follows:
+
+\[P(w_1,...,w_n) = \prod_{n=1}^m P(w_i \mid w_1,...w_{i-1})\]
+
+An example approximation with a bigram model for the sentence ``I saw
+the red house'' (\emph{English Wikipedia Language Model article}, 2015
+(accessed 23.8.15)) represented as \(P(\text{I, saw, the, red, house})\)
+would look like \[
+  P(\text{I} \mid \langle s \rangle) \times
+  P(\text{saw} \mid \text{I}) \times
+  P(\text{the} \mid \text{saw}) \times
+  P(\text{red} \mid \text{the}) \times
+  P(\text{house} \mid \text{red}) \times
+  P(\langle s \rangle \mid \text{house})
+\]
+
+\subsection{Work done on ASR for lecture
+transcription}\label{work-done-on-asr-for-lecture-transcription}
+
+I will now give an overview over the scientific work done on lecture
+transcription, using Marquard (\hyperref[ref-marquard]{2012}) as a
+guiding reference.
+
+The research for speech recognition on lectures can be partitioned into
+three general approaches: generalization approaches, specialization
+approaches and approaches involving the user for manual correction and
+improvements.
+
+\subsubsection{Generalization
+approaches}\label{generalization-approaches}
+
+Generalization approaches try to create models that capture common
+characteristics of lectures. Those characteristics include highly
+spontaneous presentation style and ``strong coarticulation effects,
+non-grammatical constructions, hesitations, repetitions, and filled
+pauses'' (Yamazaki, Iwano, Shinoda, Furui, \& Yokota,
+\hyperref[ref-yamazaki]{2007}). Glass, Hazen, Hetherington, \& Wang
+(\hyperref[ref-glass]{2004}) note the ``colloquial nature'' of lectures
+as well as the ``poor planning at the sentence level {[}and{]} higher
+structural levels''.
+
+The generalization approach has been applied on the acoustic model
+level: Cettolo, Brugnara, \& Federico (\hyperref[ref-cettolo]{2004})
+have examined adapting a generic acoustic model to account for
+spontaneous speech phenomena (``filler sounds'').
+
+While the a subfield of ASR called ``speaker diarization'' tries to
+account for the interactivity between lecturers and students by
+identifying multiple speakers, most research treats lectures as single
+speaker events with the audience as background noise.
+
+Generalization approaches at the language model level try to model
+common linguistic traits of the lecture genre (this can be called the
+``macro level''). Kato, Nanjo, \& Kawahara
+(\hyperref[ref-kato2000]{2000}) investigate topic-independent language
+modeling by creating a large corpus of text from lecture transcripts and
+panel discussions and then removing topic-specific keywords.\footnote{In
+  a second step they combine this generalization technique with a
+  specialization technique by adapting the resulting LM with a
+  lecture-specific language model by using preprint papers of a given
+  lecture.}
+
+\subsubsection{Specialization
+approaches}\label{specialization-approaches}
+
+Specialization approaches try to use context specific to a single
+lecture (``meso level'') or parts of a single lecture (``micro
+level''\footnote{The three levels are taken from Marquard
+  (\hyperref[ref-marquard]{2012}).}).
+
+Methods used for creating LMs from context information can be
+categorized into two approaches: direct usage of lecture slides and
+notes for the creation of LMs versus usage of ``derived'' data from
+those materials. Deriving data by using keywords found in slides, using
+them as web search query terms and using the found documents as the
+basis for LM creation is explored in Munteanu, Penn, \& Baecker
+(\hyperref[ref-munteanu]{2007}), Kawahara, Nemoto, \& Akita
+(\hyperref[ref-kawahara08]{2008}) and Marquard
+(\hyperref[ref-marquard]{2012}).
+
+Using the whole text from lecture slides has been explored by Yamazaki
+et al. (\hyperref[ref-yamazaki]{2007}). They compare the \emph{meso
+level} with the \emph{micro level} by dynamically adapting the LM for
+the speech corresponding to a particular slide. Kawahara et al.
+(\hyperref[ref-kawahara08]{2008}) also examine dynamic local
+slide-by-slide adaption and compare it to global topic adaption using
+Probabilistic Latent Semantic Analysis (PLSA)\footnote{Latent Semantic
+  Analysis is an approach to document comparison and retrieval which
+  relies on a numeric analysis of word frequency and proximity. } and
+web text collection, concluding that the last performs worse then the
+former because of a worse orientation to topic words. .
+
+\subsection{Metrics}\label{metrics}
+
+\section{Test data}\label{test-data}
+
+The test data i'll use for evaluating our approach will be from
+(\emph{Open Yale Courses Website}, n.d.). Lütkebohle
+(\hyperref[ref-bworld]{2008})
+
+\section{The LM-Interpolation
+approach}\label{the-lm-interpolation-approach}
+
+\section{Analysis}\label{analysis}
+
 \newpage
 
-\section*{Bibliography}\label{bibliography}
-\addcontentsline{toc}{section}{Bibliography}
+\section*{References}\label{references}
+\addcontentsline{toc}{section}{References}
 
-\hyperdef{}{ref-openyale}{\label{ref-openyale}}
-{[}1{]} ``Open yale courses website.'' \url{http://oyc.yale.edu/}.
+\hyperdef{}{ref-cettolo}{\label{ref-cettolo}}
+Cettolo, M., Brugnara, F., \& Federico, M. (2004). Advances in the
+automatic transcription of lectures. In \emph{Acoustics, speech, and
+signal processing, 2004. proceedings.(ICASSP'04). iEEE international
+conference on} (Vol. 1, pp. I--769). IEEE.
+
+\hyperdef{}{ref-cmuDict}{\label{ref-cmuDict}}
+\emph{CMU EN-US Pronouncing Dictionary (cmudict-en-us.dict)}. (2015).
+\url{https://github.com/cmusphinx/sphinx4/blob/master/sphinx4-data/src/main/resources/edu/cmu/sphinx/models/en-us/cmudict-en-us.dict}.
+
+\hyperdef{}{ref-cmuArpa}{\label{ref-cmuArpa}}
+\emph{CMUSphinx ARPA Language models}. (2015 (accessed 23.8.15)).
+\url{http://cmusphinx.sourceforge.net/wiki/sphinx4:standardgrammarformats}.
+
+\hyperdef{}{ref-cmuLm}{\label{ref-cmuLm}}
+\emph{CMUSphinx US English Generic Language Model
+(cmusphinx-5.0-en-us.lm)}. (2015).
+\url{http://sourceforge.net/projects/cmusphinx/files/Acoustic\%20and\%20Language\%20Models/US\%20English\%20Generic\%20Language\%20Model/}.
 
 \hyperdef{}{ref-cmufaq}{\label{ref-cmufaq}}
-{[}2{]} ``Comp.speech frequently asked questions.''
+\emph{comp.speech Frequently Asked Questions}. (n.d.).
 \url{http://www.speech.cs.cmu.edu/comp.speech/Section6/Q6.1.html}.
 
-\hyperdef{}{ref-rabiner}{\label{ref-rabiner}}
-{[}3{]} L. Rabiner and B.-H. Juang, ``Fundamentals of speech
-recognition,'' 1993.
-
-\hyperdef{}{ref-marquard}{\label{ref-marquard}}
-{[}4{]} S. Marquard, ``Improving searchability of automatically
-transcribed lectures through dynamic language modelling,'' 2012.
-
-\hyperdef{}{ref-hinton2012deep}{\label{ref-hinton2012deep}}
-{[}5{]} G. Hinton, L. Deng, D. Yu, G. E. Dahl, A.-r. Mohamed, N. Jaitly,
-A. Senior, V. Vanhoucke, P. Nguyen, T. N. Sainath, and others, ``Deep
-neural networks for acoustic modeling in speech recognition: The shared
-views of four research groups,'' \emph{Signal Processing Magazine,
-IEEE}, vol. 29, no. 6, pp. 82--97, 2012.
-
 \hyperdef{}{ref-cruttenden2014gimson}{\label{ref-cruttenden2014gimson}}
-{[}6{]} A. Cruttenden, \emph{Gimson's pronunciation of english}.
-Routledge, 2014.
-
-\hyperdef{}{ref-stevenson2011concise}{\label{ref-stevenson2011concise}}
-{[}7{]} A. Stevenson and M. Waite, \emph{Concise oxford english
-dictionary: Book \& cD-rOM set}. Oxford University Press, 2011.
+Cruttenden, A. (2014). \emph{Gimson's pronunciation of English}.
+Routledge.
 
 \hyperdef{}{ref-wikiArpabet}{\label{ref-wikiArpabet}}
-{[}8{]} ``English wikipedia arpabet article.''
-\url{https://en.wikipedia.org/wiki/Arpabet}, 2015 (accessed 22.8.15).
+\emph{English Wikipedia Arpabet article}. (2015 (accessed 22.8.15)).
+\url{https://en.wikipedia.org/wiki/Arpabet}.
+
+\hyperdef{}{ref-wikiLM}{\label{ref-wikiLM}}
+\emph{English Wikipedia Language Model article}. (2015 (accessed
+23.8.15)). \url{https://en.wikipedia.org/wiki/Language_model}.
+
+\hyperdef{}{ref-florian1996blackwell}{\label{ref-florian1996blackwell}}
+Florian, C. (1996). The Blackwell encyclopedia of writing systems.
+\emph{Oxford: Blackwell}.
+
+\hyperdef{}{ref-glass}{\label{ref-glass}}
+Glass, J., Hazen, T. J., Hetherington, L., \& Wang, C. (2004). Analysis
+and processing of lecture audio data: Preliminary investigations. In
+\emph{Proceedings of the workshop on interdisciplinary approaches to
+speech indexing and retrieval at hLT-nAACL 2004} (pp. 9--12).
+Association for Computational Linguistics.
+
+\hyperdef{}{ref-hinton2012deep}{\label{ref-hinton2012deep}}
+Hinton, G., Deng, L., Yu, D., Dahl, G. E., Mohamed, A.-r., Jaitly, N.,
+Senior, A., et al. (2012). Deep neural networks for acoustic modeling in
+speech recognition: The shared views of four research groups.
+\emph{Signal Processing Magazine, IEEE}, \emph{29}(6), 82--97. IEEE.
+
+\hyperdef{}{ref-kato2000}{\label{ref-kato2000}}
+Kato, K., Nanjo, H., \& Kawahara, T. (2000). Automatic transcription of
+lecture speech using topic-independent language modeling. In \emph{Sixth
+international conference on spoken language processing}.
+
+\hyperdef{}{ref-kawahara08}{\label{ref-kawahara08}}
+Kawahara, T., Nemoto, Y., \& Akita, Y. (2008). Automatic lecture
+transcription by exploiting presentation slide information for language
+model adaptation. In \emph{Acoustics, speech and signal processing,
+2008. iCASSP 2008. iEEE international conference on} (pp. 4929--4932).
+IEEE.
+
+\hyperdef{}{ref-bworld}{\label{ref-bworld}}
+Lütkebohle, I. (2008). BWorld Robot Control Software.
+\url{http://aiweb.techfak.uni-bielefeld.de/content/bworld-robot-control-software/}.
+
+\hyperdef{}{ref-marquard}{\label{ref-marquard}}
+Marquard, S. (2012). Improving searchability of automatically
+transcribed lectures through dynamic language modelling. University of
+Cape Town.
+
+\hyperdef{}{ref-munteanu}{\label{ref-munteanu}}
+Munteanu, C., Penn, G., \& Baecker, R. (2007). Web-based language
+modelling for automatic lecture transcription. In \emph{INTERSPEECH}
+(pp. 2353--2356).
+
+\hyperdef{}{ref-openyale}{\label{ref-openyale}}
+\emph{Open Yale Courses Website}. (n.d.). \url{http://oyc.yale.edu/}.
+
+\hyperdef{}{ref-rabiner}{\label{ref-rabiner}}
+Rabiner, L., \& Juang, B.-H. (1993). Fundamentals of speech recognition.
+Prentice hall.
+
+\hyperdef{}{ref-stevenson2011concise}{\label{ref-stevenson2011concise}}
+Stevenson, A., \& Waite, M. (2011). \emph{Concise Oxford English
+Dictionary: Book \& CD-ROM Set}. Oxford University Press.
+
+\hyperdef{}{ref-yamazaki}{\label{ref-yamazaki}}
+Yamazaki, H., Iwano, K., Shinoda, K., Furui, S., \& Yokota, H. (2007).
+Dynamic language model adaptation using presentation slides for lecture
+speech recognition. \emph{Proc. INTERSPEECH 2007}, 2349--2352.
 
 \end{document}
