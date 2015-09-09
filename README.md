@@ -1,4 +1,9 @@
-### Better accuracy of automatic lecture transcriptions by using context information from slide contents
+# My bachelor thesis
+This is the repository for my bachelor thesis on the topic "Better accuracy of automatic lecture transcriptions by using context information from slide contents".
+
+You may read it [here as a PDF](thesis/out/bachelor.pdf).
+
+### Introduction 
 Scannability is crucial for academic research: you
 have to be able to quickly evaluate the usefulness of a given resource
 by skimming the content and looking for the parts that are specifically
@@ -34,7 +39,7 @@ accuracy of technical terms. Most of them are not included in the
 language models that are available as those are broad and generic so as
 to optimize for accuracy over a wide topic spectrum. But when they are
 not included into the language model they have a very small chance to be correctly
-recognized at all.  <!-- TODO: maybe account for smoothing here? --!>
+recognized at all.
 
 So the usefulness of applying ASR with a generic language model to the
 problem is very small, as the intersection of interesting keywords with
