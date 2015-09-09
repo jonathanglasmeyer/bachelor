@@ -33,7 +33,7 @@
 \hypersetup{breaklinks=true,
             bookmarks=true,
             pdfauthor={Jonathan Werner},
-            pdftitle={Bachelorarbeit - Better accuracy of automatic lecture transcriptions by using context information from slide contents},
+            pdftitle={Bachelor thesis - Better accuracy of automatic lecture transcriptions by using context information from slide contents},
             colorlinks=true,
             citecolor=blue,
             urlcolor=blue,
@@ -57,7 +57,7 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
 
-\title{Bachelorarbeit - Better accuracy of automatic lecture transcriptions by
+\title{Bachelor thesis - Better accuracy of automatic lecture transcriptions by
 using context information from slide contents}
 \author{Jonathan Werner}
 \date{}
@@ -694,16 +694,394 @@ former because of a worse orientation to topic words. .
 
 \section{Test data}\label{test-data}
 
-The test data i'll use for evaluating our approach will be from
-(\emph{Open Yale Courses Website}, n.d.). Lütkebohle
-(\hyperref[ref-bworld]{2008})
+42 courses The test data i will use for evaluating our approach will be
+from \emph{Open Yale Courses}\footnote{\url{http://oyc.yale.edu/}},
+which is a selection of openly available lectures from Yale university.
+It consists of 42 courses from 25 departments. Each course has about
+20-25 sessions that have an average length of 50 minutes. Each lecture
+is provided with good quality audio and video recordings, precise manual
+transcripts and lecture material when available. Only about 20\% of the
+lecture have lecture notes or slides at all and most materials from the
+natural and formal science departments (physics, astronomics,
+mathematics) consist of hand-written notes, making them unsuitable for
+our approach. All talks are in English.
+
+I have chosen the following lectures: (Department, Course, Lecture
+Number - Title, abbreviation)
+
+\begin{itemize}
+\item
+  \emph{Biomedical Engineering}: Frontiers of Biomedical Engineering, 1
+  - What is Biomedical Engineering? (\texttt{biomed-eng-1})
+\item
+  \emph{Environmental Studies}: Environmental Politics and Law, 8 -
+  Chemically Dependent Agriculture (\texttt{environmental-8})
+\item
+  \emph{Geology \& Geophysics}: The atmosphere, the ocean, and
+  environmental change, 8 - Horizontal transport (\texttt{geology-8})
+\item
+  \emph{Philosopy}: Philosophy and the science of human nature, 8 -
+  Flourishing and Detachment (\texttt{human-nature-8})
+\item
+  \emph{Psychology}: Introduction to Psychology, 14 - What Motivates Us:
+  Sex (\texttt{psy-14})
+\item
+  \emph{Psychology}: Introduction to Psychology, 5 - What Is It Like to
+  Be a Baby: The Development of Thought (\texttt{psy-5})
+\end{itemize}
+
+The main selection criterion here was topical diversity, with the
+challenge that the majority of talks with computer-parsable notes was
+from the humanities.
+
+\subsection{Materials overview}\label{materials-overview}
+
+The available material is very heterogeneous. I will now give an
+overview with excerpts which will serve as a basis for examining later
+if the quality and quantity of the supplied material is correlated with
+the amount of improvement of our approach.
+
+\texttt{geology-8} supplies a 2-page excercise sheet.
+
+\begin{quote}
+``Mars has a radius of 3.39 x 106 m and a surface gravity of 3.73 ms-2.
+Calculate the escape velocity for Mars and the typical speed of a CO2
+molecule (assume T = 250 K). How can Mars retain its CO2 atmosphere?
+(Hint: the molecular weight of carbon dioxide is 44. Use the formulae
+given in class.) {[}\ldots{}{]}''
+\end{quote}
+
+\texttt{biomed-eng-1} provides a 7-page glossary of technical terms.
+
+\begin{quote}
+``{[}\ldots{}{]} active transport - the transport of molecules in an
+energetically unfavorable direction across a membrane coupled to the
+hydrolysis of ATP or other source of energy
+
+ATP (adenosine 5'-triphosphate) - a nucleotide that is the most
+important molecule for capturing and transferring free energy in cells.
+Hydrolysis of each of the two high-energy phosphoanhydride bonds in ATP
+is accompanied by a large free-energy change (``G) of 7 kcal/mole
+
+aquaporin -- a water channel protein which allows water molecules to
+cross the cell membrane much more rapidly than through the phospholipid
+bilayer {[}\ldots{}{]}"
+\end{quote}
+
+\texttt{human-nature-8} provides reading assignments for four books with
+short summaries each.
+
+\begin{quote}
+``{[}A{]} Epictetus, The Handbook
+
+Background information about the Stoic philosopher Epictetus (c. 50-130
+CE) and his famous work Encheiridion (The Handbook) appears in Nicholas
+White's introduction to our translation. White has also added footnotes
+that explain points of potential confusion.
+
+As the title indicates, The Handbook is intended as a tidy introduction
+to a more complex philosophical outlook. It is written in an accessible
+and engaging style.
+
+The Stoic movement originated around 300 BCE and flourished for over
+five hundred years. The Stoics believed that the external world is
+deterministic: its state at any time is completely determined by its
+prior states. So, they maintained, it is pointless to wish for things to
+be different because to do so is to wish for something impossible. A
+wise person would, therefore, accept whatever befalls them without
+desiring that things go otherwise -- hence the English word `stoic.'
+\end{quote}
+
+\begin{quote}
+Passages to focus on/passages to skim
+
+I encourage you to read the text in full, at a steady reading pace.
+{[}\ldots{}{]}"
+\end{quote}
+
+\texttt{psy-14/5} and \texttt{enviromental-8} provide
+\textasciitilde{}10-page slides with a typical amount of text.
+
+\subsubsection{Conclusion}\label{conclusion}
+
+Only about 20\% of the courses have lecture material at all; only about
+20\% of those actually have typical ``slides'' -- the rest provides
+heterogenous other kinds of material. While it can not be inferred from
+this dataset that this is a general condition, it nevertheless shows a
+clear ``real-world'' disadvantage of an approach only relying on those
+materials. We will look at the impact of the varying quality and
+quantity in the analysis later.
 
 \section{The LM-Interpolation
 approach}\label{the-lm-interpolation-approach}
 
-\section{Analysis}\label{analysis}
+I will now describe the LM-Interpolation approach. The high level
+overview looks like the following: we will use the open source speech
+recognition framework Sphinx 4\footnote{Homepage:
+  \url{http://cmusphinx.sourceforge.net/wiki/sphinx4:webhome}} as the
+software for performing speech recognition. Sphinx 4 has a modular
+architecture which allows specifying components of the whole process per
+configuration. It provides multiple implementations of LMs\footnote{Overview:
+  \url{http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/LanguageModel.html}},
+the default one being an ngram model.
 
-\newpage
+It also provides an \texttt{InterpolatedLanguageModel}\footnote{Javadoc:
+  \url{http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/InterpolatedLanguageModel.html}}
+(ILM), which allows you to specify multiple LMs and weights and
+interpolate the probabilities for a given ngram from all models
+probabilities (\(p = w_1*p_1 + w_2*p_2 + \ldots\) where \(w_n\) are the
+weights (\(\sum_{i=1}^n(w_i) = 1\)) and \(p_i\) is the probability for a
+given ngram in \(LM_i\)).
+
+The ILM's use in our approach is to factor in the importance of
+keywords. Those keywords have to be supplied in the form of an ngram
+language model. For this we extract text content from the lecture
+material, preprocess it and create an ngram LM from the resulting
+corpus. Sphinx4 is then a) run with a generic english ngram LM only and
+b) with the ILM configured to use the generic english LM and the keyword
+language model in a 50/50 weighting. Finally the two resulting
+transcriptions are compared with a selection of metrics.
+
+As an example, the 1-gram \emph{sex} has a probability of 2.82\% in the
+keyword model from \texttt{psy-14}, but a probability of 0.012\% in the
+generic english LM.\footnote{(\emph{CMUSphinx US English Generic
+  Language Model (cmusphinx-5.0-en-us.lm)}, \hyperref[ref-cmuLm]{2015})}
+When applying 50/50 interpolation, the result is
+\(2.82\%*0.5 + 0.012\%*0.5 = 1.416\%\), which is an increase by the
+factor of \textasciitilde{}117 over the generic probability.
+
+\subsection{Sphinx 4}\label{sphinx-4}
+
+\subsection{Implementation}\label{implementation}
+
+The pipeline is implemented with a collection of standalone command line
+tools and a set of bash and python scripts\footnote{The source code is
+  available here:
+  \url{https://github.com/jonathanewerner/bachelor/tree/master/bin}.}.
+
+The tasks are the following, in chronological order:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Prepare the input}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The audio file is converted into Sphinx 4 compatible format (16khz,
+    16bit mono little-endian).
+  \item
+    A testcase folder with a given shortname (e.g. \texttt{psy-15}) is
+    created in the \texttt{results}-directory\footnote{\url{https://github.com/jonathanewerner/bachelor/tree/master/results}}
+    of the source code repository.
+  \item
+    The reference transcript, the material (PDF format is required) and
+    the converted audio file are moved into a \texttt{resources}
+    subfolder of the testcase folder.
+  \end{itemize}
+\item
+  \textbf{Create a keyword LM from lecture material}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \texttt{pdftohtml\ -i\ -xml} is applied on the given material PDF.
+    The XML output representation is input to
+    \texttt{pdfreflow}\footnote{pdftohtml and pdfreflow are open source
+      linux command line utilities}. Compared to the tool
+    \texttt{pdftotext} the combination of these 2 tools preserves
+    paragraphs correctly, whereas \texttt{pdftotext} represents each
+    line break in the input PDF as a new paragraph in the output text
+    file. This is a significant disadvantage for the LM creation step,
+    as a newline in the input file there has the semantic ``end of
+    sentence'' -- so that a sentence split into 4 lines by
+    \texttt{pdftotext} would count as 4 sentences in the LM.
+  \item
+    The HTML output from \texttt{pdfreflow} is filtered by taking only
+    relevant HTML-tags such as \texttt{\textless{}p\textgreater{}}'s
+    (paragraphs) and \texttt{\textless{}blockquote\textgreater{}}'s,
+    further improving the content-to-noise ratio.
+  \item
+    The resulting text is then preprocessed for optimal compatibility
+    with the LM creation tool by removing punctuation and superfluous
+    whitespace\footnote{I use a combination of command line text
+      processing (sed) and a perl script from Stephen Marquard here.}.
+  \item
+    The resulting corpus is input to \texttt{estimate-ngram}, a LM
+    creation tool from the MIT Language Modeling Toolkit\footnote{\url{https://code.google.com/p/mitlm/wiki/EstimateNgram}}
+    (MITLMT).
+  \end{itemize}
+\item
+  \textbf{Convert transcript to reference corpus}
+
+  The transcript from Open Yale is supplied as HTML. We apply processing
+  steps to transform it to a corpus ready to be consumed by the WER
+  analysis tool (no punctuation, all lowercase). As these are specific
+  to just the format chosen by Open Yale Courses, the details are
+  omitted, as they have no general use.
+\item
+  \textbf{Run Sphinx 4 in baseline and interpolated mode}
+
+  \texttt{bin/sphinx-interpolated.py}\footnote{\url{https://github.com/jonathanewerner/bachelor/blob/master/bin/sphinx-interpolated.py}}
+  supplies a wrapper for interfacing with Sphinx 4. The Java API of
+  Sphinx 4 is exposed for command line usage by a a JAR package which
+  bundles the Sphinx 4 libraries and a small Main class. This class uses
+  command line arguments supplied from
+  \texttt{bin/sphinx-interpolated.py} to correctly configure Sphinx 4
+  and start the actual recognition.
+
+  Each testcase folder has a configuration file which specifies which
+  models the test run should use:
+
+\begin{verbatim}
+  {
+    "acousticModelPath": "en-new/cmusphinx-en-us-5.2",
+    "dictionaryPath": "en-new/cmudict-en-us.dict",
+
+    "languageModelPath": "en-new/cmusphinx-5.0-en-us.lm",
+    "keywordModelPath": "model.lm",
+    "g2pModelPath": "en-new/en_us_nostress/model.fst.ser",
+
+    "resultsFolder": "biomed-eng-1"
+  }
+\end{verbatim}
+
+  \texttt{bin/sphinx-interpolated.py} interprets the ``global'' models
+  relative to the repository root-folder \texttt{models}, the
+  \texttt{resultsFolder} relative to the root folder \texttt{results}
+  and the \texttt{keywordModelPath} relative to the
+  \texttt{resultsFolder}. It then supplies the absolute paths to the
+  JAR. It also supplies absolute output file paths for the transcription
+  result and transcription word timings results.
+
+  This setup ensures reproducible results, as the environment of a given
+  testcase is exactly specified (as long as the same binaries and script
+  versions are assumed).
+
+  \texttt{bin/sphinx-interpolated.py} can now be used to run the
+  baseline or/and interpolated version.
+\item
+  \textbf{Analyze and compare the results}
+
+  Finally the results from the two recognition runs are analyzed and
+  compared by running
+  \texttt{bin/hotword-analyze\ \textless{}testcase\ folder\ name\textgreater{}}.
+  This performs two things: a) WER comparison and metrics generation and
+  b) keyword visualization.
+
+  5.1 \emph{WER comparison and metrics generation}
+
+  This first calls \texttt{bin/wer.py}\footnote{\texttt{wer.py} has been
+    adapted from
+    \url{http://progfruits.blogspot.de/2014/02/word-error-rate-wer-and-word.html}}
+  on each run, which will calculate the WER and show a summary of
+  substituted (SUB), inserted (INS) and deleted (DEL) words when
+  comparing the reference (REF) to the hypothesis (HYP):
+
+\begin{verbatim}
+OP  | REF     | HYP
+INS | ****    | this
+INS | ****    | is
+INS | ****    | that
+OK  | this    | this
+OK  | is      | is
+OK  | a       | a
+OK  | course  | course
+SUB | a       | that
+SUB | version | aversion
+OK  | of      | of
+OK  | which   | which
+SUB | i've    | i
+OK  | taught  | taught
+INS | ****    | him
+...
+...
+{'Sub': 1230, 'Ins': 674, 'WER': 0.316, 'Del': 324, 'Cor': 5492}
+\end{verbatim}
+
+  In a second step it compares the two WER result files with
+  \texttt{bin/compare-wer.py}.
+
+  The result is an HTML file with a) shows a WER comparison table and b)
+  various statistical measures which will be explored later. The table
+  (shown in Figure \ref{wer-comparison}) colors correctly recognized
+  words as green and incorrect words as red. It also marks words that
+  have been improved in the interpolated version with a green border and
+  words that have been worsened with a red border.
+
+  \begin{figure}[htbp]
+  \centering
+  \includegraphics{images/wer-comparison_150.png}
+  \caption{WER comparison\label{wer-comparison}}
+  \end{figure}
+
+  5.2 \emph{Keyword visualization}
+
+  Data from the reference and the recognition results is compiled into a
+  format suitable for consumption by a visualisation module, which will
+  be discussed in depth further down in the chapter ``Visualization for
+  Scannability''.
+\end{enumerate}
+
+All intermediate steps from the pipeline are represented as files in the
+testcase folder. Table \ref{files} gives an overview of the files
+created by each pipeline step.
+
+\begin{longtable}[c]{@{}ll@{}}
+\caption{File results of a testcase run\label{files}}\tabularnewline
+\toprule
+File & Description\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+File & Description\tabularnewline
+\midrule
+\endhead
+\textbf{Step 1: Prepare the input} &\tabularnewline
+\texttt{resources/audio.mp3} & original audio\tabularnewline
+\texttt{resources/audio.wav} & converted audio\tabularnewline
+\texttt{resources/slides.pdf} & lecture material\tabularnewline
+\texttt{resources/transcript.html} & lecture transcript\tabularnewline
+\texttt{config.json} & run configuration\tabularnewline
+&\tabularnewline
+\textbf{Step 2: Create a keyword LM} &\tabularnewline
+\texttt{slides.corpus.txt} & lecture material corpus\tabularnewline
+\texttt{model.lm} & keyword LM\tabularnewline
+&\tabularnewline
+\textbf{Step 3: Convert reference to corpus} &\tabularnewline
+\texttt{reference.corpus.txt} & reference transcription
+corpus\tabularnewline
+\texttt{reference\_wordcounts.json} & reference transcription word
+counts\footnote{They are needed for the visualization later.}\tabularnewline
+&\tabularnewline
+\textbf{Step 4: Run Sphinx 4} &\tabularnewline
+\texttt{sphinx\_log\_baseline.txt} & Sphinx 4 logging
+output\tabularnewline
+\texttt{sphinx\_log\_interpolated.txt} &\tabularnewline
+\texttt{sphinx\_result\_baseline.txt} & Sphinx 4
+transcription\tabularnewline
+\texttt{sphinx\_result\_interpolated.txt} &\tabularnewline
+\texttt{sphinx\_word\_times\_baseline.txt} & Sphinx 4 word
+times\tabularnewline
+\texttt{sphinx\_word\_times\_interpolated.txt} &\tabularnewline
+&\tabularnewline
+\textbf{Step 5.1: WER comparison / metrics generation} &\tabularnewline
+\texttt{results.json} & run metrics in json format\footnote{This eases
+  parsability for aggregating multiple testcase results later.}\tabularnewline
+\texttt{wer\_baseline.txt} & WER table / metrics\tabularnewline
+\texttt{wer\_interpolated.txt} &\tabularnewline
+\texttt{wer\_comparison.html} & rich WER comparison +
+metrics\tabularnewline
+&\tabularnewline
+\textbf{Step 5.2: Keyword visualization} &\tabularnewline
+\texttt{cloud\_baseline.json} & data representation for
+visualization\tabularnewline
+\texttt{cloud\_interpolated.json} &\tabularnewline
+\bottomrule
+\end{longtable}
+
+\section{Analysis}\label{analysiss}
 
 \section*{References}\label{references}
 \addcontentsline{toc}{section}{References}
@@ -771,10 +1149,6 @@ transcription by exploiting presentation slide information for language
 model adaptation. In \emph{Acoustics, speech and signal processing,
 2008. iCASSP 2008. iEEE international conference on} (pp. 4929--4932).
 IEEE.
-
-\hyperdef{}{ref-bworld}{\label{ref-bworld}}
-Lütkebohle, I. (2008). BWorld Robot Control Software.
-\url{http://aiweb.techfak.uni-bielefeld.de/content/bworld-robot-control-software/}.
 
 \hyperdef{}{ref-marquard}{\label{ref-marquard}}
 Marquard, S. (2012). Improving searchability of automatically

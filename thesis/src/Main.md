@@ -367,6 +367,7 @@ memoizer,”
 
  --!>
 <!-- TODO: finish this crap --!>
+<!-- TODO: explain how our approach can be classified according to this stuff --!>
 
 ## Metrics
 
@@ -374,7 +375,6 @@ memoizer,”
 
 # Test data
 
-42 courses
 The test data i will use for evaluating our approach will be from *Open Yale Courses*^[[http://oyc.yale.edu/](http://oyc.yale.edu/)], which is a selection of openly available lectures from Yale university. It consists of 42 courses from 25 departments. Each course has about 20-25 sessions that have an average length of 50 minutes. Each lecture is provided with good quality audio and video recordings, precise manual transcripts and lecture material when available. Only about 20% of the lecture have lecture notes or slides at all and most materials from the natural and formal science departments (physics, astronomics, mathematics) consist of hand-written notes, making them unsuitable for our approach. All talks are in English.
 
 I have chosen the following lectures: (Department, Course, Lecture Number - Title, abbreviation)
@@ -470,6 +470,41 @@ The tasks are the following, in chronological order:
     - The resulting text is then preprocessed for optimal compatibility with the LM creation tool by removing punctuation and superfluous whitespace^[I use a combination of command line text processing (sed) and a perl script from Stephen Marquard here.].
     - The resulting corpus is input to `estimate-ngram`, a LM creation tool from the MIT Language Modeling Toolkit^[<https://code.google.com/p/mitlm/wiki/EstimateNgram>] (MITLMT).
 
+    For clarification intermediate results from this step follow as an example. They are from the test case `psy-5`^["Introduction to Psychology, 5 - What Is It Like to Be a Baby: The Development of Thought"]. Figure \ref{slide} shows an example slide.
+
+    ![Slide from lecture `psy-5` \label{slide}](images/slide_250.png)
+
+    When using `pdftotext` the result looks like this for the given slide:
+
+        Piaget’s Theory of
+        Cognitive Development
+        • Piaget believed that “children are active
+        thinkers, constantly trying to construct more
+        advanced understandings of the world”
+        • Little scientists
+        • These “understandings” are in the form of
+        structures he called schemas
+
+    Notice how each newline in the slide maps to a newline in the output. When using the combination of `pdftohtml` and `pdfreflow` the result looks like this:
+
+        <p class="p9">Piaget’s Theory of
+        Cognitive Development </p>
+        <p class="p10">•  Piaget believed that “children are active
+        thinkers, constantly trying to construct more
+        advanced understandings of the world” </p>
+        <blockquote class="b9">•  Little scientists </blockquote>
+        <p class="p10">•  These “understandings” are in the form of
+        structures he called <i>schemas</i> </p>
+
+    Notice how a paragraph is captured in a `<p>`-tag. This allows extracting a sentence as one line in the corpus. After applying the preprocessing described above the final corpus for the slide looks like this (where ".. " marks a line continuation):
+
+        piagets theory of cognitive development
+        piaget believed that children are active thinkers constantly
+        .. trying to construct more advanced understandings of the world
+        little scientists
+        these understandings are in the form of structures he called schemas
+
+
   3. **Convert transcript to reference corpus**
 
       The transcript from Open Yale is supplied as HTML. We apply processing steps to transform it to a corpus ready to be consumed by the WER analysis tool (no punctuation, all lowercase). As these are specific to just the format chosen by Open Yale Courses, the details are omitted, as they have no general use.
@@ -532,7 +567,7 @@ The tasks are the following, in chronological order:
 
     5.2 *Keyword visualization*
 
-    Data from the reference and the recognition results is compiled into a format suitable for consumption by a visualisation module, which will be discussed in depth further down in the chapter "Visualization for Scannability".
+    Data from the reference and the recognition results is compiled into a format suitable for consumption by a visualisation module, which will be discussed in chapter \ref{viz}.
 
 All intermediate steps from the pipeline are represented as files in the testcase folder. Table \ref{files} gives an overview of the files created by each pipeline step.
 
@@ -578,27 +613,38 @@ File,                                 Description
 
 ```
 
+# Analysis { #analysis }
+
+I will now discuss how to evaluate the usefulness of the LM-Interpolation approach given the goal of improving recognition accuracy of interesting keywords.
+
+## Approaching a good metric
+We want to find a metric that describes if and how much the interpolated version improves upon the baseline version. Comparing the generic WER of the two runs does not help answering the question how much our approach improves the accuracy of interesting keywords.
+
+### Lecture-scoped WER excluding $top_X$ words
+
+In the interpolated approach we have included the LM created from the lecture material. The basic question to ask when assessing the effectiveness of this approach is: how much better is the WER when *just looking at the words from the lecture material LM*? This is only a starting point however. The lecture material corpus includes a substantial amount of words that would not be classified as "interesting keywords": filler words and very common words. One approach to sort them out is subtracting a set of top $x$ most common words ("$top_X$ words") from this list. The resulting metric can then be parameterized on the given $x$. This is an idea that Marquard uses when he proposes the metric "Ranked Word Correct Rate" (RWCR-n):
+
+> "RWCR-n is defined as the Word Correct Rate for all words in the document which are
+not found in the first n words in a given general English word dictionary with words
+ranked from most to least frequent." [@marquard, p. 71]
+
+### Lemmas
+
+When searching for a specific term the user is interested in the *lemma* for a given word: when he wants to find occurences of *child* in the given lecture, occurences of "children", "child's", "children's" etc. would also be relevant. This implies two things: 1) when looking at the "atomar" level of improvements and degradations <!-- TODO: worsenings? --!> it is more relevant to have lemmas as the atoms and not words and 2) the exact matching (a hypothesis word is only "correct" if it exactly matches the reference word) of the WER algorithm should be "loosened" to also mark hypothesis words as correct if their lemmatized version matches the reference.
+
+The same principle holds for the $top_X$ words: we only want to capture words for which the *lemma* is not in the $top_X$ words.
+
+### Proposed metric: KWER-x
+
+We can summarize these concerns into a definition of a metric called *KWER-x*, which expresses the "Keyword Error Rate", where a keyword is defined as the lemma of a word occuring a given lecture material corpus given that this lemma is not present in the $top_X$ list of most common words of the given language.
+
+<!-- TODO:
+which metrics follow from the goals of searchability and
+scannability.  define those terms first, discuss what's
+important there ->> keywords!
+ --!>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Analysis
 
 <!--
 #. **Methods**
@@ -621,7 +667,17 @@ File,                                 Description
 
 --!>
 
+<!-- TODO:
+Relative advantage of IWER/KWER depends on how many of the top words are filtered out.
+Advantage decreases with decreasing top X
+--!>
 
+
+# Visualization for Scannability { #viz }
+
+# Improvements
+
+<!-- TODO: IDF as a better metric for relevance? --!>
 
 
 
