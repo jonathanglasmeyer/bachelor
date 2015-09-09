@@ -7,7 +7,7 @@ from collections import Counter
 SHOW_CORRECT_LINES = True
 
 # Show all words in a table
-DETAILED = False
+DETAILED = True
 
 PRINT_HTML = True
 
@@ -86,7 +86,8 @@ def compare(wer_result1, wer_result2, name1, name2, template, css, corpus_withou
         out.append('<table>')
         out.append('<tr>')
         out.append('<th>' + '</th><th>'.join([
-            'Reference', '# in top5000 (cap is {})'.format(X), name1, name2,
+            'Reference', #'# in top5000 (cap is {})'.format(X), 
+            name1, name2,
             '# wrong words base',
             '# wrong words interpolated',
             '# interesting wrong words base',
@@ -160,13 +161,13 @@ def compare(wer_result1, wer_result2, name1, name2, template, css, corpus_withou
             if DETAILED:
                 out.append('<tr class="{}">'.format(tr_class))
                 out.append('<td class={}>{}</td>'.format('', ref))
-                out.append('<td>{}</td>'.format(top5000index(ref) or '-'))
+                # out.append('<td>{}</td>'.format(top5000index(ref) or '-'))
                 out.append('<td class={}>{}</td>'.format(hyp1_class, hyp1))
                 out.append('<td class={}>{}</td>'.format(hyp2_class, hyp2))
-                out.append('<td>{}</td>'.format(len(wrong_words_baseline)))
-                out.append('<td>{}</td>'.format(len(wrong_words_interpolated)))
-                out.append('<td>{}</td>'.format(len(wrong_interesting_words_baseline)))
-                out.append('<td>{}</td>'.format(len(wrong_interesting_words_interpolated)))
+                # out.append('<td>{}</td>'.format(len(wrong_words_baseline)))
+                # out.append('<td>{}</td>'.format(len(wrong_words_interpolated)))
+                # out.append('<td>{}</td>'.format(len(wrong_interesting_words_baseline)))
+                # out.append('<td>{}</td>'.format(len(wrong_interesting_words_interpolated)))
                 out.append('</tr>')
         except ValueError: # last line
             pass

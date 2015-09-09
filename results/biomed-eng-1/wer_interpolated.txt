@@ -7689,4 +7689,4 @@ OK | you | you
 OK | on | on
 OK | thursday | thursday
 SUB | hopefully | fluid
-{'Del': 380, 'Sub': 1202, 'WER': 0.316, 'Cor': 5464, 'Ins': 644}
+{'Sub': 1202, 'Ins': 644, 'Cor': 5464, 'Del': 380, 'WER': 0.316}

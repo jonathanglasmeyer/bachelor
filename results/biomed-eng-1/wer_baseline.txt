@@ -7719,4 +7719,4 @@ OK | you | you
 OK | on | on
 OK | thursday | thursday
 SUB | hopefully | tully
-{'Sub': 1230, 'Ins': 674, 'WER': 0.316, 'Del': 324, 'Cor': 5492}
+{'Del': 324, 'Ins': 674, 'Sub': 1230, 'WER': 0.316, 'Cor': 5492}

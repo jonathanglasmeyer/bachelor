@@ -442,7 +442,7 @@ Only about 20% of the courses have lecture material at all; only about 20% of th
 # The LM-Interpolation approach
 I will now describe the LM-Interpolation approach. The high level overview looks like the following: we will use the open source speech recognition framework Sphinx 4 ^[Homepage: <http://cmusphinx.sourceforge.net/wiki/sphinx4:webhome>] as the software for performing speech recognition. Sphinx 4 has a modular architecture which allows specifying components of the whole process per configuration. It provides multiple implementations of LMs^[Overview: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/LanguageModel.html>], the default one being an ngram model.
 
-It also provides an `InterpolatedLanguageModel`^[Javadoc: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/InterpolatedLanguageModel.html>] (ILM), which allows you to specify multiple LMs and weights and interpolate the probabilities for a given ngram from all models probabilities ($p = w_1*p_1 + w_2*p_2 + \ldots$ where $w_n$ are the weights ($\sum_{i=1}^n(w_i) = 1$) and $p_n$ are the probabilities from the $n$ LMs for a given word).
+It also provides an `InterpolatedLanguageModel`^[Javadoc: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/InterpolatedLanguageModel.html>] (ILM), which allows you to specify multiple LMs and weights and interpolate the probabilities for a given ngram from all models probabilities ($p = w_1*p_1 + w_2*p_2 + \ldots$ where $w_n$ are the weights ($\sum_{i=1}^n(w_i) = 1$) and $p_i$ is the probability for a given ngram in $LM_i$).
 
 The ILM's use in our approach is to factor in the importance of keywords. Those keywords have to be supplied in the form of an ngram language model. For this we extract text content from the lecture material, preprocess it and create an ngram LM from the resulting corpus. Sphinx4 is then a) run with a generic english ngram LM only and b) with the ILM configured to use the generic english LM and the keyword language model in a 50/50 weighting. Finally the two resulting transcriptions are compared with a selection of metrics.
 
@@ -457,27 +457,126 @@ The pipeline is implemented with a collection of standalone command line tools a
 
 The tasks are the following, in chronological order:
 
-1. **Preparing the input**
+1. **Prepare the input**
 
     - The audio file is converted into Sphinx 4 compatible format (16khz, 16bit mono little-endian).
     - A testcase folder with a given shortname (e.g. `psy-15`) is created in the `results`-directory^[<https://github.com/jonathanewerner/bachelor/tree/master/results>] of the source code repository.
     - The reference transcript, the material (PDF format is required) and the converted audio file are moved into a `resources` subfolder of the testcase folder.
 
-2. **Create a material corpus**
+2. **Create a keyword LM from lecture material**
 
-    - `pdftohtml -i -xml` is applied on the given material PDF. The XML output representation is input to `pdfreflow`. ^[pdftohtml and pdfreflow are open source linux command line utilities]. Compared to the tool `pdftotext` the combination of these 2 tools preserves paragraphs correctly, whereas `pdftotext` represents each line break in the input pdf as a new paragraph in the output text file. This is a significant disadvantage for the LM creation step, as a newline in the input file there has the semantic "end of sentence" -- so that a sentence split into 4 lines by `pdftotext` would count as 4 sentences in the LM.
+    - `pdftohtml -i -xml` is applied on the given material PDF. The XML output representation is input to `pdfreflow`^[pdftohtml and pdfreflow are open source linux command line utilities]. Compared to the tool `pdftotext` the combination of these 2 tools preserves paragraphs correctly, whereas `pdftotext` represents each line break in the input PDF as a new paragraph in the output text file. This is a significant disadvantage for the LM creation step, as a newline in the input file there has the semantic "end of sentence" -- so that a sentence split into 4 lines by `pdftotext` would count as 4 sentences in the LM.
     - The HTML output from `pdfreflow` is filtered by taking only relevant HTML-tags such as `<p>`'s (paragraphs) and `<blockquote>`'s, further improving the content-to-noise ratio.
     - The resulting text is then preprocessed for optimal compatibility with the LM creation tool by removing punctuation and superfluous whitespace^[I use a combination of command line text processing (sed) and a perl script from Stephen Marquard here.].
     - The resulting corpus is input to `estimate-ngram`, a LM creation tool from the MIT Language Modeling Toolkit^[<https://code.google.com/p/mitlm/wiki/EstimateNgram>] (MITLMT).
 
-3. **Convert transcript to reference corpus**
+  3. **Convert transcript to reference corpus**
 
-    The transcript from Open Yale is supplied as HTML. We apply processing steps to transform it to a corpus ready to be consumed by the WER analysis tool (no punctuation, all lowercase). As these are specific to just the format chosen by Open Yale Courses, the details are omitted, as they have no general use.
+      The transcript from Open Yale is supplied as HTML. We apply processing steps to transform it to a corpus ready to be consumed by the WER analysis tool (no punctuation, all lowercase). As these are specific to just the format chosen by Open Yale Courses, the details are omitted, as they have no general use.
 
-4. **Run Sphinx 4 in baseline and interpolated mode**
+  4. **Run Sphinx 4 in baseline and interpolated mode**
 
-    `bin/sphinx-interpolated.py` supplies a wrapper around 
+      `bin/sphinx-interpolated.py`^[<https://github.com/jonathanewerner/bachelor/blob/master/bin/sphinx-interpolated.py>] supplies a wrapper for interfacing with Sphinx 4. The Java API of Sphinx 4 is exposed for command line usage by a a JAR package which bundles the Sphinx 4 libraries and a small Main class. This class uses command line arguments supplied from `bin/sphinx-interpolated.py` to correctly configure Sphinx 4 and start the actual recognition.
 
+      Each testcase folder has a configuration file which specifies which models the test run should use:
+
+          {
+            "acousticModelPath": "en-new/cmusphinx-en-us-5.2",
+            "dictionaryPath": "en-new/cmudict-en-us.dict",
+
+            "languageModelPath": "en-new/cmusphinx-5.0-en-us.lm",
+            "keywordModelPath": "model.lm",
+            "g2pModelPath": "en-new/en_us_nostress/model.fst.ser",
+
+            "resultsFolder": "biomed-eng-1"
+          }
+
+      `bin/sphinx-interpolated.py` interprets the "global" models relative to the repository root-folder `models`, the `resultsFolder` relative to the root folder `results` and the `keywordModelPath` relative to the `resultsFolder`. It then supplies the absolute paths to the JAR. It also supplies absolute output file paths for the transcription result and transcription word timings results.
+
+      This setup ensures reproducible results, as the environment of a given testcase is exactly specified (as long as the same binaries and script versions are assumed).
+
+      `bin/sphinx-interpolated.py` can now be used to run the baseline or/and interpolated version.
+
+5. **Analyze and compare the results**
+
+    Finally the results from the two recognition runs are analyzed and compared by running `bin/hotword-analyze <testcase folder name>`. This performs two things: a) WER comparison and metrics generation and b) keyword visualization.
+
+    5.1 *WER comparison and metrics generation*
+
+    This first calls `bin/wer.py`^[`wer.py` has been adapted from <http://progfruits.blogspot.de/2014/02/word-error-rate-wer-and-word.html>] on each run, which will calculate the WER and show a summary of substituted (SUB), inserted (INS) and deleted (DEL) words when comparing the reference (REF) to the hypothesis (HYP):
+
+        OP  | REF     | HYP
+        INS | ****    | this
+        INS | ****    | is
+        INS | ****    | that
+        OK  | this    | this
+        OK  | is      | is
+        OK  | a       | a
+        OK  | course  | course
+        SUB | a       | that
+        SUB | version | aversion
+        OK  | of      | of
+        OK  | which   | which
+        SUB | i've    | i
+        OK  | taught  | taught
+        INS | ****    | him
+        ...
+        ...
+        {'Sub': 1230, 'Ins': 674, 'WER': 0.316, 'Del': 324, 'Cor': 5492}
+
+    In a second step it compares the two WER result files with `bin/compare-wer.py`.
+
+    The result is an HTML file with a) shows a WER comparison table and b) various statistical measures which will be explored later. The table (shown in Figure \ref{wer-comparison}) colors correctly recognized words as green and incorrect words as red. It also marks words that have been improved in the interpolated version with a green border and words that have been worsened with a red border.
+
+    ![WER comparison\label{wer-comparison}](images/wer-comparison_150.png)
+
+    5.2 *Keyword visualization*
+
+    Data from the reference and the recognition results is compiled into a format suitable for consumption by a visualisation module, which will be discussed in depth further down in the chapter "Visualization for Scannability".
+
+All intermediate steps from the pipeline are represented as files in the testcase folder. Table \ref{files} gives an overview of the files created by each pipeline step.
+
+```{.table type="pipe" aligns="LLLL" caption="File results of a testcase run\label{files}" header="yes"}
+File,                                 Description
+**Step 1: Prepare the input**,
+`resources/audio.mp3`,                original audio
+`resources/audio.wav`,                converted audio
+`resources/slides.pdf`,               lecture material
+`resources/transcript.html`,          lecture transcript
+`config.json`,                        run configuration
+ ,
+**Step 2: Create a keyword LM**,
+`slides.corpus.txt`,                  lecture material corpus
+`model.lm`,                           keyword LM
+
+ ,
+**Step 3: Convert reference to corpus**,
+`reference.corpus.txt`,               reference transcription corpus
+`reference_wordcounts.json`,          reference transcription word counts^[They are needed for the visualization later.]
+
+ ,
+**Step 4: Run Sphinx 4**,
+
+`sphinx_log_baseline.txt`,            Sphinx 4 logging output
+`sphinx_log_interpolated.txt`,
+`sphinx_result_baseline.txt`,         Sphinx 4 transcription
+`sphinx_result_interpolated.txt`,
+`sphinx_word_times_baseline.txt`,     Sphinx 4 word times
+`sphinx_word_times_interpolated.txt`,
+
+ ,
+**Step 5.1: WER comparison / metrics generation**,
+`results.json`,                       run metrics in json format^[This eases parsability for aggregating multiple testcase results later.]
+`wer_baseline.txt`,                   WER table / metrics
+`wer_interpolated.txt`,
+`wer_comparison.html`,                rich WER comparison + metrics
+
+ ,
+**Step 5.2: Keyword visualization**,
+`cloud_baseline.json`,                data representation for visualization
+`cloud_interpolated.json`,
+
+```
 
 
 

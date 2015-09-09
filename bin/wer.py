@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# adapted from http://progfruits.blogspot.de/2014/02/word-error-rate-wer-and-word.html
 import sys
 SUB_PENALTY = 1
 DEL_PENALTY = 1
