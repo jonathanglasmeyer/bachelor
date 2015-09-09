@@ -404,7 +404,6 @@ The available material is very heterogeneous. I will now give an overview with e
 
 `biomed-eng-1` provides a 7-page glossary of technical terms.
 
-
 > "[...] active transport - the transport of molecules in an energetically unfavorable direction across a membrane coupled to the hydrolysis of ATP or other source of energy
 >
 > ATP (adenosine 5’-triphosphate) - a nucleotide that is the most important molecule for capturing and transferring free energy in cells. Hydrolysis of each of the two high-energy
@@ -413,7 +412,6 @@ The available material is very heterogeneous. I will now give an overview with e
 >
 > aquaporin – a water channel protein which allows water molecules to cross the cell
 > membrane much more rapidly than through the phospholipid bilayer [...]"
-
 
 `human-nature-8` provides reading assignments for four books with short summaries each.
 
@@ -446,11 +444,39 @@ I will now describe the LM-Interpolation approach. The high level overview looks
 
 It also provides an `InterpolatedLanguageModel`^[Javadoc: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/InterpolatedLanguageModel.html>] (ILM), which allows you to specify multiple LMs and weights and interpolate the probabilities for a given ngram from all models probabilities ($p = w_1*p_1 + w_2*p_2 + \ldots$ where $w_n$ are the weights ($\sum_{i=1}^n(w_i) = 1$) and $p_n$ are the probabilities from the $n$ LMs for a given word).
 
-The ILM's use in our approach is to factor in the importance of keywords. Those keywords have to be supplied in the form of an ngram language model. For this we extract text content from the lecture material, postprocess it and create an ngram LM from the resulting corpus. Sphinx4 is then a) run with a generic english ngram LM only and b) with the ILM configured to use the generic english LM and the keyword language model in a 50/50 weighting. Finally the two resulting transcriptions are compared with a selection of metrics.
+The ILM's use in our approach is to factor in the importance of keywords. Those keywords have to be supplied in the form of an ngram language model. For this we extract text content from the lecture material, preprocess it and create an ngram LM from the resulting corpus. Sphinx4 is then a) run with a generic english ngram LM only and b) with the ILM configured to use the generic english LM and the keyword language model in a 50/50 weighting. Finally the two resulting transcriptions are compared with a selection of metrics.
 
 As an example, the 1-gram *sex* has a probability of 2.82% in the keyword model from `psy-14`, but a probability of 0.012% in the generic english LM ^[@cmuLm]. When applying 50/50 interpolation, the result is $2.82\%*0.5 + 0.012\%*0.5 = 1.416\%$, which is an increase by the factor of ~117 over the generic probability.
 
+## Sphinx 4
+<!-- TODO: do i really need this? --!>
 
+## Implementation
+
+The pipeline is implemented with a collection of standalone command line tools and a set of bash and python scripts^[The source code is available here: <https://github.com/jonathanewerner/bachelor/tree/master/bin>.].
+
+The tasks are the following, in chronological order:
+
+1. **Preparing the input**
+
+    - The audio file is converted into Sphinx 4 compatible format (16khz, 16bit mono little-endian).
+    - A testcase folder with a given shortname (e.g. `psy-15`) is created in the `results`-directory^[<https://github.com/jonathanewerner/bachelor/tree/master/results>] of the source code repository.
+    - The reference transcript, the material (PDF format is required) and the converted audio file are moved into a `resources` subfolder of the testcase folder.
+
+2. **Create a material corpus**
+
+    - `pdftohtml -i -xml` is applied on the given material PDF. The XML output representation is input to `pdfreflow`. ^[pdftohtml and pdfreflow are open source linux command line utilities]. Compared to the tool `pdftotext` the combination of these 2 tools preserves paragraphs correctly, whereas `pdftotext` represents each line break in the input pdf as a new paragraph in the output text file. This is a significant disadvantage for the LM creation step, as a newline in the input file there has the semantic "end of sentence" -- so that a sentence split into 4 lines by `pdftotext` would count as 4 sentences in the LM.
+    - The HTML output from `pdfreflow` is filtered by taking only relevant HTML-tags such as `<p>`'s (paragraphs) and `<blockquote>`'s, further improving the content-to-noise ratio.
+    - The resulting text is then preprocessed for optimal compatibility with the LM creation tool by removing punctuation and superfluous whitespace^[I use a combination of command line text processing (sed) and a perl script from Stephen Marquard here.].
+    - The resulting corpus is input to `estimate-ngram`, a LM creation tool from the MIT Language Modeling Toolkit^[<https://code.google.com/p/mitlm/wiki/EstimateNgram>] (MITLMT).
+
+3. **Convert transcript to reference corpus**
+
+    The transcript from Open Yale is supplied as HTML. We apply processing steps to transform it to a corpus ready to be consumed by the WER analysis tool (no punctuation, all lowercase). As these are specific to just the format chosen by Open Yale Courses, the details are omitted, as they have no general use.
+
+4. **Run Sphinx 4 in baseline and interpolated mode**
+
+    `bin/sphinx-interpolated.py` supplies a wrapper around 
 
 
 

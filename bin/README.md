@@ -1,11 +1,12 @@
-# process
+# high level pipeline
 
 `hotword-init testcase_name audio.mp3 transcript.html slide.pdf`
-`sphinx-interpolated.py config.json`
-`sphinx-interpolated.py config.json 1`
+`sphinx-interpolated.py config.json` in `results/$testcase` dir
+`sphinx-interpolated.py config.json 1` in `results/$testcase` dir
 `hotword-analyze testcase_name`
 
------------ OLD -------------------
+# under the hood
+
 ###. Recognition
 1.2 `html-to-corpus transcription.html reference` (will output `reference.corpus.txt`)
 1. `pdf-to-corpus.py slides.pdf > slides.corpus.txt`
@@ -24,7 +25,7 @@
   2.2 `wer.py reference.txt hypothesis2.txt > wer-better.txt`
   2.3 `compare-wer.py wer-baseline.txt wer-better.txt name-baseline name-better slide-corpus.txt > wer_comparison.html`
 
-# scripts
+# scripts descriptions
 
 #### `html-to-corpus`
 - takes a HTML-File from the resources and transform it to a uppercased, punctuation removed blob of words.
