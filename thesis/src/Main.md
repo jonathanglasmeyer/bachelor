@@ -11,7 +11,7 @@ relevant to the task at hand.
 
 The medium in which those resources are available is very centered on
 textual representation. Spoken content, hereinafter called *speech
-media* (audio- or audiovisual media that mainly consists of spoken
+media* (audio- or audiovisual media that mainly consist of spoken
 language) doesn't make it possible to scan its contents. You are
 "stabbing in the dark" when looking for something specific in a medium
 like this and have to consume it like a linear narrative.
@@ -22,11 +22,11 @@ research work.
 
 Being able to a) efficiently search and b) look at the temporal
 distribution of important keywords in a visually dense way would
-elevate the usefulness of speech media in the scientific context
+increase the usefulness of speech media in the scientific context
 immensely.
 
-One approach to accomplish those goals is utilizing Automatic Speech
-Recognition (ASR) to transcribe speech to text and also get timing
+One approach to accomplish these goals is to utilize Automatic Speech
+Recognition (ASR) in order to transcribe speech to text and also get timing
 information for the recognized words. This makes it possible to derive
 information about the density of given words at a given point of time in
 the talk, which in turn allows to compute word occurence density
@@ -36,9 +36,9 @@ scan.
 
 The main challenge when using ASR for this task is the recognition
 accuracy of technical terms. Most of them are not included in the
-language models that are available as those are broad and generic so as
-to optimize for accuracy over a wide topic spectrum. But when they are
-not included into the language model they have a very small chance to be correctly
+language models that are available as these are broad and generic so as
+to optimize accuracy over a wide topic spectrum. But when they are
+not included in the language model they have a very small chance to be correctly
 recognized at all.  <!-- TODO: maybe account for smoothing here? --!>
 
 So the usefulness of applying ASR with a generic language model to the
@@ -48,13 +48,12 @@ those technical terms that can not be recognized is very big.
 The central goal of this thesis is to explore an approach to overcome
 this problem. This approach consists of using words from lecture slides
 or other notes to generate a lecture-specific language model. This
-is then interpolated with a generic language model and being
-compared to the 'baseline' accuracy of the generic model.
+is then interpolated with a generic language model. Finally the results are compared with the 'baseline'  accuracy of the generic model.
 
 \pagebreak
 
 ## Structure of this thesis {-}
-The structure of this thesis is laid out as follows:
+The structure of this thesis is as follows:
 
 (#) **Research questions**
 
@@ -144,7 +143,7 @@ The structure of this thesis is laid out as follows:
 \pagebreak
 
 # Research questions
-The central research questions i want to investigate in this thesis can
+The central research questions I want to investigate in this thesis can
 be formulated as follows:
 
 (#) When we apply ASR to university lectures, what is the advantage of using an approach that consists of creating a lecture-specific language model and interpolating it with a generic language model, given that we are interested in improving the recognition accuracy of *interesting keywords* for the sake of
@@ -152,12 +151,10 @@ searchability and scannability?
 
 (#) What metric is useful for quantifying this advantage?
 
-A secondary question is: How can we *use* the results from our approach to provide graphical interfaces for improving the users ability to search and scan the given speech medium?
+A secondary question is: How can we *use* the results from our approach to provide graphical interfaces for improving the user's ability to search and scan the given speech medium?
 
-The exploration of this question will not be the center of this thesis,
-but it will provide practical motivation for the results that the
-exploration.
-
+The exploration of this question will not be at the center of this thesis,
+but it will provide practical motivation for the results of our approach.
 
 <!-- ## Lecture recordings in universities ## Speech recognition
 accuracy problems with special words / technical terms ## Goal:
@@ -201,13 +198,13 @@ In the last years there has been a resurgence of AI approaches, specifically *de
 ## Dimensions of speech recognition
 There are three dimensions which serve to classify different applications of speech recognition [@cmufaq, @marquard]:
 
-(1) **Dependent vs. independent**. Dependent recognition systems are developed to be used by one speaker, whereas independent systems are developed to be used by *any* speaker of a particular type, i.e North-American speakers. **Adaptive** systems lie between those poles, they are able to adapt to a particular speaker through training.
+(1) **Dependent vs. independent**. Dependent recognition systems are developed to be used by one speaker, whereas independent systems are developed to be used by *any* speaker of a particular type, i.e North-American speakers. **Adaptive** systems lie between these poles, they are able to adapt to a particular speaker through training.
 
 (2) **Small vs. large vocabulary**. Small vocabularies contain only up to a few hundred words and might be modeled by an explicit grammar, whereas large vocabularies contain tens of thousands of words so as to be able to model general purpose spoken language over a variety of domains.
 
 (3) **Continuous vs. isolated speech**. Isolated speech consists of single words that are spoken with pauses in between them, whereas continuous speech consists of words that are spoken in a connected way. Continuous speech is significantly more difficult to recognize, as it is a) more difficult to find the start and end of words and b) the pronunciation of words changes in relation to their surrounding words.
 
-With those three dimensions we can for example classify the application areas command and control systems, dictation and lecture transcription [@marquard]:
+With these three dimensions we can for example classify the application areas command and control systems, dictation and lecture transcription [@marquard]:
 
 ```{.table type="pipe" aligns="LLLL" caption="Three application areas" header="yes"}
 Application,                Speaker,     Vocabulary, Duration
@@ -216,19 +213,19 @@ Command and control system, Independent, Small,      Isolated
 Lecture transcription,      Independent, Large,      Connected
 ```
 
-The task of automatic lecture transcriptions can thus be characterized as speaker-independent (SI) large continuous speech recognition (LVCSR).
+The task of automatic lecture transcription can thus be characterized as speaker-independent (SI) large continuous speech recognition (LVCSR).
 
 ## Concepts
-Speech recognition in the *statistical pattern-recognition approach* paradigm has three major concepts necessary for its understanding:
+Speech recognition in the *statistical pattern-recognition approach* paradigm has three major concepts that are necessary for its understanding:
 
 * phonemes and phonetic dictionaries
 * acoustic models (AM)
 * language models (LM)
 
 ### Phonemes
-A *phoneme* is "the smallest contrastive linguistic unit which may bring about a change of meaning" [@cruttenden2014gimson, p. 43]. They are the smallest unit of sound in speech which are combined to form words. The word *sun* for example can be represented by the phonemes `/s/`, `/u/` and `/n/`; the word *table* by `/t/`, `/a/` and `/bl/`.
+A *phoneme* is "the smallest contrastive linguistic unit which may bring about a change of meaning" [@cruttenden2014gimson, p. 43]. Phonemes are the smallest unit of sound in speech which are combined to form words. The word *sun* for example can be represented by the phonemes `/s/`, `/u/` and `/n/`; the word *table* by `/t/`, `/a/` and `/bl/`.
 
-A language together with a specific accent can be described by a set of phonemes that it consists of. Figure \ref{phonemic-chart} uses symbols from the International Phonetic Alphabet (IPA) to display the 44 phonemes that are being used in Received Pronunciation (RP), which is regarded as the "standard accent" in the south of the United Kingdom [@stevenson2011concise].
+A language with a specific accent can be described by the set of phonemes that it consists of. Figure \ref{phonemic-chart} uses symbols from the International Phonetic Alphabet (IPA) to display the 44 phonemes that are being used in Received Pronunciation (RP), which is regarded as the "standard accent" in the South of the United Kingdom [@stevenson2011concise].
 
 ![Phonemic Chart representing 44 phonemes used in RP British English\label{phonemic-chart}](images/phonemes_50.jpg)
 
@@ -238,9 +235,9 @@ To be able to use phonemes in software an ASCII representation is more suitable.
 
 ### Phonetic dictionaries
 
-Phonetic dictionaries map words to one or multiple versions of phoneme sequences.
+Phonetic dictionaries map words to one or more versions of phoneme sequences.
 
-A phonetic representation of a word is specified manually from the knowledge how written words *actually sound* when spoken.
+A phonetic representation of a word is specified manually based on the knowledge of how written words *actually sound* when spoken.
 
 An excerpt from the dictionary `cmudict-en-us.dict` @cmuDict looks like this:
 
@@ -252,26 +249,26 @@ An excerpt from the dictionary `cmudict-en-us.dict` @cmuDict looks like this:
     abdominal(2) AH B D AA M AH N AH L
     ...
 
-The dictionary has 133.425 entries. In the general case only words that are in the phonetic dictionary being used can be recognized during speech recognition. *Grapheme^["The smallest unit used in describing the writing system of a language" @florian1996blackwell, p.174]-to-Phoneme converters* (G2P) however make it possible to get phoneme sequence hypotheses for arbitrary words (that meaning arbitrary sequences of graphemes). While those results are on average less accurate than manually created variants, they play a vital role in texts with many technical terms as those are often not part of phonetic dictionaries.
+The dictionary has 133.425 entries. Generally only words that are in the phonetic dictionary being used can be recognized during speech recognition. *Grapheme^["The smallest unit used in describing the writing system of a language" @florian1996blackwell, p.174]-to-Phoneme converters* (G2P) however make it possible to get phoneme sequence hypotheses for arbitrary words (i.e arbitrary sequences of graphemes). While these results are on average less accurate than manually created variants, they play a vital role in texts with many technical terms as these are often not included in phonetic dictionaries.
 
 ### Acoustic models
 An acoustic model (AM) describes the relation between an audio signal and the probability that this signal represents a given phoneme.
 
-Acoustic models are created by *training* them on a *corpus* of audio recordings and matching transcripts. When being used in the context of speaker-independent recognition, those models are trained with a variety of speakers that represent a broad spectrum of the language/accent that the acoustic model should represent.
+Acoustic models are created by *training* them on a *corpus* of audio recordings and matching transcripts. When being used in the context of speaker-independent recognition, these models are trained with a variety of speakers that represent a broad spectrum of the language/accent that the acoustic model should represent.
 
 During the *decoding* phase the acoustic model and a phonetic dictionary are used to match sequences of small audio "slices" to possible phonemes and those phonemes to possible word sequence hypotheses. <!-- TODO: oohoo. is this precise? --!>
 
-However, acoustic models alone are not sufficient for speech recognition as they don't have the "higher-level" linguistic information necessary to for example decide between homonyms and similar-sounding phrases such as "wreck a nice beach" and "recognize speech" [@marquard, 11]. This information finally is provided by *language models*.
+However, acoustic models alone are not sufficient for speech recognition as they do not have the "higher-level" linguistic information necessary to distinguish e.g. between homonyms and similar-sounding phrases such as "wreck a nice beach" and "recognize speech" [@marquard, 11]. This information is provided by *language models*.
 
 ### Language Models
 
-Language models (LM) guide and constrain the search process a speech recognition system performs by assigning probabilities to sequences of words. They are trained by applying statistical methods on a text corpus. <!-- TODO: mh. awkward --!> Analogous to acoustic models, generic language models use huge text corpora with a broad variety of topics. It is however possible to train language models on small and specialized text corpora, which is the central technical foundation for the approach discussed in this thesis.
+Language models (LM) guide and constrain the search process that a speech recognition system performs by assigning probabilities to sequences of words. They are trained by applying statistical methods on a text corpus. <!-- TODO: mh. awkward --!> Analogous to acoustic models, generic language models use huge text corpora with a broad variety of topics. It is however possible to train language models on small and specialized text corpora, which is the central technical foundation for the approach discussed in this thesis.
 
-The most commonly used form of language models are *n-gram language models*. In the context of a language model a *n-gram* is a sequence of *n* words. 1-grams are called *unigrams*, 2-grams are called *bigrams* and 3-grams are called *trigrams*. A *n-gram language model* maps a set of *n-grams* to probabilities that they occur in a given piece of text.
+The most commonly used form of language models are *n-gram language models*. In the context of a language model an *n-gram* is a sequence of *n* words. 1-grams are called *unigrams*, 2-grams are called *bigrams* and 3-grams are called *trigrams*. An *n-gram language model* maps a set of *n-grams* to probabilities that they occur in a given piece of text.
 
-A key idea in modelling language like this is the *independence assumption*, which says that the probability of a given word is only dependent on the last *n* - 1 words. This assumption significantly decreases the statistical complexity and makes it thus computationally feasible.
+A key idea in modelling language like this is the *independence assumption*, which says that the probability of a given word is only dependent on the last *n* - 1 words. This assumption significantly decreases the statistical complexity and thus makes it computationally feasible.
 
-N-gram language models don't need to be constrained to one type of n-gram. The *Generic US English Generic Language Model* @cmuLm from CMUSphinx we will use as the baseline for our approach for example consists of 1-, 2, and 3-grams.
+N-gram language models do not need to be constrained to one type of n-gram. The *Generic US English Language Model* @cmuLm from CMUSphinx we will use as the baseline for our approach consists of 1-, 2, and 3-grams, for example.
 
 A toy example of a language model with 1- and 2-grams when represented in *ARPA*-format (as used by CMUSphinx) looks like follows @cmuArpa:
 
@@ -338,16 +335,16 @@ Generalization approaches try to create models that capture common characteristi
 
 The generalization approach has been applied on the acoustic model level: @cettolo have examined adapting a generic acoustic model to account for spontaneous speech phenomena ("filler sounds"). <!-- TODO: formulierung --!>
 
-While the a subfield of ASR called "speaker diarization" tries to account for the interactivity between lecturers and students by identifying multiple speakers, most research treats lectures as single speaker events with the audience as background noise.
+While a subfield of ASR called "speaker diarization" tries to account for the interactivity between lecturers and students by identifying multiple speakers, most research treats lectures as single speaker events with the audience as background noise.
 
 Generalization approaches at the language model level try to model common linguistic traits of the lecture genre (this can be called the "macro level"). @kato2000 investigate topic-independent language modeling by creating a large corpus of text from lecture transcripts and panel discussions and then removing topic-specific keywords. ^[In a second step they combine this generalization technique with a specialization technique by adapting the resulting LM with a lecture-specific language model by using preprint papers of a given lecture.]
 
 ### Specialization approaches
 Specialization approaches try to use context specific to a single lecture ("meso level") or parts of a single lecture ("micro level"^[The three levels are taken from @marquard.]).
 
-Methods used for creating LMs from context information can be categorized into two approaches: direct usage of lecture slides and notes for the creation of LMs versus usage of "derived" data from those materials. Deriving data by using keywords found in slides, using them as web search query terms and using the found documents as the basis for LM creation is explored in @munteanu, @kawahara08 and @marquard.
+Methods used for creating LMs from context information can be categorized into two approaches: direct usage of lecture slides and notes for the creation of LMs versus usage of "derived" data from these materials. Deriving data by using keywords found in slides, using them as web search query terms and using the found documents as the basis for LM creation is explored in @munteanu, @kawahara08 and @marquard.
 
-Using the whole text from lecture slides has been explored by @yamazaki. They compare the *meso level* with the *micro level* by dynamically adapting the LM for the speech corresponding to a particular slide. <!-- TODO: results? --!> @kawahara08  also examine dynamic local slide-by-slide adaption and compare it to global topic adaption using Probabilistic Latent Semantic Analysis (PLSA)^[Latent Semantic Analysis is an approach to document comparison and retrieval which relies on a numeric analysis of word frequency and proximity. <!-- TODO: reformulate --!>] and web text collection, concluding that the last performs worse then the former because of a worse orientation to topic words. <!-- TODO: find citation that is not from marquard --!>.
+Using the whole text from lecture slides has been explored by @yamazaki. They compare the *meso level* with the *micro level* by dynamically adapting the LM to the speech corresponding to a particular slide. <!-- TODO: results? --!> @kawahara08 also examine dynamic local slide-by-slide adaption and compare it to global topic adaption using Probabilistic Latent Semantic Analysis (PLSA)^[Latent Semantic Analysis is an approach to document comparison and retrieval which relies on a numeric analysis of word frequency and proximity. <!-- TODO: reformulate --!>] and web text collection, concluding that the latter performs worse then the former because of a worse orientation to topic words. <!-- TODO: find citation that is not from marquard --!>.
 
 <!--
 @akita (todo):
@@ -375,7 +372,7 @@ memoizer,”
 
 # Test data
 
-The test data i will use for evaluating our approach will be from *Open Yale Courses*^[[http://oyc.yale.edu/](http://oyc.yale.edu/)], which is a selection of openly available lectures from Yale university. It consists of 42 courses from 25 departments. Each course has about 20-25 sessions that have an average length of 50 minutes. Each lecture is provided with good quality audio and video recordings, precise manual transcripts and lecture material when available. Only about 20% of the lecture have lecture notes or slides at all and most materials from the natural and formal science departments (physics, astronomics, mathematics) consist of hand-written notes, making them unsuitable for our approach. All talks are in English.
+The test data I will use for evaluating our approach will be from *Open Yale Courses*^[[http://oyc.yale.edu/](http://oyc.yale.edu/)], which is a selection of openly available lectures from Yale university. It consists of 42 courses from 25 departments. Each course has about 20-25 sessions that have an average length of 50 minutes. Each lecture is provided with good quality audio and video recordings, precise manual transcripts and lecture material when available. Only about 20% of the lectures have lecture notes or slides at all and most materials from the natural and formal science departments (physics, astronomics, mathematics) consist of hand-written notes, making them unsuitable for our approach. All talks are in English.
 
 I have chosen the following lectures: (Department, Course, Lecture Number - Title, abbreviation)
 
@@ -391,10 +388,10 @@ I have chosen the following lectures: (Department, Course, Lecture Number - Titl
 
 - *Psychology*: Introduction to Psychology, 5 - What Is It Like to Be a Baby: The Development of Thought (`psy-5`)
 
-The main selection criterion here was topical diversity, with the challenge that the majority of talks with computer-parsable notes was from the humanities.
+The main selection criterion here was topical diversity, the challenge being that the majority of talks with computer-parsable notes was from the humanities.
 
 ## Materials overview
-The available material is very heterogeneous. I will now give an overview with excerpts which will serve as a basis for examining later if the quality and quantity of the supplied material is correlated with the amount of improvement of our approach.
+The available material is very heterogeneous. I will now give an overview with excerpts which will serve as a basis for examining at a later point if the quality and quantity of the supplied material is correlated with the amount of improvement of our approach.
 
 `geology-8` supplies a 2-page excercise sheet.
 
@@ -437,23 +434,23 @@ The available material is very heterogeneous. I will now give an overview with e
 `psy-14/5` and `enviromental-8` provide ~10-page slides with a typical amount of text.
 
 ### Conclusion
-Only about 20% of the courses have lecture material at all; only about 20% of those actually have typical "slides" -- the rest provides heterogenous other kinds of material. While it can not be inferred from this dataset that this is a general condition, it nevertheless shows a clear "real-world" disadvantage of an approach only relying on those materials. We will look at the impact of the varying quality and quantity in the analysis later.
+Only about 20% of the courses have lecture material at all; only about 20% of these courses actually have typical "slides" -- the rest provides heterogenous other kinds of material. While it cannot be inferred from this dataset that this is a general condition, it nevertheless shows a clear "real-world" disadvantage of an approach only relying on those materials. We will look at the impact of the varying quality and quantity in the analysis later on.
 
 # The LM-Interpolation approach
-I will now describe the LM-Interpolation approach. The high level overview looks like the following: we will use the open source speech recognition framework Sphinx 4 ^[Homepage: <http://cmusphinx.sourceforge.net/wiki/sphinx4:webhome>] as the software for performing speech recognition. Sphinx 4 has a modular architecture which allows specifying components of the whole process per configuration. It provides multiple implementations of LMs^[Overview: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/LanguageModel.html>], the default one being an ngram model.
+I will now describe the LM-Interpolation approach. The high level overview is as follows: we will use the open source speech recognition framework Sphinx 4 ^[Homepage: <http://cmusphinx.sourceforge.net/wiki/sphinx4:webhome>] as the software for performing speech recognition. Sphinx 4 has a modular architecture which allows specifying components of the whole process per configuration. It provides multiple implementations of LMs^[Overview: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/LanguageModel.html>], the default one being an n-gram model.
 
-It also provides an `InterpolatedLanguageModel`^[Javadoc: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/InterpolatedLanguageModel.html>] (ILM), which allows you to specify multiple LMs and weights and interpolate the probabilities for a given ngram from all models probabilities ($p = w_1*p_1 + w_2*p_2 + \ldots$ where $w_n$ are the weights ($\sum_{i=1}^n(w_i) = 1$) and $p_i$ is the probability for a given ngram in $LM_i$).
+It also provides an `InterpolatedLanguageModel`^[Javadoc: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/InterpolatedLanguageModel.html>] (ILM) which allows to specify multiple LMs and weights and interpolate the probabilities for a given n-gram from all models' probabilities ($p = w_1*p_1 + w_2*p_2 + \ldots$ where $w_n$ are the weights ($\sum_{i=1}^n(w_i) = 1$) and $p_i$ is the probability for a given n-gram in $LM_i$).
 
-The ILM's use in our approach is to factor in the importance of keywords. Those keywords have to be supplied in the form of an ngram language model. For this we extract text content from the lecture material, preprocess it and create an ngram LM from the resulting corpus. Sphinx4 is then a) run with a generic english ngram LM only and b) with the ILM configured to use the generic english LM and the keyword language model in a 50/50 weighting. Finally the two resulting transcriptions are compared with a selection of metrics.
+The purpose of the ILM in our approach is to factor in the importance of keywords. These keywords have to be supplied in the form of an n-gram language model. For this we extract text content from the lecture material, preprocess it and create an n-gram LM from the resulting corpus. Sphinx 4 is then a) run with a generic English n-gram LM only and b) with the ILM configured to use the generic English LM and the keyword language model in a 50/50 weighting. Finally the two resulting transcriptions are compared with a selection of metrics.
 
-As an example, the 1-gram *sex* has a probability of 2.82% in the keyword model from `psy-14`, but a probability of 0.012% in the generic english LM ^[@cmuLm]. When applying 50/50 interpolation, the result is $2.82\%*0.5 + 0.012\%*0.5 = 1.416\%$, which is an increase by the factor of ~117 over the generic probability.
+As an example, the 1-gram *sex* has a probability of 2.82% in the keyword model of `psy-14`, but a probability of 0.012% in the generic English LM ^[@cmuLm]. When applying 50/50 interpolation, the result is $2.82\%*0.5 + 0.012\%*0.5 = 1.416\%$, which is an increase by the factor ~117 over the generic probability.
 
 ## Sphinx 4
-<!-- TODO: do i really need this? --!>
+<!-- TODO: do I really need this? --!>
 
 ## Implementation
 
-The pipeline is implemented with a collection of standalone command line tools and a set of bash and python scripts^[The source code is available here: <https://github.com/jonathanewerner/bachelor/tree/master/bin>.].
+The pipeline is implemented with a collection of standalone command line tools and a set of Bash and Python scripts^[The source code is available here: <https://github.com/jonathanewerner/bachelor/tree/master/bin>].
 
 The tasks are the following, in chronological order:
 
@@ -615,10 +612,10 @@ File,                                 Description
 
 # Analysis { #analysis }
 
-I will now discuss how to evaluate the usefulness of the LM-Interpolation approach given the goal of improving recognition accuracy of interesting keywords.
+I will now discuss how to evaluate the usefulness of the LM-Interpolation approach in light of the goal to improve recognition accuracy of interesting keywords.
 
 ## Approaching a good metric
-We want to find a metric that describes if and how much the interpolated version improves upon the baseline version. Comparing the generic WER of the two runs does not help answering the question how much our approach improves the accuracy of interesting keywords.
+We want to find a metric that describes if and how much the interpolated version improves upon the baseline version. Comparing the generic WER of the two runs does not help to answer the question of how much our approach improves the accuracy of interesting keywords.
 
 ### Lecture-scoped WER excluding $top_X$ words
 
@@ -630,13 +627,13 @@ ranked from most to least frequent." [@marquard, p. 71]
 
 ### Lemmas
 
-When searching for a specific term the user is interested in the *lemma* for a given word: when he wants to find occurences of *child* in the given lecture, occurences of "children", "child's", "children's" etc. would also be relevant. This implies two things: 1) when looking at the "atomar" level of improvements and degradations <!-- TODO: worsenings? --!> it is more relevant to have lemmas as the atoms and not words and 2) the exact matching (a hypothesis word is only "correct" if it exactly matches the reference word) of the WER algorithm should be "loosened" to also mark hypothesis words as correct if their lemmatized version matches the reference.
+When searching for a specific term the user is interested in the *lemma* for a given word: when he wants to find occurences of *child* in the given lecture, occurences of "children", "child's", "children's" etc. would also be relevant. This implies two things: 1) when looking at the "atomic" level of improvements and degradations <!-- TODO: worsenings? --!> it is more relevant to have lemmas as atoms and not words and 2) the exact matching (a hypothesis word is only "correct" if it exactly matches the reference word) of the WER algorithm should be "loosened" to also mark hypothesis words as correct if their lemmatized version matches the reference.
 
 The same principle holds for the $top_X$ words: we only want to capture words for which the *lemma* is not in the $top_X$ words.
 
 ### Proposed metric: KWER-x
 
-We can summarize these concerns into a definition of a metric called *KWER-x*, which expresses the "Keyword Error Rate", where a keyword is defined as the lemma of a word occuring a given lecture material corpus given that this lemma is not present in the $top_X$ list of most common words of the given language.
+We can distill these concerns into a definition of a metric called *KWER-x*, which expresses the "Keyword Error Rate", where a keyword is defined as the lemma of a word occuring in a given lecture material corpus given that this lemma is not present in the $top_X$ list of most common words of the given language.
 
 <!-- TODO:
 which metrics follow from the goals of searchability and
