@@ -686,18 +686,17 @@ $WER_A$, 43%, 30%, 34%, 37%, 22%
 $WER_B$, 43%, 30%, 34%, 37%, 22%
 $W_{improved}$, 4%, 4%, 5%, 5%, 3%
 $W_{worse}$, 4%, 4%, 5%, 5%, 3%
-$\Delta WER$^[$\Delta$ refers to the improvement from version A to B in this context.], **0%**, **0%**, **0%**, **0%**, **0%**,
+$\Delta WER$^[$\Delta$ refers to the improvement from version A to B in this context.], **0%**, **0%**, **0%**, **0%**, **0%**
  , , , ,
 $KWER_A$^[KWER means KWER-500 for brevity if not noted otherwise.], 48%, 34%, 33%, 40%, 32%
 $KWER_B$, 32%, 18%, 17%, 19%, 17%
 $KW_{improved}$, 18%, 16%, 17%, 22%, 16%
 $KW_{worse}$, 2%, 1%, 1%, 0%, 1%
-$\Delta KWER$, **16%**, **15%**, **16%**, **22%**, **15%**,
+$\Delta KWER$, **16%**, **15%**, **16%**, **22%**, **15%**
  , , , ,
 $W_{improved}(K)$, 30%, 39%, 41%, 40%, 44%
 $W_{worse}(K)$, 3%, 2%, 2%, 0%, 2%
-E, **27%**, **37%**, **39%**, **40%**, **42%**,
-
+E, **27%**, **37%**, **39%**, **40%**, **42%**
 ```
 
 \normalsize{}
@@ -746,34 +745,8 @@ This impression can be given by looking at the following detailed results of the
 
 You notice two things: a) the "exchange" of filler words from version A to B and vice versa, which is of no interest for searching and scanning, and b) interesting keywords that have substantial amounts of occurrences, that were not found before, while the amount of worsened KW is tiny. This is the important "qualitative", high-level conclusion: the approach allows users to find technical terms in speech media which they weren't able to find before and it works consistently over a broad spectrum of topics.
 
-<!--
-#. **Methods**
-
-    I will discuss how to analyze the results and develop metrics
-    that assess how well the given goals are met with our approach.
-
-    TODO: which metrics follow from the goals of searchability and
-    scannability.  define those terms first, discuss what's
-    important there ->> keywords!
-
-#. **Analysis**
-
-    I will then perform quantitative analysis on our test dataset
-    with the metrics we developed before.
-
-#. **Discussion, Finding and Conclusions**
-
-    I will discuss the findings and draw conclusions from the quantitative analysis concerning the effectiveness of our approach.
-
---!>
-
-<!-- TODO:
-Relative advantage of IWER/KWER depends on how many of the top words are filtered out.
-Advantage decreases with decreasing top X
---!>
-
-
 # Visualization for Scannability { #viz }
+
 
 # Improvements
 
