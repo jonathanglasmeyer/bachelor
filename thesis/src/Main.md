@@ -635,28 +635,16 @@ The same principle holds for the $top_X$ words: we only want to capture words fo
 
 We can distill these concerns into a definition of a metric called *KWER-x*, which expresses the "Keyword Error Rate", where a keyword is defined as the lemma of a word occuring in a given lecture material corpus given that this lemma is not present in the $top_X$ list of most common words of the given language.
 
-The value of x has to be determined empirically: how many of the top words should be filtered out? There has to be a balance between not accidentally excluding keywords (i.e "sex" is in the in the $top_{500}$ words) and filtering out enough filler words. After experimenting with some values I went with $x=500$ for my measurements. It is hard to find a less ad hoc approach to determining the "best" x, as you have no "meta"-metric that assesses how well a given x captures the goal of accurately describing the detection accuracy of keywords; it necessarily is a "best guess". However, while there is no quantitative "meta"-metric, a "qualitative" look at the results obtained is possible.
+The value of x has to be determined empirically: how many of the top words should be filtered out? There has to be a balance between not accidentally excluding keywords (i.e "sex" is in the in the $top_{500}$ words) and filtering out enough filler words.
 
-When looking at results from a run on the `psy-14`-lecture with $x=500$, contrasting the improved^["Improved" means not correctly detected in the baseline version, but detected in the interpolated version.] "normal" words versus the improved keywords, it is obvious that there is a strong density of words that would be actually interesting as keywords, which doesn't hold for the "normal" words, with the exception of a few words like "porn", "machines", "caucasian", "womb", "puzzle" or "social". None of these words however is part of the top 500 words; they just weren't part of the material corpus.
+After experimenting with some values I went with $x=500$ for my measurements. It is hard to find a less ad hoc approach to determining the "best" x, as you have no "meta"-metric that assesses how well a given x captures the goal of accurately describing the detection accuracy of keywords; it necessarily is a "best guess". $x=500$ was chosen by looking at the relationship from x to $\Delta KWER$ (the improvement in KWER-500) as shown in figure \ref{x-to-kwer}. For values of x below ~200 the growth of improvement is explained by the gradual removal of filler words from the set of keywords. Their recognition accuracy is not improved by our approach which is why they prevent the accuracy improvement of actual keywords to be visible. Above ~200 this factor is ruled out and the chosen x value has only miniscule influence on the resulting KWER.
 
-**Normal words improved:** (word, count)
+![Relation of x to $\Delta KWER$ \label{x-to-kwer}](images/x-to-kwer_150.png)
 
-\small{
-(and, 17) (to, 13) (are, 10) (the, 9) (that, 7) (a, 7) (in, 6) (is, 5) (you, 5) (face, 5) (from, 4) (but, 4) (over, 3) (find, 3) (for, 3) (of, 3) (or, 3) (with, 3) (an, 3) (different, 3) (them, 2) (around, 2) (not, 2) (like, 2) (large, 2) (some, 2) (out, 2) (we, 2) (about, 2) (there, 2) (than, 2) (this, 2) (have, 2) (it, 2) (how, 2) (effect, 2) (well, 2) (don't, 1) (argued, 1) (interesting, 1) (less, 1) (had, 1) (other, 1) (puzzle, 1) (kick, 1) (do, 1) (food, 1) (big, 1) (they, 1) (advanced, 1) (these, 1) (each, 1) (where, 1) (right, 1) (often, 1) (porn, 1) (year, 1) (our, 1) (machines, 1) (between, 1) (caucasian, 1) (womb, 1) (be, 1) (power, 1) (men, 1) (harvard, 1) (if, 1) (care, 1) (both, 1) (could, 1) (april, 1) (social, 1) (can't, 1) (seems, 1) (into, 1) (one, 1) (done, 1) (likes, 1) (little, 1) (would, 1) (start, 1) (it's, 1) (two, 1) (few, 1) (much, 1) (treat, 1) (lot, 1) (more, 1) (form, 1) (he, 1) (me, 1) (say, 1) (will, 1) (can, 1) (behavior, 1) (many, 1) (my, 1) (mind, 1) (as, 1) (want, 1) (their, 1) (relatively, 1) (huge, 1) (no, 1) (interested, 1) (take, 1) (which, 1) (several, 1) (week, 1) (towards, 1) (again, 1) (firsthand, 1) (who, 1) (such, 1) (largely, 1) (so, 1) (lenses, 1) (keeps, 1) (once, 1) (fact, 1) (that's, 1)
-}
+This strategy, while depending on choosing an "ad hoc" value, was sufficient to validate our approach because it was possible to manually evaluate the metric's "precision" by observing the resulting word sets. Another approach would have been to take the *tf-idf* (Term Frequency - Inverse Document Frequency) as a criterion for "keyword-ness" of words. *tf-idf* computes the "relevance" of a word in the context of a document by taking into account the occurences of the word in the document offset by the word's frequency in a broader corpus. This way common words are rated lower although they occur frequently in the given document. This way there is no need for the arbitrary aspect of choosing an value of $x$ and the negative side effect of accidentally excluding a keyword. On the other hand there would be the need to choose a treshold *tf-idf* score which would have to be met for inclusion into the keyword set.
 
-\normalsize{}
-**Keywords improved**:
-
-\small{
-(genes, 9) (coolidge, 5) (sex, 5) (cell, 5) (females, 5) (male, 5) (males, 4) (mate, 4) (differences, 4) (investment, 3) (favorite, 3) (universals, 3) (genetic, 3) (beauty, 3) (choosiness, 3) (attractive, 2) (trivers, 2) (kindness, 2) (polygamous, 2) (answers, 2) (gibbons, 2) (studies, 2) (female, 2) (been, 2) (choose, 2) (gay, 2) (dawkins, 2) (cells, 2) (youth, 2) (deformities, 2) (meaner, 2) (bisexual, 2) (mates, 2) (autism, 2) (average, 2) (exclusive, 1) (evolutionary, 1) (focus, 1) (leads, 1) (skin, 1) (aggression, 1) (looking, 1) (choosy, 1) (factor, 1) (protective, 1) (animal, 1) (choice, 1) (mystery, 1) (evolved, 1) (did, 1) (penguins, 1) (fixed, 1) (conduct, 1) (psychopathy, 1) (intelligence, 1) (culture, 1) (cost, 1) (displays, 1) (sexually, 1) (intact, 1) (sexual, 1) (special, 1) (blue, 1) (reproduce, 1) (woo, 1) (causes, 1) (copulation, 1) (psychologies, 1) (full, 1) (unsure, 1) (theory, 1) (inescapable, 1) (pipefish, 1) (predisposition, 1) (sexes, 1) (surviving, 1) (homosexuality, 1) (known, 1) (television, 1) (unblemished, 1) (science, 1) (empirical, 1) (matter, 1) (beautiful, 1) (tonight, 1) (offspring, 1) (tight, 1) (astrological, 1) (measures, 1) (data, 1) (fertilize, 1) (pernicious, 1) (utero, 1) (contact, 1) (principle, 1) (teeth, 1)}
-
-\normalsize{}
-
-Taking this route of depending on an "ad hoc" value was sufficient to validate our approach because it was possible to manually evaluate the metric performance. Another approach would have been to take the *tf-idf* (Term Frequency - Inverse Document Frequency) as a criterion for "keyword-ness" of words. *tf-idf* computes the "relevance" of a word in the context of a document by taking into account the occurences of the word in the document offset by the word's frequency in a broader corpus. This way common words are rated lower although they occur frequently in the given document. This way there is no need for the arbitrary aspect of choosing an value of $x$ and the negative side effect of accidentally excluding a keyword. On the other hand there would be the need to choose a treshold *tf-idf* score which would have to be met for inclusion into the keyword set.
-
-### Secondary Metrics
-The following metrics are evaluated:
+### Secondary metrics
+The following secondary or derived metrics are also evaluated:
 
 - $W$: Number of words
 - $KW$: Number of keywords
@@ -667,7 +655,7 @@ The following metrics are evaluated:
 - $W_{worse|improved}(K)$: Proportion of worsened/improved words that are keywords
 - $E$: $W_{improved}(K) - W_{worse}(K)$: A percentage score for "effectiveness" of version B
 
-An example from the lecture `human-nature-8`: The lecture has 5342 words overall, of which 376 are keywords. When looking at the general WER, run A and B both have a score of 43%. This can be "explained" by looking at $W_{worse|improved}$, which is 4% each, meaning that 4% (223/5342) of the words have been improved from run A to B, but 4% (227/5342) them have been worsened, which sums up to 0% difference in WER.
+Their use can be exemplarily demonstrated on the lecture `human-nature-8`: The lecture has 5342 words overall, of which 376 are keywords. When looking at the general WER, run A and B both have a score of 43%. This can be "explained" by looking at $W_{worse|improved}$, which is 4% each, meaning that 4% (223/5342) of the words have been improved from run A to B, but 4% (227/5342) them have been worsened, which sums up to 0% difference in WER.
 
 Secondly, the KWER-500 of A is 48% (182/376 keywords) versus 32% for B (121/376 keywords). This improvement of 16% can analogously be explained by looking at $KW_{worse|improved}$: when looking at the 376 keywords, 2% (6/376) of them have been worsened while 18% (67/376) have been improved. $18-2 = 16\%$ explains the improvement from 48% to 32%.
 
@@ -701,7 +689,15 @@ E, **27%**, **37%**, **39%**, **40%**, **42%**
 
 \normalsize{}
 
-The mean for $\Delta WER$ is 0.0%, for $\Delta KWER$ it is 16.8%, for E it is 37%.
+<!-- TODO:  --!>
+    The means are:
+    ```{.table type="pipe" aligns="MMMMMM" caption="Results" header="yes"}
+    Metric, Mean in %
+    $WER$, 33.2%
+    $KWER$, TODO
+
+    ```
+The mean $WER$ is 33.2%, the ma$\Delta WER$ is 0.0%, for $\Delta KWER$ it is 16.8%, for E it is 37%.
 
 ## Interpretation
 
@@ -719,7 +715,7 @@ While comparing WER performance has the discussed disadvantage of low relevance 
 
 In general, the uniform distribution of results over the various topic domains with their very different types of provided materials is also suprising. The results seem to suggest that the form and supposed "quality" of material (e.g. excercise sheet versus lecture slides) does not correlate with the improvement in KWER. The initial assumption that lectures from the natural and formal sciences would be harder to recognize, based on the "naive" presumption that words like "adenosine 5’-triphosphate" would be impossible to recognize, seems to be invalid as well -- apparently the combination of preprocessing, G2P and adapted weighting in the LM makes it possible to detect complicated technical terms like this as well.
 
-### Qualitative Interpretation
+### Qualitative interpretation
 While representing the performance of our approach with a set of metrics allows (at least internal) comparability of results, it can not convey a holistic impression of what would actually change for a user of a hypothetic speech media search/scan interface when using data generated with our approach versus the baseline approach.
 
 This impression can be given by looking at the following detailed results of the run on the `biomed-eng-1` lecture.
@@ -745,12 +741,37 @@ This impression can be given by looking at the following detailed results of the
 
 You notice two things: a) the "exchange" of filler words from version A to B and vice versa, which is of no interest for searching and scanning, and b) interesting keywords that have substantial amounts of occurrences, that were not found before, while the amount of worsened KW is tiny. This is the important "qualitative", high-level conclusion: the approach allows users to find technical terms in speech media which they weren't able to find before and it works consistently over a broad spectrum of topics.
 
-# Visualization for Scannability { #viz }
 
 
-# Improvements
 
-<!-- TODO: IDF as a better metric for relevance? --!>
+
+
+
+# Visualization for scannability { #viz }
+
+We have shown that the LM-Interpolation approach is a viable tool for improving recognition accuracy of keywords on university lectures. The output data of our system are words with meta information: their associated timing and if they are keywords. How can this information be further used for helping a user with the task of scanning and searching through a given lecture? While it is technically possible to use the whole transcript and present the user an interface were the transcript is time-aligned with the lecture, that presentation is problematic as the *WER* of the transcript has not been improved and reading comprehension for texts with WERs above 30% is too low.
+
+A better approach would be focusing the interface exclusively on the keywords in such a way that the provided timing meta information is transformed into a dense visual representation, thus making scanning possible. The user should be able to see the distribution of topics during the timeline of the lecture with *once glance*.
+
+To this end I have developed a prototype implementation of such an interface. It features two views: the first one is a list of word timelines (Figure \ref{timelines}). A word timeline shows the distribution of occurences of a given word over the time of the lecture. An occurence is displayed as a dot; clicking the dot posititions the corresponding lecture audio at the time the word occurence is spoken. The timelines are vertically sorted by count of word occurences. For analytical purposes the interface also shows the count of recognized occurences in relation to the actual count of occurences in the reference transcript, seen next to the word. It also overlays a graph which shows the *word density* at a given time point. The density function is calculated by performing a Gaussian Kernel Density Estimation (KDE) algorithm on the array of time positions for a given word. The red dots are local maxima of the function^[The local maxima are computed with the `scipy.signal.argrelextrema` function from the python `scipy` package and had some mildly surprising results, which were of no relevance for the interface prototyping task however.], so that a word can have multiple maxima. The information about maxima is being used primarily in the second view.
+
+![Word timelines \label{timelines}](images/timelines.png)
+
+The second view (Figure \ref{cloud}) is a *word cloud* with "semantic axes", compared to regular word cloud visualizations where the axes don't have meaning. The x-axis still is the time-axis of the lecture and the y-axis still is the keyword frequency. The central feature of this cloud is that it can show *multiple instances* of one keyword -- one instance for each local maximum. The word instance is on the same point on the x-axis as the corresponding local maximum. The timeline for a word can be shown by clicking on it. The example shows "brain" in the activated state; the timeline shows up below the map. One can see the two instances of "brain" being horizontally aligned with the two local maxima below^[It is obvious here that the first local maximum for the word should rather be at about 30-40% of the word's timeline, but that could be optimized.]. Clicking on the word also transports the audio to the position of the word next to the given local maximum. The font size of the word is computed by counting the word occurrences for which this maximum is the nearest. Additionally multiple instances of one keyword have the same color to further aid scanning by allowing the brain to pre-attentively process the representation. 
+
+![Word cloud \label{cloud}](images/cloud.png)
+
+This view allows an user to immediately scan the distribution of topics during the whole lecture. If particularly interested in the parts about the brain, he/she might click on "brain", be immediately transported to the relevant audio position and additionally have a more in-depth view in the bottom timeline below the cloud, allowing him/here to intuitively grasp how long the relevant part might be, maybe skipping around by clicking on other instances of the word in the timeline. 
+
+You could imagine integrating this interface as a semi-transparent overlay view on a video player, for example on platforms like lecture2go^[[lecture2go.uni-hamburg.de](lecture2go.uni-hamburg.de)], the lecture video streaming platform used by the University of Hamburg. When using a system that integrates many lectures in one database like this, it would also be possible to not only link to keyword instances in the same lecture but also on a broader scope, e.g the whole course or even other relevant courses & lectures. Another interesting extension point would be to integrate human intelligence by allowing to review/score the quality of keyword instances. This would allow filtering out false-positives and emphasize the keyword instances that students find helpful.
+
+
+# Conclusion
+
+This thesis asked the question: given that we are interested in improving speech recognition accuracy of keywords in university lectures, what is the advantage of creating a lecture-specific LM and interpolating it with a generic model and how can we measure this advantage?
+
+
+
 
 
 
