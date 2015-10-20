@@ -370,7 +370,7 @@ memoizer,”
 
 <!-- TODO: finish this crap --!>
 
-# Test data
+# Test data { #data }
 
 The test data I will use for evaluating our approach will be from *Open Yale Courses*^[[http://oyc.yale.edu/](http://oyc.yale.edu/)], which is a selection of openly available lectures from Yale university. It consists of 42 courses from 25 departments. Each course has about 20-25 sessions that have an average length of 50 minutes. Each lecture is provided with good quality audio and video recordings, precise manual transcripts and lecture material when available. Only about 20% of the lectures have lecture notes or slides at all and most materials from the natural and formal science departments (physics, astronomics, mathematics) consist of hand-written notes, making them unsuitable for our approach. All talks are in English.
 
@@ -635,13 +635,116 @@ The same principle holds for the $top_X$ words: we only want to capture words fo
 
 We can distill these concerns into a definition of a metric called *KWER-x*, which expresses the "Keyword Error Rate", where a keyword is defined as the lemma of a word occuring in a given lecture material corpus given that this lemma is not present in the $top_X$ list of most common words of the given language.
 
-<!-- TODO:
-which metrics follow from the goals of searchability and
-scannability.  define those terms first, discuss what's
-important there ->> keywords!
- --!>
+The value of x has to be determined empirically: how many of the top words should be filtered out? There has to be a balance between not accidentally excluding keywords (i.e "sex" is in the in the $top_{500}$ words) and filtering out enough filler words. After experimenting with some values I went with $x=500$ for my measurements. It is hard to find a less ad hoc approach to determining the "best" x, as you have no "meta"-metric that assesses how well a given x captures the goal of accurately describing the detection accuracy of keywords; it necessarily is a "best guess". However, while there is no quantitative "meta"-metric, a "qualitative" look at the results obtained is possible.
 
+When looking at results from a run on the `psy-14`-lecture with $x=500$, contrasting the improved^["Improved" means not correctly detected in the baseline version, but detected in the interpolated version.] "normal" words versus the improved keywords, it is obvious that there is a strong density of words that would be actually interesting as keywords, which doesn't hold for the "normal" words, with the exception of a few words like "porn", "machines", "caucasian", "womb", "puzzle" or "social". None of these words however is part of the top 500 words; they just weren't part of the material corpus.
 
+**Normal words improved:** (word, count)
+
+\small{
+(and, 17) (to, 13) (are, 10) (the, 9) (that, 7) (a, 7) (in, 6) (is, 5) (you, 5) (face, 5) (from, 4) (but, 4) (over, 3) (find, 3) (for, 3) (of, 3) (or, 3) (with, 3) (an, 3) (different, 3) (them, 2) (around, 2) (not, 2) (like, 2) (large, 2) (some, 2) (out, 2) (we, 2) (about, 2) (there, 2) (than, 2) (this, 2) (have, 2) (it, 2) (how, 2) (effect, 2) (well, 2) (don't, 1) (argued, 1) (interesting, 1) (less, 1) (had, 1) (other, 1) (puzzle, 1) (kick, 1) (do, 1) (food, 1) (big, 1) (they, 1) (advanced, 1) (these, 1) (each, 1) (where, 1) (right, 1) (often, 1) (porn, 1) (year, 1) (our, 1) (machines, 1) (between, 1) (caucasian, 1) (womb, 1) (be, 1) (power, 1) (men, 1) (harvard, 1) (if, 1) (care, 1) (both, 1) (could, 1) (april, 1) (social, 1) (can't, 1) (seems, 1) (into, 1) (one, 1) (done, 1) (likes, 1) (little, 1) (would, 1) (start, 1) (it's, 1) (two, 1) (few, 1) (much, 1) (treat, 1) (lot, 1) (more, 1) (form, 1) (he, 1) (me, 1) (say, 1) (will, 1) (can, 1) (behavior, 1) (many, 1) (my, 1) (mind, 1) (as, 1) (want, 1) (their, 1) (relatively, 1) (huge, 1) (no, 1) (interested, 1) (take, 1) (which, 1) (several, 1) (week, 1) (towards, 1) (again, 1) (firsthand, 1) (who, 1) (such, 1) (largely, 1) (so, 1) (lenses, 1) (keeps, 1) (once, 1) (fact, 1) (that's, 1)
+}
+
+\normalsize{}
+**Keywords improved**:
+
+\small{
+(genes, 9) (coolidge, 5) (sex, 5) (cell, 5) (females, 5) (male, 5) (males, 4) (mate, 4) (differences, 4) (investment, 3) (favorite, 3) (universals, 3) (genetic, 3) (beauty, 3) (choosiness, 3) (attractive, 2) (trivers, 2) (kindness, 2) (polygamous, 2) (answers, 2) (gibbons, 2) (studies, 2) (female, 2) (been, 2) (choose, 2) (gay, 2) (dawkins, 2) (cells, 2) (youth, 2) (deformities, 2) (meaner, 2) (bisexual, 2) (mates, 2) (autism, 2) (average, 2) (exclusive, 1) (evolutionary, 1) (focus, 1) (leads, 1) (skin, 1) (aggression, 1) (looking, 1) (choosy, 1) (factor, 1) (protective, 1) (animal, 1) (choice, 1) (mystery, 1) (evolved, 1) (did, 1) (penguins, 1) (fixed, 1) (conduct, 1) (psychopathy, 1) (intelligence, 1) (culture, 1) (cost, 1) (displays, 1) (sexually, 1) (intact, 1) (sexual, 1) (special, 1) (blue, 1) (reproduce, 1) (woo, 1) (causes, 1) (copulation, 1) (psychologies, 1) (full, 1) (unsure, 1) (theory, 1) (inescapable, 1) (pipefish, 1) (predisposition, 1) (sexes, 1) (surviving, 1) (homosexuality, 1) (known, 1) (television, 1) (unblemished, 1) (science, 1) (empirical, 1) (matter, 1) (beautiful, 1) (tonight, 1) (offspring, 1) (tight, 1) (astrological, 1) (measures, 1) (data, 1) (fertilize, 1) (pernicious, 1) (utero, 1) (contact, 1) (principle, 1) (teeth, 1)}
+
+\normalsize{}
+
+Taking this route of depending on an "ad hoc" value was sufficient to validate our approach because it was possible to manually evaluate the metric performance. Another approach would have been to take the *tf-idf* (Term Frequency - Inverse Document Frequency) as a criterion for "keyword-ness" of words. *tf-idf* computes the "relevance" of a word in the context of a document by taking into account the occurences of the word in the document offset by the word's frequency in a broader corpus. This way common words are rated lower although they occur frequently in the given document. This way there is no need for the arbitrary aspect of choosing an value of $x$ and the negative side effect of accidentally excluding a keyword. On the other hand there would be the need to choose a treshold *tf-idf* score which would have to be met for inclusion into the keyword set.
+
+### Secondary Metrics
+The following metrics are evaluated:
+
+- $W$: Number of words
+- $KW$: Number of keywords
+- $WER_{A|B}$: WER of baseline (A) / interpolated version (B)
+- $KWER_{A|B}500$: KWER-500 of baseline (A) / interpolated version (B)
+- $W_{worse|improved}$: Proportion of worsened/improved words
+- $KW_{worse|improved}$: Proportion of worsened/improved keywords
+- $W_{worse|improved}(K)$: Proportion of worsened/improved words that are keywords
+- $E$: $W_{improved}(K) - W_{worse}(K)$: A percentage score for "effectiveness" of version B
+
+An example from the lecture `human-nature-8`: The lecture has 5342 words overall, of which 376 are keywords. When looking at the general WER, run A and B both have a score of 43%. This can be "explained" by looking at $W_{worse|improved}$, which is 4% each, meaning that 4% (223/5342) of the words have been improved from run A to B, but 4% (227/5342) them have been worsened, which sums up to 0% difference in WER.
+
+Secondly, the KWER-500 of A is 48% (182/376 keywords) versus 32% for B (121/376 keywords). This improvement of 16% can analogously be explained by looking at $KW_{worse|improved}$: when looking at the 376 keywords, 2% (6/376) of them have been worsened while 18% (67/376) have been improved. $18-2 = 16\%$ explains the improvement from 48% to 32%.
+
+The last metric of $W_{worse|improved}(K)$ looks at the overall worsened/improved words and informs about the proportion of words that were keywords. As mentioned, $W_{worse}$ is 4% (223 of the overall 5342 words have been worsened). What is the proportion of keywords in this number? Analogously, what is the proportion of keywords when looking at the overall improved words? This metric is key in identifying the *effectiveness* (E) of our approach: the $W_{improved}(K)$ value answers the question how well our approach is targeted towards improving the words we are interested in, the $W_{worse}(K)$ value answers the question how big the "side effect" of worsening keywords is. In the example, $W_{worse}(K)$ is 3% (6/227) and $W_{improved}(K)$ is 30% (67/223). This is great: of the 227 overall worsened words only **6** were relevant given our goals. In essence, we can interpret $W_{improved}(K) - W_{worse}(K)$ as an **effectiveness score**, the same way we interpret the difference between $W/KW_{improved}$ and $W/KW_{worse}$ as "singular" metrics (WER and KWER respectively). We can say that our example had an effectiveness of $30-3=27\%$. An effectiveness of 100% would mean that *all* words that were improved had been keywords and *none* of the worsened words would have been keywords.
+
+## Results
+The results for the test lectures described above (chapter \ref{data}) are as follows^[Column 2-x represent the lectures, the numbers refer to the following lectures: 1: `human-nature-8`, 2: `environmental-8`, 3: `psy-14`, 4: `psy-5`, 5: `biomed-eng-1`.]:
+
+\small{}
+```{.table type="pipe" aligns="MMMMMM" caption="Results" header="yes"}
+Metric, 1, 2, 3, 4, 5
+W, 5342, 7233, 7618, 7142, 7046
+KW, 376, 715, 974, 607, 518
+ , , , ,
+$WER_A$, 43%, 30%, 34%, 37%, 22%
+$WER_B$, 43%, 30%, 34%, 37%, 22%
+$W_{improved}$, 4%, 4%, 5%, 5%, 3%
+$W_{worse}$, 4%, 4%, 5%, 5%, 3%
+$\Delta WER$^[$\Delta$ refers to the improvement from version A to B in this context.], **0%**, **0%**, **0%**, **0%**, **0%**,
+ , , , ,
+$KWER_A$^[KWER means KWER-500 for brevity if not noted otherwise.], 48%, 34%, 33%, 40%, 32%
+$KWER_B$, 32%, 18%, 17%, 19%, 17%
+$KW_{improved}$, 18%, 16%, 17%, 22%, 16%
+$KW_{worse}$, 2%, 1%, 1%, 0%, 1%
+$\Delta KWER$, **16%**, **15%**, **16%**, **22%**, **15%**,
+ , , , ,
+$W_{improved}(K)$, 30%, 39%, 41%, 40%, 44%
+$W_{worse}(K)$, 3%, 2%, 2%, 0%, 2%
+E, **27%**, **37%**, **39%**, **40%**, **42%**,
+
+```
+
+\normalsize{}
+
+The mean for $\Delta WER$ is 0.0%, for $\Delta KWER$ it is 16.8%, for E it is 37%.
+
+## Interpretation
+
+Several things are notable. The WER as well as $W_{improved}$ and $W_{worse}$ nearly don't change at all, the differences are only zero-digit absolute amounts. It is interesting that the results are so unambiguous in this respect; it is also unexpected that $W_{improved}$ and $W_{worse}$ always cancel each other out completely.
+
+Assessing the $\Delta KWER$ presents the challenge that no comparison is available that uses the exact same metric. However it is possible to "fuzzily" compare the performance by looking at metrics with the same basic idea.
+
+The metric "RWCR-n" used by @marquard mentioned above is comparable, as it also uses the concept of filtering out the $top_n$ most frequent words; it differs by not taking the lemmatized word version as their atomic unit. With that said, the average improvement in RWCR-10k over 13 lectures also taken from Open Yale Courses is 9.0%, while their average WER decreases by 0.8%.
+
+@kawahara08 use a metric called "Keyword Detection Rate", where keywords are defined as content words (nouns and verbs excluding numbers and pronouns) that appear in the slide text. They then compute the f-measure (the "mean of the recall rate of keywords included in utterances and the precision of keywords detected in ASR results."). They report improvements of 7.5% and 3.0% (for two test sets) in detection rate over the baseline accuracy, while the increase in WER is 2.2% and 1.3% over the baseline respectively^[The mentioned results refer to the combined method of global and local adaptation.].
+
+@miranda do not use a custom metric and report a WER improvement of 3.6%, when interpolating the LM with slide text contents; they achieve an improvement of 5.9% WER when using their proposed method of integrating the speech input with synchronized slide content.
+
+While comparing WER performance has the discussed disadvantage of low relevance to the given evaluation goals and the non-standardized spectrum of custom metrics disallows an objective comparison of the different approaches, it yet gives an impression how our approach's performance relates to other work: the $\Delta KWER$ of 16.8% seems like a good indicator that our approach is a viable solution for the goal of improving speech recognition for searchability and scannability. Additionally, the *effectiveness score* demonstrates that the approach nearly does not worsen keywords at all and 38.8% of the improved words are actually keywords.
+
+In general, the uniform distribution of results over the various topic domains with their very different types of provided materials is also suprising. The results seem to suggest that the form and supposed "quality" of material (e.g. excercise sheet versus lecture slides) does not correlate with the improvement in KWER. The initial assumption that lectures from the natural and formal sciences would be harder to recognize, based on the "naive" presumption that words like "adenosine 5’-triphosphate" would be impossible to recognize, seems to be invalid as well -- apparently the combination of preprocessing, G2P and adapted weighting in the LM makes it possible to detect complicated technical terms like this as well.
+
+### Qualitative Interpretation
+While representing the performance of our approach with a set of metrics allows (at least internal) comparability of results, it can not convey a holistic impression of what would actually change for a user of a hypothetic speech media search/scan interface when using data generated with our approach versus the baseline approach.
+
+This impression can be given by looking at the following detailed results of the run on the `biomed-eng-1` lecture.
+
+\small{}
+**Normal words improved**
+
+> (of, 8) (that, 7) (the, 6) (or, 6) (and, 5) (a, 5) (in, 4) (to, 4) (is, 4) (it, 3) (course, 3) (into, 2) (an, 2) (your, 2) (from, 2) (than, 2) (one, 2) (those, 2) (this, 2) (talk, 2) (bridge, 1) (set, 1) (don't, 1) (some, 1) (are, 1) (annoying, 1) (really, 1) (again, 1) (there's, 1) (would, 1) (it's, 1) (there, 1) (how, 1) (version, 1) (we're, 1) (which, 1) (you, 1) (more, 1) (week, 1) (be, 1) (students, 1) (free, 1) (i've, 1) (with, 1) (by, 1) (distance, 1) (about, 1) (like, 1) (well, 1) (infectious, 1) (yale, 1) (very, 1) (where, 1) (engineers, 1)
+
+**Normal words worse**:
+
+> (and, 15) (a, 10) (so, 9) (you, 8) (the, 8) (it, 7) (have, 6) (to, 5) (they're, 4) (of, 4) (that, 4) (are, 3) (can, 3) (be, 3) (we, 3) (on, 3) (at, 3) (in, 3) (how, 3) (online, 3) (that's, 3) (day, 2) (we'll, 2) (see, 2) (our, 2) (for, 2) (genes, 2) (could, 2) (it's, 2) (one, 2) (there, 2) (we're, 2) (but, 2) (is, 2) (as, 2) (if, 2) (two, 2) (principle, 2) (concept, 1) (office, 1) (years, 1) (london, 1) (go, 1) (just, 1) (had, 1) (easy, 1) (bridge, 1) (somebody, 1) (increased, 1) (very, 1) (familiar, 1) (safe, 1) (i've, 1) (every, 1) (they, 1) (now, 1) (organ, 1) (did, 1) (doctor's, 1) (because, 1) (old, 1) (some, 1) (really, 1) (what, 1) (said, 1) (lots, 1) (vessels, 1) (health, 1) (approach, 1) (patient, 1) (here, 1) (come, 1) (about, 1) (bow, 1) (or, 1) (cancer, 1) (point, 1) (period, 1) (long, 1) (apply, 1) (city, 1) (would, 1) (leading, 1) (three, 1) (been, 1) (their, 1) (way, 1) (was, 1) (tell, 1) (life, 1) (buy, 1) (posted, 1) (physician, 1) (these, 1) (say, 1) (us, 1) (patient's, 1) (thin, 1) (were, 1) (heart, 1) (an, 1) (heard, 1) (get, 1) (other, 1) (details, 1) (week, 1) (kinds, 1) (i, 1) (mechanical, 1)
+
+**KW improved:**
+
+> (biomedical, 35) (dna, 7) (cells, 7) (engineering, 6) (biochemistry, 3) (cell, 3) (polymer, 2) (graph, 2) (gibbs, 2) (certain, 1) (energy, 1) (site, 1) (occur, 1) (plot, 1) (due, 1) (specifically, 1) (membrane, 1) (answer, 1) (has, 1) (higher, 1) (drugs, 1) (molecule, 1) (known, 1) (post, 1) (polymers, 1) (disease, 1) (order, 1)
+
+**KW worse:**
+
+> (cells, 1) (maintain, 1) (beyond, 1) (genetic, 1) (due, 1)
+
+\normalsize{}
+
+You notice two things: a) the "exchange" of filler words from version A to B and vice versa, which is of no interest for searching and scanning, and b) interesting keywords that have substantial amounts of occurrences, that were not found before, while the amount of worsened KW is tiny. This is the important "qualitative", high-level conclusion: the approach allows users to find technical terms in speech media which they weren't able to find before and it works consistently over a broad spectrum of topics.
 
 <!--
 #. **Methods**

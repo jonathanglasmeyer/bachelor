@@ -15,10 +15,11 @@ from nltk.stem.wordnet import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 lemmatize = lemmatizer.lemmatize
 
+X=5000
+
 script_path = os.path.dirname(os.path.realpath(__file__))
 template_folder = os.path.join(script_path, 'data/html_template')
 
-X = 500
 
 from lib import top_x_words, top5000words
 topXwords = top_x_words(X)
@@ -253,6 +254,7 @@ def compare(wer_result1, wer_result2, name1, name2, template, css, corpus_withou
 
     out.append('<br/><p>{}: {}</p>'.format(name1, summary1))
     out.append('<p>{}: {}</p>'.format(name2, summary2))
+    out.append('<p>{}: {}</p>'.format('X', X))
 
     if PRINT_HTML:
         print(template.format('Analyze WER/IWER', css, '\n'.join(out)))
