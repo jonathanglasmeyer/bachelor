@@ -6375,4 +6375,4 @@ OK | subject | subject
 OK | for | for
 OK | next | next
 OK | week | week
-{'Cor': 3628, 'WER': 0.456, 'Sub': 1796, 'Ins': 352, 'Del': 600}
+{'Del': 600, 'Cor': 3628, 'Ins': 352, 'Sub': 1796, 'WER': 0.456}

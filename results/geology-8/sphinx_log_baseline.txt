@@ -24052,3 +24052,59 @@ today without with subject for next week
 19:30:11.732 INFO memoryTracker           Used: This: 2933.69 Mb  Avg: 2304.98 Mb  Max: 3702.64 Mb
 Stats creation: 5711s
 Recognition: 4745s, 1093 Segments.
+acousticModelPath: /home/jwerner/bachelor/models/en-new/cmusphinx-en-us-5.2
+dictionaryPath: /home/jwerner/bachelor/models/en-new/cmudict-en-us.dict
+languageModelPath: /home/jwerner/bachelor/models/en-new/cmusphinx-5.0-en-us.lm
+g2pPath: /home/jwerner/bachelor/models/en-new/en_us_nostress/model.fst.ser
+inputWaveFilepath: /home/jwerner/bachelor/results/geology-8/resources/audio.wav
+outFilePathTranscription: /home/jwerner/bachelor/results/geology-8/sphinx_result_baseline.txt
+outFilePathTimes: /home/jwerner/bachelor/results/geology-8/sphinx_word_times_baseline.txt
+configPath: /home/jwerner/bachelor/bin/sphinx/config/default.config.xml
+VERSION: 4-AUG 13.14
+[LOG] using the normal way (no interpolation)
+Found supplied language model file ending with .lm -> setting languageModel to simpleNGramModel
+16:15:41.354 INFO unitManager          CI Unit: *+BREATH+
+16:15:41.357 INFO unitManager          CI Unit: *+COUGH+
+16:15:41.358 INFO unitManager          CI Unit: *+NOISE+
+16:15:41.358 INFO unitManager          CI Unit: *+SMACK+
+16:15:41.358 INFO unitManager          CI Unit: *+UH+
+16:15:41.359 INFO unitManager          CI Unit: *+UM+
+16:15:41.359 INFO unitManager          CI Unit: AA
+16:15:41.359 INFO unitManager          CI Unit: AE
+16:15:41.360 INFO unitManager          CI Unit: AH
+16:15:41.360 INFO unitManager          CI Unit: AO
+16:15:41.360 INFO unitManager          CI Unit: AW
+16:15:41.361 INFO unitManager          CI Unit: AY
+16:15:41.361 INFO unitManager          CI Unit: B
+16:15:41.361 INFO unitManager          CI Unit: CH
+16:15:41.362 INFO unitManager          CI Unit: D
+16:15:41.362 INFO unitManager          CI Unit: DH
+16:15:41.363 INFO unitManager          CI Unit: EH
+16:15:41.363 INFO unitManager          CI Unit: ER
+16:15:41.363 INFO unitManager          CI Unit: EY
+16:15:41.364 INFO unitManager          CI Unit: F
+16:15:41.364 INFO unitManager          CI Unit: G
+16:15:41.365 INFO unitManager          CI Unit: HH
+16:15:41.365 INFO unitManager          CI Unit: IH
+16:15:41.365 INFO unitManager          CI Unit: IY
+16:15:41.366 INFO unitManager          CI Unit: JH
+16:15:41.366 INFO unitManager          CI Unit: K
+16:15:41.367 INFO unitManager          CI Unit: L
+16:15:41.367 INFO unitManager          CI Unit: M
+16:15:41.367 INFO unitManager          CI Unit: N
+16:15:41.368 INFO unitManager          CI Unit: NG
+16:15:41.368 INFO unitManager          CI Unit: OW
+16:15:41.368 INFO unitManager          CI Unit: OY
+16:15:41.369 INFO unitManager          CI Unit: P
+16:15:41.369 INFO unitManager          CI Unit: R
+16:15:41.369 INFO unitManager          CI Unit: S
+16:15:41.370 INFO unitManager          CI Unit: SH
+16:15:41.370 INFO unitManager          CI Unit: T
+16:15:41.371 INFO unitManager          CI Unit: TH
+16:15:41.371 INFO unitManager          CI Unit: UH
+16:15:41.371 INFO unitManager          CI Unit: UW
+16:15:41.372 INFO unitManager          CI Unit: V
+16:15:41.372 INFO unitManager          CI Unit: W
+16:15:41.372 INFO unitManager          CI Unit: Y
+16:15:41.373 INFO unitManager          CI Unit: Z
+16:15:41.373 INFO unitManager          CI Unit: ZH
