@@ -3,7 +3,7 @@ high level from top to bottom. --!>
 
 \newpage
 
-# Introduction {-}
+# Introduction
 Scannability is crucial for academic research: you
 have to be able to quickly evaluate the usefulness of a given resource
 by skimming the content and looking for the parts that are specifically
@@ -39,7 +39,7 @@ accuracy of technical terms. Most of them are not included in the
 language models that are available as these are broad and generic so as
 to optimize accuracy over a wide topic spectrum. But when they are
 not included in the language model they have a very small chance to be correctly
-recognized at all.  <!-- TODO: maybe account for smoothing here? --!>
+recognized at all.
 
 So the usefulness of applying ASR with a generic language model to the
 problem is very small, as the intersection of interesting keywords with
@@ -48,157 +48,47 @@ those technical terms that can not be recognized is very big.
 The central goal of this thesis is to explore an approach to overcome
 this problem. This approach consists of using words from lecture slides
 or other notes to generate a lecture-specific language model. This
-is then interpolated with a generic language model. Finally the results are compared with the 'baseline'  accuracy of the generic model.
+is then interpolated with a generic language model. Finally the results are compared with the 'baseline' accuracy of the generic model.
 
-\pagebreak
-
-## Structure of this thesis {-}
-The structure of this thesis is as follows:
-
-(#) **Research questions**
-
-    I will state the research questions.
-
-(#) **Scientific Background**
-
-    #. I will start by giving an overview over the state of the art of
-    ASR and the most prevalent approaches.
-
-    #. I will explain the *concepts* which are fundamental for the
-    understanding of speech recognition.
-
-    #. I will then examine the *scientific work* that has been done on
-    applying ASR to the problem of lectures transcriptions.
-
-    #. Finally i will summarize the *metrics* that have been used to
-    assess the quality of the improvements in different approaches.
-
-(#) **Motivation**
-
-    Here i will motivate why it is necessary to improve on the baseline performance of ASR in our context.
-
-    I will talk about the role of keywords and technical terms and why they are not being detected and how that diminishes the usefulness of ASR for the purposes of scannability.
-
-(#) **Test data**
-
-    I will use the openly available *Open Yale Courses* @openyale, which provide a
-    diverse selection of audio and video recordings of university lectures at Yale, additionally supplying quality manual transcriptions and course notes or slides.
-
-    I will present the chosen courses, their selection criteria and
-    discuss the range of types of lecture material.
-
-(#) **The LM-Interpolation approach**
-
-    #. **Technical basis**
-
-        I will introduce the open source speech recognition framework
-        *Sphinx 4*. This is the software that is used for performing the
-        actual recognition.
-
-    #. **Process overview**
-
-        I will then give a overview of the design and architecture of
-        our approach.
-
-    #. **Implementation**
-
-        Finally i will describe the technical implementation by which the
-        lecture material is compiled into a specialized language model
-        and recognition is performed using a *interpolated* language
-        model.
-
-(#) **Analysis**
-
-    #. **Methods**
-
-        I will discuss how to analyze the results and develop metrics
-        that assess how well the given goals are met with our approach.
-        <!-- TODO: which metrics follow from the goals of searchability and
-        scannability.  define those terms first, discuss what's
-        important there ->> keywords! --!>
-
-    #. **Analysis**
-
-        I will then perform quantitative analysis on our test dataset
-        with the metrics we developed before.
-
-    #. **Discussion, Finding and Conclusions**
-
-        I will discuss the findings and draw conclusions from the quantitative analysis concerning the effectiveness of our approach.
-
-(#) **Visualization for Scannability**
-
-    I will present a prototype visualization method that uses the results from our approach to present a condensed representation of the keyword content from lectures with the goal of providing a quick, interactive way to search and scan speech media.
-
-(#) **Improvements, Open Ends**
-
-    I will discuss possible improvements and open ends that were out of
-    the scope of this thesis but would be interesting to explore further.
-
-(#) **Summary**
-
-    I will end by summarizing the goals, the proposed approach, the
-    design and implementation, the analysis and the results.
-
-\pagebreak
-
-# Research questions
-The central research questions I want to investigate in this thesis can
-be formulated as follows:
+## Research questions
+The research questions I want to investigate in this thesis can be formulated as follows:
 
 (#) When we apply ASR to university lectures, what is the advantage of using an approach that consists of creating a lecture-specific language model and interpolating it with a generic language model, given that we are interested in improving the recognition accuracy of *interesting keywords* for the sake of
 searchability and scannability?
 
 (#) What metric is useful for quantifying this advantage?
 
-A secondary question is: How can we *use* the results from our approach to provide graphical interfaces for improving the user's ability to search and scan the given speech medium?
-
-The exploration of this question will not be at the center of this thesis,
+A secondary question is: How can we *use* the results from our approach to provide graphical interfaces for improving the user's ability to search and scan the given speech medium? The exploration of this question will not be at the center of this thesis,
 but it will provide practical motivation for the results of our approach.
 
-<!-- ## Lecture recordings in universities ## Speech recognition
-accuracy problems with special words / technical terms ## Goal:
-improving searchability / scannability through adapting language models
---!>
+## Structure
+The structure of this thesis is as follows: I will start by giving an overview over the scientific work done in ASR, explaining fundamental speech recognition concepts and discussing the most prevalent approaches. I will then present the chosen test data, which consists of lectures from the openly available *Open Yale Courses*^[Website: <http://oyc.yale.edu/>], and explain selection criteria. This will be followed by a description of the LM-Interpolation approach, explaining general concepts and implementation. I will then discuss suitable metrics for evaluation and analyze the results. I will finally explore an interface prototype for dense visual representation of keyword distributions over the timeline of a lecture. I will close by recapitulating the thesis results and summarizing possible extension points.
 
-# Background
+\pagebreak
+
+# Scientific background
 
 ## The field of Automatic Speech Recognition
-Automatic Speech Recognition (ASR) can be defined as the process by which
-a computer maps an acoustic speech signal to text @cmufaq.
+Automatic Speech Recognition (ASR) can be defined as an "independent, machine-based process of decoding and transcribing oral speech", where a "typical ASR system receives acoustic input from a speaker through a microphone, analyzes it using some pattern, model, or algorithm, and produces an output, usually in the form of a text" [@lai].
 
 @rabiner date the first research on ASR back to the
 early 1950s, when Bell Labs built a system for single-speaker digit
 recognition. Since then the field has seen three major approaches, which
-@marquard summarizes as follows:
+@marquard calls the "acoustic-phonetic approach", the "statical pattern-recognition approach" and the "artificial intelligence approach".
 
-> 1. The *acoustic-phonetic approach* aimed to identify features of
-    speech such as vowels directly through their acoustic properties,
-    and from there build up words based on their constituent phonetic
-    elements.
+The acoustic-phonetic approach aimed to identify phonetic features of speech such as vowels or consonants directly through their acoustic properties and from that build up words based on these constituent elements.
 
-> 2. The *statistical pattern-recognition approach* measures features of
-    the acoustic signal, and compares these to existing patterns
-    established from a range of reference sources to produce similarity
-    scores which may be used to establish the best match.
+The statistical pattern-recognition approach measures features of the acoustic signal and compares these to existing patterns from a range of reference sources to produce similarity scores by using a search process; patterns are taken from multiple sources such as acoustic and language models.
 
-> 3. *Artificial intelligence (AI) approaches* have been used to integrate
-    different types of knowledge sources (such as acoustic, lexical,
-    syntactic, semantic and pragmatic knowledge) to influence the output
-    from a pattern-recognition system to select the most likely match.
+Artificial intelligence approaches are mainly differentiated by being integrative, combining multiple types of knowledge sources. While the former approach uses fixed input features, AI approaches establish them by *learning*. A key technology here is the use of deep neural networks and other deep learning approaches [@hinton2012deep], which has been an active area of research in the last decade.
 
-<!-- TODO: probably rephrase? --!>
-
-The most prevalent approach today is the *statistical
-pattern-recognition approach*, as it produces results with much higher
-accuracy compared to the acoustic-phonetic approach. The use of Hidden Markov Models (HMM) has been playing a key role in this approach, as it allows recognizers to use a statistical model of a given pattern rather than a fixed representation.
-
-In the last years there has been a resurgence of AI approaches, specifically *deep learning approaches* [@hinton2012deep]. The ASR paradigm we will use for this thesis will be limited to the former, however.
+The most prevalent approach today is the statistical pattern-recognition approach, as it produces results with much higher
+accuracy compared to the acoustic-phonetic approach. The use of Hidden Markov Models (HMM) has been playing a key role in this approach, as it allows recognizers to use a statistical model of a given pattern rather than a fixed representation. This is the paradigm used as the technical foundation in our approach, as well.
 
 ## Dimensions of speech recognition
-There are three dimensions which serve to classify different applications of speech recognition [@cmufaq, @marquard]:
+There are three dimensions which serve to classify different applications of speech recognition [@marquard]:
 
-(1) **Dependent vs. independent**. Dependent recognition systems are developed to be used by one speaker, whereas independent systems are developed to be used by *any* speaker of a particular type, i.e North-American speakers. **Adaptive** systems lie between these poles, they are able to adapt to a particular speaker through training.
+(1) **Dependent vs. independent**. Dependent recognition systems are developed to be used by one speaker. They are easier to develop and more accurate, but not flexible. Independent systems in contrast are developed to be used by *any* speaker of a particular language or dialect, i.e speakers of North American English (NAE). Independent systems have lower accuracy but better flexibility. **Adaptive** systems lie between these poles, they are able to adapt to a particular speaker through training.
 
 (2) **Small vs. large vocabulary**. Small vocabularies contain only up to a few hundred words and might be modeled by an explicit grammar, whereas large vocabularies contain tens of thousands of words so as to be able to model general purpose spoken language over a variety of domains.
 
@@ -210,28 +100,28 @@ With these three dimensions we can for example classify the application areas co
 Application,                Speaker,     Vocabulary, Duration
 Dictation,                  Dependent,   Large,      Connected
 Command and control system, Independent, Small,      Isolated
-Lecture transcription,      Independent, Large,      Connected
+Lecture transcription,      Independent/Adaptive, Large,      Connected
 ```
 
 The task of automatic lecture transcription can thus be characterized as speaker-independent (SI) large continuous speech recognition (LVCSR).
 
 ## Concepts
-Speech recognition in the *statistical pattern-recognition approach* paradigm has three major concepts that are necessary for its understanding:
+Speech recognition in the *statistical pattern-recognition approach* paradigm has these major concepts that are necessary for its understanding:
 
-* phonemes and phonetic dictionaries
+* phonemes
+* phonetic dictionaries
+* search
 * acoustic models (AM)
 * language models (LM)
 
 ### Phonemes
-A *phoneme* is "the smallest contrastive linguistic unit which may bring about a change of meaning" [@cruttenden2014gimson, p. 43]. Phonemes are the smallest unit of sound in speech which are combined to form words. The word *sun* for example can be represented by the phonemes `/s/`, `/u/` and `/n/`; the word *table* by `/t/`, `/a/` and `/bl/`.
+A *phoneme* is "the smallest contrastive linguistic unit which may bring about a change of meaning" [@cruttenden2014gimson, p. 43]. Phonemes are the smallest unit of sound in speech which are combined to form words. The word *sun* for example can be represented by the phonemes `/s/`, `/u/` and `/n/`, the world *sum* differs only in the last phoneme, but the words have different meaning -- hence `/m/` and `/n/` are different phonemes.
 
-A language with a specific accent can be described by the set of phonemes that it consists of. Figure \ref{phonemic-chart} uses symbols from the International Phonetic Alphabet (IPA) to display the 44 phonemes that are being used in Received Pronunciation (RP), which is regarded as the "standard accent" in the South of the United Kingdom [@stevenson2011concise].
+A language with a specific accent can be described by the set of phonemes that it consists of. Figure \ref{phonemic-chart} shows the phonemes that are used in North American English, using symbols from the International Phonetic Alphabet (IPA).
 
-![Phonemic Chart representing 44 phonemes used in RP British English\label{phonemic-chart}](images/phonemes_50.jpg)
+![Phonemes in NAE\label{phonemic-chart}](images/nae-phonemes.jpg)
 
-To be able to use phonemes in software an ASCII representation is more suitable. The standard for General American English is the *Arpabet*. Here each phoneme is mapped to one or two capital letters. The digits `0`, `1` and `2` signify stress markers: no stress, primary and secondary stress respectively. A comparison of the IPA format and the arphabet format can be seen in Figure \ref{arpabet}, an excerpt that just shows the *monophthongs* ^[pure vowel sounds with relatively fixed articulation at the start and the end that don't glide towards a new position of articulation].
-
-![Excerpt from the Arpabet @wikiArpabet \label{arpabet}](images/arpabet.png)
+To be able to use phonemes in software an ASCII representation is more suitable. The standard for General American English is the *Arpabet*. Here each phoneme is mapped to one or two capital letters. The digits `0`, `1` and `2` signify stress markers: no stress, primary and secondary stress respectively.
 
 ### Phonetic dictionaries
 
@@ -239,7 +129,7 @@ Phonetic dictionaries map words to one or more versions of phoneme sequences.
 
 A phonetic representation of a word is specified manually based on the knowledge of how written words *actually sound* when spoken.
 
-An excerpt from the dictionary `cmudict-en-us.dict` @cmuDict looks like this:
+An excerpt from the dictionary `cmudict-en-us.dict` @cmuDict looks like this (phonemes are given in Arpabet representation):
 
     ...
     abdollah AE B D AA L AH
@@ -251,68 +141,30 @@ An excerpt from the dictionary `cmudict-en-us.dict` @cmuDict looks like this:
 
 The dictionary has 133.425 entries. Generally only words that are in the phonetic dictionary being used can be recognized during speech recognition. *Grapheme^["The smallest unit used in describing the writing system of a language" @florian1996blackwell, p.174]-to-Phoneme converters* (G2P) however make it possible to get phoneme sequence hypotheses for arbitrary words (i.e arbitrary sequences of graphemes). While these results are on average less accurate than manually created variants, they play a vital role in texts with many technical terms as these are often not included in phonetic dictionaries.
 
+### Search
+Search is the basic abstraction that lies at the center of the speech recognition progress, which is called the *decoding phase*. The recognition process is implemented as a search algorithm on a directed search graph. This graph is constructed by taking different information dimensions into account: typically an acoustic model, a language model and phonetic dictionary. An example graph is shown in figure \ref{graph}^[The graph is taken from @whitepaper.]. Here words (from a language model) are shown in rectangles, phonemes (from a phonetic dictionary) as dark circles and audio input features as white circles (from an acoustic model). The general search space topology and phonetic context size is dependent on the specific algorithm used.
+
+![Search graph with example words "one" and "two"\label{graph}](images/graph.png)
+
+
 ### Acoustic models
 An acoustic model (AM) describes the relation between an audio signal and the probability that this signal represents a given phoneme.
 
 Acoustic models are created by *training* them on a *corpus* of audio recordings and matching transcripts. When being used in the context of speaker-independent recognition, these models are trained with a variety of speakers that represent a broad spectrum of the language/accent that the acoustic model should represent.
 
-During the *decoding* phase the acoustic model and a phonetic dictionary are used to match sequences of small audio "slices" to possible phonemes and those phonemes to possible word sequence hypotheses. <!-- TODO: oohoo. is this precise? --!>
+During the decoding phase the acoustic model and a phonetic dictionary are used to match sequences of small audio "slices" to possible phonemes and those phonemes to possible word sequence hypotheses.
 
 However, acoustic models alone are not sufficient for speech recognition as they do not have the "higher-level" linguistic information necessary to distinguish e.g. between homonyms and similar-sounding phrases such as "wreck a nice beach" and "recognize speech" [@marquard, 11]. This information is provided by *language models*.
 
 ### Language Models
 
-Language models (LM) guide and constrain the search process that a speech recognition system performs by assigning probabilities to sequences of words. They are trained by applying statistical methods on a text corpus. <!-- TODO: mh. awkward --!> Analogous to acoustic models, generic language models use huge text corpora with a broad variety of topics. It is however possible to train language models on small and specialized text corpora, which is the central technical foundation for the approach discussed in this thesis.
-
-The most commonly used form of language models are *n-gram language models*. In the context of a language model an *n-gram* is a sequence of *n* words. 1-grams are called *unigrams*, 2-grams are called *bigrams* and 3-grams are called *trigrams*. An *n-gram language model* maps a set of *n-grams* to probabilities that they occur in a given piece of text.
-
-A key idea in modelling language like this is the *independence assumption*, which says that the probability of a given word is only dependent on the last *n* - 1 words. This assumption significantly decreases the statistical complexity and thus makes it computationally feasible.
-
-N-gram language models do not need to be constrained to one type of n-gram. The *Generic US English Language Model* @cmuLm from CMUSphinx we will use as the baseline for our approach consists of 1-, 2, and 3-grams, for example.
-
-A toy example of a language model with 1- and 2-grams when represented in *ARPA*-format (as used by CMUSphinx) looks like follows @cmuArpa:
-
-    \data\
-    ngram 1=7
-    ngram 2=7
-
-    \1-grams:
-    -1.0000 <UNK>	-0.2553
-    -98.9366 <s>	 -0.3064
-    -1.0000 </s>	 0.0000
-    -0.6990 wood	 -0.2553
-    -0.6990 cindy	-0.2553
-    -0.6990 pittsburgh		-0.2553
-    -0.6990 jean	 -0.1973
-
-    \2-grams:
-    -0.2553 <UNK> wood
-    -0.2553 <s> <UNK>
-    -0.2553 wood pittsburgh
-    -0.2553 cindy jean
-    -0.2553 pittsburgh cindy
-    -0.5563 jean </s>
-    -0.5563 jean wood
-
-    \end\
-
-Here the first number in a row is the probability of the given n-gram in $log_{10}$ format. This means that the unigram *wood* has a probability of $10^{-0.6990} \approx 0.2 = 20\%$ and the probability of the words "wood pittsburg" occuring in sequence is $10^{-0.2553} \approx 0.55 = 55\%$ .
-
-The optional third numeric column in a row is called *backoff weight*. Backoff weights make it possible to calculate n-grams that are not listed by applying the formula
-
-    P( word_N | word_{N-1}, word_{N-2}, ...., word_1 ) =
-    P( word_N | word_{N-1}, word_{N-2}, ...., word_2 ) *
-      backoff-weight( word_{N-1} | word_{N-2}, ...., word_1 )
-
-With the side condition that missing entries for `word_{N-1} | word_{N-2}, ...., word_1` are replaced by $1.0$.
-
-So if the text to be recognized would contain the sequence "wood cindy", which does not appear as a bigram in the LM, the probability for this bigram could be calculated by `P(wood|cindy) = P(wood) * BWt(cindy)`.
-
-Finally, the overall probability of a sentence with the words $w_1,...,w_n$ can be approximated as follows:
+Language models (LM) guide and constrain the search process that a speech recognition system performs by assigning probabilities to sequences of words. The basic premise, called Markov assumption, is that the overall probability of a sentence with the words $w_1,...,w_n$ can be approximated as follows:
 
 $$P(w_1,...,w_n) = \prod_{n=1}^m P(w_i \mid w_1,...w_{i-1})$$
 
-An example approximation with a bigram model for the sentence "I saw the red house" @wikiLM represented as $P(\text{I, saw, the, red, house})$ would look like
+This assumption says that an approximate probability of a given word can be calculated only by looking at the last *n* - 1 prior words. This property significantly decreases statistical complexity and thus makes it computationally feasible.
+
+An example approximation with a bigram model for the sentence "I saw the red house" represented as $P(\text{I, saw, the, red, house})$ would look like
 $$
   P(\text{I} \mid \langle s \rangle) \times
   P(\text{saw} \mid \text{I}) \times
@@ -322,10 +174,13 @@ $$
   P(\langle s \rangle \mid \text{house})
 $$
 
-<!-- TODO: überleitun? --!>
+The most commonly used form of language models are *n-gram language models*. In the context of a language model an *n-gram* is a sequence of *n* words. 1-grams are called *unigrams*, 2-grams are called *bigrams* and 3-grams are called *trigrams*. An *n-gram language model* maps a set of *n-grams* to probabilities that they occur in a given piece of text.
+
+N-gram language models do not need to be constrained to one type of n-gram; the *Generic US English Language Model* @cmuLm from CMUSphinx we will use as the baseline for our approach consists of 1-, 2, and 3-grams, for example.
+
+Language models are trained by applying statistical methods on a text corpus. Analogous to acoustic models, generic language models use huge text corpora with a broad variety of topics. It is however possible to train language models on small and specialized text corpora, which is the central technical foundation for the approach discussed in this thesis.
 
 ## Work done on ASR for lecture transcription
-
 I will now give an overview over the scientific work done on lecture transcription, using @marquard as a guiding reference.
 
 The research for speech recognition on lectures can be partitioned into three general approaches: generalization approaches, specialization approaches and approaches involving the user for manual correction and improvements.
@@ -344,7 +199,7 @@ Specialization approaches try to use context specific to a single lecture ("meso
 
 Methods used for creating LMs from context information can be categorized into two approaches: direct usage of lecture slides and notes for the creation of LMs versus usage of "derived" data from these materials. Deriving data by using keywords found in slides, using them as web search query terms and using the found documents as the basis for LM creation is explored in @munteanu, @kawahara08 and @marquard.
 
-Using the whole text from lecture slides has been explored by @yamazaki. They compare the *meso level* with the *micro level* by dynamically adapting the LM to the speech corresponding to a particular slide. <!-- TODO: results? --!> @kawahara08 also examine dynamic local slide-by-slide adaption and compare it to global topic adaption using Probabilistic Latent Semantic Analysis (PLSA)^[Latent Semantic Analysis is an approach to document comparison and retrieval which relies on a numeric analysis of word frequency and proximity. <!-- TODO: reformulate --!>] and web text collection, concluding that the latter performs worse then the former because of a worse orientation to topic words. <!-- TODO: find citation that is not from marquard --!>.
+Using the whole text from lecture slides has been explored by @yamazaki. They compare the *meso level* with the *micro level* by dynamically adapting the LM to the speech corresponding to a particular slide. <!-- TODO: results? --!> @kawahara08 also examine dynamic local slide-by-slide adaption and compare it to global topic adaption using Probabilistic Latent Semantic Analysis (PLSA)^[Latent Semantic Analysis is an approach to document comparison and retrieval which relies on a numeric analysis of word frequency and proximity. <!-- TODO: reformulate --!>] and web text collection, concluding that the latter performs worse then the former because of a "worse orientation to topic words".
 
 <!--
 @akita (todo):
@@ -365,10 +220,6 @@ memoizer,”
  --!>
 <!-- TODO: finish this crap --!>
 <!-- TODO: explain how our approach can be classified according to this stuff --!>
-
-## Metrics
-
-<!-- TODO: finish this crap --!>
 
 # Test data { #data }
 
@@ -445,8 +296,31 @@ The purpose of the ILM in our approach is to factor in the importance of keyword
 
 As an example, the 1-gram *sex* has a probability of 2.82% in the keyword model of `psy-14`, but a probability of 0.012% in the generic English LM ^[@cmuLm]. When applying 50/50 interpolation, the result is $2.82\%*0.5 + 0.012\%*0.5 = 1.416\%$, which is an increase by the factor ~117 over the generic probability.
 
-## Sphinx 4
-<!-- TODO: do I really need this? --!>
+I will now give an overview over the Sphinx 4 architecture, followed by a description of the implementation of the approach.
+
+## Sphinx 4 architecture
+Sphinx 4's overall architecture as shown in figure \ref{sphinx4} is comprised of three primary modules: the *FrontEnd*, the *Decoder* and the *Linguist*.^[The following description is based on @whitepaper.] The *FrontEnd* takes one or more input signals and parameterizes them into a sequence of *Features*. The *Linguist* takes any type of standard language model, pronunciation information from a phonetic *Dictionary* and information from one or more sets of *AcousticModels*, generating a *Search Graph*. The *SearchManager* in the *Decoder* uses *Features* from the *FrontEnd* to perform decoding. Each of the components (written italicized) are interfaces for which the actual implementation can be configured at runtime.
+
+### FrontEnd
+The frontend parameterizes an *Input* signal into a sequence of output *Features*. This process is realized as a one or multiple chains that can run in parallel, permitting simultaneous computation of different types of parameters from the same or different input signals.
+
+### Linguist
+The *Linguist* encapsulates the details of generating a *SearchGraph* used by the *SearchManager* in the *Decoder*. It consists of the *LanguageModel*, the *Dictionary* and the *AcousticModel*.
+
+*LanguageModel* implementations typically can be categorized into graph-driven grammars and n-gram models. The latter are primarily differentiated by their usage parameters (e.g. small vs. very big LMs; input formats).
+
+*Dictionary* provides the pronunciations for words found in the *LanguageModel*. A G2P Model can be specified in the configuration which will statistically model missing entries in the dictionary based.
+
+The *AcousticModel* provides a mapping between a phoneme and an HMM that can be scored against incoming *Features* provided by the *FrontEnd*, also taking word-contextual information into account.
+
+### SearchGraph
+The primary data structure in the decoding phase is the *SearchGraph*. It is a directed graph which nodes are *SearchStates* that are either *emitting* or *non-emitting*. The *emitting* state can be scored against an incoming acoustic feature, while *non-emitting* state represent higher-level linguistic constructs such as words and phonemes that are not directly scored against those features.
+
+### Decoder
+The *Decoder* uses *Features* from the *FrontEnd* by using a *SearchManager*, that controls the *Linguist's* *SearchGraph* to generate *Result* hypotheses. The *Decoder* tells the *SearchManager* to recognize a set of *Feature* frames. At each step, the *SearchManager* creates a *Result* object that contains all paths that "reached a final non-emitting state".
+
+
+![Sphinx 4 architecture \label{sphinx4}](images/sphinx4_150.png)
 
 ## Implementation
 
@@ -627,7 +501,7 @@ ranked from most to least frequent." [@marquard, p. 71]
 
 ### Lemmas
 
-When searching for a specific term the user is interested in the *lemma* for a given word: when he wants to find occurences of *child* in the given lecture, occurences of "children", "child's", "children's" etc. would also be relevant. This implies two things: 1) when looking at the "atomic" level of improvements and degradations <!-- TODO: worsenings? --!> it is more relevant to have lemmas as atoms and not words and 2) the exact matching (a hypothesis word is only "correct" if it exactly matches the reference word) of the WER algorithm should be "loosened" to also mark hypothesis words as correct if their lemmatized version matches the reference.
+When searching for a specific term the user is interested in the *lemma* for a given word: when he wants to find occurences of *child* in the given lecture, occurences of "children", "child's", "children's" etc. would also be relevant. This implies two things: 1) when looking at the "atomic" level of improvements and degradations it is more relevant to have lemmas as atoms and not words and 2) the exact matching (a hypothesis word is only "correct" if it exactly matches the reference word) of the WER algorithm should be "loosened" to also mark hypothesis words as correct if their lemmatized version matches the reference.
 
 The same principle holds for the $top_X$ words: we only want to capture words for which the *lemma* is not in the $top_X$ words.
 
@@ -662,42 +536,44 @@ Secondly, the KWER-500 of A is 48% (182/376 keywords) versus 32% for B (121/376 
 The last metric of $W_{worse|improved}(K)$ looks at the overall worsened/improved words and informs about the proportion of words that were keywords. As mentioned, $W_{worse}$ is 4% (223 of the overall 5342 words have been worsened). What is the proportion of keywords in this number? Analogously, what is the proportion of keywords when looking at the overall improved words? This metric is key in identifying the *effectiveness* (E) of our approach: the $W_{improved}(K)$ value answers the question how well our approach is targeted towards improving the words we are interested in, the $W_{worse}(K)$ value answers the question how big the "side effect" of worsening keywords is. In the example, $W_{worse}(K)$ is 3% (6/227) and $W_{improved}(K)$ is 30% (67/223). This is great: of the 227 overall worsened words only **6** were relevant given our goals. In essence, we can interpret $W_{improved}(K) - W_{worse}(K)$ as an **effectiveness score**, the same way we interpret the difference between $W/KW_{improved}$ and $W/KW_{worse}$ as "singular" metrics (WER and KWER respectively). We can say that our example had an effectiveness of $30-3=27\%$. An effectiveness of 100% would mean that *all* words that were improved had been keywords and *none* of the worsened words would have been keywords.
 
 ## Results
-The results for the test lectures described above (chapter \ref{data}) are as follows^[Column 2-x represent the lectures, the numbers refer to the following lectures: 1: `human-nature-8`, 2: `environmental-8`, 3: `psy-14`, 4: `psy-5`, 5: `biomed-eng-1`.]:
+The results for the test lectures described above (chapter \ref{data}) are as follows^[Column 2-x represent the lectures, the numbers refer to the following lectures: 1: `human-nature-8`, 2: `environmental-8`, 3: `psy-14`, 4: `psy-5`, 5: `biomed-eng-1`, 6: `geology-8`.]:
 
 \small{}
-```{.table type="pipe" aligns="MMMMMM" caption="Results" header="yes"}
-Metric, 1, 2, 3, 4, 5
-W, 5342, 7233, 7618, 7142, 7046
-KW, 376, 715, 974, 607, 518
- , , , ,
-$WER_A$, 43%, 30%, 34%, 37%, 22%
-$WER_B$, 43%, 30%, 34%, 37%, 22%
-$W_{improved}$, 4%, 4%, 5%, 5%, 3%
-$W_{worse}$, 4%, 4%, 5%, 5%, 3%
-$\Delta WER$^[$\Delta$ refers to the improvement from version A to B in this context.], **0%**, **0%**, **0%**, **0%**, **0%**
- , , , ,
-$KWER_A$^[KWER means KWER-500 for brevity if not noted otherwise.], 48%, 34%, 33%, 40%, 32%
-$KWER_B$, 32%, 18%, 17%, 19%, 17%
-$KW_{improved}$, 18%, 16%, 17%, 22%, 16%
-$KW_{worse}$, 2%, 1%, 1%, 0%, 1%
-$\Delta KWER$, **16%**, **15%**, **16%**, **22%**, **15%**
- , , , ,
-$W_{improved}(K)$, 30%, 39%, 41%, 40%, 44%
-$W_{worse}(K)$, 3%, 2%, 2%, 0%, 2%
-E, **27%**, **37%**, **39%**, **40%**, **42%**
+```{.table type="pipe" aligns="MMMMMM" caption="Results"}
+Metric, 1, 2, 3, 4, 5, 6
+W, 5342, 7233, 7618, 7142, 7046, 6024
+KW, 376, 715, 974, 607, 518, 314
+ , , , , ,
+$WER_A$, 43%, 30%, 34%, 37%, 22%, 40%
+$WER_B$, 43%, 30%, 34%, 37%, 22%, 40%
+$W_{improved}$, 4%, 4%, 5%, 5%, 3%, 4%
+$W_{worse}$, 4%, 4%, 5%, 5%, 3%, 5%
+$\Delta WER$^[$\Delta$ refers to the improvement from version A to B in this context.], **0%**, **0%**, **0%**, **0%**, **0%**, **0%**
+ , , , , ,
+$KWER_A$^[KWER means KWER-500 for brevity if not noted otherwise.], 48%, 34%, 33%, 40%, 32%, 40%
+$KWER_B$, 32%, 18%, 17%, 19%, 17%, 22%
+$KW_{improved}$, 18%, 16%, 17%, 22%, 16%, 20%
+$KW_{worse}$, 2%, 1%, 1%, 0%, 1%, 1%
+$\Delta KWER$, **16%**, **15%**, **16%**, **22%**, **15%**, **18%**
+ , , , , ,
+$W_{improved}(K)$, 30%, 39%, 41%, 40%, 44%, 26%
+$W_{worse}(K)$, 3%, 2%, 2%, 0%, 2%, 1%
+E, **27%**, **37%**, **39%**, **40%**, **42%**, **25%**
 ```
 
 \normalsize{}
 
-<!-- TODO:  --!>
-    The means are:
-    ```{.table type="pipe" aligns="MMMMMM" caption="Results" header="yes"}
-    Metric, Mean in %
-    $WER$, 33.2%
-    $KWER$, TODO
 
-    ```
-The mean $WER$ is 33.2%, the ma$\Delta WER$ is 0.0%, for $\Delta KWER$ it is 16.8%, for E it is 37%.
+The means are:
+```{.table type="pipe" aligns="MMMMMM" caption="Result means"}
+Metric, Mean in %
+$WER$, 34.3%
+$KWER$, 37.8%
+$\Delta WER$, 0.0%
+$\Delta KWER$, 17.0%
+$E$, 35.0%
+```
+
 
 ## Interpretation
 
@@ -753,18 +629,17 @@ We have shown that the LM-Interpolation approach is a viable tool for improving 
 
 A better approach would be focusing the interface exclusively on the keywords in such a way that the provided timing meta information is transformed into a dense visual representation, thus making scanning possible. The user should be able to see the distribution of topics during the timeline of the lecture with *once glance*.
 
-To this end I have developed a prototype implementation of such an interface. It features two views: the first one is a list of word timelines (Figure \ref{timelines}). A word timeline shows the distribution of occurences of a given word over the time of the lecture. An occurence is displayed as a dot; clicking the dot posititions the corresponding lecture audio at the time the word occurence is spoken. The timelines are vertically sorted by count of word occurences. For analytical purposes the interface also shows the count of recognized occurences in relation to the actual count of occurences in the reference transcript, seen next to the word. It also overlays a graph which shows the *word density* at a given time point. The density function is calculated by performing a Gaussian Kernel Density Estimation (KDE) algorithm on the array of time positions for a given word. The red dots are local maxima of the function^[The local maxima are computed with the `scipy.signal.argrelextrema` function from the python `scipy` package and had some mildly surprising results, which were of no relevance for the interface prototyping task however.], so that a word can have multiple maxima. The information about maxima is being used primarily in the second view.
+To this end I have developed a prototype implementation of such an interface^[The source code is available at <https://github.com/jonathanewerner/bachelor/tree/master/viz>. The prototype is implemented with web technology (Javascript, interactive SVGs, React.js, CSS) with the goal of easing possible integration into existing web video portals.]. It features two views: the first one is a list of word timelines (Figure \ref{timelines}). A word timeline shows the distribution of occurences of a given word over the time of the lecture. An occurence is displayed as a dot; clicking the dot posititions the corresponding lecture audio at the time the word occurence is spoken. The timelines are vertically sorted by count of word occurences. For analytical purposes the interface also shows the count of recognized occurences in relation to the actual count of occurences in the reference transcript, seen next to the word. It also overlays a graph which shows the *word density* at a given time point. The density function is calculated by performing a Gaussian Kernel Density Estimation (KDE) algorithm on the array of time positions for a given word. The red dots are local maxima of the function^[The local maxima are computed with the `scipy.signal.argrelextrema` function from the python `scipy` package and had some mildly surprising results, which were of no relevance for the interface prototyping task however.], so that a word can have multiple maxima. The information about maxima is being used primarily in the second view.
 
 ![Word timelines \label{timelines}](images/timelines.png)
 
-The second view (Figure \ref{cloud}) is a *word cloud* with "semantic axes", compared to regular word cloud visualizations where the axes don't have meaning. The x-axis still is the time-axis of the lecture and the y-axis still is the keyword frequency. The central feature of this cloud is that it can show *multiple instances* of one keyword -- one instance for each local maximum. The word instance is on the same point on the x-axis as the corresponding local maximum. The timeline for a word can be shown by clicking on it. The example shows "brain" in the activated state; the timeline shows up below the map. One can see the two instances of "brain" being horizontally aligned with the two local maxima below^[It is obvious here that the first local maximum for the word should rather be at about 30-40% of the word's timeline, but that could be optimized.]. Clicking on the word also transports the audio to the position of the word next to the given local maximum. The font size of the word is computed by counting the word occurrences for which this maximum is the nearest. Additionally multiple instances of one keyword have the same color to further aid scanning by allowing the brain to pre-attentively process the representation. 
+The second view (Figure \ref{cloud}) is a *word cloud* with "semantic axes", compared to regular word cloud visualizations where the axes don't have meaning. The x-axis still is the time-axis of the lecture and the y-axis still is the keyword frequency. The central feature of this cloud is that it can show *multiple instances* of one keyword -- one instance for each local maximum. The word instance is on the same point on the x-axis as the corresponding local maximum. The timeline for a word can be shown by clicking on it. The example shows "brain" in the activated state; the timeline shows up below the map. One can see the two instances of "brain" being horizontally aligned with the two local maxima below^[It is obvious here that the first local maximum for the word should rather be at about 30-40% of the word's timeline, but that could be optimized.]. Clicking on the word also transports the audio to the position of the word next to the given local maximum. The font size of the word is computed by counting the word occurrences for which this maximum is the nearest. Additionally multiple instances of one keyword have the same color to further aid scanning by allowing the brain to pre-attentively process the representation.
 
 ![Word cloud \label{cloud}](images/cloud.png)
 
-This view allows an user to immediately scan the distribution of topics during the whole lecture. If particularly interested in the parts about the brain, he/she might click on "brain", be immediately transported to the relevant audio position and additionally have a more in-depth view in the bottom timeline below the cloud, allowing him/here to intuitively grasp how long the relevant part might be, maybe skipping around by clicking on other instances of the word in the timeline. 
+This view allows an user to immediately scan the distribution of topics during the whole lecture. If particularly interested in the parts about the brain, he/she might click on "brain", be immediately transported to the relevant audio position and additionally have a more in-depth view in the bottom timeline below the cloud, allowing him/here to intuitively grasp how long the relevant part might be, maybe skipping around by clicking on other instances of the word in the timeline.
 
 You could imagine integrating this interface as a semi-transparent overlay view on a video player, for example on platforms like lecture2go^[[lecture2go.uni-hamburg.de](lecture2go.uni-hamburg.de)], the lecture video streaming platform used by the University of Hamburg. When using a system that integrates many lectures in one database like this, it would also be possible to not only link to keyword instances in the same lecture but also on a broader scope, e.g the whole course or even other relevant courses & lectures. Another interesting extension point would be to integrate human intelligence by allowing to review/score the quality of keyword instances. This would allow filtering out false-positives and emphasize the keyword instances that students find helpful.
-
 
 # Conclusion
 
