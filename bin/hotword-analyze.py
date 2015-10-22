@@ -26,7 +26,6 @@ def main():
 
     call_('filter.py reference.corpus.txt > reference_wordcounts.json')
     for mode in ['baseline', 'interpolated']:
-
         # call_('wordpositions reference_wordcounts.json sphinx_word_times_{mode}.txt > cloud_{mode}.json'.format(mode=mode))
         # call_('cluster.py cloud_{mode}.json'.format(mode=mode))
         # call_('cp cloud_{mode}.json {folder}/{name}_{mode}.json'.format(mode=mode, name=testcase_name, folder=viz_data_path))

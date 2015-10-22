@@ -75,10 +75,11 @@ def main(INTERPOLATED):
 
     gigs = 4 # 4GB heap
     cmd = 'java -Xmx{}G -jar Hotwords.jar {} 2>&1 | tee -a "{}"'.format(gigs, sphinx_arguments, log_file)
+    print(cmd)
     wd = join(script_path, 'sphinx')
     call(cmd, cwd=wd, shell=True)
 
-main(INTERPOLATED=False)
-# main(INTERPOLATED=True)
+# main(INTERPOLATED=False)
+main(INTERPOLATED=True)
 
 

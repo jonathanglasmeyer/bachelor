@@ -74,7 +74,7 @@ Automatic Speech Recognition (ASR) can be defined as an "independent, machine-ba
 @rabiner date the first research on ASR back to the
 early 1950s, when Bell Labs built a system for single-speaker digit
 recognition. Since then the field has seen three major approaches, which
-@marquard calls the "acoustic-phonetic approach", the "statical pattern-recognition approach" and the "artificial intelligence approach".
+@marquard calls the *acoustic-phonetic approach*, the *statical pattern-recognition approach* and the *artificial intelligence approach*.
 
 The acoustic-phonetic approach aimed to identify phonetic features of speech such as vowels or consonants directly through their acoustic properties and from that build up words based on these constituent elements.
 
@@ -103,7 +103,7 @@ Command and control system, Independent, Small,      Isolated
 Lecture transcription,      Independent/Adaptive, Large,      Connected
 ```
 
-The task of automatic lecture transcription can thus be characterized as speaker-independent (SI) large continuous speech recognition (LVCSR).
+The task of automatic lecture transcription can thus be characterized as speaker-independent (SI) large-vocabulary continuous speech recognition (LVCSR).
 
 ## Concepts
 Speech recognition in the *statistical pattern-recognition approach* paradigm has these major concepts that are necessary for its understanding:
@@ -129,7 +129,7 @@ Phonetic dictionaries map words to one or more versions of phoneme sequences.
 
 A phonetic representation of a word is specified manually based on the knowledge of how written words *actually sound* when spoken.
 
-An excerpt from the dictionary `cmudict-en-us.dict` @cmuDict looks like this (phonemes are given in Arpabet representation):
+An excerpt from the CMU EN-US Pronouncing Dictionary @cmuDict looks like this (phonemes are given in Arpabet representation):
 
     ...
     abdollah AE B D AA L AH
@@ -139,7 +139,9 @@ An excerpt from the dictionary `cmudict-en-us.dict` @cmuDict looks like this (ph
     abdominal(2) AH B D AA M AH N AH L
     ...
 
-The dictionary has 133.425 entries. Generally only words that are in the phonetic dictionary being used can be recognized during speech recognition. *Grapheme^["The smallest unit used in describing the writing system of a language" @florian1996blackwell, p.174]-to-Phoneme converters* (G2P) however make it possible to get phoneme sequence hypotheses for arbitrary words (i.e arbitrary sequences of graphemes). While these results are on average less accurate than manually created variants, they play a vital role in texts with many technical terms as these are often not included in phonetic dictionaries.
+The dictionary has 133.425 entries. Generally only words that are in the phonetic dictionary being used can be recognized during speech recognition. *Grapheme[^grapheme]-to-Phoneme converters* (G2P) however make it possible to get phoneme sequence hypotheses for arbitrary words (i.e arbitrary sequences of graphemes). While these results are on average less accurate than manually created variants, they play a vital role in texts with many technical terms as these are often not included in phonetic dictionaries.
+
+[^grapheme]: A grapheme is "the smallest unit used in describing the writing system of a language" [@florian1996blackwell]. Some languages have strong correspondences between phonemes and graphemes, this is not a necessary relationship however -- the English word "debt" for example has the grapheme `<b>`, which is not represented by a corresponding sound.
 
 ### Search
 Search is the basic abstraction that lies at the center of the speech recognition process, which is called the *decoding phase*. The recognition process is implemented as a search algorithm on a directed search graph. This graph is constructed by taking different information dimensions into account: typically an acoustic model, a language model and phonetic dictionary. An example graph is shown in figure \ref{graph}^[The graph is taken from @whitepaper.]. Here words (from a language model) are shown in rectangles, phonemes (from a phonetic dictionary) as dark circles and audio input features as white circles (from an acoustic model). The general search space topology and phonetic context size is dependent on the specific algorithm used.
@@ -160,17 +162,17 @@ However, acoustic models alone are not sufficient for speech recognition as they
 
 Language models (LM) guide and constrain the search process that a speech recognition system performs by assigning probabilities to sequences of words. The basic premise, called Markov assumption, is that the overall probability of a sentence with the words $w_1,...,w_n$ can be approximated as follows:
 
-$$P(w_1,...,w_n) = \prod_{n=1}^m P(w_i \mid w_1,...w_{i-1})$$
+$$P(w_1,...,w_n) = \prod_{i=1}^m P(w_i \mid w_1,...w_{i-1})$$
 
 This assumption says that an approximate probability of a given word can be calculated only by looking at the last *n* - 1 prior words. This property significantly decreases statistical complexity and thus makes it computationally feasible.
 
 An example approximation with a bigram model for the sentence "I saw the red house" represented as $P(\text{I, saw, the, red, house})$ would look like
 $$
-  P(\text{I} \mid \langle s \rangle) \times
-  P(\text{saw} \mid \text{I}) \times
-  P(\text{the} \mid \text{saw}) \times
-  P(\text{red} \mid \text{the}) \times
-  P(\text{house} \mid \text{red}) \times
+  P(\text{I} \mid \langle s \rangle) \cdot
+  P(\text{saw} \mid \text{I}) \cdot
+  P(\text{the} \mid \text{saw}) \cdot
+  P(\text{red} \mid \text{the}) \cdot
+  P(\text{house} \mid \text{red}) \cdot
   P(\langle s \rangle \mid \text{house})
 $$
 
@@ -192,14 +194,14 @@ The generalization approach has been applied on the acoustic model level: @cetto
 
 While a subfield of ASR called "speaker diarization" tries to account for the interactivity between lecturers and students by identifying multiple speakers, most research treats lectures as single speaker events with the audience as background noise.
 
-Generalization approaches at the language model level try to model common linguistic traits of the lecture genre (this can be called the "macro level"). @kato2000 investigate topic-independent language modeling by creating a large corpus of text from lecture transcripts and panel discussions and then removing topic-specific keywords. ^[In a second step they combine this generalization technique with a specialization technique by adapting the resulting LM with a lecture-specific language model by using preprint papers of a given lecture.]
+Generalization approaches at the language model level try to model common linguistic traits of the lecture genre (this can be called the *macro level*). @kato2000 investigate topic-independent language modeling by creating a large corpus of text from lecture transcripts and panel discussions and then removing topic-specific keywords. ^[In a second step they combine this generalization technique with a specialization technique by adapting the resulting LM with a lecture-specific language model by using preprint papers of a given lecture.]
 
 ### Specialization approaches
-Specialization approaches try to use context specific to a single lecture ("meso level") or parts of a single lecture ("micro level"^[The three levels are taken from @marquard.]).
+Specialization approaches try to use context specific to a single lecture (*meso level*) or parts of a single lecture (*micro level*^[The three levels are taken from @marquard.]).
 
 Methods used for creating LMs from context information can be categorized into two approaches: direct usage of lecture slides and notes for the creation of LMs versus usage of "derived" data from these materials. Deriving data by using keywords found in slides, using them as web search query terms and using the found documents as the basis for LM creation is explored in @munteanu, @kawahara08 and @marquard.
 
-Using the whole text from lecture slides has been explored by @yamazaki. They compare the *meso level* with the *micro level* by dynamically adapting the LM to the speech corresponding to a particular slide. <!-- TODO: results? --!> @kawahara08 also examine dynamic local slide-by-slide adaption and compare it to global topic adaption using Probabilistic Latent Semantic Analysis (PLSA)^[Latent Semantic Analysis is an approach to document comparison and retrieval which relies on a numeric analysis of word frequency and proximity. <!-- TODO: reformulate --!>] and web text collection, concluding that the latter performs worse then the former because of a "worse orientation to topic words".
+Using the whole text from lecture slides has been explored by @yamazaki. They compare the meso level with the micro level by dynamically adapting the LM to the speech corresponding to a particular slide. <!-- TODO: results? --!> @kawahara08 also examine dynamic local slide-by-slide adaption and compare it to global topic adaption using Probabilistic Latent Semantic Analysis (PLSA)^[Latent Semantic Analysis is an approach to document comparison and retrieval which relies on a numeric analysis of word frequency and proximity. <!-- TODO: reformulate --!>] and web text collection, concluding that the latter performs worse than the former because of a "worse orientation to topic words".
 
 <!--
 @akita (todo):
@@ -220,6 +222,8 @@ memoizer,”
  --!>
 <!-- TODO: finish this crap --!>
 <!-- TODO: explain how our approach can be classified according to this stuff --!>
+
+<!-- TODO: überleitung --!>
 
 # Test data { #data }
 
@@ -246,7 +250,7 @@ The available material is very heterogeneous. I will now give an overview with e
 
 `geology-8` supplies a 2-page excercise sheet.
 
-> "Mars has a radius of 3.39 x 106 m and a surface gravity of 3.73 ms-2. Calculate the escape velocity
+> "Mars has a radius of 3.39 x $10^6$ m and a surface gravity of 3.73 $ms^{-2}$. Calculate the escape velocity
 > for Mars and the typical speed of a CO2 molecule (assume T = 250 K). How can Mars retain its CO2
 > atmosphere? (Hint: the molecular weight of carbon dioxide is 44. Use the formulae given in class.) [...]"
 
@@ -324,7 +328,7 @@ The *Decoder* uses *Features* from the *FrontEnd* by using a *SearchManager*, th
 
 ## Implementation
 
-The pipeline is implemented with a collection of standalone command line tools and a set of Bash and Python scripts^[The source code is available here: <https://github.com/jonathanewerner/bachelor/tree/master/bin>].
+The pipeline is implemented with a collection of standalone command line tools and a set of shell and Python scripts^[The source code is available here: <https://github.com/jonathanewerner/bachelor/tree/master/bin>].
 
 The tasks are the following, in chronological order:
 
@@ -336,7 +340,7 @@ The tasks are the following, in chronological order:
 
 2. **Create a keyword LM from lecture material**
 
-    - `pdftohtml -i -xml` is applied on the given material PDF. The XML output representation is input to `pdfreflow`^[pdftohtml and pdfreflow are open source linux command line utilities]. Compared to the tool `pdftotext` the combination of these 2 tools preserves paragraphs correctly, whereas `pdftotext` represents each line break in the input PDF as a new paragraph in the output text file. This is a significant disadvantage for the LM creation step, as a newline in the input file there has the semantic "end of sentence" -- so that a sentence split into 4 lines by `pdftotext` would count as 4 sentences in the LM.
+    - `pdftohtml -i -xml` is applied on the given material PDF. The XML output representation is input to `pdfreflow`^[pdftohtml (<http://pdftohtml.sourceforge.net/>) and pdfreflow (<http://sourceforge.net/projects/pdfreflow/>) are open source linux command line utilities]. Compared to the tool `pdftotext` the combination of these 2 tools preserves paragraphs correctly, whereas `pdftotext` represents each line break in the input PDF as a new paragraph in the output text file. This is a significant disadvantage for the LM creation step, as a newline in the input file there has the semantic "end of sentence" -- so that a sentence split into 4 lines by `pdftotext` would count as 4 sentences in the LM.
     - The HTML output from `pdfreflow` is filtered by taking only relevant HTML-tags such as `<p>`'s (paragraphs) and `<blockquote>`'s, further improving the content-to-noise ratio.
     - The resulting text is then preprocessed for optimal compatibility with the LM creation tool by removing punctuation and superfluous whitespace^[I use a combination of command line text processing (sed) and a perl script from Stephen Marquard here.].
     - The resulting corpus is input to `estimate-ngram`, a LM creation tool from the MIT Language Modeling Toolkit^[<https://code.google.com/p/mitlm/wiki/EstimateNgram>] (MITLMT).
@@ -489,31 +493,44 @@ File,                                 Description
 I will now discuss how to evaluate the usefulness of the LM-Interpolation approach in light of the goal to improve recognition accuracy of interesting keywords.
 
 ## Approaching a good metric
-We want to find a metric that describes if and how much the interpolated version improves upon the baseline version. Comparing the generic WER of the two runs does not help to answer the question of how much our approach improves the accuracy of interesting keywords.
+We want to find a metric that describes if and how much the interpolated version improves upon the baseline version. The "canonic" metric used to evaluate speech recognition performance is called *Word Error Rate* (WER). The WER is derived from taking the Levenstein distance at the word level between a reference transcript and the recognition result. WER is calculated as:
 
-### Lecture-scoped WER excluding $top_X$ words
+$$ WER = \frac{S + D + I}{N} $$
 
-In the interpolated approach we have included the LM created from the lecture material. The basic question to ask when assessing the effectiveness of this approach is: how much better is the WER when *just looking at the words from the lecture material LM*? This is only a starting point however. The lecture material corpus includes a substantial amount of words that would not be classified as "interesting keywords": filler words and very common words. One approach to sort them out is subtracting a set of top $x$ most common words ("$top_X$ words") from this list. The resulting metric can then be parameterized on the given $x$. This is an idea that Marquard uses when he proposes the metric "Ranked Word Correct Rate" (RWCR-n):
+where
+
+- $S$ is the number of substitutions
+- $D$ is the number of deletions
+- $I$ is the number of insertions
+- $N$ is the number of words in the reference ($N = S+D+C$, where $C$ is the number of correct words)
+
+This approach circumvents the problem that the reference and the recognition result get "out of sync" when words are inserted or removed.
+
+The problem of using WER for our purposes is twofold: 1. it does not help answering the question of how much our approach improves the accuracy of keywords; it only pertains to *all* words. 2. it penalizes *insertions*. But insertions are not relevant to the question how many of the keywords from the reference transcript have been detected. Insertions only matter when we are interested in the *sentence integrity* of the result transcript. In our case, we do not care if there are superfluous words *between* correctly recognized keywords^[Although there might be cases of technical terms that are compound words -- in that case a insertion would be problematic. Detection of this edge case is beyond the scope of our approach, however.].
+
+These considerations lead to the conclusion that a first improvement over regular *WER* would be to just look at the *detection rate* of words, where detection rate describes the rate of words from a transcript that have been correctly recognized. This can be expressed by using WER in a first step in order to get the benefit of word synchronization and then filtering out insertions in a second step. It is not necessary to filter out deletions as those can be seen as non-detected words.
+
+A next improvement consists in just considering the words which are part of the material corpus. By just taking the words that we used to create the material corpus for our interpolated LM we can precicely evaluate the improvement effect of this change. This is still not perfect however. The lecture material corpus includes a substantial amount of words that would not be classified as "keywords": filler words and very common words. One approach to sort them out is subtracting a set of top $x$ most common words (*$top_X$ words*) from this list. The resulting metric can then be parameterized on the given $x$. This is an idea that Marquard uses when he proposes the metric "Ranked Word Correct Rate" (RWCR-n):
 
 > "RWCR-n is defined as the Word Correct Rate for all words in the document which are
 not found in the first n words in a given general English word dictionary with words
 ranked from most to least frequent." [@marquard, p. 71]
 
 ### Lemmas
-
-When searching for a specific term the user is interested in the *lemma* for a given word: when he wants to find occurences of *child* in the given lecture, occurences of "children", "child's", "children's" etc. would also be relevant. This implies two things: 1) when looking at the "atomic" level of improvements and degradations it is more relevant to have lemmas as atoms and not words and 2) the exact matching (a hypothesis word is only "correct" if it exactly matches the reference word) of the WER algorithm should be "loosened" to also mark hypothesis words as correct if their lemmatized version matches the reference.
+When searching for a specific term the user is interested in the *lemma*^[A lemma, also called "headword", is the canonical form of a word that is chosen by convention to represent a group of lexemes that refer to the same meaning. A typical use would be the key of an dictionary entry.] for a given word: when he wants to find occurences of *child* in the given lecture, occurences of "children" would also be relevant. This implies two things: 1) when looking at the "atomic" level of improvements and degradations it is more relevant to have lemmas as atoms and not words and 2) the exact matching (a hypothesis word is only "correct" if it exactly matches the reference word) should be "loosened" to also mark hypothesis words as correct if their lemmatized version matches the reference.
 
 The same principle holds for the $top_X$ words: we only want to capture words for which the *lemma* is not in the $top_X$ words.
 
-### Proposed metric: KWER-x
+### Definition of KWDR-x and WDR
+We can distill these concerns into a definition of a metric called *KWDR-x*, which expresses the "Keyword Detection Rate", where a keyword is defined as the lemma of a word occuring in a given lemmatized lecture material corpus given that this lemma is not present in the lemmatized $top_X$ list of most common words of the given language. A keyword is *detected* when it is *lemma-equal*^[Two words are called *lemma-equal* when their lemmatized versions are equal.]to the corresponding word in the reference; if it is different or deleted, it is not detected.
 
-We can distill these concerns into a definition of a metric called *KWER-x*, which expresses the "Keyword Error Rate", where a keyword is defined as the lemma of a word occuring in a given lecture material corpus given that this lemma is not present in the $top_X$ list of most common words of the given language.
+The *Word Detection Rate* (WDR) is analogously defined as the rate of detected words, where a word is detected when it is lemma-equal to its reference.
 
 The value of x has to be determined empirically: how many of the top words should be filtered out? There has to be a balance between not accidentally excluding keywords (i.e "sex" is in the in the $top_{500}$ words) and filtering out enough filler words.
 
-After experimenting with some values I went with $x=500$ for my measurements. It is hard to find a less ad hoc approach to determining the "best" x, as you have no "meta"-metric that assesses how well a given x captures the goal of accurately describing the detection accuracy of keywords; it necessarily is a "best guess". $x=500$ was chosen by looking at the relationship from x to $\Delta KWER$ (the improvement in KWER-500) as shown in figure \ref{x-to-kwer}. For values of x below ~200 the growth of improvement is explained by the gradual removal of filler words from the set of keywords. Their recognition accuracy is not improved by our approach which is why they prevent the accuracy improvement of actual keywords to be visible. Above ~200 this factor is ruled out and the chosen x value has only miniscule influence on the resulting KWER.
+After experimenting with some values I went with $x=500$ for my measurements. It is hard to find a less ad hoc approach to determining the "best" x, as you have no "meta"-metric that assesses how well a given x captures the goal of accurately describing the detection accuracy of keywords; it necessarily is a "best guess". $x=500$ was chosen by looking at the relationship from x to $\Delta KWDR$ (the improvement in KWDR-500) as shown in figure \ref{x-to-KWDR}. For values of x below ~200 the growth of improvement is explained by the gradual removal of filler words from the set of keywords. Their recognition accuracy is not improved by our approach which is why they prevent the accuracy improvement of actual keywords to be visible. Above ~200 this factor is ruled out and the chosen x value has only miniscule influence on the resulting KWDR.
 
-![Relation of x to $\Delta KWER$ \label{x-to-kwer}](images/x-to-kwer_150.png)
+![Relation of x to $\Delta KWDR$, compiled by running the analysis on lecture `geology-8` with the x-values 0, 20, 40, 60, 80, 100, 200, 300, 400, 500 and 1000.\label{x-to-KWDR}](images/kwdr_150.png)
 
 This strategy, while depending on choosing an "ad hoc" value, was sufficient to validate our approach because it was possible to manually evaluate the metric's "precision" by observing the resulting word sets. Another approach would have been to take the *tf-idf* (Term Frequency - Inverse Document Frequency) as a criterion for "keyword-ness" of words. *tf-idf* computes the "relevance" of a word in the context of a document by taking into account the occurences of the word in the document offset by the word's frequency in a broader corpus. This way common words are rated lower although they occur frequently in the given document. This way there is no need for the arbitrary aspect of choosing an value of $x$ and the negative side effect of accidentally excluding a keyword. On the other hand there would be the need to choose a treshold *tf-idf* score which would have to be met for inclusion into the keyword set.
 
@@ -523,38 +540,201 @@ The following secondary or derived metrics are also evaluated:
 - $W$: Number of words
 - $KW$: Number of keywords
 - $WER_{A|B}$: WER of baseline (A) / interpolated version (B)
-- $KWER_{A|B}500$: KWER-500 of baseline (A) / interpolated version (B)
+- $WDR_{A|B}$: WDR of baseline (A) / interpolated version (B)
+- $KWDR_{A|B}500$: KWDR-500 of baseline (A) / interpolated version (B)
 - $W_{worse|improved}$: Proportion of worsened/improved words
 - $KW_{worse|improved}$: Proportion of worsened/improved keywords
 - $W_{worse|improved}(K)$: Proportion of worsened/improved words that are keywords
 - $E$: $W_{improved}(K) - W_{worse}(K)$: A percentage score for "effectiveness" of version B
 
-Their use can be exemplarily demonstrated on the lecture `human-nature-8`: The lecture has 5342 words overall, of which 376 are keywords. When looking at the general WER, run A and B both have a score of 43%. This can be "explained" by looking at $W_{worse|improved}$, which is 4% each, meaning that 4% (223/5342) of the words have been improved from run A to B, but 4% (227/5342) them have been worsened, which sums up to 0% difference in WER.
+Their use can be exemplarily demonstrated on the lecture `human-nature-8`: The lecture has 5342 words overall, of which 333 are keywords. When looking at the general WDR, run A and B both have a score of 57%. This can be "explained" by looking at $W_{worse|improved}$, which is 4% each, meaning that 4% (223/5342) of the words have been improved from run A to B, but 4% (221/5342) them have been worsened, which sums up to 0% difference in WDR.
 
-Secondly, the KWER-500 of A is 48% (182/376 keywords) versus 32% for B (121/376 keywords). This improvement of 16% can analogously be explained by looking at $KW_{worse|improved}$: when looking at the 376 keywords, 2% (6/376) of them have been worsened while 18% (67/376) have been improved. $18-2 = 16\%$ explains the improvement from 48% to 32%.
+Secondly, the KWDR-500 of A is 47% (156/333 keywords) versus 62% for B (121/376 keywords). This improvement of 15% can analogously be explained by looking at $KW_{worse|improved}$: when looking at the 376 keywords, 2% (7/333) of them have been worsened while 17% (58/333) have been improved. $17-2 = 15\%$ explains the improvement from 47% to 62%.
 
-The last metric of $W_{worse|improved}(K)$ looks at the overall worsened/improved words and informs about the proportion of words that were keywords. As mentioned, $W_{worse}$ is 4% (223 of the overall 5342 words have been worsened). What is the proportion of keywords in this number? Analogously, what is the proportion of keywords when looking at the overall improved words? This metric is key in identifying the *effectiveness* (E) of our approach: the $W_{improved}(K)$ value answers the question how well our approach is targeted towards improving the words we are interested in, the $W_{worse}(K)$ value answers the question how big the "side effect" of worsening keywords is. In the example, $W_{worse}(K)$ is 3% (6/227) and $W_{improved}(K)$ is 30% (67/223). This is great: of the 227 overall worsened words only **6** were relevant given our goals. In essence, we can interpret $W_{improved}(K) - W_{worse}(K)$ as an **effectiveness score**, the same way we interpret the difference between $W/KW_{improved}$ and $W/KW_{worse}$ as "singular" metrics (WER and KWER respectively). We can say that our example had an effectiveness of $30-3=27\%$. An effectiveness of 100% would mean that *all* words that were improved had been keywords and *none* of the worsened words would have been keywords.
+The last metric of $W_{worse|improved}(K)$ looks at the overall worsened/improved words and informs about the proportion of words that were keywords. As mentioned, $W_{worse}$ is 4% (221 of the overall 5342 words have been worsened). What is the proportion of keywords in this number? Analogously, what is the proportion of keywords when looking at the overall improved words? This metric is key in identifying the *effectiveness* (E) of our approach: the $W_{improved}(K)$ value answers the question how well our approach is targeted towards improving the words we are interested in, the $W_{worse}(K)$ value answers the question how big the "side effect" of worsening keywords is. In the example, $W_{worse}(K)$ is 3% (7/221) and $W_{improved}(K)$ is 26% (58/223). This is great: of the 221 overall worsened words only **7** were relevant given our goals. In essence, we can interpret $W_{improved}(K) - W_{worse}(K)$ as an **effectiveness score**, the same way we interpret the difference between $W/KW_{improved}$ and $W/KW_{worse}$ as "singular" metrics (WDR and KWDR respectively). We can say that our example had an effectiveness of $26-3=23\%$. An effectiveness of 100% would mean that *all* words that were improved had been keywords and *none* of the worsened words would have been keywords.
+
+## Analysis implementation
+The metrics are calculated automatically by `bin/wer.py` and `bin/compare-wer.py`. I will now outline some relevant implementation details.
+
+`bin/wer.py` performs a typical WER calculation algorithm. This is run on version A and B. The results are input to `bin/compare-wer.py`. The $top_{5000}$ words are taken from the *Corpus of Contemporary American English*^[<http://www.wordfrequency.info/free.asp>]. The lemmatization of words is done by the `lemmatize` function of `nltk.stem.wordnet.WordNetLemmatize`.
+
+The KWDR of A and B is then calculated by iterating over both WER results, where inserted words have been filtered out as we are only interested in the proportion of correctly recognized keywords. Each iteration operates on a tuple of (reference word, hypothesis A, hypothesis B). For both hypotheses it checks if the lemma of the reference word is equal to the lemma of the hypothesis word and possibly puts the reference word in a corresponding "wrong words" bin (one bin for A and B each). If both hypotheses were correct the next iteration is performed; else the given hypothesis is put into an "improved" or "worsened" bin (if A was correct and B was false, A will be put into a "worsened" bin to remember what the correct version of the word was that B detected wrong; if it is the other way round, B will be put into the "improved" bin.) Finally, if an hypothesis was wrong *and* in its lemma is in the lemmatized, $top_x$-words excluded, material corpus^[This refers to the set of lemmas from the material corpus, minus the  lemmatized versions of the $top_x$ words; compiled at script startup.], the reference will be put into an "wrong and keyword" bin (also one for each run)^[The nomenclature in the code differs slightly in that keywords are called "interesting" words there.].
+
+After the iterations are finished, the mentioned metrics are calculated by simple proportional calculation, taking into account the size of the resulting bins and overall measurements (like reference word count).
+
+As side effects, the bin contents as well as the calculated metrics are exported to HTML and JSON for further consumption for manual inspection or result aggregation.
+
+### Example
+The steps of this process can be made clearer by running through a small example.  The following toy data set serves as an input:
+
+- Material corpus: [axons the people psychology is rewarding]^[Imagine this being taken from sparse slides with bullet points.]
+- Reference transcript: "Axons are firing to stimulate people's minds." (This gets preprocessed to "axons are firing to stimulate peoples minds" in a former step.)
+- $Top_x$ words: [i are it is the people people's]
+- The WER results for A:
+
+        OP  | REF       | HYP
+        sub | axons     | accent
+        ok  | are       | are
+        ins | ****      | very
+        sub | firing    | tiring
+        ok  | to        | to
+        ok  | stimulate | stimulate
+        sub | peoples   | people
+        ok  | minds     | minds
+        {'Ins': 1, 'Cor': 4, 'WER': 0.571, 'Del': 0, 'Sub': 3}
+
+- The WER results for B:
+
+        OP  | REF       | HYP
+        sub | axons     | axon
+        ok  | are       | are
+        ins | ****      | very
+        sub | firing    | tiring
+        ok  | to        | to
+        ok  | stimulate | stimulate
+        sub | peoples   | people
+        sub | minds     | may
+        {'Sub': 4, 'Ins': 1, 'Del': 0, 'Cor': 3, 'WER': 0.714}
+
+The inputs are transformed to the following forms (removed words displayed as "**-removed**"; changed words **bold**):
+
+- Lemmatized material corpus: [**axon** the people psychology is rewarding]
+- Lemmatized $top_x$ words: [i are it is the people **-people's**]
+- Lemmatized material corpus minus lemmatized $top_x$ words ("keywords"): [axon **-the** **-people** psychology **-is** rewarding]
+
+For the demonstration the following pseudo code conventions and abbreviations are used:
+
+  - (a, b, c) = (1, 2, 3) is a destructuring assignment, binding a to 1, b to 2, c to 3
+  - `ref` refers to the reference word, hypA|B to the hypothesis from version A/B
+  - l(word) refers to the lemmatized version of a given word
+  - `->` is equivalent to "thus"
+  - bin names:
+    - wrong words from run X: `wrongX`
+    - wrong keywords from run A: `wrongKW_X`
+
+The KWDR algorithm performs with the following intermediate steps:
+
+- **Step 0**: (`ref`, `hypA`, `hypB`) = (axons, accent, axon)
+    - l(`ref`) != l(`hypA`) -> add `ref` to `wrongA`
+    - l(`ref`) == l(`hypB`) -> do nothing (explanation: axon == axon)
+    - `hypA` was wrong, `hypB` was correct -> add `hypB` to `improved`
+    - `hypA` was wrong and a keyword -> add `ref` to `wrongKW_A`
+    - `wrongA`: `[axons]`
+    - `wrongB`: `[ ]`
+    - `wrongKW_A`: `[axons]`
+    - `wrongKW_B`: `[ ]`
+    - `improved`: `[axons]`
+    - `worsened`: `[ ]`
+- **Step 1**: (`ref`, `hypA`, `hypB`) = (are, are, are)
+    - l(`ref`) == l(`hypA`) -> do nothing
+    - l(`ref`) == l(`hypB`) -> do nothing
+    - both are correct -> next iteration
+- **Step 2**: (`ref`, `hypA`, `hypB`) = (firing, tiring, tiring)^[Notice how the inserted row (marked with "INS" in the WER output) has been skipped).]
+    - l(`ref`) != l(`hypA`) -> add `ref` to `wrongA`
+    - l(`ref`) != l(`hypA`) -> add `ref` to `wrongB`
+    - `wrongA`: `[axons, firing]`
+    - `wrongB`: `[firing]`
+    - `wrongKW_A`: `[axons]`
+    - `wrongKW_B`: `[ ]`
+    - `improved`: `[axons]`
+    - `worsened`: `[ ]`
+- **Step 3/4**: (`ref`, `hypA`, `hypB`) = (to, to, to) / (stimulate, stimulate, stimulate)
+    - l(`ref`) == l(`hypA`) -> do nothing
+    - l(`ref`) == l(`hypB`) -> do nothing
+    - both are correct -> next iteration
+- **Step 5**: (`ref`, `hypA`, `hypB`) = (peoples, people, people)
+    - l(`ref`) == l(`hypA`) -> do nothing (explanation: people == people)
+    - l(`ref`) == l(`hypB`) -> do nothing (same explanation)
+    - both are correct -> next iteration
+- **Step 6**: (`ref`, `hypA`, `hypB`) = (minds, minds, may)
+    - l(`ref`) == l(`hypA`) -> do nothing
+    - l(`ref`) == l(`hypB`) -> add `ref` to `wrongB`
+    - `wrongA`: `[axons, firing]`
+    - `wrongB`: `[firing, minds]`
+    - `wrongKW_A`: `[axons]`
+    - `wrongKW_B`: `[ ]`
+    - `improved`: `[axons]`
+    - `worsened`: `[minds]`
+
+**Results:**
+
+- `wrongA`: `[axons, firing]`
+- `wrongB`: `[firing, minds]`
+- `wrongKW_A`: `[axons]`
+- `wrongKW_B`: `[ ]`
+- `improved`: `[axons]`
+- `worsened`: `[minds]`
+
+**General/derived metrics:**
+
+- $W$ (count of words in reference): 7 ("axons are firing to stimulate peoples minds")
+- $KW$ (count of keywords in reference): 1 ([axon])
+- `worsenedKW`: all from `worsened` where the word is in KW -> `[ ]`
+- `improvedKW`: all from `improved` where the word is in KW -> `[axons]`
+
+With these results we can calculate all metrics:
+
+- $WDR_A$ = $1 - \frac{|wrongA|}{W} = 1 - \frac{2}{7} = ~85\%$
+- $WDR_B$ = $1 - \frac{|wrongB|}{W} = 1 - \frac{2}{7} = ~85\%$
+- $W_{improved} = \frac{|improved|}{W} = \frac{1}{7} = ~14\%$
+- $W_{worsened} = \frac{|worsened|}{W} = \frac{1}{7} = ~14\%$
+- $KWDR_A$ = $1 - \frac{|wrongKW_A|}{KW} = 1 - \frac{1}{1} = 100\%$
+- $KWDR_B$ = $1 - \frac{|wrongKW_B|}{KW} = 1 - \frac{0}{1} = 0\%$
+- $KW_{improved} = \frac{|improvedKW|}{KW} = \frac{1}{1} = 100\%$
+- $KW_{worsened} = \frac{|worsenedKW|}{KW} = \frac{0}{1} = 0\%$
+- $W_{improved}(K) = \frac{|improvedKW|}{|improved|} = \frac{1}{1} = 100\%$
+- $W_{worsened}(K) = \frac{|worsenedKW|}{|worsened|} = \frac{0}{1} = 0\%$
+- $E = KW_{improved}(K) - KW_{worsened}(K) = 100\%$
+
+These metrics are more accessible by looking at the HTML output from `compare-wer.py` as shown in figure \ref{viz-html-words}.
+
+\begin{figure}[H]
+\label{viz-html-words}
+\centering
+\includegraphics{images/analysis_150.png}
+\caption{Visualization. Blue background: keyword. Green border: improved word. Red border: worsened word. Black border: lemmatization has changed a word.}
+\end{figure}
+
+<!-- TODO:
+The KWDR of A and B is then calculated by iterating over both WER results, where inserted words have been filtered out as we are only interested in the proportion of correctly recognized keywords. Each iteration operates on a tuple of (reference word, hypothesis A, hypothesis B).
+
+For both hypotheses it checks if the lemma of the reference word is equal to the lemma of the hypothesis word and possibly puts the hypothesis word in a "wrong words" bin (one bin for each A and B).
+
+If both hypotheses were correct the next iteration is performed;
+else the given hypothesis is put into an "improved" or "worsened" bin
+(if A was correct and B was false, A will be put into a "worsened" bin to remember what the correct version of the word was that B detected wrong;
+
+if it is the other way round, B will be put into the "improved" bin.)
+
+Finally, if an hypothesis was wrong *and* in its lemma is in the lemmatized, $top_x$-words excluded, material corpus^[This refers to the set of lemmas from the material corpus, minus the  lemmatized versions of the $top_x$ words; compiled at script startup.], the hypothesis will be put into an "wrong and keyword" bin^[The nomenclature in the code differs slightly in that keywords are called "interesting" words there.].
+ --!>
+
+
 
 ## Results
-The results for the test lectures described above (chapter \ref{data}) are as follows^[Column 2-x represent the lectures, the numbers refer to the following lectures: 1: `human-nature-8`, 2: `environmental-8`, 3: `psy-14`, 4: `psy-5`, 5: `biomed-eng-1`, 6: `geology-8`.]:
+The results for the test lectures described above (chapter \ref{data}) are as follows[^table-lectures] ($\Delta$ refers to the improvement from version A to B):
 
 \small{}
 ```{.table type="pipe" aligns="MMMMMM" caption="Results"}
-Metric, 1, 2, 3, 4, 5, 6
+Lecture, 1, 2, 3, 4, 5, 6
 W, 5342, 7233, 7618, 7142, 7046, 6024
 KW, 376, 715, 974, 607, 518, 314
  , , , , ,
-$WER_A$, 43%, 30%, 34%, 37%, 22%, 40%
-$WER_B$, 43%, 30%, 34%, 37%, 22%, 40%
+$WER_A$, 52%, 46%, 39%, 42%, 32%, 46%
+$WER_B$, 52%, 44%, 38%, 42%, 32%, 47%
+$\Delta WER$, **0%**, **2%**, **1%**, **0%**, **0%**, **-1%**
+ , , , , ,
+$WDR_A$, 57%, 70%, 66%, 63%, 78%, 60%
+$WDR_B$, 57%, 70%, 66%, 63%, 78%, 60%
 $W_{improved}$, 4%, 4%, 5%, 5%, 3%, 4%
 $W_{worse}$, 4%, 4%, 5%, 5%, 3%, 5%
-$\Delta WER$^[$\Delta$ refers to the improvement from version A to B in this context.], **0%**, **0%**, **0%**, **0%**, **0%**, **0%**
+$\Delta WDR$, **0%**, **0%**, **0%**, **0%**, **0%**, **0%**
  , , , , ,
-$KWER_A$^[KWER means KWER-500 for brevity if not noted otherwise.], 48%, 34%, 33%, 40%, 32%, 40%
-$KWER_B$, 32%, 18%, 17%, 19%, 17%, 22%
+$KWDR_A$^[KWDR means KWDR-500 for brevity if not noted otherwise.], 52%, 66%, 67%, 60%, 68%, 60%
+$KWDR_B$, 68%, 82%, 83%, 81%, 83%, 78%
 $KW_{improved}$, 18%, 16%, 17%, 22%, 16%, 20%
 $KW_{worse}$, 2%, 1%, 1%, 0%, 1%, 1%
-$\Delta KWER$, **16%**, **15%**, **16%**, **22%**, **15%**, **18%**
+$\Delta KWDR$, **16%**, **15%**, **16%**, **22%**, **15%**, **18%**
  , , , , ,
 $W_{improved}(K)$, 30%, 39%, 41%, 40%, 44%, 26%
 $W_{worse}(K)$, 3%, 2%, 2%, 0%, 2%, 1%
@@ -563,23 +743,33 @@ E, **27%**, **37%**, **39%**, **40%**, **42%**, **25%**
 
 \normalsize{}
 
+[^table-lectures]: Column 2-7 represent the lectures, the numbers refer to the following lectures: 1: `human-nature-8`, 2: `environmental-8`, 3: `psy-14`, 4: `psy-5`, 5: `biomed-eng-1`, 6: `geology-8`.
+
 
 The means are:
 ```{.table type="pipe" aligns="MMMMMM" caption="Result means"}
 Metric, Mean in %
-$WER$, 34.3%
-$KWER$, 37.8%
-$\Delta WER$, 0.0%
-$\Delta KWER$, 17.0%
+$WER_A$, 42.3%
+$WER_B$, 42.5%
+$\Delta WER$, **0.3**%
+ ,
+$WDR_A$, 65.6%
+$WDR_B$, 65.6%
+$\Delta WDR$, **0.0**%
+ ,
+$KWDR_A$, 62.2%
+$KWDR_B$, 79.2%
+$\Delta KWDR$, **17.0%**
+ ,
 $E$, 35.0%
 ```
 
 
 ## Interpretation
 
-Several things are notable. The WER as well as $W_{improved}$ and $W_{worse}$ nearly don't change at all, the differences are only zero-digit absolute amounts. It is interesting that the results are so unambiguous in this respect; it is also unexpected that $W_{improved}$ and $W_{worse}$ always cancel each other out completely.
+Several things are notable. The WDR as well as $W_{improved}$ and $W_{worse}$ nearly don't change at all, the differences are only zero-digit absolute amounts. It is interesting that the results are so unambiguous in this respect; it is also unexpected that $W_{improved}$ and $W_{worse}$ always cancel each other out completely.
 
-Assessing the $\Delta KWER$ presents the challenge that no comparison is available that uses the exact same metric. However it is possible to "fuzzily" compare the performance by looking at metrics with the same basic idea.
+Assessing the $\Delta KWDR$ presents the challenge that no comparison is available that uses the exact same metric. However it is possible to "fuzzily" compare the performance by looking at metrics with the same basic idea.
 
 The metric "RWCR-n" used by @marquard mentioned above is comparable, as it also uses the concept of filtering out the $top_n$ most frequent words; it differs by not taking the lemmatized word version as their atomic unit. With that said, the average improvement in RWCR-10k over 13 lectures also taken from Open Yale Courses is 9.0%, while their average WER decreases by 0.8%.
 
@@ -587,9 +777,9 @@ The metric "RWCR-n" used by @marquard mentioned above is comparable, as it also 
 
 @miranda do not use a custom metric and report a WER improvement of 3.6%, when interpolating the LM with slide text contents; they achieve an improvement of 5.9% WER when using their proposed method of integrating the speech input with synchronized slide content.
 
-While comparing WER performance has the discussed disadvantage of low relevance to the given evaluation goals and the non-standardized spectrum of custom metrics disallows an objective comparison of the different approaches, it yet gives an impression how our approach's performance relates to other work: the $\Delta KWER$ of 16.8% seems like a good indicator that our approach is a viable solution for the goal of improving speech recognition for searchability and scannability. Additionally, the *effectiveness score* demonstrates that the approach nearly does not worsen keywords at all and 38.8% of the improved words are actually keywords.
+While comparing WER performance has the discussed disadvantage of low relevance to the given evaluation goals and the non-standardized spectrum of custom metrics disallows an objective comparison of the different approaches, it yet gives an impression how our approach's performance relates to other work: the $\Delta KWDR$ of 17.0% <!-- TODO:  --!> seems like a good indicator that our approach is a viable solution for the goal of improving speech recognition for searchability and scannability. Additionally, the *effectiveness score* demonstrates that the approach nearly does not worsen keywords at all and 35% of the improved words are actually keywords.
 
-In general, the uniform distribution of results over the various topic domains with their very different types of provided materials is also suprising. The results seem to suggest that the form and supposed "quality" of material (e.g. excercise sheet versus lecture slides) does not correlate with the improvement in KWER. The initial assumption that lectures from the natural and formal sciences would be harder to recognize, based on the "naive" presumption that words like "adenosine 5’-triphosphate" would be impossible to recognize, seems to be invalid as well -- apparently the combination of preprocessing, G2P and adapted weighting in the LM makes it possible to detect complicated technical terms like this as well.
+In general, the uniform distribution of results over the various topic domains with their very different types of provided materials is also suprising. The results seem to suggest that the form and supposed "quality" of material (e.g. excercise sheet versus lecture slides) does not correlate with the improvement in KWDR. The initial assumption that lectures from the natural and formal sciences would be harder to recognize, based on the "naive" presumption that words like "adenosine 5’-triphosphate" would be impossible to recognize, seems to be invalid as well -- apparently the combination of preprocessing, G2P and adapted weighting in the LM makes it possible to detect complicated technical terms like this as well.
 
 ### Qualitative interpretation
 While representing the performance of our approach with a set of metrics allows (at least internal) comparability of results, it can not convey a holistic impression of what would actually change for a user of a hypothetic speech media search/scan interface when using data generated with our approach versus the baseline approach.
@@ -615,7 +805,7 @@ This impression can be given by looking at the following detailed results of the
 
 \normalsize{}
 
-You notice two things: a) the "exchange" of filler words from version A to B and vice versa, which is of no interest for searching and scanning, and b) interesting keywords that have substantial amounts of occurrences, that were not found before, while the amount of worsened KW is tiny. This is the important "qualitative", high-level conclusion: the approach allows users to find technical terms in speech media which they weren't able to find before and it works consistently over a broad spectrum of topics.
+You notice two things: a) the "exchange" of filler words from version A to B and vice versa, which is of no interest for searching and scanning, and b) interesting keywords that have substantial amounts of occurrences that were not found before, while the amount of worsened KW is tiny. This is the important "qualitative", high-level conclusion: the approach allows users to find technical terms in speech media which they weren't able to find before and it works consistently over a broad spectrum of topics.
 
 
 

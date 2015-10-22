@@ -1,0 +1,192 @@
+<p><b>Corpus</b>:</p>
+<p>[u'axon', 'the', 'people', 'psychology', 'is', 'rewarding']</p>
+<p><b>Lemmatized corpus without topXwords</b>:</p>
+<p>[u'axon', 'psychology', 'rewarding']</p>
+hyp1 false
+['axons']
+<p><b>KW</b>:</p>
+<p>[u'axon']</p>
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Analyze WER/IWER</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+          @import url(http://fonts.googleapis.com/css?family=Roboto);
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0,0,0,.87);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  text-align: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+td.rightBorder, th.rightBorder {
+  border-right: 1px solid #ccc;
+}
+
+th, td {
+  cursor: default;
+}
+
+th:hover, td:hover {
+  color: #555;
+}
+
+
+tr {
+  /* border-bottom: 2px solid #333; */
+}
+
+tr.changed {
+  border: 1px solid #888;
+}
+
+tr.interesting {
+  background: rgba(0, 0, 255, .3);
+}
+
+tr.improved {
+  border: 2px solid rgba(0, 155, 0 , 1);
+}
+
+tr.worsened {
+  border: 2px solid rgba(255, 0, 0, 1);
+}
+
+.correct {
+  color: #4CAF50;
+}
+
+tr.lemma {
+  border: 3px solid rgba(0, 0, 0 , 1) !important;
+}
+
+.false {
+  color: #D32F2F;
+}
+
+span.topword {
+  color: #888;
+}
+
+        </style>
+
+    </head>
+    <body>
+      <table>
+<tr>
+<th>Reference</th><th>A</th><th>B</th><th># wrong words base</th><th># wrong words interpolated</th><th># interesting wrong words base</th><th># wrong interesting words interpolated</th>
+</tr>
+<tr class=" lemma changed improved interesting">
+<td class=>axons</td>
+<td class=false>accent</td>
+<td class=correct>axon</td>
+</tr>
+<tr class="">
+<td class=>are</td>
+<td class=correct>are</td>
+<td class=correct>are</td>
+</tr>
+<tr class="">
+<td class=>firing</td>
+<td class=false>tiring</td>
+<td class=false>tiring</td>
+</tr>
+<tr class="">
+<td class=>to</td>
+<td class=correct>to</td>
+<td class=correct>to</td>
+</tr>
+<tr class="">
+<td class=>stimulate</td>
+<td class=correct>stimulate</td>
+<td class=correct>stimulate</td>
+</tr>
+<tr class=" lemma lemma">
+<td class=>peoples</td>
+<td class=correct>people</td>
+<td class=correct>people</td>
+</tr>
+<tr class=" changed worsened">
+<td class=>minds</td>
+<td class=correct>minds</td>
+<td class=false>may</td>
+</tr>
+</table>
+<pre><code>{
+  "IW": 1, 
+  "IWER_A": "1/1 = 100%", 
+  "IWER_B": "0/1 = 0%", 
+  "IW_improved": "1/1 = 100%", 
+  "IW_worse": "0/1 = 0%", 
+  "W": 7, 
+  "WER_A": "2/7 = 29%", 
+  "WER_B": "2/7 = 29%", 
+  "W_improved": "1/7 = 14%", 
+  "W_improved_I": "1/1 = 100%", 
+  "W_worse": "1/7 = 14%", 
+  "W_worse_I": "0/1 = 0%"
+}</code></pre>
+
+            <br/>
+            <b>Normal words improved</b><br/>
+            
+            <br/>
+        
+
+            <br/>
+            <b>IW improved</b><br/>
+            <span>(axon, 1)</span>
+            <br/>
+        
+
+            <br/>
+            <b>Normal words worse</b><br/>
+            <span>(minds, 1)</span>
+            <br/>
+        
+
+            <br/>
+            <b>IW worse</b><br/>
+            
+            <br/>
+        
+<br/><p>A: {'Ins': 1, 'WER': 0.571, 'Del': 0, 'Sub': 3, 'Cor': 4}</p>
+<p>B: {'Cor': 3, 'WER': 0.714, 'Sub': 4, 'Del': 0, 'Ins': 1}</p>
+<p>X: 500</p>
+    </body>
+</html>
+

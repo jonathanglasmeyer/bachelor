@@ -1,6 +1,18 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage[all]{hypcap}
+\usepackage{float}
+
+% Overwrite \begin{figure}[htbp] with \begin{figure}[H]
+
+% \usepackage{float}
+% \let\origfigure=\figure
+% \let\endorigfigure=\endfigure
+% \renewenvironment{figure}[1][]{%
+%   \origfigure[H]
+% }{%
+%   \endorigfigure
+% }
 
 \usepackage{titlesec}
 \newcommand{\sectionbreak}{\clearpage}

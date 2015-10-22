@@ -1,0 +1,10 @@
+OP | REF | HYP
+SUB | axons | axon
+OK | are | are
+INS | **** | very
+SUB | firing | tiring
+OK | to | to
+OK | stimulate | stimulate
+SUB | peoples | people
+SUB | minds | may
+{'Cor': 3, 'WER': 0.714, 'Sub': 4, 'Del': 0, 'Ins': 1}

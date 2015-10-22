@@ -6,5 +6,5 @@
   "keywordModelPath": "model.lm",
   "g2pModelPath": "en-new/en_us_nostress/model.fst.ser",
 
-  "resultsFolder": "human-nature-8-25kw"
+  "resultsFolder": "human-nature-8-75kw"
 }
