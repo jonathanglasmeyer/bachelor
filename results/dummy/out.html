@@ -2,9 +2,7 @@
 <p>[u'axon', 'the', 'people', 'psychology', 'is', 'rewarding']</p>
 <p><b>Lemmatized corpus without topXwords</b>:</p>
 <p>[u'axon', 'psychology', 'rewarding']</p>
-hyp1 false
-['axons']
-<p><b>KW</b>:</p>
+<p><b>keywords</b>:</p>
 <p>[u'axon']</p>
 <!DOCTYPE html>
 <html>
@@ -108,7 +106,7 @@ span.topword {
     <body>
       <table>
 <tr>
-<th>Reference</th><th>A</th><th>B</th><th># wrong words base</th><th># wrong words interpolated</th><th># interesting wrong words base</th><th># wrong interesting words interpolated</th>
+<th>Reference</th><th>A</th><th>B</th><th># wrong words A</th><th># wrong words B</th><th># wrong keywords A</th><th># wrong interesting words B</th>
 </tr>
 <tr class=" lemma changed improved interesting">
 <td class=>axons</td>
@@ -147,18 +145,18 @@ span.topword {
 </tr>
 </table>
 <pre><code>{
-  "IW": 1, 
-  "IWER_A": "1/1 = 100%", 
-  "IWER_B": "0/1 = 0%", 
-  "IW_improved": "1/1 = 100%", 
-  "IW_worse": "0/1 = 0%", 
+  "KW": 1, 
+  "KWDR_A": "1 - 1/1 = 0%", 
+  "KWDR_B": "1 - 0/1 = 100%", 
+  "KW_improved": "1/1 = 100%", 
+  "KW_worse": "0/1 = 0%", 
   "W": 7, 
-  "WER_A": "2/7 = 29%", 
-  "WER_B": "2/7 = 29%", 
+  "WDR_A": "1 - 2/7 = 71%", 
+  "WDR_B": "1 - 2/7 = 71%", 
   "W_improved": "1/7 = 14%", 
-  "W_improved_I": "1/1 = 100%", 
+  "W_improved_K": "1/1 = 100%", 
   "W_worse": "1/7 = 14%", 
-  "W_worse_I": "0/1 = 0%"
+  "W_worse_K": "0/1 = 0%"
 }</code></pre>
 
             <br/>
@@ -168,19 +166,19 @@ span.topword {
         
 
             <br/>
-            <b>IW improved</b><br/>
+            <b>KW improved</b><br/>
             <span>(axon, 1)</span>
             <br/>
         
 
             <br/>
             <b>Normal words worse</b><br/>
-            <span>(minds, 1)</span>
+            <span>(mind, 1)</span>
             <br/>
         
 
             <br/>
-            <b>IW worse</b><br/>
+            <b>KW worse</b><br/>
             
             <br/>
         
