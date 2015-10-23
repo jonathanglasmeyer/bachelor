@@ -5808,4 +5808,4 @@ DEL | we | ****
 DEL | have | ****
 DEL | a | ****
 DEL | minute | ****
-{'Ins': 467, 'Cor': 2997, 'Del': 336, 'WER': 0.526, 'Sub': 2009}
+{'Ins': 467, 'Cor': 2997, 'Del': 336, 'Sub': 2009, 'WER': 0.526}

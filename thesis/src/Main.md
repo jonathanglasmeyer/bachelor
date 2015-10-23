@@ -51,20 +51,23 @@ or other notes to generate a lecture-specific language model. This
 is then interpolated with a generic language model. Finally the results are compared with the 'baseline' accuracy of the generic model.
 
 ## Research questions
-The research questions I want to investigate in this thesis can be formulated as follows:
+The research questions I[^we-and-i] want to investigate in this thesis can be formulated as follows:
 
 (#) When we apply ASR to university lectures, what is the advantage of using an approach that consists of creating a lecture-specific language model and interpolating it with a generic language model, given that we are interested in improving the recognition accuracy of *interesting keywords* for the sake of
 searchability and scannability?
 
 (#) What metric is useful for quantifying this advantage?
 
+[^we-and-i]: I will mostly use the first person singular when introducing the next step or action in this thesis, whereas I will mostly use the first person plural when I want to involve the reader into the development of thoughts.
+
 A secondary question is: How can we *use* the results from our approach to provide graphical interfaces for improving the user's ability to search and scan the given speech medium? The exploration of this question will not be at the center of this thesis,
 but it will provide practical motivation for the results of our approach.
 
 ## Structure
-The structure of this thesis is as follows: I will start by giving an overview over the scientific work done in ASR, explaining fundamental speech recognition concepts and discussing the most prevalent approaches. I will then present the chosen test data, which consists of lectures from the openly available *Open Yale Courses*^[Website: <http://oyc.yale.edu/>], and explain selection criteria. This will be followed by a description of the LM-Interpolation approach, explaining general concepts and implementation. I will then discuss suitable metrics for evaluation and analyze the results. I will finally explore an interface prototype for dense visual representation of keyword distributions over the timeline of a lecture. I will close by recapitulating the thesis results and summarizing possible extension points.
+The structure of this thesis is as follows: I will start by giving an overview over the scientific work done in ASR, explaining fundamental speech recognition concepts and discussing the most prevalent approaches. I will then present the chosen test data, which consists of lectures from the openly available *Open Yale Courses*^[Website: <http://oyc.yale.edu/>], and explain selection criteria. This will be followed by a description of the LM-Interpolation approach, explaining general concepts and implementation. I will then discuss suitable metrics for evaluation and analyze the results. Finally I will explore an interface prototype for dense visual representation of keyword distributions over the timeline of a lecture. I will close by recapitulating the results of the thesis and summarizing possible extension points.
 
 \pagebreak
+
 
 # Scientific background
 
@@ -74,23 +77,23 @@ Automatic Speech Recognition (ASR) can be defined as an "independent, machine-ba
 @rabiner date the first research on ASR back to the
 early 1950s, when Bell Labs built a system for single-speaker digit
 recognition. Since then the field has seen three major approaches, which
-@marquard calls the *acoustic-phonetic approach*, the *statical pattern-recognition approach* and the *artificial intelligence approach*.
+@marquard calls the *acoustic-phonetic approach*, the *statistical pattern-recognition approach* and the *artificial intelligence approach*.
 
-The acoustic-phonetic approach aimed to identify phonetic features of speech such as vowels or consonants directly through their acoustic properties and from that build up words based on these constituent elements.
+The acoustic-phonetic approach aimed to identify phonetic features of speech such as vowels or consonants directly through their acoustic properties and then to build up words based on these constituent elements.
 
 The statistical pattern-recognition approach measures features of the acoustic signal and compares these to existing patterns from a range of reference sources to produce similarity scores by using a search process; patterns are taken from multiple sources such as acoustic and language models.
 
 Artificial intelligence approaches are mainly differentiated by being integrative, combining multiple types of knowledge sources. While the former approach uses fixed input features, AI approaches establish them by *learning*. A key technology here is the use of deep neural networks and other deep learning approaches [@hinton2012deep], which has been an active area of research in the last decade.
 
 The most prevalent approach today is the statistical pattern-recognition approach, as it produces results with much higher
-accuracy compared to the acoustic-phonetic approach. The use of Hidden Markov Models (HMM) has been playing a key role in this approach, as it allows recognizers to use a statistical model of a given pattern rather than a fixed representation. This is the paradigm used as the technical foundation in our approach, as well.
+accuracy compared to the acoustic-phonetic approach. The use of Hidden Markov Models (HMM) has been playing a key role in this approach, as it allows recognizers to use a statistical model of a given pattern rather than a fixed representation. This is also the paradigm used as the foundation of our approach.
 
 ## Dimensions of speech recognition
 There are three dimensions which serve to classify different applications of speech recognition [@marquard]:
 
 (1) **Dependent vs. independent**. Dependent recognition systems are developed to be used by one speaker. They are easier to develop and more accurate, but not flexible. Independent systems in contrast are developed to be used by *any* speaker of a particular language or dialect, i.e speakers of North American English (NAE). Independent systems have lower accuracy but better flexibility. **Adaptive** systems lie between these poles, they are able to adapt to a particular speaker through training.
 
-(2) **Small vs. large vocabulary**. Small vocabularies contain only up to a few hundred words and might be modeled by an explicit grammar, whereas large vocabularies contain tens of thousands of words so as to be able to model general purpose spoken language over a variety of domains.
+(2) **Small vs. large vocabulary**. Small vocabularies contain only up to a few hundred words and might be modeled by an explicit grammar, whereas large vocabularies contain tens of thousands of words so as to be able to model general purpose spoken language over a variety of subject areas.
 
 (3) **Continuous vs. isolated speech**. Isolated speech consists of single words that are spoken with pauses in between them, whereas continuous speech consists of words that are spoken in a connected way. Continuous speech is significantly more difficult to recognize, as it is a) more difficult to find the start and end of words and b) the pronunciation of words changes in relation to their surrounding words.
 
@@ -185,7 +188,7 @@ Language models are trained by applying statistical methods on a text corpus. An
 ## Work done on ASR for lecture transcription
 I will now give an overview over the scientific work done on lecture transcription, using @marquard as a guiding reference.
 
-The research for speech recognition on lectures can be partitioned into three general approaches: generalization approaches, specialization approaches and approaches involving the user for manual correction and improvements.
+The research for speech recognition on lectures can be partitioned into two general approaches: generalization approaches and specialization approaches.
 
 ### Generalization approaches
 Generalization approaches try to create models that capture common characteristics of lectures. Those characteristics include highly spontaneous presentation style and "strong coarticulation effects, non-grammatical constructions, hesitations, repetitions, and filled pauses" [@yamazaki]. @glass note the "colloquial nature" of lectures as well as the "poor planning at the sentence level [and] higher structural levels".
@@ -203,31 +206,14 @@ Methods used for creating LMs from context information can be categorized into t
 
 Using the whole text from lecture slides has been explored by @yamazaki. They compare the meso level with the micro level by dynamically adapting the LM to the speech corresponding to a particular slide. <!-- TODO: results? --!> @kawahara08 also examine dynamic local slide-by-slide adaption and compare it to global topic adaption using Probabilistic Latent Semantic Analysis (PLSA)^[Latent Semantic Analysis is an approach to document comparison and retrieval which relies on a numeric analysis of word frequency and proximity. <!-- TODO: reformulate --!>] and web text collection, concluding that the latter performs worse than the former because of a "worse orientation to topic words".
 
-<!--
-@akita (todo):
+### Conclusion <!-- TODO: formulation --!>
+Our approach can thus be classified as a specialization approach with exclusive "direct" use of the lecture material. Specifically, it does not try to extend the material corpus by using derived data; it neither tries to consider the *micro level*, which would imply to look at parts of a single lecture.
 
-    statistical transformation model for adapting a pronunciation model
-    and LM from a text corpus primarily reflecting written language to
-    one more suited for recognizing spoken language.
-
-    While n-gram language models are the dominant paradigm in ASR
-    systems, they offer a relatively coarse model of language context.
-
-“The sequence
-memoizer,”
-    Newer research is exploring more accurate statistical representations
-    of “deep context”, for example accounting for connections between
-    related but widely separated words and phrases [41].
-
- --!>
-<!-- TODO: finish this crap --!>
-<!-- TODO: explain how our approach can be classified according to this stuff --!>
-
-<!-- TODO: überleitung --!>
+After having located our approach against the backdrop of the different approaches currently explored by the scientific community, I will now continue to present the test data used.
 
 # Test data { #data }
 
-The test data I will use for evaluating our approach will be from *Open Yale Courses*^[[http://oyc.yale.edu/](http://oyc.yale.edu/)], which is a selection of openly available lectures from Yale university. It consists of 42 courses from 25 departments. Each course has about 20-25 sessions that have an average length of 50 minutes. Each lecture is provided with good quality audio and video recordings, precise manual transcripts and lecture material when available. Only about 20% of the lectures have lecture notes or slides at all and most materials from the natural and formal science departments (physics, astronomics, mathematics) consist of hand-written notes, making them unsuitable for our approach. All talks are in English.
+The test data I will use for evaluating our approach are from *Open Yale Courses*^[[http://oyc.yale.edu/](http://oyc.yale.edu/)], which is a selection of openly available lectures from Yale University. It consists of 42 courses from 25 departments. Each course has about 20-25 sessions that have an average length of 50 minutes. Each lecture is provided with good quality audio and video recordings, precise manual transcripts and lecture material when available. Unfortunately only about 20% of the lectures have lecture notes or slides and most materials from the natural and formal science departments (physics, astronomics, mathematics) consist of hand-written notes, making them unsuitable for our approach. All talks are in English.
 
 I have chosen the following lectures: (Department, Course, Lecture Number - Title, abbreviation)
 
@@ -245,7 +231,7 @@ I have chosen the following lectures: (Department, Course, Lecture Number - Titl
 
 The main selection criterion here was topical diversity, the challenge being that the majority of talks with computer-parsable notes was from the humanities.
 
-## Materials overview
+## Material overview
 The available material is very heterogeneous. I will now give an overview with excerpts which will serve as a basis for examining at a later point if the quality and quantity of the supplied material is correlated with the amount of improvement of our approach.
 
 `geology-8` supplies a 2-page excercise sheet.
@@ -288,46 +274,45 @@ The available material is very heterogeneous. I will now give an overview with e
 
 `psy-14/5` and `enviromental-8` provide ~10-page slides with a typical amount of text.
 
-### Conclusion
-Only about 20% of the courses have lecture material at all; only about 20% of these courses actually have typical "slides" -- the rest provides heterogenous other kinds of material. While it cannot be inferred from this dataset that this is a general condition, it nevertheless shows a clear "real-world" disadvantage of an approach only relying on those materials. We will look at the impact of the varying quality and quantity in the analysis later on.
+## Conclusion
+Only about 20% of the courses have lecture material at all; of these only about 20% actually have typical "slides" -- the rest provides other heterogenous kinds of material. While it cannot be inferred from this dataset that this is a general condition, it nevertheless shows a clear "real-world" disadvantage of an approach necessarily relying on lecture materials. We will look at the impact of the varying quality and quantity in the analysis later on.
 
 # The LM-Interpolation approach
 I will now describe the LM-Interpolation approach. The high level overview is as follows: we will use the open source speech recognition framework Sphinx 4 ^[Homepage: <http://cmusphinx.sourceforge.net/wiki/sphinx4:webhome>] as the software for performing speech recognition. Sphinx 4 has a modular architecture which allows specifying components of the whole process per configuration. It provides multiple implementations of LMs^[Overview: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/LanguageModel.html>], the default one being an n-gram model.
 
-It also provides an `InterpolatedLanguageModel`^[Javadoc: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/InterpolatedLanguageModel.html>] (ILM) which allows to specify multiple LMs and weights and interpolate the probabilities for a given n-gram from all models' probabilities ($p = w_1*p_1 + w_2*p_2 + \ldots$ where $w_n$ are the weights ($\sum_{i=1}^n(w_i) = 1$) and $p_i$ is the probability for a given n-gram in $LM_i$).
+It also provides an `InterpolatedLanguageModel`^[Javadoc: <http://cmusphinx.sourceforge.net/doc/sphinx4/edu/cmu/sphinx/linguist/language/ngram/InterpolatedLanguageModel.html>] (ILM) which allows to specify multiple LMs and weights and to interpolate the probabilities for a given n-gram from all models' probabilities ($p = w_1*p_1 + w_2*p_2 + \ldots$ where $w_n$ are the weights ($\sum_{i=1}^n(w_i) = 1$) and $p_i$ is the probability for a given n-gram in $LM_i$).
 
-The purpose of the ILM in our approach is to factor in the importance of keywords. These keywords have to be supplied in the form of an n-gram language model. For this we extract text content from the lecture material, preprocess it and create an n-gram LM from the resulting corpus. Sphinx 4 is then a) run with a generic English n-gram LM only and b) with the ILM configured to use the generic English LM and the keyword language model in a 50/50 weighting. Finally the two resulting transcriptions are compared with a selection of metrics.
+The purpose of the ILM in our approach is to factor in the importance of keywords. These keywords have to be supplied in the form of an n-gram language model. For this we extract text content from the lecture material, preprocess it and create an n-gram LM from the resulting corpus. Sphinx 4 is then run a) with a generic English n-gram LM only and b) with the ILM configured to use the generic English LM and the keyword language model in a specified weighting. Finally the two resulting transcriptions are compared with a selection of metrics.
 
-As an example, the 1-gram *sex* has a probability of 2.82% in the keyword model of `psy-14`, but a probability of 0.012% in the generic English LM ^[@cmuLm]. When applying 50/50 interpolation, the result is $2.82\%*0.5 + 0.012\%*0.5 = 1.416\%$, which is an increase by the factor ~117 over the generic probability.
+As an example, the 1-gram *sex* has a probability of 2.82% in the keyword model of `psy-14`, but a probability of 0.012% in the generic English LM ^[@cmuLm]. When using interpolation with a 50/50 weighting, the result is $2.82\% \cdot 0.5 + 0.012\% \cdot 0.5 = 1.416\%$, which is an increase by the factor ~117 over the generic probability.
 
 I will now give an overview over the Sphinx 4 architecture, followed by a description of the implementation of the approach.
 
 ## Sphinx 4 architecture
-Sphinx 4's overall architecture as shown in figure \ref{sphinx4} is comprised of three primary modules: the *FrontEnd*, the *Decoder* and the *Linguist*.^[The following description is based on @whitepaper.] The *FrontEnd* takes one or more input signals and parameterizes them into a sequence of *Features*. The *Linguist* takes any type of standard language model, pronunciation information from a phonetic *Dictionary* and information from one or more sets of *AcousticModels*, generating a *Search Graph*. The *SearchManager* in the *Decoder* uses *Features* from the *FrontEnd* to perform decoding. Each of the components (written italicized) are interfaces for which the actual implementation can be configured at runtime.
+The overall architecture of Sphinx 4 as shown in figure \ref{sphinx4} is comprised of three primary modules: the *FrontEnd*, the *Decoder* and the *Linguist*.^[The following description is based on @whitepaper.] The *FrontEnd* takes one or more input signals and parameterizes them into a sequence of *Features*. The *Linguist* takes any type of standard language model, pronunciation information from a phonetic *Dictionary* and information from one or more sets of *AcousticModels*, generating a *Search Graph*. The *SearchManager* in the *Decoder* uses *Features* from the *FrontEnd* to perform decoding. Each of the components (written in italics) are interfaces for which the actual implementation can be configured at runtime.
 
 ### FrontEnd
-The frontend parameterizes an *Input* signal into a sequence of output *Features*. This process is realized as a one or multiple chains that can run in parallel, permitting simultaneous computation of different types of parameters from the same or different input signals.
+The *FrontEnd* parameterizes an *Input* signal into a sequence of output *Features*. This process is realized as one or multiple chains that can run in parallel, permitting simultaneous computation of different types of parameters from the same or different input signals.
 
 ### Linguist
 The *Linguist* encapsulates the details of generating a *SearchGraph* used by the *SearchManager* in the *Decoder*. It consists of the *LanguageModel*, the *Dictionary* and the *AcousticModel*.
 
-*LanguageModel* implementations typically can be categorized into graph-driven grammars and n-gram models. The latter are primarily differentiated by their usage parameters (e.g. small vs. very big LMs; input formats).
+*LanguageModel* implementations can typically be categorized into graph-driven grammars and n-gram models. The latter are primarily differentiated by their usage parameters (e.g. small vs. very big LMs; input formats).
 
-*Dictionary* provides the pronunciations for words found in the *LanguageModel*. A G2P Model can be specified in the configuration which will statistically model missing entries in the dictionary based.
+*Dictionary* provides the pronunciations for words found in the *LanguageModel*. A G2P Model can be specified in the configuration which will statistically model missing entries in the dictionary.
 
 The *AcousticModel* provides a mapping between a phoneme and an HMM that can be scored against incoming *Features* provided by the *FrontEnd*, also taking word-contextual information into account.
 
 ### SearchGraph
-The primary data structure in the decoding phase is the *SearchGraph*. It is a directed graph which nodes are *SearchStates* that are either *emitting* or *non-emitting*. The *emitting* state can be scored against an incoming acoustic feature, while *non-emitting* state represent higher-level linguistic constructs such as words and phonemes that are not directly scored against those features.
+The primary data structure in the decoding phase is the *SearchGraph*. It is a directed graph whose nodes are *SearchStates* that are either *emitting* or *non-emitting*. *Emitting* nodes can be scored against an incoming acoustic feature, while *non-emitting* nodes represent higher-level linguistic constructs such as words and phonemes that are not directly scored against these features.
 
 ### Decoder
-The *Decoder* uses *Features* from the *FrontEnd* by using a *SearchManager*, that controls the *Linguist's* *SearchGraph* to generate *Result* hypotheses. The *Decoder* tells the *SearchManager* to recognize a set of *Feature* frames. At each step, the *SearchManager* creates a *Result* object that contains all paths that "reached a final non-emitting state".
+The *Decoder* uses *Features* from the *FrontEnd* by using a *SearchManager* that controls the *Linguist's* *SearchGraph* to generate *Result* hypotheses. The *Decoder* tells the *SearchManager* to recognize a set of *Feature* frames. At each step, the *SearchManager* creates a *Result* object that contains all paths that "reached a final non-emitting state".
 
 
 ![Sphinx 4 architecture \label{sphinx4}](images/sphinx4_150.png)
 
 ## Implementation
-
 The pipeline is implemented with a collection of standalone command line tools and a set of shell and Python scripts^[The source code is available here: <https://github.com/jonathanewerner/bachelor/tree/master/bin>].
 
 The tasks are the following, in chronological order:
@@ -340,16 +325,16 @@ The tasks are the following, in chronological order:
 
 2. **Create a keyword LM from lecture material**
 
-    - `pdftohtml -i -xml` is applied on the given material PDF. The XML output representation is input to `pdfreflow`^[pdftohtml (<http://pdftohtml.sourceforge.net/>) and pdfreflow (<http://sourceforge.net/projects/pdfreflow/>) are open source linux command line utilities]. Compared to the tool `pdftotext` the combination of these 2 tools preserves paragraphs correctly, whereas `pdftotext` represents each line break in the input PDF as a new paragraph in the output text file. This is a significant disadvantage for the LM creation step, as a newline in the input file there has the semantic "end of sentence" -- so that a sentence split into 4 lines by `pdftotext` would count as 4 sentences in the LM.
+    - `pdftohtml -i -xml` is applied on the given material PDF. The XML output representation then becomes the input for `pdfreflow`^[pdftohtml (<http://pdftohtml.sourceforge.net/>) and pdfreflow (<http://sourceforge.net/projects/pdfreflow/>) are open source linux command line utilities]. Compared to the tool `pdftotext` the combination of these 2 tools preserves paragraphs correctly, whereas `pdftotext` represents each line break in the input PDF as a new paragraph in the output text file. This is a significant disadvantage for the LM creation step, as in this case a newline in the input file constitutes the semantic "end of sentence" -- so that a sentence split into 4 lines by `pdftotext` would count as 4 sentences in the LM.
     - The HTML output from `pdfreflow` is filtered by taking only relevant HTML-tags such as `<p>`'s (paragraphs) and `<blockquote>`'s, further improving the content-to-noise ratio.
     - The resulting text is then preprocessed for optimal compatibility with the LM creation tool by removing punctuation and superfluous whitespace^[I use a combination of command line text processing (sed) and a perl script from Stephen Marquard here.].
-    - The resulting corpus is input to `estimate-ngram`, a LM creation tool from the MIT Language Modeling Toolkit^[<https://code.google.com/p/mitlm/wiki/EstimateNgram>] (MITLMT).
+    - The resulting corpus then becomes the input for `estimate-ngram`, an LM creation tool from the MIT Language Modeling Toolkit^[<https://code.google.com/p/mitlm/wiki/EstimateNgram>] (MITLMT).
 
-    For clarification intermediate results from this step follow as an example. They are from the test case `psy-5`^["Introduction to Psychology, 5 - What Is It Like to Be a Baby: The Development of Thought"]. Figure \ref{slide} shows an example slide.
+    For clarification intermediate results from this step follow as an example. They are taken from the test case `psy-5`^["Introduction to Psychology, 5 - What Is It Like to Be a Baby: The Development of Thought"]. Figure \ref{slide} shows an example slide.
 
     ![Slide from lecture `psy-5` \label{slide}](images/slide_250.png)
 
-    When using `pdftotext` the result looks like this for the given slide:
+    When using `pdftotext` the result for the given slide is as follows:
 
         Piaget’s Theory of
         Cognitive Development
@@ -371,7 +356,7 @@ The tasks are the following, in chronological order:
         <p class="p10">•  These “understandings” are in the form of
         structures he called <i>schemas</i> </p>
 
-    Notice how a paragraph is captured in a `<p>`-tag. This allows extracting a sentence as one line in the corpus. After applying the preprocessing described above the final corpus for the slide looks like this (where ".. " marks a line continuation):
+    Notice how a paragraph is captured in a `<p>`-tag. This allows to extract a sentence as one line in the corpus. After applying the preprocessing described above the final corpus for the slide looks like this (where ".. " marks a line continuation):
 
         piagets theory of cognitive development
         piaget believed that children are active thinkers constantly
@@ -382,13 +367,13 @@ The tasks are the following, in chronological order:
 
   3. **Convert transcript to reference corpus**
 
-      The transcript from Open Yale is supplied as HTML. We apply processing steps to transform it to a corpus ready to be consumed by the WER analysis tool (no punctuation, all lowercase). As these are specific to just the format chosen by Open Yale Courses, the details are omitted, as they have no general use.
+      The transcript from Open Yale is supplied as HTML. We apply processing steps to transform it to a corpus ready to be consumed by the analysis tool (no punctuation, all lowercase). As these are just specific to the format chosen by Open Yale Courses, the details are omitted, as they are of no general relevance.
 
   4. **Run Sphinx 4 in baseline and interpolated mode**
 
-      `bin/sphinx-interpolated.py`^[<https://github.com/jonathanewerner/bachelor/blob/master/bin/sphinx-interpolated.py>] supplies a wrapper for interfacing with Sphinx 4. The Java API of Sphinx 4 is exposed for command line usage by a a JAR package which bundles the Sphinx 4 libraries and a small Main class. This class uses command line arguments supplied from `bin/sphinx-interpolated.py` to correctly configure Sphinx 4 and start the actual recognition.
+      `bin/sphinx-interpolated.py`^[<https://github.com/jonathanewerner/bachelor/blob/master/bin/sphinx-interpolated.py>] supplies a wrapper for interfacing with Sphinx 4. The Java API of Sphinx 4 is exposed for command line usage by a JAR package which bundles the Sphinx 4 libraries and a small `Main` class. This class uses command line arguments supplied by `bin/sphinx-interpolated.py` to correctly configure Sphinx 4 and start the actual recognition.
 
-      Each testcase folder has a configuration file which specifies which models the test run should use:
+      Each testcase folder has a configuration file which specifies the models to be used by the test run:
 
           {
             "acousticModelPath": "en-new/cmusphinx-en-us-5.2",
@@ -401,17 +386,17 @@ The tasks are the following, in chronological order:
             "resultsFolder": "biomed-eng-1"
           }
 
-      `bin/sphinx-interpolated.py` interprets the "global" models relative to the repository root-folder `models`, the `resultsFolder` relative to the root folder `results` and the `keywordModelPath` relative to the `resultsFolder`. It then supplies the absolute paths to the JAR. It also supplies absolute output file paths for the transcription result and transcription word timings results.
+      `bin/sphinx-interpolated.py` interprets the "global" models relative to the repository root folder `models`, the `resultsFolder` relative to the root folder `results` and the `keywordModelPath` relative to the `resultsFolder`. It then supplies the absolute paths to the JAR. It also supplies absolute output file paths for the transcription result and transcription word timing results.
 
       This setup ensures reproducible results, as the environment of a given testcase is exactly specified (as long as the same binaries and script versions are assumed).
 
-      `bin/sphinx-interpolated.py` can now be used to run the baseline or/and interpolated version.
+      `bin/sphinx-interpolated.py` can now be used to run the baseline and/or interpolated version.
 
 5. **Analyze and compare the results**
 
-    Finally the results from the two recognition runs are analyzed and compared by running `bin/hotword-analyze <testcase folder name>`. This performs two things: a) WER comparison and metrics generation and b) keyword visualization.
+    Finally the results from the two recognition runs are analyzed and compared by running `bin/hotword-analyze <testcase folder name>`. This does two things: a) run comparison and metrics generation and b) keyword visualization.
 
-    5.1 *WER comparison and metrics generation*
+    5.1 *Run comparison and metrics generation*
 
     This first calls `bin/wer.py`^[`wer.py` has been adapted from <http://progfruits.blogspot.de/2014/02/word-error-rate-wer-and-word.html>] on each run, which will calculate the WER and show a summary of substituted (SUB), inserted (INS) and deleted (DEL) words when comparing the reference (REF) to the hypothesis (HYP):
 
@@ -436,13 +421,13 @@ The tasks are the following, in chronological order:
 
     In a second step it compares the two WER result files with `bin/compare-wer.py`.
 
-    The result is an HTML file with a) shows a WER comparison table and b) various statistical measures which will be explored later. The table (shown in Figure \ref{wer-comparison}) colors correctly recognized words as green and incorrect words as red. It also marks words that have been improved in the interpolated version with a green border and words that have been worsened with a red border.
+    The result is an HTML file which shows a) a comparison table with the columns *reference word*, *baseline hypothesis* and *interpolated hypothesis* and b) various statistical measures which will be explored later. The table (shown in Figure \ref{wer-comparison}) represents correctly recognized words in green color and incorrect words in red. It also marks words that have been improved in the interpolated version with a green border and words that have been worsened with a red border.
 
     ![WER comparison\label{wer-comparison}](images/wer-comparison_150.png)
 
     5.2 *Keyword visualization*
 
-    Data from the reference and the recognition results is compiled into a format suitable for consumption by a visualisation module, which will be discussed in chapter \ref{viz}.
+    Data from the reference and the recognition results is compiled into a format suitable for consumption by a visualization module, which will be discussed in chapter \ref{viz}.
 
 All intermediate steps from the pipeline are represented as files in the testcase folder. Table \ref{files} gives an overview of the files created by each pipeline step.
 
@@ -493,7 +478,7 @@ File,                                 Description
 I will now discuss how to evaluate the usefulness of the LM-Interpolation approach in light of the goal to improve recognition accuracy of interesting keywords.
 
 ## Approaching a good metric
-We want to find a metric that describes if and how much the interpolated version improves upon the baseline version. The "canonic" metric used to evaluate speech recognition performance is called *Word Error Rate* (WER). The WER is derived from taking the Levenstein distance at the word level between a reference transcript and the recognition result. WER is calculated as:
+We want to find a metric that describes if and how much the interpolated version improves upon the baseline version. The "canonical" metric used to evaluate speech recognition performance is called *Word Error Rate* (WER). The WER is derived from taking the Levenstein distance at the word level between a reference transcript and the recognition result. WER is calculated as:
 
 $$ WER = \frac{S + D + I}{N} $$
 
@@ -506,69 +491,81 @@ where
 
 This approach circumvents the problem that the reference and the recognition result get "out of sync" when words are inserted or removed.
 
-The problem of using WER for our purposes is twofold: 1. it does not help answering the question of how much our approach improves the accuracy of keywords; it only pertains to *all* words. 2. it penalizes *insertions*. But insertions are not relevant to the question how many of the keywords from the reference transcript have been detected. Insertions only matter when we are interested in the *sentence integrity* of the result transcript. In our case, we do not care if there are superfluous words *between* correctly recognized keywords^[Although there might be cases of technical terms that are compound words -- in that case a insertion would be problematic. Detection of this edge case is beyond the scope of our approach, however.].
+The problem of using WER for our purposes is twofold: 1. It does not help to answer the question of how much our approach improves the accuracy of keywords; it only pertains to *all* words. 2. It penalizes *insertions*. But insertions are not relevant to the question of how many of the keywords from the reference transcript have been detected. Insertions only matter when we are interested in the *sentence integrity* of the result transcript. In our case, we do not care if there are superfluous words *between* correctly recognized keywords^[Although there might be cases of technical terms that are compound words -- in that case an insertion in between the compound word would be problematic. Detection of this edge case is however beyond the scope of our approach.].
 
-These considerations lead to the conclusion that a first improvement over regular *WER* would be to just look at the *detection rate* of words, where detection rate describes the rate of words from a transcript that have been correctly recognized. This can be expressed by using WER in a first step in order to get the benefit of word synchronization and then filtering out insertions in a second step. It is not necessary to filter out deletions as those can be seen as non-detected words.
+These considerations lead to the conclusion that a first improvement over regular *WER* would be to just look at the *detection rate* of words, where detection rate describes the proportion of words from a transcript that have been correctly recognized. This can be expressed by using WER in a first step in order to get the benefit of word synchronization and then filtering out insertions in a second step. It is not necessary to filter out deletions as these can be interpreted as non-detected words.
 
-A next improvement consists in just considering the words which are part of the material corpus. By just taking the words that we used to create the material corpus for our interpolated LM we can precicely evaluate the improvement effect of this change. This is still not perfect however. The lecture material corpus includes a substantial amount of words that would not be classified as "keywords": filler words and very common words. One approach to sort them out is subtracting a set of top $x$ most common words (*$top_X$ words*) from this list. The resulting metric can then be parameterized on the given $x$. This is an idea that Marquard uses when he proposes the metric "Ranked Word Correct Rate" (RWCR-n):
+A further improvement consists in just considering the words which are part of the material corpus. By just taking the words that we used to create the material corpus for our interpolated LM we can precisely evaluate the improvement effect of this change. However, this is still not perfect. The lecture material corpus includes a substantial amount of words that would not be classified as "keywords": filler words and very common words. One approach to sort them out is subtracting a set of top $x$ most common words (*$top_X$ words*) from this list. The resulting metric can then be parameterized on the given $x$. This is an idea that Marquard uses when he proposes the metric "Ranked Word Correct Rate" (RWCR-n):
 
 > "RWCR-n is defined as the Word Correct Rate for all words in the document which are
 not found in the first n words in a given general English word dictionary with words
 ranked from most to least frequent." [@marquard, p. 71]
 
 ### Lemmas
-When searching for a specific term the user is interested in the *lemma*^[A lemma, also called "headword", is the canonical form of a word that is chosen by convention to represent a group of lexemes that refer to the same meaning. A typical use would be the key of an dictionary entry.] for a given word: when he wants to find occurences of *child* in the given lecture, occurences of "children" would also be relevant. This implies two things: 1) when looking at the "atomic" level of improvements and degradations it is more relevant to have lemmas as atoms and not words and 2) the exact matching (a hypothesis word is only "correct" if it exactly matches the reference word) should be "loosened" to also mark hypothesis words as correct if their lemmatized version matches the reference.
+When searching for a specific term the user is interested in the *lemma*^[A lemma, also called "headword", is the canonical form of a word that is chosen by convention to represent a group of lexemes that refer to the same meaning. A typical use would be the key of a dictionary entry.] for a given word: when he wants to find occurences of "child" in the given lecture, occurences of "children" would also be relevant. This implies two things: 1) when looking at the "atomic" level of improvements and degradations it is more relevant to have lemmas as atoms and not words; and 2) the exact matching (a hypothesis word is only "correct" if it exactly matches the reference word) should be "loosened" to also mark hypothesis words as correct if their lemmatized version matches the reference.
 
 The same principle holds for the $top_X$ words: we only want to capture words for which the *lemma* is not in the $top_X$ words.
 
 ### Definition of KWDR-x and WDR
-We can distill these concerns into a definition of a metric called *KWDR-x*, which expresses the "Keyword Detection Rate", where a keyword is defined as the lemma of a word occuring in a given lemmatized lecture material corpus given that this lemma is not present in the lemmatized $top_X$ list of most common words of the given language. A keyword is *detected* when it is *lemma-equal*^[Two words are called *lemma-equal* when their lemmatized versions are equal.]to the corresponding word in the reference; if it is different or deleted, it is not detected.
+We can distill these concerns into a definition of a metric called *Key Word Detection Rate* (*KWDR-x*) where a keyword is defined as the lemma of a word occuring in a given lemmatized lecture material corpus, given that this lemma is not present in the $top_X$ list of most common words of the given language. A keyword is *detected* when it is *lemma-equal*^[Two words are defined as *lemma-equal* when their lemmatized versions are equal. The words "children" and "child" are lemma-equal.] to the corresponding word in the reference; if it has been substituted or deleted, it is *not detected*.
 
-The *Word Detection Rate* (WDR) is analogously defined as the rate of detected words, where a word is detected when it is lemma-equal to its reference.
+The *Word Detection Rate* (*WDR*) is analogously defined as the rate of detected words, where a word is *detected* when it is lemma-equal to its reference.
 
-The value of x has to be determined empirically: how many of the top words should be filtered out? There has to be a balance between not accidentally excluding keywords (i.e "sex" is in the in the $top_{500}$ words) and filtering out enough filler words.
+The value of $x$ has to be determined empirically: how many of the $top_X$ words should be filtered out? There has to be a balance between not accidentally excluding keywords (i.e "sex" is in the $top_{500}$ words, but is a central keyword in lecture `psy-14`) and filtering out enough filler words.
 
-After experimenting with some values I went with $x=500$ for my measurements. It is hard to find a less ad hoc approach to determining the "best" x, as you have no "meta"-metric that assesses how well a given x captures the goal of accurately describing the detection accuracy of keywords; it necessarily is a "best guess". $x=500$ was chosen by looking at the relationship from x to $\Delta KWDR$ (the improvement in KWDR-500) as shown in figure \ref{x-to-KWDR}. For values of x below ~200 the growth of improvement is explained by the gradual removal of filler words from the set of keywords. Their recognition accuracy is not improved by our approach which is why they prevent the accuracy improvement of actual keywords to be visible. Above ~200 this factor is ruled out and the chosen x value has only miniscule influence on the resulting KWDR.
+After experimenting with some values I chose $x=500$ for my measurements. It is hard to find a less ad hoc approach to determine the "best" $x$, as there is no "meta"-metric that would assess how well a given $x$ captures the goal of accurately describing the detection accuracy of keywords; it necessarily is a "best guess". $x=500$ was chosen by looking at the relationship of $x$ to $\Delta KWDR$ (the improvement in KWDR-500) in an example lecture, as shown in figure \ref{x-to-KWDR}. For values of $x$ below ~200 the growth of improvement is explained by the gradual removal of filler words from the set of keywords. The recognition accuracy of filler words is not improved by our approach which is why they prevent the accuracy improvement of actual keywords to be visible. Above ~200 this factor is ruled out and the chosen $x$ value has only miniscule influence on the resulting KWDR.
 
 ![Relation of x to $\Delta KWDR$, compiled by running the analysis on lecture `geology-8` with the x-values 0, 20, 40, 60, 80, 100, 200, 300, 400, 500 and 1000.\label{x-to-KWDR}](images/kwdr_150.png)
 
-This strategy, while depending on choosing an "ad hoc" value, was sufficient to validate our approach because it was possible to manually evaluate the metric's "precision" by observing the resulting word sets. Another approach would have been to take the *tf-idf* (Term Frequency - Inverse Document Frequency) as a criterion for "keyword-ness" of words. *tf-idf* computes the "relevance" of a word in the context of a document by taking into account the occurences of the word in the document offset by the word's frequency in a broader corpus. This way common words are rated lower although they occur frequently in the given document. This way there is no need for the arbitrary aspect of choosing an value of $x$ and the negative side effect of accidentally excluding a keyword. On the other hand there would be the need to choose a treshold *tf-idf* score which would have to be met for inclusion into the keyword set.
+This strategy, while depending on choosing an "ad hoc" value, was sufficient to validate our approach because it was possible to manually evaluate the metric's "precision" by observing the resulting word sets. Another approach would have been to take the *tf-idf* (Term Frequency - Inverse Document Frequency) as a criterion for "keyword-ness" of words. *tf-idf* computes the "relevance" of a word in the context of a document by taking into account the occurences of the word in the document offset by the word's frequency in a broader corpus. This way common words are rated lower although they occur frequently in the given document. As such there is no need for the arbitrary aspect of choosing a value of $x$ and the negative side effect of accidentally excluding a keyword. On the other hand there would be the need to choose a threshold *tf-idf* score which would have to be reached for inclusion into the keyword set.
 
-### Secondary metrics
-The following secondary or derived metrics are also evaluated:
+### Metrics overview
+The following metrics are evaluated, including secondary or derived metrics:
 
 - $W$: Number of words
 - $KW$: Number of keywords
-- $WER_{A|B}$: WER of baseline (A) / interpolated version (B)
-- $WDR_{A|B}$: WDR of baseline (A) / interpolated version (B)
-- $KWDR_{A|B}500$: KWDR-500 of baseline (A) / interpolated version (B)
+- $WER_{A|B}$: Word Error Rate of baseline (A) / interpolated version (B)
+- $WDR_{A|B}$: Word Detection Rate of baseline (A) / interpolated version (B)
+- $KWDR_{A|B}$: KWDR = KWDR-500 for brevity = Keyword Detection Rate with $x=500$ of baseline (A) / interpolated version (B)
 - $W_{worse|improved}$: Proportion of worsened/improved words
 - $KW_{worse|improved}$: Proportion of worsened/improved keywords
 - $W_{worse|improved}(K)$: Proportion of worsened/improved words that are keywords
 - $E$: $W_{improved}(K) - W_{worse}(K)$: A percentage score for "effectiveness" of version B
 
-Their use can be exemplarily demonstrated on the lecture `human-nature-8`: The lecture has 5342 words overall, of which 333 are keywords. When looking at the general WDR, run A and B both have a score of 57%. This can be "explained" by looking at $W_{worse|improved}$, which is 4% each, meaning that 4% (223/5342) of the words have been improved from run A to B, but 4% (221/5342) them have been worsened, which sums up to 0% difference in WDR.
+### Example calculation
 
-Secondly, the KWDR-500 of A is 47% (156/333 keywords) versus 62% for B (121/376 keywords). This improvement of 15% can analogously be explained by looking at $KW_{worse|improved}$: when looking at the 376 keywords, 2% (7/333) of them have been worsened while 17% (58/333) have been improved. $17-2 = 15\%$ explains the improvement from 47% to 62%.
+The use of all metrics can be exemplarily demonstrated on the lecture `human-nature-8`: The lecture has 5342 words overall, of which 333 are keywords. When looking at the general WDR, run A and B both have a score of 58%. This can be "split up" by looking at $W_{worse|improved}$, which is 4% each, meaning that 4% (223/5342) of the words have been improved from run A to B, but 4% (221/5342) of them have been worsened, which sums up to 0% difference in WDR.
 
-The last metric of $W_{worse|improved}(K)$ looks at the overall worsened/improved words and informs about the proportion of words that were keywords. As mentioned, $W_{worse}$ is 4% (221 of the overall 5342 words have been worsened). What is the proportion of keywords in this number? Analogously, what is the proportion of keywords when looking at the overall improved words? This metric is key in identifying the *effectiveness* (E) of our approach: the $W_{improved}(K)$ value answers the question how well our approach is targeted towards improving the words we are interested in, the $W_{worse}(K)$ value answers the question how big the "side effect" of worsening keywords is. In the example, $W_{worse}(K)$ is 3% (7/221) and $W_{improved}(K)$ is 26% (58/223). This is great: of the 221 overall worsened words only **7** were relevant given our goals. In essence, we can interpret $W_{improved}(K) - W_{worse}(K)$ as an **effectiveness score**, the same way we interpret the difference between $W/KW_{improved}$ and $W/KW_{worse}$ as "singular" metrics (WDR and KWDR respectively). We can say that our example had an effectiveness of $26-3=23\%$. An effectiveness of 100% would mean that *all* words that were improved had been keywords and *none* of the worsened words would have been keywords.
+Secondly, the KWDR of A is 47% (156/333 keywords) versus 62% for B (212/333 keywords). This improvement of 15% can analogously be explained by looking at $KW_{worse|improved}$: when looking at the 333 keywords, 2% (7/333) of them have been worsened, while 17% (58/333) have been improved. $17-2 = 15\%$ explains the improvement from 47% to 62%.
 
-## Analysis implementation
-The metrics are calculated automatically by `bin/wer.py` and `bin/compare-wer.py`. I will now outline some relevant implementation details.
+The last metric of $W_{worse|improved}(K)$ looks at the overall worsened/improved words and informs about the proportion of words that were keywords. As mentioned, $W_{worse}$ is 4% (221 of the overall 5342 words have been worsened). What is the proportion of keywords in this number? Analogously, what is the proportion of keywords when looking at the overall improved words? This metric is key in identifying the *effectiveness* (E) of our approach: the $W_{improved}(K)$ value answers the question of how well our approach is targeted towards improving the words we are interested in, the $W_{worse}(K)$ value answers the question of how big the "side effect" of worsening keywords is. In the example $W_{worse}(K)$ is 3% (7/221) and $W_{improved}(K)$ is 26% (58/223). This is great: of the 221 overall worsened words only **7** were relevant in light of our goals. In essence, we can interpret $W_{improved}(K) - W_{worse}(K)$ as an **effectiveness score**. We can say that our example has an effectiveness of $26-3=23\%$. An effectiveness of 100% would mean that *all* words that were improved had been keywords and *none* of the worsened words had been keywords.
 
-`bin/wer.py` performs a typical WER calculation algorithm. This is run on version A and B. The results are input to `bin/compare-wer.py`. The $top_{5000}$ words are taken from the *Corpus of Contemporary American English*^[<http://www.wordfrequency.info/free.asp>]. The lemmatization of words is done by the `lemmatize` function of `nltk.stem.wordnet.WordNetLemmatize`.
+## Implementation of measurements calculation
+Measurements are calculated automatically by `bin/wer.py` and `bin/compare-wer.py`. I will now outline some relevant implementation details.
 
-The KWDR of A and B is then calculated by iterating over both WER results, where inserted words have been filtered out as we are only interested in the proportion of correctly recognized keywords. Each iteration operates on a tuple of (reference word, hypothesis A, hypothesis B). For both hypotheses it checks if the lemma of the reference word is equal to the lemma of the hypothesis word and possibly puts the reference word in a corresponding "wrong words" bin (one bin for A and B each). If both hypotheses were correct the next iteration is performed; else the given hypothesis is put into an "improved" or "worsened" bin (if A was correct and B was false, A will be put into a "worsened" bin to remember what the correct version of the word was that B detected wrong; if it is the other way round, B will be put into the "improved" bin.) Finally, if an hypothesis was wrong *and* in its lemma is in the lemmatized, $top_x$-words excluded, material corpus^[This refers to the set of lemmas from the material corpus, minus the  lemmatized versions of the $top_x$ words; compiled at script startup.], the reference will be put into an "wrong and keyword" bin (also one for each run)^[The nomenclature in the code differs slightly in that keywords are called "interesting" words there.].
+`bin/wer.py` performs a typical WER calculation algorithm. This is run on version A (baseline) and B (interpolated). The results become the input for `bin/compare-wer.py`. The $top_{500}$ words are taken from the *Corpus of Contemporary American English*^[<http://www.wordfrequency.info/free.asp>]. The lemmatization of words is done by the `lemmatize` function of `nltk.stem.wordnet.WordNetLemmatize`.
 
-After the iterations are finished, the mentioned metrics are calculated by simple proportional calculation, taking into account the size of the resulting bins and overall measurements (like reference word count).
+The KWDR of A and B is then calculated by iterating over both WER results with insertions filtered out.
 
-As side effects, the bin contents as well as the calculated metrics are exported to HTML and JSON for further consumption for manual inspection or result aggregation.
+Each iteration operates on a tuple of (reference word, hypothesis A, hypothesis B).
+
+1. For both hypotheses it checks if the reference word is *lemma-equal* to the hypothesis word; if that is not the case, the reference word is put in a "wrong words" bin (one bin for A and B each).
+
+2. If both hypotheses are correct, the next iteration is performed.
+
+3. Else: if A is correct and B is wrong, the reference is put into the "worsened" bin; the other way, round it is put into the "improved" bin.
+
+4. Finally, if a hypothesis is wrong *and* it is a keyword^[It is a keyword if its lemma is in the lemmatized, $top_x$-words excluded material corpus.], the reference is put into the "wrong keyword" bin (also one for each run).
+
+After the iterations are finished, the mentioned metrics are calculated by simple calculation of the proportions, taking into account the size of the resulting bins and overall measurements (like reference word count).
+
+As side effects, the bin contents as well as the calculated metrics are exported to HTML and JSON for further manual inspection resp. result aggregation.
 
 ### Example
-The steps of this process can be made clearer by running through a small example.  The following toy data set serves as an input:
+The steps of this process can be made clearer by running through a small example.  The following toy data set serves as input:
 
 - Material corpus: [axons the people psychology is rewarding]^[Imagine this being taken from sparse slides with bullet points.]
-- Reference transcript: "Axons are firing to stimulate people's minds." (This gets preprocessed to "axons are firing to stimulate peoples minds" in a former step.)
+- Reference transcript: "Axons are firing to stimulate people's minds." (This gets preprocessed to "axons are firing to stimulate peoples minds" in a previous step.)
 - $Top_x$ words: [i are it is the people people's]
 - The WER results for A:
 
@@ -596,16 +593,16 @@ The steps of this process can be made clearer by running through a small example
         sub | minds     | may
         {'Sub': 4, 'Ins': 1, 'Del': 0, 'Cor': 3, 'WER': 0.714}
 
-The inputs are transformed to the following forms (removed words displayed as "**-removed**"; changed words **bold**):
+The inputs are transformed to the following forms (removed words displayed as "**-removed**"; changed words as **-old +new**):
 
-- Lemmatized material corpus: [**axon** the people psychology is rewarding]
+- Lemmatized material corpus: [**+axon** **-axons** the people psychology is rewarding]
 - Lemmatized $top_x$ words: [i are it is the people **-people's**]
 - Lemmatized material corpus minus lemmatized $top_x$ words ("keywords"): [axon **-the** **-people** psychology **-is** rewarding]
 
 For the demonstration the following pseudo code conventions and abbreviations are used:
 
   - (a, b, c) = (1, 2, 3) is a destructuring assignment, binding a to 1, b to 2, c to 3
-  - `ref` refers to the reference word, hypA|B to the hypothesis from version A/B
+  - `ref` refers to the reference word, `hypA|B` to the hypothesis from version A/B
   - l(word) refers to the lemmatized version of a given word
   - `->` is equivalent to "thus"
   - bin names:
@@ -674,19 +671,19 @@ The KWDR algorithm performs with the following intermediate steps:
 
 With these results we can calculate all metrics:
 
-- $WDR_A$ = $1 - \frac{|wrongA|}{W} = 1 - \frac{2}{7} = ~85\%$
-- $WDR_B$ = $1 - \frac{|wrongB|}{W} = 1 - \frac{2}{7} = ~85\%$
+- $WDR_A$ = $1 - \frac{|wrongA|}{W} = 1 - \frac{2}{7} = ~71\%$
+- $WDR_B$ = $1 - \frac{|wrongB|}{W} = 1 - \frac{2}{7} = ~71\%$
 - $W_{improved} = \frac{|improved|}{W} = \frac{1}{7} = ~14\%$
 - $W_{worsened} = \frac{|worsened|}{W} = \frac{1}{7} = ~14\%$
-- $KWDR_A$ = $1 - \frac{|wrongKW_A|}{KW} = 1 - \frac{1}{1} = 100\%$
-- $KWDR_B$ = $1 - \frac{|wrongKW_B|}{KW} = 1 - \frac{0}{1} = 0\%$
+- $KWDR_A$ = $1 - \frac{|wrongKW_A|}{KW} = 1 - \frac{1}{1} = 0\%$
+- $KWDR_B$ = $1 - \frac{|wrongKW_B|}{KW} = 1 - \frac{0}{1} = 100\%$
 - $KW_{improved} = \frac{|improvedKW|}{KW} = \frac{1}{1} = 100\%$
 - $KW_{worsened} = \frac{|worsenedKW|}{KW} = \frac{0}{1} = 0\%$
 - $W_{improved}(K) = \frac{|improvedKW|}{|improved|} = \frac{1}{1} = 100\%$
 - $W_{worsened}(K) = \frac{|worsenedKW|}{|worsened|} = \frac{0}{1} = 0\%$
 - $E = KW_{improved}(K) - KW_{worsened}(K) = 100\%$
 
-These metrics are more accessible by looking at the HTML output from `compare-wer.py` as shown in figure \ref{viz-html-words}.
+These metrics are more accessible when we look at the HTML output from `compare-wer.py` as shown in figure \ref{viz-html-words}.
 
 \begin{figure}[H]
 \label{viz-html-words}
@@ -695,50 +692,48 @@ These metrics are more accessible by looking at the HTML output from `compare-we
 \caption{Visualization. Blue background: keyword. Green border: improved word. Red border: worsened word. Black border: lemmatization has changed a word.}
 \end{figure}
 
-<!-- TODO:
-The KWDR of A and B is then calculated by iterating over both WER results, where inserted words have been filtered out as we are only interested in the proportion of correctly recognized keywords. Each iteration operates on a tuple of (reference word, hypothesis A, hypothesis B).
+## LM interpolation weighting
+It has been mentioned above that the weighting between the generic and material LM can be specified. I experimented with different weights and compared the outcome concerning $\Delta KWDR$ and $\Delta WER$^[$\Delta$ refers to the improvement from version A to B.]. My assumption was that a higher weight for the material LM would result in a higher $\Delta KWDR$, as keywords would have a higher probability of "winning" a decision during the search process as their computed probabilities would outweigh those of "regular" words. But in turn the general $WER$ would be higher as the probability of false-positive results on regular words would increase.
 
-For both hypotheses it checks if the lemma of the reference word is equal to the lemma of the hypothesis word and possibly puts the hypothesis word in a "wrong words" bin (one bin for each A and B).
+This assumption was confirmed by performing different interpolated runs on lecture `human-nature-8` with a varying weighting for the material corpus LM as shown in table \ref{weighting-test}.
 
-If both hypotheses were correct the next iteration is performed;
-else the given hypothesis is put into an "improved" or "worsened" bin
-(if A was correct and B was false, A will be put into a "worsened" bin to remember what the correct version of the word was that B detected wrong;
+```{.table type="pipe" aligns="MMMMMM" caption="Different interpolation runs on lecture `human-nature-8` \label{weighting-test}"}
+Weight of material LM in %, 25, 50, 75, 95
+$\Delta KWDR$, 13, 15, 18, 18
+$\Delta WER$, 1.2, 0.4, -0.6, -5.0
+```
 
-if it is the other way round, B will be put into the "improved" bin.)
-
-Finally, if an hypothesis was wrong *and* in its lemma is in the lemmatized, $top_x$-words excluded, material corpus^[This refers to the set of lemmas from the material corpus, minus the  lemmatized versions of the $top_x$ words; compiled at script startup.], the hypothesis will be put into an "wrong and keyword" bin^[The nomenclature in the code differs slightly in that keywords are called "interesting" words there.].
- --!>
-
-
+It can be seen that the WER decreases when the weight of the material LM exceeds 50%. While the amount of test data would have to be extended to draw definitive conclusions, these results seem reasonable on first sight. For all following test runs I chose a 50/50 weighting as a compromise between both values, although it could be argued that a value nearer to 75% would make more sense in order to maximize $\Delta KWDR$. For an *application* of our approach the optimal weighting should be empirically determined with more extensive testing; this was beyond the scope of this thesis, however.
 
 ## Results
-The results for the test lectures described above (chapter \ref{data}) are as follows[^table-lectures] ($\Delta$ refers to the improvement from version A to B):
+
+The results for the test lectures described above (chapter \ref{data}) are as follows[^table-lectures] ($\Delta$ referring to the improvement from version A to B, as mentioned above):
 
 \small{}
 ```{.table type="pipe" aligns="MMMMMM" caption="Results"}
 Lecture, 1, 2, 3, 4, 5, 6
 W, 5342, 7233, 7618, 7142, 7046, 6024
-KW, 376, 715, 974, 607, 518, 314
+KW, 333, 715, 974, 607, 518, 314
  , , , , ,
 $WER_A$, 52%, 46%, 39%, 42%, 32%, 46%
 $WER_B$, 52%, 44%, 38%, 42%, 32%, 47%
 $\Delta WER$, **0%**, **2%**, **1%**, **0%**, **0%**, **-1%**
  , , , , ,
-$WDR_A$, 57%, 70%, 66%, 63%, 78%, 60%
-$WDR_B$, 57%, 70%, 66%, 63%, 78%, 60%
+$WDR_A$, 58%, 70%, 66%, 63%, 78%, 60%
+$WDR_B$, 58%, 70%, 66%, 63%, 78%, 60%
 $W_{improved}$, 4%, 4%, 5%, 5%, 3%, 4%
 $W_{worse}$, 4%, 4%, 5%, 5%, 3%, 5%
 $\Delta WDR$, **0%**, **0%**, **0%**, **0%**, **0%**, **0%**
  , , , , ,
-$KWDR_A$^[KWDR means KWDR-500 for brevity if not noted otherwise.], 52%, 66%, 67%, 60%, 68%, 60%
-$KWDR_B$, 68%, 82%, 83%, 81%, 83%, 78%
-$KW_{improved}$, 18%, 16%, 17%, 22%, 16%, 20%
+$KWDR_A$^[KWDR means KWDR-500 for brevity if not noted otherwise.], 47%, 66%, 67%, 60%, 68%, 60%
+$KWDR_B$, 62%, 82%, 83%, 81%, 83%, 78%
+$KW_{improved}$, 17%, 16%, 17%, 22%, 16%, 20%
 $KW_{worse}$, 2%, 1%, 1%, 0%, 1%, 1%
-$\Delta KWDR$, **16%**, **15%**, **16%**, **22%**, **15%**, **18%**
+$\Delta KWDR$, **15%**, **15%**, **16%**, **22%**, **15%**, **18%**
  , , , , ,
-$W_{improved}(K)$, 30%, 39%, 41%, 40%, 44%, 26%
+$W_{improved}(K)$, 26%, 39%, 41%, 40%, 44%, 26%
 $W_{worse}(K)$, 3%, 2%, 2%, 0%, 2%, 1%
-E, **27%**, **37%**, **39%**, **40%**, **42%**, **25%**
+E, **23%**, **37%**, **39%**, **40%**, **42%**, **25%**
 ```
 
 \normalsize{}
@@ -747,7 +742,7 @@ E, **27%**, **37%**, **39%**, **40%**, **42%**, **25%**
 
 
 The means are:
-```{.table type="pipe" aligns="MMMMMM" caption="Result means"}
+```{.table type="pipe" aligns="MMMMMM" caption="Means"}
 Metric, Mean in %
 $WER_A$, 42.3%
 $WER_B$, 42.5%
@@ -757,9 +752,9 @@ $WDR_A$, 65.6%
 $WDR_B$, 65.6%
 $\Delta WDR$, **0.0**%
  ,
-$KWDR_A$, 62.2%
-$KWDR_B$, 79.2%
-$\Delta KWDR$, **17.0%**
+$KWDR_A$, 61.3%
+$KWDR_B$, 78.2%
+$\Delta KWDR$, **16.8%**
  ,
 $E$, 35.0%
 ```
@@ -767,27 +762,27 @@ $E$, 35.0%
 
 ## Interpretation
 
-Several things are notable. The WDR as well as $W_{improved}$ and $W_{worse}$ nearly don't change at all, the differences are only zero-digit absolute amounts. It is interesting that the results are so unambiguous in this respect; it is also unexpected that $W_{improved}$ and $W_{worse}$ always cancel each other out completely.
+Several things are notable. The WDR as well as $W_{improved}$ and $W_{worse}$ nearly do not change at all, the differences being only zero-digit absolute amounts. It is interesting to note that the results are unambiguous in this respect; it is also unexpected that $W_{improved}$ and $W_{worse}$ always cancel each other out completely.
 
-Assessing the $\Delta KWDR$ presents the challenge that no comparison is available that uses the exact same metric. However it is possible to "fuzzily" compare the performance by looking at metrics with the same basic idea.
+Assessing the $\Delta KWDR$ presents the challenge that no comparison is available that uses exactly the same metric. However it is possible to "fuzzily" compare the performance by looking at metrics based on similar concepts.
 
-The metric "RWCR-n" used by @marquard mentioned above is comparable, as it also uses the concept of filtering out the $top_n$ most frequent words; it differs by not taking the lemmatized word version as their atomic unit. With that said, the average improvement in RWCR-10k over 13 lectures also taken from Open Yale Courses is 9.0%, while their average WER decreases by 0.8%.
+The above mentioned metric RWCR-n used by @marquard is comparable, as it also uses the concept of filtering out the $top_n$ most frequent words; it differs insofar as it does not take the lemmatized word version as its atomic unit. That being said, the average improvement in RWCR-10k over 13 lectures also taken from Open Yale Courses is 9.0%, while their average WER increases by 0.8%.
 
-@kawahara08 use a metric called "Keyword Detection Rate", where keywords are defined as content words (nouns and verbs excluding numbers and pronouns) that appear in the slide text. They then compute the f-measure (the "mean of the recall rate of keywords included in utterances and the precision of keywords detected in ASR results."). They report improvements of 7.5% and 3.0% (for two test sets) in detection rate over the baseline accuracy, while the increase in WER is 2.2% and 1.3% over the baseline respectively^[The mentioned results refer to the combined method of global and local adaptation.].
+@kawahara08 use a metric called "Keyword Detection Rate", where keywords are defined as content words (nouns and verbs excluding numbers and pronouns) that appear in the slide text. They then compute the f-measure (the "mean of the recall rate of keywords included in utterances and the precision of keywords detected in ASR results."). They report improvements of 7.5% and 3.0% (for two test sets) in detection rate over the baseline accuracy, while the improvement in WER is 2.2% and 1.3% over the baseline respectively^[The mentioned results refer to the combined method of global and local adaptation.].
 
 @miranda do not use a custom metric and report a WER improvement of 3.6%, when interpolating the LM with slide text contents; they achieve an improvement of 5.9% WER when using their proposed method of integrating the speech input with synchronized slide content.
 
-While comparing WER performance has the discussed disadvantage of low relevance to the given evaluation goals and the non-standardized spectrum of custom metrics disallows an objective comparison of the different approaches, it yet gives an impression how our approach's performance relates to other work: the $\Delta KWDR$ of 17.0% <!-- TODO:  --!> seems like a good indicator that our approach is a viable solution for the goal of improving speech recognition for searchability and scannability. Additionally, the *effectiveness score* demonstrates that the approach nearly does not worsen keywords at all and 35% of the improved words are actually keywords.
+While comparing WER performance has the already discussed disadvantage of low relevance to the defined evaluation goals and the non-standardized spectrum of custom metrics makes an objective comparison of the different approaches impossible, it yet gives an impression of how our approach's performance relates to other work: the $\Delta KWDR$ of 16.8% seems like a good indicator that our approach is a viable solution for the goal of improving speech recognition for searchability and scannability. Additionally, the *effectiveness score* demonstrates that the approach nearly does not worsen keywords at all and 36% of the improved words are actually keywords (the mean of $W_{improved}(K)$).
 
-In general, the uniform distribution of results over the various topic domains with their very different types of provided materials is also suprising. The results seem to suggest that the form and supposed "quality" of material (e.g. excercise sheet versus lecture slides) does not correlate with the improvement in KWDR. The initial assumption that lectures from the natural and formal sciences would be harder to recognize, based on the "naive" presumption that words like "adenosine 5’-triphosphate" would be impossible to recognize, seems to be invalid as well -- apparently the combination of preprocessing, G2P and adapted weighting in the LM makes it possible to detect complicated technical terms like this as well.
+In general, the low variance of results over the various subject areas with their very different types of provided materials is also suprising. The results seem to suggest that the form and supposed "quality" of material (e.g. excercise sheet versus lecture slides) does not correlate with the improvement in KWDR. The initial assumption that it would be harder to recognize lectures from the natural and formal sciences, based on the "naive" presumption that it would be impossible to recognize words like "adenosine 5’-triphosphate", seems to be invalid as well -- apparently the combination of preprocessing, G2P and adapted weighting in the LM makes it possible to detect complicated technical terms like this as well.
 
-### Qualitative interpretation
-While representing the performance of our approach with a set of metrics allows (at least internal) comparability of results, it can not convey a holistic impression of what would actually change for a user of a hypothetic speech media search/scan interface when using data generated with our approach versus the baseline approach.
+### Qualitative assessment
+While representing the performance of our approach with a set of metrics allows (at least internal) comparability of results, it cannot convey a holistic impression of what would actually change for a user of a hypothetic speech media search/scan interface when data is used that is generated with our approach versus the baseline approach.
 
 This impression can be given by looking at the following detailed results of the run on the `biomed-eng-1` lecture.
 
 \small{}
-**Normal words improved**
+**Normal words improved** (*(word, count)*)
 
 > (of, 8) (that, 7) (the, 6) (or, 6) (and, 5) (a, 5) (in, 4) (to, 4) (is, 4) (it, 3) (course, 3) (into, 2) (an, 2) (your, 2) (from, 2) (than, 2) (one, 2) (those, 2) (this, 2) (talk, 2) (bridge, 1) (set, 1) (don't, 1) (some, 1) (are, 1) (annoying, 1) (really, 1) (again, 1) (there's, 1) (would, 1) (it's, 1) (there, 1) (how, 1) (version, 1) (we're, 1) (which, 1) (you, 1) (more, 1) (week, 1) (be, 1) (students, 1) (free, 1) (i've, 1) (with, 1) (by, 1) (distance, 1) (about, 1) (like, 1) (well, 1) (infectious, 1) (yale, 1) (very, 1) (where, 1) (engineers, 1)
 
@@ -805,7 +800,7 @@ This impression can be given by looking at the following detailed results of the
 
 \normalsize{}
 
-You notice two things: a) the "exchange" of filler words from version A to B and vice versa, which is of no interest for searching and scanning, and b) interesting keywords that have substantial amounts of occurrences that were not found before, while the amount of worsened KW is tiny. This is the important "qualitative", high-level conclusion: the approach allows users to find technical terms in speech media which they weren't able to find before and it works consistently over a broad spectrum of topics.
+Two things are notable: a) the "exchange" of filler words between version A to B, which is of no interest for searching and scanning; and b) interesting keywords that have a substantial number of occurrences that were not found before, while the amount of worsened keywords is tiny. This is the important "qualitative", high-level conclusion: the approach allows users to find technical terms in speech media which they were not able to find before and it works consistently over a broad spectrum of topics.
 
 
 
@@ -815,27 +810,46 @@ You notice two things: a) the "exchange" of filler words from version A to B and
 
 # Visualization for scannability { #viz }
 
-We have shown that the LM-Interpolation approach is a viable tool for improving recognition accuracy of keywords on university lectures. The output data of our system are words with meta information: their associated timing and if they are keywords. How can this information be further used for helping a user with the task of scanning and searching through a given lecture? While it is technically possible to use the whole transcript and present the user an interface were the transcript is time-aligned with the lecture, that presentation is problematic as the *WER* of the transcript has not been improved and reading comprehension for texts with WERs above 30% is too low.
+We have shown that the LM-Interpolation approach is a viable tool for improving accuracy of keyword detection when performing ASR on university lectures. The output data of our system are words with meta information: their associated timing and the fact that they are a keyword or not. How can this information be further used in order to help a user with the task of scanning and searching through a given lecture? While it is technically possible to use the whole transcript and present the user an interface were the transcript is time-aligned with the lecture, that presentation is problematic as the *WER* of the transcript has not been improved and reading comprehension for texts with WERs above 30% is too low.
 
-A better approach would be focusing the interface exclusively on the keywords in such a way that the provided timing meta information is transformed into a dense visual representation, thus making scanning possible. The user should be able to see the distribution of topics during the timeline of the lecture with *once glance*.
+A better approach would be to focus the interface exclusively on the keywords in such a way that the provided timing meta information is transformed into a dense visual representation, thus making scanning possible. The user should be able to see the distribution of topics during the timeline of the lecture at a glance.
 
-To this end I have developed a prototype implementation of such an interface^[The source code is available at <https://github.com/jonathanewerner/bachelor/tree/master/viz>. The prototype is implemented with web technology (Javascript, interactive SVGs, React.js, CSS) with the goal of easing possible integration into existing web video portals.]. It features two views: the first one is a list of word timelines (Figure \ref{timelines}). A word timeline shows the distribution of occurences of a given word over the time of the lecture. An occurence is displayed as a dot; clicking the dot posititions the corresponding lecture audio at the time the word occurence is spoken. The timelines are vertically sorted by count of word occurences. For analytical purposes the interface also shows the count of recognized occurences in relation to the actual count of occurences in the reference transcript, seen next to the word. It also overlays a graph which shows the *word density* at a given time point. The density function is calculated by performing a Gaussian Kernel Density Estimation (KDE) algorithm on the array of time positions for a given word. The red dots are local maxima of the function^[The local maxima are computed with the `scipy.signal.argrelextrema` function from the python `scipy` package and had some mildly surprising results, which were of no relevance for the interface prototyping task however.], so that a word can have multiple maxima. The information about maxima is being used primarily in the second view.
+To this end I have developed a prototype implementation of such an interface^[The source code is available at <https://github.com/jonathanewerner/bachelor/tree/master/viz>. The prototype is implemented with web technology (Javascript, interactive SVGs, React.js, CSS) with the goal of easing possible integration into existing web video portals.]. It features two views: the first one is a list of word timelines (Figure \ref{timelines}). A word timeline shows the distribution of occurences of a given word over the time of the lecture. An occurence is displayed as a dot; clicking the dot positions the corresponding lecture audio at the time the word is spoken. The timelines are vertically sorted by count of word occurences. For analytical purposes the interface also shows the count of recognized occurences in relation to the actual count of occurences in the reference transcript, seen next to the word. It also overlays a graph which shows the *word density* at a given point of time. The density function is calculated by performing a Gaussian Kernel Density Estimation (KDE) algorithm on the array of time positions for a given word. The red dots are local maxima of the function^[The local maxima are computed with the `scipy.signal.argrelextrema` function from the python `scipy` package and had some mildly surprising results, which were of no relevance for the interface prototyping task however.], so that a word can have multiple maxima. The information about maxima is being used primarily in the second view.
 
 ![Word timelines \label{timelines}](images/timelines.png)
 
-The second view (Figure \ref{cloud}) is a *word cloud* with "semantic axes", compared to regular word cloud visualizations where the axes don't have meaning. The x-axis still is the time-axis of the lecture and the y-axis still is the keyword frequency. The central feature of this cloud is that it can show *multiple instances* of one keyword -- one instance for each local maximum. The word instance is on the same point on the x-axis as the corresponding local maximum. The timeline for a word can be shown by clicking on it. The example shows "brain" in the activated state; the timeline shows up below the map. One can see the two instances of "brain" being horizontally aligned with the two local maxima below^[It is obvious here that the first local maximum for the word should rather be at about 30-40% of the word's timeline, but that could be optimized.]. Clicking on the word also transports the audio to the position of the word next to the given local maximum. The font size of the word is computed by counting the word occurrences for which this maximum is the nearest. Additionally multiple instances of one keyword have the same color to further aid scanning by allowing the brain to pre-attentively process the representation.
+The second view (Figure \ref{cloud}) is a *word cloud* with "semantic axes", compared to regular word cloud visualizations where the axes do not have meaning. The x-axis still is the time-axis of the lecture and the y-axis still is the keyword frequency. The central feature of this cloud is that it can show *multiple instances* of one keyword -- one instance for each local maximum. The word instance is on the same point on the x-axis as the corresponding local maximum. The timeline for a word can be shown by clicking on it. The example shows "brain" in the activated state; the timeline shows up below the cloud. One can see the two instances of "brain" being horizontally aligned with the two local maxima below^[It is obvious here that the first local maximum for the word should rather be at about 30-40% of the word's timeline, but that could be optimized.]. Clicking on the word also transports the audio to the position of the word next to the given local maximum. The font size of this word $W$ is computed by counting the word occurrences for which holds that the nearest local maximum is the maximum associated with word $W$. Additionally multiple instances of one keyword have the same color to further aid scanning by allowing the brain to pre-attentively process the representation.
 
 ![Word cloud \label{cloud}](images/cloud.png)
 
-This view allows an user to immediately scan the distribution of topics during the whole lecture. If particularly interested in the parts about the brain, he/she might click on "brain", be immediately transported to the relevant audio position and additionally have a more in-depth view in the bottom timeline below the cloud, allowing him/here to intuitively grasp how long the relevant part might be, maybe skipping around by clicking on other instances of the word in the timeline.
+This view allows a user to immediately scan the distribution of topics during the whole lecture. If particularly interested in the parts about the brain, he/she might click on "brain", be immediately transported to the relevant audio position and additionally have a more in-depth view in the bottom timeline below the cloud, allowing him/here to intuitively grasp how long the relevant part might be, maybe flicking around by clicking on other instances of the word in the timeline.
 
-You could imagine integrating this interface as a semi-transparent overlay view on a video player, for example on platforms like lecture2go^[[lecture2go.uni-hamburg.de](lecture2go.uni-hamburg.de)], the lecture video streaming platform used by the University of Hamburg. When using a system that integrates many lectures in one database like this, it would also be possible to not only link to keyword instances in the same lecture but also on a broader scope, e.g the whole course or even other relevant courses & lectures. Another interesting extension point would be to integrate human intelligence by allowing to review/score the quality of keyword instances. This would allow filtering out false-positives and emphasize the keyword instances that students find helpful.
+You could imagine integrating this interface as a semi-transparent overlay view on a video player, for example on platforms like lecture2go^[[lecture2go.uni-hamburg.de](lecture2go.uni-hamburg.de)], the lecture video streaming platform used by the University of Hamburg. When using a system that integrates many lectures in one database like this, it would also be possible to not only link to keyword instances in the same lecture but also on a broader scope, e.g the whole course or even other relevant courses and lectures. Another interesting extension point would be to integrate human intelligence by allowing to review/score the quality of keyword instances. This would allow filtering out false-positives and emphasize the keyword instances that students find helpful.
 
 # Conclusion
 
-This thesis asked the question: given that we are interested in improving speech recognition accuracy of keywords in university lectures, what is the advantage of creating a lecture-specific LM and interpolating it with a generic model and how can we measure this advantage?
+The primary question of the present thesis was: given that we are interested in improving speech recognition accuracy of keywords in university lectures, what is the advantage of creating a lecture-specific LM and interpolating it with a generic model and how can we measure this advantage? A secondary question was: how can we use the results of this approach to provide graphical interfaces for improving the user's ability to search and scan a given speech medium?
 
+The strategy for answering the primary question consisted in first explaining the basic concepts of speech recognition and its scientific history in order to locate our approach in relation to other research and paradigms. We stated that our approach follows the statistical pattern-recognition paradigm. This paradigm sees ASR as the process of measuring features in the acoustic signal and then performing a search process using these features to find hypotheses using different sources such as acoustic and language models. Its use of fixed input features distinguishes it from *integrative approaches* which dynamically learn the input features.
 
+We furthermore established that lecture transcription can be classified as *speaker-independent large-vocabulary continuous speech recognition* (SI-LVCSR).
+
+After explaining the fundamental speech recognition concepts of phonemes, phonetic dictionaries, search as well as acoustic and language models, we presented an overview of the scientific work done on lecture transcription. Here we distinguished generalization and specialization approaches. While the former try to capture general characteristics of lectures -- for example by adapting acoustic models to account for "filler sounds" which are very common in lectures -- the latter try to use context specific to a single lecture (*meso* level) or even parts of a single lecture (*micro* level). Furthermore, methods using lecture material such as slides can be differentiated into two groups: those that only use the information existent in the material itself and those that use "derived" data such as Wikipedia articles crawled by using words from the material as search queries. Our approach can thus be categorized as a specialization approach operating on the *meso* level, only using immediately available data for the material corpus.
+
+In the next step we looked at the 6 lectures from Open Yale Courses that were used as test data, displaying the heterogenity in quantity and style of each lecture material. We noted that only 20% of the available lectures have lecture material at all, and only 20% of these have typical "slides", which posed the question if material types such as excercise sheets or reading assignments have a detrimental effect on the recognition performance. This however proved not to be the case, as the later analysis showed.
+
+Our next step was to consider the implementation of the LM-Interpolation approach. We introduced the general architecture of the *Sphinx 4 Framework* used as the basis for performing speech recognition and explained the *InterpolatedLanguageModel* component. This component makes it possible to specify multiple LMs with associated weights in order to faciliate the interpolation of probabilities for a given n-gram. We then described the tool pipeline used to perform recognition and analysis with a baseline and an interpolated run. An important part in converting the material PDF to a corpus was to ensure that the conversion result exhibited no superfluous newlines as these would be represented as sentence boundaries in the resulting material LM, which would have been an unintended side effect. The intermediate steps and testcase results are saved in a subfolder of the `results` folder of the repository, allowing subsequent inspection of all steps.
+
+This was followed by analyzing the results. The *Keyword Detection Rate* (KWDR-x) metric was developed to capture the improvement of the interpolated approach with respect to the formulated research goal of improving *keyword* recognition. Central modifications to the canonical *WER* consisted in ignoring word insertions, taking *lemmas* as the atomic unit and using the material corpus as an inclusive and the $top_X$ most common words as an exclusive filter. The results showed an average improvement in KWDR of 16.8%, while WER did not change significantly. This result was compared with the results of other works. While there is no common metric but the WER to objectively compare results and WER has the disadvantage of low relevance to the evaluation goals as discussed above, the overall impression was that the measured improvement was quite high and at least serves to validate the usefulness of the explored approach.
+
+Finally we explored the secondary research question of how to make use of the results for providing graphical interfaces that improve the user experience when searching and scanning a given speech medium. We noted that providing a full text display does not make sense for transcription results with a WER above 30% as the reading comprehension is too low at such a rate. An alternative was explored by presenting an interface prototype that displays a combination of word timelines and a word cloud with "semantic axes", allowing the user to immediately grasp the overall distribution of keywords during the timeline of a lecture.
+
+## Improvements and extensions
+There are several possible improvements and extensions that were beyond the scope of the present thesis. The primary one would be to extend the system to work with different languages. For this thesis, English was chosen as the only language, primarily because no database with equivalent test cases like the ones provided by Open Yale Courses was available for other languages. The combination of quality reference transcriptions and provided lecture materials is unique, unfortunately. Also, the manual transcription of a lecture is very time consuming. Integrating multilinguality into the pipeline would also be no small task, as preprocessing and lemmatization is language-specific and suitable equivalent multilanguage tools would have to be found.
+
+As already mentioned above, the approach of filtering out $top_X$ words could possibly be solved more elegantly by using *tf/idf* to compute "keyword-ness" of words; this would help eliminate the cases where keywords that are part of the $top_X$ words are filtered out.
+
+More extensive empirical evaluation should be performed on the interpolation weights in order to achieve reliable results concerning the relationship of weights to  $\Delta KWDR$ and $\Delta WER$. While this has not been the primary focus of our evaluation, it is of importance for applications, as they could choose a weighting according to their focus on sentence integrity: an application not displaying full text would likely choose a high value for the material corpus' weight; accordingly an application actually showing full text would likely choose a weighting which does at least not diminish general recognition performance.
 
 
 
