@@ -29,8 +29,8 @@ def main():
     files = ['src/{}.md'.format(basename) for basename in toc]
     print('files: {}'.format(files))
 
-    # 
-    call_('pandoc -t latex -o {outfile} --include-in-header header.tex --toc --number-sections --filter pandoc-csv2table --filter pandoc-citeproc {files}'.format(
+    #
+    call_('pandoc -t latex -o {outfile} --include-after-body eidversicherung.tex --include-before-body title.tex --include-in-header header.tex --toc --number-sections --filter pandoc-csv2table --filter pandoc-citeproc {files}'.format(
         outfile=OUT_FILE, files=' '.join(map(wrapInQuotes, files))
     ))
 
