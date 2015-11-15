@@ -816,7 +816,6 @@ E, **23**, **37**, **39**, **40**, **42**, **25**, **35.0**
 
 \newpage
 
-
 ## Interpretation
 
 Several things are notable. The WDR as well as $W_{improved}$ and $W_{worse}$ hardly change at all, the differences being only zero-digit absolute amounts. It is interesting to note that the results are unambiguous in this respect; it is also unexpected that $W_{improved}$ and $W_{worse}$ always cancel each other out completely.
@@ -918,6 +917,8 @@ An open question here would be how to integrate these inflected forms into the m
 
 Concerning the fact that the definition of KWDR excludes the penalization of *insertions* it can be argued that while insertions are generally not relevant for the keyword detection rate, there actually *are* cases were they are relevant: namely the case when a *keyword is inserted*, as this leads to false-positive results. Thus it would be beneficial to first analyze if and how often this happens and secondly to adapt the metric to account for these cases.
 
+Finally, it would be interesting to do user studies on the visualization prototype: would users actually use an interface like the proposed one for searching and scanning speech media? Would an integration of "human factors" like scoring for keyword instances be used and how could a suitable user-friedly interface look like?
+The association of lecture-specific keyword content to a broader context like the whole course content or even other courses leads to the the question of how this idea could impact the whole field of education if deployed and used widely -- you could imagine a whole new paradigm of lecturing that shifts from the linear-narrative form to a networked, interconnected form, where a student watching lecture videos can effortlessly jump to previous points in time *during the whole course* where a necessary concept had been initially introduced, or jumps to relevant other courses, deepening his understanding "in free form" akin to what we are now used to when browsing the internet. 
 
 
 
