@@ -9,7 +9,7 @@ SHOW_CORRECT_LINES = True
 # Show all words in a table
 DETAILED = True
 
-PRINT_HTML = True
+PRINT_HTML = False
 
 def log(*text):
     if not PRINT_HTML:
@@ -137,7 +137,7 @@ def compare(wer_result1, wer_result2, name1, name2, template, css, corpus_withou
             hyp1 = lemmatize(hyp1_original)
             hyp2 = lemmatize(hyp2_original)
 
-            reference_words.append(ref)
+            reference_words.append(ref_original)
 
             tr_class = ''
 
@@ -193,10 +193,14 @@ def compare(wer_result1, wer_result2, name1, name2, template, css, corpus_withou
 
     lemmatized_reference_words = map(lemmatize, reference_words)
     keywords = [w for w in lemmatized_reference_words if w in corpus]
+    log('len(set(keywords)): ', len(set(keywords)));
+    log('len(keywords): ', len(keywords));
 
-    log('keywords: ', keywords);
-    log('corpus: ', corpus);
-    log('lemmatized_reference_words: ', lemmatized_reference_words);
+    log('len(reference_words): ', len(reference_words));
+    log('len(set(reference_words)): ', len(set(reference_words)));
+    # log('keywords: ', keywords);
+    # log('corpus: ', corpus);
+    # log('lemmatized_reference_words: ', lemmatized_reference_words);
     print_key_value('keywords', keywords)
 
     worsened_words_normal = [w for w in worsened_words if not in_(w, corpus)]
@@ -216,7 +220,7 @@ def compare(wer_result1, wer_result2, name1, name2, template, css, corpus_withou
     KW = len(keywords)
 
     KWDR_A = percent(wrong_keywords_A, keywords, inverse=True)
-    log('KWDR_A', KWDR_A)
+    # log('KWDR_A', KWDR_A)
     KWDR_B = percent(wrong_keywords_B, keywords, inverse=True)
     KW_worse = percent(worsened_keywords, keywords)
     KW_improved = percent(improved_keywords, keywords)
@@ -282,7 +286,12 @@ def main_():
     name1 = args[2] # for table headers
     name2 = args[3] # ...
     # corpus = open(args[4]).read().split()[:-1]
-    corpus = map(lemmatize, open(args[4]).read().split())
+    original_corpus = open(args[4]).read().split()
+
+    log('len(original_corpus): ', len(original_corpus));
+    log('len(set(original_corpus)): ', len(set(original_corpus)));
+    # log('original_corpus: ', original_corpus);
+    corpus = map(lemmatize, original_corpus);
     corpus_without_top_words = \
         [w for w in corpus if not lemmatize(w) in topXwords]
 
