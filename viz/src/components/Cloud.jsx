@@ -106,7 +106,7 @@ export default class Cloud extends Component {
           {flatten(wordElemBlockChunks)}
         </g>
       </Svg>
-      {<WordTimeline noSpan word={selectedWord} />}
+      {<WordTimeline length={length} noSpan word={selectedWord} />}
     </Section>
   }
 
