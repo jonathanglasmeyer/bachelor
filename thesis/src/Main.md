@@ -811,7 +811,7 @@ E, **23**, **37**, **39**, **40**, **42**, **25**, **35.0**
 \label{diagrams-overview}
 \centering
 \includegraphics{images/diagrams.jpg}
-\caption{Diagrams showing the changes in WER, DWR and KWDR for run A and B}
+\caption{Diagrams showing the changes in WER, WDR and KWDR for run A and B}
 \end{figure}
 
 \newpage
