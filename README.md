@@ -1,4 +1,4 @@
-# bachelor thesis (WIP)
+# bachelor thesis
 This is the repository for my bachelor thesis on the topic "Better accuracy of automatic lecture transcriptions by using context information from slide contents".
 
 You may read it [here as a PDF](thesis/out/bachelor.pdf).
